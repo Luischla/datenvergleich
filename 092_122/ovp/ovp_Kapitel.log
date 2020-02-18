@@ -1,0 +1,117 @@
+diff --git a/ovp/data/Kapitel/__contents__.xml b/home/gordon/backup182/db/projects/ovp/data/Kapitel/__contents__.xml
+index 65aa89c..ffc9f69 100644
+--- a/ovp/data/Kapitel/__contents__.xml
++++ b/home/gordon/backup182/db/projects/ovp/data/Kapitel/__contents__.xml
+@@ -1,84 +1,84 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/ovp/data/Kapitel" version="1" owner="narndt" group="ovp-nutzer" mode="770" created="2018-07-24T08:29:11.079+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="23_Der_dreiundzwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27+02:00" modified="2020-01-24T12:45:44+01:00" filename="23_Der_dreiundzwanzigste_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="23_Der_dreiundzwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.983+02:00" modified="2020-01-24T12:45:44.192+01:00" filename="23_Der_dreiundzwanzigste_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="24_Der_vierundzwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:28+02:00" modified="2020-01-24T12:46:26+01:00" filename="24_Der_vierundzwanzigste_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="24_Der_vierundzwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:28.147+02:00" modified="2020-01-24T12:46:26.906+01:00" filename="24_Der_vierundzwanzigste_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="20_Der_zwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27+02:00" modified="2020-01-24T12:44:03+01:00" filename="20_Der_zwanzigste_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="20_Der_zwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.583+02:00" modified="2020-01-24T12:44:03.643+01:00" filename="20_Der_zwanzigste_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="06_Der_sechste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26+02:00" modified="2020-01-24T12:05:51+01:00" filename="06_Der_sechste_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="06_Der_sechste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.247+02:00" modified="2020-01-24T12:05:51.25+01:00" filename="06_Der_sechste_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="07_Der_siebte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26+02:00" modified="2020-01-24T12:08:40+01:00" filename="07_Der_siebte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="07_Der_siebte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.277+02:00" modified="2020-01-24T12:08:40.574+01:00" filename="07_Der_siebte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="08_Der_achte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26+02:00" modified="2020-01-24T12:32:10+01:00" filename="08_Der_achte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="08_Der_achte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.352+02:00" modified="2020-01-24T12:32:10.783+01:00" filename="08_Der_achte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="09_Der_neunte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26+02:00" modified="2020-01-24T12:32:07+01:00" filename="09_Der_neunte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="09_Der_neunte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.399+02:00" modified="2020-01-24T12:32:07.213+01:00" filename="09_Der_neunte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="10_Der_zehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26+02:00" modified="2020-01-21T15:26:07+01:00" filename="10_Der_zehnte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="10_Der_zehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.46+02:00" modified="2020-01-21T15:26:07.425+01:00" filename="10_Der_zehnte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="05_Der_fuenfte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26+02:00" modified="2019-11-04T10:41:52+01:00" filename="05_Der_fuenfte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="05_Der_fuenfte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.211+02:00" modified="2019-11-04T10:41:52.733+01:00" filename="05_Der_fuenfte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="02_Der_zweite_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26+02:00" modified="2020-01-24T11:45:48+01:00" filename="02_Der_zweite_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="02_Der_zweite_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.106+02:00" modified="2020-01-24T11:45:48.115+01:00" filename="02_Der_zweite_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="03_Der_dritte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26+02:00" modified="2019-12-09T13:05:11+01:00" filename="03_Der_dritte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="03_Der_dritte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.134+02:00" modified="2019-12-09T13:05:11.658+01:00" filename="03_Der_dritte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="01_Der_erste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26+02:00" modified="2020-01-24T12:05:51+01:00" filename="01_Der_erste_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="01_Der_erste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.052+02:00" modified="2020-01-24T12:05:51.074+01:00" filename="01_Der_erste_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="18_Der_achtzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27+02:00" modified="2020-01-24T10:35:43+01:00" filename="18_Der_achtzehnte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="18_Der_achtzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.375+02:00" modified="2020-01-24T10:35:43.187+01:00" filename="18_Der_achtzehnte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Register.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:28+02:00" modified="2019-07-19T16:44:28+02:00" filename="Register.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Register.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:28.258+02:00" modified="2019-07-19T16:44:28.258+02:00" filename="Register.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="00_vorrede.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:25+02:00" modified="2019-12-10T10:38:37+01:00" filename="00_vorrede.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="00_vorrede.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:25.967+02:00" modified="2019-12-10T10:38:37.178+01:00" filename="00_vorrede.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="13_Der_dreizehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26+02:00" modified="2019-11-01T10:48:44+01:00" filename="13_Der_dreizehnte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="13_Der_dreizehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.863+02:00" modified="2019-11-01T10:48:44.221+01:00" filename="13_Der_dreizehnte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="22_Der_zweiundzwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27+02:00" modified="2020-01-21T13:52:59+01:00" filename="22_Der_zweiundzwanzigste_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="22_Der_zweiundzwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.84+02:00" modified="2020-01-21T13:52:59.35+01:00" filename="22_Der_zweiundzwanzigste_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Dankbarkeit.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:28+02:00" modified="2019-07-19T16:44:28+02:00" filename="Dankbarkeit.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Dankbarkeit.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:28.212+02:00" modified="2019-07-19T16:44:28.212+02:00" filename="Dankbarkeit.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="17_Der_siebzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27+02:00" modified="2020-01-24T12:36:02+01:00" filename="17_Der_siebzehnte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="17_Der_siebzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.268+02:00" modified="2020-01-24T12:36:02.672+01:00" filename="17_Der_siebzehnte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="11_Der_elfte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26+02:00" modified="2020-01-24T12:32:03+01:00" filename="11_Der_elfte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="11_Der_elfte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.502+02:00" modified="2020-01-24T12:32:03.367+01:00" filename="11_Der_elfte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="21_Der_einundzwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27+02:00" modified="2020-01-24T12:45:17+01:00" filename="21_Der_einundzwanzigste_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="21_Der_einundzwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.739+02:00" modified="2020-01-24T12:45:17.54+01:00" filename="21_Der_einundzwanzigste_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="16_Der_sechzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27+02:00" modified="2020-01-24T12:35:20+01:00" filename="16_Der_sechzehnte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="16_Der_sechzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.151+02:00" modified="2020-01-24T12:35:20.082+01:00" filename="16_Der_sechzehnte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="12_Der_zw%C3%B6lfte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26+02:00" modified="2020-01-24T11:35:46+01:00" filename="12_Der_zwölfte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="12_Der_zw%C3%B6lfte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.611+02:00" modified="2020-01-24T11:35:46.885+01:00" filename="12_Der_zwölfte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="15_Der_f%C3%BCnfzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27+02:00" modified="2020-01-24T12:35:22+01:00" filename="15_Der_fünfzehnte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="15_Der_f%C3%BCnfzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.051+02:00" modified="2020-01-24T12:35:22.742+01:00" filename="15_Der_fünfzehnte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="04_Der_vierte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26+02:00" modified="2020-01-24T12:05:50+01:00" filename="04_Der_vierte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="04_Der_vierte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.172+02:00" modified="2020-01-24T12:05:50.289+01:00" filename="04_Der_vierte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="19_Der_neunzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27+02:00" modified="2020-01-24T12:36:41+01:00" filename="19_Der_neunzehnte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="19_Der_neunzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.495+02:00" modified="2020-01-24T12:36:41.327+01:00" filename="19_Der_neunzehnte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="14_Der_vierzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26+02:00" modified="2020-01-24T12:31:58+01:00" filename="14_Der_vierzehnte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="14_Der_vierzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.951+02:00" modified="2020-01-24T12:31:58.694+01:00" filename="14_Der_vierzehnte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

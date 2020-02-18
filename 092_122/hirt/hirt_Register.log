@@ -1,0 +1,1669 @@
+diff --git a/hirt/data/Register/Einrichtungen.xml b/home/gordon/backup182/db/projects/hirt/data/Register/Einrichtungen.xml
+index 0f81e40..208be76 100644
+--- a/hirt/data/Register/Einrichtungen.xml
++++ b/home/gordon/backup182/db/projects/hirt/data/Register/Einrichtungen.xml
+@@ -137,6 +137,11 @@
+                 <org xml:id="ed_jrx_zfc_b1b">
+                     <orgName type="reg">Griechische Gesellschaft (Graeca) Berlin</orgName>
+                 </org>
++                <org xml:id="ed_bwk_h5s_pkb">
++                    <orgName type="reg">Hofmarschallamt</orgName>
++                    <desc>oberste Verwaltungsbehörde des preuß. Hofes; bis 1835 war Friedrich
++                        Burchard Freiherr von Maltzahn Oberhofmarschall</desc>
++                </org>
+                 <org xml:id="ed_qz1_ngm_zgb">
+                     <idno type="uri">http://d-nb.info/gnd/35015-1</idno>
+                     <orgName type="reg">Institut National des Sciences et Arts in Paris</orgName>
+diff --git a/hirt/data/Register/Kunstwerke.xml b/home/gordon/backup182/db/projects/hirt/data/Register/Kunstwerke.xml
+index c9bcfd3..2ceb4bb 100644
+--- a/hirt/data/Register/Kunstwerke.xml
++++ b/home/gordon/backup182/db/projects/hirt/data/Register/Kunstwerke.xml
+@@ -310,6 +310,14 @@
+                         Johannes der Täufer und Johannes der Evangelist, Gemäldegalerie
+                         Berlin</note>
+                 </artwork>
++                <artwork xmlns="http://www.telota.de" xml:id="prov_p1g_tqf_nkb">
++                    <title xmlns="http://www.tei-c.org/ns/1.0">Bugiardini, Giuliano (zugeschrieben):
++                        Predella 1 - Szenen aus dem Leben des Tobias</title>
++                    <note xmlns="http://www.tei-c.org/ns/1.0"> Gemälde, Florenz 1500-10, 60x159 cm,
++                        vom Grafen Ingenheim in Italien angekauft; 1826 für das Kgl. Museum
++                        erworben; von Hirt Piero di Cosimo zugeschrieben, von Waagen Bernardino
++                        Pinturicchio; Berlin, Staatliche Museen SPK, GG 149</note>
++                </artwork>
+                 <artwork xmlns="http://www.telota.de" xml:id="prov_xfz_2hn_vz">
+                     <title xmlns="http://www.tei-c.org/ns/1.0">Burnat, Peter: Architekturzeichnung:
+                         Das Innere des Petersdoms</title>
+@@ -541,6 +549,26 @@
+                         als Porträt des Gnaeus Domitius Corbulo, ursprünglich Sammlung Borghese Rom,
+                         seit 1807 im Louvre, Inv.-Nr. MR 453 / Ma 925; <ref target="http://ancientrome.ru/art/artworken/img.htm?id=5913">Abbildung</ref></note>
+                 </artwork>
++                <artwork xmlns="http://www.telota.de" xml:id="prov_zwg_3qf_nkb">
++                    <title xmlns="http://www.tei-c.org/ns/1.0">Cosimo, Piero di: Predella 1
++                        Geschichte des Tobias siehe: Giuliano Bugiardini</title>
++                    <note xmlns="http://www.tei-c.org/ns/1.0"/>
++                </artwork>
++                <artwork xmlns="http://www.telota.de" xml:id="prov_zcp_nqf_nkb">
++                    <title xmlns="http://www.tei-c.org/ns/1.0">Cosimo, Piero di: Predella 2
++                        Geschichte des Tobias siehe: Francesco Granacci</title>
++                    <note xmlns="http://www.tei-c.org/ns/1.0"/>
++                </artwork>
++                <artwork xmlns="http://www.telota.de" xml:id="prov_ity_xsf_nkb">
++                    <title xmlns="http://www.tei-c.org/ns/1.0">Cosimo, Piero di: Predella 3 - zwei
++                        Abt. Die Heiligen Agatha und Katharina, eigentl. Szenen aus dem Leben der
++                        Heiligen Lucia</title>
++                    <note xmlns="http://www.tei-c.org/ns/1.0">Gemälde, Florenz um 1500, 32x152 cm;
++                        vom Grafen Ingenheim in Italien angekauft; 1826 für das Kgl. Museum
++                        erworben, von Waagen Pinturicchio, Bernardino (Schule) zugeschrieben,
++                        [1826/30: Szenen aus dem Leben der Heiligen Cäcilia, eigtl. der Hl. Lucia],
++                        Berlin, Kgl. Museum, GG 130, 1945 verloren</note>
++                </artwork>
+                 <artwork xmlns="http://www.telota.de" xml:id="prov_a3w_vvt_3jb">
+                     <title xmlns="http://www.tei-c.org/ns/1.0">Costa, Lorenzo: Jesus Christus im
+                         Tempel</title>
+@@ -848,6 +876,14 @@
+                         siehe <ref target="https://link.springer.com/chapter/10.1007%2F978-94-011-4006-5_38"/>
+                     </note>
+                 </artwork>
++                <artwork xmlns="http://www.telota.de" xml:id="prov_pn2_krf_nkb">
++                    <title xmlns="http://www.tei-c.org/ns/1.0">Granacci, Francesco (zugeschrieben):
++                        Predella 2 - Szenen aus dem Leben des Tobias</title>
++                    <note xmlns="http://www.tei-c.org/ns/1.0">Gemälde, Florenz 1500-10, 60x159 cm,
++                        vom Grafen Ingenheim in Italien angekauft; 1826 für das Kgl. Museum
++                        erworben; von Hirt Piero di Cosimo zugeschrieben, von Waagen Bernardino
++                        Pinturicchio; Berlin, Staatliche Museen SPK, GG 142</note>
++                </artwork>
+                 <artwork xmlns="http://www.telota.de" xml:id="prov_o2n_rdr_rjb">
+                     <title xmlns="http://www.tei-c.org/ns/1.0">Grospietsch, Florian: Kopie nach
+                         einem Gemälde von C. Poussin </title>
+@@ -1892,24 +1928,30 @@
+                         Holz verfertigte Arabesque zu einem Fries</title>
+                     <note xmlns="http://www.tei-c.org/ns/1.0">Akademieausstellung Berlin 1798</note>
+                 </artwork>
+-                <artwork xmlns="http://www.telota.de" xml:id="prov_v14_2qw_dv">
+-                    <title xmlns="http://www.tei-c.org/ns/1.0">Raffaeli, Jacob: Colonne</title>
+-                    <note xmlns="http://www.tei-c.org/ns/1.0">Säule?</note>
+-                </artwork>
+                 <artwork xmlns="http://www.telota.de" xml:id="prov_gtz_gn3_by">
+                     <idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">http://d-nb.info/gnd/4503759-0</idno>
+-                    <title xmlns="http://www.tei-c.org/ns/1.0">Raphael: Madonna Colonna</title>
++                    <title xmlns="http://www.tei-c.org/ns/1.0">Raffael: Madonna Colonna</title>
+                     <note xmlns="http://www.tei-c.org/ns/1.0">Öl auf Pappelholz, 52 x 38 cm, um
+                         1507-1508, Staatliche Museen Berlin PK, Gemäldegalerie; <ref target="https://de.wikipedia.org/wiki/Madonna_Colonna">Abbildung in
+                             Wikipedia</ref>
+                     </note>
+                 </artwork>
++                <artwork xmlns="http://www.telota.de" xml:id="prov_amh_vxl_pkb">
++                    <title xmlns="http://www.tei-c.org/ns/1.0">Raffael: Madonna di San Sisto
++                        (Sixtinische Madonna)</title>
++                    <note xmlns="http://www.tei-c.org/ns/1.0">Öl auf Leinwand, 256x196 cm,
++                        Gemäldegalerie Alte Meister Dresden; <ref target="https://de.wikipedia.org/wiki/Sixtinische_Madonna">Abbildung</ref></note>
++                </artwork>
+                 <artwork xmlns="http://www.telota.de" xml:id="prov_fxc_t4c_2v">
+-                    <title xmlns="http://www.tei-c.org/ns/1.0">Raphael: Madonna von Loreto</title>
++                    <title xmlns="http://www.tei-c.org/ns/1.0">Raffael: Madonna von Loreto</title>
+                     <note xmlns="http://www.tei-c.org/ns/1.0">Öl auf Holz, 120 x 90 cm, entstanden
+                         1508/09, Museé Condé, Chantilly; <ref target="https://en.wikipedia.org/wiki/Madonna_of_Loreto_(Raphael)">Abbildung in Wikipedia</ref>
+                     </note>
+                 </artwork>
++                <artwork xmlns="http://www.telota.de" xml:id="prov_v14_2qw_dv">
++                    <title xmlns="http://www.tei-c.org/ns/1.0">Raffaeli, Jacob: Colonne</title>
++                    <note xmlns="http://www.tei-c.org/ns/1.0">Säule?</note>
++                </artwork>
+                 <artwork xmlns="http://www.telota.de" xml:id="prov_b14_zqb_h3b">
+                     <title xmlns="http://www.tei-c.org/ns/1.0">Rauch, Christian Daniel: Bildwerke
+                         für das Schauspielhaus in Berlin (Modelle)</title>
+@@ -2099,6 +2141,15 @@
+                     <note xmlns="http://www.tei-c.org/ns/1.0">Kunstsammlungen des Königl. Preuß.
+                         Hauptmanns Hans Albrecht von Derschau; siehe dessen <ref target="https://reader.digitale-sammlungen.de/resolve/display/bsb10258832.html">Verzeichnis mit Verkaufspreisen von 1825</ref></note>
+                 </artwork>
++                <artwork xmlns="http://www.telota.de" xml:id="prov_vkj_ydf_nkb">
++                    <title xmlns="http://www.tei-c.org/ns/1.0">Sammlung des Grafen Ingenheim</title>
++                    <note xmlns="http://www.tei-c.org/ns/1.0">auf seinen Italienreisen 1816-18 und
++                        1822-25 angekauft (insgesamt hielt er sich mit Unterbrechungen bis 1833 in
++                        Italien auf) (antike Marmorskulpturen, griech. Gefäße und Terracotte,
++                        Gemälde), Teile der Erwerbungen von seiner letzten Reise wurden für das Kgl.
++                        Museum angekauft (u.a. 16 Antiken aus Marmor, 33 Terrakotten und 3
++                        Gemälde)</note>
++                </artwork>
+                 <artwork xmlns="http://www.telota.de" xml:id="prov_h4c_mgm_gjb">
+                     <title xmlns="http://www.tei-c.org/ns/1.0">Sammlung des preuß.
+                         Generalpostmeisters v. Nagler</title>
+@@ -2146,6 +2197,14 @@
+                     <title xmlns="http://www.tei-c.org/ns/1.0">Sammlung Wallmoden</title>
+                     <note xmlns="http://www.tei-c.org/ns/1.0"/>
+                 </artwork>
++                <artwork xmlns="http://www.telota.de" xml:id="prov_azw_cgn_pkb">
++                    <title xmlns="http://www.tei-c.org/ns/1.0">Sassoferrato (d.i. Giovanni Battista
++                        Salvi): Die Grablegung</title>
++                    <note xmlns="http://www.tei-c.org/ns/1.0">Leinwand, H 0,68, B 0,60; nach einem
++                        Gemälde von Raffael in der Villa Borghese, Rom, 17. Jh., erworben 1825 durch
++                        v. Bunsen in Italien für Friedrich Wilhelm III. und vom König dem Museum
++                        geschenkt; <ref target="https://www.meisterdrucke.de/kunstdrucke/Il-Sassoferrato/88098/Die-Grablegung,-nach-einem-Gem%C3%A4lde-von-Raffael-in-der-Villa-Borghese,-Rom,-17.-Jahrhundert.html">Abbildung</ref></note>
++                </artwork>
+                 <artwork xmlns="http://www.telota.de" xml:id="prov_pz1_ccn_hw">
+                     <title xmlns="http://www.tei-c.org/ns/1.0">Schadow, Johann Gottfried: Apotheose
+                         der Königin Luise von Preußen, 1811</title>
+diff --git a/hirt/data/Register/Orte.xml b/home/gordon/backup182/db/projects/hirt/data/Register/Orte.xml
+index 22dc6f2..648107e 100644
+--- a/hirt/data/Register/Orte.xml
++++ b/home/gordon/backup182/db/projects/hirt/data/Register/Orte.xml
+@@ -17,12 +17,8 @@
+         <body>
+             <listPlace>
+                 <place xml:id="prov_g2l_lvn_y5">
+-                    <placeName type="reg">Schule des Virgil </placeName>
+-                    <placeName type="alt">Schuola Vergilii</placeName>
+-                    <note>Grotte und antike Ruinen beim Fischerort Marechiaro auf der Südseite des
+-                        Pausilippo bei Neapel, genannt die Schule des Vergil, wo der Sage nach der
+-                        Zauberer Virgil gelebt haben soll (er soll u.a. eine Felsengrotte angehoben
+-                        haben) </note>
++                    <placeName type="reg">"Schule des Virgil" (Grotte mit Ruinen) auf der Südseite
++                        des Pausilippo</placeName>
+                 </place>
+                 <place xml:id="prov_oxg_n4j_2v">
+                     <idno type="uri">http://www.geonames.org/357994</idno>
+@@ -38,7 +34,7 @@
+                 </place>
+                 <place xml:id="ed_ndj_52f_mw">
+                     <idno type="uri">http://www.geonames.org/8133696</idno>
+-                    <placeName type="reg">Aegina </placeName>
++                    <placeName type="reg">Aegina</placeName>
+                     <note>Insel im saronischen Meerbusen</note>
+                 </place>
+                 <place xml:id="prov_z44_5ch_y5">
+@@ -47,10 +43,7 @@
+                 <place xml:id="ed_yj4_jp3_5y">
+                     <placeName type="reg">Albanus Mons  </placeName>
+                     <placeName type="alt">Albaner Berge</placeName>
+-                    <note>
+-                        <note><ref target="https://de.wikipedia.org/wiki/Albaner_Berge">Wikipedia</ref>
+-                        </note>
+-                    </note>
++                    <note>https://de.wikipedia.org/wiki/Albaner_Berge"/<ref target="https://de.wikipedia.org/wiki/Albaner_Berge%22/"/></note>
+                 </place>
+                 <place xml:id="prov_uws_wgl_2v">
+                     <idno type="uri">http://www.geonames.org/361058</idno>
+@@ -58,11 +51,11 @@
+                 </place>
+                 <place xml:id="prov_cv3_m1m_cv">
+                     <placeName type="reg">Alpen</placeName>
+-                    <note><ref target="https://de.wikipedia.org/wiki/Alpen">Wikipedia</ref>
+-                    </note>
++                    <note>https://de.wikipedia.org/wiki/Alpen<ref target="https://de.wikipedia.org/wiki/Alpen"/></note>
+                 </place>
+                 <place xml:id="ed_awd_gsv_cjb">
+-                    <placeName type="reg">Altmühl - Fluß</placeName>
++                    <placeName type="reg">Altmühl</placeName>
++                    <note>Fluß</note>
+                 </place>
+                 <place xml:id="prov_elj_xhc_gv">
+                     <idno type="uri">http://www.geonames.org/6252001</idno>
+@@ -89,8 +82,7 @@
+                 </place>
+                 <place xml:id="ed_e1d_nnl_jw">
+                     <placeName type="reg">Ärmelkanal</placeName>
+-                    <note><ref target="https://de.wikipedia.org/wiki/%C3%84rmelkanal">Wikipedia</ref>
+-                    </note>
++                    <note>https://de.wikipedia.org/wiki/%C3%84rmelkanal<ref target="https://de.wikipedia.org/wiki/%C3%84rmelkanal"/></note>
+                 </place>
+                 <place xml:id="ed_msd_hdm_1y">
+                     <idno type="uri">http://www.geonames.org/2955421</idno>
+@@ -125,7 +117,7 @@
+                     <placeName type="reg">Baden</placeName>
+                 </place>
+                 <place xml:id="ed_rly_hjv_bw">
+-                    <placeName type="reg">Bäder in Böhmen </placeName>
++                    <placeName type="reg">Bäder in Böhmen</placeName>
+                     <note>Karlsbad, Marienbad, Franzensbad, Teplitz</note>
+                 </place>
+                 <place xml:id="ed_j43_2fk_lw">
+@@ -141,249 +133,254 @@
+                     <placeName type="reg">Bayreuth</placeName>
+                 </place>
+                 <place xml:id="prov_gt1_jlt_y5">
+-                    <placeName type="reg">Belvedere bei Weimar</placeName>
++                    <placeName type="reg">Belvedere</placeName>
++                    <note>bei Weimar</note>
+                 </place>
+                 <place xml:id="prov_ycp_cpr_js">
+                     <idno type="uri">http://www.geonames.org/2950159</idno>
+                     <placeName type="reg">Berlin</placeName>
+                     <listPlace>
+-                       <place xml:id="prov_ycp_cpr_js">
+-                            <placeName type="reg">Akademie der Künste zu Berlin (Unter den
+-                                Linden)</placeName>
++                        <place xml:id="prov_ycp_cpr_js">
++                            <placeName type="reg">Akademie der Künste zu Berlin</placeName>
++                            <note>Unter den Linden</note>
+                         </place>
+                         <place xml:id="prov_wcb_njr_cv" type="building">
+-                            <placeName type="reg">Akademie der Wissenschaften zu Berlin </placeName>
++                            <placeName type="reg">Akademie der Wissenschaften zu Berlin</placeName>
+                             <note>Unter den Linden</note>
+                         </place>
++                        <place xml:id="ediarum_qkl_1cw_jgb" type="building">
++                            <placeName type="reg">Akademiegebäude Unter den Linden</placeName>
++                            <note>gemeinsam genutzt von der Akademie der Künste und der Akademie der
++                                Wissenschaften; später ursprünglich auch, nach diversen Um- und
++                                Anbauten, als Lokal für das geplante Kunstmuseum vorgesehen; mehrere
++                                Räume dienten als Königliches Restaurations-Atelier für die für das
++                                Museum vorgesehenen Gemälde</note>
++                        </place>
++                        <place xml:id="ediarum_bjk_pmr_yhb" type="building">
++                            <placeName type="reg">anatomisches Museum</placeName>
++                        </place>
++                        <place xml:id="ediarum_act_vw3_y3b" type="building">
++                            <placeName type="reg">Anatomisches Theater der
++                                Tierarzneischule</placeName>
++                        </place>
++                        <place xml:id="ediarum_anp_pjd_wjb" type="building">
++                            <placeName type="reg">Anspachsches Palais</placeName>
++                            <note>Wilhelmstraße 102, 1737-39 erbaut, später Palais des Prinzen
++                                Albrecht; 1830-33 Umbau durch Schinkel</note>
++                        </place>
++                        <place xml:id="ediarum_vm3_lmr_yhb" type="building">
++                            <placeName type="reg">Antiquarium</placeName>
++                        </place>
++                        <place xml:id="ediarum_p1x_crh_jkb" type="building">
++                            <placeName type="reg">Atelier von Christian Daniel Rauch</placeName>
++                            <note>Bildhauer- und Restaurierungswerkstatt, seit 1819 Arbeits- und
++                                Wohnräume im "Lagerhaus" in der Klosterstraße 75/76)</note>
++                        </place>
+                         <place xml:id="prov_r1s_swv_pv" type="building">
+                             <placeName type="reg">Bauakademie</placeName>
+                         </place>
++                        <place xml:id="ediarum_zls_2cb_qkb" type="street">
++                            <placeName type="reg">Behrenstraße</placeName>
++                            <note>siehe Restaurierungs-Atelier für Gemälde</note>
++                        </place>
++                        <place xml:id="ediarum_oqh_qfw_jgb" type="building">
++                            <placeName type="reg">Börse</placeName>
++                        </place>
++                        <place xml:id="ediarum_yzg_cnr_yhb" type="">
++                            <placeName type="reg">Botanischer Garten</placeName>
++                        </place>
+                         <place xml:id="prov_es4_y4d_4v" type="building">
+                             <idno type="uri">http://www.geonames.org/6698677</idno>
+                             <placeName type="reg">Brandenburger Tor</placeName>
+                         </place>
++                        <place xml:id="ediarum_pr3_knr_yhb" type="building">
++                            <placeName type="reg">chemisches Laboratorium</placeName>
++                        </place>
++                        <place xml:id="ediarum_i4r_dfw_jgb" type="building">
++                            <placeName type="reg">Dom</placeName>
++                        </place>
++                        <place xml:id="ediarum_ij2_stx_rgb" type="street">
++                            <placeName type="reg">Dönhoffplatz </placeName>
++                            <placeName type="alt">Dönhofscher Platz, Döhnhofischer Platz</placeName>
++                        </place>
++                        <place xml:id="ediarum_ydh_q5x_rgb" type="street">
++                            <placeName type="reg">Friedrichswerder, der</placeName>
++                            <note>auf dem</note>
++                        </place>
++                        <place xml:id="ediarum_wyc_nnk_rgb" type="building">
++                            <placeName type="reg">Friedrichwerdersche Kirche</placeName>
++                        </place>
++                        <place xml:id="ediarum_gnk_fyd_vx" type="building">
++                            <placeName type="reg">Friedrichwerdersches Gymnasium</placeName>
++                        </place>
++                        <place xml:id="ediarum_vfk_tdq_5y" type="building">
++                            <placeName type="reg">Gemäldegalerie</placeName>
++                        </place>
+                         <place xml:id="prov_hfl_w1j_sv" type="street">
+                             <idno type="uri">http://www.geonames.org/6944065</idno>
+                             <placeName type="reg">Gendarmenmarkt</placeName>
+                         </place>
++                        <place xml:id="ediarum_eqs_wqy_fhb" type="">
++                            <placeName type="reg">Gymnasien</placeName>
++                        </place>
++                        <place xml:id="ediarum_p5x_rgw_jgb" type="street">
++                            <placeName type="reg">Hundebrücke (die spätere
++                                Schlossbrücke)</placeName>
++                        </place>
+                         <place xml:id="prov_obz_4lv_3v" type="building">
+                             <placeName type="reg">Königliche Bibliothek</placeName>
+                         </place>
++                        <place xml:id="ediarum_r4d_pcw_jgb" type="building">
++                            <placeName type="reg">Königliche Ställe </placeName>
++                            <placeName type="alt">Marstall</placeName>
++                            <note>im Akademiegebäude Unter den Linden</note>
++                        </place>
+                         <place xml:id="prov_olb_qlv_3v" type="building">
+-                            <placeName type="reg">Kunstkammer, Königliche </placeName>
++                            <placeName type="reg">Kunstkammer, Königliche</placeName>
+                             <note>im Berliner Stadtschloss</note>
+                         </place>
+                         <place xml:id="prov_up1_xwt_fv" type="building">
+-                            <placeName type="reg">Museum - Planung</placeName>
++                            <placeName type="reg">Kunstmuseum</placeName>
++                            <note>Planung</note>
+                         </place>
+-                        <place xml:id="prov_xsq_vf5_tv" type="street">
+-                            <placeName type="reg">Lustgarten</placeName>
+-                        </place>
+-                        <place xml:id="prov_blr_yqd_4v" type="building">
+-                            <placeName type="reg">Neue Münze </placeName>
+-                            <note>von Gentz</note>
++                        <place xml:id="ediarum_rj2_kdc_sy" type="building">
++                            <placeName type="reg">Kunstmuseum</placeName>
++                            <note>bei Eröffnung "Neues Museum", danach bis 1845 "Königliches
++                                Museum", heute "Altes Museum"</note>
+                         </place>
+-                        <place xml:id="prov_b4c_qfr_gv" type="building">
+-                            <placeName type="reg">Palais der Gräfin Lichtenau Unter den Linden </placeName>
+-                            <placeName type="alt">Niederländisches Palais</placeName>
++                        <place xml:id="ediarum_cjp_wbm_gjb" type="building">
++                            <placeName type="reg">Kupferstichkabinett</placeName>
+                         </place>
+-                        <place xml:id="prov_y3f_tn3_sv" type="building">
+-                            <placeName type="reg">Schauspielhaus - Nationaltheater</placeName>
++                        <place xml:id="ediarum_drq_dw2_gjb" type="building">
++                            <placeName type="reg">Lagerhaus</placeName>
+                         </place>
+-                        <place xml:id="prov_ulk_twt_fv" type="building">
+-                            <placeName type="reg">Stadtschloss</placeName>
++                        <place xml:id="prov_xsq_vf5_tv" type="street">
++                            <placeName type="reg">Lustgarten</placeName>
+                         </place>
+-                        <place xml:id="ediarum_ijd_cgp_dw" type="">
+-                            <idno type="uri">http://www.geonames.org/7288057</idno>
+-                            <placeName type="reg">Tiergarten</placeName>
++                        <place xml:id="ediarum_spq_5mr_yhb" type="building">
++                            <placeName type="reg">Mineralogische Sammlung</placeName>
+                         </place>
+-                        <place xml:id="ediarum_tzx_1vt_fw" type="building">
+-                            <idno type="uri">http://www.geonames.org/6944074</idno>
+-                            <placeName type="reg">Universität</placeName>
++                        <place xml:id="ediarum_efd_w4g_yy" type="building">
++                            <placeName type="reg">Monbijou</placeName>
++                            <note>Schloss</note>
+                         </place>
+                         <place xml:id="ediarum_um1_3nl_xw" type="building">
+-                            <placeName type="reg">Museum - Plan I </placeName>
++                            <placeName type="reg">Museum</placeName>
+                             <note>Plan I: Umbau Marstall und Universität, 1820</note>
+                         </place>
+-                        <place xml:id="ediarum_gnk_fyd_vx" type="building">
+-                            <placeName type="reg">Friedrichwerdersches Gymnasium</placeName>
+-                        </place>
+-                        <place xml:id="ediarum_rj2_kdc_sy" type="building">
+-                            <placeName type="reg">Museum - Neubau </placeName>
+-                            <note>Neubau des Königlichen Museums im Lustgarten durch Schinkel; bei
+-                                Eröffnung "Neues Museum", danach bis 1845 "Königliches Museum",
+-                                heute "Altes Museum"</note>
+-                        </place>
+-                        <place xml:id="ediarum_vfk_tdq_5y" type="building">
+-                            <placeName type="reg">Gemäldegalerie</placeName>
+-                        </place>
+-                        <place xml:id="ediarum_efd_w4g_yy" type="building">
+-                            <placeName type="reg">Monbijou - Schloss</placeName>
++                        <place xml:id="prov_blr_yqd_4v" type="building">
++                            <placeName type="reg">Neue Münze</placeName>
++                            <note>von Gentz</note>
+                         </place>
+                         <place xml:id="ediarum_ilz_ngz_s1b" type="building">
+-                            <placeName type="reg">Neues Schauspielhaus </placeName>
+-                            <note>erbaut von Schinkel</note>
+-                        </place>
+-                        <place xml:id="ediarum_qkl_1cw_jgb" type="building">
+-                            <placeName type="reg">Akademiegebäude Unter den Linden </placeName>
+-                            <note>gemeinsam genutzt von der Akademie der Künste und der Akademie der
+-                                Wissenschaften; später auch, nach diversen Um- und Anbauten, als
+-                                Lokal für das geplante Kunstmuseum vorgesehen; mehrere Räume dienten
+-                                als Königliches Restaurations-Atelier für die für das Museum
+-                                vorgesehenen Gemälde</note>
+-                        </place>
+-                        <place xml:id="ediarum_r4d_pcw_jgb" type="building">
+-                             <placeName type="reg">Marstall</placeName>
+-                            <note>Königliche Ställe im Akademiegebäude Unter den Linden</note>
+-                        </place>
+-                        <place xml:id="ediarum_bcr_5cw_jgb" type="building">
+-                             <placeName type="reg">Regiment Gensd'armes </placeName>
+-                            <note>im Akademiegebäude Unter den Linden</note>
++                            <placeName type="reg">neues Schauspielhaus (Schinkel)</placeName>
+                         </place>
+                         <place xml:id="ediarum_hf2_b2w_jgb" type="building">
+-                             <placeName type="reg">Oper, Königliche</placeName>
++                            <placeName type="reg">Oper, Königliche</placeName>
+                         </place>
+-                        <place xml:id="ediarum_xnz_32w_jgb" type="street">
+-                             <placeName type="reg">Opernplatz</placeName>
+-                        </place>
+-                        <place xml:id="ediarum_imw_p2w_jgb" type="street">
+-                             <placeName type="reg">Unter den Linden</placeName>
+-                            <note>Prachtboulevard</note>
+-                        </place>
+-                        <place xml:id="ediarum_d2c_52w_jgb" type="building">
+-                             <placeName type="reg">St. Hedwigs-Kathedrale </placeName>
+-                            <note>katholische Kirche</note>
++                        <place xml:id="ediarum_hs2_f2y_tgb" type="street">
++                            <placeName type="reg">Opernbrücke</placeName>
+                         </place>
+-                        <place xml:id="ediarum_yfs_y2w_jgb" type="building">
+-                             <placeName type="reg">Waschhaus</placeName>
++                        <place xml:id="ediarum_xnz_32w_jgb" type="street">
++                            <placeName type="reg">Opernplatz</placeName>
+                         </place>
+-                        <place xml:id="ediarum_i4r_dfw_jgb" type="building">
+-                             <placeName type="reg">Dom</placeName>
++                        <place xml:id="ediarum_qsr_wlq_tjb" type="building">
++                            <placeName type="reg">Packhof / Packhöfe</placeName>
+                         </place>
+                         <place xml:id="ediarum_yz2_gfw_jgb" type="">
+-                             <placeName type="reg">Packhofbrücke</placeName>
+-                        </place>
+-                        <place xml:id="ediarum_oyj_kfw_jgb" type="">
+-                              <placeName type="reg">Spree</placeName>
+-                        </place>
+-                        <place xml:id="ediarum_oqh_qfw_jgb" type="building">
+-                              <placeName type="reg">Börse</placeName>
+-                        </place>
+-                        <place xml:id="ediarum_o3c_tfw_jgb" type="street">
+-                              <placeName type="reg">Platz der Maroniers </placeName>
+-                            <placeName type="alt">Kastanienwäldchen</placeName>
+-                        </place>
+-                        <place xml:id="ediarum_n1c_bgw_jgb" type="building">
+-                               <placeName type="reg">Zeughaus</placeName>
++                            <placeName type="reg">Packhofbrücke</placeName>
+                         </place>
+-                        <place xml:id="ediarum_p5x_rgw_jgb" type="street">
+-                               <placeName type="reg">Hundebrücke </placeName>
+-                            <note>die spätere Schlossbrücke</note>
++                        <place xml:id="prov_b4c_qfr_gv" type="building">
++                            <placeName type="reg">Palais der Gräfin Lichtenau Unter den
++                                Linden</placeName>
++                            <note>Niederländisches Palais</note>
+                         </place>
+                         <place xml:id="ediarum_qsk_2hw_jgb" type="building">
+-                               <placeName type="reg">Palais der Prinzessin Ludwig </placeName>
++                            <placeName type="reg">Palais der Prinzessin Ludwig </placeName>
+                             <placeName type="alt">Prinzessinnenpalais</placeName>
+                         </place>
+-                        <place xml:id="ediarum_wgp_l3w_jgb" type="">
+-                               <placeName type="reg">Stadtgraben</placeName>
+-                        </place>
+                         <place xml:id="ediarum_s3f_3jw_jgb" type="building">
+-                               <placeName type="reg">Palais des Prinzen Heinrich Unter den Linden </placeName>
++                            <placeName type="reg">Palais des Prinzen Heinrich Unter den Linden </placeName>
+                             <note>das spätere Universitätsgebäude</note>
+                         </place>
+-                        <place xml:id="ediarum_wyc_nnk_rgb" type="building">
+-                               <placeName type="reg">Friedrichwerdersche
+-                                          Kirche</placeName>
++                        <place xml:id="ediarum_iwg_ztx_rgb" type="building">
++                            <placeName type="reg">Petrikirche</placeName>
+                         </place>
+-                        <place xml:id="ediarum_ij2_stx_rgb" type="street">
+-                               <placeName type="reg">Dönhoffplatz</placeName>
+-                            <placeName type="alt">Dönhofscher Platz, Döhnhofischer Platz</placeName>
++                        <place xml:id="ediarum_o3c_tfw_jgb" type="street">
++                            <placeName type="reg">Platz der Maroniers</placeName>
++                            <note>Kastanienwäldchen</note>
+                         </place>
+-                        <place xml:id="ediarum_iwg_ztx_rgb" type="building">
+-                               <placeName type="reg">Petrikirche</placeName>
++                        <place xml:id="ediarum_bcr_5cw_jgb" type="building">
++                            <placeName type="reg">Regiment Gensd'armes</placeName>
++                            <note>im Akademiegebäude Unter den Linden</note>
+                         </place>
+-                        <place xml:id="ediarum_ydh_q5x_rgb" type="street">
+-                               <placeName type="reg">Friedrichswerder, der (auf
+-                                          dem)</placeName>
++                        <place xml:id="ediarum_nqx_rnh_lkb" type="building">
++                            <placeName type="reg">Restaurierungs-Atelier für Gemälde</placeName>
++                            <note>im März 1824 in der Behrenstraße 66 eingerichtete
++                                Restaurierungswerkstatt für die für das kgl. Museum vorgesehenen
++                                Gemälde; die Oberaufsicht hatte der Maler Carl Waagen, ihm
++                                unterstanden als Direktor der Maler Schlesinger, diesem wiederum als
++                                Meister die Maler Koester, Xeller, Hummel und Menschel, als
++                                "Gehilfen für den Pinsel" die Maler Geißler, Butzky, Wollburg und
++                                Nerenz, als Gehilfen für wichtige Vorarbeiten die Maler Kromayer und
++                                Neumeister</note>
+                         </place>
+-                        <place xml:id="ediarum_hs2_f2y_tgb" type="street">
+-                               <placeName type="reg">Opernbrücke</placeName>
++                        <place xml:id="ed_m4p_qmh_lkb">
++                            <placeName type="reg">Restaurierungs-Atelier für Gemälde</placeName>
++                            <note>im März 1824 in der Behrenstraße 66 eingerichtete
++                                Restaurierungswerkstatt für die für das kgl. Museum vorgesehenen
++                                Gemälde; die Oberaufsicht hatte der Maler Carl Waagen, ihm
++                                unterstanden als Direktor der Maler Schlesinger, diesem wiederum als
++                                Meister die Maler Koester, Xeller, Hummel und Menschel, als
++                                "Gehilfen für den Pinsel" die Maler Geißler, Butzky, Wollburg und
++                                Nerenz, als Gehilfen für wichtige Vorarbeiten die Maler Kromayer und
++                                Neumeister</note>
+                         </place>
+-                        <place xml:id="ediarum_eqs_wqy_fhb" type="">
+-                               <placeName type="reg">Gymnasien</placeName>
++                        <place xml:id="prov_y3f_tn3_sv" type="building">
++                            <placeName type="reg">Schauspielhaus </placeName>
++                            <placeName type="alt">Nationaltheater</placeName>
+                         </place>
+-                        <place xml:id="ediarum_vm3_lmr_yhb" type="building">
+-                               <placeName type="reg">Antiquarium</placeName>
++                        <place xml:id="ediarum_oyj_kfw_jgb" type="">
++                            <placeName type="reg">Spree</placeName>
+                         </place>
+-                        <place xml:id="ediarum_bjk_pmr_yhb" type="building">
+-                               <placeName type="reg">Anatomisches Museum</placeName>
++                        <place xml:id="ediarum_d2c_52w_jgb" type="building">
++                            <placeName type="reg">St. Hedwigs-Kathedrale</placeName>
++                            <note>katholische Kirche</note>
+                         </place>
+-                        <place xml:id="ediarum_spq_5mr_yhb" type="building">
+-                               <placeName type="reg">Mineralogische
+-                                                  Sammlung</placeName>
++                        <place xml:id="ediarum_wgp_l3w_jgb" type="">
++                            <placeName type="reg">Stadtgraben</placeName>
+                         </place>
+-                        <place xml:id="ediarum_yzg_cnr_yhb" type="">
+-                               <placeName type="reg">Botanischer
+-                                          Garten</placeName>
++                        <place xml:id="prov_ulk_twt_fv" type="building">
++                            <placeName type="reg">Stadtschloss</placeName>
+                         </place>
+                         <place xml:id="ediarum_p1f_gnr_yhb" type="building">
+-                               <placeName type="reg">Sternwarte</placeName>
+-                        </place>
+-                        <place xml:id="ediarum_pr3_knr_yhb" type="building">
+-                                <placeName type="reg">Chemisches Laboratorium</placeName>
++                            <placeName type="reg">Sternwarte</placeName>
+                         </place>
+-                        <place xml:id="ediarum_act_vw3_y3b" type="building">
+-                                <placeName type="reg">Anatomisches Theater der
+-                                           Tierarzneischule</placeName>
++                        <place xml:id="ediarum_ijd_cgp_dw" type="">
++                            <idno type="uri">http://www.geonames.org/7288057</idno>
++                            <placeName type="reg">Tiergarten</placeName>
+                         </place>
+-                        <place xml:id="ediarum_drq_dw2_gjb" type="building">
+-                                <placeName type="reg">Lagerhaus</placeName>
++                        <place xml:id="ediarum_tzx_1vt_fw" type="building">
++                            <idno type="uri">http://www.geonames.org/6944074</idno>
++                            <placeName type="reg">Universität</placeName>
+                         </place>
+-                        <place xml:id="ediarum_cjp_wbm_gjb" type="building">
+-                                <placeName type="reg">Kupferstichkabinett</placeName>
++                        <place xml:id="ediarum_imw_p2w_jgb" type="street">
++                            <placeName type="reg">Unter den Linden</placeName>
++                            <note>Prachtboulevard</note>
+                         </place>
+-                        <place xml:id="ediarum_qsr_wlq_tjb" type="building">
+-                                <placeName type="reg">Packhof /
+-                                           Packhöfe</placeName>
++                        <place xml:id="ediarum_yfs_y2w_jgb" type="building">
++                            <placeName type="reg">Waschhaus</placeName>
+                         </place>
+                         <place xml:id="ediarum_tbl_n3n_5jb" type="building">
+-                                <placeName type="reg">Haus von Solly</placeName>
+-                            <note>Wilhelmstr. Nr. 67, "Sollysches Haus", in welchem dessen
+-                                Gemäldesammlung aufbewahrt wurde</note>
++                            <placeName type="reg">Wilhelmstr. Nr. 67</placeName>
++                            <note>Haus von Solly, in welchem dessen Gemäldesammlung aufbewahrt
++                                wurde</note>
+                         </place>
+-                        <place xml:id="ediarum_anp_pjd_wjb" type="building">
+-                                 <placeName type="reg">Anspachsches Palais </placeName>
+-                            <note>Wilhelmstraße 102, 1737-39 erbaut, später Palais des Prinzen
+-                                Albrecht; 1830-33 Umbau durch Schinkel</note>
+-                        </place>
+-                        <place xml:id="ediarum_p1x_crh_jkb" type="building">
+-                                 <placeName type="reg">Atelier von Christian Daniel Rauch </placeName>
+-                            <note>Bildhauer- und Restaurierungswerkstatt, seit 1819 Arbeits- und
+-                                Wohnräume im "Lagerhaus" in der Klosterstraße 75/76</note>
+-                        </place>
+-                        <place xml:id="ediarum_nqx_rnh_lkb" type="building">
+-                                 <placeName type="reg">Restaurierungs-Atelier für Gemälde </placeName>
+-                            <note>im März 1824 in der Behrenstraße 66 eingerichtete
+-                                Restaurierungswerkstatt für die für das kgl. Museum vorgesehenen
+-                                Gemälde; die Oberaufsicht hatte der Maler Carl Waagen, ihm
+-                                unterstanden als Direktor der Maler Schlesinger, diesem wiederum als
+-                                Meister die Maler Koester, Xeller, Hummel und Menschel, als
+-                                "Gehilfen für den Pinsel" die Maler Geißler, Butzky, Wollburg und
+-                                Nerenz, als Gehilfen für wichtige Vorarbeiten die Maler Kromayer und
+-                                Neumeister</note>
+-                        </place> 
+-                        <place xml:id="ed_m4p_qmh_lkb">
+-                                <placeName type="reg">Restaurierungs-Atelier für Gemälde</placeName>
+-                                <note>im März 1824 in der Behrenstraße 66 eingerichtete Restaurierungswerkstatt
+-                                für die für das kgl. Museum vorgesehenen Gemälde; die Oberaufsicht hatte der
+-                                Maler Carl Waagen, ihm unterstanden als Direktor der Maler Schlesinger,
+-                                diesem wiederum als Meister die Maler Koester, Xeller, Hummel und Menschel,
+-                                als "Gehilfen für den Pinsel" die Maler Geißler, Butzky, Wollburg und
+-                                Nerenz, als Gehilfen für wichtige Vorarbeiten die Maler Kromayer und
+-                               Neumeister</note>
++                        <place xml:id="ediarum_n1c_bgw_jgb" type="building">
++                            <placeName type="reg">Zeughaus</placeName>
+                         </place>
+                     </listPlace>
+-                </place>    
++                </place>
+                 <place xml:id="ed_j43_pwf_vx">
+                     <idno type="uri">http://www.geonames.org/2950096</idno>
+                     <placeName type="reg">Bernau</placeName>
+@@ -446,8 +443,7 @@
+                 <place xml:id="prov_unc_wpk_cv">
+                     <placeName type="reg">Campagna di Roma </placeName>
+                     <placeName type="alt">Campagna Romana</placeName>
+-                    <note><ref target="https://de.wikipedia.org/wiki/Campagna_Romana">Wikipedia</ref>
+-                    </note>
++                    <note>https://de.wikipedia.org/wiki/Campagna_Romana<ref target="https://de.wikipedia.org/wiki/Campagna_Romana"/></note>
+                 </place>
+                 <place xml:id="ed_a5g_qzc_xw">
+                     <idno type="uri">http://www.geonames.org/3180792</idno>
+@@ -471,11 +467,9 @@
+                     <listPlace>
+                         <place xml:id="prov_e4k_k2r_gv" type="building">
+                             <placeName type="reg">Palais der Gräfin Lichtenau</placeName>
+-                            <listPlace>
+-                                <place xml:id="ediarum_zl2_55t_ngb" type="building">
+-                                    <placeName type="reg">Schloss</placeName>
+-                                </place>
+-                            </listPlace>
++                        </place>
++                        <place xml:id="ediarum_zl2_55t_ngb" type="building">
++                            <placeName type="reg">Schloss</placeName>
+                         </place>
+                     </listPlace>
+                 </place>
+@@ -541,9 +535,8 @@
+                     </listPlace>
+                 </place>
+                 <place xml:id="prov_fm5_f2w_3v">
+-                    <placeName type="reg">Dodona </placeName>
+-                    <note>antikes griech. Heiligtum, ältestes Orakel Griechenlands; <ref target="https://de.wikipedia.org/wiki/Dodona">Wikipedia</ref>
+-                    </note>
++                    <placeName type="reg">Dodona</placeName>
++                    <note>antikes griech. Heiligtum, ältestes Orakel Griechenlands; <ref target="https://de.wikipedia.org/wiki/Dodona">Wikipedia</ref></note>
+                 </place>
+                 <place xml:id="ed_uzq_rtx_zw">
+                     <idno type="uri">http://www.geonames.org/2782713</idno>
+@@ -576,14 +569,12 @@
+                             <placeName type="reg">Augusteum</placeName>
+                             <note>Antikensammlung</note>
+                         </place>
+-                        <place xml:id="ediarum_kxq_gbp_rx" type="building">
+-                            <placeName type="reg">Kunstakademie</placeName>
+-                        </place>
+-                    </listPlace>
+-                    <listPlace>
+                         <place xml:id="ediarum_osm_fgb_5y" type="building">
+                             <placeName type="reg">Gemäldegalerie</placeName>
+                         </place>
++                        <place xml:id="ediarum_kxq_gbp_rx" type="building">
++                            <placeName type="reg">Kunstakademie</placeName>
++                        </place>
+                     </listPlace>
+                 </place>
+                 <place xml:id="prov_m1d_xsw_gv">
+@@ -600,8 +591,8 @@
+                     <placeName type="reg">Eger</placeName>
+                 </place>
+                 <place xml:id="ed_vct_nnj_xw">
+-                    <placeName type="reg">Elbsandsteingebirge </placeName>
+-                    <placeName type="alt">Sächsische Schweiz</placeName>
++                    <placeName type="reg">Elbsandsteingebirge</placeName>
++                    <note>Sächsische Schweiz</note>
+                 </place>
+                 <place xml:id="ed_v5d_hym_4x">
+                     <placeName type="reg">Elis</placeName>
+@@ -633,7 +624,7 @@
+                     <placeName type="reg">Ferrara</placeName>
+                 </place>
+                 <place xml:id="ed_ajp_vgn_yx">
+-                    <placeName type="reg">Fischbach </placeName>
++                    <placeName type="reg">Fischbach</placeName>
+                     <note>Schloss im Hirschberger Tal</note>
+                 </place>
+                 <place xml:id="ed_nx5_22d_xz">
+@@ -647,19 +638,15 @@
+                     <listPlace>
+                         <place xml:id="prov_b2h_mht_1v" type="building">
+                             <placeName type="reg">Palazzo Altoviti</placeName>
+-                            <listPlace>
+-                                <place xml:id="ediarum_lsz_nz2_sgb" type="building">
+-                                    <idno type="uri">http://d-nb.info/gnd/4097998-2</idno>
+-                                    <placeName type="reg">Santa Maria del Fiore
+-                                        (Kathedrale/Dom)</placeName>
+-                                    <listPlace>
+-                                        <place xml:id="ediarum_cdd_1mg_gjb" type="building">
+-                                            <placeName type="reg">Uffizien </placeName>
+-                                            <placeName type="alt">Galleria degli Uffizi</placeName>
+-                                        </place>
+-                                    </listPlace>
+-                                </place>
+-                            </listPlace>
++                        </place>
++                        <place xml:id="ediarum_lsz_nz2_sgb" type="building">
++                            <idno type="uri">http://d-nb.info/gnd/4097998-2</idno>
++                            <placeName type="reg">Santa Maria del Fiore</placeName>
++                            <note>Kathedrale/Dom</note>
++                        </place>
++                        <place xml:id="ediarum_cdd_1mg_gjb" type="building">
++                            <placeName type="reg">Uffizien</placeName>
++                            <placeName type="alt">Galleria degli Uffizi</placeName>
+                         </place>
+                     </listPlace>
+                 </place>
+@@ -726,7 +713,7 @@
+                 </place>
+                 <place xml:id="ed_mcw_nth_yx">
+                     <idno type="uri">http://www.geonames.org/557882</idno>
+-                    <placeName type="reg">Gumbinnen</placeName>
++                    <placeName type="reg">Gumbinnen </placeName>
+                     <placeName type="alt">russ. Gussew</placeName>
+                 </place>
+                 <place xml:id="ed_cj1_q3w_dw">
+@@ -791,11 +778,13 @@
+                     </listPlace>
+                 </place>
+                 <place xml:id="ed_sbq_1yw_nw">
+-                    <placeName type="reg">Ida - Berg</placeName>
++                    <placeName type="reg">Ida</placeName>
++                    <note>Berg</note>
+                 </place>
+                 <place xml:id="ed_trc_rkv_mx">
+                     <idno type="uri">http://www.geonames.org/1367324</idno>
+-                    <placeName type="reg">Indus - Fluss</placeName>
++                    <placeName type="reg">Indus</placeName>
++                    <note>Fluss</note>
+                 </place>
+                 <place xml:id="ed_r3k_pqt_h1b">
+                     <idno type="uri">http://www.geonames.org/2775220</idno>
+@@ -841,7 +830,7 @@
+                 </place>
+                 <place xml:id="ed_ez3_zll_vw">
+                     <idno type="uri">http://www.geonames.org/3073798</idno>
+-                    <placeName type="reg">Karlstein </placeName>
++                    <placeName type="reg">Karlstein</placeName>
+                     <note>bei Prag</note>
+                 </place>
+                 <place xml:id="ed_iqb_lj1_kw">
+@@ -922,7 +911,7 @@
+                 </place>
+                 <place xml:id="ed_w42_mth_yx">
+                     <idno type="uri">http://www.geonames.org/597427</idno>
+-                    <placeName type="reg">Litauen </placeName>
++                    <placeName type="reg">Litauen</placeName>
+                     <placeName type="alt">Lithauen</placeName>
+                 </place>
+                 <place xml:id="prov_zr2_yb3_g5">
+@@ -935,7 +924,7 @@
+                 </place>
+                 <place xml:id="ed_hpm_vnv_h1b">
+                     <idno type="uri">http://www.geonames.org/7286370</idno>
+-                    <placeName type="reg">Lonay </placeName>
++                    <placeName type="reg">Lonay</placeName>
+                     <note>Gemeinde im Distrikt Morges des Kantons Waadt</note>
+                 </place>
+                 <place xml:id="prov_efv_ssv_rv">
+@@ -961,6 +950,11 @@
+                     <placeName type="reg">Mailand</placeName>
+                     <placeName type="alt">Mayland</placeName>
+                 </place>
++                <place xml:id="ed_ktz_zfb_qkb">
++                    <placeName type="reg">Malmaison</placeName>
++                    <note>Schloss Malmaison westlich von Paris, Wohnsitz von Kaiser Napoleon und
++                        seiner Frau Joséphine, mit Kunstsammlung</note>
++                </place>
+                 <place xml:id="prov_rm1_drg_w5">
+                     <idno type="uri">http://www.geonames.org/2562770</idno>
+                     <placeName type="reg">Malta</placeName>
+@@ -979,7 +973,8 @@
+                 </place>
+                 <place xml:id="ed_ftz_mtt_1z">
+                     <idno type="uri">http://www.geonames.org/3071024</idno>
+-                    <placeName type="reg">Marienbad in Böhmen</placeName>
++                    <placeName type="reg">Marienbad</placeName>
++                    <note>Böhmen</note>
+                 </place>
+                 <place xml:id="ed_ynt_4ll_vw">
+                     <idno type="uri">http://www.geonames.org/2872155</idno>
+@@ -988,8 +983,6 @@
+                         <place xml:id="ediarum_edm_pll_vw" type="building">
+                             <placeName type="reg">Dom</placeName>
+                         </place>
+-                    </listPlace>
+-                    <listPlace>
+                         <place xml:id="ediarum_tgk_qll_vw" type="">
+                             <placeName type="reg">Gemäldesammlung</placeName>
+                         </place>
+@@ -1009,7 +1002,7 @@
+                 </place>
+                 <place xml:id="prov_wfc_xs2_cv">
+                     <idno type="uri">http://www.geonames.org/6697959</idno>
+-                    <placeName type="reg">Monte Cassino</placeName>
++                    <placeName type="reg">Monte Cassino </placeName>
+                     <placeName type="alt">Montecassino</placeName>
+                 </place>
+                 <place xml:id="ed_hn1_qp3_5y">
+@@ -1022,11 +1015,9 @@
+                     <listPlace>
+                         <place xml:id="ediarum_l5g_pxs_vz" type="building">
+                             <placeName type="reg">Gemäldegalerie</placeName>
+-                            <listPlace>
+-                                <place xml:id="ediarum_zqc_jjf_gjb" type="building">
+-                                    <placeName type="reg">Kunstmuseum, Königliches</placeName>
+-                                </place>
+-                            </listPlace>
++                        </place>
++                        <place xml:id="ediarum_zqc_jjf_gjb" type="building">
++                            <placeName type="reg">Kunstmuseum, Königliches</placeName>
+                         </place>
+                     </listPlace>
+                 </place>
+@@ -1035,7 +1026,7 @@
+                     <placeName type="reg">Münster</placeName>
+                 </place>
+                 <place xml:id="prov_npb_xyv_3v">
+-                    <placeName type="reg">Mykene </placeName>
++                    <placeName type="reg">Mykene</placeName>
+                     <note>antike griech. Stadt auf einer Anhöhe nördlich der Ebene von Argos</note>
+                 </place>
+                 <place xml:id="prov_myp_lbv_35">
+@@ -1045,8 +1036,12 @@
+                         <place xml:id="prov_wwy_pqz_1v">
+                             <placeName type="reg">Herculaneum</placeName>
+                         </place>
++                        <place xml:id="ediarum_olf_twt_pjb" type="building">
++                            <placeName type="reg">Königliches Museum</placeName>
++                        </place>
+                         <place xml:id="prov_wn1_plt_y5">
+-                            <placeName type="reg">Pizzofalcone (Hügel bei Neapel)</placeName>
++                            <placeName type="reg">Pizzofalcone</placeName>
++                            <note>Hügel bei Neapel</note>
+                         </place>
+                         <place xml:id="prov_m33_lqz_1v">
+                             <placeName type="reg">San Giorgio a Cremano</placeName>
+@@ -1060,34 +1055,25 @@
+                         </place>
+                         <place xml:id="prov_pqd_p14_y5" type="building">
+                             <placeName type="reg">Villa Reale</placeName>
+-                            <listPlace>
+-                                <place xml:id="ediarum_olf_twt_pjb" type="building">
+-                                    <placeName type="reg">Königliches Museum</placeName>
+-                                </place>
+-                            </listPlace>
+                         </place>
+                     </listPlace>
+                 </place>
+                 <place xml:id="prov_m2n_kdw_3v">
+                     <idno type="uri">http://www.geonames.org/262565</idno>
+-                    <placeName type="reg">Negropont </placeName>
+-                    <placeName type="alt">Euböa</placeName>
++                    <placeName type="reg">Negropont (Euböa)</placeName>
+                     <note>griech. Insel</note>
+                 </place>
+                 <place xml:id="ed_bxz_1p3_5y">
+                     <idno type="uri">http://www.geonames.org/3172327</idno>
+-                    <placeName type="reg">Nemi-See </placeName>
+-                    <note>Lacus nemorensis</note>
++                    <placeName type="reg">Nemi-See (Lacus nemorensis)</placeName>
+                 </place>
+                 <place xml:id="prov_ql2_h5w_pv">
+                     <idno type="uri">http://www.geonames.org/2862926</idno>
+-                    <placeName type="reg">Niederdeutschland </placeName>
+-                    <note>= Niedersachsen</note>
++                    <placeName type="reg">Niederdeutschland (= Niedersachsen)</placeName>
+                 </place>
+                 <place xml:id="prov_hll_2st_y5">
+                     <idno type="uri">http://www.geonames.org/2750405</idno>
+-                    <placeName type="reg">Niederlande </placeName>
+-                    <placeName type="alt">Holland</placeName>
++                    <placeName type="reg">Niederlande (Holland)</placeName>
+                 </place>
+                 <place xml:id="prov_t5h_qsv_pv">
+                     <idno type="uri">http://www.geonames.org/2862926</idno>
+@@ -1110,7 +1096,7 @@
+                     <placeName type="reg">Oberitalien</placeName>
+                 </place>
+                 <place xml:id="ed_xbr_xlg_yy">
+-                    <placeName type="reg">Obrzistwy </placeName>
++                    <placeName type="reg">Obrzistwy</placeName>
+                     <note>Schloss in Böhmen</note>
+                 </place>
+                 <place xml:id="prov_rky_5fz_x5">
+@@ -1149,8 +1135,7 @@
+                 </place>
+                 <place xml:id="ed_vcl_dgq_lx">
+                     <idno type="uri">http://www.geonames.org/3171709</idno>
+-                    <placeName type="reg">Paestum </placeName>
+-                    <placeName type="alt">Pesto</placeName>
++                    <placeName type="reg">Paestum (Pesto)</placeName>
+                 </place>
+                 <place xml:id="ed_vf2_r3q_lx">
+                     <idno type="uri">http://www.geonames.org/2523920</idno>
+@@ -1171,23 +1156,17 @@
+                 <place xml:id="prov_tnd_dt1_5v">
+                     <idno type="uri">http://www.geonames.org/2988507</idno>
+                     <placeName type="reg">Paris</placeName>
+-                    <listPlace>
+-                        <place xml:id="prov_fvj_2t1_5v" type="building">
+-                            <placeName type="reg">National-Museum</placeName>
+-                            <placeName type="alt">Musée Napoléon</placeName>
+-                        </place>
+-                    </listPlace>
+-                    <listPlace>
+-                        <place xml:id="ediarum_lrw_qpk_jw" type="building">
+-                            <placeName type="reg">Sainte Chapelle </placeName>
+-                            <placeName type="alt">Heilige Kapelle</placeName>
+-                        </place>
+-                    </listPlace>
+                     <listPlace>
+                         <place xml:id="ediarum_ikv_m3y_5y" type="building">
+                             <placeName type="reg">Musée de Sculpture antique et moderne par M. le
+                                 comte de Clarac</placeName>
+                         </place>
++                        <place xml:id="prov_fvj_2t1_5v" type="building">
++                            <placeName type="reg">National-Museum, Musée Napoléon</placeName>
++                        </place>
++                        <place xml:id="ediarum_lrw_qpk_jw" type="building">
++                            <placeName type="reg">Sainte Chapelle (Heilige Kapelle)</placeName>
++                        </place>
+                     </listPlace>
+                 </place>
+                 <place xml:id="prov_ixb_grr_js">
+@@ -1195,13 +1174,12 @@
+                     <placeName type="reg">Parma</placeName>
+                 </place>
+                 <place xml:id="ed_d5n_bv1_nx">
+-                    <placeName type="reg">Pasargadae </placeName>
++                    <placeName type="reg">Pasargadae</placeName>
+                     <note>altpersische Residenzstadt</note>
+                 </place>
+                 <place xml:id="prov_kk2_gtg_w5">
+                     <idno type="uri">http://www.geonames.org/3170053</idno>
+-                    <placeName type="reg">Pausilipp </placeName>
+-                    <placeName type="alt">Posillipo</placeName>
++                    <placeName type="reg">Pausilipp (Posillipo)</placeName>
+                     <note>Vorgebirge bei Neapel</note>
+                 </place>
+                 <place xml:id="prov_glr_2vw_3v">
+@@ -1221,14 +1199,13 @@
+                         zwischen Rhein und Donau</note>
+                 </place>
+                 <place xml:id="prov_xz4_lxv_3v">
+-                    <placeName type="reg">Phigalia </placeName>
+-                    <placeName type="alt">Phigaleia</placeName>
++                    <placeName type="reg">Phigalia (Phigaleia)</placeName>
+                     <note>auf der Peloponnes</note>
+                 </place>
+                 <place xml:id="prov_znx_shc_gv">
+                     <idno type="uri">http://www.geonames.org/4560349</idno>
+-                    <placeName type="reg">Philadelphia </placeName>
+-                    <note>in Amerika</note>
++                    <placeName type="reg">Philadelphia</placeName>
++                    <note>Amerika</note>
+                 </place>
+                 <place xml:id="ed_v1f_4bq_5x">
+                     <placeName type="reg">Phönizien</placeName>
+@@ -1260,8 +1237,7 @@
+                     <placeName type="reg">Ponte lupo</placeName>
+                 </place>
+                 <place xml:id="prov_bmn_hvy_z5">
+-                    <placeName type="reg">Pontinische Sümpfe </placeName>
+-                    <placeName type="alt">Agro Pontino</placeName>
++                    <placeName type="reg">Pontinische Sümpfe (Agro Pontino)</placeName>
+                 </place>
+                 <place xml:id="prov_tgf_hsy_z5">
+                     <idno type="uri">http://www.geonames.org/3170116</idno>
+@@ -1271,56 +1247,37 @@
+                     <idno type="uri">http://www.geonames.org/2852458</idno>
+                     <placeName type="reg">Potsdam</placeName>
+                     <listPlace>
++                        <place xml:id="ediarum_typ_4bs_5fb" type="building">
++                            <placeName type="reg">Antikentempel</placeName>
++                        </place>
++                        <place xml:id="ediarum_n44_mxj_kfb" type="">
++                            <placeName type="reg">Heiliger See</placeName>
++                        </place>
++                        <place xml:id="ediarum_k2s_slw_jgb" type="building">
++                            <placeName type="reg">Kavalierhaus</placeName>
++                            <note>beherbergte Antiken aus der königlichen Sammlung</note>
++                        </place>
+                         <place xml:id="prov_ckg_snx_2v" type="building">
+                             <placeName type="reg">Königliche Schlösser</placeName>
+                         </place>
++                        <place xml:id="ediarum_xgz_twc_5z" type="building">
++                            <placeName type="reg">Marmorpalais</placeName>
++                        </place>
+                         <place xml:id="prov_dxc_dxt_hv" type="street">
+                             <placeName type="reg">Neuer Garten</placeName>
+                         </place>
+-                    </listPlace>
+-                    <listPlace>
+-                        <place xml:id="ediarum_xgz_twc_5z" type="building">
+-                            <placeName type="reg">Marmorpalais</placeName>
+-                            <listPlace>
+-                                <place xml:id="ediarum_n44_mxj_kfb" type="">
+-                                    <placeName type="reg">Heiliger See</placeName>
+-                                    <listPlace>
+-                                        <place xml:id="ediarum_typ_4bs_5fb" type="building">
+-                                            <placeName type="reg">Antikentempel</placeName>
+-                                            <listPlace>
+-                                                <place xml:id="ediarum_k2s_slw_jgb" type="building">
+-                                                  <placeName type="reg">Kavalierhaus (beherbergte
+-                                                  Antiken aus der königlichen Sammlung)</placeName>
+-                                                  <listPlace>
+-                                                  <place xml:id="ediarum_gdv_3cz_w3b" type="building">
+-                                                  <placeName type="reg">Sanssouci -
+-                                                  Gemäldegallerie</placeName>
+-                                                  <listPlace>
+-                                                  <place xml:id="ediarum_gd5_kcz_w3b" type="building">
+-                                                  <placeName type="reg">Sanssouci -
+-                                                  Schloss</placeName>
+-                                                  <listPlace>
+-                                                  <place xml:id="ediarum_hd4_ldz_w3b" type="">
+-                                                  <placeName type="reg">Sanssouci -
+-                                                  Parkanlagen</placeName>
+-                                                  <listPlace>
+-                                                  <place xml:id="ediarum_ms2_rdz_w3b" type="building">
+-                                                  <placeName type="reg">Neues Palais (im Park
+-                                                  Sanssouci)</placeName>
+-                                                  </place>
+-                                                  </listPlace>
+-                                                  </place>
+-                                                  </listPlace>
+-                                                  </place>
+-                                                  </listPlace>
+-                                                  </place>
+-                                                  </listPlace>
+-                                                </place>
+-                                            </listPlace>
+-                                        </place>
+-                                    </listPlace>
+-                                </place>
+-                            </listPlace>
++                        <place xml:id="ediarum_ms2_rdz_w3b" type="building">
++                            <placeName type="reg">Neues Palais</placeName>
++                            <note>im Park Sanssouci</note>
++                        </place>
++                        <place xml:id="ediarum_gdv_3cz_w3b" type="building">
++                            <placeName type="reg">Sanssouci - Gemäldegallerie</placeName>
++                        </place>
++                        <place xml:id="ediarum_hd4_ldz_w3b" type="">
++                            <placeName type="reg">Sanssouci - Parkanlagen</placeName>
++                        </place>
++                        <place xml:id="ediarum_gd5_kcz_w3b" type="building">
++                            <placeName type="reg">Sanssouci - Schloss</placeName>
+                         </place>
+                     </listPlace>
+                 </place>
+@@ -1333,8 +1290,7 @@
+                 </place>
+                 <place xml:id="ed_qnn_vrh_px">
+                     <idno type="uri">http://www.geonames.org/3013726</idno>
+-                    <placeName type="reg">Pyrenäen </placeName>
+-                    <placeName type="alt">Pyrénées</placeName>
++                    <placeName type="reg">Pyrenäen (Pyrénées)</placeName>
+                 </place>
+                 <place xml:id="prov_gtl_bgv_dv">
+                     <idno type="uri">http://www.geonames.org/2953379</idno>
+@@ -1372,34 +1328,38 @@
+                     <placeName type="reg">Rom</placeName>
+                     <listPlace>
+                         <place xml:id="prov_rz2_2yx_bv" type="building">
+-                            <placeName type="reg">Académie de France à Rome </placeName>
++                            <placeName type="reg">Académie de France à Rome</placeName>
+                             <note>1725-1793 und 1801-1803 im Palazzo Mancini</note>
+                         </place>
+                         <place xml:id="prov_al3_lvs_tv" type="building">
+-                            <placeName type="reg">Belvedere </placeName>
++                            <placeName type="reg">Belvedere</placeName>
+                             <note>zum Vatikan gehörend</note>
+                         </place>
+                         <place xml:id="prov_ncm_twc_cv" type="street">
+                             <placeName type="reg">Chiavica di Fiano</placeName>
+                         </place>
++                        <place xml:id="ediarum_gdh_pvb_wy" type="building">
++                            <placeName type="reg">Forum Romanum</placeName>
++                        </place>
+                         <place xml:id="prov_txn_5xc_cv">
+-                            <placeName type="reg">Ghetto (abgeschlossenes Wohnviertel der Juden in
+-                                Rom)</placeName>
++                            <placeName type="reg">Ghetto</placeName>
++                            <note>abgeschlossenes Wohnviertel der Juden in Rom</note>
+                         </place>
+                         <place xml:id="prov_hkm_bhl_1v" type="building">
+                             <placeName type="reg">Kapitol</placeName>
+                         </place>
++                        <place xml:id="ediarum_fwr_bxh_hhb" type="building">
++                            <placeName type="reg">Kapitolinische Museen</placeName>
++                        </place>
+                         <place xml:id="prov_fv2_kql_cv" type="building">
+-                            <placeName type="reg">Locanda des Herrn Sermiento </placeName>
++                            <placeName type="reg">Locanda des Herrn Sermiento</placeName>
+                             <note>am Spanischen Platz</note>
+                         </place>
+                         <place xml:id="prov_kzt_j5s_tv">
+-                            <placeName type="reg">Monte Cavallo </placeName>
+-                            <placeName type="alt">= der Hügel Quirinal</placeName>
++                            <placeName type="reg">Monte Cavallo (= der Hügel Quirinal)</placeName>
+                         </place>
+                         <place xml:id="prov_axh_v5s_tv" type="street">
+-                            <placeName type="reg">Montecitorio </placeName>
+-                            <placeName type="alt">Piazza Montecitorio</placeName>
++                            <placeName type="reg">Montecitorio (Piazza)</placeName>
+                         </place>
+                         <place xml:id="prov_wbl_cbj_sv">
+                             <placeName type="reg">Monte Palatino</placeName>
+@@ -1407,10 +1367,16 @@
+                         <place xml:id="prov_lnc_q5s_tv">
+                             <placeName type="reg">Monte Pincio</placeName>
+                         </place>
++                        <place xml:id="ediarum_e41_t4m_qx" type="building">
++                            <placeName type="reg">Museum Kircherianum</placeName>
++                        </place>
+                         <place xml:id="prov_e5g_1xc_cv" type="building">
+                             <placeName type="reg">Palazzo Chigi</placeName>
+                             <placeName type="alt"> Villa Chigi, gen. "La Farnesina"</placeName>
+                         </place>
++                        <place xml:id="ediarum_ffm_zmz_xz" type="building">
++                            <placeName type="reg">Palazzo Farnese</placeName>
++                        </place>
+                         <place xml:id="prov_m2c_zwy_z5" type="building">
+                             <placeName type="reg">Palazzo Giustiniani</placeName>
+                         </place>
+@@ -1431,12 +1397,22 @@
+                             <placeName type="reg">Piazza Navona</placeName>
+                         </place>
+                         <place xml:id="prov_v43_prt_cv" type="building">
+-                            <placeName type="reg">Ponte Molle </placeName>
+-                            <placeName type="alt">Ponte Milvio, Milvische Brücke</placeName>
++                            <placeName type="reg">Ponte Molle (Ponte Milvio, Milvische
++                                Brücke)</placeName>
+                         </place>
+                         <place xml:id="prov_ht4_yh3_g5" type="building">
+                             <placeName type="reg">Pyramide des Caius Cestius</placeName>
+                         </place>
++                        <place xml:id="ediarum_vqj_33h_wz" type="building">
++                            <placeName type="reg">Santa Maria dell'Anima (Deutsche katholische
++                                Nationalkirche)</placeName>
++                        </place>
++                        <place xml:id="ediarum_nxb_cfc_wz" type="building">
++                            <placeName type="reg">Santa Trinità de' monti</placeName>
++                        </place>
++                        <place xml:id="ediarum_qxy_tby_rgb" type="building">
++                            <placeName type="reg">Sixtinische Kapelle (Capella Sistina)</placeName>
++                        </place>
+                         <place xml:id="prov_anz_ynj_gv" type="building">
+                             <placeName type="reg">Vatikanische Museen</placeName>
+                             <placeName type="alt">Museo Pio Clementino</placeName>
+@@ -1447,6 +1423,9 @@
+                         <place xml:id="prov_m4l_jpc_cv" type="street">
+                             <placeName type="reg">Via del Corso</placeName>
+                         </place>
++                        <place xml:id="ediarum_ynk_2xw_kfb" type="building">
++                            <placeName type="reg">Villa Albani</placeName>
++                        </place>
+                         <place xml:id="prov_o3t_gyj_bs" type="building">
+                             <placeName type="reg">Villa Borghese / Galleria Borghese</placeName>
+                         </place>
+@@ -1457,49 +1436,6 @@
+                             <placeName type="reg">Villa Varnese</placeName>
+                         </place>
+                     </listPlace>
+-                    <listPlace>
+-                        <place xml:id="ediarum_e41_t4m_qx" type="building">
+-                            <placeName type="reg">Museum Kircherianum</placeName>
+-                        </place>
+-                    </listPlace>
+-                    <listPlace>
+-                        <place xml:id="ediarum_gdh_pvb_wy" type="building">
+-                            <placeName type="reg">Forum Romanum</placeName>
+-                        </place>
+-                    </listPlace>
+-                    <listPlace>
+-                        <place xml:id="ediarum_nxb_cfc_wz" type="building">
+-                            <placeName type="reg">Santa Trinità de' monti</placeName>
+-                        </place>
+-                    </listPlace>
+-                    <listPlace>
+-                        <place xml:id="ediarum_vqj_33h_wz" type="building">
+-                            <placeName type="reg">Santa Maria dell'Anima </placeName>
+-                            <note>Deutsche katholische Nationalkirche</note>
+-                        </place>
+-                    </listPlace>
+-                    <listPlace>
+-                        <place xml:id="ediarum_ffm_zmz_xz" type="building">
+-                            <placeName type="reg">Palazzo Farnese</placeName>
+-                            <listPlace>
+-                                <place xml:id="ediarum_ynk_2xw_kfb" type="building">
+-                                    <placeName type="reg">Villa Albani</placeName>
+-                                    <listPlace>
+-                                        <place xml:id="ediarum_qxy_tby_rgb" type="building">
+-                                            <placeName type="reg">Sixtinische Kapelle</placeName>
+-                                            <placeName type="alt">Capella Sistina</placeName>
+-                                            <listPlace>
+-                                                <place xml:id="ediarum_fwr_bxh_hhb" type="building">
+-                                                  <placeName type="reg">Kapitolinische
+-                                                  Museen</placeName>
+-                                                </place>
+-                                            </listPlace>
+-                                        </place>
+-                                    </listPlace>
+-                                </place>
+-                            </listPlace>
+-                        </place>
+-                    </listPlace>
+                 </place>
+                 <place xml:id="ed_p1n_mrb_hhb">
+                     <placeName type="reg">Kyrene</placeName>
+@@ -1527,7 +1463,7 @@
+                 </place>
+                 <place xml:id="prov_jvv_2cr_2v">
+                     <idno type="uri">http://www.geonames.org/2842700</idno>
+-                    <placeName type="reg">Saale </placeName>
++                    <placeName type="reg">Saale</placeName>
+                     <note>Fluß</note>
+                 </place>
+                 <place xml:id="prov_scc_rbr_2v">
+@@ -1539,21 +1475,18 @@
+                 </place>
+                 <place xml:id="ed_c2k_4z2_xz">
+                     <idno type="uri">http://www.geonames.org/2842163</idno>
+-                    <placeName type="reg">Salzdahlum </placeName>
+-                    <placeName type="alt">Salzdahlen</placeName>
++                    <placeName type="reg">Salzdahlum (Salzdahlen)</placeName>
+                 </place>
+                 <place xml:id="prov_g22_lxd_cv">
+                     <placeName type="reg">San Marino</placeName>
+-                    <note><ref target="https://de.wikipedia.org/wiki/San_Marino">Wikipedia</ref>
+-                    </note>
++                    <note>https://de.wikipedia.org/wiki/San_Marino<ref target="https://de.wikipedia.org/wiki/San_Marino"/></note>
+                 </place>
+                 <place xml:id="prov_umk_mdh_y5">
+                     <placeName type="reg">San Sebastiano</placeName>
+                 </place>
+                 <place xml:id="prov_pkf_bdn_1v">
+                     <placeName type="reg">Savoyen</placeName>
+-                    <note><ref target="https://de.wikipedia.org/wiki/Savoyen">Wikipedia</ref>
+-                    </note>
++                    <note>https://de.wikipedia.org/wiki/Savoyen<ref target="https://de.wikipedia.org/wiki/Savoyen"/></note>
+                 </place>
+                 <place xml:id="ed_uph_xg2_c1b">
+                     <idno type="uri">http://www.geonames.org/3301577</idno>
+@@ -1573,7 +1506,7 @@
+                 </place>
+                 <place xml:id="ed_z4g_nwf_vx">
+                     <idno type="uri">http://www.geonames.org/2835289</idno>
+-                    <placeName type="reg">Schwanebeck </placeName>
++                    <placeName type="reg">Schwanebeck</placeName>
+                     <note>bei Berlin</note>
+                 </place>
+                 <place xml:id="prov_xd3_rdx_w5">
+@@ -1588,7 +1521,7 @@
+                     <placeName type="reg">Siena</placeName>
+                     <listPlace>
+                         <place xml:id="ediarum_rbj_kfs_3jb" type="building">
+-                            <placeName type="reg">Hospital Santa Maria della Scala</placeName>
++                            <placeName type="reg">Hospital (Santa Maria della Scala)</placeName>
+                         </place>
+                     </listPlace>
+                 </place>
+@@ -1607,7 +1540,7 @@
+                         <place xml:id="prov_b5x_grg_w5">
+                             <idno type="uri">http://www.geonames.org/2525764</idno>
+                             <placeName type="reg">Girgenti</placeName>
+-                            <placeName type="alt"> Agrigent</placeName>
++                            <placeName type="alt"> (Agrigent)</placeName>
+                         </place>
+                         <place xml:id="prov_nyb_ksg_w5">
+                             <idno type="uri">http://www.geonames.org/2523920</idno>
+@@ -1615,8 +1548,8 @@
+                         </place>
+                         <place xml:id="prov_syv_2sg_w5">
+                             <idno type="uri">http://www.geonames.org/2525458</idno>
+-                            <placeName type="reg">Segesta (antike Stadt beim heutigen Calatafimi
+-                                Segesta)</placeName>
++                            <placeName type="reg">Segesta</placeName>
++                            <note>antike Stadt beim heutigen Calatafimi Segesta</note>
+                         </place>
+                         <place xml:id="prov_h1m_qrg_w5">
+                             <idno type="uri">http://www.geonames.org/2525083</idno>
+@@ -1638,8 +1571,8 @@
+                 </place>
+                 <place xml:id="prov_f5b_wsv_pv">
+                     <idno type="uri">http://www.geonames.org/2831718</idno>
+-                    <placeName type="reg">Söder - Schloss</placeName>
+-                    <note>In Holler bei Hildesheim</note>
++                    <placeName type="reg">Söder</placeName>
++                    <note>Schloss, In Holler bei Hildesheim</note>
+                 </place>
+                 <place xml:id="prov_v4y_mgk_cv">
+                     <idno type="uri">http://www.geonames.org/3166387</idno>
+@@ -1647,7 +1580,7 @@
+                 </place>
+                 <place xml:id="ed_sww_hjy_sx">
+                     <idno type="uri">http://www.geonames.org/2612862</idno>
+-                    <placeName type="reg">Soröe </placeName>
++                    <placeName type="reg">Soröe</placeName>
+                     <placeName type="alt">Soro</placeName>
+                     <note>Seeland, Dänemark</note>
+                 </place>
+@@ -1670,7 +1603,8 @@
+                 </place>
+                 <place xml:id="prov_ojr_vpg_w5">
+                     <idno type="uri">http://www.geonames.org/2522991</idno>
+-                    <placeName type="reg">Stromboli, Insel</placeName>
++                    <placeName type="reg">Stromboli</placeName>
++                    <note>Insel</note>
+                 </place>
+                 <place xml:id="prov_o5c_fvv_rv">
+                     <idno type="uri">http://www.geonames.org/2825297</idno>
+@@ -1683,8 +1617,7 @@
+                 </place>
+                 <place xml:id="ed_dws_p5n_1y">
+                     <idno type="uri">http://www.geonames.org/3165919</idno>
+-                    <placeName type="reg">Tarquinia </placeName>
+-                    <placeName type="alt">im Mittelalter: Corneto</placeName>
++                    <placeName type="reg">Tarquinia (im Mittelalter: Corneto)</placeName>
+                     <note>etruskische Stadt</note>
+                 </place>
+                 <place xml:id="ed_fs3_24v_d1b">
+@@ -1698,7 +1631,8 @@
+                 </place>
+                 <place xml:id="prov_bsg_sqm_y5">
+                     <idno type="uri">http://www.geonames.org/3165771</idno>
+-                    <placeName type="reg">Terni, Wasserfall</placeName>
++                    <placeName type="reg">Terni</placeName>
++                    <note>Wasserfall</note>
+                 </place>
+                 <place xml:id="prov_lvy_xgl_2v">
+                     <idno type="uri">http://www.geonames.org/252910</idno>
+@@ -1718,8 +1652,7 @@
+                     <listPlace>
+                         <place xml:id="ediarum_ws5_phf_mw" type="">
+                             <idno type="uri">http://www.geonames.org/3180423</idno>
+-                            <placeName type="reg">Marmorbrüche </placeName>
+-                            <note>u.a. Carrara</note>
++                            <placeName type="reg">Marmorbrüche (u.a. Carrara)</placeName>
+                         </place>
+                     </listPlace>
+                 </place>
+@@ -1729,12 +1662,9 @@
+                     <placeName type="alt">Trieste</placeName>
+                 </place>
+                 <place xml:id="prov_lgv_trv_3v">
+-                    <placeName type="reg">Troia </placeName>
++                    <placeName type="reg">Troia</placeName>
+                     <note>Stadt im Altertum in der Landschaft Troas der heutigen Türkei; auf dem
+-                        Hügel Hisarlik; https://de.wikipedia.org/wiki/Troja</note>
+-                </place>
+-                <place xml:id="ed_rrr_d1s_rkb">
+-                    <placeName type="reg">Turin</placeName>
++                        Hügel Hisarlik, https://de.wikipedia.org/wiki/Troja<ref target="https://de.wikipedia.org/wiki/Troja"/></note>
+                 </place>
+                 <place xml:id="ed_j5f_5br_5x">
+                     <placeName type="reg">Tyros</placeName>
+@@ -1743,8 +1673,8 @@
+                 </place>
+                 <place xml:id="ed_oks_lxx_zw">
+                     <idno type="uri">http://www.geonames.org/2820600</idno>
+-                    <placeName type="reg">Überauchen </placeName>
+-                    <placeName type="alt">Gemeinde Brigachtal</placeName>
++                    <placeName type="reg">Überauchen</placeName>
++                    <note>Gemeinde Brigachtal</note>
+                 </place>
+                 <place xml:id="ed_iwc_dj1_kw">
+                     <idno type="uri">http://www.geonames.org/3165072</idno>
+@@ -1767,16 +1697,14 @@
+                 <place xml:id="prov_tgx_1c3_g5">
+                     <idno type="uri">http://www.geonames.org/3164603</idno>
+                     <placeName type="reg">Venedig</placeName>
+-                    <listPlace>
+-                        <place xml:id="ediarum_h2r_hq2_mw" type="building">
+-                            <placeName type="reg">Santi Giovanni e Paolo </placeName>
+-                            <placeName type="alt">venezianisch: San Zanipolo</placeName>
+-                        </place>
+-                    </listPlace>
+                     <listPlace>
+                         <place xml:id="ediarum_fwp_yz2_mw" type="building">
+                             <placeName type="reg">Chiesa di Santo Stefano</placeName>
+                         </place>
++                        <place xml:id="ediarum_h2r_hq2_mw" type="building">
++                            <placeName type="reg">Santi Giovanni e Paolo (venezianisch: San
++                                Zanipolo)</placeName>
++                        </place>
+                     </listPlace>
+                 </place>
+                 <place xml:id="ed_kdx_ync_lw">
+@@ -1795,8 +1723,7 @@
+                     <placeName type="reg">Via Latina</placeName>
+                 </place>
+                 <place xml:id="prov_w1w_1rm_y5">
+-                    <placeName type="reg">Villa Hadrians </placeName>
+-                    <placeName type="alt">ital. Villa Adriana</placeName>
++                    <placeName type="reg">Villa Hadrians (ital. Villa Adriana)</placeName>
+                 </place>
+                 <place xml:id="ed_dmn_4rx_zw">
+                     <idno type="uri">http://www.geonames.org/2817220</idno>
+@@ -1809,8 +1736,7 @@
+                 </place>
+                 <place xml:id="ed_jcb_yw3_5y">
+                     <idno type="uri">http://www.geonames.org/2761369</idno>
+-                    <placeName type="reg">Vindobona</placeName>
+-                    <placeName type="alt">Wien</placeName>
++                    <placeName type="reg">Vindobona (Wien)</placeName>
+                 </place>
+                 <place xml:id="prov_bbx_g44_y5">
+                     <idno type="uri">http://www.geonames.org/3163962</idno>
+@@ -1829,8 +1755,7 @@
+                     </listPlace>
+                 </place>
+                 <place xml:id="ed_axy_zbq_dz">
+-                    <placeName type="reg">Westphalen </placeName>
+-                    <placeName type="alt">Westfalen</placeName>
++                    <placeName type="reg">Westphalen (Westfalen)</placeName>
+                 </place>
+                 <place xml:id="prov_hrq_zzg_y5">
+                     <idno type="uri">http://www.geonames.org/2761369</idno>
+@@ -1840,8 +1765,6 @@
+                             <idno type="uri">http://www.geonames.org/6354997</idno>
+                             <placeName type="reg">Belvedere</placeName>
+                         </place>
+-                    </listPlace>
+-                    <listPlace>
+                         <place xml:id="ediarum_fn3_x41_kw" type="building">
+                             <placeName type="reg">Kaiserliche Kunstsammlung</placeName>
+                         </place>
+@@ -1865,7 +1788,7 @@
+                     <placeName type="reg">Wörlitz</placeName>
+                     <listPlace>
+                         <place xml:id="ediarum_gxf_pjg_h1b" type="building">
+-                            <placeName type="reg">Luisium </placeName>
++                            <placeName type="reg">Luisium</placeName>
+                             <note>Landhaus der Herzogin Louise von Anhalt-Dessau bei Dessau</note>
+                         </place>
+                     </listPlace>
+diff --git a/hirt/data/Register/Personen.xml b/home/gordon/backup182/db/projects/hirt/data/Register/Personen.xml
+index f13e6c8..d115488 100644
+--- a/hirt/data/Register/Personen.xml
++++ b/home/gordon/backup182/db/projects/hirt/data/Register/Personen.xml
+@@ -1659,6 +1659,19 @@
+                     <death>1823</death>
+                     <note>Maler, Gruppe: Die Römer</note>
+                 </person>
++                <person xml:id="ed_zlw_dws_pkb">
++                    <idno type="uri">http://d-nb.info/gnd/12306628X</idno>
++                    <persName type="reg">
++                        <surname>Bussler (Bußler)</surname>
++                        <forename>Ernst Friedrich</forename>
++                    </persName>
++                    <birth>1773</birth>
++                    <death>1840</death>
++                    <note>Maler und Kupferstecher, 1798 Hofstaatssekretär, 1810 Hofrat, einer der
++                        verantwortlichen Kommissare für die Rückführung der nach Paris entführten
++                        preuß. Kunstgüter, seit 1819 EM der Preuß. Akademie der Künste, Geh. Hofrat
++                        im königl.-preuß. Hofmarschallamt </note>
++                </person>
+                 <person xml:id="ed_evz_j5p_1jb" role="mythological">
+                     <persName type="reg">
+                         <name>Buto</name>
+@@ -1744,6 +1757,16 @@
+                         Wissenschaften; er zeichnete und malte und schuf großformatige anatomische
+                         und osteologische Zeichnungen</note>
+                 </person>
++                <person xml:id="ed_ans_h14_nkb">
++                    <idno type="uri">http://d-nb.info/gnd/116436956</idno>
++                    <persName type="reg">
++                        <surname>Camuccini</surname>
++                        <forename>Vincenzo</forename>
++                    </persName>
++                    <birth>1771</birth>
++                    <death>1844</death>
++                    <note>ital. Maler des Klassizismus, Restaurator und Kunstsammler</note>
++                </person>
+                 <person xml:id="prov_bff_yhn_1v">
+                     <idno type="uri">http://d-nb.info/gnd/118518860</idno>
+                     <persName type="reg">
+@@ -2068,6 +2091,27 @@
+                     <death>1534</death>
+                     <note>ital. Maler der Renaissance</note>
+                 </person>
++                <person xml:id="ed_akz_sjf_nkb">
++                    <idno type="uri"> http://d-nb.info/gnd/118792105</idno>
++                    <persName type="reg">
++                        <surname>Cosimo</surname>
++                        <forename>Piero di</forename>
++                    </persName>
++                    <persName type="alt">
++                        <name>eigentl. Piero di Lorenzo Ubaldini; genannt Cosimo nach seinem Lehrer
++                            Cosimo Rosselli</name>
++                    </persName>
++                    <birth>1462</birth>
++                    <death>1521</death>
++                    <note>ital. Maler und Zeichner der Renaissance</note>
++                </person>
++                <person xml:id="ed_gfr_n5f_nkb" role="mythological">
++                    <persName type="reg">
++                        <name>Tobias</name>
++                    </persName>
++                    <note>Sohn des Tobit im Buch Tobit, einer der Spätschriften des Alten
++                        Testaments</note>
++                </person>
+                 <person xml:id="ed_u5d_gvt_3jb">
+                     <idno type="uri">http://d-nb.info/gnd/122817575</idno>
+                     <persName type="reg">
+@@ -5734,6 +5778,19 @@
+                     <note>ital. Maler, Bildhauer, Architekt, Mechaniker, Ingenieur,
+                         Naturwissenschaftler</note>
+                 </person>
++                <person xml:id="ed_pg1_bzl_pkb">
++                    <idno type="uri">http://d-nb.info/gnd/116943963</idno>
++                    <persName type="reg">
++                        <surname>Lepel</surname>
++                        <forename>Wilhelm Heinrich Ferdinand Karl Graf von</forename>
++                    </persName>
++                    <birth>1755</birth>
++                    <death>1826</death>
++                    <note>königl.-preuß. Gesandter am schwed. Hof in Stockholm, Erb- und Lehnherr
++                        auf Böck, Nassenheide, Plöwen, Blankensee, Frauenhagen und Kuhweide,
++                        Kunstsammler, auswärtiges EM der Akademie der Künste zu Berlin; seine
++                        Kupferstichsammlung kam 1833 ins Kupferstichkabinett Berlin</note>
++                </person>
+                 <person xml:id="ed_whd_mpb_h3b">
+                     <persName type="reg">
+                         <surname>Lequine</surname>
+@@ -8767,6 +8824,16 @@
+                     <death>1494</death>
+                     <note>ital. Maler, Vater Raffaels</note>
+                 </person>
++                <person xml:id="ed_f4z_qfn_pkb">
++                    <idno type="uri"> http://d-nb.info/gnd/119011190</idno>
++                    <persName type="reg">
++                        <surname>Sassoferrato (eigentl. Giovanni Battista Salvi)</surname>
++                        <forename/>
++                    </persName>
++                    <birth>1609</birth>
++                    <death>1685</death>
++                    <note>ital. Maler des Barock</note>
++                </person>
+                 <person xml:id="ed_lwj_bfy_rgb" role="mythological">
+                     <idno type="uri">http://d-nb.info/gnd/118605836</idno>
+                     <persName type="reg">
+@@ -11043,6 +11110,17 @@
+                     <note>wirkte etwa im letzten Drittel des 5. und den ersten Jahren des 4. Jh's v.
+                         Chr., nach antikem Zeugnis einer der berühmtesten griech. Maler</note>
+                 </person>
++                <person xml:id="ed_wqc_45z_pkb">
++                    <persName type="reg">
++                        <surname>Zielcke</surname>
++                        <forename>Leopold Ludwig</forename>
++                    </persName>
++                    <birth>1791</birth>
++                    <death>1861</death>
++                    <note>Architekt und Architekturmaler, Gehilfe von Hummel; Lehrer, seit Nov. 1824
++                        Prof. für perspektivisches Zeichnen an der Akademie der Künste zu
++                        Berlin</note>
++                </person>
+                 <person xml:id="ed_f25_hzs_hw">
+                     <persName type="reg">
+                         <surname>Ziller</surname>
+diff --git a/hirt/data/Register/Werke.xml b/home/gordon/backup182/db/projects/hirt/data/Register/Werke.xml
+index 1a87091..e94d21d 100644
+--- a/hirt/data/Register/Werke.xml
++++ b/home/gordon/backup182/db/projects/hirt/data/Register/Werke.xml
+@@ -50,6 +50,14 @@
+                     <title>Annali dell'Instituto di Corrispondenza Archeologica" (= Annales de
+                         l'Institut de Correspondance Archéologique). Rom 1829 ff.</title>
+                 </bibl>
++                <bibl xml:id="ed_uyj_qyl_pkb">
++                    <author>
++                        <persName><surname>Böttiger</surname><forename>Karl August
++                                (Hrsg.)</forename></persName>
++                    </author>
++                    <title>Artistisches Notizenblatt. Hrsg. von C. A. Böttiger. Dresden, Leipzig
++                        1822 ff.</title>
++                </bibl>
+                 <bibl xml:id="ed_cym_dsg_yv">
+                     <author>
+                         <persName key="prov_ijp_xvr_xr">
+@@ -4017,14 +4025,6 @@
+                         gesetzt von Carl Friedrich Zelter. Leipzig: Peters, [ca. 1810]., 14 S.
+                         [Musikdruck]</title>
+                 </bibl>
+-                <bibl xml:id="ed_hpr_wzl_rkb">
+-                    <author>
+-                        <persName><surname>Zielcke</surname><forename>Leopold
+-                            Ludwig</forename></persName>
+-                    </author>
+-                    <title>Canon der Säulenordnung [Neue Lehre der Griechischen Baukunst] [=
+-                        architektonische Zeichnungen], 1826</title>
+-                </bibl>
+                 <bibl xml:id="prov_m3m_4cj_3v">
+                     <author>
+                         <persName key="prov_ijp_xvr_xr">
+diff --git a/hirt/data/Register/__contents__.xml b/home/gordon/backup182/db/projects/hirt/data/Register/__contents__.xml
+index f84aa95..cd0d275 100644
+--- a/hirt/data/Register/__contents__.xml
++++ b/home/gordon/backup182/db/projects/hirt/data/Register/__contents__.xml
+@@ -1,21 +1,21 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/hirt/data/Register" version="1" owner="exist-bot" group="hirt-nutzer" mode="770" created="2018-09-19T12:57:37.947+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Personen.xml" skip="no" owner="exist-bot" group="hirt-nutzer" mode="770" created="2018-03-22T14:28:27+01:00" modified="2020-01-23T14:31:46+01:00" filename="Personen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Personen.xml" skip="no" owner="exist-bot" group="hirt-nutzer" mode="770" created="2018-03-22T14:28:27.554+01:00" modified="2020-02-06T09:34:04.584+01:00" filename="Personen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Orte.xml" skip="no" owner="exist-bot" group="hirt-nutzer" mode="770" created="2018-03-22T14:28:27+01:00" modified="2020-02-12T11:17:58.895+01:00" filename="Orte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Orte.xml" skip="no" owner="exist-bot" group="hirt-nutzer" mode="770" created="2018-03-22T14:28:27.781+01:00" modified="2020-02-06T16:07:27.891+01:00" filename="Orte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Kunstwerke.xml" skip="no" owner="exist-bot" group="hirt-nutzer" mode="770" created="2018-03-22T14:28:27+01:00" modified="2020-01-21T15:57:55+01:00" filename="Kunstwerke.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Kunstwerke.xml" skip="no" owner="exist-bot" group="hirt-nutzer" mode="770" created="2018-03-22T14:28:27.923+01:00" modified="2020-02-04T16:03:27.413+01:00" filename="Kunstwerke.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Einrichtungen.xml" skip="no" owner="exist-bot" group="hirt-nutzer" mode="770" created="2018-03-22T14:28:27+01:00" modified="2020-01-21T10:45:21+01:00" filename="Einrichtungen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Einrichtungen.xml" skip="no" owner="exist-bot" group="hirt-nutzer" mode="770" created="2018-03-22T14:28:27.989+01:00" modified="2020-02-05T10:22:14.409+01:00" filename="Einrichtungen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Werke.xml" skip="no" owner="exist-bot" group="hirt-nutzer" mode="770" created="2018-03-22T14:28:28+01:00" modified="2020-02-11T15:29:13.114+01:00" filename="Werke.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Werke.xml" skip="no" owner="exist-bot" group="hirt-nutzer" mode="770" created="2018-03-22T14:28:28.075+01:00" modified="2020-02-04T11:42:19.422+01:00" filename="Werke.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Sachbegriffe.xml" skip="no" owner="dumont" group="hirt-nutzer" mode="660" created="2019-01-22T16:48:15+01:00" modified="2019-01-28T17:22:04+01:00" filename="Sachbegriffe.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sachbegriffe.xml" skip="no" owner="dumont" group="hirt-nutzer" mode="660" created="2019-01-22T16:48:15.085+01:00" modified="2019-01-28T17:22:04.237+01:00" filename="Sachbegriffe.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

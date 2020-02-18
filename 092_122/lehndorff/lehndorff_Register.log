@@ -1,0 +1,1975 @@
+diff --git a/lehndorff/data/Register/Koerperschaften.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Koerperschaften.xml
+index b5ffd33..3ae842e 100644
+--- a/lehndorff/data/Register/Koerperschaften.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Koerperschaften.xml
+@@ -16,6 +16,34 @@
+     <text>
+         <body>
+             <listOrg>
++                <org xml:id="ed_cgf_4j2_3kb">
++                    <orgName type="reg">Märkisch-Oekonomische Gesellschaft</orgName>
++                </org>
++                <org xml:id="ed_dh5_p4b_hkb">
++                    <orgName type="reg">Amt Barten</orgName>
++                </org>
++                <org xml:id="ed_ajw_1sy_fjb">
++                    <orgName type="reg">Buch-, Kunst- und Musikalien-Handlung Wilhelm Koch
++                        Königsberg</orgName>
++                </org>
++                <org xml:id="ed_ykj_15y_fjb">
++                    <orgName type="reg">Finanzministerium Berlin</orgName>
++                </org>
++                <org xml:id="ed_hxf_yhm_33b">
++                    <orgName type="reg">Arnstein und Eskeles Wien</orgName>
++                </org>
++                <org xml:id="ed_gcq_4sj_f3b">
++                    <orgName type="reg">Altstädtisches Gymnasium Königsberg</orgName>
++                </org>
++                <org xml:id="ed_l1k_cdj_f3b">
++                    <orgName type="reg">Bürgermeister und Rat zu Memel</orgName>
++                </org>
++                <org xml:id="ed_fw4_kdc_rhb">
++                    <orgName type="reg">Stadtgericht Königsberg</orgName>
++                </org>
++                <org xml:id="ed_kkj_z3n_ngb">
++                    <orgName type="reg">Societas Cassiana</orgName>
++                </org>
+                 <org xml:id="ed_lxy_j3w_c2b">
+                     <orgName type="reg">Académie Militaire (Kriegsakademie) Berlin</orgName>
+                 </org>
+@@ -34,15 +62,9 @@
+                 <org xml:id="ed_yxf_1jn_my">
+                     <orgName type="reg">Allendorfsche Holzhandlung Breslau</orgName>
+                 </org>
+-                <org xml:id="ed_gcq_4sj_f3b">
+-                    <orgName type="reg">Altstädtisches Gymnasium Königsberg</orgName>
+-                </org>
+                 <org xml:id="ed_r2q_dc1_tcb">
+                     <orgName type="reg">Amt Angerburg</orgName>
+                 </org>
+-                <org xml:id="ed_dh5_p4b_hkb">
+-                    <orgName type="reg">Amt Barten</orgName>
+-                </org>
+                 <org xml:id="ed_wj1_2c1_tcb">
+                     <orgName type="reg">Amt Memel</orgName>
+                 </org>
+@@ -52,9 +74,6 @@
+                 <org xml:id="ed_zsz_nj5_c2b">
+                     <orgName type="reg">Appellationsgericht Insterburg</orgName>
+                 </org>
+-                <org xml:id="ed_hxf_yhm_33b">
+-                    <orgName type="reg">Arnstein und Eskeles Wien</orgName>
+-                </org>
+                 <org xml:id="ed_cyf_xfv_12b">
+                     <orgName type="reg">Artibus Kunsthandel Berlin</orgName>
+                 </org>
+@@ -92,28 +111,21 @@
+                 <org xml:id="ed_gnt_ztc_mfb">
+                     <orgName type="reg">Bethesdaanstalt Angerburg</orgName>
+                 </org>
+-                <org xml:id="ed_ajw_1sy_fjb">
+-                    <orgName type="reg">Buch-, Kunst- und Musikalien-Handlung Wilhelm Koch
+-                        Königsberg</orgName>
+-                </org>
+                 <org xml:id="ed_cfr_v3w_h2b">
+                     <orgName type="reg">Bund der Landwirte</orgName>
+                 </org>
+-                <org xml:id="ed_l1k_cdj_f3b">
+-                    <orgName type="reg">Bürgermeister und Rat zu Memel</orgName>
+-                </org>
+                 <org xml:id="ed_kjq_5tw_22b">
+                     <orgName type="reg">Carl Fr. Gottlob Eisenhard, Textilfabrikant,
+                         Berlin</orgName>
+                 </org>
+                 <org xml:id="ed_usb_pfm_gbb">
+-                    <orgName type="reg">Charité zu Berlin</orgName>
++                    <orgName type="reg">Charité </orgName>
+                 </org>
+                 <org xml:id="ed_k11_xgw_h2b">
+                     <orgName type="reg">Chemische Fabrik Petschow-Davidsohn Danzig</orgName>
+                 </org>
+                 <org xml:id="ed_yfp_f3d_py">
+-                    <orgName type="reg">Deutsche Bibel-Gesellschaft</orgName>
++                    <orgName type="reg">Deutsche Bibelgesellschaft</orgName>
+                 </org>
+                 <org xml:id="ed_rvf_c4h_my">
+                     <orgName type="reg">Deutsche Eisenbahn-Gesellschaft</orgName>
+@@ -127,11 +139,12 @@
+                 <org xml:id="ed_uyf_nyh_mfb">
+                     <orgName type="reg">Dreifaltigkeitskirche Berlin</orgName>
+                 </org>
++                
+                 <org xml:id="ed_ebc_fl5_h2b">
+                     <orgName type="reg">Druckerei Emil Rautenburg Königsberg</orgName>
+                 </org>
+                 <org xml:id="ed_jgv_gbz_5x">
+-                    <orgName type="reg">Einkommensteuer-Einschätzungskommission Kreis
++                    <orgName type="reg">Einkommensteuer-Einschätzungskommission, Kreis
+                         Angerburg</orgName>
+                 </org>
+                 <org xml:id="ed_dqv_hwz_g2b">
+@@ -141,7 +154,7 @@
+                     <orgName type="reg">Erbhauptamt Gerdauen</orgName>
+                 </org>
+                 <org xml:id="ed_mgd_rgv_sy">
+-                    <orgName type="reg">Ostpreußisches Etats-Ministerium</orgName>
++                    <orgName type="reg">Etat-Ministerium</orgName>
+                 </org>
+                 <org xml:id="ed_qhc_jkv_ccb">
+                     <orgName type="reg">Evangelische Kirche Rosengarten</orgName>
+@@ -159,17 +172,15 @@
+                     <orgName type="reg">F. A. Perthes Verlag Gotha</orgName>
+                 </org>
+                 <org xml:id="ed_p1g_vl5_22b">
+-                    <orgName type="reg">F. H. Koethe Handlung Königsberg</orgName>
++                    <orgName type="reg">F. H. Koethe, Handlung, Königsberg</orgName>
+                 </org>
+                 <org xml:id="ed_u5j_f25_sdb">
+                     <orgName type="reg">Fa. Niethammer Kriebstein</orgName>
+                 </org>
+-                <org xml:id="ed_ykj_15y_fjb">
+-                    <orgName type="reg">Finanzministerium Berlin</orgName>
+-                </org>
+                 <org xml:id="ed_v5h_ypj_tcb">
+                     <orgName type="reg">Französisches Colonie-Gericht Berlin</orgName>
+                 </org>
++               
+                 <org xml:id="ed_yz5_xnm_zdb">
+                     <orgName type="reg">Franz Todtenhöfer und Co. Autopalast Königsberg</orgName>
+                 </org>
+@@ -349,7 +360,7 @@
+                     <orgName type="reg">Lustspielhaus Berlin</orgName>
+                 </org>
+                 <org xml:id="ed_w32_txd_py">
+-                    <orgName type="reg">Magdalenenstift</orgName>
++                    <orgName type="reg">Magdalenen-Stift</orgName>
+                 </org>
+                 <org xml:id="ed_v3n_jfm_gbb">
+                     <orgName type="reg">Magistrat der Stadt Berlin</orgName>
+@@ -360,14 +371,11 @@
+                 <org xml:id="ed_dbc_15p_dz">
+                     <orgName type="reg">Marchsche Tonwaren-Fabrik Berlin</orgName>
+                 </org>
+-                <org xml:id="ed_cgf_4j2_3kb">
+-                    <orgName type="reg">Märkisch-Oekonomische Gesellschaft</orgName>
+-                </org>
+                 <org xml:id="ed_nh1_fnj_ycb">
+                     <orgName type="reg">Masurisches Erziehungshaus</orgName>
+                 </org>
+                 <org xml:id="ed_wwk_2y1_1bb">
+-                    <orgName type="reg">Ministerium für Landwirtschaft, Domänen und Forsten
++                    <orgName type="reg">Ministerium für Landwirtschaft, Domänen und Forsten,
+                         Berlin</orgName>
+                 </org>
+                 <org xml:id="ed_fn5_gmk_wcb">
+@@ -464,14 +472,11 @@
+                     <orgName type="reg">Ressource Lötzen</orgName>
+                 </org>
+                 <org xml:id="ed_c11_cdh_my">
+-                    <orgName type="reg">Rudolphische Buchhandlung Hamburg</orgName>
++                    <orgName type="reg">Rudolphi'sche Buchhandlung Hamburg</orgName>
+                 </org>
+                 <org xml:id="ed_zxf_yqt_ncb">
+                     <orgName type="reg">Siechenhaus Angerburg</orgName>
+                 </org>
+-                <org xml:id="ed_kkj_z3n_ngb">
+-                    <orgName type="reg">Societas Cassiana</orgName>
+-                </org>
+                 <org xml:id="ed_qj5_sm1_tcb">
+                     <orgName type="reg">Société de Journaux et de Livres</orgName>
+                 </org>
+@@ -484,9 +489,6 @@
+                 <org xml:id="ed_pj4_1tp_tcb">
+                     <orgName type="reg">Stadtgericht Berlin</orgName>
+                 </org>
+-                <org xml:id="ed_fw4_kdc_rhb">
+-                    <orgName type="reg">Stadtgericht Königsberg</orgName>
+-                </org>
+                 <org xml:id="ed_ufs_jb1_12b">
+                     <orgName type="reg">Städtische Kunstsammlungen Königsberg</orgName>
+                 </org>
+diff --git a/lehndorff/data/Register/Orte.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Orte.xml
+index d695bb7..5415950 100644
+--- a/lehndorff/data/Register/Orte.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Orte.xml
+@@ -16,6 +16,26 @@
+     <text>
+         <body>
+             <listPlace>
++                <place xml:id="ed_nq3_jyy_4kb">
++                    <idno type="uri">https://www.geonames.org/540275/krylovo.html</idno>
++                    <placeName type="reg">Nordenburg</placeName>
++                </place>
++                <place xml:id="ed_syv_qzw_hkb">
++                    <idno type="uri">https://www.geonames.org/768971/knis.html</idno>
++                    <placeName type="reg">Gneist</placeName>
++                </place>
++                <place xml:id="ed_swl_gtb_hkb">
++                    <idno type="uri">https://www.geonames.org/461910/zverevo.html</idno>
++                    <placeName type="reg">Wandlacken</placeName>
++                </place>
++                <place xml:id="ed_w4k_bsw_gkb">
++                    <idno type="uri">https://www.geonames.org/764149/nakomiady.html</idno>
++                    <placeName type="reg">Eichmedien</placeName>
++                </place>
++                <place xml:id="ed_ryp_3bt_fkb">
++                    <idno type="uri">https://www.geonames.org/757386/szczuczyn.html</idno>
++                    <placeName type="reg">Szczuczyn</placeName>
++                </place>
+                 <place xml:id="ed_icq_ggg_h1b">
+                     <idno type="uri">http://www.geonames.org/3247449</idno>
+                     <placeName type="reg">Aachen</placeName>
+@@ -206,6 +226,7 @@
+                 </place>
+                 <place xml:id="ed_m2s_5kp_tdb">
+                     <placeName type="reg">Bentschkowo</placeName>
++                    <note>Polen</note>
+                 </place>
+                 <place xml:id="ed_ol1_nv5_zdb">
+                     <idno type="uri">http://www.geonames.org/2950881/berchtesgaden.html</idno>
+@@ -255,14 +276,15 @@
+                 </place>
+                 <place xml:id="ed_sbw_gmp_tdb">
+                     <placeName type="reg">Bisovistok</placeName>
++                    <note>Polen</note>
+                 </place>
+                 <place xml:id="ed_asn_jyz_ncb">
+                     <idno type="uri">http://www.geonames.org/3209450</idno>
+                     <placeName type="reg">Blaustein</placeName>
+                 </place>
+                 <place xml:id="ed_jjf_hrp_tdb">
+-                    <idno type="uri">https://www.geonames.org/463828/zelenogradsk.html</idno>
+                     <placeName type="reg">Bledau</placeName>
++                    <note>Kreis Königsberg-Land</note>
+                 </place>
+                 <place xml:id="ed_act_42b_ycb">
+                     <placeName type="reg">Blondowen</placeName>
+@@ -280,7 +302,6 @@
+                     <placeName type="reg">Bonn</placeName>
+                 </place>
+                 <place xml:id="ed_rw1_y5t_ncb">
+-                    <idno type="uri">https://www.geonames.org/767435/kruklanki.html</idno>
+                     <placeName type="reg">Borken</placeName>
+                     <note>Forstamt, Amtsbezirk Kruglanken</note>
+                 </place>
+@@ -293,7 +314,7 @@
+                     <placeName type="reg">Boulay</placeName>
+                 </place>
+                 <place xml:id="ed_nwg_ygt_c2b">
+-                    <placeName type="reg">Brabant, Herzogtum</placeName>
++                    <placeName type="reg">Brabant</placeName>
+                 </place>
+                 <place xml:id="ed_xjc_ttl_cz">
+                     <idno type="uri">http://www.geonames.org/2945356</idno>
+@@ -379,8 +400,8 @@
+                 </place>
+                 <place xml:id="ed_bql_l5b_ycb">
+                     <idno type="uri">http://www.geonames.org/3073803</idno>
+-                    <placeName type="reg">Karlsbad</placeName>
+-                    <placeName type="alt">Carlsbad</placeName>
++                    <placeName type="reg">Carlsbad</placeName>
++                    <placeName type="alt">Karlsbad</placeName>
+                 </place>
+                 <place xml:id="ed_vg3_ywj_gy">
+                     <idno type="uri">http://www.geonames.org/769504</idno>
+@@ -391,8 +412,8 @@
+                     <placeName type="reg">Charlottenburg</placeName>
+                 </place>
+                 <place xml:id="ed_lkv_433_1fb">
+-                    <idno type="uri">https://www.geonames.org/867839/dubki.html</idno>
+                     <placeName type="reg">Charlottenthal</placeName>
++                    <note>Amt Brandenburg</note>
+                 </place>
+                 <place xml:id="ed_zwl_qvk_gbb">
+                     <idno type="uri">http://www.geonames.org/2940132</idno>
+@@ -490,7 +511,6 @@
+                     <placeName type="reg">Dombke</placeName>
+                 </place>
+                 <place xml:id="ed_lrv_kgj_f3b">
+-                    <idno type="uri">https://www.geonames.org/773518/dabrowka.html</idno>
+                     <placeName type="reg">Dombrowken</placeName>
+                 </place>
+                 <place xml:id="ed_uvp_xss_d2b">
+@@ -537,10 +557,6 @@
+                     <idno type="uri">http://www.geonames.org/721239/eger.html</idno>
+                     <placeName type="reg">Eger</placeName>
+                 </place>
+-                <place xml:id="ed_w4k_bsw_gkb">
+-                    <idno type="uri">https://www.geonames.org/764149/nakomiady.html</idno>
+-                    <placeName type="reg">Eichmedien</placeName>
+-                </place>
+                 <place xml:id="ed_ed2_4r1_my">
+                     <idno type="uri">http://www.geonames.org/3099759</idno>
+                     <placeName type="reg">Elbing</placeName>
+@@ -684,11 +700,14 @@
+                 </place>
+                 <place xml:id="ed_mr4_v41_h2b">
+                     <placeName type="reg">Gablanken</placeName>
+-                    <note>Krs. Mohrungen</note>
+                 </place>
+                 <place xml:id="ed_jrl_xwk_gbb">
+                     <idno type="uri">http://www.geonames.org/2922530</idno>
+-                    <placeName type="reg">Garmisch-Patenkirchen</placeName>
++                    <placeName type="reg">Garmisch-Partenkirchen</placeName>
++                </place>
++                <place xml:id="ed_brk_k51_qkb">
++                    <idno type="uri">https://www.geonames.org/764438/moltajny.html</idno>
++                    <placeName type="reg">Molthainen</placeName>
+                 </place>
+                 <place xml:id="ed_spf_qxw_f2b">
+                     <idno type="uri">http://www.geonames.org/6547860/wildberg.html</idno>
+@@ -730,10 +749,6 @@
+                     <placeName type="reg">Glubenstein</placeName>
+                     <note>Kreis Rastenburg</note>
+                 </place>
+-                <place xml:id="ed_syv_qzw_hkb">
+-                    <idno type="uri">https://www.geonames.org/768971/knis.html</idno>
+-                    <placeName type="reg">Gneist</placeName>
+-                </place>
+                 <place xml:id="ed_xxf_xzq_rhb">
+                     <idno type="uri">http://www.geonames.org/7533232/gniewkowo.html</idno>
+                     <placeName type="reg">Gniewkowo</placeName>
+@@ -784,7 +799,6 @@
+                 </place>
+                 <place xml:id="ed_ulm_mxd_py">
+                     <placeName type="reg">Grasenitz</placeName>
+-                    <note>adliges Gut</note>
+                 </place>
+                 <place xml:id="ed_nv2_5jj_mfb">
+                     <idno type="uri">http://www.geonames.org/2917991/grasleben.html</idno>
+@@ -800,7 +814,6 @@
+                 </place>
+                 <place xml:id="ed_xqy_23f_s3b">
+                     <placeName type="reg">Grebin</placeName>
+-                    <note>Danziger Werder</note>
+                 </place>
+                 <place xml:id="ed_d3p_frp_tdb">
+                     <idno type="uri">http://gov.genealogy.net/GREBAUKO04DS</idno>
+@@ -833,7 +846,6 @@
+                     <placeName type="reg">Groß Cammin</placeName>
+                 </place>
+                 <place xml:id="ed_hfm_mwl_gfb">
+-                    <idno type="uri">https://www.geonames.org/6548055/gross-gievitz.html</idno>
+                     <placeName type="reg">Groß Gievitz</placeName>
+                 </place>
+                 <place xml:id="ed_lqp_ndf_n2b">
+@@ -970,8 +982,7 @@
+                     <placeName type="reg">Hoppenrade</placeName>
+                 </place>
+                 <place xml:id="ed_ntb_dtj_h3b">
+-                    <idno type="uri">https://www.geonames.org/2896616/ihringen.html</idno>
+-                    <placeName type="reg">Ihringen</placeName>
++                    <placeName type="reg">Ihingen b. Weil</placeName>
+                 </place>
+                 <place xml:id="ed_chm_b1r_rhb">
+                     <idno type="uri">http://www.geonames.org/3097872/inowroclaw.html</idno>
+@@ -1003,10 +1014,12 @@
+                 <place xml:id="ed_wrc_ccx_f2b">
+                     <idno type="uri">http://gov.genealogy.net/item/show/JAGAC1KO04RF</idno>
+                     <placeName type="reg">Jäglack</placeName>
++                    <note>Kreis Rastenburg</note>
+                 </place>
+                 <place xml:id="ed_z12_c1m_z1b">
+                     <idno type="uri">http://www.geonames.org/770634/jagodne.html</idno>
+                     <placeName type="reg">Jagodnen</placeName>
++                    <note>Amt Johannisburg</note>
+                 </place>
+                 <place xml:id="ed_f24_y55_zdb">
+                     <idno type="uri">http://www.geonames.org/688533/yalta.html</idno>
+@@ -1071,10 +1084,12 @@
+                 <place xml:id="ed_t32_vvd_py">
+                     <idno type="uri">http://gov.genealogy.net/item/show/KEHALDKO04VF</idno>
+                     <placeName type="reg">Kehlerwald</placeName>
++                    <note>Woiwodschaft Ermland-Masuren</note>
+                 </place>
+                 <place xml:id="ed_bqf_crs_d2b">
+                     <idno type="uri">http://gov.genealogy.net/KEILENKO04AM</idno>
+                     <placeName type="reg">Keimkallen</placeName>
++                    <note>Oblast Kaliningrad</note>
+                 </place>
+                 <place xml:id="ed_iwp_rx3_wcb">
+                     <idno type="uri">http://www.geonames.org/2891122</idno>
+@@ -1121,7 +1136,6 @@
+                     <placeName type="reg">Kleve, Herzogtum</placeName>
+                 </place>
+                 <place xml:id="ed_o52_cvs_g2b">
+-                    <idno type="uri">http://genwiki.genealogy.net/Klonn_(Landkreis_Sensburg)</idno>
+                     <placeName type="reg">Klonn</placeName>
+                 </place>
+                 <place xml:id="ed_e44_fxr_tcb">
+@@ -1187,6 +1201,7 @@
+                 <place xml:id="ed_ugw_w2b_tcb">
+                     <idno type="uri"> http://gov.genealogy.net/KORAC2KO04PH</idno>
+                     <placeName type="reg">Korklack</placeName>
++                    <note>Kreis Gerdauen</note>
+                 </place>
+                 <place xml:id="ed_n1d_5s4_cz">
+                     <idno type="uri">http://www.geonames.org/3096630</idno>
+@@ -1250,7 +1265,7 @@
+                 </place>
+                 <place xml:id="ed_tqz_tg5_h2b">
+                     <idno type="uri">http://www.geonames.org/3209303/landin.html</idno>
+-                    <placeName type="reg">Landien</placeName>
++                    <placeName type="reg">Landien b. Friesack</placeName>
+                 </place>
+                 <place xml:id="ed_kmf_bmg_ccb">
+                     <idno type="uri">http://www.geonames.org/6547739</idno>
+@@ -1259,6 +1274,7 @@
+                 <place xml:id="ed_enz_4vz_g1b">
+                     <idno type="uri">http://gov.genealogy.net/item/show/LANEIMKO04ER</idno>
+                     <placeName type="reg">Landkeim</placeName>
++                    <note>Kreis Fischhausen/Samland</note>
+                 </place>
+                 <place xml:id="ed_uzd_5c3_ycb">
+                     <idno type="uri">http://www.geonames.org/3098722</idno>
+@@ -1287,6 +1303,7 @@
+                 <place xml:id="ed_ypr_tzz_ncb">
+                     <idno type="uri">http://gov.genealogy.net/item/show/LASEIMKO04DS</idno>
+                     <placeName type="reg">Laserkeim</placeName>
++                    <note>Oblast Kaliningrad</note>
+                 </place>
+                 <place xml:id="ed_p43_r3p_tdb">
+                     <idno type="uri">http://www.geonames.org/3093808/lawki.html</idno>
+@@ -1409,8 +1426,8 @@
+                     <placeName type="reg">Lupow</placeName>
+                 </place>
+                 <place xml:id="ed_r3n_xtj_3fb">
+-                    <idno type="uri">https://www.geonames.org/3007352/la-petite-pierre.html</idno>
+                     <placeName type="reg">Lützelstein</placeName>
++                    <note>Festung, Vogesen</note>
+                 </place>
+                 <place xml:id="ed_eby_wkz_ny">
+                     <idno type="uri">http://www.geonames.org/772620</idno>
+@@ -1457,7 +1474,6 @@
+                     <placeName type="reg">Marienwerder</placeName>
+                 </place>
+                 <place xml:id="ed_op5_ngz_g1b">
+-                    <idno type="uri">https://www.geonames.org/758467/srokowo.html</idno>
+                     <placeName type="reg">Marschallheide</placeName>
+                     <note>Drengfurther Heide</note>
+                 </place>
+@@ -1602,8 +1618,6 @@
+                 </place>
+                 <place xml:id="ed_ycf_kky_3fb">
+                     <placeName type="reg">Natangen</placeName>
+-                    <note>historische Landschaft im ehemaligen Ostpreußen, heute zu beiden Seiten
+-                        der russisch-polnischen Grenze gelegen</note>
+                 </place>
+                 <place xml:id="ed_dbg_msp_tdb">
+                     <idno type="uri">http://www.geonames.org/3090558/nowogard.html</idno>
+@@ -1683,13 +1697,11 @@
+                     <placeName type="reg">Nürnberg</placeName>
+                 </place>
+                 <place xml:id="ed_i2q_cht_c2b">
+-                    <placeName type="reg">Oberitalien</placeName>
+-                    <note>nördlicher Teil von Italien, an den südlich Mittelitalien
+-                        anschließt</note>
++                    <placeName type="reg">Ober-Italien</placeName>
+                 </place>
+                 <place xml:id="ed_p2t_bpt_sdb">
+                     <placeName type="reg">Oberland</placeName>
+-                    <note> historische Landschaft in der Woiwodschaft Ermland-Masuren</note>
++                    <note> (historische) Landschaft in der Woiwodschaft Ermland-Masuren</note>
+                 </place>
+                 <place xml:id="ed_e3j_pgd_py">
+                     <idno type="uri">http://www.geonames.org/698740</idno>
+@@ -1748,15 +1760,6 @@
+                 </place>
+                 <place xml:id="ed_uvt_4j4_dz">
+                     <placeName type="reg">Ostpreußen</placeName>
+-                    <note>seit dem 18. Jahrhundert Bezeichnung für den östlichsten Teil Preußens;
+-                        von 1815 bis 1829 und von 1878 bis 1945 Name der östlichsten preußischen
+-                        Provinz; umfasste einen großen Teil der historischen Landschaft Preußen; die
+-                        geografische Benennung „östliches Preußen“ ist weit älter; die ursprüngliche
+-                        Landschaft Preußen war das Stammland der baltischen Prußen. Durch
+-                        Anordnungen des Kaisers und des Papstes zur Christianisierung und der damit
+-                        beauftragten Eroberung des Landes durch den Deutschen Orden im 13.
+-                        Jahrhundert entstand der Deutschordensstaat, dessen Territorium „Preußen“
+-                        genannt wurde</note>
+                 </place>
+                 <place xml:id="ed_wwp_ncq_rdb">
+                     <idno type="uri">http://www.geonames.org/2856205/ostritz.html</idno>
+@@ -1768,7 +1771,6 @@
+                 </place>
+                 <place xml:id="ed_czy_f3t_q2b">
+                     <placeName type="reg">Otten</placeName>
+-                    <note>Gut, Krs. Jäcknitz</note>
+                 </place>
+                 <place xml:id="ed_jwp_j45_22b">
+                     <idno type="uri">http://www.geonames.org/2640729/oxford.html</idno>
+@@ -1856,8 +1858,6 @@
+                 </place>
+                 <place xml:id="ed_jxx_gpv_mbb">
+                     <placeName type="reg">Pommern</placeName>
+-                    <note>Gebiet des früheren Herzogtums und späteren preußischen Provinz
+-                        Pommern</note>
+                 </place>
+                 <place xml:id="ed_ypq_rnn_scb">
+                     <idno type="uri">http://www.geonames.org/5006323</idno>
+@@ -1954,6 +1954,7 @@
+                 <place xml:id="ed_tnl_sgk_gy">
+                     <idno type="uri">http://www.geonames.org/769274</idno>
+                     <placeName type="reg">Rastenburg</placeName>
++                    <note/>
+                 </place>
+                 <place xml:id="ed_sny_fkh_h2b">
+                     <idno type="uri">http://www.geonames.org/2850213/rathenow.html</idno>
+@@ -2026,10 +2027,6 @@
+                     <idno type="uri">http://www.geonames.org/3169339/riola.html</idno>
+                     <placeName type="reg">Riola</placeName>
+                 </place>
+-                <place xml:id="ed_lrc_5l4_s3b">
+-                    <idno type="uri">https://www.geonames.org/2845887/rogaesen.html</idno>
+-                    <placeName type="reg">Rogäsen</placeName>
+-                </place>
+                 <place xml:id="ed_qbt_z5c_gy">
+                     <idno type="uri">http://www.geonames.org/2845670</idno>
+                     <placeName type="reg">Rohrbeck</placeName>
+@@ -2049,6 +2046,7 @@
+                 <place xml:id="ed_jp5_cdg_h1b">
+                     <idno type="uri">http://gov.genealogy.net/item/show/ROSEINKO04TG</idno>
+                     <placeName type="reg">Rosenstein</placeName>
++                    <note>Kreis Angerburg</note>
+                 </place>
+                 <place xml:id="ed_svx_5ql_ddb">
+                     <idno type="uri">http://www.geonames.org/2844831/rossbach.html</idno>
+@@ -2060,7 +2058,7 @@
+                 </place>
+                 <place xml:id="ed_y2j_yll_xdb">
+                     <idno type="uri">http://www.geonames.org/2844651/rossleben.html</idno>
+-                    <placeName type="reg">Rossleben</placeName>
++                    <placeName type="reg">Roßleben</placeName>
+                 </place>
+                 <place xml:id="ed_sps_kcb_hfb">
+                     <idno type="uri">http://www.geonames.org/2843996/rothenmoor.html</idno>
+@@ -2116,7 +2114,6 @@
+                 </place>
+                 <place xml:id="ed_pkw_hky_3fb">
+                     <placeName type="reg">Samland</placeName>
+-                    <note>Halbinsel in der östlichen Ostsee</note>
+                 </place>
+                 <place xml:id="ed_dxb_zdf_4y">
+                     <idno type="uri">http://www.geonames.org/533284</idno>
+@@ -2146,8 +2143,6 @@
+                 </place>
+                 <place xml:id="ed_tjn_3rc_py">
+                     <placeName type="reg">Schlesien</placeName>
+-                    <note>Region in Mitteleuropa beiderseits des Ober- und Mittellaufs der Oder,
+-                        erstreckt sich im Süden entlang der Sudeten und Beskiden</note>
+                 </place>
+                 <place xml:id="ed_lmg_pbh_ldb">
+                     <idno type="uri">http://www.geonames.org/2838634/schleswig.html</idno>
+@@ -2164,6 +2159,7 @@
+                 <place xml:id="ed_m5s_zsj_kfb">
+                     <idno type="uri">http://gov.genealogy.net/object_327944</idno>
+                     <placeName type="reg">Schmerberg</placeName>
++                    <note>Kreis Labiau</note>
+                 </place>
+                 <place xml:id="ed_vkn_3my_bz">
+                     <idno type="uri">http://www.geonames.org/3065728</idno>
+@@ -2200,6 +2196,7 @@
+                 <place xml:id="ed_e3l_2zw_12b">
+                     <idno type="uri">http://gov.genealogy.net/item/show/SCHGENKO04PC</idno>
+                     <placeName type="reg">Schrengen</placeName>
++                    <note>Woiwodschaft Ermland-Masuren</note>
+                 </place>
+                 <place xml:id="ed_ocm_scb_hfb">
+                     <idno type="uri">http://www.geonames.org/2765495/schwarzach-im-pongau.html</idno>
+@@ -2243,14 +2240,14 @@
+                     <idno type="uri">http://www.geonames.org/3080870/zajezierze.html</idno>
+                     <placeName type="reg">Seegertswalde</placeName>
+                 </place>
+-                <place xml:id="ed_qcj_1qf_hy">
+-                    <idno type="uri">http://www.geonames.org/757319</idno>
+-                    <placeName type="reg">Seehesten</placeName>
+-                </place>
+                 <place xml:id="ed_amz_114_zdb">
+                     <placeName type="reg">Seehof Steinort</placeName>
+                     <note>Vorwerk östlich von Steinort</note>
+                 </place>
++                <place xml:id="ed_qcj_1qf_hy">
++                    <idno type="uri">http://www.geonames.org/757319</idno>
++                    <placeName type="reg">Seehesten</placeName>
++                </place>
+                 <place xml:id="ed_o2w_tjt_c2b">
+                     <idno type="uri">http://www.geonames.org/491082/soldatovo.html</idno>
+                     <placeName type="reg">Sehmen</placeName>
+@@ -2429,13 +2426,7 @@
+                     <placeName type="reg">Supplinburg</placeName>
+                 </place>
+                 <place xml:id="ed_tsb_wjy_ydb">
+-                    <placeName type="reg">Szamaiten</placeName>
+-                    <placeName type="alt">Samaiten</placeName>
+-                    <note>litauische Landschaft</note>
+-                </place>
+-                <place xml:id="ed_ryp_3bt_fkb">
+-                    <idno type="uri">https://www.geonames.org/757386/szczuczyn.html</idno>
+-                    <placeName type="reg">Szczuczyn</placeName>
++                    <placeName type="reg">Szamaiten, Herzogtum</placeName>
+                 </place>
+                 <place xml:id="ed_shm_t2f_j1b">
+                     <idno type="uri">http://www.geonames.org/752960/zytkiejmy.html</idno>
+@@ -2593,14 +2584,9 @@
+                     <placeName type="reg">Waldheim</placeName>
+                 </place>
+                 <place xml:id="ed_mw3_2yq_rhb">
+-                    <idno type="uri">https://www.geonames.org/765367/malga.html</idno>
+                     <placeName type="reg">Wallendorf</placeName>
+                     <note>Krs. Malga</note>
+                 </place>
+-                <place xml:id="ed_swl_gtb_hkb">
+-                    <idno type="uri">https://www.geonames.org/461910/zverevo.html</idno>
+-                    <placeName type="reg">Wandlacken</placeName>
+-                </place>
+                 <place xml:id="ed_ifh_ldl_gbb">
+                     <idno type="uri">http://www.geonames.org/11280470</idno>
+                     <placeName type="reg">Wargen</placeName>
+@@ -2655,16 +2641,9 @@
+                 </place>
+                 <place xml:id="ed_xfd_wgt_c2b">
+                     <placeName type="reg">Westphalen</placeName>
+-                    <note>Region in Nordwestdeutschland; als Westfalen wird heute meist der
+-                        Nordostteil des Landes Nordrhein-Westfalen, bestehend aus den
+-                        Regierungsbezirken Münster, Arnsberg und Detmold, aber meist abzüglich des
+-                        Kreises Lippe, verstanden; dieses Gebiet entspricht im Wesentlichen der von
+-                        1815 bis 1946 bestehenden preußischen Provinz Westfalen</note>
+                 </place>
+                 <place xml:id="ed_ug2_j1q_vcb">
+                     <placeName type="reg">Westpreußen</placeName>
+-                    <note>preußische Provinz beiderseits der unteren Weichsel mit der Hauptstadt
+-                        Danzig </note>
+                 </place>
+                 <place xml:id="ed_c5s_sf5_g2b">
+                     <idno type="uri">http://www.geonames.org/754652/wydminy.html</idno>
+@@ -2692,7 +2671,7 @@
+                 </place>
+                 <place xml:id="ed_jn5_yvd_py">
+                     <idno type="uri">http://www.geonames.org/755655</idno>
+-                    <placeName type="reg">Wilkowen</placeName>
++                    <placeName type="reg">Willkowen</placeName>
+                 </place>
+                 <place xml:id="ed_nhm_5rb_tcb">
+                     <idno type="uri">http://www.geonames.org/872756</idno>
+@@ -2749,6 +2728,7 @@
+                 <place xml:id="ed_xrn_x3h_h2b">
+                     <idno type="uri">http://gov.genealogy.net/item/show/WOPKENKO04RB</idno>
+                     <placeName type="reg">Woplauken</placeName>
++                    <note>Woiwodschaft Ermland-Masuren</note>
+                 </place>
+                 <place xml:id="ed_ww2_xl3_tcb">
+                     <idno type="uri">http://www.geonames.org/6550878/woerlitz.html</idno>
+@@ -2761,6 +2741,11 @@
+                 <place xml:id="ed_wcj_dhm_s3b">
+                     <idno type="uri">http://gov.genealogy.net/object_327920</idno>
+                     <placeName type="reg">Wundlacken</placeName>
++                    <note>Gut südlich von Königsberg</note>
++                </place>
++                <place xml:id="ed_lrc_5l4_s3b">
++                    <idno type="uri">https://www.geonames.org/2845887/rogaesen.html</idno>
++                    <placeName type="reg">Rogäsen</placeName>
+                 </place>
+                 <place xml:id="ed_rf5_52p_tdb">
+                     <idno type="uri">http://www.geonames.org/3089731/ostrowiec.html</idno>
+diff --git a/lehndorff/data/Register/Personen/A.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/A.xml
+index 4028759..5791a14 100644
+--- a/lehndorff/data/Register/Personen/A.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/A.xml
+@@ -16,6 +16,36 @@
+     <text>
+         <body>
+             <listPerson>
++                <person xml:id="ed_qpl_51c_hkb">
++                    <persName type="reg">
++                        <surname>Adler</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Kriegsrat (Mitte des 18. jahrhunderts)</note>
++                </person>
++                <person xml:id="ed_mvq_wzy_yhb">
++                    <persName type="reg">
++                        <surname>Ascheraden</surname>
++                        <forename>Otto von</forename>
++                    </persName>
++                    <persName type="alt">
++                        <name>Schoultz von Ascheraden</name>
++                    </persName>
++                    <birth>1820</birth>
++                    <death>1892</death>
++                    <note>Kreisgerichtsassessor</note>
++                </person>
++                <person xml:id="ed_zvy_mbj_qhb">
++                    <idno type="uri"> 116212780</idno>
++                    <persName type="reg">
++                        <surname>Auerswald</surname>
++                        <forename>Hans Jakob von</forename>
++                    </persName>
++                    <birth>1757</birth>
++                    <death>1833</death>
++                </person>
+                 <person xml:id="ed_kp3_dzp_tcb">
+                     <persName type="reg">
+                         <surname/>
+@@ -23,7 +53,7 @@
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Kutscher in Steinort (1799)</note>
++                    <note>Kutscher, Steinort (1799)</note>
+                 </person>
+                 <person xml:id="ed_mgf_k3s_d2b">
+                     <persName type="reg">
+@@ -69,15 +99,6 @@
+                     <birth>1815</birth>
+                     <death>1886</death>
+                 </person>
+-                <person xml:id="ed_qpl_51c_hkb">
+-                    <persName type="reg">
+-                        <surname>Adler</surname>
+-                        <forename/>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>Kriegsrat (Mitte des 18. Jahrhunderts)</note>
+-                </person>
+                 <person xml:id="ed_scg_whv_12b">
+                     <persName type="reg">
+                         <surname>Adler</surname>
+@@ -139,15 +160,6 @@
+                     <death/>
+                     <note>Vorsteherin im Waisenhaus Rosengarten (1871)</note>
+                 </person>
+-                <person xml:id="ed_n1h_qjl_wcb">
+-                    <persName type="reg">
+-                        <surname>Almandi</surname>
+-                        <forename>Frau </forename>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>Kinderpflegerin (1825)</note>
+-                </person>
+                 <person xml:id="ed_uf2_pxz_2y">
+                     <idno type="uri">http://d-nb.info/gnd/118644890</idno>
+                     <persName type="reg"><surname>Althoff</surname><forename>Friedrich
+@@ -168,11 +180,11 @@
+                 <person xml:id="ed_yfl_ll2_3fb">
+                     <persName type="reg">
+                         <surname>Alvensleben</surname>
+-                        <forename>Werner Gebhard Louis von</forename>
++                        <forename>von</forename>
+                     </persName>
+-                    <birth>1832</birth>
+-                    <death>1910</death>
+-                    <note>auf Rodehlen (1868)</note>
++                    <birth/>
++                    <death/>
++                    <note>Rodehlen (1868)</note>
+                 </person>
+                 <person xml:id="ed_mq2_wxj_tcb">
+                     <persName type="reg">
+@@ -183,6 +195,15 @@
+                     <death/>
+                     <note>Regiment Gensd'armes (1793)</note>
+                 </person>
++                <person xml:id="ed_n1h_qjl_wcb">
++                    <persName type="reg">
++                        <surname>Almandi</surname>
++                        <forename>Frau </forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Kinderpflegerin (1825)</note>
++                </person>
+                 <person xml:id="ed_vpn_z5j_gz">
+                     <idno type="uri">http://d-nb.info/gnd/118645110</idno>
+                     <persName type="reg"><surname>Ancillon</surname><forename>Johann Peter
+@@ -202,7 +223,7 @@
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Redakteur in Berlin (1881)</note>
++                    <note>Redakteur, Berlin (1881)</note>
+                 </person>
+                 <person xml:id="ed_aqq_qfl_wcb">
+                     <persName type="reg">
+@@ -295,7 +316,7 @@
+                 <person xml:id="ed_ljh_psp_1gb">
+                     <idno type="uri">https://d-nb.info/gnd/1014490197</idno>
+                     <persName type="reg">
+-                        <surname>Arnim-Kriebstein</surname>
++                        <surname>Arnim</surname>
+                         <forename>Erik Hans Karl von</forename>
+                     </persName>
+                     <birth>1873</birth>
+@@ -346,29 +367,28 @@
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Heirat: <persName key="ed_ljh_psp_1gb">Erik Hans Carl von
+-                            Arnim-Kriebstein</persName> (1873–1945) (1947)</note>
++                    <note>Heirat: Erik Hans Carl von Arnim-Kriebstein (1873–1945) (1947)</note>
+                 </person>
+-                <person xml:id="ed_fgh_df5_sdb">
++                <person xml:id="ed_bpc_kw5_12b">
++                    <idno type="uri">https://d-nb.info/gnd/118645889</idno>
+                     <persName type="reg">
+                         <surname>Arnim-Kriebstein</surname>
+-                        <forename>Ilse Ottilie Melitta Prisca von</forename>
+-                    </persName>
+-                    <persName type="alt" subtype="birthname">
+-                        <name>Recke, Freiin von der</name>
++                        <forename>von</forename>
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Heirat: Allard Hans Wolf von Arnim-Kriebstein (1901–1945) (1947)</note>
+                 </person>
+-                <person xml:id="ed_bpc_kw5_12b">
+-                    <idno type="uri">https://d-nb.info/gnd/118645889</idno>
++                <person xml:id="ed_fgh_df5_sdb">
+                     <persName type="reg">
+                         <surname>Arnim-Kriebstein</surname>
+-                        <forename>von</forename>
++                        <forename>Ilse Ottilie Melitta Prisca von</forename>
++                    </persName>
++                    <persName type="alt" subtype="birthname">
++                        <name>Recke, Freiin von der</name>
+                     </persName>
+                     <birth/>
+                     <death/>
++                    <note>Heirat: Allard Hans Wolf von Arnim-Kriebstein (1901–1945) (1947)</note>
+                 </person>
+                 <person xml:id="ed_qyy_byz_scb">
+                     <idno type="uri">http://d-nb.info/gnd/129625760</idno>
+@@ -397,18 +417,6 @@
+                     <death/>
+                     <note>(1727)</note>
+                 </person>
+-                <person xml:id="ed_mvq_wzy_yhb">
+-                    <persName type="reg">
+-                        <surname>Ascheraden</surname>
+-                        <forename>Otto von</forename>
+-                    </persName>
+-                    <persName type="alt">
+-                        <name>Schoultz von Ascheraden</name>
+-                    </persName>
+-                    <birth>1820</birth>
+-                    <death>1892</death>
+-                    <note>Kreisgerichtsassessor</note>
+-                </person>
+                 <person xml:id="ed_hdw_4cl_w2b">
+                     <persName type="reg">
+                         <surname>Aschersleben</surname>
+@@ -450,19 +458,18 @@
+                         <surname>Assmann</surname>
+                         <forename>Friedrich Leopold</forename>
+                     </persName>
+-                    <birth>1760</birth>
++                    <birth/>
+                     <death/>
+-                    <note>Sohn des Gärtners <persName key="ed_c4x_rcv_mbb">Martin
+-                        Assmann</persName>, Lehre als Gärtner in Gerdauen beim
+-                            Schlossgärtner<persName key="ed_xp2_wcv_mbb"> Johann Christoff Bonais
+-                        </persName>1780-1783, Gärtner in Steinort </note>
++                    <note>Sohn des Gärtners Martin Assmann, Hofgärtner in Steinort, Lehre als
++                        Gärtner in Gerdauen beim Schlossgärtner Kohann Christoff Bohnais
++                        1780-1783</note>
+                 </person>
+                 <person xml:id="ed_c4x_rcv_mbb">
+                     <persName type="reg"><surname>Assmann</surname><forename>Martin</forename>
+                     </persName>
+                     <birth/>
+                     <death>nach 1785</death>
+-                    <note>Gärtner in Steinort (1785)</note>
++                    <note>Hofgärtner, Steinort (1785)</note>
+                 </person>
+                 <person xml:id="ed_kr2_zw2_2z">
+                     <idno type="uri">https://viaf.org/viaf/44626187</idno>
+@@ -478,6 +485,15 @@
+                     <death/>
+                     <note>(1827)</note>
+                 </person>
++                <person xml:id="ed_if2_3ll_wcb">
++                    <idno type="uri">https://d-nb.info/gnd/135916828</idno>
++                    <persName type="reg">
++                        <surname>Auer</surname>
++                        <forename>Ludwig Casimir von</forename>
++                    </persName>
++                    <birth>1788</birth>
++                    <death>1837</death>
++                </person>
+                 <person xml:id="ed_ays_2pj_tcb">
+                     <persName type="reg">
+                         <surname>Auer</surname>
+@@ -490,15 +506,6 @@
+                         Fuß von Quadt; 1688 Vormund der Kinder des verstorbenen Grafen
+                         Lehndorff</note>
+                 </person>
+-                <person xml:id="ed_if2_3ll_wcb">
+-                    <idno type="uri">https://d-nb.info/gnd/135916828</idno>
+-                    <persName type="reg">
+-                        <surname>Auer</surname>
+-                        <forename>Ludwig Casimir von</forename>
+-                    </persName>
+-                    <birth>1788</birth>
+-                    <death>1837</death>
+-                </person>
+                 <person xml:id="ed_fhz_czj_gz">
+                     <idno type="uri">http://d-nb.info/gnd/116377658</idno>
+                     <persName type="reg"><surname>Auerswald</surname><forename>Alfred von</forename>
+@@ -522,15 +529,6 @@
+                     <birth>1792</birth>
+                     <death>1848</death>
+                 </person>
+-                <person xml:id="ed_zvy_mbj_qhb">
+-                    <idno type="uri"> 116212780</idno>
+-                    <persName type="reg">
+-                        <surname>Auerswald</surname>
+-                        <forename>Hans Jakob von</forename>
+-                    </persName>
+-                    <birth>1757</birth>
+-                    <death>1833</death>
+-                </person>
+                 <person xml:id="ed_v5s_dzj_gz">
+                     <idno type="uri">http://d-nb.info/gnd/116377674</idno>
+                     <persName type="reg"><surname>Auerswald</surname><forename>Rudolf von</forename>
+@@ -546,10 +544,9 @@
+                     <persName type="alt" subtype="birthname">
+                         <name>Gernler, von</name>
+                     </persName>
+-                    <birth>1841</birth>
++                    <birth/>
+                     <death/>
+-                    <note>Heirat:  <persName key="ed_rgw_kyh_h2b">Hermann Rudolf Wilhelm Joseph
+-                            Franz Freiherr von und zu Aufseß</persName></note>
++                    <note>(1887)</note>
+                 </person>
+                 <person xml:id="ed_g23_kt5_22b">
+                     <idno type="uri">https://d-nb.info/gnd/118848526</idno>
+@@ -563,9 +560,9 @@
+                 <person xml:id="ed_rgw_kyh_h2b">
+                     <persName type="reg">
+                         <surname>Aufseß</surname>
+-                        <forename>Hermann Rudolf Wilhelm Joseph Franz Freiherr von und zu</forename>
++                        <forename>Hermann Freiherr von und zu</forename>
+                     </persName>
+-                    <birth>1837</birth>
++                    <birth/>
+                     <death/>
+                     <note>(1887)</note>
+                 </person>
+diff --git a/lehndorff/data/Register/Personen/B.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/B.xml
+index 8421c42..f8574d1 100644
+--- a/lehndorff/data/Register/Personen/B.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/B.xml
+@@ -16,6 +16,33 @@
+     <text>
+         <body>
+             <listPerson>
++                <person xml:id="ed_gcn_lzw_hkb">
++                    <persName type="reg">
++                        <surname>Bartzig</surname>
++                        <forename>Jan</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Pächter von Taberlack</note>
++                </person>
++                <person xml:id="ed_d5h_3vw_gkb">
++                    <persName type="reg">
++                        <surname>Bonin</surname>
++                        <forename>von</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Obrist (1735)</note>
++                </person>
++                <person xml:id="ed_jpg_2kb_hkb">
++                    <persName type="reg">
++                        <surname>Barrabas</surname>
++                        <forename>Johann</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Schuster, Steinort</note>
++                </person>
+                 <person xml:id="ed_emv_2fc_t2b">
+                     <persName type="reg">
+                         <surname>Baltzer</surname>
+@@ -23,7 +50,7 @@
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Ofensetzer in Steinort (1727)</note>
++                    <note>Ofensetzer, Steinort (1727)</note>
+                 </person>
+                 <person xml:id="ed_e3w_dyy_ny">
+                     <persName type="reg"><surname>Baltzer</surname><forename>Fr.</forename>
+@@ -37,14 +64,14 @@
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Untertan in Steinort (1724)</note>
++                    <note>Untertan, Steinort (1724)</note>
+                 </person>
+                 <person xml:id="ed_kxp_y45_1bb">
+                     <persName type="reg"><surname>Bannasch</surname><forename>Woiteck</forename>
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Radmacher in Steinort (1724)</note>
++                    <note>Radmacher, Steinort (1724)</note>
+                 </person>
+                 <person xml:id="ed_pdc_rjm_33b">
+                     <persName type="reg">
+@@ -94,15 +121,6 @@
+                     <death/>
+                     <note>(1876)</note>
+                 </person>
+-                <person xml:id="ed_jpg_2kb_hkb">
+-                    <persName type="reg">
+-                        <surname>Barrabas</surname>
+-                        <forename>Johann</forename>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>Schuster in Steinort</note>
+-                </person>
+                 <person xml:id="ed_e1d_tkm_33b">
+                     <persName type="reg">
+                         <surname>Bartnick</surname>
+@@ -113,21 +131,12 @@
+                     <note>Labab</note>
+                 </person>
+                 <person xml:id="ed_rwq_rqh_my">
+-                    <persName type="reg"><surname>Bartnick</surname><forename>Heinrich</forename>
++                    <persName type="reg"><surname>Bartnik</surname><forename/>
+                     </persName>
+                     <birth/>
+                     <death/>
+                     <note>Instmann, Klein Steinort (1893)</note>
+                 </person>
+-                <person xml:id="ed_gcn_lzw_hkb">
+-                    <persName type="reg">
+-                        <surname>Bartzig</surname>
+-                        <forename>Jan</forename>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>Pächter von Taberlack</note>
+-                </person>
+                 <person xml:id="ed_kvk_tb1_12b">
+                     <idno type="uri">https://d-nb.info/gnd/123439744</idno>
+                     <persName type="reg">
+@@ -1093,15 +1102,6 @@
+                     <death>1821</death>
+                     <note>als Napoleon I. Kaiser der Franzosen</note>
+                 </person>
+-                <person xml:id="ed_d5h_3vw_gkb">
+-                    <persName type="reg">
+-                        <surname>Bonin</surname>
+-                        <forename>von</forename>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>Obrist (1735)</note>
+-                </person>
+                 <person xml:id="ed_o5j_4rf_vdb">
+                     <persName type="reg">
+                         <surname>Borch</surname>
+@@ -1111,6 +1111,22 @@
+                     <death>1799</death>
+                     <note>Kapitän (1740)</note>
+                 </person>
++                <person xml:id="ed_ms4_hzv_q2b">
++                    <persName type="reg">
++                        <surname>Boretius</surname>
++                        <forename/>
++                    </persName>
++                    <persName type="alt" subtype="birthname">
++                        <name>Büttner</name>
++                    </persName>
++                    <persName type="alt">
++                        <name>Borcius</name>
++                    </persName>
++                    <birth/>
++                    <death>nach 1744</death>
++                    <note>Tochter des Engelsteiner Pfarrers Heinrich Büttner, heiratete dessen
++                        Amtsnachfolger Georg Boretius, 1716-1742 Pfarrer in Engelstein (1744)</note>
++                </person>
+                 <person xml:id="ed_wfb_2xt_22b">
+                     <persName type="reg">
+                         <surname>Borcke</surname>
+@@ -1205,21 +1221,14 @@
+                     <death/>
+                     <note>Kammerdirektor</note>
+                 </person>
+-                <person xml:id="ed_ms4_hzv_q2b">
++                <person xml:id="ed_s1f_brc_mjb">
+                     <persName type="reg">
+                         <surname>Boretius</surname>
+-                        <forename/>
+-                    </persName>
+-                    <persName type="alt" subtype="birthname">
+-                        <name>Büttner</name>
+-                    </persName>
+-                    <persName type="alt">
+-                        <name>Borcius</name>
++                        <forename>Georg</forename>
+                     </persName>
+                     <birth/>
+-                    <death>nach 1744</death>
+-                    <note>Tochter des Engelsteiner Pfarrers Heinrich Büttner, heiratete dessen
+-                        Amtsnachfolger Georg Boretius, 1716-1742 Pfarrer in Engelstein (1744)</note>
++                    <death/>
++                    <note>1716-1742 Pfarrer in Engelstein</note>
+                 </person>
+                 <person xml:id="ed_g2p_jzv_q2b">
+                     <persName type="reg">
+@@ -1230,15 +1239,6 @@
+                     <death>1785</death>
+                     <note>1749-1753 Rektor und Diakon in Drengfurth</note>
+                 </person>
+-                <person xml:id="ed_s1f_brc_mjb">
+-                    <persName type="reg">
+-                        <surname>Boretius</surname>
+-                        <forename>Georg</forename>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>1716-1742 Pfarrer in Engelstein</note>
+-                </person>
+                 <person xml:id="ed_kpw_t3q_f2b">
+                     <persName type="reg">
+                         <surname>Bork</surname>
+@@ -1335,6 +1335,15 @@
+                     <birth>1710</birth>
+                     <death>1761</death>
+                 </person>
++                <person xml:id="ed_ejx_t2c_tcb">
++                    <persName type="reg">
++                        <surname>Bötticher</surname>
++                        <forename>Gottlieb</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Hofmeister Carl Friedrich Ludwig Graf von Lehndorffs (1785)</note>
++                </person>
+                 <person xml:id="ed_acs_3kw_h2b">
+                     <persName type="reg">
+                         <surname>Böttcher</surname>
+@@ -1353,15 +1362,6 @@
+                     <birth>1791</birth>
+                     <death>1868</death>
+                 </person>
+-                <person xml:id="ed_ejx_t2c_tcb">
+-                    <persName type="reg">
+-                        <surname>Bötticher</surname>
+-                        <forename>Gottlieb</forename>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>Hofmeister Carl Friedrich Ludwig Graf von Lehndorffs (1785)</note>
+-                </person>
+                 <person xml:id="ed_krv_ntp_tdb">
+                     <persName type="reg">
+                         <surname>Boué</surname>
+diff --git a/lehndorff/data/Register/Personen/C.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/C.xml
+index c42a020..e7da52d 100644
+--- a/lehndorff/data/Register/Personen/C.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/C.xml
+@@ -16,6 +16,15 @@
+     <text>
+         <body>
+             <listPerson>
++                <person xml:id="ed_jdh_wmv_pkb">
++                    <idno type="uri">https://d-nb.info/gnd/118520512</idno>
++                    <persName type="reg">
++                        <surname>Chodowieki</surname>
++                        <forename>Daniel Nikolaus</forename>
++                    </persName>
++                    <birth>1726</birth>
++                    <death>1801</death>
++                </person>
+                 <person xml:id="ed_ltp_hz5_scb">
+                     <persName type="reg">
+                         <surname>Calbe</surname>
+diff --git a/lehndorff/data/Register/Personen/D.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/D.xml
+index 4f3e75d..eb07829 100644
+--- a/lehndorff/data/Register/Personen/D.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/D.xml
+@@ -718,7 +718,7 @@
+                 </person>
+                 <person xml:id="ed_ocw_xzz_2y">
+                     <idno type="uri">http://d-nb.info/gnd/102679191X</idno>
+-                    <persName type="reg"><surname>Dohna-Wundlaken</surname><forename>Heinrich Graf
++                    <persName type="reg"><surname>Dohna-Wundlacken</surname><forename>Heinrich Graf
+                             zu</forename>
+                     </persName>
+                     <birth>1777</birth>
+diff --git a/lehndorff/data/Register/Personen/F.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/F.xml
+index 9ebc04c..96d2d2c 100644
+--- a/lehndorff/data/Register/Personen/F.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/F.xml
+@@ -16,15 +16,6 @@
+     <text>
+         <body>
+             <listPerson>
+-                <person xml:id="ed_sxz_kql_rkb">
+-                    <persName type="reg">
+-                        <surname>Fabeck</surname>
+-                        <forename>Familie von</forename>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>seit 1748 Besitzer des Gutes Jablonken</note>
+-                </person>
+                 <person xml:id="ed_dch_ljm_33b">
+                     <persName type="reg">
+                         <surname>Flottwell</surname>
+diff --git a/lehndorff/data/Register/Personen/G.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/G.xml
+index 3fa9f5c..e47f8c5 100644
+--- a/lehndorff/data/Register/Personen/G.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/G.xml
+@@ -16,6 +16,18 @@
+     <text>
+         <body>
+             <listPerson>
++                <person xml:id="ed_bn1_fnv_pkb">
++                    <persName type="reg">
++                        <surname>Gasc</surname>
++                        <forename>Anna Rosina de</forename>
++                    </persName>
++                    <persName type="alt" subtype="birthname">
++                        <name>Liesiewska</name>
++                    </persName>
++                    <birth>1713</birth>
++                    <death>1783</death>
++                    <note>Porträtmalerin</note>
++                </person>
+                 <person xml:id="ed_xrr_xqc_hkb">
+                     <persName type="reg">
+                         <surname>Grabowski</surname>
+@@ -824,7 +836,7 @@
+                         <forename>Sophie Caroline Gräfin von der</forename>
+                     </persName>
+                     <persName type="alt" subtype="birthname">
+-                        <name>Truchseß von Waldburg, Gräfin</name>
++                        <name>Truchsess von Waldburg, Gräfin</name>
+                     </persName>
+                     <birth>1740</birth>
+                     <death>1815</death>
+diff --git a/lehndorff/data/Register/Personen/H.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/H.xml
+index a3bc25a..1dcfed6 100644
+--- a/lehndorff/data/Register/Personen/H.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/H.xml
+@@ -16,58 +16,6 @@
+     <text>
+         <body>
+             <listPerson>
+-                <person xml:id="ed_ljf_3zx_hkb">
+-                    <persName type="reg">
+-                        <surname>Hippel</surname>
+-                        <forename>Theodor Gottlieb von</forename>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                </person>
+-                <person xml:id="ed_gcl_sql_hkb">
+-                    <persName type="reg">
+-                        <surname>Haeseler</surname>
+-                        <forename>Valentin</forename>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>Magdeburger Großkaufmann und Handelsherr; Vater von <persName key="ed_vtd_1ms_52b">Gottlieb Haeseler</persName></note>
+-                </person>
+-                <person xml:id="ed_agh_wql_hkb">
+-                    <persName type="reg">
+-                        <surname>Haeseler</surname>
+-                        <forename>Johann Friedrich</forename>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>Kauf- und Handelsmann in Braunschweig; Vater von <persName key="ed_b2c_mgq_42b">Margarete Elisabeth Haeseler</persName></note>
+-                </person>
+-                <person xml:id="ed_sx4_pmb_hkb">
+-                    <persName type="reg">
+-                        <surname>Hohendorff</surname>
+-                        <forename>Georg von</forename>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>Pristanien</note>
+-                </person>
+-                <person xml:id="ed_jbs_trn_s3b">
+-                    <persName type="reg">
+-                        <surname>Holstein</surname>
+-                        <forename/>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                </person>
+-                <person xml:id="ed_xf5_xm4_s3b">
+-                    <persName type="reg">
+-                        <surname>Hertz</surname>
+-                        <forename/>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>Schlossermeister, Gerdauen</note>
+-                </person>
+                 <person xml:id="ed_rwh_pvn_zdb">
+                     <idno type="uri">https://d-nb.info/gnd/11854411X</idno>
+                     <persName type="reg">
+@@ -154,6 +102,15 @@
+                     <note>Heirat: 1730 <persName key="ed_b2c_mgq_42b">Margarete Elisabeth
+                             Haeseler</persName>; 1733 geadelt</note>
+                 </person>
++                <person xml:id="ed_agh_wql_hkb">
++                    <persName type="reg">
++                        <surname>Haeseler</surname>
++                        <forename>Johann Friedrich</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Kauf- und Handelsmann in Braunschweig; Vater von <persName key="ed_b2c_mgq_42b">Margarete Elisabeth Haeseler</persName></note>
++                </person>
+                 <person xml:id="ed_b2c_mgq_42b">
+                     <persName type="reg">
+                         <surname>Haeseler</surname>
+@@ -167,6 +124,15 @@
+                         Eltern von <persName key="ed_v52_qng_vz">Marie von Haeseler</persName>,
+                         verh. Gräfin von Lehndorff</note>
+                 </person>
++                <person xml:id="ed_gcl_sql_hkb">
++                    <persName type="reg">
++                        <surname>Haeseler</surname>
++                        <forename>Valentin</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Magdeburger Großkaufmann und Handelsherr; Vater von <persName key="ed_vtd_1ms_52b">Gottlieb Haeseler</persName></note>
++                </person>
+                 <person xml:id="ed_bdv_fyj_f3b">
+                     <persName type="reg">
+                         <surname>Hagen</surname>
+@@ -585,7 +551,8 @@
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Obistleutnant und Kommandant des 7. Kurmärkischen Landwehr-Regiments </note>
++                    <note>Obistleutnant und Kommandant des 7. Kurmärkischen Landwehr-Regiments
++                    </note>
+                 </person>
+                 <person xml:id="ed_x4y_2dq_rdb">
+                     <idno type="uri">http://d-nb.info/gnd/100291716</idno>
+@@ -621,6 +588,15 @@
+                     <death/>
+                     <note>Lehrer (1744)</note>
+                 </person>
++                <person xml:id="ed_trm_2dz_4kb">
++                    <persName type="reg">
++                        <surname>Hempel</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Tierarzt (1817)</note>
++                </person>
+                 <person xml:id="ed_bfx_l4l_52b">
+                     <persName type="reg">
+                         <surname>Henckel</surname>
+@@ -774,6 +750,15 @@
+                     <note>auf Liebenberg; Präsident der Sektion für Pferdezucht der Versammlung
+                         Deutscher Landwirte 1840</note>
+                 </person>
++                <person xml:id="ed_xf5_xm4_s3b">
++                    <persName type="reg">
++                        <surname>Hertz</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Schlossermeister, Gerdauen</note>
++                </person>
+                 <person xml:id="ed_ttb_mkh_h2b">
+                     <persName type="reg">
+                         <surname>Hertz</surname>
+@@ -1003,6 +988,14 @@
+                         National-Cavallerie-Regiment anno 1813 und 1814, Königsberg 1890, S.
+                         118</note>
+                 </person>
++                <person xml:id="ed_ljf_3zx_hkb">
++                    <persName type="reg">
++                        <surname>Hippel</surname>
++                        <forename>Theodor Gottlieb von</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                </person>
+                 <person xml:id="ed_slx_3yr_yhb">
+                     <persName type="reg">
+                         <surname>Hippel</surname>
+@@ -1154,6 +1147,15 @@
+                     <death/>
+                     <note>kurfürstlich-sächsischer Kammerherr (1769)</note>
+                 </person>
++                <person xml:id="ed_sx4_pmb_hkb">
++                    <persName type="reg">
++                        <surname>Hohendorff</surname>
++                        <forename>Georg von</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Pristanien</note>
++                </person>
+                 <person xml:id="ed_hct_wv3_hfb">
+                     <idno type="uri">https://d-nb.info/gnd/137601093</idno>
+                     <persName type="reg">
+@@ -1265,6 +1267,14 @@
+                     <birth>1842</birth>
+                     <death>1913</death>
+                 </person>
++                <person xml:id="ed_jbs_trn_s3b">
++                    <persName type="reg">
++                        <surname>Holstein</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                </person>
+                 <person xml:id="ed_c52_zpq_mfb">
+                     <idno type="uri">https://d-nb.info/gnd/11855316X</idno>
+                     <persName type="reg">
+@@ -1331,6 +1341,15 @@
+                     <death/>
+                     <note>Militär (1824)</note>
+                 </person>
++                <person xml:id="ed_zcd_fsy_4kb">
++                    <persName type="reg">
++                        <surname>Holzheimer</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Kavallerist (1814)</note>
++                </person>
+                 <person xml:id="ed_rj3_k2r_rdb">
+                     <persName type="reg">
+                         <surname>Honig</surname>
+diff --git a/lehndorff/data/Register/Personen/K.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/K.xml
+index 1066413..2a9474b 100644
+--- a/lehndorff/data/Register/Personen/K.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/K.xml
+@@ -16,6 +16,15 @@
+     <text>
+         <body>
+             <listPerson>
++                <person xml:id="ed_ejj_2xy_4kb">
++                    <persName type="reg">
++                        <surname>Kurella</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Pächter</note>
++                </person>
+                 <person xml:id="ed_ssl_vrw_gkb">
+                     <persName type="reg">
+                         <surname>Kluve</surname>
+@@ -125,7 +134,7 @@
+                     </persName>
+                     <birth>1770</birth>
+                     <death>1829</death>
+-                    <note>Heirat: 1786 Friedrich Ludwig II. Graf Truchseß von <persName key="ed_kzh_z13_tcb">Waldburg-Capustigall</persName></note>
++                    <note>Heirat: 1786 Friedrich Ludwig II. Graf Truchsess von <persName key="ed_kzh_z13_tcb">Waldburg-Capustigall</persName></note>
+                 </person>
+                 <person xml:id="ed_nvf_fgp_tdb">
+                     <persName type="reg">
+@@ -566,7 +575,7 @@
+                         <forename>Charlotte Caroline Amalie Gräfin von</forename>
+                     </persName>
+                     <persName type="alt" subtype="birthname">
+-                        <name>Truchseß zu Waldburg</name>
++                        <name>Truchsess zu Waldburg</name>
+                     </persName>
+                     <birth>1727</birth>
+                     <death>1791</death>
+@@ -666,8 +675,7 @@
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Konsistorialrat, ab 1799 Vizepräsident des Konsistoriums zu Königsberg:
+-                        Hoffiskal Lehndorffs (1784/85)</note>
++                    <note>Konsistorialrat, Hoffiskal (1784/85)</note>
+                 </person>
+                 <person xml:id="ed_wvm_rwj_gy">
+                     <persName type="reg"><surname>Klapp</surname><forename>Christian</forename>
+diff --git a/lehndorff/data/Register/Personen/R.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/R.xml
+index e8379f9..f038188 100644
+--- a/lehndorff/data/Register/Personen/R.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/R.xml
+@@ -16,6 +16,15 @@
+     <text>
+         <body>
+             <listPerson>
++                <person xml:id="ed_h5r_gsy_4kb">
++                    <persName type="reg">
++                        <surname>Rummley</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Kavallerist (1814)</note>
++                </person>
+                 <person xml:id="ed_bvs_dht_ncb">
+                     <persName type="reg">
+                         <surname>Raabe</surname>
+diff --git a/lehndorff/data/Register/Personen/S.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/S.xml
+index e4226a5..c91709e 100644
+--- a/lehndorff/data/Register/Personen/S.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/S.xml
+@@ -16,71 +16,32 @@
+     <text>
+         <body>
+             <listPerson>
+-                <person xml:id="ed_hv1_mzj_hkb">
+-                    <persName type="reg">
+-                        <surname>Schwerin</surname>
+-                        <forename>Curd Christoph Graf von</forename>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                </person>
+-                <person xml:id="ed_bc3_grw_gkb">
++                <person xml:id="ed_ry5_x4l_52b">
++                    <idno type="uri">https://d-nb.info/gnd/119056712</idno>
+                     <persName type="reg">
+-                        <surname>Scheumann</surname>
+-                        <forename>Fabian</forename>
++                        <surname>Sabran</surname>
++                        <forename>Françoise Eléonore Dejean de Manville, Comtesse de </forename>
+                     </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>Untertan in den Steinortschen Gütern (1732)</note>
++                    <birth>1749</birth>
++                    <death>1827</death>
+                 </person>
+-                <person xml:id="ed_tqg_hkb_hkb">
++                <person xml:id="ed_d3d_bzy_4kb">
+                     <persName type="reg">
+-                        <surname>Schmidt</surname>
+-                        <forename>Frau</forename>
++                        <surname>Schultz</surname>
++                        <forename>H.</forename>
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Witwe von Friedrich Schmidt</note>
++                    <note>Bauer (1817)</note>
+                 </person>
+-                <person xml:id="ed_t3h_fwb_hkb">
++                <person xml:id="ed_svg_gdz_4kb">
+                     <persName type="reg">
+-                        <surname>Schlieben</surname>
+-                        <forename>Maria Elisabeth von</forename>
+-                    </persName>
+-                    <birth/>
+-                    <death>1698</death>
+-                </person>
+-                <person xml:id="ed_epx_t2c_hkb">
+-                    <persName type="reg">
+-                        <surname>Scharck</surname>
+-                        <forename>Michael</forename>
++                        <surname>Schüller</surname>
++                        <forename/>
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Pristanien (1735)</note>
+-                </person>
+-                <person xml:id="ed_ry5_x4l_52b">
+-                    <idno type="uri">https://d-nb.info/gnd/119056712</idno>
+-                    <persName type="reg">
+-                        <surname>Sabran</surname>
+-                        <forename>Françoise Eléonore Dejean de Manville, Comtesse de </forename>
+-                    </persName>
+-                    <birth>1749</birth>
+-                    <death>1827</death>
+-                </person>
+-                <person xml:id="ed_cln_c3r_fkb">
+-                    <persName type="reg">
+-                        <surname>Szczepanski</surname>
+-                        <forename>Jacobus (Jacob) August</forename>
+-                    </persName>
+-                    <birth>1720</birth>
+-                    <death>1782</death>
+-                    <note>Gerichtsschreiber am adligen Gericht in Saalfeld bis 1741, 1741-1742
+-                        Richter zu Lötzen, dann Stadtrichter in Angerburg; erwarb 1744 das
+-                        Bürgerrecht der Stadt Angerburg, 1754 Verfahren wegen Sportel-Erpressung,
+-                        1757 Verfahren wegen Korruption und Bestechung, wurde 1760 wegen Beteiligung
+-                        an einem 'Exzess' des Richteramtes enthoben und zu 2 Jahren Festungshaft
+-                        verurteilt</note>
++                    <note>Tierarzt, Trakehnen (1817)</note>
+                 </person>
+                 <person xml:id="ed_ayg_yvp_rdb">
+                     <persName type="reg">
+@@ -430,6 +391,15 @@
+                     <death/>
+                     <note>Köchin, Steinort (1854)</note>
+                 </person>
++                <person xml:id="ed_epx_t2c_hkb">
++                    <persName type="reg">
++                        <surname>Scharck</surname>
++                        <forename>Michael</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Pristanien (1735)</note>
++                </person>
+                 <person xml:id="ed_lm3_jnx_y2b">
+                     <idno type="uri">https://d-nb.info/gnd/138123152</idno>
+                     <persName type="reg">
+@@ -488,23 +458,23 @@
+                     <death/>
+                     <note>Bedienter, Schloss Steinort (1785)</note>
+                 </person>
+-                <person xml:id="ed_pct_t42_n3b">
++                <person xml:id="ed_zf1_vkm_33b">
+                     <persName type="reg">
+                         <surname>Scheimann</surname>
+-                        <forename>Michael</forename>
++                        <forename>Familie</forename>
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Schmied in Stawken 1750</note>
++                    <note>Labab</note>
+                 </person>
+-                <person xml:id="ed_zf1_vkm_33b">
++                <person xml:id="ed_pct_t42_n3b">
+                     <persName type="reg">
+                         <surname>Scheimann</surname>
+-                        <forename>Familie</forename>
++                        <forename>Michael</forename>
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Labab</note>
++                    <note>Schmied in Stawken 1750</note>
+                 </person>
+                 <person xml:id="ed_fj3_np5_1bb">
+                     <persName type="reg"><surname>Schemock</surname>
+@@ -619,6 +589,15 @@
+                     <death>1852</death>
+                     <note>Schäfer, Rosengarten (1852)</note>
+                 </person>
++                <person xml:id="ed_bc3_grw_gkb">
++                    <persName type="reg">
++                        <surname>Scheumann</surname>
++                        <forename>Fabian</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Untertan in den Steinortschen Gütern (1732)</note>
++                </person>
+                 <person xml:id="ed_clc_sfl_wcb">
+                     <persName type="reg">
+                         <surname>Schiemann</surname>
+@@ -872,6 +851,14 @@
+                     <death/>
+                     <note>Major im Regiment Tettenborn (1767)</note>
+                 </person>
++                <person xml:id="ed_t3h_fwb_hkb">
++                    <persName type="reg">
++                        <surname>Schlieben</surname>
++                        <forename>Maria Elisabeth von</forename>
++                    </persName>
++                    <birth/>
++                    <death>1698</death>
++                </person>
+                 <person xml:id="ed_q41_t2q_tcb">
+                     <persName type="reg">
+                         <surname>Schlieben</surname>
+@@ -1392,6 +1379,15 @@
+                     <death/>
+                     <note>Amtsvorsteher, Steinort (1891)</note>
+                 </person>
++                <person xml:id="ed_tqg_hkb_hkb">
++                    <persName type="reg">
++                        <surname>Schmidt</surname>
++                        <forename>Frau</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Witwe von Friedrich Schmidt</note>
++                </person>
+                 <person xml:id="ed_y1b_xmd_py">
+                     <persName type="reg"><surname>Schmidt</surname><forename>Herrmann</forename>
+                     </persName>
+@@ -2093,6 +2089,14 @@
+                     <note>Heirat: <persName key="ed_i4r_pdt_kfb">Otto Graf von Schwerin</persName>
+                         (1889)</note>
+                 </person>
++                <person xml:id="ed_hv1_mzj_hkb">
++                    <persName type="reg">
++                        <surname>Schwerin</surname>
++                        <forename>Curd Christoph Graf von</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                </person>
+                 <person xml:id="ed_dkj_hjj_w2b">
+                     <idno type="uri">https://d-nb.info/gnd/12029320X</idno>
+                     <persName type="reg">
+@@ -2455,7 +2459,7 @@
+                     <note>Steinort</note>
+                 </person>
+                 <person xml:id="ed_f2s_t3q_pz">
+-                    <persName type="reg"><surname>Siebert</surname><forename/>
++                    <persName type="reg"><surname>Siebert</surname><forename>Karl</forename>
+                     </persName>
+                     <birth/>
+                     <death/>
+@@ -3245,6 +3249,20 @@
+                     <death/>
+                     <note>Landesdeputierter der ostpreußischen und litauischen Stände</note>
+                 </person>
++                <person xml:id="ed_cln_c3r_fkb">
++                    <persName type="reg">
++                        <surname>Szczepanski</surname>
++                        <forename>Jacobus (Jacob) August</forename>
++                    </persName>
++                    <birth>1720</birth>
++                    <death>1782</death>
++                    <note>Gerichtsschreiber am adligen Gericht in Saalfeld bis 1741, 1741-1742
++                        Richter zu Lötzen, dann Stadtrichter in Angerburg; erwarb 1744 das
++                        Bürgerrecht der Stadt Angerburg, 1754 Verfahren wegen Sportel-Erpressung,
++                        1757 Verfahren wegen Korruption und Bestechung, wurde 1760 wegen Beteiligung
++                        an einem 'Exzess' des Richteramtes enthoben und zu 2 Jahren Festungshaft
++                        verurteilt</note>
++                </person>
+                 <person xml:id="ed_uyq_v3k_wcb">
+                     <persName type="reg">
+                         <surname>Sziska</surname>
+diff --git a/lehndorff/data/Register/Personen/T.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/T.xml
+index cbc4c42..199ce62 100644
+--- a/lehndorff/data/Register/Personen/T.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/T.xml
+@@ -589,7 +589,7 @@
+                 </person>
+                 <person xml:id="ed_nh1_xqt_s3b">
+                     <persName type="reg">
+-                        <surname>Truchseß zu Waldburg</surname>
++                        <surname>Truchsess zu Waldburg</surname>
+                         <forename>Amalie Gräfin</forename>
+                     </persName>
+                     <birth>1753</birth>
+@@ -597,7 +597,7 @@
+                 </person>
+                 <person xml:id="ed_vgm_ylm_s3b">
+                     <persName type="reg">
+-                        <surname>Truchseß zu Waldburg</surname>
++                        <surname>Truchsess zu Waldburg</surname>
+                         <forename>Friedrich Ludwig Graf</forename>
+                     </persName>
+                     <birth>1711</birth>
+@@ -607,7 +607,7 @@
+                 <person xml:id="ed_ryf_z3g_xdb">
+                     <idno type="uri">https://d-nb.info/gnd/117117587</idno>
+                     <persName type="reg">
+-                        <surname>Truchseß zu Waldburg</surname><forename>Friedrich Ludwig III.
++                        <surname>Truchsess zu Waldburg</surname><forename>Friedrich Ludwig III.
+                         </forename>
+                     </persName>
+                     <birth>1776</birth>
+@@ -615,7 +615,7 @@
+                 </person>
+                 <person xml:id="ed_gkr_d2z_g1b">
+                     <idno type="uri">https://d-nb.info/gnd/12301350X</idno>
+-                    <persName type="reg"><surname>Truchseß zu Waldburg</surname>
++                    <persName type="reg"><surname>Truchsess zu Waldburg</surname>
+                         <forename>Karl Ludwig </forename>
+                     </persName>
+                     <birth>1685</birth>
+@@ -623,7 +623,7 @@
+                 </person>
+                 <person xml:id="ed_kzh_z13_tcb">
+                     <persName type="reg">
+-                        <surname>Truchseß zu Waldburg-Capustigall</surname>
++                        <surname>Truchsess zu Waldburg-Capustigall</surname>
+                         <forename>Friedrich Ludwig II. </forename>
+                     </persName>
+                     <birth>1741</birth>
+diff --git a/lehndorff/data/Register/Personen/W.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/W.xml
+index 595a94a..c0d7a5a 100644
+--- a/lehndorff/data/Register/Personen/W.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/W.xml
+@@ -16,6 +16,15 @@
+     <text>
+         <body>
+             <listPerson>
++                <person xml:id="ed_abl_pyy_4kb">
++                    <persName type="reg">
++                        <surname>Werse</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Aktuar (1817)</note>
++                </person>
+                 <person xml:id="ed_ppx_3zw_hkb">
+                     <persName type="reg">
+                         <surname>Waschk</surname>
+diff --git a/lehndorff/data/Register/Personen/__contents__.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/__contents__.xml
+index a0b22c6..b4baab3 100644
+--- a/lehndorff/data/Register/Personen/__contents__.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/Personen/__contents__.xml
+@@ -1,93 +1,93 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/lehndorff/data/Register/Personen" version="1" owner="exist-bot" group="lehndorff-nutzer" mode="770" created="2018-08-28T15:29:57.672+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="G.xml.bak" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2020-02-03T15:15:03.701+01:00" modified="2020-02-03T15:15:03.701+01:00" filename="G.xml.bak" mimetype="application/octet-stream">
++    <resource type="XMLResource" name="F.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:55:59.974+01:00" modified="2019-10-22T15:30:23.687+02:00" filename="F.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="K.xml.bak" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2020-02-03T15:15:04.58+01:00" modified="2020-02-03T15:15:04.58+01:00" filename="K.xml.bak" mimetype="application/octet-stream">
++    <resource type="XMLResource" name="I.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.026+01:00" modified="2019-02-26T10:36:45.154+01:00" filename="I.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="T.xml.bak" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2020-02-03T15:15:05.871+01:00" modified="2020-02-03T15:15:05.871+01:00" filename="T.xml.bak" mimetype="application/octet-stream">
++    <resource type="XMLResource" name="H.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.007+01:00" modified="2020-02-04T17:31:46.271+01:00" filename="H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="S.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2020-01-06T14:42:22+01:00" filename="S.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="S.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.144+01:00" modified="2020-02-03T16:05:37.994+01:00" filename="S.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="T.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2020-01-04T16:52:04+01:00" filename="T.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="T.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.163+01:00" modified="2020-02-03T15:15:05.95+01:00" filename="T.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="U.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2019-10-31T11:37:39+01:00" filename="U.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="U.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.168+01:00" modified="2019-10-31T11:37:39.74+01:00" filename="U.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="V.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2020-01-05T15:04:17+01:00" filename="V.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="V.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.178+01:00" modified="2020-01-05T15:04:17.72+01:00" filename="V.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="A.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:55:59+01:00" modified="2020-02-10T20:11:07.531+01:00" filename="A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="A.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:55:59.843+01:00" modified="2020-01-05T14:09:57.672+01:00" filename="A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="X.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2019-02-26T10:36:45+01:00" filename="X.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="X.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.191+01:00" modified="2019-02-26T10:36:45.998+01:00" filename="X.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Y.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2020-01-09T09:48:35+01:00" filename="Y.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Y.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.195+01:00" modified="2020-01-09T09:48:35.742+01:00" filename="Y.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Z.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2019-12-31T17:18:22+01:00" filename="Z.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Z.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.198+01:00" modified="2019-12-31T17:18:22.825+01:00" filename="Z.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="O.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2019-10-24T17:02:54+02:00" filename="O.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="O.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.1+01:00" modified="2019-10-24T17:02:54.567+02:00" filename="O.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="B.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:55:59+01:00" modified="2020-02-10T20:51:25.455+01:00" filename="B.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="B.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:55:59.878+01:00" modified="2020-01-08T09:36:27.562+01:00" filename="B.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="C.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:55:59+01:00" modified="2020-01-05T13:37:44+01:00" filename="C.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="C.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:55:59.914+01:00" modified="2020-02-05T19:11:36.058+01:00" filename="C.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="D.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:55:59+01:00" modified="2020-01-05T11:51:48+01:00" filename="D.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="D.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:55:59.93+01:00" modified="2020-02-04T17:33:49.557+01:00" filename="D.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="E.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:55:59+01:00" modified="2019-12-31T13:22:55+01:00" filename="E.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="E.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:55:59.955+01:00" modified="2019-12-31T13:22:55.605+01:00" filename="E.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="F.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:55:59+01:00" modified="2020-02-11T14:16:50.746+01:00" filename="F.xml" mimetype="application/xml">
++    <resource type="BinaryResource" name="G.xml.bak" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2020-02-03T15:15:03.701+01:00" modified="2020-02-17T16:57:54.218+01:00" filename="G.xml.bak" mimetype="application/octet-stream">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="G.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:55:59+01:00" modified="2020-01-05T14:31:57+01:00" filename="G.xml" mimetype="application/xml">
++    <resource type="BinaryResource" name="K.xml.bak" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2020-02-03T15:15:04.58+01:00" modified="2020-02-17T16:57:54.22+01:00" filename="K.xml.bak" mimetype="application/octet-stream">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="H.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2020-01-08T12:53:41+01:00" filename="H.xml" mimetype="application/xml">
++    <resource type="BinaryResource" name="T.xml.bak" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2020-02-03T15:15:05.871+01:00" modified="2020-02-17T16:57:54.223+01:00" filename="T.xml.bak" mimetype="application/octet-stream">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="I.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2019-02-26T10:36:45+01:00" filename="I.xml" mimetype="application/xml">
++    <resource type="BinaryResource" name="D.xml.bak" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2020-02-04T17:33:49.437+01:00" modified="2020-02-17T16:57:54.355+01:00" filename="D.xml.bak" mimetype="application/octet-stream">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="J.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2020-01-05T14:18:01+01:00" filename="J.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="J.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.034+01:00" modified="2020-01-05T14:18:01.382+01:00" filename="J.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="K.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2020-02-11T15:55:18.667+01:00" filename="K.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="K.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.045+01:00" modified="2020-02-03T15:15:04.705+01:00" filename="K.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="L.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2020-01-05T12:13:50+01:00" filename="L.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="L.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.063+01:00" modified="2020-01-05T12:13:50.077+01:00" filename="L.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="M.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2020-01-08T12:50:51+01:00" filename="M.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="M.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.085+01:00" modified="2020-01-08T12:50:51.329+01:00" filename="M.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="N.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2020-01-05T10:18:51+01:00" filename="N.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="N.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.092+01:00" modified="2020-01-05T10:18:51.139+01:00" filename="N.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="P.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2020-01-06T18:51:20+01:00" filename="P.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="P.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.106+01:00" modified="2020-01-06T18:51:20.375+01:00" filename="P.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Q.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2019-02-26T10:36:45+01:00" filename="Q.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Q.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.126+01:00" modified="2019-02-26T10:36:45.614+01:00" filename="Q.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="R.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2020-01-05T14:54:33+01:00" filename="R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="R.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.128+01:00" modified="2020-02-02T15:57:40.18+01:00" filename="R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="W.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00+01:00" modified="2020-01-08T09:35:59+01:00" filename="W.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="W.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:56:00.185+01:00" modified="2020-02-02T16:45:52.149+01:00" filename="W.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="D.xml.bak" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2020-02-04T17:33:49.437+01:00" modified="2020-02-04T17:33:49.437+01:00" filename="D.xml.bak" mimetype="application/octet-stream">
++    <resource type="XMLResource" name="G.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-22T10:55:59.985+01:00" modified="2020-02-05T19:15:06.045+01:00" filename="G.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/lehndorff/data/Register/__contents__.xml b/home/gordon/backup182/db/projects/lehndorff/data/Register/__contents__.xml
+index b5fe3fa..3bde897 100644
+--- a/lehndorff/data/Register/__contents__.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Register/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/lehndorff/data/Register" version="1" owner="exist-bot" group="lehndorff-nutzer" mode="770" created="2018-08-28T15:29:57.524+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Sachbegriffe.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-26T10:35:06+01:00" modified="2019-02-26T10:35:06+01:00" filename="Sachbegriffe.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sachbegriffe.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-26T10:35:06.533+01:00" modified="2019-02-26T10:35:06.533+01:00" filename="Sachbegriffe.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Koerperschaften.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-26T10:35:04+01:00" modified="2020-02-10T19:06:16.805+01:00" filename="Koerperschaften.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Koerperschaften.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2019-02-26T10:35:04.825+01:00" modified="2020-01-09T09:59:51.737+01:00" filename="Koerperschaften.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Orte.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2018-12-11T10:39:17+01:00" modified="2020-02-10T20:02:51.824+01:00" filename="Orte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Orte.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2018-12-11T10:39:17.257+01:00" modified="2020-02-06T12:38:59.711+01:00" filename="Orte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <subcollection name="Personen" filename="Personen"/>

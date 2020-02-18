@@ -1,0 +1,37 @@
+diff --git a/lehndorff/data/Ueber_die_Edition/__contents__.xml b/home/gordon/backup182/db/projects/lehndorff/data/Ueber_die_Edition/__contents__.xml
+index b9d27e4..692c64c 100644
+--- a/lehndorff/data/Ueber_die_Edition/__contents__.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Ueber_die_Edition/__contents__.xml
+@@ -1,24 +1,24 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/lehndorff/data/Ueber_die_Edition" version="1" owner="exist-bot" group="lehndorff-nutzer" mode="770" created="2018-08-28T15:29:58.425+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="I_Projekt.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2018-08-28T15:29:58+02:00" modified="2019-07-16T09:52:13+02:00" filename="I_Projekt.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="I_Projekt.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2018-08-28T15:29:58.426+02:00" modified="2019-07-16T09:52:13.628+02:00" filename="I_Projekt.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="II_Familie.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2018-08-28T15:29:58+02:00" modified="2019-07-16T09:52:13+02:00" filename="II_Familie.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="II_Familie.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2018-08-28T15:29:58.441+02:00" modified="2019-07-16T09:52:13.592+02:00" filename="II_Familie.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="III_Quellen.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2018-08-28T15:29:58+02:00" modified="2019-10-07T12:33:41+02:00" filename="III_Quellen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="III_Quellen.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2018-08-28T15:29:58.478+02:00" modified="2019-10-07T12:33:41.986+02:00" filename="III_Quellen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="IV_Edition.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2018-08-28T15:29:58+02:00" modified="2019-07-16T09:52:13+02:00" filename="IV_Edition.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="IV_Edition.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2018-08-28T15:29:58.487+02:00" modified="2019-07-16T09:52:13.463+02:00" filename="IV_Edition.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="VII_Bibliographie.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-07-16T09:52:10+02:00" modified="2019-11-25T17:46:22+01:00" filename="VII_Bibliographie.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="VII_Bibliographie.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-07-16T09:52:10.245+02:00" modified="2019-11-25T17:46:22.815+01:00" filename="VII_Bibliographie.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="V_Abbildungen.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2018-10-02T14:46:00+02:00" modified="2019-07-16T09:52:13+02:00" filename="V_Abbildungen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="V_Abbildungen.xml" skip="no" owner="huch" group="lehndorff-nutzer" mode="660" created="2018-10-02T14:46:00.794+02:00" modified="2019-07-16T09:52:13.401+02:00" filename="V_Abbildungen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="VI_Siglen.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-05-13T11:22:01+02:00" modified="2019-07-16T09:52:13+02:00" filename="VI_Siglen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="VI_Siglen.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-05-13T11:22:01.237+02:00" modified="2019-07-16T09:52:13.352+02:00" filename="VI_Siglen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

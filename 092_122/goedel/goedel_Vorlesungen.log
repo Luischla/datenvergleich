@@ -1,0 +1,17 @@
+diff --git a/goedel/data/Vorlesungen/__contents__.xml b/home/gordon/backup182/db/projects/goedel/data/Vorlesungen/__contents__.xml
+index ebc5739..84cc9be 100644
+--- a/goedel/data/Vorlesungen/__contents__.xml
++++ b/home/gordon/backup182/db/projects/goedel/data/Vorlesungen/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/goedel/data/Vorlesungen" version="1" owner="exist-bot" group="goedel-nutzer" mode="770" created="2019-02-13T13:11:39.535+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Gomperz%20Mitschrift_2.xml" skip="no" owner="exist-bot" group="goedel-nutzer" mode="770" created="2019-02-13T13:11:39+01:00" modified="2019-02-13T13:11:39+01:00" filename="Gomperz Mitschrift_2.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Gomperz%20Mitschrift_2.xml" skip="no" owner="exist-bot" group="goedel-nutzer" mode="770" created="2019-02-13T13:11:39.54+01:00" modified="2019-02-13T13:11:39.54+01:00" filename="Gomperz Mitschrift_2.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Gomperz%20Mitschrift_1.xml" skip="no" owner="exist-bot" group="goedel-nutzer" mode="770" created="2019-02-13T13:11:39+01:00" modified="2019-02-13T13:11:39+01:00" filename="Gomperz Mitschrift_1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Gomperz%20Mitschrift_1.xml" skip="no" owner="exist-bot" group="goedel-nutzer" mode="770" created="2019-02-13T13:11:39.697+01:00" modified="2019-02-13T13:11:39.697+01:00" filename="Gomperz Mitschrift_1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

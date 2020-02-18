@@ -1,0 +1,2024 @@
+diff --git a/mega/data/Register/Firmen_Institutionen.xml b/home/gordon/backup182/db/projects/mega/data/Register/Firmen_Institutionen.xml
+index 21f9b31..9c9b0e7 100644
+--- a/mega/data/Register/Firmen_Institutionen.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Firmen_Institutionen.xml
+@@ -24,6 +24,42 @@
+                <orgName type="reg">Imperial Mercantile Credit Association</orgName>
+                <desc>Londoner Kreditgesellschaft; 1864 gegründet; Insolvenz im Zuge der Krise 1866</desc>
+             </org>
++            <org xml:id="ed_osf_th4_nkb">
++               <orgName type="reg">Crédit foncier de France</orgName>
++               <desc>französische Aktiengesellschaft für Bodenkredite; gegründet 1852</desc>
++            </org>
++            <org xml:id="ed_fcd_qws_pkb">
++               <orgName type="reg">European Bank Ltd</orgName>
++               <desc>englische Bank; 1862 gegründet als The Union Bank of England and France; 1866 Insolvenz</desc>
++            </org>
++            <org xml:id="ed_pkc_sxs_pkb">
++               <orgName type="reg">New Zealand Banking Corporation Ltd</orgName>
++               <desc>englische Bank; 1863 gegegründet, 1866 Insolvenz</desc>
++            </org>
++            <org xml:id="ed_bsz_p3t_pkb">
++               <orgName type="reg">Asiatic Banking Corporation</orgName>
++               <desc>indische Bank; 1864 gegründet, 1866 Insolvenz</desc>
++            </org>
++            <org xml:id="ed_vt1_hkt_pkb">
++               <orgName type="reg">Leeds Banking Company</orgName>
++               <desc>englische Bank</desc>
++            </org>
++            <org xml:id="ed_dlw_slt_pkb">
++               <orgName type="reg">Peto and Betts</orgName>
++               <desc>auch Peto, Betts and Crampton; englischer Bauunternehmer, vor allem für Eisenbahnen; Auftragnehmer der London, Chatham and Dover Railway; Kunde der Bank Overend, Gurney and Co.; 1867 Insolvenz</desc>
++            </org>
++            <org xml:id="ed_zlc_tyt_pkb">
++               <orgName type="reg">Aberaman Ironworks Co.</orgName>
++               <desc>englisches Eisenwerk; 1846/1847 gegründet, 1867 verkauft</desc>
++            </org>
++            <org xml:id="ed_b2p_t15_pkb">
++               <orgName type="reg">Joint-Stock Discount Company Ltd</orgName>
++               <desc>englische Aktienbank; 1863 gegründet, 1866 Insolvenz</desc>
++            </org>
++            <org xml:id="ed_twd_p25_pkb">
++               <orgName type="reg">North British Railway Company</orgName>
++               <desc>britische Eisenbahngesellschaft in Schottland, Edinburgh, gegründet 1844</desc>
++            </org>
+    <org xml:id="pdrPo.001.015.000090042">
+       <idno type="mega">1002776</idno>
+       <orgName type="reg">A. Bielefelds</orgName>
+@@ -2666,26 +2702,6 @@ http://d-nb.info/gnd/1048605418"?></desc><?oxy_comment_end?>
+          <ptr target="II/14#1018" type="page"/>
+       </linkGrp>
+    </org>
+-            <org xml:id="ed_lgb_q1l_rkb">
+-               <orgName type="reg">Metropolitan Railway</orgName>
+-               <desc>Londoner Eisenbahngesellschaft; eröffnete 1863 die erste U-Bahn der Welt</desc>
+-            </org>
+-            <org xml:id="ed_acz_3sl_rkb">
+-               <orgName type="reg">Bristol and Exeter Railway Company</orgName>
+-               <desc>britische Eisenbahngesellschaft, gegründet 1836</desc>
+-            </org>
+-            <org xml:id="ed_a1b_4sl_rkb">
+-               <orgName type="reg">Birmingham and Bristol Railway</orgName>
+-               <desc>britische Eisenbahngesellschaft, gegründet 1845</desc>
+-            </org>
+-            <org xml:id="ed_rjb_ysl_rkb">
+-               <orgName type="reg">Glasgow and South Western Railway Company</orgName>
+-               <desc>britische Eisenbahngesellschaft, gegründet 1850</desc>
+-            </org>
+-            <org xml:id="ed_b2b_ptl_rkb">
+-               <orgName type="reg">Edinburgh and Glasgow Railway Company</orgName>
+-               <desc>britische Eisenbahngesellschaft, autorisiert 1838</desc>
+-            </org>
+    <org xml:id="pdrPo.001.015.000090211">
+       <idno type="mega">1019023</idno>
+       <orgName type="reg">Meyer &amp; Hanisch</orgName>
+@@ -2918,6 +2934,10 @@ http://d-nb.info/gnd/1048605418"?></desc><?oxy_comment_end?>
+          <ptr target="III/9#20" type="page"/>
+       </linkGrp>
+    </org>
++            <org xml:id="ed_ugh_nql_mkb">
++               <orgName type="reg">Philip Stephen King</orgName>
++               <desc>Londoner Verlagsbuchhandlung</desc>
++            </org>
+             <org xml:id="ed_xl1_hy3_ffb">
+                <orgName type="reg">Philipp Graff</orgName>
+                <desc>Fotoatelier in Berlin, gegründet etwa Anfang der 1840er Jahre von Philipp Graff
+diff --git a/mega/data/Register/Periodika.xml b/home/gordon/backup182/db/projects/mega/data/Register/Periodika.xml
+index 9ca9c7f..c0954b4 100644
+--- a/mega/data/Register/Periodika.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Periodika.xml
+@@ -16,12 +16,23 @@
+    <text>
+       <body>
+          <listBibl>
+-            <bibl type="journal" xml:id="ed_pkc_tgf_lbb">
+-               <title type="reg">Allgemeine Zeitung </title>
+-               <note>(Augsburg) – Tageszeitung, gegr. 1798 von Johann Friedrich Cotta, erschien
+-                  nacheinander in Tübingen, Ulm und Stuttgart, von
+-                  <?oxy_comment_start author="lindenberg" timestamp="20171130T142049+0100" comment="vorher: 1810"?>1807<?oxy_comment_end?>
+-                  bis 1882 in Augsburg, danach in München verlegt; existierte bis 1929</note>
++            <bibl type="journal" xml:id="ed_av3_xgf_lbb">
++               <title type="reg">(Allgemeine Deutsche) Arbeiter-Zeitung</title>
++               <note>(Coburg) − „Herausgegeben vom Arbeiterfortbildungsverein in Coburg“, erschien
++                  [1].1863 bis 4.1866, seit April 1863 unter dem Titel „Allgemeine Deutsche
++                  Arbeiter-Zeitung“; seit dem 25. März 1866 mit dem Untertitel: Organ der deutschen
++                  Arbeiterbildungsvereine</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_dpq_lhf_lbb">
++               <title type="reg">(Der) Social-Demokrat</title>
++               <note>(Berlin) − (vom Dezember 1864 bis Juni 1865: Der Social-Demokrat); erschien vom
++                  15. Dezember 1864 bis 26. April 1871, 1864 wöchentlich, ab Januar 1865 dreimal,
++                  zeitweise sechsmal wöchentlich; zunächst mit dem Untertitel „Organ des Allgemeinen
++                  deutschen Arbeiter-Vereins“, ab Dezember 1865 mit dem Untertitel „Organ der
++                  social-demokratischen Partei“; Eigentümer und Herausgeber waren Johann Baptist von
++                  Schweitzer und Johann Baptist von Hofstetten, Chefredakteur war Schweitzer, der
++                  Redaktion gehörte u. a. bis Februar 1865 Wilhelm Liebknecht an; Marx und Engels
++                  arbeiteten bis Februar 1865 an der Zeitung mit</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_lsh_1p2_mkb">
+                <title type="reg">A Collection of the Public General Statutes</title>
+@@ -33,9 +44,20 @@
+                   Offiziere und Militärbeamten; erschien von 1826 bis 1902; Engels publizierte in
+                   der Zeitschrift von 1860 bis 1864</note>
+             </bibl>
++            <bibl type="journal" xml:id="ed_pkc_tgf_lbb">
++               <title type="reg">Allgemeine Zeitung </title>
++               <note>(Augsburg) – Tageszeitung, gegr. 1798 von Johann Friedrich Cotta, erschien
++                  nacheinander in Tübingen, Ulm und Stuttgart, von
++                  <?oxy_comment_start author="lindenberg" timestamp="20171130T142049+0100" comment="vorher: 1810"?>1807<?oxy_comment_end?>
++                  bis 1882 in Augsburg, danach in München verlegt; existierte bis 1929</note>
++            </bibl>
+             <bibl type="journal" xml:id="ed_zyc_zxs_rjb">
+                <title type="reg">Augsburger Abendzeitung</title>
+-               <note>(Augsburg) – Tageszeitung;  erschien von 1826 bis 1912</note>
++               <note>(Augsburg) – Tageszeitung; erschien von 1826 bis 1912</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_o1v_22k_tgb">
++               <title type="reg">Barmer Zeitung</title>
++               <note>(Barmen) – liberale Tageszeitung, erschien von 1834 bis 1831</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_wb2_mxp_tgb">
+                <title type="reg">Berliner Montags-Zeitung</title>
+@@ -49,14 +71,14 @@
+                <note>(Berlin) − Untertitel: Organ der demokratischen Partei. Tageszeitung, erschien
+                   von 1861 bis 1871; von 1863 bis 1866 unter der Redaktion von Guido Weiß</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_ujl_xr3_hfb">
+-               <title>Der Beobachter. Ein Volksblatt ...</title>
+-               <note>(Stuttgart) – Tageszeitung erschien 1833-1933</note>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_vr2_bsp_tgb">
+                <title type="reg">Bibliographie de la France</title>
+-               <note>(Paris) – Zeitschrift (französische Nationalbibliographie), erschien  von 1813
+-                  bis 2011  (Berichtszeitraum 1811 ff.) </note>
++               <note>(Paris) – Zeitschrift (französische Nationalbibliographie), erschien von 1813
++                  bis 2011 (Berichtszeitraum 1811 ff.) </note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_zbg_nwj_tgb">
++               <title type="reg">Börsenblatt für den deutschen Buchhandel</title>
++               <note>(Leipzig) – Zeitschrift, erscheint sein 1834</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_hgx_bhk_tgb">
+                <title type="reg">Börsen-Halle</title>
+@@ -64,11 +86,17 @@
+                   Handel, Schiffahrt u. Politik“, erschien unter diesem Titel von 1827 bis
+                   1868</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_hzq_thq_xjb">
+-               <title type="reg">Der Correspondent</title>
+-               <note>(Leipzig) – Untertitel: Wochenschrift für Deutschlands Buchdrucker und
+-                  Schriftgießer;  erschien von 1863 bis 1869; danach unter anderen Titeln
+-                  fortgesetzt</note>
++            <bibl type="journal" xml:id="ed_zqm_vgf_lbb">
++               <title type="reg">Bromberger Zeitung</title>
++               <note>(Bromberg) − Tageszeitung; erschien unter diesem Titel von 1862 bis 1920</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_qhf_frw_jjb">
++               <title type="reg">Communalblatt (1866 u. d. T.: Reform)</title>
++               <note>(Dresden, Leipzig) – Tages- und Wochenblatt, erschien von 1864 bis 1866</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_ij5_bpp_tgb">
++               <title type="reg">Danziger Zeitung</title>
++               <note>(Danzig) – Tageszeitung, erschien von 1858 bis 1930</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_umz_dxj_tgb">
+                <title type="reg">Demokratisches Wochenblatt</title>
+@@ -79,28 +107,15 @@
+                   <?oxy_comment_start author="lindenberg" timestamp="20200113T100316+0100" comment="Erste Ausgabe im Internationalen Zeitungsmuseum Aachen
+ http://izmarchiv.de/index.php?option=com_izmdb&amp;Itemid=31&amp;type=entry"?></note><?oxy_comment_end?>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_o1v_22k_tgb">
+-               <title type="reg">Barmer Zeitung</title>
+-               <note>(Barmen) – liberale Tageszeitung, erschien von 1834 bis 1831</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_zbg_nwj_tgb">
+-               <title type="reg">Börsenblatt für den deutschen Buchhandel</title>
+-               <note>(Leipzig) – Zeitschrift, erscheint sein 1834</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_zqm_vgf_lbb">
+-               <title type="reg">Bromberger Zeitung</title>
+-               <note>(Bromberg) − Tageszeitung; erschien unter diesem Titel von 1862 bis 1920</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_av3_xgf_lbb">
+-               <title type="reg">(Allgemeine Deutsche) Arbeiter-Zeitung</title>
+-               <note>(Coburg) − „Herausgegeben vom Arbeiterfortbildungsverein in Coburg“, erschien
+-                  [1].1863 bis 4.1866, seit April 1863 unter dem Titel „Allgemeine Deutsche
+-                  Arbeiter-Zeitung“; seit dem 25. März 1866 mit dem Untertitel: Organ der deutschen
+-                  Arbeiterbildungsvereine</note>
++            <bibl type="journal" xml:id="ed_ujl_xr3_hfb">
++               <title>Der Beobachter. Ein Volksblatt ...</title>
++               <note>(Stuttgart) – Tageszeitung erschien 1833-1933</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_ij5_bpp_tgb">
+-               <title type="reg">Danziger Zeitung</title>
+-               <note>(Danzig) – Tageszeitung, erschien von 1858 bis 1930</note>
++            <bibl type="journal" xml:id="ed_hzq_thq_xjb">
++               <title type="reg">Der Correspondent</title>
++               <note>(Leipzig) – Untertitel: Wochenschrift für Deutschlands Buchdrucker und
++                  Schriftgießer; erschien von 1863 bis 1869; danach unter anderen Titeln
++                  fortgesetzt</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_tlr_k4k_wbb">
+                <title>Der deutsche Eidgenosse</title>
+@@ -108,17 +123,15 @@ http://izmarchiv.de/index.php?option=com_izmdb&amp;Itemid=31&amp;type=entry"?></
+                   Die deutschen Literatur-Zeitschriften 1850–1880. Bibliographien, Programme. Bd.
+                   1–5. München u. a. 1988–89; Bd. 1. Nr. 0482)</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_ql4_yxy_tgb">
+-               <title type="reg">Neue Hannoversche Anzeigen. Intelligenzblatt für das Königreich
+-                  Hannover</title>
+-               <note>(Hannover) – erschien unter diesem Titel von 1863 bis 1867, danach u. d. T.
+-                  „Hannoversche Anzeigen und Morgenblatt“<?oxy_comment_start author="lindenberg" timestamp="20190213T174924+0100" comment=" Besitzer und Herausgeber war Louis Jänecke; Mitte der 1860er Jahre redigiert von Robert Schweichel
+- 
+- Quelle d. Änderung
+- http://www.zeno.org/Schmidt-1902/A/J%C3%A4necke,+Familie"?><?oxy_comment_end?>
+-                  <?oxy_comment_start author="lindenberg" timestamp="20190213T173427+0100" comment="Nachweis?!
+-Wikipedia-Artikel:
+-https://de.wikipedia.org/wiki/Neue_Hannoversche_Anzeigen"?></note><?oxy_comment_end?>
++            <bibl type="journal" xml:id="ed_isf_x5d_wbb">
++               <title>Der Freischütz</title>
++               <note>(Hamburg) − Wochenblatt, erschien von 1825 bis 1878; veröffentlichte vorwiegend
++                  Theaterkritiken und literarische Beiträge</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_wcg_1mj_tgb">
++               <title type="reg">Der Unabhängige</title>
++               <note>(Bern) – Wochenblatt, 1864 bis 1867 herausgegeben von Johann Caspar
++                  Sieber</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_s1m_ygf_lbb">
+                <title type="reg">Der Vorbote</title>
+@@ -128,22 +141,11 @@ https://de.wikipedia.org/wiki/Neue_Hannoversche_Anzeigen"?></note><?oxy_comment_
+                   Zentral-Organ der Sektionsgruppe deutscher Sprache der Internationalen
+                   Arbeiterassociation“; Herausgeber und Redakteur war Johann Philipp Becker</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_kmv_wxx_mfb">
+-               <title>Deutsch-Französische Jahrbücher</title>
+-               <note>(Paris) – erschienen 1844 in 2 Lieferungen; herausgegeben von Arnold Ruge und
+-                  Karl Marx; Permalink:
+-                  http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10857964-3</note>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_pdx_qpk_tgb">
+                <title type="reg">Deutsche Arbeiterhalle</title>
+                <note>(Mannheim) – Zeitung mit dem Untertitel „Organ des Vereinstages Deutscher
+                   Arbeiter-Vereine“, erschien von 1867 bis 1868 zweimal monatlich</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_ddn_rzj_tgb">
+-               <title type="reg">Deutsche Volkszeitung</title>
+-               <note>(Hannover) – Tageszeitung, erschien seit 1866 als Presseorgan der
+-                  Deutsch-Hannoverschen Partei</note>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_y45_nsk_tgb">
+                <title type="reg">Deutsches Museum</title>
+                <note>(Leipzig) – Untertitel: Zeitschrift für Literatur, Kunst und öffentliches
+@@ -153,16 +155,23 @@ https://de.wikipedia.org/wiki/Neue_Hannoversche_Anzeigen"?></note><?oxy_comment_
+                <title type="reg">Deutsches Volksblatt</title>
+                <note>(Stuttgart) – erschien von 1848 bis 1965</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_x4y_mtk_tgb">
+-               <title type="reg">Schwäbischer Merkur</title>
+-               <note>(Stuttgart) – Tageszeitung, erschien von 1785 bis 1941</note>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_ed5_ygf_lbb">
+                <title type="reg">Deutsches Wochenblatt</title>
+                <note>(Mannheim) − erschien von 1865 (Probenummer vom 22. Dezember 1864) bis 1867;
+                   gegründet und redigiert von Ludwig Eckardt; seit September 1865 Organ der
+                   Deutschen Volkspartei</note>
+             </bibl>
++            <bibl type="journal" xml:id="ed_ddn_rzj_tgb">
++               <title type="reg">Deutsche Volkszeitung</title>
++               <note>(Hannover) – Tageszeitung, erschien seit 1866 als Presseorgan der
++                  Deutsch-Hannoverschen Partei</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_kmv_wxx_mfb">
++               <title>Deutsch-Französische Jahrbücher</title>
++               <note>(Paris) – erschienen 1844 in 2 Lieferungen; herausgegeben von Arnold Ruge und
++                  Karl Marx; Permalink:
++                  http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10857964-3</note>
++            </bibl>
+             <bibl type="journal" xml:id="ed_rrq_rfj_ybb">
+                <title>Didaskalia</title>
+                <note>(Frankfurt am Main) − Belletristische Zeitschrift; erschien von 1823 bis 1933,
+@@ -175,11 +184,45 @@ https://de.wikipedia.org/wiki/Neue_Hannoversche_Anzeigen"?></note><?oxy_comment_
+                <note>(Wien) – Tageszeitung, erschien von 1864 bis 1869; Titelzusatz 1865-1868: und
+                   Wiener Lloyd</note>
+             </bibl>
++            <bibl type="journal" xml:id="ed_inz_jrr_kfb">
++               <title>Die Gartenlaube</title>
++               <note>(Berlin) – literarische Wochenzeitung, erschien mit dem Untertitel
++                  „Illustrirtes Familienblatt“ erschien 1853–1903 in Leipzig und danach bis 1943 in
++                  Berlin</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_kxv_3h2_bhb">
++               <title type="reg">Die Neue Welt</title>
++               <note>(Leipzig)</note>
++            </bibl>
+             <bibl type="journal" xml:id="ed_gk2_5rw_jhb">
+                <title type="reg">Die neue Zeit. </title>
+                <note>(Stuttgart, Berlin) – erschien von 1883 bis 1923 mit wechselnden
+                   Untertiteln</note>
+             </bibl>
++            <bibl type="journal" xml:id="ed_ufj_nh2_bhb">
++               <title type="reg">Die Presse</title>
++               <note>(Wien)</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_rtw_35d_wbb">
++               <title>Die Reform</title>
++               <note>(Leipzig, Berlin) – Tageszeitung, erschien 1848 zunächst in Leipzig, dann in
++                  Berlin</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_pnj_4qw_1cb">
++               <title>Die Revolution</title>
++               <note>(New York) – Wochenzeitung mit dem Untertitel: Eine Zeitschrift in zwanglosen
++                  Heften; 1852; herausgegeben von Joseph Weydemeyer</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_vkp_g32_bhb">
++               <title type="reg">Die Wage</title>
++               <note>(Berlin)</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_lpm_jxn_q2b">
++               <title>Die Zukunft</title>
++               <note>(Berlin) – Untertitel: Demokratische Zeitung; gegründet von Johann Jacoby;
++                  erschien von 1867 bis 1868 (Probenummer 25. Dezember 1866) im Verlag Friedländer,
++                  redigiert von Guido Weiß</note>
++            </bibl>
+             <bibl type="journal" xml:id="ed_htk_ddk_tgb">
+                <title type="reg">Düsseldorfer Zeitung</title>
+                <note>(Düsseldorf) – Tageszeitung, „politisches Unterhaltungs- und Anzeigeblatt“,
+@@ -208,8 +251,7 @@ dem er sich allerdings nicht ausdrücklich auf Marx’ Buch bezog. (Siehe Amand
+ Das Kapital. (Aus dem „Felleisen“.) Genf 1869.
+ 
+ Quelle für die Angaben: https://moving-the-social.ub.rub.de/index.php/Moving_the.../202-383-1-SM.pdf
+-vorhanden ifz dortmund"?></note>
+-               <?oxy_comment_end?>
++vorhanden ifz dortmund"?></note><?oxy_comment_end?>
+             </bibl>
+             <bibl type="journal" xml:id="ed_kmp_hlc_f2b">
+                <title>Fliegende Blätter</title>
+@@ -236,26 +278,19 @@ vorhanden ifz dortmund"?></note>
+                   <?oxy_comment_start author="lindenberg" timestamp="20191113T122826+0100" comment="http://www.izmarchiv.de/index.php?option=com_izmdb&amp;Itemid=31"?>nachgewiesen
+                   für die Jahre 1856, 1857, 1859<?oxy_comment_end?></note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_isf_x5d_wbb">
+-               <title>Der Freischütz</title>
+-               <note>(Hamburg) − Wochenblatt, erschien von 1825 bis 1878; veröffentlichte vorwiegend
+-                  Theaterkritiken und literarische Beiträge</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_wcg_1mj_tgb">
+-               <title type="reg">Der Unabhängige</title>
+-               <note>(Bern) – Wochenblatt, 1864 bis 1867 herausgegeben von Johann Caspar
+-                  Sieber</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_inz_jrr_kfb">
+-               <title>Die Gartenlaube</title>
+-               <note>(Berlin) – literarische Wochenzeitung, erschien mit dem Untertitel
+-                  „Illustrirtes Familienblatt“ erschien 1853–1903 in Leipzig und danach bis 1943 in
+-                  Berlin</note>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_lgg_1c2_bhb">
+                <title type="reg">Gardeners' Chronicle and Agriculture Gazette</title>
+                <note>(London)</note>
+             </bibl>
++            <bibl type="journal" xml:id="ed_ymr_nhj_tgb">
++               <title type="reg">Gazette de Lausanne et Journal Suisse</title>
++               <note>(Lausanne) – Tageszeitung, wurde 1798 in Lausanne gegründet, erscheint seit
++                  1816 unter diesem Titel</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_n3k_yf2_bhb">
++               <title type="reg">Gazzettino Rosa</title>
++               <note>(Milano)</note>
++            </bibl>
+             <bibl type="journal" xml:id="ed_dpw_f5k_tgb">
+                <title type="reg">Gewerbeblatt aus Württemberg</title>
+                <note>(Stuttgart) – Wochenschrift, erschien von 1849 bis 1921 als Beilage zum
+@@ -271,6 +306,14 @@ vorhanden ifz dortmund"?></note>
+                <note>(Sankt Peterburg) – Tageszeitung, erschien von 1863 bis 1884
+                   <?oxy_comment_start author="lindenberg" timestamp="20191127T173926+0100" comment="Die Stimme"?></note><?oxy_comment_end?>
+             </bibl>
++            <bibl type="journal" xml:id="ed_y3z_1g2_bhb">
++               <title type="reg">Hamburger Nachrichten. Morgenzeitung für Politik, Handel und
++                  Schiffahrt. Organ für Hamburgische Angelegenheiten</title>
++            </bibl>
++            <bibl type="journal" xml:id="ed_wxv_qrj_tgb">
++               <title type="reg">Hannoverscher Courier</title>
++               <note>(Hannover) – Tageszeitung, erschien unter diesem Titel von 1854 bis 1914</note>
++            </bibl>
+             <bibl type="journal" xml:id="ed_s51_tmw_1cb">
+                <title>Hermann</title>
+                <note>(London) – Untertitel: Deutsches Wochenblatt aus London; erschien von 1859 bis
+@@ -278,44 +321,40 @@ vorhanden ifz dortmund"?></note>
+                   danach von Ernst
+                   <?oxy_comment_start author="lindenberg" timestamp="20180615T143915+0200" comment="vorher noch: ; Organ deutscher Emigranten"?>Juch<?oxy_comment_end?></note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_p3r_nvj_wbb">
+-               <title>Il Dovere</title>
+-               <note>(Genova) − Wochenblatt mit dem Untertitel „Giornale politico settimanale per la
+-                  democrazia“, gegründet von Federico Campanella; 1.1863-9.1871
+-                  <?oxy_comment_start author="lindenberg" timestamp="20171114T140507+0100" comment="https://it.wikipedia.org/wiki/Il_Dovere"?></note>
+-               <?oxy_comment_end?>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_wxv_qrj_tgb">
+-               <title type="reg">Hannoverscher Courier</title>
+-               <note>(Hannover) – Tageszeitung, erschien unter diesem Titel von 1854 bis 1914</note>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_rdt_qnr_tgb">
+                <title type="reg">How do you do – Louis Drucker’s London – Gemüthlich-Humoristiches
+                   Wochenblatt</title>
+                <note>(London) – Zeitschrift; erschien um 1851 in deutscher Sprache; hrsg. von Louis
+                   Drucker, redigiert von Heinrich Bettziech</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_tkt_rmp_tgb">
+-               <title type="reg">Illustrirte Zeitung</title>
+-               <note>(Leipzig u. a.) – Zeitschrift, erschien von 1843 bis 1944 im Verlag von J. J.
+-                  Weber</note>
++            <bibl type="journal" xml:id="ed_p3r_nvj_wbb">
++               <title>Il Dovere</title>
++               <note>(Genova) − Wochenblatt mit dem Untertitel „Giornale politico settimanale per la
++                  democrazia“, gegründet von Federico Campanella; 1.1863-9.1871
++                  <?oxy_comment_start author="lindenberg" timestamp="20171114T140507+0100" comment="https://it.wikipedia.org/wiki/Il_Dovere"?></note><?oxy_comment_end?>
+             </bibl>
+             <bibl type="journal" xml:id="ed_ax5_bpj_tgb">
+                <title type="reg">Illustrirter Familien-Kalender</title>
+                <note>(Reudnitz bei Leipzig) – erschien unter diesem Titel von 1857 bis 1884 bei
+                   Payne</note>
+             </bibl>
++            <bibl type="journal" xml:id="ed_tkt_rmp_tgb">
++               <title type="reg">Illustrirte Zeitung</title>
++               <note>(Leipzig u. a.) – Zeitschrift, erschien von 1843 bis 1944 im Verlag von J. J.
++                  Weber</note>
++            </bibl>
+             <bibl type="journal" xml:id="ed_gmp_1hf_lbb">
+                <title type="reg">Internationale Revue</title>
+                <note>(Wien) − Untertitel: Monatsschrift für das gesammte geistige Leben und Streben
+-                  der außerdeutschen Culturwelt;  erschien von 1866 bis 1868</note>
++                  der außerdeutschen Culturwelt; erschien von 1866 bis 1868</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_m2f_lck_tgb">
+-               <title type="reg">The Irishman</title>
+-               <note>(Dublin) – Wochenzeitung, erschien von 1858 bis 1885</note>
++            <bibl type="journal" xml:id="ed_ulz_lg2_bhb">
++               <title type="reg">Jahrbuch für Volkswirtschaft und Statistik</title>
++               <note>(Leipzig)</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_wng_nc2_bhb">
+-               <title type="reg">The Irish People</title>
++            <bibl type="journal" xml:id="ed_xjm_mjj_ckb">
++               <title type="reg">Jahresbericht der Handelskammer zu Leipzig</title>
++               <note>(Leipzig); erschien unter diesem Titel von 1867 bis 1919</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_wth_bhf_lbb">
+                <title type="reg">Journal de l’Association Internationale des Travailleurs. Section
+@@ -326,13 +365,9 @@ vorhanden ifz dortmund"?></note>
+                   Generalrats der IAA und Berichte über deren Tätigkeit in der romanischen Schweiz;
+                   am 26. April 1867 Verschmelzung mit der „Voix de l'Avenir (Chaux-de-Fonds)</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_ulz_lg2_bhb">
+-               <title type="reg">Jahrbuch für Volkswirtschaft und Statistik</title>
+-               <note>(Leipzig)</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_xjm_mjj_ckb">
+-               <title type="reg">Jahresbericht der Handelskammer zu Leipzig</title>
+-               <note>(Leipzig); erschien unter diesem Titel von 1867 bis 1919</note>
++            <bibl type="journal" xml:id="ed_gbr_tg2_bhb">
++               <title type="reg">Journal de physique, de chimie, d'histoire et des arts...</title>
++               <note>(Paris)</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_j5q_bhf_lbb">
+                <title type="reg">Journal de Saint-Pétersbourg</title>
+@@ -347,28 +382,37 @@ https://gallica.bnf.fr/ark:/12148/cb39294634r/date.r=.langfr
+ "?></note><?oxy_comment_end?>
+             </bibl>
+             <bibl type="journal" xml:id="ed_k4b_chf_lbb">
+-               <title type="reg">Kladderadatsch.  </title>
++               <title type="reg">Kladderadatsch. </title>
+                <note>(Berlin) – Untertitel: Humoristisch-satirisches Wochenblatt; Sonntagsblatt,
+                   erschien von 1848 bis 1944</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_gbr_tg2_bhb">
+-               <title type="reg">Journal de physique, de chimie, d'histoire et des arts...</title>
+-               <note>(Paris)</note>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_tdy_dhf_lbb">
+                <title type="reg">Kölnische Zeitung</title>
+                <note>(Köln) − Tageszeitung, gegr. im 17. Jahrhundert, erschien unter diesem Titel
+                   von 1802 bis 1945</note>
+             </bibl>
++            <bibl type="journal" xml:id="ed_zgh_kpg_x2b">
++               <title>Kolokol (Колокол; deutsch: Die Glocke)</title>
++               <note>(London) – erste russische revolutionär-demokratische Zeitung; herausgegeben
++                  von A.I. Gercen und N.P. Ogarev; erschien unregelmäßig von 1857 bis April 1865 in
++                  russischer Sprache in London, ab Mai 1865 bis 1867 in Genf, wurde 1868/1869 in
++                  französischer Sprache unter dem Titel „Kolokol (La Cloche)“ mit russischen
++                  Beilagen in Genf herausgegeben</note>
++            </bibl>
+             <bibl type="journal" xml:id="ed_xtl_2hf_lbb">
+                <title type="reg">Königlich Preußischer Staats-Anzeiger</title>
+                <note>(Berlin) − erschien von 1851 bis 1871</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_bfw_33j_tgb">
+-               <title type="reg">La Liberté (Bruxelles)</title>
+-               <note>(Bruxelles) – Zeitung mit dem Untertitel „Organe Socialiste Quotidien“,
+-                  erschien von 1865 bis 1873, zunächst wöchentlich, von April bis November 1871
+-                  täglich</note>
++            <bibl type="journal" xml:id="ed_r4j_1gk_tgb">
++               <title type="reg">L'Ouvrier</title>
++               <note>(Paris) – Wochenblatt, erschien von 1861 bis 1898 mit dem Untertitel „Journal
++                  Hebdomadaire Illustré“
++                  <?oxy_comment_start author="lindenberg" timestamp="20190213T180539+0100" comment="Moskauer Reg. 
++L’Ouvrier (Lausanne) – herausgegeben von Charles Cornaz"?></note><?oxy_comment_end?>
++            </bibl>
++            <bibl type="journal" xml:id="ed_h1k_3vp_tgb">
++               <title type="reg">L' univers</title>
++               <note>(Paris) – Katholische Zeitung, erschien von 1833 bis 1919</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_pc4_hrk_tgb">
+                <title type="reg">La Coopération</title>
+@@ -381,13 +425,11 @@ https://gallica.bnf.fr/ark:/12148/cb39294634r/date.r=.langfr
+                   unter dem Titel „La Gazette“ gegründet; erschien zuerst einmal. dann zweimal
+                   wöchentlich und seit 1792 als Tageszeitung</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_n3k_yf2_bhb">
+-               <title type="reg">Gazzettino Rosa</title>
+-               <note>(Milano)</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_y3z_1g2_bhb">
+-               <title type="reg">Hamburger Nachrichten. Morgenzeitung für Politik, Handel und
+-                  Schiffahrt. Organ für Hamburgische Angelegenheiten</title>
++            <bibl type="journal" xml:id="ed_bfw_33j_tgb">
++               <title type="reg">La Liberté (Bruxelles)</title>
++               <note>(Bruxelles) – Zeitung mit dem Untertitel „Organe Socialiste Quotidien“,
++                  erschien von 1865 bis 1873, zunächst wöchentlich, von April bis November 1871
++                  täglich</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_mpt_vvj_tgb">
+                <title type="reg">La Liberté (Paris)</title>
+@@ -400,12 +442,6 @@ https://gallica.bnf.fr/ark:/12148/cb39294634r/date.r=.langfr
+                <note>(Paris) – erschien von 1859 bis 1882 mit dem Untertitel „Journal Ill. de la
+                   Famille „</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_rhn_1vy_tgb">
+-               <title type="reg">Monthly Reports of the Amalgamated Society of Carpenters and
+-                  Joiners</title>
+-               <note>
+-                  <?oxy_comment_start author="lindenberg" timestamp="20190213T171529+0100" comment="Monthly Reports of the Amalgamated Society of Carpenters and Joiners"?></note><?oxy_comment_end?>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_olp_bmp_tgb">
+                <title type="reg">La Philosophie positive. Revue </title>
+                <note>(Paris) – Zeitschrift, erschien von 1867 bis 1883, herausgegeben von Émile
+@@ -413,7 +449,7 @@ https://gallica.bnf.fr/ark:/12148/cb39294634r/date.r=.langfr
+             </bibl>
+             <bibl type="journal" xml:id="ed_hfk_c2z_tgb">
+                <title type="reg">La Presse</title>
+-               <note>(Paris). –  Tageszeitung, erschien von 1836 bis 1866; Gründer und mit
++               <note>(Paris). – Tageszeitung, erschien von 1836 bis 1866; Gründer und mit
+                   Unterbrechungen Herausgeber war Émilie de Girardin</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_cd1_fhf_lbb">
+@@ -440,65 +476,49 @@ https://gallica.bnf.fr/ark:/12148/cb39294634r/date.r=.langfr
+                   Untertitel „Journal de l’Association Internationale des Travailleurs de la Suisse
+                   romande“; Herausgeber und Redakteur war Pierre Coullery</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_qkf_ghf_lbb">
+-               <title type="reg">Le Courrier français</title>
+-               <note>(Paris) − erschien von 1861 bis 1868 und im September 1870, zunächst als
+-                  Wochenzeitung, ab Juni 1867 als Tageszeitung; 1866/1867 war Auguste Vermorel
+-                  Chefredakteur; Untertitel: Journal politique de la semaine</note>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_fxc_1f2_bhb">
+                <title type="reg">Le Courrier de l'Europe. Ècho du Continent auquel est réuni
+                   L'Observateur francais, jounal universel</title>
+                <note>(Londres)</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_eht_dbz_tgb">
+-               <title type="reg">L’Opinion nationale. Journal politique quotidien</title>
+-               <note>(Paris) – erschien von 1859 bis 1874</note>
++            <bibl type="journal" xml:id="ed_qkf_ghf_lbb">
++               <title type="reg">Le Courrier français</title>
++               <note>(Paris) − erschien von 1861 bis 1868 und im September 1870, zunächst als
++                  Wochenzeitung, ab Juni 1867 als Tageszeitung; 1866/1867 war Auguste Vermorel
++                  Chefredakteur; Untertitel: Journal politique de la semaine</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_h1k_3vp_tgb">
+-               <title type="reg">L' univers</title>
+-               <note>(Paris) – Katholische Zeitung, erschien von 1833 bis 1919</note>
++            <bibl type="journal" xml:id="ed_mbm_pf2_bhb">
++               <title type="reg">Le Diogène. La Chaux-de-Fonds</title>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_xhr_j1w_c2b">
+-               <title>The International Courier/ Le Courrier International</title>
+-               <note>(London/Londres) – erschien von 1864 bis 1867; herausgeber war Joseph-Charles
+-                  Collet
+-                  <?oxy_comment_start author="lindenberg" timestamp="20180611T160450+0200" comment="Quelle: https://books.google.de/books?id=MGI7DwAAQBAJ&amp;pg=PA228&amp;lpg=PA228&amp;dq=Le+Courrier+International+Londres+The+International+Courier.+London&amp;source=bl&amp;ots=EUPcVuPO6w&amp;sig=oB2CHpR-AjKxdHcULzyzTxRiGn4&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjB6eWt4svbAhXlAsAKHTzICXEQ6AEIfDAH#v=onepage&amp;q=Le%20Courrier%20International%20Londres%20The%20International%20Courier.%20London&amp;f=false
+-KVK: http://kvk.bibliothek.kit.edu/view-title/index.php?katalog=BVB&amp;url=http%3A%2F%2Fgateway-bayern.de%2FBV041333957&amp;signature=pHigRavLGEyrjopkMhAd_dAxA-J0yfqv7GcsQm-sebY&amp;showCoverImg=1"?></note>
+-               <?oxy_comment_end?>
++            <bibl type="journal" xml:id="ed_hwh_sjk_wbb">
++               <title>Leipziger Abendpost</title>
++               <note>(Leipzig) − Tageszeitung, redigiert von Carl Eduard Cramer, herausgegeben von
++                  dem Buchhändler Otto Voigt; erschien von 1865 bis 1866 (nach dem Einmarsch
++                  Preußens in Sachsen verboten)
++                  <?oxy_comment_start author="lindenberg" timestamp="20171114T160525+0100" comment="Quelle: https://de.wikipedia.org/wiki/Carl_Eduard_Cramer_(Publizist)"?></note><?oxy_comment_end?>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_zgh_kpg_x2b">
+-               <title>Kolokol (Колокол; deutsch: Die Glocke)</title>
+-               <note>(London) – erste russische revolutionär-demokratische Zeitung; herausgegeben
+-                  von A.I. Gercen und N.P. Ogarev; erschien unregelmäßig von 1857 bis April 1865 in
+-                  russischer Sprache in London, ab Mai 1865 bis 1867 in Genf, wurde 1868/1869 in
+-                  französischer Sprache unter dem Titel „Kolokol (La Cloche)“ mit russischen
+-                  Beilagen in Genf herausgegeben</note>
++            <bibl type="journal" xml:id="ed_acz_vk2_xbb">
++               <title>Leipziger Zeitung</title>
++               <note>(Leipzig) – älteste sächsische Tageszeitung, erschien seit 1660, und ab 1734
++                  bis 1918 unter diesem Titel</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_tfp_ghf_lbb">
+                <title type="reg">Le Moniteur universel</title>
+                <note>(Paris) – Tageszeitung; erschien von 1789 bis 1901; bis 1868 offizielles
+                   Regierungsorgan</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_mv1_tjj_tgb">
+-               <title type="reg">Le Siècle</title>
+-               <note>(Paris) – Tageszeitung mit dem Untertitel „Journal Politique, Littéraire et
+-                  d'Économie Sociale“; erschien von 1836 bis 1932
+-                  <?oxy_comment_start author="lindenberg" timestamp="20190213T182928+0100" comment="https://fr.wikipedia.org/wiki/Le_Si%C3%A8cle_(journal)"?></note><?oxy_comment_end?>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_mbm_pf2_bhb">
+-               <title type="reg">Le Diogène. La Chaux-de-Fonds</title>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_cym_hhf_lbb">
+-               <title type="reg">Le Temps</title>
+-               <note>(Paris) − Tageszeitung, erschien von 1829 bis 1842 und von 1861 bis 1940</note>
++            <bibl type="journal" xml:id="ed_lp2_fmk_tgb">
++               <title type="reg">Le Mukhbir</title>
++               <note>(London) – 1867 türkisch- und französischsprachige Wochenzeitung, herausgegeben
++                  von Ali Surawi (Permalink:
++                  http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10211091-7)<?oxy_comment_start author="lindenberg" timestamp="20190211T175704+0100" comment="digital: http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10211091-7 "?></note><?oxy_comment_end?>
+             </bibl>
+             <bibl type="journal" xml:id="ed_qcy_mlj_tgb">
+                <title type="reg">Les États-Unis d’Europe / Die Vereinigten Staaten von
+                   Europa</title>
+                <note>(Paris) – Wochenzeitung mit dem Untertitel „Journal de la Ligue Internationale
+                   de la Paix et de la Liberté“, erschien von 1868 (Probenummer: November 1867) bis
+-                  1870 und 1872 bis 1939. – Dt. Ausg.: Die vereinigten Staaten von Europa.  Bern :
++                  1870 und 1872 bis 1939. – Dt. Ausg.: Die vereinigten Staaten von Europa. Bern :
+                   Rieder &amp; Simmen 1868-1869
+                   <?oxy_comment_start author="lindenberg" timestamp="20191115T163557+0100" comment="Im November 1867 wurde eine doppelsprachige Probenummer des Wochen-blattes „Les États-Unis d`Europe“/„Die Vereinigten Staaten von Europa“ veröffentlicht. Das deutsch-sprachige Blatt „Die Vereinigten Staaten von Europa“ erschien von Januar 1868 bis April 1869. Die ersteNummer der französischsprachigen Ausgabe, „Les États-Unis d`Europe“, erschien ebenfalls im Januar 1868. (Andreas Volkmer: Kriegsverhütung und Friedenssicherung durch Internationale Organisation: Deutsche Ideen und Pläne 1815 – 1871. Marburg 2012. S. 525
+ KVK Hebis: 	
+@@ -522,74 +542,59 @@ Dt. Ausg.: Die vereinigten Staaten von Europa. - Bern : Rieder &amp; Simmen, 186
+ 
+ "?></note><?oxy_comment_end?>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_v1v_hhf_lbb">
+-               <title type="reg">L’Indépendance Belge</title>
+-               <note>(Bruxelles) – Tageszeitung mit dem Untertitel „Journal mondial d’informations
+-                  politiques et litteraires“, gegründet 1831; erschien bis Juni 1853 unter dem Titel
+-                  „L’Inde´pendant“; in den 1840er Jahren Organ der Liberalen </note>
++            <bibl type="journal" xml:id="ed_mv1_tjj_tgb">
++               <title type="reg">Le Siècle</title>
++               <note>(Paris) – Tageszeitung mit dem Untertitel „Journal Politique, Littéraire et
++                  d'Économie Sociale“; erschien von 1836 bis 1932
++                  <?oxy_comment_start author="lindenberg" timestamp="20190213T182928+0100" comment="https://fr.wikipedia.org/wiki/Le_Si%C3%A8cle_(journal)"?></note><?oxy_comment_end?>
++            </bibl>
++            <bibl type="journal" xml:id="ed_cym_hhf_lbb">
++               <title type="reg">Le Temps</title>
++               <note>(Paris) − Tageszeitung, erschien von 1829 bis 1842 und von 1861 bis 1940</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_v4d_kz3_tgb">
++               <title type="reg">Libertà e Giustizia</title>
++               <note>(Napoli) – Wochenzeitung, erschien 1867 mit dem Untertitel „Foglio Settimanale
++                  Democratico-Sociale. &lt;Organo dell'Associazione Omonima&gt;“</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_xhd_3hf_lbb">
+                <title type="reg">L’Écho de Verviers et de l'arrondissement </title>
+                <note>(Verviers) − belgische Tageszeitung, erschien von 1864 bis 1866; hrsg. von Léon
+                   Fontaine
+-                  <?oxy_comment_start author="lindenberg" timestamp="20171110T160734+0100" comment="ausführlich in I/20"?></note>
+-               <?oxy_comment_end?>
++                  <?oxy_comment_start author="lindenberg" timestamp="20171110T160734+0100" comment="ausführlich in I/20"?></note><?oxy_comment_end?>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_r4j_1gk_tgb">
+-               <title type="reg">L'Ouvrier</title>
+-               <note>(Paris) – Wochenblatt, erschien von 1861 bis 1898 mit dem Untertitel „Journal
+-                  Hebdomadaire Illustré“
+-                  <?oxy_comment_start author="lindenberg" timestamp="20190213T180539+0100" comment="Moskauer Reg. 
+-L’Ouvrier (Lausanne) – herausgegeben von Charles Cornaz"?></note><?oxy_comment_end?>
++            <bibl type="journal" xml:id="ed_v1v_hhf_lbb">
++               <title type="reg">L’Indépendance Belge</title>
++               <note>(Bruxelles) – Tageszeitung mit dem Untertitel „Journal mondial d’informations
++                  politiques et litteraires“, gegründet 1831; erschien bis Juni 1853 unter dem Titel
++                  „L’Inde´pendant“; in den 1840er Jahren Organ der Liberalen </note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_eht_dbz_tgb">
++               <title type="reg">L’Opinion nationale. Journal politique quotidien</title>
++               <note>(Paris) – erschien von 1859 bis 1874</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_hcx_s5j_wbb">
+                <title>L’Unità Italiana. </title>
+                <note>(Milano) – Untertitel: Giornale politico quotidiano; gegründet von Maurizio
+-                  Quadrio u. a.; erschien von 1860 bis 1871, erst in Genua, ab 1861 in Mailand
+-                  <?oxy_comment_start author="lindenberg" timestamp="20171114T141625+0100" comment="III/13: Herausgeber war Giacinto Piazzio ????
+-
+-Quellen: 
+-http://www.treccani.it/enciclopedia/giornale-e-giornalismo_%28Enciclopedia-Italiana%29/
+-L&apos; Unità italiana. - Mazziniano, fu fondato nel 1860 sotto la direzione di Maurizio Quadrio (v.), trasferito a Milano nel 1861, tornato a Genova nel 1871 per fondersi con Il Dovere, settimanale fondato da F. Campanella nel 1863, col titolo L&apos;Unità italiana e Dovere, direttori M. Quadrio e Vincenzo Brusco-Onnis (Cagliari 1822-Milano 1888; poeta, mazziniano; esule in Svizzera; quale condirettore dell&apos;Unità nel &apos;70 fu imprigionato; in seguito fondò a Milano una &quot;Scuola Mazzini&quot;).
+-
+-http://acnp.unibo.it/cgi-ser/start/en/cnr/df-p.tcl?catno=27481&amp;libr=&amp;person=false&amp;B=2&amp;proposto=NO&amp;year_poss_from=&amp;year_poss_to=
+-
+-"?></note>
+-               <?oxy_comment_end?>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_q3p_lsw_1cb">
+-               <title>L’Univers</title>
+-               <note>(Paris) – Tageszeitung, erschien vom 5. Oktober 1833 bis 1919; bis Januar 1860
+-                  unter dem Titel „L’Univers religieux, philosophique, politique, scientifique et
+-                  litéraire“; 1860 eingestellt, wiederaufgenommen am 16. April 1867; unterstützte in
+-                  den 1860-er Jahren bonapartistische klerikale Positionen   <?oxy_comment_start author="lindenberg" timestamp="20180919T170459+0200" comment="Digitalisiert
+-https://gallica.bnf.fr/ark:/12148/cb34520232c/date1867"?>
+-                  <?oxy_comment_end?></note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_l4v_qsw_1cb">
+-               <title>Unsere Zeit</title>
+-               <note>(Leipzig) – herausgegeben vom Verlag F. A. Brockhaus 1857–1891; verschiedene
+-                  Untertitel; mit dem Untertitel: Deutsche Revue der Gegenwart. Monatsschrift zum
+-                  Conversations-Lexikon. Neue Folge 1865–1874</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_lp2_fmk_tgb">
+-               <title type="reg">Le Mukhbir</title>
+-               <note>(London) – 1867 türkisch- und französischsprachige Wochenzeitung, herausgegeben
+-                  von Ali Surawi
+-                  <?oxy_comment_start author="lindenberg" timestamp="20190211T175704+0100" comment="digital: http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10211091-7 "?></note><?oxy_comment_end?>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_hwh_sjk_wbb">
+-               <title>Leipziger Abendpost</title>
+-               <note>(Leipzig) − Tageszeitung, redigiert von Carl Eduard Cramer, herausgegeben von
+-                  dem Buchhändler Otto Voigt; erschien von 1865 bis 1866 (nach dem Einmarsch
+-                  Preußens in Sachsen verboten)
+-                  <?oxy_comment_start author="lindenberg" timestamp="20171114T160525+0100" comment="Quelle: https://de.wikipedia.org/wiki/Carl_Eduard_Cramer_(Publizist)"?></note>
+-               <?oxy_comment_end?>
++                  Quadrio u. a.; erschien von 1860 bis 1871, erst in Genua, ab 1861 in Mailand
++                  <?oxy_comment_start author="lindenberg" timestamp="20171114T141625+0100" comment="III/13: Herausgeber war Giacinto Piazzio ????
++
++Quellen: 
++http://www.treccani.it/enciclopedia/giornale-e-giornalismo_%28Enciclopedia-Italiana%29/
++L&apos; Unità italiana. - Mazziniano, fu fondato nel 1860 sotto la direzione di Maurizio Quadrio (v.), trasferito a Milano nel 1861, tornato a Genova nel 1871 per fondersi con Il Dovere, settimanale fondato da F. Campanella nel 1863, col titolo L&apos;Unità italiana e Dovere, direttori M. Quadrio e Vincenzo Brusco-Onnis (Cagliari 1822-Milano 1888; poeta, mazziniano; esule in Svizzera; quale condirettore dell&apos;Unità nel &apos;70 fu imprigionato; in seguito fondò a Milano una &quot;Scuola Mazzini&quot;).
++
++http://acnp.unibo.it/cgi-ser/start/en/cnr/df-p.tcl?catno=27481&amp;libr=&amp;person=false&amp;B=2&amp;proposto=NO&amp;year_poss_from=&amp;year_poss_to=
++
++"?></note><?oxy_comment_end?>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_acz_vk2_xbb">
+-               <title>Leipziger Zeitung</title>
+-               <note>(Leipzig) – älteste sächsische Tageszeitung, erschien seit 1660, und ab 1734
+-                  bis 1918 unter diesem  Titel</note>
++            <bibl type="journal" xml:id="ed_q3p_lsw_1cb">
++               <title>L’Univers</title>
++               <note>(Paris) – Tageszeitung, erschien vom 5. Oktober 1833 bis 1919; bis Januar 1860
++                  unter dem Titel „L’Univers religieux, philosophique, politique, scientifique et
++                  litéraire“; 1860 eingestellt, wiederaufgenommen am 16. April 1867; unterstützte in
++                  den 1860-er Jahren bonapartistische klerikale Positionen
++                  <?oxy_comment_start author="lindenberg" timestamp="20180919T170459+0200" comment="Digitalisiert
++https://gallica.bnf.fr/ark:/12148/cb34520232c/date1867"?><?oxy_comment_end?></note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_kdh_fh2_bhb">
+                <title type="reg">Magdeburger Zeitung</title>
+@@ -604,6 +609,18 @@ https://gallica.bnf.fr/ark:/12148/cb34520232c/date1867"?>
+                   Peters und Louise Otto-Peters [anon. Mit-Red.]; seit Anfang August bis Oktober
+                   1866 unter der Leitung von Wilhelm Liebknecht</note>
+             </bibl>
++            <bibl type="journal" xml:id="ed_rhn_1vy_tgb">
++               <title type="reg">Monthly Reports of the Amalgamated Society of Carpenters and
++                  Joiners</title>
++               <note><?oxy_comment_start author="lindenberg" timestamp="20190213T171529+0100" comment="Monthly Reports of the Amalgamated Society of Carpenters and Joiners"?></note><?oxy_comment_end?>
++            </bibl>
++            <bibl type="journal" xml:id="ed_njr_mtw_1cb">
++               <title>Moskovskija Vědomosti (Московскiя Вѣдомости; deutsch: Moskauer
++                  Anzeiger)</title>
++               <note>(Moskau) − erschien von 1756 bis 1917, seit 1859 Tageszeitung; bis Mitte des
++                  19. Jahrhunderts größte Zeitung Rußlands; vertrat seit den 1860er Jahren
++                  konservative Ansichten</note>
++            </bibl>
+             <bibl type="journal" xml:id="ed_gvd_1mk_tgb">
+                <title type="reg">Moskva (Москва)</title>
+                <note>(Moskau) – Tageszeitung, erschien mit Unterbrechungen ab 1. Januar 1867 bis 21.
+@@ -630,20 +647,32 @@ https://gallica.bnf.fr/ark:/12148/cb34520232c/date1867"?>
+                <note>(Wien) – Tageszeitung, erschein von 1864 bis 1939, gegründet von Michael
+                   Etienne und Max Friedländer</note>
+             </bibl>
++            <bibl type="journal" xml:id="ed_ql4_yxy_tgb">
++               <title type="reg">Neue Hannoversche Anzeigen. Intelligenzblatt für das Königreich
++                  Hannover</title>
++               <note>(Hannover) – erschien unter diesem Titel von 1863 bis 1867, danach u. d. T.
++                  „Hannoversche Anzeigen und Morgenblatt“<?oxy_comment_start author="lindenberg" timestamp="20190213T174924+0100" comment=" Besitzer und Herausgeber war Louis Jänecke; Mitte der 1860er Jahre redigiert von Robert Schweichel
++ 
++ Quelle d. Änderung
++ http://www.zeno.org/Schmidt-1902/A/J%C3%A4necke,+Familie"?><?oxy_comment_end?>
++                  <?oxy_comment_start author="lindenberg" timestamp="20190213T173427+0100" comment="Nachweis?!
++Wikipedia-Artikel:
++https://de.wikipedia.org/wiki/Neue_Hannoversche_Anzeigen"?></note><?oxy_comment_end?>
++            </bibl>
+             <bibl type="journal" xml:id="ed_ydk_flp_tgb">
+                <title type="reg">Neue Hannoversche Zeitung. Nachrichten und Anzeigen</title>
+                <note>(Hannover) – Tageszeitung, erschien von 1858 bis 1883</note>
+             </bibl>
++            <bibl type="journal" xml:id="ed_vdp_cd2_bhb">
++               <title type="reg">Neue Oder-Zeitung</title>
++               <note>(Breslau)</note>
++            </bibl>
+             <bibl type="journal" xml:id="ed_tdd_15k_wbb">
+                <title>Neue Preußische Zeitung</title>
+                <note>(Berlin) − Tageszeitung, gegründet von Ernst Ludwig von Gerlach u. a., erschien
+                   von Juni 1848 bis Januar 1939; auch „Kreuz-Zeitung“ genannt, da sie im Titel als
+                   Emblem das Eiserne Kreuz trug</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_vdp_cd2_bhb">
+-               <title type="reg">Neue Oder-Zeitung</title>
+-               <note>(Breslau)</note>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_llf_w4w_1cb">
+                <title>Neue Rheinische Zeitung</title>
+                <note>(Köln) – Tageszeitung, erschien von 1. Juni 1848 bis 19. Mai 1849; redigiert
+@@ -660,10 +689,6 @@ https://gallica.bnf.fr/ark:/12148/cb34520232c/date1867"?>
+                <note>(Zürich) – Tageszeitung, gegründet 1780, erscheint seit 1821 unter dem
+                   angegebenen Titel</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_kxv_3h2_bhb">
+-               <title type="reg">Die Neue Welt</title>
+-               <note>(Leipzig)</note>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_djf_jhf_lbb">
+                <title type="reg">New-York Tribune</title>
+                <note>(New York) – Tageszeitung: New-York Daily Tribune, halbwöchentliche Ausgabe:
+@@ -717,35 +742,16 @@ https://gallica.bnf.fr/ark:/12148/cb34520232c/date1867"?>
+                <note>(London, Genf) – literarisch-politischer Almanach, erschien 1862 in russischer
+                   Sprache in London und 1869 in Genf; herausgegeben von A.I. Gercen</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_ufj_nh2_bhb">
+-               <title type="reg">Die Presse</title>
+-               <note>(Wien)</note>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_vb5_4vd_wbb">
+                <title>Punch, or the London Charivari</title>
+                <note>(London) – satirische Zeitschrift; erschien von 1841 bis 1992</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_qhf_frw_jjb">
+-               <title type="reg">Communalblatt (1866 u. d. T.: Reform)</title>
+-               <note>(Dresden, Leipzig) – Tages- und Wochenblatt, erschien von 1864 bis 1866</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_rtw_35d_wbb">
+-               <title>Die Reform</title>
+-               <note>(Leipzig, Berlin) – Tageszeitung, erschien 1848 zunächst in Leipzig, dann in
+-                  Berlin</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_pnj_4qw_1cb">
+-               <title>Die Revolution</title>
+-               <note>(New York) – Wochenzeitung mit dem Untertitel: Eine Zeitschrift in zwanglosen
+-                  Heften; 1852; herausgegeben von Joseph Weydemeyer</note>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_lts_khf_lbb">
+                <title type="reg">Revue Contemporaine</title>
+                <note>(Paris) − Halbmonatschrift, erschien von 1851 bis 1870 in Paris; nach dem
+                   Staatsstreich vom 2. Dezember 1851 Organ der Bonapartisten; einer der Redakteure
+                   1859/1860 war Édouard Simon
+-                  <?oxy_comment_start author="lindenberg" timestamp="20171130T151230+0100" comment="(Paris) − Halbmonatschrift, erschien von 1851 bis 1870 in Paris; während der Zweiten Republik von April bis August 1852 Organ der Ordnungspartei, welche die Legitimisten und Orleanisten vereinte; einer der Redakteure 1859/1860 war Édouard Simon"?></note>
+-               <?oxy_comment_end?>
++                  <?oxy_comment_start author="lindenberg" timestamp="20171130T151230+0100" comment="(Paris) − Halbmonatschrift, erschien von 1851 bis 1870 in Paris; während der Zweiten Republik von April bis August 1852 Organ der Ordnungspartei, welche die Legitimisten und Orleanisten vereinte; einer der Redakteure 1859/1860 war Édouard Simon"?></note><?oxy_comment_end?>
+             </bibl>
+             <bibl type="journal" xml:id="ed_b51_lhf_lbb">
+                <title type="reg">Revue des deux Mondes</title>
+@@ -756,30 +762,40 @@ https://gallica.bnf.fr/ark:/12148/cb34520232c/date1867"?>
+                <title type="reg">Reynolds’s Newspaper </title>
+                <note> (London) – Wochenzeitung mit dem Untertitel „A Weekly Journal of Politics
+                   History, Literature, and General Intelligence“, erschien von 1850 bis 1923
+-                  <?oxy_comment_start author="lindenberg" timestamp="20171130T152342+0100" comment="lt Moskauer Registerdatei: Reynold’s Newspaper A weekly journal of politics, history, literature, and general intelligence (London) − Wochenblatt; 1850 gegründet und bis 1879 herausgegeben von George William MacArthur Reynolds; später Organ der Genossenschaftsbewegung"?></note>
+-               <?oxy_comment_end?>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_pnm_x3k_tgb">
+-               <title type="reg">Rhein- und Ruhrzeitung</title>
+-               <note>(Duisburg) – Tageszeitung, erschien unter diesem Titel von 1852 bis 1941
+-                  <?oxy_comment_start author="lindenberg" timestamp="20190213T182112+0100" comment="https://de.wikipedia.org/wiki/Rhein-_und_Ruhrzeitung"?></note><?oxy_comment_end?>
++                  <?oxy_comment_start author="lindenberg" timestamp="20171130T152342+0100" comment="lt Moskauer Registerdatei: Reynold’s Newspaper A weekly journal of politics, history, literature, and general intelligence (London) − Wochenblatt; 1850 gegründet und bis 1879 herausgegeben von George William MacArthur Reynolds; später Organ der Genossenschaftsbewegung"?></note><?oxy_comment_end?>
+             </bibl>
+             <bibl type="journal" xml:id="ed_kmf_22h_hfb">
+                <title>Rheinische Volkszeitung</title>
+                <note>(Mainz) – erschien vom 7. April bis 29. September 1867 mit dem Untertitel
+                   „Organ der demokratischen Partei“
+-                  <?oxy_comment_start author="lindenberg" timestamp="20180928T111350+0200" comment="Fernleihbitte nach StB Mainz 2018-09-28"?></note>
+-               <?oxy_comment_end?>
++                  <?oxy_comment_start author="lindenberg" timestamp="20180928T111350+0200" comment="Fernleihbitte nach StB Mainz 2018-09-28"?></note><?oxy_comment_end?>
++            </bibl>
++            <bibl type="journal" xml:id="ed_p2v_klh_hfb">
++               <title>Rheinische Zeitung</title>
++               <note>(Düsseldorf, Köln) – liberale Tageszeitung, erschien von 1863 bis 1866 in
++                  Düsseldorf, und von 1867 bis 1874 in Köln; Redakteur war Hermann Becker</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_wmz_v2z_tgb">
+                <title type="reg">Rheinische Zeitung für Politik, Handel und Gewerbe</title>
+                <note>(Köln) – Tageszeitung, erschien von Januar 1842 bis März 1843; Marx war
+                   zeitweise Chefredakteur</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_p2v_klh_hfb">
+-               <title>Rheinische Zeitung</title>
+-               <note>(Düsseldorf, Köln) – liberale Tageszeitung, erschien von 1863 bis 1866 in
+-                  Düsseldorf, und von 1867 bis 1874 in Köln; Redakteur war Hermann Becker</note>
++            <bibl type="journal" xml:id="ed_pnm_x3k_tgb">
++               <title type="reg">Rhein- und Ruhrzeitung</title>
++               <note>(Duisburg) – Tageszeitung, erschien unter diesem Titel von 1852 bis 1941
++                  <?oxy_comment_start author="lindenberg" timestamp="20190213T182112+0100" comment="https://de.wikipedia.org/wiki/Rhein-_und_Ruhrzeitung"?></note><?oxy_comment_end?>
++            </bibl>
++            <bibl type="journal" xml:id="ed_t3w_dvj_tgb">
++               <title type="reg">Rummeltipuff</title>
++               <note>(Genf) – Wochenblatt mit dem Untertitel „Organ der Lausbubokratie“, 1849/50
++                  herausgegeben von S. L. Borkheim u. a.
++                  <?oxy_comment_start author="lindenberg" timestamp="20190213T182525+0100" comment="Moskauer Reg.
++Wochenblatt, erschien Ende 1849, gegründet von deutschen Emigranten, u.a. Sigismund Ludwig Borkheim, Max Cohnheim und Eduard Rosenblum; es kamen nur wenige Nummern heraus"?></note><?oxy_comment_end?>
++            </bibl>
++            <bibl type="journal" xml:id="ed_ugh_j5p_tgb">
++               <title type="reg">Russkij invalid (Русский инвалидъ. Санктъ-Петербургъ)</title>
++               <note>(Sankt Petersburg) – Tageszeitung, erschien von 1813 bis 1917; ab 1862
++                  offizielles Publikationsorgan des russischen Kriegsministeriums</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_ry4_2q3_hkb">
+                <title type="reg">Sächsische Arbeiter-Zeitung</title>
+@@ -803,28 +819,19 @@ Die zunehmende Verlagstätigkeit bewog Roßberg zur Begründung einer eigenen Dr
+ s. auch Wuttig: Deutscher Zeitungskatalog 1867
+ http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10617482-1
+ "?></note><?oxy_comment_end?>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_xps_j43_tgb">
+-               <title type="reg">The Saturday Review of Politics, Literature, Science, and
+-                  Art</title>
+-               <note>(London) – Wochenzeitung, 1.1855/56 - 163.1937
+-                  <?oxy_comment_start author="lindenberg" timestamp="20190515T154138+0200" comment="BSB
+- https://digipress.digitale-sammlungen.de/calendar/newspaper/bsbmult00000691"?></note><?oxy_comment_end?>
+             </bibl>
+             <bibl type="journal" xml:id="ed_hrg_3mh_hfb">
+                <title>Schlesisches Morgenblatt</title>
+                <note>(Breslau) – Tageszeitung, erschien von 1861 bis 1867</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_dpq_lhf_lbb">
+-               <title type="reg">(Der) Social-Demokrat</title>
+-               <note>(Berlin) − (vom Dezember 1864 bis Juni 1865: Der Social-Demokrat); erschien vom
+-                  15. Dezember 1864 bis 26. April 1871, 1864 wöchentlich, ab Januar 1865 dreimal,
+-                  zeitweise sechsmal wöchentlich; zunächst mit dem Untertitel „Organ des Allgemeinen
+-                  deutschen Arbeiter-Vereins“, ab Dezember 1865 mit dem Untertitel „Organ der
+-                  social-demokratischen Partei“; Eigentümer und Herausgeber waren Johann Baptist von
+-                  Schweitzer und Johann Baptist von Hofstetten, Chefredakteur war Schweitzer, der
+-                  Redaktion gehörte u. a. bis Februar 1865 Wilhelm Liebknecht an; Marx und Engels
+-                  arbeiteten bis Februar 1865 an der Zeitung mit</note>
++            <bibl type="journal" xml:id="ed_x4y_mtk_tgb">
++               <title type="reg">Schwäbischer Merkur</title>
++               <note>(Stuttgart) – Tageszeitung, erschien von 1785 bis 1941</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_alc_hvk_tgb">
++               <title type="reg">Staats-Anzeiger für Württemberg</title>
++               <note>(Stuttgart) – Tageszeitung mit dem Untertitel „Politische Zeitung“, erschien
++                  von 1850 bos 1934</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_d1y_z4k_tgb">
+                <title type="reg">Süddeutsche Presse</title>
+@@ -840,16 +847,21 @@ http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10617482-1
+                   Untertiteln; von November 1864 bis April 1870 Organ der IAA; im April 1870 brach
+                   der Generalrat die Beziehungen zu der Zeitung ab</note>
+             </bibl>
++            <bibl type="journal" xml:id="ed_sbg_mn3_tgb">
++               <title type="reg">The Chronicle</title>
++               <note>(London) – Wochenzeitung, erschien vom 30. März 1867 bis 15.Februar 1868;
++                  redigiert von John Emerich Edward Dalberg Acton </note>
++            </bibl>
+             <bibl type="journal" xml:id="ed_etf_mhf_lbb">
+                <title type="reg">The Commonwealth</title>
+                <note>(London) − Wochenblatt, erschien vom 10. Februar 1866 bis 20. Juli 1867, ab
+                   September 1866 mit dem Untertitel „The Organ of the Reform Movement“;
+-                  herausgegeben von Arthur Miall     <?oxy_comment_start author="lindenberg" timestamp="20180918T103532+0200" comment="The commonwealth : organ of the reform movement ; a journal of political, social, economical, and literary intelligence (1866)
++                  herausgegeben von Arthur Miall
++                  <?oxy_comment_start author="lindenberg" timestamp="20180918T103532+0200" comment="The commonwealth : organ of the reform movement ; a journal of political, social, economical, and literary intelligence (1866)
+ Odger, George ; Eccarius, Johann Georg 1818-1889
+ London : Industrial Newspaper Co. ; 1866,1(10.Febr.) - 1867,76(20.Juli) = Nr. 153-226; damit Ersch. eingest.
+ vorhanden F. Ebert Stiftung
+-"?>
+-                  <?oxy_comment_end?></note>
++"?><?oxy_comment_end?></note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_u34_s12_bhb">
+                <title type="reg">The Cork Daily Herald</title>
+@@ -860,7 +872,7 @@ vorhanden F. Ebert Stiftung
+                <note>(London) − liberale Tageszeitung, erschien von 1846 bis 1930 unter wechselnden
+                   Titeln; erster Chefredakteur war Charles Dickens; unterstützte die Idee des
+                   Freihandels; in den 1870er Jahren veröffentlichte einige Arbeiten von Marx und von
+-                  Engels       </note>
++                  Engels </note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_pf5_mhf_lbb">
+                <title type="reg">The Daily Telegraph</title>
+@@ -894,15 +906,19 @@ vorhanden F. Ebert Stiftung
+                   erster Herausgeber war John Lindley; veröffentlichte u.a. Beiträge von Charles
+                   Darwin und Joseph Dalton Hooker</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_ymr_nhj_tgb">
+-               <title type="reg">Gazette de Lausanne et Journal Suisse</title>
+-               <note>(Lausanne) – Tageszeitung, wurde 1798 in Lausanne gegründet, erscheint seit
+-                  1816 unter diesem Titel</note>
++            <bibl type="journal" xml:id="ed_xhr_j1w_c2b">
++               <title>The International Courier/ Le Courrier International</title>
++               <note>(London/Londres) – erschien von 1864 bis 1867; herausgeber war Joseph-Charles
++                  Collet
++                  <?oxy_comment_start author="lindenberg" timestamp="20180611T160450+0200" comment="Quelle: https://books.google.de/books?id=MGI7DwAAQBAJ&amp;pg=PA228&amp;lpg=PA228&amp;dq=Le+Courrier+International+Londres+The+International+Courier.+London&amp;source=bl&amp;ots=EUPcVuPO6w&amp;sig=oB2CHpR-AjKxdHcULzyzTxRiGn4&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjB6eWt4svbAhXlAsAKHTzICXEQ6AEIfDAH#v=onepage&amp;q=Le%20Courrier%20International%20Londres%20The%20International%20Courier.%20London&amp;f=false
++KVK: http://kvk.bibliothek.kit.edu/view-title/index.php?katalog=BVB&amp;url=http%3A%2F%2Fgateway-bayern.de%2FBV041333957&amp;signature=pHigRavLGEyrjopkMhAd_dAxA-J0yfqv7GcsQm-sebY&amp;showCoverImg=1"?></note><?oxy_comment_end?>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_sbg_mn3_tgb">
+-               <title type="reg">The Chronicle</title>
+-               <note>(London) – Wochenzeitung, erschien vom 30. März 1867 bis 15.Februar 1868;
+-                  redigiert von John Emerich Edward Dalberg Acton </note>
++            <bibl type="journal" xml:id="ed_m2f_lck_tgb">
++               <title type="reg">The Irishman</title>
++               <note>(Dublin) – Wochenzeitung, erschien von 1858 bis 1885</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_wng_nc2_bhb">
++               <title type="reg">The Irish People</title>
+             </bibl>
+             <bibl type="journal" xml:id="ed_cjb_nnl_r3b">
+                <title type="reg">The Manchester Examiner</title>
+@@ -920,7 +936,7 @@ vorhanden F. Ebert Stiftung
+                <title type="reg">The Manchester Times</title>
+                <note>(Manchester) – englische liberale Tages-, später auch Wochenzeitung, erschien
+                   von 1828 bis 1922 unter wechselnden Titeln und Parallelausgaben (z. B. The
+-                  Manchester Examiner &amp; Times). –  siehe The Manchester Examiner</note>
++                  Manchester Examiner &amp; Times). – siehe The Manchester Examiner</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_ibw_nlk_wbb">
+                <title>The Morning Star</title>
+@@ -928,73 +944,42 @@ vorhanden F. Ebert Stiftung
+                   aufgegangen; als Abendausgabe unter dem Titel „The Evening Star“; Organ der
+                   Freetrader</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_f1z_nhf_lbb">
+-               <title type="reg">The National Workman</title>
+-               <note>(New York) – Wochenzeitung, erschien von Oktober 1866 bis März 1867
+-                  <?oxy_comment_start author="lindenberg" timestamp="20171114T105029+0100" comment="NYPL"?></note><?oxy_comment_end?>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_z42_1wk_tgb">
+                <title type="reg">The Nation</title>
+                <note>(Dublin) – irische Zeitung mit dem Untertitel „A Weekly Journal of Politics,
+                   Literature, Industrial Education and Social Advancement“, erschien von 1842 bis
+                   1897</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_ltj_4d2_bhb">
+-               <title type="reg">The Tailor</title>
+-               <note>(London)</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_v4d_kz3_tgb">
+-               <title type="reg">Libertà e Giustizia</title>
+-               <note>(Napoli) – Wochenzeitung, erschien 1867 mit dem Untertitel „Foglio Settimanale
+-                  Democratico-Sociale. &lt;Organo dell'Associazione Omonima&gt;“</note>
++            <bibl type="journal" xml:id="ed_f1z_nhf_lbb">
++               <title type="reg">The National Workman</title>
++               <note>(New York) – Wochenzeitung, erschien von Oktober 1866 bis März 1867
++                  <?oxy_comment_start author="lindenberg" timestamp="20171114T105029+0100" comment="NYPL"?></note><?oxy_comment_end?>
+             </bibl>
+             <bibl type="journal" xml:id="ed_kyf_4hf_lbb">
+                <title type="reg">The Nonconformist</title>
+                <note>(London) − Wochenzeitung, begründet von Edward Miall; erschien unter diesem
+                   Titel von 1841 bis 1879</note>
+             </bibl>
++            <bibl type="journal" xml:id="ed_xps_j43_tgb">
++               <title type="reg">The Saturday Review of Politics, Literature, Science, and
++                  Art</title>
++               <note>(London) – Wochenzeitung, 1.1855/56 - 163.1937
++                  <?oxy_comment_start author="lindenberg" timestamp="20190515T154138+0200" comment="BSB
++ https://digipress.digitale-sammlungen.de/calendar/newspaper/bsbmult00000691"?></note><?oxy_comment_end?>
++            </bibl>
+             <bibl type="journal" xml:id="ed_zmw_2gz_tgb">
+                <title type="reg">The Standard</title>
+                <note>(London) – Tageszeitung, erschien von 1857 bis 1917</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_alc_hvk_tgb">
+-               <title type="reg">Staats-Anzeiger für Württemberg</title>
+-               <note>(Stuttgart) – Tageszeitung mit dem Untertitel „Politische Zeitung“, erschien
+-                  von 1850 bos 1934</note>
++            <bibl type="journal" xml:id="ed_ltj_4d2_bhb">
++               <title type="reg">The Tailor</title>
++               <note>(London)</note>
+             </bibl>
+             <bibl type="journal" xml:id="ed_cct_4hf_lbb">
+                <title type="reg">The Times</title>
+                <note>(London) − Tageszeitung; gegründet 1785, erscheint unter diesem Titel seit
+                   1788</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_hct_p5j_tgb">
+-               <title type="reg">Weser-Zeitung</title>
+-               <note>(Bremen) liberales Wochenblatt, erschien von 1844 bis 1934</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_t3w_dvj_tgb">
+-               <title type="reg">Rummeltipuff</title>
+-               <note>(Genf) – Wochenblatt mit dem Untertitel „Organ der Lausbubokratie“, 1849/50
+-                  herausgegeben von S. L. Borkheim u. a.
+-                  <?oxy_comment_start author="lindenberg" timestamp="20190213T182525+0100" comment="Moskauer Reg.
+-Wochenblatt, erschien Ende 1849, gegründet von deutschen Emigranten, u.a. Sigismund Ludwig Borkheim, Max Cohnheim und Eduard Rosenblum; es kamen nur wenige Nummern heraus"?></note><?oxy_comment_end?>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_ugh_j5p_tgb">
+-               <title type="reg">Russkij invalid (Русский инвалидъ. Санктъ-Петербургъ)</title>
+-               <note>(Sankt Petersburg) – Tageszeitung, erschien von 1813 bis 1917; ab 1862
+-                  offizielles Publikationsorgan des russischen Kriegsministeriums</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_y2b_blb_jjb">
+-               <title type="reg">Ulmer Schnellpost</title>
+-               <note>(Ulm) – erschien von 1841 bis 1912</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_g4h_czp_tgb">
+-               <title type="reg">Warschavskij dnevnik (Варшавскiй дневникъ)</title>
+-               <note>(?) – Tageszeitung</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_ldk_m32_bhb">
+-               <title type="reg">Weser Zeitung</title>
+-               <note>(Bremen)</note>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_vmz_4hf_lbb">
+                <title type="reg">The Working Man</title>
+                <note>(London) – Wochenblatt mit dem Untertitel „A political and social advocate of
+@@ -1010,31 +995,49 @@ Wochenblatt, erschien Ende 1849, gegründet von deutschen Emigranten, u.a. Sigis
+                   Februar 1866 erfolgte eine Reorganisation und die Umbenennung in „The
+                   Commonwealth“</note>
+             </bibl>
++            <bibl type="journal" xml:id="ed_y2b_blb_jjb">
++               <title type="reg">Ulmer Schnellpost</title>
++               <note>(Ulm) – erschien von 1841 bis 1912</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_l4v_qsw_1cb">
++               <title>Unsere Zeit</title>
++               <note>(Leipzig) – herausgegeben vom Verlag F. A. Brockhaus 1857–1891; verschiedene
++                  Untertitel; mit dem Untertitel: Deutsche Revue der Gegenwart. Monatsschrift zum
++                  Conversations-Lexikon. Neue Folge 1865–1874</note>
++            </bibl>
+             <bibl type="journal" xml:id="ed_pj1_xh2_bhb">
+                <title type="reg">Vierteljahrschrift für Volkswirthschaft und
+                   Kulturgeschichte</title>
+                <note>(Berlin)</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_vkp_g32_bhb">
+-               <title type="reg">Die Wage</title>
+-               <note>(Berlin)</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_cg5_3zx_mfb">
+-               <title>Vorwärts!</title>
+-               <note>(Paris) – Untertitel „Pariser Deutsche Zeitschrift“, gegründet von Heinrich
+-                  Börnstein; erschien von Januar bis Dezember 1844 zweimal wöchentlich, bis Juni
+-                  1844 mit dem Untertitel „Pariser Signale aus Kunst, Wissenschaft, Theater, Musik,
+-                  Literatur und geselligem Leben“  </note>
+-            </bibl>
+             <bibl type="journal" xml:id="ed_lkx_cgw_f2b">
+                <title>Volks-Zeitung</title>
+                <note>(Berlin) – Untertitel: Organ für Jedermann aus dem Volke; Tageszeitung,
+                   erschien von 1853 bis 1904 als Nachfolger der von Franz Duncker und Aaron
+                   Bernstein gegründeten „Urwählerzeitung“; bis 1885 von Ducker allein weitergeführt
+                   und dann vom Verleger Emil Cohn erworben. 1989 bis 1890 war Franz Mehring
+-                  Chefredakteur des Blattes;  fortgesetzt u. d. T. „Berliner
++                  Chefredakteur des Blattes; fortgesetzt u. d. T. „Berliner
+                   Volkszeitung“<?oxy_comment_start author="lindenberg" timestamp="20180622T105932+0200" comment="Quelle: Wikipedia"?></note><?oxy_comment_end?>
+             </bibl>
++            <bibl type="journal" xml:id="ed_cg5_3zx_mfb">
++               <title>Vorwärts!</title>
++               <note>(Paris) – Untertitel „Pariser Deutsche Zeitschrift“, gegründet von Heinrich
++                  Börnstein; erschien von Januar bis Dezember 1844 zweimal wöchentlich, bis Juni
++                  1844 mit dem Untertitel „Pariser Signale aus Kunst, Wissenschaft, Theater, Musik,
++                  Literatur und geselligem Leben“ </note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_g4h_czp_tgb">
++               <title type="reg">Waršavskij dnevnik (Варшавскiй дневникъ)</title>
++               <note>(?) – Tageszeitung</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_ldk_m32_bhb">
++               <title type="reg">Weser Zeitung</title>
++               <note>(Bremen)</note>
++            </bibl>
++            <bibl type="journal" xml:id="ed_hct_p5j_tgb">
++               <title type="reg">Weser-Zeitung</title>
++               <note>(Bremen) liberales Wochenblatt, erschien von 1844 bis 1934</note>
++            </bibl>
+             <bibl type="journal" xml:id="ed_ed3_tnp_tgb">
+                <title type="reg">Westermann's (Illustrirte Deutsche) Monatshefte</title>
+                <note>(Braunschweig) – Zeitschrift, erschien von 1856 bis 1987</note>
+@@ -1048,19 +1051,6 @@ Wochenblatt, erschien Ende 1849, gegründet von deutschen Emigranten, u.a. Sigis
+                <note>(Hannover) – Morgenzeitung; erschien von 1849 bis 1872;. vertrat liberale
+                   Positionen</note>
+             </bibl>
+-            <bibl type="journal" xml:id="ed_lpm_jxn_q2b">
+-               <title>Die Zukunft</title>
+-               <note>(Berlin) – Untertitel: Demokratische Zeitung; gegründet von Johann Jacoby;
+-                  erschien von 1867 bis 1868 (Probenummer 25. Dezember 1866) im Verlag Friedländer,
+-                  redigiert von Guido Weiß</note>
+-            </bibl>
+-            <bibl type="journal" xml:id="ed_njr_mtw_1cb">
+-               <title>Moskovskija Vědomosti (Московскiя Вѣдомости; deutsch: Moskauer
+-                  Anzeiger)</title>
+-               <note>(Moskau)  − erschien von 1756 bis 1917, seit 1859 Tageszeitung; bis Mitte des
+-                  19. Jahrhunderts größte Zeitung Rußlands; vertrat seit den 1860er Jahren
+-                  konservative Ansichten</note>
+-            </bibl>
+          </listBibl>
+       </body>
+    </text>
+diff --git a/mega/data/Register/Personen/B.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/B.xml
+index 96cf3f2..5c7049f 100644
+--- a/mega/data/Register/Personen/B.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/B.xml
+@@ -61,42 +61,6 @@
+                     <death>1872</death>
+                     <note>englischer Eisenfabrikant und Politiker</note>
+                 </person>
+-                <person xml:id="ed_rbz_kqd_rkb">
+-                    <persName type="reg">
+-                        <surname>Baird Smith</surname>
+-                        <forename>Richard</forename>
+-                    </persName>
+-                    <birth>1818</birth>
+-                    <death>1861</death>
+-                    <note>britischer Ingenieur in der East India Company</note>
+-                </person>
+-                <person xml:id="ed_enl_ck2_rkb">
+-                    <persName type="reg">
+-                        <surname>Bussière</surname>
+-                        <forename>Alfred Renouard de</forename>
+-                    </persName>
+-                    <birth>1804</birth>
+-                    <death>1887</death>
+-                    <note>französischer Bankier</note>
+-                </person>
+-                <person xml:id="ed_ark_3m2_rkb">
+-                    <persName type="reg">
+-                        <surname>Belmont</surname>
+-                        <forename>August</forename>
+-                    </persName>
+-                    <birth>1813</birth>
+-                    <death>1890</death>
+-                    <note>deutsch-amerikanischer Bankier und Politiker</note>
+-                </person>
+-                <person xml:id="ed_vql_2p2_rkb">
+-                    <persName type="reg">
+-                        <surname>Biesta</surname>
+-                        <forename>Hippolyte</forename>
+-                    </persName>
+-                    <birth>1811</birth>
+-                    <death>1870</death>
+-                    <note>französischer Bankier; Mitbegründer des Crédit Mobilier</note>
+-                </person>
+                 <person xml:id="pdrPo.001.004.000000206">
+                     <idno type="mega">1001519</idno>
+                     <persName type="reg">
+@@ -11286,6 +11250,15 @@ https://www.flickr.com/photos/60046222@N02/24602930665"?></note>
+                         <ptr target="IV/12#359" type="page"/>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_rs3_hyc_mgb">
++                    <persName type="reg">
++                        <surname>Borkheim [Onkel]</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>1867 Onkel von Sigismund Ludwig Borkheim in Glogau</note>
++                </person>
+                 <person xml:id="ed_zbb_syc_mgb">
+                     <persName type="reg">
+                         <surname>Borkheim [Mutter]</surname>
+@@ -11295,6 +11268,15 @@ https://www.flickr.com/photos/60046222@N02/24602930665"?></note>
+                     <death>etwa 1836</death>
+                     <note>Mutter von Sigismund Ludwig Borkheim</note>
+                 </person>
++                <person xml:id="ed_pb5_xyc_mgb">
++                    <persName type="reg">
++                        <surname>Borkheim [Schwester]</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Schwester von Sigismund Ludwig Borkheim</note>
++                </person>
+                 <person xml:id="pdrPo.001.004.000000541">
+                     <idno type="mega">1003392</idno>
+                     <persName type="reg">
+@@ -14969,11 +14951,12 @@ preußischer Jurist und Publizist; Emigrant in London (1850–1861) ; Mitarbeite
+                 <person xml:id="ed_bg1_j2d_mgb">
+                     <persName type="reg">
+                         <surname>Bültzingslöwen</surname>
+-                        <forename> Julius von</forename>
++                        <forename>Karl Julius Adolf von</forename>
+                     </persName>
+                     <birth>1804</birth>
+-                    <death>1886</death>
+-                    <note>preußischer Militär; Kommandant der Festung Wesel (1863-1868) </note>
++                    <death>1874</death>
++                    <note>deutscher Militär; 1867 Generalmajor und Kommandant in Wesel
++                        <?oxy_comment_start author="lindenberg" timestamp="20190116T170807+0100" comment="https://de.wikipedia.org/wiki/B%C3%BCltzingsl%C3%B6wen"?></note><?oxy_comment_end?>
+                 </person>
+                 <person xml:id="pdrPo.001.004.000000661">
+                     <idno type="mega">1004063</idno>
+diff --git a/mega/data/Register/Personen/C.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/C.xml
+index 62c7235..3eba9e6 100644
+--- a/mega/data/Register/Personen/C.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/C.xml
+@@ -4437,6 +4437,15 @@ französischer General und Politiker, Monarchist; nahm in den 1830er und 1840er
+                         <ptr target="IV/31#907" type="page"/>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_wb4_vmt_pkb">
++                    <persName type="reg">
++                        <surname>Crampton</surname>
++                        <forename>Thomas Russell</forename>
++                    </persName>
++                    <birth>1816</birth>
++                    <death>1888</death>
++                    <note>englischer Ingenieur</note>
++                </person>
+                 <person xml:id="pdrPo.001.004.000000873">
+                     <idno type="mega">1005227</idno>
+                     <persName type="reg">
+diff --git a/mega/data/Register/Personen/D.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/D.xml
+index df0f0df..c49881f 100644
+--- a/mega/data/Register/Personen/D.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/D.xml
+@@ -46,6 +46,15 @@
+                         <ptr type="page" target="III/12#561"/>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_xp4_z5m_nkb">
++                    <persName type="reg">
++                        <surname>Dana</surname>
++                        <forename>Richard Henry</forename>
++                    </persName>
++                    <birth>1815</birth>
++                    <death>1882</death>
++                    <note>US-amerikanischer Politiker</note>
++                </person>
+                 <person xml:id="ed_onc_4vt_zgb">
+                     <persName type="reg">
+                         <surname>Dabrowska</surname>
+@@ -6876,15 +6885,16 @@ Karl  Friedrich Dültgen "?></note>
+                 </person>
+                 <person xml:id="ed_llb_4xn_zgb">
+                     <persName type="reg">
+-                        <surname>Đorđević</surname>
++                        <surname>Ðorđevič (Георгіевичъ)</surname>
+                         <forename>Vladan</forename>
+                     </persName>
+                     <persName type="alt">
+-                        <name>Георгіевичъ (russ.)</name>
++                        <name>Георгіевичъ</name>
+                     </persName>
+                     <birth>1844</birth>
+                     <death>1930</death>
+-                    <note>serbischer Arzt und Schriftsteller; Gesundheitspolitiker</note>
++                    <note>serbischer Arzt und Politiker, 1867 Vertreter des Vereins „Зора“
++                        („Morgenrot“) der serbischen Studenten in Wien</note>
+                 </person>
+             </listPerson>
+         </body>
+diff --git a/mega/data/Register/Personen/F.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/F.xml
+index 82daf58..12217e5 100644
+--- a/mega/data/Register/Personen/F.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/F.xml
+@@ -16,6 +16,15 @@
+     <text>
+         <body>
+             <listPerson>
++                <person xml:id="ed_hxx_vvm_nkb">
++                    <persName type="reg">
++                        <surname>Farnall</surname>
++                        <forename>Harry B.</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Poor Law Inspektor</note>
++                </person>
+                 <person xml:id="pdrPo.001.004.000001454">
+                     <idno type="mega">1008706</idno>
+                     <persName type="reg">
+diff --git a/mega/data/Register/Personen/G.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/G.xml
+index 219af22..d7ca9e8 100644
+--- a/mega/data/Register/Personen/G.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/G.xml
+@@ -52,24 +52,6 @@
+                     <death/>
+                     <note>Manager der Leeds Banking Company</note>
+                 </person>
+-                <person xml:id="ed_rf3_pjd_rkb">
+-                    <persName type="reg">
+-                        <surname>Gordon-Lennox</surname>
+-                        <forename>Charles Henry, 6th Duke of Richmond</forename>
+-                    </persName>
+-                    <birth>1818</birth>
+-                    <death>1903</death>
+-                    <note>britischer Politiker</note>
+-                </person>
+-                <person xml:id="ed_rg3_bq2_rkb">
+-                    <persName type="reg">
+-                        <surname> Grieninger</surname>
+-                        <forename>Frédéric</forename>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>Bankier; Mitbegründer des Crédit Mobilier</note>
+-                </person>
+                 <person xml:id="ed_kvh_jmc_3y">
+                     <idno type="uri">http://d-nb.info/gnd/118716042</idno>
+                     <persName type="reg">
+diff --git a/mega/data/Register/Personen/H.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/H.xml
+index 2c05b59..2dcab96 100644
+--- a/mega/data/Register/Personen/H.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/H.xml
+@@ -41,15 +41,6 @@
+                         <ptr target="III/9#384" type="page"/>
+                     </linkGrp>
+                 </person>
+-                <person xml:id="ed_and_h2l_rkb">
+-                    <persName type="reg">
+-                        <surname>Hunt</surname>
+-                        <forename>George Ward</forename>
+-                    </persName>
+-                    <birth>1825</birth>
+-                    <death>1877</death>
+-                    <note>britischer Staatsmann</note>
+-                </person>
+                 <person xml:id="pdrPo.001.004.000001990">
+                     <idno type="mega">1011503</idno>
+                     <persName type="reg">
+diff --git a/mega/data/Register/Personen/K.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/K.xml
+index 839dc9d..dd72814 100644
+--- a/mega/data/Register/Personen/K.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/K.xml
+@@ -37,6 +37,21 @@
+                         <ptr target="I/31#882" type="page"/>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_rkb_nsm_pkb">
++                    <persName type="reg">
++                        <surname>Kain (eigtl. Ivan Osipov)</surname>
++                        <forename>Van'ka</forename>
++                    </persName>
++                    <persName type="alt">
++                        <name>Wanka</name>
++                    </persName>
++                    <birth>um 1720</birth>
++                    <death>nach 1756</death>
++                    <note>russischer Leibeigener; Straßenräuber, auch Zuträger der Polizei; seine
++                        Gestalt wurde in der russischen Folklore des 18. und 19. Jh. zum Inbegriff
++                        des gewieften Spitzbuben, stand aber auch für das Freiheitsempfinden des
++                        Volkes</note>
++                </person>
+                 <person xml:id="pdrPo.001.004.000010908">
+                     <idno type="mega">1014447</idno>
+                     <persName type="reg">
+diff --git a/mega/data/Register/Personen/L.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/L.xml
+index c240b71..0613a2f 100644
+--- a/mega/data/Register/Personen/L.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/L.xml
+@@ -16,6 +16,15 @@
+     <text>
+         <body>
+             <listPerson>
++                <person xml:id="ed_qlj_l1n_nkb">
++                    <persName type="reg">
++                        <surname>Lawes</surname>
++                        <forename>Sir John Bennet, 1<hi rendition="sup">st</hi> Baronet</forename>
++                    </persName>
++                    <birth>1814</birth>
++                    <death>1900</death>
++                    <note>englischer Unternehmer und Agrarwissenschaftler</note>
++                </person>
+                 <person xml:id="ed_sv3_1rl_dhb">
+                     <persName type="reg">
+                         <surname>L.</surname>
+diff --git a/mega/data/Register/Personen/M.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/M.xml
+index f0ed595..63aea8e 100644
+--- a/mega/data/Register/Personen/M.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/M.xml
+@@ -33,7 +33,26 @@
+                     </persName>
+                     <birth>1802</birth>
+                     <death>1880</death>
+-                    <note>englischer Bankier, Landwirt und Autor agrarwissenschaftlicher Werke</note>
++                    <note>englischer Bankier, Landwirt und Autor agrarwissenschaftlicher
++                        Werke</note>
++                </person>
++                <person xml:id="ed_lwj_n14_nkb">
++                    <persName type="reg">
++                        <surname>Mills</surname>
++                        <forename>John</forename>
++                    </persName>
++                    <birth>1821</birth>
++                    <death>1896</death>
++                    <note>englischer Bankier und Ökonom</note>
++                </person>
++                <person xml:id="ed_enc_xts_pkb">
++                    <persName type="reg">
++                        <surname>Mariotte</surname>
++                        <forename>Edme</forename>
++                    </persName>
++                    <birth>um 1620</birth>
++                    <death>1684</death>
++                    <note>französischer Physiker</note>
+                 </person>
+                 <person xml:id="pdrPo.001.004.000002951">
+                     <idno type="mega">1017472</idno>
+@@ -8979,7 +8998,7 @@ http://search.ancestry.de/cgi-bin/sse.dll?gl=ROOT_CATEGORY&amp;rank=1&amp;new=1&
+                 </person>
+                 <person xml:id="ed_gj5_234_lhb">
+                     <persName type="reg">
+-                        <surname>Milićević </surname>
++                        <surname>Milićević</surname>
+                         <forename>Milan</forename>
+                     </persName>
+                     <persName type="alt">
+@@ -8988,7 +9007,7 @@ http://search.ancestry.de/cgi-bin/sse.dll?gl=ROOT_CATEGORY&amp;rank=1&amp;new=1&
+                     <birth>1831</birth>
+                     <death>1908</death>
+                     <note>serbischer Lehrer und Volkskundler, Bildungspolitiker; Korrespondent für
+-                        russische Zeitungen</note>
++                        russische Zeitungen, Kontakte zu Slavophilen</note>
+                 </person>
+                 <person xml:id="ed_ynf_pyx_w2b">
+                     <persName type="reg">
+@@ -9358,7 +9377,7 @@ http://search.ancestry.de/cgi-bin/sse.dll?gl=ROOT_CATEGORY&amp;rank=1&amp;new=1&
+                     <idno type="mega">1019221</idno>
+                     <persName type="reg">
+                         <surname>Miquel</surname>
+-                        <forename>Johannes von</forename>
++                        <forename>Johannes (seit 1897) von</forename>
+                     </persName>
+                     <persName type="alt">
+                         <name>Miquél</name>
+diff --git a/mega/data/Register/Personen/O.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/O.xml
+index 6effbe8..f4d96c4 100644
+--- a/mega/data/Register/Personen/O.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/O.xml
+@@ -337,9 +337,8 @@ http://archive.spectator.co.uk/
+                 <person xml:id="pdrPo.001.004.000003511">
+                     <idno type="mega">1020727</idno>
+                     <persName type="reg">
+-                        <surname>Ogarev (Огарев)</surname>
++                        <surname>Ogarev </surname>
+                         <forename> Nikolaj Platonovič</forename>
+-                       
+                     </persName>
+                     <persName type="alt">
+                         <name>Ogareff</name>
+@@ -348,7 +347,8 @@ http://archive.spectator.co.uk/
+                     <death>1877</death>
+                     <note>russischer Sozialist, Publizist und Dichter, seit 1856 Emigrant im
+                         Großbritannien; gemeinsam mit A. Herzen Herausgeber der oppositionellen
+-                        Zeitung „Kolokol“.</note>
++                        Zeitung „Kolokol“
++                        <?oxy_comment_start author="lindenberg" timestamp="20200207T145207+0100" comment="(Огарев)"?></note><?oxy_comment_end?>
+                     <linkGrp>
+                         <ptr target="I/31#873" type="page"/>
+                     </linkGrp>
+diff --git a/mega/data/Register/Personen/P.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/P.xml
+index 957b4d3..60a1d7e 100644
+--- a/mega/data/Register/Personen/P.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/P.xml
+@@ -25,6 +25,15 @@
+                     <death>1888</death>
+                     <note>englischer Ökonom</note>
+                 </person>
++                <person xml:id="ed_n23_2nt_pkb">
++                    <persName type="reg">
++                        <surname>Peto</surname>
++                        <forename>Sir Samuel Morton</forename>
++                    </persName>
++                    <birth>1809</birth>
++                    <death>1889</death>
++                    <note>englischer Bauunternehmer; Partner von Peto and Betts</note>
++                </person>
+                 <person xml:id="pdrPo.001.004.000003586">
+                     <idno type="mega">1021104</idno>
+                     <persName type="reg">
+@@ -2283,14 +2292,17 @@ http://www.familienbuch-euregio.de/genius?person=155621"?>
+                 </person>
+                 <person xml:id="ed_q5m_5rz_dhb">
+                     <persName type="reg">
+-                        <surname>Pestel</surname>
+-                        <forename>Pavel Ivanovic</forename>
++                        <surname>Pestel' </surname>
++                        <forename>Pavel Ivanovič</forename>
++                    </persName>
++                    <persName type="alt">
++                        <name>Pestel</name>
+                     </persName>
+                     <birth>1793</birth>
+                     <death>1826</death>
+-                    <note>russischer Offizier, ein Führer der Dakbristenbewegung; Teilnehmer am
+-                        Krieg gegen Napoléon I (1812-1814); Begründer und Führer der Südlichen
+-                        Gesellschaft der Dekabristen (1821-1826); hingerichtet</note>
++                    <note>russischer Offizier; Ideologe der Dekabristen
++                        <?oxy_comment_start author="lindenberg" timestamp="20200204T135840+0100" comment="vorher: russischer Offizier, ein Führer der Dakbristenbewegung; Teilnehmer am Krieg gegen Napoléon I (1812-1814); Begründer und Führer der Südlichen Gesellschaft der Dekabristen (1821-1826); hingerichtet
++"?></note><?oxy_comment_end?>
+                 </person>
+                 <person xml:id="pdrPo.001.004.000003683">
+                     <idno type="mega">1021707</idno>
+@@ -2559,7 +2571,7 @@ getilgt: ; 1867 Vorsitzender der sämtlicher Sächsischen Volksvereine"?></note>
+                 </person>
+                 <person xml:id="ed_pqf_mw4_lhb">
+                     <persName type="reg">
+-                        <surname>Petronijević</surname>
++                        <surname>Petronijevič </surname>
+                         <forename>Milan</forename>
+                     </persName>
+                     <persName type="alt">
+@@ -2567,7 +2579,7 @@ getilgt: ; 1867 Vorsitzender der sämtlicher Sächsischen Volksvereine"?></note>
+                     </persName>
+                     <birth>1831</birth>
+                     <death>1914</death>
+-                    <note>serbischer Politiker und Diplomat; Außenminister (1867/1868)</note>
++                    <note>serbischer Politiker und Diplomat; Außenminister (1867/1868) </note>
+                 </person>
+                 <person xml:id="ed_dsy_vd3_y2b">
+                     <persName type="reg">
+diff --git a/mega/data/Register/Personen/R.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/R.xml
+index 022fda5..dd74e99 100644
+--- a/mega/data/Register/Personen/R.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/R.xml
+@@ -16,14 +16,14 @@
+     <text>
+         <body>
+             <listPerson>
+-                <person xml:id="ed_q4d_jjs_rkb">
++                <person xml:id="ed_cxp_4ht_pkb">
+                     <persName type="reg">
+-                        <surname>Rouland</surname>
+-                        <forename>Gustave</forename>
++                        <surname>Roychand</surname>
++                        <forename>Premchand</forename>
+                     </persName>
+-                    <birth>1806</birth>
+-                    <death>1878</death>
+-                    <note>französischer Anwalt und Politiker; 1864-1878 Gouverneur der Banque de France</note>
++                    <birth>1831</birth>
++                    <death>1906</death>
++                    <dict>indischer Händler, Industrieller und Bankier; Gründer der Asiatic Banking Corporation</dict>
+                 </person>
+                 <person xml:id="pdrPo.001.004.000011410">
+                     <idno type="mega">1022835</idno>
+@@ -704,7 +704,7 @@
+                     <idno type="mega">1023006</idno>
+                     <persName type="reg">
+                         <surname>Rattazzi</surname>
+-                        <forename>Urbano</forename>
++                        <forename>Conte Urbano</forename>
+                     </persName>
+                     <persName type="alt">
+                         <name>Ratazzi</name>
+@@ -1137,6 +1137,14 @@ französischer Geograph und Soziologe, Theoretiker des Anarchismus; Bruder von E
+                     <birth/>
+                     <death/>
+                 </person>
++                <person xml:id="ed_vkl_xhg_nkb">
++                    <persName type="reg">
++                        <surname>Redaktion der Zeitung "The Chronicle"</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                </person>
+                 <person xml:id="pdrPo.001.004.000003906">
+                     <idno type="mega">1023096</idno>
+                     <persName type="reg">
+@@ -3495,7 +3503,8 @@ http://germazope.uni-trier.de:8080/Projekte/HHP/briefe/07register/personen/reggu
+                 <person xml:id="ed_bgd_rfd_mgb">
+                     <persName type="reg">
+                         <surname>Rieger</surname>
+-                        <forename>František Ladislav (seit 1867) Freiherr von </forename></persName>
++                        <forename>František Ladislav </forename>
++                    </persName>
+                     <birth>1818</birth>
+                     <death>1903</death>
+                     <note>tschechischer Politiker und Publizist</note>
+@@ -7132,15 +7141,15 @@ Link: http://www.stsepulchres.org.uk/burials/rogers_james.html"?></note><?oxy_co
+                 <person xml:id="ed_fcd_nsz_dhb">
+                     <persName type="reg">
+                         <surname>Ryleev </surname>
+-                        <forename>Kondratij Fjodorovič</forename>
++                        <forename>Kondratij Fedorovič</forename>
+                     </persName>
+                     <persName type="alt">
+-                        <name>Ryläjev</name>
++                        <name>Ryläjeff</name>
+                     </persName>
+                     <birth>1795</birth>
+                     <death>1826</death>
+-                    <note>russischer Dichter, ein Führer der Dekabristenbewegung, 1826
+-                        hingerichtet.</note>
++                    <note>russischer Dichter und Schriftsteller, Offizier; führender Dekabrist
++                        <?oxy_comment_start author="lindenberg" timestamp="20200204T140442+0100" comment="zuvor: russischer Dichter, ein Führer der Dekabristenbewegung, 1826 hingerichtet"?></note><?oxy_comment_end?>
+                 </person>
+                 <person xml:id="pdrPo.001.004.000011419">
+                     <idno type="mega">1023068</idno>
+diff --git a/mega/data/Register/Personen/S.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/S.xml
+index bfe7b5e..87f34ec 100644
+--- a/mega/data/Register/Personen/S.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/S.xml
+@@ -25,24 +25,6 @@
+                     <death>1879</death>
+                     <note>englischer Politiker</note>
+                 </person>
+-                <person xml:id="ed_jbv_l42_rkb">
+-                    <persName type="reg">
+-                        <surname>Salvador</surname>
+-                        <forename>Casimir</forename>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>französischer Bankier; Mitbegründer des Crédit Mobilier</note>
+-                </person>
+-                <person xml:id="ed_sfk_3q2_rkb">
+-                    <persName type="reg">
+-                        <surname>Seillière</surname>
+-                        <forename>Florentin-Achille</forename>
+-                    </persName>
+-                    <birth>1813</birth>
+-                    <death>1873</death>
+-                    <note>französischer Bankier; Mitbegründer des Crédit Mobilier</note>
+-                </person>
+                 <person xml:id="ed_fk5_nhf_z2b">
+                     <persName type="reg">
+                         <surname>S.</surname>
+@@ -288,16 +270,17 @@
+                 </person>
+                 <person xml:id="ed_lzc_215_lhb">
+                     <persName type="reg">
+-                        <surname>Šafarik </surname>
++                        <surname>Šafarik (Шафарикъ)</surname>
+                         <forename>Janko</forename>
+                     </persName>
+                     <persName type="alt">
+-                        <name>Шафарикъ (russ.)</name>
++                        <name>Шафарикъ</name>
+                     </persName>
+-                    <birth>1814</birth>
++                    <birth>1811</birth>
+                     <death>1876</death>
+-                    <note>slowakischer Gelehrter; 1845 in Serbien naturalisiert; Neffe von Pavel
+-                        Jozef Šafarik</note>
++                    <note>Historiker und Philologe slowakischer Herkunft; Neffe des slowakischen
++                        Philologen Pavel Josef Šafarik, 1867 Sekretär der Serbischen
++                        wissenschaftlichen Gesellschaft „Српско учено друштво“</note>
+                 </person>
+                 <person xml:id="ed_b2z_vgl_zcb">
+                     <persName type="reg">
+@@ -13862,8 +13845,9 @@ ersetzt durch den aus III/12"?></note>
+                 <person xml:id="pdrPo.001.004.000004635">
+                     <idno type="mega">1027157</idno>
+                     <persName type="reg">
+-                        <surname>Struve (bis 1847 von Struve)</surname>
+-                        <forename>Gustav </forename>
++                        <surname>Struve</surname>
++                        <forename>Gustav von</forename>
++                                            
+                     </persName>
+                     <birth>1805</birth>
+                     <death>1870</death>
+diff --git a/mega/data/Register/Personen/T.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/T.xml
+index a99ff9e..e0a7bf6 100644
+--- a/mega/data/Register/Personen/T.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/T.xml
+@@ -16,6 +16,15 @@
+     <text>
+         <body>
+             <listPerson>
++                <person xml:id="ed_wkx_4rn_pkb">
++                    <persName type="reg">
++                        <surname>Thornton</surname>
++                        <forename>Henry</forename>
++                    </persName>
++                    <birth>1760</birth>
++                    <death>1815</death>
++                    <note>englischer Ökonom</note>
++                </person>
+                 <person xml:id="pdrPo.001.004.000004678">
+                     <idno type="mega">1027409</idno>
+                     <persName type="reg">
+@@ -2837,15 +2846,14 @@ vorher: niederländischer Politiker und Staatstheoretiker"?>
+                 </person>
+                 <person xml:id="ed_ekn_vc5_lhb">
+                     <persName type="reg">
+-                        <surname>Todorović </surname>
+-                        <forename>Stevan oder Steva</forename>
++                        <surname>Todorovič </surname>
++                        <forename>Steva (Stevan)</forename>
+                     </persName>
+                     <persName type="alt">
+-                        <name>Теодоровичъ (russ.)</name>
+-                    </persName>
++                        <name>Теодоровичъ</name></persName>
+                     <birth>1832</birth>
+-                    <death>1926</death>
+-                    <note>serbischer Maler und Musiker</note>
++                    <death>1925</death>
++                    <note>serbischer Maler</note>
+                 </person>
+                 <person xml:id="pdrPo.001.004.000004773">
+                     <idno type="uri"> http://d-nb.info/gnd/1037052617</idno>
+diff --git a/mega/data/Register/Personen/V.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/V.xml
+index 88aff6c..6a1f64b 100644
+--- a/mega/data/Register/Personen/V.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/V.xml
+@@ -486,18 +486,6 @@ nach frz. Wikipedia Désirée"?></note><?oxy_comment_end?>
+                         <ptr target="I/14#355" type="page"/>
+                     </linkGrp>
+                 </person>
+-                <person xml:id="ed_ard_btz_dhb">
+-                    <persName type="reg">
+-                        <surname>Van'Ka Kain (eigtl. Iwan Osipow)</surname>
+-                        <forename/>
+-                    </persName>
+-                    <persName type="alt">
+-                        <name>Wanka Kain</name>
+-                    </persName>
+-                    <birth>1718</birth>
+-                    <death>nach 1756</death>
+-                    <note>russischer Räuber, Gauner Geheimagent der Polizei in Moskau. </note>
+-                </person>
+                 <person xml:id="ed_w4c_tsj_kgb">
+                     <persName type="reg">
+                         <surname>Vanza</surname>
+diff --git a/mega/data/Register/Personen/W.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/W.xml
+index 8c24bfb..89b08c8 100644
+--- a/mega/data/Register/Personen/W.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/W.xml
+@@ -16,6 +16,15 @@
+     <text>
+         <body>
+             <listPerson>
++                <person xml:id="ed_yjx_yzt_pkb">
++                    <persName type="reg">
++                        <surname>Wilkinson</surname>
++                        <forename>James Freeling</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>managing director der Joint-Stock Discount Company</note>
++                </person>
+                 <person xml:id="pdrPo.001.004.000004981">
+                     <idno type="mega">1029178</idno>
+                     <persName type="reg">
+@@ -31,15 +40,6 @@
+                         <ptr target="IV/31#983" type="page"/>
+                     </linkGrp>
+                 </person>
+-                <person xml:id="ed_bkp_xjs_rkb">
+-                    <persName type="reg">
+-                        <surname>Waru</surname>
+-                        <forename>Adolphe de</forename>
+-                    </persName>
+-                    <birth>1802</birth>
+-                    <death>1890</death>
+-                    <note>französischer Bankier; 1856-1871 régent der Banque de France</note>
+-                </person>
+                 <person xml:id="pdrPo.001.004.000004982">
+                     <idno type="uri">http://d-nb.info/gnd/117076570</idno>
+                     <idno type="mega">1029180</idno>
+diff --git a/mega/data/Register/Personen/__contents__.xml b/home/gordon/backup182/db/projects/mega/data/Register/Personen/__contents__.xml
+index 93ae3a3..0cc206b 100644
+--- a/mega/data/Register/Personen/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/Personen/__contents__.xml
+@@ -1,81 +1,81 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mega/data/Register/Personen" version="1" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39.721+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="N.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:45+01:00" modified="2020-01-10T11:03:56+01:00" filename="N.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="N.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:45.044+01:00" modified="2020-01-10T11:03:56.796+01:00" filename="N.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="J.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:44+01:00" modified="2020-01-23T16:30:42+01:00" filename="J.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="J.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:44.931+01:00" modified="2020-01-23T16:30:42.104+01:00" filename="J.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="L.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:44+01:00" modified="2020-01-10T11:30:30+01:00" filename="L.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="L.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:44.699+01:00" modified="2020-01-28T11:37:03.651+01:00" filename="L.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="K.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:44+01:00" modified="2019-11-26T16:03:05+01:00" filename="K.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="K.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:44.5+01:00" modified="2020-02-04T14:15:20.878+01:00" filename="K.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="I.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:44+01:00" modified="2019-10-16T10:42:07+02:00" filename="I.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="I.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:44.41+01:00" modified="2019-10-16T10:42:07.034+02:00" filename="I.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="A.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:44+01:00" modified="2019-10-29T09:23:51+01:00" filename="A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="A.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:44.294+01:00" modified="2019-10-29T09:23:51.779+01:00" filename="A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="H.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:44+01:00" modified="2020-02-11T12:43:36.154+01:00" filename="H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="H.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:44.088+01:00" modified="2019-10-25T10:47:10.928+02:00" filename="H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="B.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:43.744+01:00" modified="2020-02-12T10:30:42.887+01:00" filename="B.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="B.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:43.744+01:00" modified="2020-02-05T14:04:29.954+01:00" filename="B.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="C.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:43+01:00" modified="2020-01-21T14:08:44+01:00" filename="C.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="C.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:43.346+01:00" modified="2020-02-05T16:08:35.575+01:00" filename="C.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="D.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:43+01:00" modified="2020-02-11T10:50:18.68+01:00" filename="D.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="D.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:43.081+01:00" modified="2020-01-28T10:56:03.801+01:00" filename="D.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="E.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:42+01:00" modified="2020-01-14T14:55:29+01:00" filename="E.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="E.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:42.845+01:00" modified="2020-01-14T14:55:29.811+01:00" filename="E.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="F.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:42+01:00" modified="2019-10-24T10:11:39+02:00" filename="F.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="F.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:42.645+01:00" modified="2020-01-28T11:01:21.556+01:00" filename="F.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="G.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:42.401+01:00" modified="2020-02-10T15:07:04.2+01:00" filename="G.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="G.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:42.401+01:00" modified="2020-02-05T12:23:09.63+01:00" filename="G.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="T.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:42+01:00" modified="2020-02-11T10:48:33.637+01:00" filename="T.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="T.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:42.227+01:00" modified="2020-02-07T16:16:04.424+01:00" filename="T.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Z.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:42+01:00" modified="2019-09-23T11:31:38+02:00" filename="Z.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Z.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:42.136+01:00" modified="2019-09-23T11:31:38.678+02:00" filename="Z.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Y.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:42+01:00" modified="2019-06-25T13:47:16+02:00" filename="Y.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Y.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:42.112+01:00" modified="2019-06-25T13:47:16.42+02:00" filename="Y.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="X.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:42+01:00" modified="2018-11-13T10:58:42+01:00" filename="X.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="X.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:42.102+01:00" modified="2018-11-13T10:58:42.102+01:00" filename="X.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="W.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:41+01:00" modified="2020-02-12T12:33:34.705+01:00" filename="W.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="W.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:41.981+01:00" modified="2020-02-05T14:15:51.021+01:00" filename="W.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="V.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:41+01:00" modified="2019-10-21T10:54:28+02:00" filename="V.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="V.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:41.828+01:00" modified="2020-02-04T14:12:00.153+01:00" filename="V.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="U.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:41+01:00" modified="2019-06-25T10:22:06+02:00" filename="U.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="U.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:41.752+01:00" modified="2019-06-25T10:22:06.487+02:00" filename="U.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="M.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:41+01:00" modified="2020-02-11T10:27:34.094+01:00" filename="M.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="M.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:41.358+01:00" modified="2020-02-07T15:28:00.529+01:00" filename="M.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="S.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:40.633+01:00" modified="2020-02-12T10:15:34.285+01:00" filename="S.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="S.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:40.633+01:00" modified="2020-02-06T15:11:11.412+01:00" filename="S.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="R.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:40+01:00" modified="2020-02-12T12:35:24.1+01:00" filename="R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="R.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:40.14+01:00" modified="2020-02-07T15:00:05.761+01:00" filename="R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Q.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:40+01:00" modified="2019-04-09T15:03:20+02:00" filename="Q.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Q.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:40.023+01:00" modified="2019-04-09T15:03:20.47+02:00" filename="Q.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="P.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39+01:00" modified="2020-02-11T10:24:12.437+01:00" filename="P.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="P.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39.879+01:00" modified="2020-02-07T13:14:17.122+01:00" filename="P.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="O.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39+01:00" modified="2019-09-23T09:45:47+02:00" filename="O.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="O.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39.737+01:00" modified="2020-02-07T14:53:43.248+01:00" filename="O.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mega/data/Register/__contents__.xml b/home/gordon/backup182/db/projects/mega/data/Register/__contents__.xml
+index 20b7c7a..925d60d 100644
+--- a/mega/data/Register/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mega/data/Register/__contents__.xml
+@@ -1,24 +1,24 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mega/data/Register" version="1" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39.456+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Orte.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39+01:00" modified="2019-08-27T14:42:45+02:00" filename="Orte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Orte.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39.673+01:00" modified="2019-08-27T14:42:45.63+02:00" filename="Orte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Sachregister_III.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39+01:00" modified="2018-11-13T10:58:39+01:00" filename="Sachregister_III.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sachregister_III.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39.656+01:00" modified="2018-11-13T10:58:39.656+01:00" filename="Sachregister_III.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Firmen_Institutionen.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39+01:00" modified="2020-02-11T15:02:39.463+01:00" filename="Firmen_Institutionen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Firmen_Institutionen.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39.534+01:00" modified="2020-02-05T14:51:23.58+01:00" filename="Firmen_Institutionen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Themenregister_Vorschl%C3%A4ge.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39+01:00" modified="2018-11-13T10:58:39+01:00" filename="Themenregister_Vorschläge.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Themenregister_Vorschl%C3%A4ge.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39.498+01:00" modified="2018-11-13T10:58:39.498+01:00" filename="Themenregister_Vorschläge.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Periodika.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39+01:00" modified="2020-01-23T18:06:30+01:00" filename="Periodika.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Periodika.xml" skip="no" owner="admin" group="mega-nutzer" mode="770" created="2018-11-13T10:58:39.481+01:00" modified="2020-02-05T10:07:46.688+01:00" filename="Periodika.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Sachregister_I.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-06-20T10:28:01+02:00" modified="2019-06-20T10:29:29+02:00" filename="Sachregister_I.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sachregister_I.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-06-20T10:28:01.289+02:00" modified="2019-06-20T10:29:29.567+02:00" filename="Sachregister_I.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Sachregister_IV.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-06-20T10:28:37+02:00" modified="2019-06-20T10:29:17+02:00" filename="Sachregister_IV.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sachregister_IV.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-06-20T10:28:37.761+02:00" modified="2019-06-20T10:29:17.988+02:00" filename="Sachregister_IV.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <subcollection name="Personen" filename="Personen"/>

@@ -1,0 +1,278 @@
+diff --git a/schleiermacher/data/About/DigitaleEdition.xml b/home/gordon/backup182/db/projects/schleiermacher/data/About/DigitaleEdition.xml
+index 151f806..8960b92 100644
+--- a/schleiermacher/data/About/DigitaleEdition.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/About/DigitaleEdition.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" oldID="digitaleEdition" xml:id="S0010265">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="digitaleEdition">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+@@ -99,30 +99,33 @@
+                 <head type="h2">Schnittstellen </head>
+                 <div>
+                     <head type="h3"> CMIF-Schnittstelle </head>
+-                    <p>Über die <ref type="api" target="/api/cmif.xql">CMIF-Schnittstelle</ref> können die Metadaten aller in dieser Edition
++                    <p>Über diese Schnittstelle können die Metadaten aller in dieser Edition
+                         vorhandenen Briefe im <ref target="https://correspsearch.net/index.xql?id=participate_cmi-format&amp;l=de">Correspondence Metadata Interchange (CMI) Format</ref> abgeurfen
+                         werden. Absender und Empfänger werden hauptsächlich mit Hilfe der <ref target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">ID der
+                             Gemeinsamen Normdatei (GND)</ref> der Deutschen Nationalbibliothek
+                         identifiziert, seltener mit Hilfe der Virtual International Authority File. 
+-                    </p>
++                    
++                       <!-- URL: <ref target="api/cmif.xql">api/cmif.xql</ref>--></p>
+                 </div>
+                 <div>
+                     <head type="h3">BEACON-Dateien</head>
+                     <p>Die in unserem Datenbestand vorhandenen und mit der <ref target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">GND</ref>-Nummer ausgezeichneten Personen können als Liste im <ref target="https://de.wikipedia.org/wiki/Wikipedia:BEACON">BEACON-Format</ref> abgerufen werden. Es ist dabei möglich, die Liste
+                         auf Personen zu beschränkgen, die im Brieftext erwähnt werden oder die
+                         Korrespondenzpartner sind. </p>
+-                   <list>
++                    <!--<list>
+                         <item>
+-                            <ref type="api" target="/api/beacon.xql">BEACON-Datei aller
++                            <ref target="../api/beacon.xql">BEACON-Datei aller
+                                 Datensätze im Personenregister</ref>
+                         </item>
+                         <item>
+-                            <ref type="api" target="/api/beacon.xql?type=correspondents">BEACON-Datei aller Korrespondenzpartner</ref>
++                            <ref target="{$edweb:baseURL}/api/beacon.xql?type=correspondents"
++                                >BEACON-Datei aller Korrespondenzpartner</ref>
+                         </item>
+                         <item>
+-                            <ref type="api" target="/api/beacon.xql?type=personMentioned">BEACON-Datei aller in der Korrespondenz erwähnten Personen</ref>
++                            <ref target="{$edweb:baseURL}/api/beacon.xql?type=personMentioned"
++                                >BEACON-Datei aller in der Korrespondenz erwähnten Personen</ref>
+                         </item>
+-                    </list>
++                    </list>-->
+                 </div>
+             </div>
+             <div>
+diff --git a/schleiermacher/data/About/Drucknachweise.xml b/home/gordon/backup182/db/projects/schleiermacher/data/About/Drucknachweise.xml
+index 458fa0e..6ca31c0 100644
+--- a/schleiermacher/data/About/Drucknachweise.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/About/Drucknachweise.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" oldID="drucknachweise" xml:id="S0010266">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="drucknachweise">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/About/Links.xml b/home/gordon/backup182/db/projects/schleiermacher/data/About/Links.xml
+index c1ec93e..1e68930 100644
+--- a/schleiermacher/data/About/Links.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/About/Links.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" oldID="links" xml:id="S0010273">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="links">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+@@ -59,7 +59,7 @@
+                     seinem Wirken oder Leben beschäftigen. </p>
+                 <p>
+                     <ref target="https://www.degruyter.com/view/serial/16622">Verlag Walter de
+-                        Gruyter</ref> Bei dem Verlag de Gruyter erscheint die Historisch-Kritische
++                        Gruyter</ref> Bei dem Verlag de Gruyter erscheinen die Historisch-Kritische
+                     Friedrich Schleiermacher Gesamtausgabe (KGA). Sie gliedert sich in V Abteilungen
+                     und umfasst: I. Schriften und Entwürfe, II. Vorlesungen, III. Predigten, IV.
+                     Übersetzungen, V. Briefwechsel und biographische Dokumente. Jeder Abteilung ist
+diff --git a/schleiermacher/data/About/Projektteam.xml b/home/gordon/backup182/db/projects/schleiermacher/data/About/Projektteam.xml
+index 1594fb8..ffa0761 100644
+--- a/schleiermacher/data/About/Projektteam.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/About/Projektteam.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" oldID="team" xml:id="S0010277">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="team">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+@@ -87,7 +87,7 @@
+                 
+                 <div>
+                     <head type="h3">
+-                        <ref target="http://www.bbaw.de/die-akademie/mitarbeiter/gerber/">PD Dr. Simon Gerber</ref>
++                        <ref target="http://www.bbaw.de/die-akademie/mitarbeiter/gerber/">PD. Dr. Simon Gerber</ref>
+                     </head>
+                     <span><hi rendition="#i">Wissenschaftlicher Mitarbeiter</hi></span>
+                     <list>
+@@ -212,8 +212,8 @@
+                     <lb/>
+                     <list>
+                         <item>Beratung</item>
+-                        <item>Datenmodellierung und Konvertierung nach ediarum.BASE.edit</item>
+-                        <item>Entwicklung und Anpassung von <hi rendition="#i">ediarum</hi></item>
++                        <item>Datenmodellierung und Konvertierung nach DTA-Bf; Entwicklung und
++                            Anpassung von <hi rendition="#i">ediarum</hi> (bis 2019)</item>
+                     </list>
+                 </div>
+                 
+@@ -224,7 +224,7 @@
+                     <span><hi rendition="#i">Wissenschaftliche Mitarbeiterin (TELOTA)</hi></span>
+                     <lb/>
+                     <list>
+-                        <item>Datenmodellierung und Konvertierung nach ediarum.BASE.edit</item>
++                        <item>Konvertierung der Daten nach DTA-Bf (2017-2019) </item>
+                     </list>
+                 </div>
+                 
+@@ -237,8 +237,8 @@
+                     <lb/>
+                     <list>
+                         <item>Beratung</item>
+-                        <item>Konzeption und Programmierung der digitalen Edition</item>
+-                        <item>Entwicklung und Anpassung von <hi rendition="#i">ediarum</hi></item>
++                        <item>Konzeption und Programmierung der digitalen Edition; Entwicklung und
++                            Anpassung von <hi rendition="#i">ediarum</hi> (bis 2019)</item>
+                     </list>
+                 </div>
+                 
+@@ -251,34 +251,12 @@
+                     <lb/>
+                     <list>
+                         <item>Beratung</item>
+-                        <item>Konzeption und Programmierung der digitalen Edition</item>
+-                        <item>Entwicklung und Anpassung von <hi rendition="#i">ediarum</hi></item>
+-                    </list>
+-                </div>
+-                <div>
+-                    <head type="h3">
+-                        <ref target="http://www.bbaw.de/die-akademie/mitarbeiter/notroff">Andrea Notroff</ref>
+-                    </head>
+-                    <span>
+-                        <hi rendition="#i">Wissenschaftliche Mitarbeiterin (TELOTA)</hi></span>
+-                    <lb/>
+-                    <list>
+-                        <item>Entwicklung und Anpassung des <hi rendition="#i">ediarum</hi>-Frameworks für die Tageskalender</item>
++                        <item>Konzeption und Programmierung der digitalen Edition; Entwicklung und
++                            Anpassung von <hi rendition="#i">ediarum</hi> (bis 2019)</item>
+                     </list>
+                 </div>
+             </div>
+-            <div><head type="h2">Weitere Beteiligungen</head></div>
+-            <div>
+-                <head type="h3">
+-                    <ref target="http://www.bbaw.de/die-akademie/mitarbeiter/thomas">Christian Thomas</ref>
+-                </head>
+-                <span>
+-                    <hi rendition="#i">Wissenschaftlicher Mitarbeiter Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung (BBAW)</hi></span>
+-                <lb/>
+-                <list>
+-                    <item>Verlinkung zur Edition der Kosmos-Vorträge A. v. Humboldts im Deutschen Textarchiv der BBAW</item>
+-                </list>
+-            </div>
++            
+         </body>
+     </text>
+ </TEI>
+\ No newline at end of file
+diff --git a/schleiermacher/data/About/Publikationen.xml b/home/gordon/backup182/db/projects/schleiermacher/data/About/Publikationen.xml
+index 6e86eac..34316aa 100644
+--- a/schleiermacher/data/About/Publikationen.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/About/Publikationen.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" oldID="publikationen" xml:id="S0010275">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="publikationen">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/About/ZurEdition.xml b/home/gordon/backup182/db/projects/schleiermacher/data/About/ZurEdition.xml
+index 95ef966..5141ce4 100644
+--- a/schleiermacher/data/About/ZurEdition.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/About/ZurEdition.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" oldID="edition" xml:id="S0010272">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="edition">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+@@ -28,7 +28,7 @@
+                     </licence>
+                 </availability>
+             </publicationStmt>
+-            <sourceDesc> <ab/></sourceDesc>
++            <sourceDesc> </sourceDesc>
+         </fileDesc>
+ 
+         <revisionDesc>
+@@ -47,14 +47,18 @@
+             <div>
+                 <head type="h2">Zu den Briefen</head>
+                 <p>Die digitale Edition bietet gegenwärtig in historisch-kritischer Version
+-                    Schleiermachers Korrespondenz der Jahre 1808–1810. Ab 2020 wird ein Sachkommentar zu den Briefen 1808–1810 hinzukommen 
+-                    sowie die Angaben zur Korrespondenz der Jahre 1811–1816 (ohne Brieftexte). Ab 2022 ebenfalls in historisch-kritischer Version die Texte der Korrespondenz 1811–1816.</p>
++                    Schleiermachers Korrespondenz der Jahre 1808–1810 sowie die Angaben zur
++                    Korrespondenz der Jahre 1811–1816 (ohne Brieftexte). Ab 2020 wird ein
++                    Sachkommentar zu den Briefen 1808–1810 hinzukommen und ab 2022 ebenfalls in
++                    historisch-kritischer Version die Texte der Korrespondenz 1811–1816. Die
++                    digitale Version der Schleiermacher-Korrespondenz folgt (auch in der Zählung der
++                    Briefe) der KGA, Abteilung V.</p>
+             </div>
+             <div>
+                 <head type="h2">Zu den Vorlesungen</head>
+                 <p>Die digitale Edition enthält gegenwärtig die Transkription einer Vorlesungsnachschrift zu Schleiermachers Ästhetikkolleg 1832/33. Sukzessive werden weitere Texte zur Ästhetik sowie zur Schleiermachers Vorlesungen über Praktische Theologie und über Philosophische Ethik ergänzt.</p>
+             </div>
+-           <div> <list type="desc">
++            <list type="desc">
+                 <head>Folgende editorische Abkürzungen und Zeichen werden verwendet:</head>
+                 <item>
+                     <label>Bl.</label>
+@@ -169,6 +173,8 @@
+                     <desc>Streichung eines überflüssigen Wortes durch den/die Herausgeber/in</desc>
+                 </item>
+             </list>
++
++
+             <list type="desc">
+                 <head>Durch die Autoren/innen verwendete Abkürzungen</head>
+                 <item>
+@@ -270,7 +276,7 @@
+                     <desc>Gold</desc>
+                 </item>
+             </list>
+-         </div>
++         
+         </body>
+     </text>
+ </TEI>
+\ No newline at end of file
+diff --git a/schleiermacher/data/About/__contents__.xml b/home/gordon/backup182/db/projects/schleiermacher/data/About/__contents__.xml
+index d3c95d0..f4aa9ed 100644
+--- a/schleiermacher/data/About/__contents__.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/About/__contents__.xml
+@@ -1,21 +1,21 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/schleiermacher/data/About" version="1" owner="admin" group="schleiermacher-nutzer" mode="770" created="2020-02-10T17:44:41.769+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="DigitaleEdition.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:44:41.994+01:00" modified="2020-02-11T15:04:47.966+01:00" filename="DigitaleEdition.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="DigitaleEdition.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="774" created="2020-01-24T16:15:01.144+01:00" modified="2020-02-03T11:19:06.283+01:00" filename="DigitaleEdition.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Links.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:44:41.971+01:00" modified="2020-02-10T17:44:41.971+01:00" filename="Links.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Links.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="770" created="2019-11-06T17:36:18.617+01:00" modified="2019-12-18T16:16:00.581+01:00" filename="Links.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Publikationen.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:44:41.952+01:00" modified="2020-02-10T17:44:41.952+01:00" filename="Publikationen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Publikationen.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="770" created="2019-11-06T17:36:18.637+01:00" modified="2020-02-04T16:00:35.683+01:00" filename="Publikationen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Projektteam.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:44:41.932+01:00" modified="2020-02-11T10:28:30.986+01:00" filename="Projektteam.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Projektteam.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="774" created="2020-01-24T16:15:01.169+01:00" modified="2020-02-05T14:43:55.787+01:00" filename="Projektteam.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="ZurEdition.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:44:41.908+01:00" modified="2020-02-10T17:44:41.908+01:00" filename="ZurEdition.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="ZurEdition.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="770" created="2019-11-04T11:21:06.085+01:00" modified="2020-02-04T15:55:49.733+01:00" filename="ZurEdition.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Drucknachweise.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:44:41.884+01:00" modified="2020-02-10T17:44:41.884+01:00" filename="Drucknachweise.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Drucknachweise.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="770" created="2019-11-04T11:21:06.06+01:00" modified="2020-01-27T13:58:33.932+01:00" filename="Drucknachweise.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

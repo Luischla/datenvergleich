@@ -1,0 +1,33 @@
+diff --git a/lehndorff/data/Bilder/__contents__.xml b/home/gordon/backup182/db/projects/lehndorff/data/Bilder/__contents__.xml
+index bf8f4a4..56f1228 100644
+--- a/lehndorff/data/Bilder/__contents__.xml
++++ b/home/gordon/backup182/db/projects/lehndorff/data/Bilder/__contents__.xml
+@@ -1,21 +1,21 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/lehndorff/data/Bilder" version="1" owner="admin" group="lehndorff-nutzer" mode="770" created="2018-10-29T11:22:04.784+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="VI_Entwuerfe.xml" skip="no" owner="admin" group="dba" mode="774" created="2019-05-13T11:21:37+02:00" modified="2019-12-09T09:25:06+01:00" filename="VI_Entwuerfe.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="VI_Entwuerfe.xml" skip="no" owner="admin" group="dba" mode="774" created="2019-05-13T11:21:37.035+02:00" modified="2019-12-09T09:25:06.643+01:00" filename="VI_Entwuerfe.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="V_Verschiedenes.xml" skip="no" owner="admin" group="dba" mode="774" created="2019-05-13T11:21:37+02:00" modified="2019-10-29T09:30:50+01:00" filename="V_Verschiedenes.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="V_Verschiedenes.xml" skip="no" owner="admin" group="dba" mode="774" created="2019-05-13T11:21:37.015+02:00" modified="2019-10-29T09:30:50.085+01:00" filename="V_Verschiedenes.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="IV_Steinort_Bibliothek.xml" skip="no" owner="admin" group="dba" mode="774" created="2019-05-13T11:21:36+02:00" modified="2019-05-28T12:04:57+02:00" filename="IV_Steinort_Bibliothek.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="IV_Steinort_Bibliothek.xml" skip="no" owner="admin" group="dba" mode="774" created="2019-05-13T11:21:36.992+02:00" modified="2019-05-28T12:04:57.839+02:00" filename="IV_Steinort_Bibliothek.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="III_Steinort_heute.xml" skip="no" owner="admin" group="dba" mode="774" created="2019-05-13T11:21:36+02:00" modified="2019-12-09T09:25:16+01:00" filename="III_Steinort_heute.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="III_Steinort_heute.xml" skip="no" owner="admin" group="dba" mode="774" created="2019-05-13T11:21:36.961+02:00" modified="2019-12-09T09:25:16.101+01:00" filename="III_Steinort_heute.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="I_Familienportraits.xml" skip="no" owner="admin" group="dba" mode="774" created="2019-05-13T11:21:36+02:00" modified="2019-12-09T09:24:38+01:00" filename="I_Familienportraits.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="I_Familienportraits.xml" skip="no" owner="admin" group="dba" mode="774" created="2019-05-13T11:21:36.891+02:00" modified="2019-12-09T09:24:38.816+01:00" filename="I_Familienportraits.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="II_Steinort_damals.xml" skip="no" owner="admin" group="dba" mode="774" created="2019-05-13T11:21:36+02:00" modified="2019-11-25T17:40:34+01:00" filename="II_Steinort_damals.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="II_Steinort_damals.xml" skip="no" owner="admin" group="dba" mode="774" created="2019-05-13T11:21:36.932+02:00" modified="2019-11-25T17:40:34.086+01:00" filename="II_Steinort_damals.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

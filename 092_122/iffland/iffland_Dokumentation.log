@@ -1,0 +1,21 @@
+diff --git a/iffland/data/Dokumentation/__contents__.xml b/home/gordon/backup182/db/projects/iffland/data/Dokumentation/__contents__.xml
+index 52fc861..ff3dba1 100644
+--- a/iffland/data/Dokumentation/__contents__.xml
++++ b/home/gordon/backup182/db/projects/iffland/data/Dokumentation/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/iffland/data/Dokumentation" version="1" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:31.419+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Archiv.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:31+02:00" modified="2018-08-31T12:17:31+02:00" filename="Archiv.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Archiv.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:31.447+02:00" modified="2018-08-31T12:17:31.447+02:00" filename="Archiv.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Aufbau_der_Edition.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:31+02:00" modified="2018-09-18T14:31:43+02:00" filename="Aufbau_der_Edition.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Aufbau_der_Edition.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:31.439+02:00" modified="2018-09-18T14:31:43.967+02:00" filename="Aufbau_der_Edition.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Nationaltheater.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:31+02:00" modified="2018-08-31T12:17:31+02:00" filename="Nationaltheater.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Nationaltheater.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:31.424+02:00" modified="2018-08-31T12:17:31.424+02:00" filename="Nationaltheater.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

@@ -1,0 +1,1037 @@
+diff --git a/mop/data/Biogramme/A/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/A/__contents__.xml
+index fd533be..e694acf 100644
+--- a/mop/data/Biogramme/A/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/A/__contents__.xml
+@@ -1,42 +1,42 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/A" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:49:10.343+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Arnim_Karl_Gustav_Theodor_von_1796-1877.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-11T14:45:29+02:00" modified="2019-12-13T14:33:12+01:00" filename="Arnim_Karl_Gustav_Theodor_von_1796-1877.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Arnim_Karl_Gustav_Theodor_von_1796-1877.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-11T14:45:29.799+02:00" modified="2019-12-13T14:33:12.282+01:00" filename="Arnim_Karl_Gustav_Theodor_von_1796-1877.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Albedyll_Emil_Heinrich_Ludwig_von_1824-1897.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:12+01:00" filename="Albedyll_Emil_Heinrich_Ludwig_von_1824-1897.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Albedyll_Emil_Heinrich_Ludwig_von_1824-1897.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.93+01:00" modified="2019-12-13T14:33:12.457+01:00" filename="Albedyll_Emil_Heinrich_Ludwig_von_1824-1897.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Alvensleben_Albrecht_Graf_von_1794-1858.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:30+01:00" modified="2019-12-13T14:33:12+01:00" filename="Alvensleben_Albrecht_Graf_von_1794-1858.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Alvensleben_Albrecht_Graf_von_1794-1858.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:30.056+01:00" modified="2019-12-13T14:33:12.618+01:00" filename="Alvensleben_Albrecht_Graf_von_1794-1858.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Arnim-Boitzenburg_Friedrich_Wilhelm_Graf_1739-1801.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-12-19T10:42:49+01:00" modified="2019-12-19T10:53:45+01:00" filename="Arnim-Boitzenburg_Friedrich_Wilhelm_Graf_1739-1801.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Arnim-Boitzenburg_Friedrich_Wilhelm_Graf_1739-1801.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-12-19T10:42:49.953+01:00" modified="2019-12-19T10:53:45.965+01:00" filename="Arnim-Boitzenburg_Friedrich_Wilhelm_Graf_1739-1801.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Asseburg-Falkenstein_Ludwig_I_Graf_von_der_1796-1869.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27+01:00" modified="2019-12-13T14:33:12+01:00" filename="Asseburg-Falkenstein_Ludwig_I_Graf_von_der_1796-1869.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Asseburg-Falkenstein_Ludwig_I_Graf_von_der_1796-1869.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27.791+01:00" modified="2019-12-13T14:33:12.783+01:00" filename="Asseburg-Falkenstein_Ludwig_I_Graf_von_der_1796-1869.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Alvensleben_Werner_Graf_von_1840-1929.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T10:57:40+01:00" modified="2019-12-13T14:33:12+01:00" filename="Alvensleben_Werner_Graf_von_1840-1929.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Alvensleben_Werner_Graf_von_1840-1929.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T10:57:40.86+01:00" modified="2019-12-13T14:33:12.918+01:00" filename="Alvensleben_Werner_Graf_von_1840-1929.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Albrecht_Daniel_Ludwig_1765-1835.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:13+01:00" filename="Albrecht_Daniel_Ludwig_1765-1835.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Albrecht_Daniel_Ludwig_1765-1835.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.965+01:00" modified="2019-12-13T14:33:13.04+01:00" filename="Albrecht_Daniel_Ludwig_1765-1835.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Arnim-Blumberg_Friedrich_Ludwig_Graf_von_1796-1866.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:30+01:00" modified="2019-12-13T14:33:13+01:00" filename="Arnim-Blumberg_Friedrich_Ludwig_Graf_von_1796-1866.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Arnim-Blumberg_Friedrich_Ludwig_Graf_von_1796-1866.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:30.083+01:00" modified="2019-12-13T14:33:13.171+01:00" filename="Arnim-Blumberg_Friedrich_Ludwig_Graf_von_1796-1866.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Auerswald_Rudolf_von_1795-1866.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27+01:00" modified="2019-12-13T14:33:13+01:00" filename="Auerswald_Rudolf_von_1795-1866.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Auerswald_Rudolf_von_1795-1866.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27.812+01:00" modified="2019-12-13T14:33:13.301+01:00" filename="Auerswald_Rudolf_von_1795-1866.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Arnim_Karl_Otto_Ludwig_von_1779-1861.xml" skip="no" owner="admin" group="website" mode="666" created="2019-02-15T09:53:19+01:00" modified="2019-12-13T14:33:13+01:00" filename="Arnim_Karl_Otto_Ludwig_von_1779-1861.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Arnim_Karl_Otto_Ludwig_von_1779-1861.xml" skip="no" owner="admin" group="website" mode="666" created="2019-02-15T09:53:19.429+01:00" modified="2019-12-13T14:33:13.429+01:00" filename="Arnim_Karl_Otto_Ludwig_von_1779-1861.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Alvensleben_Gustav_von_1803-1881.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:30+01:00" modified="2019-12-13T14:33:13+01:00" filename="Alvensleben_Gustav_von_1803-1881.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Alvensleben_Gustav_von_1803-1881.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:30.026+01:00" modified="2019-12-13T14:33:13.571+01:00" filename="Alvensleben_Gustav_von_1803-1881.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Asseburg-Falkenstein_Ludwig_II_Graf_von_der_1829-1909.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="666" created="2019-03-11T13:54:35+01:00" modified="2019-12-13T14:33:13+01:00" filename="Asseburg-Falkenstein_Ludwig_II_Graf_von_der_1829-1909.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Asseburg-Falkenstein_Ludwig_II_Graf_von_der_1829-1909.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="666" created="2019-03-11T13:54:35.77+01:00" modified="2019-12-13T14:33:13.696+01:00" filename="Asseburg-Falkenstein_Ludwig_II_Graf_von_der_1829-1909.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Alvensleben_Anna_Graefin_von_1826-1889.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:13+01:00" filename="Alvensleben_Anna_Graefin_von_1826-1889.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Alvensleben_Anna_Graefin_von_1826-1889.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.997+01:00" modified="2019-12-13T14:33:13.827+01:00" filename="Alvensleben_Anna_Graefin_von_1826-1889.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/B/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/B/__contents__.xml
+index db81e55..811a620 100644
+--- a/mop/data/Biogramme/B/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/B/__contents__.xml
+@@ -1,51 +1,51 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/B" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:49:32.885+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Bischoffwerder_Hans_Rudolf_von_1741-1803.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27+01:00" modified="2019-12-13T14:33:14+01:00" filename="Bischoffwerder_Hans_Rudolf_von_1741-1803.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Bischoffwerder_Hans_Rudolf_von_1741-1803.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27.864+01:00" modified="2019-12-13T14:33:14.046+01:00" filename="Bischoffwerder_Hans_Rudolf_von_1741-1803.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Bruehl_Carl_Graf_von_1772-1837.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:36:09+01:00" modified="2019-12-13T14:33:14+01:00" filename="Bruehl_Carl_Graf_von_1772-1837.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Bruehl_Carl_Graf_von_1772-1837.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:36:09.682+01:00" modified="2019-12-13T14:33:14.178+01:00" filename="Bruehl_Carl_Graf_von_1772-1837.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Buch_Alexander_von_1814-1885.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T11:46:31+01:00" modified="2019-12-13T14:33:14+01:00" filename="Buch_Alexander_von_1814-1885.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Buch_Alexander_von_1814-1885.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T11:46:31.539+01:00" modified="2019-12-13T14:33:14.308+01:00" filename="Buch_Alexander_von_1814-1885.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Brandenburg_Mathilde_Aurora_Gr%C3%A4fin_von_1795-1855.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-28T12:21:03+02:00" modified="2019-12-13T14:33:14+01:00" filename="Brandenburg_Mathilde_Aurora_Gräfin_von_1795-1855.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Brandenburg_Mathilde_Aurora_Gr%C3%A4fin_von_1795-1855.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-28T12:21:03.486+02:00" modified="2019-12-13T14:33:14.454+01:00" filename="Brandenburg_Mathilde_Aurora_Gräfin_von_1795-1855.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Bussche-Ippenburg_Wilhelm_Graf_von_dem_1830-1897.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T10:06:04+01:00" modified="2020-01-14T15:18:50+01:00" filename="Bussche-Ippenburg_Wilhelm_Graf_von_dem_1830-1897.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Bussche-Ippenburg_Wilhelm_Graf_von_dem_1830-1897.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T10:06:04.558+01:00" modified="2020-01-14T15:18:50.033+01:00" filename="Bussche-Ippenburg_Wilhelm_Graf_von_dem_1830-1897.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Bruehl_Marie_siehe_Clausewitz_Marie.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27+01:00" modified="2019-12-12T15:19:55+01:00" filename="Bruehl_Marie_siehe_Clausewitz_Marie.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Bruehl_Marie_siehe_Clausewitz_Marie.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27.951+01:00" modified="2019-12-12T15:19:55.519+01:00" filename="Bruehl_Marie_siehe_Clausewitz_Marie.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Bodelschwingh_Ernst-von-1794-1854.xml" skip="no" owner="mop_rathgeber" group="mop-nutzer" mode="660" created="2019-04-08T14:44:31+02:00" modified="2019-12-13T14:33:14+01:00" filename="Bodelschwingh_Ernst-von-1794-1854.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Bodelschwingh_Ernst-von-1794-1854.xml" skip="no" owner="mop_rathgeber" group="mop-nutzer" mode="660" created="2019-04-08T14:44:31.288+02:00" modified="2019-12-13T14:33:14.778+01:00" filename="Bodelschwingh_Ernst-von-1794-1854.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Berg_Karoline_Friederike_Graefin_von_1760-1826.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27+01:00" modified="2019-12-13T14:33:14+01:00" filename="Berg_Karoline_Friederike_Graefin_von_1760-1826.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Berg_Karoline_Friederike_Graefin_von_1760-1826.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27.845+01:00" modified="2019-12-13T14:33:14.917+01:00" filename="Berg_Karoline_Friederike_Graefin_von_1760-1826.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Biron_von_Curland_Calixt_Prinz_1817-1882.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-03-11T11:45:52+01:00" modified="2019-12-13T14:33:15+01:00" filename="Biron_von_Curland_Calixt_Prinz_1817-1882.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Biron_von_Curland_Calixt_Prinz_1817-1882.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-03-11T11:45:52.525+01:00" modified="2019-12-13T14:33:15.048+01:00" filename="Biron_von_Curland_Calixt_Prinz_1817-1882.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Buch_George_Carl_Vollrath_von_1767-1836.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27+01:00" modified="2019-12-13T14:33:15+01:00" filename="Buch_George_Carl_Vollrath_von_1767-1836.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Buch_George_Carl_Vollrath_von_1767-1836.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27.971+01:00" modified="2019-12-13T14:33:15.188+01:00" filename="Buch_George_Carl_Vollrath_von_1767-1836.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Boos_und_Waldeck_Clemens_Graf_von_1797-1865.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27+01:00" modified="2019-12-13T14:33:15+01:00" filename="Boos_und_Waldeck_Clemens_Graf_von_1797-1865.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Boos_und_Waldeck_Clemens_Graf_von_1797-1865.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27.919+01:00" modified="2019-12-13T14:33:15.321+01:00" filename="Boos_und_Waldeck_Clemens_Graf_von_1797-1865.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Beissel_von_Gymnisch_Richard_Graf_von_1802-1879.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27+01:00" modified="2019-12-13T14:33:15+01:00" filename="Beissel_von_Gymnisch_Richard_Graf_von_1802-1879.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Beissel_von_Gymnisch_Richard_Graf_von_1802-1879.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27.829+01:00" modified="2019-12-13T14:33:15.448+01:00" filename="Beissel_von_Gymnisch_Richard_Graf_von_1802-1879.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Bock_Henriette_Auguste_1762-1845.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27+01:00" modified="2019-12-13T14:33:15+01:00" filename="Bock_Henriette_Auguste_1762-1845.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Bock_Henriette_Auguste_1762-1845.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27.9+01:00" modified="2019-12-13T14:33:15.629+01:00" filename="Bock_Henriette_Auguste_1762-1845.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Borcke_Gustav_Graf_von_1829-1916.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T13:29:54+01:00" modified="2019-12-13T14:33:15+01:00" filename="Borcke_Gustav_Graf_von_1829-1916.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Borcke_Gustav_Graf_von_1829-1916.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T13:29:54.476+01:00" modified="2019-12-13T14:33:15.788+01:00" filename="Borcke_Gustav_Graf_von_1829-1916.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Bruehl_Carl_Adolf_Graf_von_1742-1802.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27+01:00" modified="2019-12-13T14:33:15+01:00" filename="Bruehl_Carl_Adolf_Graf_von_1742-1802.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Bruehl_Carl_Adolf_Graf_von_1742-1802.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27.935+01:00" modified="2019-12-13T14:33:15.939+01:00" filename="Bruehl_Carl_Adolf_Graf_von_1742-1802.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Bussler_Ernst_Friedrich_1773-1840.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27+01:00" modified="2019-12-13T14:33:16+01:00" filename="Bussler_Ernst_Friedrich_1773-1840.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Bussler_Ernst_Friedrich_1773-1840.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:27.986+01:00" modified="2019-12-13T14:33:16.068+01:00" filename="Bussler_Ernst_Friedrich_1773-1840.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/C/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/C/__contents__.xml
+index 10ec6a8..c1209d6 100644
+--- a/mop/data/Biogramme/C/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/C/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/C" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:49:54.222+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Cro%C3%BF-D%C3%BClmen_Rudolf_Herzog_von_1823-1902.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-20T08:36:52+02:00" modified="2019-12-13T14:33:16+01:00" filename="Croÿ-Dülmen_Rudolf_Herzog_von_1823-1902.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Cro%C3%BF-D%C3%BClmen_Rudolf_Herzog_von_1823-1902.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-20T08:36:52.909+02:00" modified="2019-12-13T14:33:16.233+01:00" filename="Croÿ-Dülmen_Rudolf_Herzog_von_1823-1902.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Clausewitz_Marie_Sophie_von_1779-1836.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-17T13:29:52+01:00" filename="Clausewitz_Marie_Sophie_von_1779-1836.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Clausewitz_Marie_Sophie_von_1779-1836.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.001+01:00" modified="2019-12-17T13:29:52.649+01:00" filename="Clausewitz_Marie_Sophie_von_1779-1836.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Clausewitz_Marie_von_1779-1836.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-12-17T12:22:19+01:00" modified="2019-12-17T12:22:19+01:00" filename="Clausewitz_Marie_von_1779-1836.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Clausewitz_Marie_von_1779-1836.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-12-17T12:22:19.269+01:00" modified="2019-12-17T12:22:19.269+01:00" filename="Clausewitz_Marie_von_1779-1836.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/D/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/D/__contents__.xml
+index 69ca5dd..813025d 100644
+--- a/mop/data/Biogramme/D/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/D/__contents__.xml
+@@ -1,24 +1,24 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/D" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:50:11.441+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Dachroeden_Caesar_Carl_Ludwig_von_1808-1882.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T10:30:16+01:00" modified="2019-12-13T14:33:16+01:00" filename="Dachroeden_Caesar_Carl_Ludwig_von_1808-1882.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Dachroeden_Caesar_Carl_Ludwig_von_1808-1882.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T10:30:16.974+01:00" modified="2019-12-13T14:33:16.54+01:00" filename="Dachroeden_Caesar_Carl_Ludwig_von_1808-1882.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Dohna-Schlobitten_Friedrich_Karl_Emil_Graf_zu_1784-1859.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:16+01:00" filename="Dohna-Schlobitten_Friedrich_Karl_Emil_Graf_zu_1784-1859.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Dohna-Schlobitten_Friedrich_Karl_Emil_Graf_zu_1784-1859.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.029+01:00" modified="2019-12-13T14:33:16.768+01:00" filename="Dohna-Schlobitten_Friedrich_Karl_Emil_Graf_zu_1784-1859.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Dohna-Schlobitten_Richard_Graf_zu_1807-1894.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:16+01:00" filename="Dohna-Schlobitten_Richard_Graf_zu_1807-1894.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Dohna-Schlobitten_Richard_Graf_zu_1807-1894.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.043+01:00" modified="2019-12-13T14:33:16.925+01:00" filename="Dohna-Schlobitten_Richard_Graf_zu_1807-1894.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Doenhoff_Eugen_Ferdinand_Graf_von_1803-1871.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:17+01:00" filename="Doenhoff_Eugen_Ferdinand_Graf_von_1803-1871.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Doenhoff_Eugen_Ferdinand_Graf_von_1803-1871.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.063+01:00" modified="2019-12-13T14:33:17.072+01:00" filename="Doenhoff_Eugen_Ferdinand_Graf_von_1803-1871.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Doenhoff_August_Graf_von_1797-1874.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:17+01:00" filename="Doenhoff_August_Graf_von_1797-1874.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Doenhoff_August_Graf_von_1797-1874.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.102+01:00" modified="2019-12-13T14:33:17.213+01:00" filename="Doenhoff_August_Graf_von_1797-1874.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Dohna-Finckenstein_Rodrigo_Graf_zu_1815-1900.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:17+01:00" filename="Dohna-Finckenstein_Rodrigo_Graf_zu_1815-1900.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Dohna-Finckenstein_Rodrigo_Graf_zu_1815-1900.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.015+01:00" modified="2019-12-13T14:33:17.376+01:00" filename="Dohna-Finckenstein_Rodrigo_Graf_zu_1815-1900.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Doenhoff_Gerhard_August_Graf_von_1833-1899.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-09-02T09:38:57+02:00" modified="2019-12-13T14:33:17+01:00" filename="Doenhoff_Gerhard_August_Graf_von_1833-1899.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Doenhoff_Gerhard_August_Graf_von_1833-1899.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-09-02T09:38:57.042+02:00" modified="2019-12-13T14:33:17.514+01:00" filename="Doenhoff_Gerhard_August_Graf_von_1833-1899.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/E/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/E/__contents__.xml
+index dc822e4..ababd93 100644
+--- a/mop/data/Biogramme/E/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/E/__contents__.xml
+@@ -1,24 +1,24 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/E" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:50:26.684+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Ende_Otto_Freiherr_von_1836-1910.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-24T10:33:28+02:00" modified="2020-01-14T14:33:38+01:00" filename="Ende_Otto_Freiherr_von_1836-1910.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Ende_Otto_Freiherr_von_1836-1910.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-24T10:33:28.057+02:00" modified="2020-01-14T14:33:38.141+01:00" filename="Ende_Otto_Freiherr_von_1836-1910.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Ende_Otto_Leopold_Freiherr_von_1795-1856.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-20T15:05:16+02:00" modified="2019-12-13T14:33:17+01:00" filename="Ende_Otto_Leopold_Freiherr_von_1795-1856.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Ende_Otto_Leopold_Freiherr_von_1795-1856.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-20T15:05:16.21+02:00" modified="2019-12-13T14:33:17.898+01:00" filename="Ende_Otto_Leopold_Freiherr_von_1795-1856.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Eickstedt_Magdalena_von_1762-1805.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-12-11T11:15:37+01:00" modified="2019-12-12T15:19:56+01:00" filename="Eickstedt_Magdalena_von_1762-1805.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Eickstedt_Magdalena_von_1762-1805.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-12-11T11:15:37.745+01:00" modified="2019-12-12T15:19:56.67+01:00" filename="Eickstedt_Magdalena_von_1762-1805.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Egloffstein_Leopold_von_1766-1830.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-04-26T08:25:06+02:00" modified="2019-12-13T14:33:18+01:00" filename="Egloffstein_Leopold_von_1766-1830.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Egloffstein_Leopold_von_1766-1830.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-04-26T08:25:06.472+02:00" modified="2019-12-13T14:33:18.083+01:00" filename="Egloffstein_Leopold_von_1766-1830.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Egloffstein_Christian_Graf_von_1764-1834.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-03-11T12:08:11+01:00" modified="2019-12-13T14:33:18+01:00" filename="Egloffstein_Christian_Graf_von_1764-1834.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Egloffstein_Christian_Graf_von_1764-1834.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-03-11T12:08:11.276+01:00" modified="2019-12-13T14:33:18.217+01:00" filename="Egloffstein_Christian_Graf_von_1764-1834.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Eltz_Karl_Graf_von_1823-1900.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:18+01:00" filename="Eltz_Karl_Graf_von_1823-1900.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Eltz_Karl_Graf_von_1823-1900.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.142+01:00" modified="2019-12-13T14:33:18.352+01:00" filename="Eltz_Karl_Graf_von_1823-1900.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Eulenburg_August_Graf_zu_1838-1921.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-02-25T13:23:05+01:00" modified="2019-12-13T14:33:18+01:00" filename="Eulenburg_August_Graf_zu_1838-1921.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Eulenburg_August_Graf_zu_1838-1921.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-02-25T13:23:05.685+01:00" modified="2019-12-13T14:33:18.489+01:00" filename="Eulenburg_August_Graf_zu_1838-1921.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/F/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/F/__contents__.xml
+index c0ef8c8..df62d15 100644
+--- a/mop/data/Biogramme/F/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/F/__contents__.xml
+@@ -1,27 +1,27 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/F" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:50:43.054+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Fuerstenberg-Stammheim_Gisbert_Graf_von_1836-1908.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:18+01:00" filename="Fuerstenberg-Stammheim_Gisbert_Graf_von_1836-1908.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Fuerstenberg-Stammheim_Gisbert_Graf_von_1836-1908.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.204+01:00" modified="2019-12-13T14:33:18.682+01:00" filename="Fuerstenberg-Stammheim_Gisbert_Graf_von_1836-1908.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Finck_von_Finckenstein_Hans_Graf.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:18+01:00" filename="Finck_von_Finckenstein_Hans_Graf.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Finck_von_Finckenstein_Hans_Graf.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.156+01:00" modified="2019-12-13T14:33:18.815+01:00" filename="Finck_von_Finckenstein_Hans_Graf.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Fuerstenstein_Adolf_Graf_von_1818-1895.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T13:43:31+02:00" modified="2019-12-13T14:33:18+01:00" filename="Fuerstenstein_Adolf_Graf_von_1818-1895.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Fuerstenstein_Adolf_Graf_von_1818-1895.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T13:43:31.9+02:00" modified="2019-12-13T14:33:18.971+01:00" filename="Fuerstenstein_Adolf_Graf_von_1818-1895.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Festenberg-Pakisch_Sigismund_August_Heinrich_von.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-04-01T11:42:10+02:00" modified="2019-12-13T14:33:19+01:00" filename="Festenberg-Pakisch_Sigismund_August_Heinrich_von.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Festenberg-Pakisch_Sigismund_August_Heinrich_von.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-04-01T11:42:10.488+02:00" modified="2019-12-13T14:33:19.109+01:00" filename="Festenberg-Pakisch_Sigismund_August_Heinrich_von.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Fuerstenberg_Maximilian_Egon_II._Fuerst_zu_1863-1941.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-05-17T17:15:00+02:00" modified="2019-12-13T14:33:19+01:00" filename="Fuerstenberg_Maximilian_Egon_II._Fuerst_zu_1863-1941.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Fuerstenberg_Maximilian_Egon_II._Fuerst_zu_1863-1941.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-05-17T17:15:00.035+02:00" modified="2019-12-13T14:33:19.249+01:00" filename="Fuerstenberg_Maximilian_Egon_II._Fuerst_zu_1863-1941.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Friesen_Ernst_Freiherr_von_1800-1869.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:19+01:00" filename="Friesen_Ernst_Freiherr_von_1800-1869.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Friesen_Ernst_Freiherr_von_1800-1869.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.172+01:00" modified="2019-12-13T14:33:19.396+01:00" filename="Friesen_Ernst_Freiherr_von_1800-1869.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Frankenberg_und_Proschlitz_C%C3%A4sar_von_1833-1912.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-18T13:32:30+02:00" modified="2019-12-13T14:33:19+01:00" filename="Frankenberg_und_Proschlitz_Cäsar_von_1833-1912.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Frankenberg_und_Proschlitz_C%C3%A4sar_von_1833-1912.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-18T13:32:30.896+02:00" modified="2019-12-13T14:33:19.535+01:00" filename="Frankenberg_und_Proschlitz_Cäsar_von_1833-1912.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Fuerstenberg_Adolf_Freiherr_von_1805-1880.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:19+01:00" filename="Fuerstenberg_Adolf_Freiherr_von_1805-1880.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Fuerstenberg_Adolf_Freiherr_von_1805-1880.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.189+01:00" modified="2019-12-13T14:33:19.674+01:00" filename="Fuerstenberg_Adolf_Freiherr_von_1805-1880.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/G/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/G/__contents__.xml
+index fcdc31d..2cb0216 100644
+--- a/mop/data/Biogramme/G/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/G/__contents__.xml
+@@ -1,15 +1,15 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/G" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:50:57.945+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Gutzmerow_Emil_von_1821-1906.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T14:58:53+01:00" modified="2019-12-13T14:33:19+01:00" filename="Gutzmerow_Emil_von_1821-1906.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Gutzmerow_Emil_von_1821-1906.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T14:58:53.383+01:00" modified="2019-12-13T14:33:19.845+01:00" filename="Gutzmerow_Emil_von_1821-1906.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Gaffron-Kunern_und_Oberstradam_Hermann_Freiherr_von_1797-1870.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:19+01:00" filename="Gaffron-Kunern_und_Oberstradam_Hermann_Freiherr_von_1797-1870.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Gaffron-Kunern_und_Oberstradam_Hermann_Freiherr_von_1797-1870.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.22+01:00" modified="2019-12-13T14:33:19.978+01:00" filename="Gaffron-Kunern_und_Oberstradam_Hermann_Freiherr_von_1797-1870.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Gold_Ernst_Maximilian_1744-1812.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:20+01:00" filename="Gold_Ernst_Maximilian_1744-1812.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Gold_Ernst_Maximilian_1744-1812.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.235+01:00" modified="2019-12-13T14:33:20.102+01:00" filename="Gold_Ernst_Maximilian_1744-1812.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Goltz_August_Graf_von_der_1765-1832.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:20+01:00" filename="Goltz_August_Graf_von_der_1765-1832.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Goltz_August_Graf_von_der_1765-1832.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.25+01:00" modified="2019-12-13T14:33:20.23+01:00" filename="Goltz_August_Graf_von_der_1765-1832.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/H/Haeseler_Eduard_Graf_von_1799-1879.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/H/Haeseler_Eduard_Graf_von_1799-1879.xml
+index 9a965a2..54155f6 100644
+--- a/mop/data/Biogramme/H/Haeseler_Eduard_Graf_von_1799-1879.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/H/Haeseler_Eduard_Graf_von_1799-1879.xml
+@@ -39,10 +39,10 @@
+                 <p>evangelisch</p>
+             </div>
+             <div type="verwandschaftsgrad">
+-                <p>Gemahlin (1824): Adolphine von dem Knesebeck (1804-1890); Tochter: Helene
+-                    (1829-1892), 1849 verheiratet mit Botho von Hülsen (1815-1886) General-Intendant
+-                    der Kgl. Schauspiele; Neffe: Gottlieb Ferdinand Albert Alexis Graf von Haeseler
+-                    (1836-1919), preußischer Generalfeldmarschall</p>
++                <p>Gemahlin (1824): Adolphine von dem Knesebeck (1804-1890); 3 Töchter, 1 Sohn;
++                    Tochter Helene (1829-1892), 1849 verheiratet mit Botho von Hülsen (1815-1886),
++                    General-Intendant der Königlichen Schauspiele; Neffe: Gottlieb Ferdinand Albert
++                    Alexis Graf von Haeseler (1836-1919), preußischer Generalfeldmarschall</p>
+             </div>
+             <div type="hofamt">
+                 <p>23.12.1845 Kammerherr; 27.3.1855 Schlosshauptmann von Königs Wusterhausen;
+diff --git a/mop/data/Biogramme/H/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/H/__contents__.xml
+index d16a4da..ab9d689 100644
+--- a/mop/data/Biogramme/H/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/H/__contents__.xml
+@@ -1,36 +1,36 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/H" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:51:10.553+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Heeringen_Josias_von_1811-1885.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T14:33:50+01:00" modified="2019-12-13T14:33:20+01:00" filename="Heeringen_Josias_von_1811-1885.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Heeringen_Josias_von_1811-1885.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T14:33:50.954+01:00" modified="2019-12-13T14:33:20.426+01:00" filename="Heeringen_Josias_von_1811-1885.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Hohenthal-Doelkau_Karl_Gustav_Adolf_Graf_von_1846-1914.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T09:22:48+01:00" modified="2019-12-13T14:33:20+01:00" filename="Hohenthal-Doelkau_Karl_Gustav_Adolf_Graf_von_1846-1914.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Hohenthal-Doelkau_Karl_Gustav_Adolf_Graf_von_1846-1914.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T09:22:48.837+01:00" modified="2019-12-13T14:33:20.553+01:00" filename="Hohenthal-Doelkau_Karl_Gustav_Adolf_Graf_von_1846-1914.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Henckel_von_Donnersmarck_Leo_Graf.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T15:31:36+01:00" modified="2019-12-13T14:33:20+01:00" filename="Henckel_von_Donnersmarck_Leo_Graf.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Henckel_von_Donnersmarck_Leo_Graf.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T15:31:36.146+01:00" modified="2019-12-13T14:33:20.677+01:00" filename="Henckel_von_Donnersmarck_Leo_Graf.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Hohenlohe-Oehringen_Christian_Kraft_Fuerst_zu_1848-1926.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:20+01:00" filename="Hohenlohe-Oehringen_Christian_Kraft_Fuerst_zu_1848-1926.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Hohenlohe-Oehringen_Christian_Kraft_Fuerst_zu_1848-1926.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.331+01:00" modified="2019-12-13T14:33:20.806+01:00" filename="Hohenlohe-Oehringen_Christian_Kraft_Fuerst_zu_1848-1926.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Haeseler_Eduard_Graf_von_1799-1879.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:20+01:00" filename="Haeseler_Eduard_Graf_von_1799-1879.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Haeseler_Eduard_Graf_von_1799-1879.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.298+01:00" modified="2020-01-24T15:25:02.986+01:00" filename="Haeseler_Eduard_Graf_von_1799-1879.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Hochberg_Bolko_Reichsgraf_von_1843-1926.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-06-03T16:42:29+02:00" modified="2019-12-12T15:19:56+01:00" filename="Hochberg_Bolko_Reichsgraf_von_1843-1926.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Hochberg_Bolko_Reichsgraf_von_1843-1926.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-06-03T16:42:29.553+02:00" modified="2019-12-12T15:19:56.019+01:00" filename="Hochberg_Bolko_Reichsgraf_von_1843-1926.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Huelsen_Botho_von_1815-1886.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T08:56:43+02:00" modified="2019-12-13T14:33:21+01:00" filename="Huelsen_Botho_von_1815-1886.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Huelsen_Botho_von_1815-1886.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T08:56:43.087+02:00" modified="2019-12-13T14:33:21.092+01:00" filename="Huelsen_Botho_von_1815-1886.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Hahnke_Wilhelm_von_1833-1912.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:21+01:00" filename="Hahnke_Wilhelm_von_1833-1912.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Hahnke_Wilhelm_von_1833-1912.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.315+01:00" modified="2019-12-13T14:33:21.218+01:00" filename="Hahnke_Wilhelm_von_1833-1912.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Hacke_Editha_Graefin_von_1821-1889.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:21+01:00" filename="Hacke_Editha_Graefin_von_1821-1889.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Hacke_Editha_Graefin_von_1821-1889.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.281+01:00" modified="2019-12-13T14:33:21.389+01:00" filename="Hacke_Editha_Graefin_von_1821-1889.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Hatzfeldt_Hermann_F%C3%BCrst_von_Herzog_zu_Trachenberg_1848-1933%20.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-05-17T15:30:32+02:00" modified="2019-12-12T15:19:55+01:00" filename="Hatzfeldt_Hermann_Fürst_von_Herzog_zu_Trachenberg_1848-1933 .xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Hatzfeldt_Hermann_F%C3%BCrst_von_Herzog_zu_Trachenberg_1848-1933%20.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-05-17T15:30:32.07+02:00" modified="2019-12-12T15:19:55.964+01:00" filename="Hatzfeldt_Hermann_Fürst_von_Herzog_zu_Trachenberg_1848-1933 .xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Heintze_Wei%C3%9Fenrode_Heinrich_Freiherr_von_1834-1918.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-05-27T17:24:11+02:00" modified="2019-12-12T15:19:56+01:00" filename="Heintze_Weißenrode_Heinrich_Freiherr_von_1834-1918.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Heintze_Wei%C3%9Fenrode_Heinrich_Freiherr_von_1834-1918.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-05-27T17:24:11.956+02:00" modified="2019-12-12T15:19:56.013+01:00" filename="Heintze_Weißenrode_Heinrich_Freiherr_von_1834-1918.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/I/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/I/__contents__.xml
+index a89d596..1d293c9 100644
+--- a/mop/data/Biogramme/I/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/I/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/I" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:51:35.422+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Illaire_Ernst_Emil_1797-1866.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:21+01:00" filename="Illaire_Ernst_Emil_1797-1866.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Illaire_Ernst_Emil_1797-1866.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.346+01:00" modified="2019-12-13T14:33:21.6+01:00" filename="Illaire_Ernst_Emil_1797-1866.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/J/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/J/__contents__.xml
+index 29bb5b7..ed6007d 100644
+--- a/mop/data/Biogramme/J/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/J/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/J" version="1" owner="mop_bittner" group="mop-nutzer" mode="770" created="2019-12-19T08:39:38.874+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Jagow_Ludwig_von_1770-1825.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-12-19T08:39:46+01:00" modified="2019-12-19T08:56:31+01:00" filename="Jagow_Ludwig_von_1770-1825.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Jagow_Ludwig_von_1770-1825.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-12-19T08:39:46.592+01:00" modified="2019-12-19T08:56:31.534+01:00" filename="Jagow_Ludwig_von_1770-1825.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/K/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/K/__contents__.xml
+index 2045e6d..c6adf88 100644
+--- a/mop/data/Biogramme/K/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/K/__contents__.xml
+@@ -1,36 +1,36 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/K" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:51:45.321+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Kotze_Gebhard_von_1808-1893.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-14T13:22:34+02:00" modified="2019-12-13T14:32:53+01:00" filename="Kotze_Gebhard_von_1808-1893.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Kotze_Gebhard_von_1808-1893.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-14T13:22:34.335+02:00" modified="2019-12-13T14:32:53.705+01:00" filename="Kotze_Gebhard_von_1808-1893.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Keller_Alexander_II_Graf_von_1842-1906.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-03-12T09:53:19+01:00" modified="2019-12-13T14:32:53+01:00" filename="Keller_Alexander_II_Graf_von_1842-1906.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Keller_Alexander_II_Graf_von_1842-1906.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-03-12T09:53:19.401+01:00" modified="2019-12-13T14:32:53.908+01:00" filename="Keller_Alexander_II_Graf_von_1842-1906.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Kanitz_Georg_Graf_von_1842-1922.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:54+01:00" filename="Kanitz_Georg_Graf_von_1842-1922.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Kanitz_Georg_Graf_von_1842-1922.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.363+01:00" modified="2019-12-13T14:32:54.093+01:00" filename="Kanitz_Georg_Graf_von_1842-1922.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Keyserlingk_Otto_Archibald_Graf_von_1818-1872.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:54+01:00" filename="Keyserlingk_Otto_Archibald_Graf_von_1818-1872.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Keyserlingk_Otto_Archibald_Graf_von_1818-1872.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.413+01:00" modified="2019-12-13T14:32:54.246+01:00" filename="Keyserlingk_Otto_Archibald_Graf_von_1818-1872.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Krosigk_Vollrath_Freiherr_von_1819-1889.xml" skip="no" owner="admin" group="website" mode="666" created="2019-02-15T09:14:16+01:00" modified="2019-12-13T14:32:54+01:00" filename="Krosigk_Vollrath_Freiherr_von_1819-1889.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Krosigk_Vollrath_Freiherr_von_1819-1889.xml" skip="no" owner="admin" group="website" mode="666" created="2019-02-15T09:14:16.954+01:00" modified="2019-12-13T14:32:54.386+01:00" filename="Krosigk_Vollrath_Freiherr_von_1819-1889.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Koenigsmarck_Carl_Graf_von_1839-1910.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T10:47:13+01:00" modified="2019-12-12T15:19:55+01:00" filename="Koenigsmarck_Carl_Graf_von_1839-1910.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Koenigsmarck_Carl_Graf_von_1839-1910.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T10:47:13.712+01:00" modified="2019-12-12T15:19:55.666+01:00" filename="Koenigsmarck_Carl_Graf_von_1839-1910.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Kleist-Wendisch%20Tychow_Ewald_Graf_von_1821-1892.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T14:55:39+02:00" modified="2019-12-13T14:32:54+01:00" filename="Kleist-Wendisch Tychow_Ewald_Graf_von_1821-1892.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Kleist-Wendisch%20Tychow_Ewald_Graf_von_1821-1892.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T14:55:39.906+02:00" modified="2019-12-13T14:32:54.634+01:00" filename="Kleist-Wendisch Tychow_Ewald_Graf_von_1821-1892.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Kleist_Marie_von_1761-1831.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-28T18:50:48+02:00" modified="2019-12-13T14:32:54+01:00" filename="Kleist_Marie_von_1761-1831.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Kleist_Marie_von_1761-1831.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-28T18:50:48.674+02:00" modified="2019-12-13T14:32:54.785+01:00" filename="Kleist_Marie_von_1761-1831.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Kanitz_Luise_Graefin_von_1837-1912.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:55+01:00" filename="Kanitz_Luise_Graefin_von_1837-1912.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Kanitz_Luise_Graefin_von_1837-1912.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.379+01:00" modified="2019-12-13T14:32:55.008+01:00" filename="Kanitz_Luise_Graefin_von_1837-1912.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Keller_Alexander_I_Graf_von_1801-1879.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:55+01:00" filename="Keller_Alexander_I_Graf_von_1801-1879.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Keller_Alexander_I_Graf_von_1801-1879.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.396+01:00" modified="2019-12-13T14:32:55.144+01:00" filename="Keller_Alexander_I_Graf_von_1801-1879.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Koenigsmarck_Adolf_Wilhelm_Hans_Graf_von_1802-1875.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:55+01:00" filename="Koenigsmarck_Adolf_Wilhelm_Hans_Graf_von_1802-1875.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Koenigsmarck_Adolf_Wilhelm_Hans_Graf_von_1802-1875.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.43+01:00" modified="2019-12-13T14:32:55.297+01:00" filename="Koenigsmarck_Adolf_Wilhelm_Hans_Graf_von_1802-1875.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/L/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/L/__contents__.xml
+index d3cd676..f1f1dc9 100644
+--- a/mop/data/Biogramme/L/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/L/__contents__.xml
+@@ -1,21 +1,21 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/L" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:52:01.522+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Lucanus_Hermann_von_1831-1908.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:55+01:00" filename="Lucanus_Hermann_von_1831-1908.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Lucanus_Hermann_von_1831-1908.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.501+01:00" modified="2019-12-13T14:32:55.475+01:00" filename="Lucanus_Hermann_von_1831-1908.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Luettichau_Maximilian_Graf_von_1838-1899.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:55+01:00" filename="Luettichau_Maximilian_Graf_von_1838-1899.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Luettichau_Maximilian_Graf_von_1838-1899.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.518+01:00" modified="2019-12-13T14:32:55.781+01:00" filename="Luettichau_Maximilian_Graf_von_1838-1899.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Lindenau_Carl_Heinrich_August_von_1755-1842.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:55+01:00" filename="Lindenau_Carl_Heinrich_August_von_1755-1842.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Lindenau_Carl_Heinrich_August_von_1755-1842.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.466+01:00" modified="2019-12-13T14:32:55.954+01:00" filename="Lindenau_Carl_Heinrich_August_von_1755-1842.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Lyncker_Moriz_Freiherr_von_1853-1932.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:56+01:00" filename="Lyncker_Moriz_Freiherr_von_1853-1932.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Lyncker_Moriz_Freiherr_von_1853-1932.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.536+01:00" modified="2019-12-13T14:32:56.214+01:00" filename="Lyncker_Moriz_Freiherr_von_1853-1932.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Lentze_Carl_Friedrich_1751-1832.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:56+01:00" filename="Lentze_Carl_Friedrich_1751-1832.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Lentze_Carl_Friedrich_1751-1832.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.448+01:00" modified="2019-12-13T14:32:56.346+01:00" filename="Lentze_Carl_Friedrich_1751-1832.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Lehndorff_Heinrich_Graf_von_1829-1905.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-06-03T17:48:14+02:00" modified="2019-12-12T15:19:56+01:00" filename="Lehndorff_Heinrich_Graf_von_1829-1905.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Lehndorff_Heinrich_Graf_von_1829-1905.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-06-03T17:48:14.865+02:00" modified="2019-12-12T15:19:56.02+01:00" filename="Lehndorff_Heinrich_Graf_von_1829-1905.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/M/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/M/__contents__.xml
+index 6da65d8..bb82f75 100644
+--- a/mop/data/Biogramme/M/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/M/__contents__.xml
+@@ -1,54 +1,54 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/M" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:52:24.972+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Muenchhausen_Karl_Baron_von_1816-1892.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:56+01:00" filename="Muenchhausen_Karl_Baron_von_1816-1892.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Muenchhausen_Karl_Baron_von_1816-1892.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.793+01:00" modified="2019-12-13T14:32:56.609+01:00" filename="Muenchhausen_Karl_Baron_von_1816-1892.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Merveldt_Ferdinand_Graf_von_1840-1906.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T09:55:55+01:00" modified="2019-12-13T14:32:56+01:00" filename="Merveldt_Ferdinand_Graf_von_1840-1906.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Merveldt_Ferdinand_Graf_von_1840-1906.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T09:55:55.423+01:00" modified="2019-12-13T14:32:56.747+01:00" filename="Merveldt_Ferdinand_Graf_von_1840-1906.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Muenchhausen_Ferdinand_Freiherr_von_1810-1882.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-22T14:08:11+01:00" modified="2019-12-13T14:32:56+01:00" filename="Muenchhausen_Ferdinand_Freiherr_von_1810-1882.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Muenchhausen_Ferdinand_Freiherr_von_1810-1882.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-22T14:08:11.853+01:00" modified="2019-12-13T14:32:56.891+01:00" filename="Muenchhausen_Ferdinand_Freiherr_von_1810-1882.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Meyerinck_Ludwig_von_1789-1860.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:57+01:00" filename="Meyerinck_Ludwig_von_1789-1860.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Meyerinck_Ludwig_von_1789-1860.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.727+01:00" modified="2019-12-13T14:32:57.022+01:00" filename="Meyerinck_Ludwig_von_1789-1860.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magnis_Anton_Graf_von_1823-1894.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:57+01:00" filename="Magnis_Anton_Graf_von_1823-1894.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magnis_Anton_Graf_von_1823-1894.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.571+01:00" modified="2019-12-13T14:32:57.18+01:00" filename="Magnis_Anton_Graf_von_1823-1894.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Matuschka_Hugo_Graf_von_1822-1898.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T14:20:25+01:00" modified="2019-12-13T14:32:57+01:00" filename="Matuschka_Hugo_Graf_von_1822-1898.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Matuschka_Hugo_Graf_von_1822-1898.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T14:20:25.636+01:00" modified="2019-12-13T14:32:57.324+01:00" filename="Matuschka_Hugo_Graf_von_1822-1898.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Maltzahn_Burchard_Friedrich_Freiherr_von_1773-1837.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-03-11T15:16:37+01:00" modified="2019-12-13T14:32:57+01:00" filename="Maltzahn_Burchard_Friedrich_Freiherr_von_1773-1837.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Maltzahn_Burchard_Friedrich_Freiherr_von_1773-1837.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-03-11T15:16:37.608+01:00" modified="2019-12-13T14:32:57.459+01:00" filename="Maltzahn_Burchard_Friedrich_Freiherr_von_1773-1837.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Mueller_Carl_Christian_1773-1849.xml" skip="no" owner="mop_rathgeber" group="mop-nutzer" mode="660" created="2019-04-09T10:39:41.161+02:00" modified="2020-01-22T13:50:09.449+01:00" filename="Mueller_Carl_Christian_1773-1849.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Meyerinck_Richard_von_1812-1889.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-11T15:46:31+02:00" modified="2019-12-13T14:32:57+01:00" filename="Meyerinck_Richard_von_1812-1889.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Meyerinck_Richard_von_1812-1889.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-11T15:46:31.614+02:00" modified="2019-12-13T14:32:57.772+01:00" filename="Meyerinck_Richard_von_1812-1889.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Maercken_zu_Geerath_Gottfried_Freiherr_von_-1886.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:58+01:00" filename="Maercken_zu_Geerath_Gottfried_Freiherr_von_-1886.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Maercken_zu_Geerath_Gottfried_Freiherr_von_-1886.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.554+01:00" modified="2019-12-13T14:32:58.042+01:00" filename="Maercken_zu_Geerath_Gottfried_Freiherr_von_-1886.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mencken_Anastasius_Ludwig_1752-1801.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:58+01:00" filename="Mencken_Anastasius_Ludwig_1752-1801.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mencken_Anastasius_Ludwig_1752-1801.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.71+01:00" modified="2019-12-13T14:32:58.232+01:00" filename="Mencken_Anastasius_Ludwig_1752-1801.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Massow_Ludwig_von_1794-1859.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:59:09+01:00" filename="Massow_Ludwig_von_1794-1859.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Massow_Ludwig_von_1794-1859.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.639+01:00" modified="2019-12-13T14:59:09.516+01:00" filename="Massow_Ludwig_von_1794-1859.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Marwitz_August_von_der_1740-1793.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:58+01:00" filename="Marwitz_August_von_der_1740-1793.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Marwitz_August_von_der_1740-1793.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.622+01:00" modified="2019-12-13T14:32:58.569+01:00" filename="Marwitz_August_von_der_1740-1793.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Manteuffel_Edwin_Freiherr_von_1809-1885.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:58+01:00" filename="Manteuffel_Edwin_Freiherr_von_1809-1885.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Manteuffel_Edwin_Freiherr_von_1809-1885.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.605+01:00" modified="2019-12-13T14:32:58.729+01:00" filename="Manteuffel_Edwin_Freiherr_von_1809-1885.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Meinert_Johann_Adolph_1746-1828.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:58+01:00" filename="Meinert_Johann_Adolph_1746-1828.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Meinert_Johann_Adolph_1746-1828.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.692+01:00" modified="2019-12-13T14:32:58.893+01:00" filename="Meinert_Johann_Adolph_1746-1828.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Massow_Valentin_von_1752-1817.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:59+01:00" filename="Massow_Valentin_von_1752-1817.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Massow_Valentin_von_1752-1817.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.674+01:00" modified="2019-12-13T14:32:59.053+01:00" filename="Massow_Valentin_von_1752-1817.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mueller_Georg_Alexander_von_1854-1940.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:59+01:00" filename="Mueller_Georg_Alexander_von_1854-1940.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mueller_Georg_Alexander_von_1854-1940.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.76+01:00" modified="2019-12-13T14:32:59.208+01:00" filename="Mueller_Georg_Alexander_von_1854-1940.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/N/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/N/__contents__.xml
+index c186986..4baa310 100644
+--- a/mop/data/Biogramme/N/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/N/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/N" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:52:41.814+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Normann_Carl_Wilhelm_von_1827-1888.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:59+01:00" filename="Normann_Carl_Wilhelm_von_1827-1888.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Normann_Carl_Wilhelm_von_1827-1888.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.828+01:00" modified="2019-12-13T14:32:59.362+01:00" filename="Normann_Carl_Wilhelm_von_1827-1888.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Niebuhr_Marcus_von_1817-1860.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:32:59+01:00" filename="Niebuhr_Marcus_von_1817-1860.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Niebuhr_Marcus_von_1817-1860.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.81+01:00" modified="2019-12-13T14:32:59.501+01:00" filename="Niebuhr_Marcus_von_1817-1860.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Nesselrode-Ehreshoven_Maximilian_Graf_von_1817-1898.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-14T11:25:38+02:00" modified="2019-12-13T14:32:59+01:00" filename="Nesselrode-Ehreshoven_Maximilian_Graf_von_1817-1898.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Nesselrode-Ehreshoven_Maximilian_Graf_von_1817-1898.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-14T11:25:38.408+02:00" modified="2019-12-13T14:32:59.635+01:00" filename="Nesselrode-Ehreshoven_Maximilian_Graf_von_1817-1898.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/O/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/O/__contents__.xml
+index 9c2773d..ab2a42f 100644
+--- a/mop/data/Biogramme/O/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/O/__contents__.xml
+@@ -1,15 +1,15 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/O" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:54:02.342+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Ompteda_Ludwig_Freiherr_von_1828-1899.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T09:43:05+01:00" modified="2019-12-13T14:32:59+01:00" filename="Ompteda_Ludwig_Freiherr_von_1828-1899.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Ompteda_Ludwig_Freiherr_von_1828-1899.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T09:43:05.051+01:00" modified="2019-12-13T14:32:59.807+01:00" filename="Ompteda_Ludwig_Freiherr_von_1828-1899.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Oeynhausen_Julius_Graf_von_1843-1886.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-18T13:59:51+02:00" modified="2019-12-13T14:32:59+01:00" filename="Oeynhausen_Julius_Graf_von_1843-1886.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Oeynhausen_Julius_Graf_von_1843-1886.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-18T13:59:51.887+02:00" modified="2019-12-13T14:32:59.945+01:00" filename="Oeynhausen_Julius_Graf_von_1843-1886.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Oriola_Louise_Graefin_von_1824-1899.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:00+01:00" filename="Oriola_Louise_Graefin_von_1824-1899.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Oriola_Louise_Graefin_von_1824-1899.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.85+01:00" modified="2019-12-13T14:33:00.078+01:00" filename="Oriola_Louise_Graefin_von_1824-1899.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Osten-Sacken_Carl_Fuerst_von_der_1726-1794.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:00+01:00" filename="Osten-Sacken_Carl_Fuerst_von_der_1726-1794.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Osten-Sacken_Carl_Fuerst_von_der_1726-1794.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.872+01:00" modified="2019-12-13T14:33:00.212+01:00" filename="Osten-Sacken_Carl_Fuerst_von_der_1726-1794.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/P/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/P/__contents__.xml
+index 7de4b78..a972481 100644
+--- a/mop/data/Biogramme/P/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/P/__contents__.xml
+@@ -1,42 +1,42 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/P" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:54:15.234+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Pueckler_Hermann_Graf_von_1797-1892.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-12T15:19:55+01:00" filename="Pueckler_Hermann_Graf_von_1797-1892.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Pueckler_Hermann_Graf_von_1797-1892.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.969+01:00" modified="2019-12-12T15:19:55.512+01:00" filename="Pueckler_Hermann_Graf_von_1797-1892.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Perponcher-Sedlnitzky_Wilhelm_von_1819-1893.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:00+01:00" filename="Perponcher-Sedlnitzky_Wilhelm_von_1819-1893.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Perponcher-Sedlnitzky_Wilhelm_von_1819-1893.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.891+01:00" modified="2019-12-13T14:33:00.446+01:00" filename="Perponcher-Sedlnitzky_Wilhelm_von_1819-1893.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Perponcher-Sedlnitzky_Friedrich_Graf_von_1821-1909.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:00+01:00" filename="Perponcher-Sedlnitzky_Friedrich_Graf_von_1821-1909.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Perponcher-Sedlnitzky_Friedrich_Graf_von_1821-1909.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.916+01:00" modified="2019-12-13T14:33:00.574+01:00" filename="Perponcher-Sedlnitzky_Friedrich_Graf_von_1821-1909.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Perponcher-Sedlnitzky_Ludwig_Graf_von_1827-1914.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-14T15:13:46+02:00" modified="2019-12-13T14:33:00+01:00" filename="Perponcher-Sedlnitzky_Ludwig_Graf_von_1827-1914.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Perponcher-Sedlnitzky_Ludwig_Graf_von_1827-1914.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-14T15:13:46.374+02:00" modified="2019-12-13T14:33:00.704+01:00" filename="Perponcher-Sedlnitzky_Ludwig_Graf_von_1827-1914.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Pourtal%C3%A8s_Carl_Graf_von.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T13:00:33+02:00" modified="2019-12-13T14:33:00+01:00" filename="Pourtalès_Carl_Graf_von.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Pourtal%C3%A8s_Carl_Graf_von.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T13:00:33.385+02:00" modified="2019-12-13T14:33:00.826+01:00" filename="Pourtalès_Carl_Graf_von.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Pfeil_und_Klein-Ellguth_Friedrich_Woldemar_Graf_von_1815-1878.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2020-01-14T14:31:20+01:00" filename="Pfeil_und_Klein-Ellguth_Friedrich_Woldemar_Graf_von_1815-1878.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Pfeil_und_Klein-Ellguth_Friedrich_Woldemar_Graf_von_1815-1878.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.934+01:00" modified="2020-01-14T14:31:20.339+01:00" filename="Pfeil_und_Klein-Ellguth_Friedrich_Woldemar_Graf_von_1815-1878.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Pless_Hans_Heinrich_XI._F%C3%BCrst%20_von_1833-1907.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-20T09:15:14+02:00" modified="2019-12-13T14:33:01+01:00" filename="Pless_Hans_Heinrich_XI._Fürst _von_1833-1907.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Pless_Hans_Heinrich_XI._F%C3%BCrst%20_von_1833-1907.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-20T09:15:14.085+02:00" modified="2019-12-13T14:33:01.075+01:00" filename="Pless_Hans_Heinrich_XI._Fürst _von_1833-1907.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Pentz_Ernst_von_1803-1874.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-07-02T12:09:54+02:00" modified="2019-12-13T14:33:01+01:00" filename="Pentz_Ernst_von_1803-1874.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Pentz_Ernst_von_1803-1874.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-07-02T12:09:54.715+02:00" modified="2019-12-13T14:33:01.209+01:00" filename="Pentz_Ernst_von_1803-1874.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Persius_Reinhold_1835_1912.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-03-14T17:18:21+01:00" modified="2019-12-13T14:33:01+01:00" filename="Persius_Reinhold_1835_1912.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Persius_Reinhold_1835_1912.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-03-14T17:18:21.352+01:00" modified="2019-12-13T14:33:01.345+01:00" filename="Persius_Reinhold_1835_1912.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Prittwitz_Karl_Ludwig%20Wilhelm_von_1790-1871.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-07-17T15:14:09+02:00" modified="2019-12-13T14:33:01+01:00" filename="Prittwitz_Karl_Ludwig Wilhelm_von_1790-1871.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Prittwitz_Karl_Ludwig%20Wilhelm_von_1790-1871.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-07-17T15:14:09.21+02:00" modified="2019-12-13T14:33:01.486+01:00" filename="Prittwitz_Karl_Ludwig Wilhelm_von_1790-1871.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Pachelbel-Gehag_August_Heinrich_von_1795-1857.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-07-01T11:49:24+02:00" modified="2019-12-13T14:33:01+01:00" filename="Pachelbel-Gehag_August_Heinrich_von_1795-1857.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Pachelbel-Gehag_August_Heinrich_von_1795-1857.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-07-01T11:49:24.367+02:00" modified="2019-12-13T14:33:01.646+01:00" filename="Pachelbel-Gehag_August_Heinrich_von_1795-1857.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Putbus_Wilhelm_Malte%20II._F%C3%BCrst_und_Herr_zu_1833-1907.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-11T13:50:09+02:00" modified="2019-12-13T14:33:01+01:00" filename="Putbus_Wilhelm_Malte II._Fürst_und_Herr_zu_1833-1907.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Putbus_Wilhelm_Malte%20II._F%C3%BCrst_und_Herr_zu_1833-1907.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-11T13:50:09.727+02:00" modified="2019-12-13T14:33:01.843+01:00" filename="Putbus_Wilhelm_Malte II._Fürst_und_Herr_zu_1833-1907.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Pueckler_Karl_Graf_von_1817-1899.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:01+01:00" filename="Pueckler_Karl_Graf_von_1817-1899.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Pueckler_Karl_Graf_von_1817-1899.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.951+01:00" modified="2019-12-13T14:33:01.984+01:00" filename="Pueckler_Karl_Graf_von_1817-1899.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/R/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/R/__contents__.xml
+index d0343bd..4fe393f 100644
+--- a/mop/data/Biogramme/R/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/R/__contents__.xml
+@@ -1,51 +1,51 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/R" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:54:32.636+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Rauch_Fedor_von_1822-1892.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-14T10:14:45+02:00" modified="2019-12-13T14:33:02+01:00" filename="Rauch_Fedor_von_1822-1892.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Rauch_Fedor_von_1822-1892.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-14T10:14:45.507+02:00" modified="2019-12-13T14:33:02.214+01:00" filename="Rauch_Fedor_von_1822-1892.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Radolin_Hugo_F%C3%BCrst_von_1841-1917.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-05-13T16:50:09+02:00" modified="2019-12-13T14:33:02+01:00" filename="Radolin_Hugo_Fürst_von_1841-1917.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Radolin_Hugo_F%C3%BCrst_von_1841-1917.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-05-13T16:50:09.863+02:00" modified="2019-12-13T14:33:02.36+01:00" filename="Radolin_Hugo_Fürst_von_1841-1917.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Raitz_von_Frentz_Emmerich_Freiherr_von_1803-1874.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:02+01:00" filename="Raitz_von_Frentz_Emmerich_Freiherr_von_1803-1874.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Raitz_von_Frentz_Emmerich_Freiherr_von_1803-1874.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.987+01:00" modified="2019-12-13T14:33:02.497+01:00" filename="Raitz_von_Frentz_Emmerich_Freiherr_von_1803-1874.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Rauch_Rosalie_von_1820-1879.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:02+01:00" filename="Rauch_Rosalie_von_1820-1879.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Rauch_Rosalie_von_1820-1879.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.014+01:00" modified="2019-12-13T14:33:02.629+01:00" filename="Rauch_Rosalie_von_1820-1879.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Reck_Carl_Friedrich_Leopold_Freiherr_von_der_1746-1810.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:02+01:00" filename="Reck_Carl_Friedrich_Leopold_Freiherr_von_der_1746-1810.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Reck_Carl_Friedrich_Leopold_Freiherr_von_der_1746-1810.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.036+01:00" modified="2019-12-13T14:33:02.757+01:00" filename="Reck_Carl_Friedrich_Leopold_Freiherr_von_der_1746-1810.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Redern_Wilhelm_Graf_von_1802-1883.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2020-01-24T12:51:59+01:00" filename="Redern_Wilhelm_Graf_von_1802-1883.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Redern_Wilhelm_Graf_von_1802-1883.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.064+01:00" modified="2020-01-24T12:51:59.452+01:00" filename="Redern_Wilhelm_Graf_von_1802-1883.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Redern_Heinrich_Graf_von_1804-1888.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:03+01:00" filename="Redern_Heinrich_Graf_von_1804-1888.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Redern_Heinrich_Graf_von_1804-1888.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.09+01:00" modified="2019-12-13T14:33:03.018+01:00" filename="Redern_Heinrich_Graf_von_1804-1888.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Reischach_Hugo_Freiherr_von_1854-1934.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-04-10T11:06:10+02:00" modified="2019-12-13T14:33:03+01:00" filename="Reischach_Hugo_Freiherr_von_1854-1934.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Reischach_Hugo_Freiherr_von_1854-1934.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-04-10T11:06:10.805+02:00" modified="2019-12-13T14:33:03.149+01:00" filename="Reischach_Hugo_Freiherr_von_1854-1934.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Roeder_Eugen_von_1808-1888.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T11:36:03+01:00" modified="2019-12-13T14:33:03+01:00" filename="Roeder_Eugen_von_1808-1888.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Roeder_Eugen_von_1808-1888.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T11:36:03.922+01:00" modified="2019-12-13T14:33:03.295+01:00" filename="Roeder_Eugen_von_1808-1888.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Roth_von_Schreckenstein_Konrad_Freiherr.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:03+01:00" filename="Roth_von_Schreckenstein_Konrad_Freiherr.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Roth_von_Schreckenstein_Konrad_Freiherr.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.231+01:00" modified="2019-12-13T14:33:03.426+01:00" filename="Roth_von_Schreckenstein_Konrad_Freiherr.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Romberg_Leonhard_Freiherr_von.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T11:53:34+02:00" modified="2019-12-13T14:33:03+01:00" filename="Romberg_Leonhard_Freiherr_von.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Romberg_Leonhard_Freiherr_von.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T11:53:34.949+02:00" modified="2019-12-13T14:33:03.553+01:00" filename="Romberg_Leonhard_Freiherr_von.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Ritz_Johann_Friedrich_1755-1809.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:03+01:00" filename="Ritz_Johann_Friedrich_1755-1809.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Ritz_Johann_Friedrich_1755-1809.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.117+01:00" modified="2019-12-13T14:33:03.69+01:00" filename="Ritz_Johann_Friedrich_1755-1809.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Radziwill_Anton_F%C3%BCrst_1833-1904.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-06-21T10:36:43+02:00" modified="2019-12-12T15:19:56+01:00" filename="Radziwill_Anton_Fürst_1833-1904.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Radziwill_Anton_F%C3%BCrst_1833-1904.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-06-21T10:36:43.627+02:00" modified="2019-12-12T15:19:56.081+01:00" filename="Radziwill_Anton_Fürst_1833-1904.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Rosenberg_Arnold_Freiherr_von_1824-1883.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T10:59:15+02:00" modified="2020-01-24T13:30:02+01:00" filename="Rosenberg_Arnold_Freiherr_von_1824-1883.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Rosenberg_Arnold_Freiherr_von_1824-1883.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T10:59:15.365+02:00" modified="2020-01-24T13:30:02.003+01:00" filename="Rosenberg_Arnold_Freiherr_von_1824-1883.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Raitz%20von%20Frentz,%20Jacob%20von%20(1826-1884).xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T13:51:00+01:00" modified="2019-12-13T14:33:04+01:00" filename="Raitz von Frentz, Jacob von (1826-1884).xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Raitz%20von%20Frentz,%20Jacob%20von%20(1826-1884).xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T13:51:00.789+01:00" modified="2019-12-13T14:33:04.002+01:00" filename="Raitz von Frentz, Jacob von (1826-1884).xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Reede_Wilhelmine_Gr%C3%A4fin_von_1768-1847.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-28T13:05:46+02:00" modified="2019-12-13T14:33:04+01:00" filename="Reede_Wilhelmine_Gräfin_von_1768-1847.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Reede_Wilhelmine_Gr%C3%A4fin_von_1768-1847.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-28T13:05:46.27+02:00" modified="2019-12-13T14:33:04.14+01:00" filename="Reede_Wilhelmine_Gräfin_von_1768-1847.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/S/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/S/__contents__.xml
+index 1f29cb7..2424541 100644
+--- a/mop/data/Biogramme/S/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/S/__contents__.xml
+@@ -1,66 +1,66 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/S" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:54:49.438+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Stillfried-Rattonitz_Rudolf_Graf_von_1804-1882.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:04+01:00" filename="Stillfried-Rattonitz_Rudolf_Graf_von_1804-1882.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Stillfried-Rattonitz_Rudolf_Graf_von_1804-1882.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.375+01:00" modified="2019-12-13T14:33:04.441+01:00" filename="Stillfried-Rattonitz_Rudolf_Graf_von_1804-1882.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Schlieben_Georg_Graf_von_1831-1906.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-20T12:08:40+02:00" modified="2019-12-13T14:33:04+01:00" filename="Schlieben_Georg_Graf_von_1831-1906.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Schlieben_Georg_Graf_von_1831-1906.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-20T12:08:40.461+02:00" modified="2019-12-13T14:33:04.577+01:00" filename="Schlieben_Georg_Graf_von_1831-1906.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Schimmelmann_Adeline_Graefin_von_1854-1913.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:04+01:00" filename="Schimmelmann_Adeline_Graefin_von_1854-1913.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Schimmelmann_Adeline_Graefin_von_1854-1913.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.19+01:00" modified="2019-12-13T14:33:04.783+01:00" filename="Schimmelmann_Adeline_Graefin_von_1854-1913.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Stolberg-Wenigerode_Anton_Graf_zu_1785-1854.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:04+01:00" filename="Stolberg-Wenigerode_Anton_Graf_zu_1785-1854.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Stolberg-Wenigerode_Anton_Graf_zu_1785-1854.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.403+01:00" modified="2019-12-13T14:33:04.944+01:00" filename="Stolberg-Wenigerode_Anton_Graf_zu_1785-1854.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Stolberg-Wernigerode_Eberhard_Graf_zu_1810-1872.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-07T13:28:47+02:00" modified="2019-12-13T14:33:05+01:00" filename="Stolberg-Wernigerode_Eberhard_Graf_zu_1810-1872.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Stolberg-Wernigerode_Eberhard_Graf_zu_1810-1872.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-07T13:28:47.56+02:00" modified="2019-12-13T14:33:05.104+01:00" filename="Stolberg-Wernigerode_Eberhard_Graf_zu_1810-1872.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Solms-Baruth_Friedrich_F%C3%BCrst_zu_1853-1920%20.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-05-17T16:47:05+02:00" modified="2019-12-13T14:33:05+01:00" filename="Solms-Baruth_Friedrich_Fürst_zu_1853-1920 .xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Solms-Baruth_Friedrich_F%C3%BCrst_zu_1853-1920%20.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-05-17T16:47:05.507+02:00" modified="2019-12-13T14:33:05.268+01:00" filename="Solms-Baruth_Friedrich_Fürst_zu_1853-1920 .xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Spee_August_Reichsgraf_von_1813-1882.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:05+01:00" filename="Spee_August_Reichsgraf_von_1813-1882.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Spee_August_Reichsgraf_von_1813-1882.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.317+01:00" modified="2019-12-13T14:33:05.425+01:00" filename="Spee_August_Reichsgraf_von_1813-1882.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Schwartzkoppen_Eduard_von_1807-1873.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-18T12:13:09+02:00" modified="2019-12-13T14:33:05+01:00" filename="Schwartzkoppen_Eduard_von_1807-1873.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Schwartzkoppen_Eduard_von_1807-1873.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-18T12:13:09.314+02:00" modified="2019-12-13T14:33:05.561+01:00" filename="Schwartzkoppen_Eduard_von_1807-1873.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Saurma_Max_Graf_von_1836-1909.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:05+01:00" filename="Saurma_Max_Graf_von_1836-1909.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Saurma_Max_Graf_von_1836-1909.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.146+01:00" modified="2019-12-13T14:33:05.716+01:00" filename="Saurma_Max_Graf_von_1836-1909.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Schele_Werner_Freiherr_von_1814-1869.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T14:23:31+02:00" modified="2019-12-13T14:33:05+01:00" filename="Schele_Werner_Freiherr_von_1814-1869.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Schele_Werner_Freiherr_von_1814-1869.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T14:23:31.812+02:00" modified="2019-12-13T14:33:05.845+01:00" filename="Schele_Werner_Freiherr_von_1814-1869.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Schlieffen_Adolf_von_1822-1885.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T12:02:19+01:00" modified="2019-12-13T14:33:05+01:00" filename="Schlieffen_Adolf_von_1822-1885.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Schlieffen_Adolf_von_1822-1885.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T12:02:19.47+01:00" modified="2019-12-13T14:33:05.977+01:00" filename="Schlieffen_Adolf_von_1822-1885.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Salm-Reifferscheidt-Dyck_Alfred_F%C3%BCrst_und_Altgraf_zu_1811-1888.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-11T13:17:59+02:00" modified="2019-12-13T14:33:06+01:00" filename="Salm-Reifferscheidt-Dyck_Alfred_Fürst_und_Altgraf_zu_1811-1888.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Salm-Reifferscheidt-Dyck_Alfred_F%C3%BCrst_und_Altgraf_zu_1811-1888.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-11T13:17:59.193+02:00" modified="2019-12-13T14:33:06.12+01:00" filename="Salm-Reifferscheidt-Dyck_Alfred_Fürst_und_Altgraf_zu_1811-1888.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Schaffgotsch_Carl_Wenzel_Gotthard_Graf_von_1742-1822.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-03-28T09:56:43+01:00" modified="2019-12-16T13:28:54+01:00" filename="Schaffgotsch_Carl_Wenzel_Gotthard_Graf_von_1742-1822.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Schaffgotsch_Carl_Wenzel_Gotthard_Graf_von_1742-1822.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-03-28T09:56:43.742+01:00" modified="2019-12-16T13:28:54.871+01:00" filename="Schaffgotsch_Carl_Wenzel_Gotthard_Graf_von_1742-1822.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Stolberg-Wernigerode_Otto_Fuerst_zu_1837-1896.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:06+01:00" filename="Stolberg-Wernigerode_Otto_Fuerst_zu_1837-1896.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Stolberg-Wernigerode_Otto_Fuerst_zu_1837-1896.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.425+01:00" modified="2019-12-13T14:33:06.438+01:00" filename="Stolberg-Wernigerode_Otto_Fuerst_zu_1837-1896.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Senden-Bibran_Gustav_Freiherr_von_1847-1909.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:06+01:00" filename="Senden-Bibran_Gustav_Freiherr_von_1847-1909.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Senden-Bibran_Gustav_Freiherr_von_1847-1909.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.255+01:00" modified="2019-12-13T14:33:06.573+01:00" filename="Senden-Bibran_Gustav_Freiherr_von_1847-1909.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Sayn-Wittgenstein-Hohenstein_Wilhelm_Fuerst_zu_1770-1851.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:06+01:00" filename="Sayn-Wittgenstein-Hohenstein_Wilhelm_Fuerst_zu_1770-1851.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sayn-Wittgenstein-Hohenstein_Wilhelm_Fuerst_zu_1770-1851.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.736+01:00" modified="2019-12-13T14:33:06.705+01:00" filename="Sayn-Wittgenstein-Hohenstein_Wilhelm_Fuerst_zu_1770-1851.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Schaffgotsch_Emanuel_Gotthard_Graf_von_1802-1878.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:06+01:00" filename="Schaffgotsch_Emanuel_Gotthard_Graf_von_1802-1878.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Schaffgotsch_Emanuel_Gotthard_Graf_von_1802-1878.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.17+01:00" modified="2019-12-13T14:33:06.84+01:00" filename="Schaffgotsch_Emanuel_Gotthard_Graf_von_1802-1878.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Solemacher-Antweiler_Friedrich_Freiherr_von.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:07+01:00" filename="Solemacher-Antweiler_Friedrich_Freiherr_von.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Solemacher-Antweiler_Friedrich_Freiherr_von.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.288+01:00" modified="2019-12-13T14:33:07.014+01:00" filename="Solemacher-Antweiler_Friedrich_Freiherr_von.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Schleinitz_Alexander_Graf_von_1807-1885.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:07+01:00" filename="Schleinitz_Alexander_Graf_von_1807-1885.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Schleinitz_Alexander_Graf_von_1807-1885.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.21+01:00" modified="2019-12-13T14:33:07.141+01:00" filename="Schleinitz_Alexander_Graf_von_1807-1885.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Senden_Ernst_Ludwig_Freiherr_1806-1886.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T11:15:46+01:00" modified="2019-12-13T14:33:07+01:00" filename="Senden_Ernst_Ludwig_Freiherr_1806-1886.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Senden_Ernst_Ludwig_Freiherr_1806-1886.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T11:15:46.305+01:00" modified="2019-12-13T14:33:07.279+01:00" filename="Senden_Ernst_Ludwig_Freiherr_1806-1886.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Schilden_Friedrich_Freiherr_von_1773-1851%20.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-06-20T11:47:43+02:00" modified="2019-12-13T14:33:07+01:00" filename="Schilden_Friedrich_Freiherr_von_1773-1851 .xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Schilden_Friedrich_Freiherr_von_1773-1851%20.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-06-20T11:47:43.015+02:00" modified="2019-12-13T14:33:07.408+01:00" filename="Schilden_Friedrich_Freiherr_von_1773-1851 .xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/T/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/T/__contents__.xml
+index 808e54f..dd7c084 100644
+--- a/mop/data/Biogramme/T/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/T/__contents__.xml
+@@ -1,15 +1,15 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/T" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:55:09.116+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Tiele-Winckler_Rose_von_1847-1930.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:07+01:00" filename="Tiele-Winckler_Rose_von_1847-1930.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Tiele-Winckler_Rose_von_1847-1930.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.472+01:00" modified="2019-12-13T14:33:07.573+01:00" filename="Tiele-Winckler_Rose_von_1847-1930.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Tronchin_August_von_1782-1871.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:07+01:00" filename="Tronchin_August_von_1782-1871.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Tronchin_August_von_1782-1871.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.518+01:00" modified="2019-12-13T14:33:07.703+01:00" filename="Tronchin_August_von_1782-1871.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Timm_Carl_1760-1839.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:07+01:00" filename="Timm_Carl_1760-1839.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Timm_Carl_1760-1839.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.495+01:00" modified="2019-12-13T14:33:07.842+01:00" filename="Timm_Carl_1760-1839.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Thile_I_%20Ludwig_Gustav_von_1781-1852.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:07+01:00" filename="Thile_I_ Ludwig_Gustav_von_1781-1852.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Thile_I_%20Ludwig_Gustav_von_1781-1852.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.449+01:00" modified="2019-12-13T14:33:07.982+01:00" filename="Thile_I_ Ludwig_Gustav_von_1781-1852.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/U/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/U/__contents__.xml
+index fd77d90..e58380a 100644
+--- a/mop/data/Biogramme/U/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/U/__contents__.xml
+@@ -1,15 +1,15 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/U" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:55:23.818+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Usedom_Maximilian_von_1829-1897.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T12:32:47+02:00" modified="2019-12-13T14:33:08+01:00" filename="Usedom_Maximilian_von_1829-1897.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Usedom_Maximilian_von_1829-1897.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T12:32:47.744+02:00" modified="2019-12-13T14:33:08.143+01:00" filename="Usedom_Maximilian_von_1829-1897.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Usedom_Guido_von_1854-1925.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-07-22T11:26:27+02:00" modified="2019-12-12T15:19:56+01:00" filename="Usedom_Guido_von_1854-1925.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Usedom_Guido_von_1854-1925.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-07-22T11:26:27.839+02:00" modified="2019-12-12T15:19:56.399+01:00" filename="Usedom_Guido_von_1854-1925.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Unruhe-Bomst_Hans_Wilhelm_Freiherr_von_1825-1894.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T10:13:58+01:00" modified="2019-12-13T14:33:08+01:00" filename="Unruhe-Bomst_Hans_Wilhelm_Freiherr_von_1825-1894.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Unruhe-Bomst_Hans_Wilhelm_Freiherr_von_1825-1894.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T10:13:58.615+01:00" modified="2019-12-13T14:33:08.32+01:00" filename="Unruhe-Bomst_Hans_Wilhelm_Freiherr_von_1825-1894.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Uechtritz_und_Steinkirch.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:08+01:00" filename="Uechtritz_und_Steinkirch.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Uechtritz_und_Steinkirch.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.541+01:00" modified="2019-12-13T14:33:08.46+01:00" filename="Uechtritz_und_Steinkirch.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/V/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/V/__contents__.xml
+index 6b4322d..0817029 100644
+--- a/mop/data/Biogramme/V/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/V/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/V" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:57:01.235+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Vitzthum_von_Eckst%C3%A4dt_Otto_Rudolf_Graf_1831-1906.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-18T13:12:09+02:00" modified="2019-12-13T14:33:08+01:00" filename="Vitzthum_von_Eckstädt_Otto_Rudolf_Graf_1831-1906.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Vitzthum_von_Eckst%C3%A4dt_Otto_Rudolf_Graf_1831-1906.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-18T13:12:09.934+02:00" modified="2019-12-13T14:33:08.603+01:00" filename="Vitzthum_von_Eckstädt_Otto_Rudolf_Graf_1831-1906.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Valentini_Rudolf_von_1855-1925.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:08+01:00" filename="Valentini_Rudolf_von_1855-1925.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Valentini_Rudolf_von_1855-1925.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.564+01:00" modified="2019-12-13T14:33:08.733+01:00" filename="Valentini_Rudolf_von_1855-1925.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/W/Wylich_und_Lottum_Karl_Friedrich_Heinrich_Graf_von_1767-1841.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/W/Wylich_und_Lottum_Karl_Friedrich_Heinrich_Graf_von_1767-1841.xml
+index 9d8e14b..6fd9339 100644
+--- a/mop/data/Biogramme/W/Wylich_und_Lottum_Karl_Friedrich_Heinrich_Graf_von_1767-1841.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/W/Wylich_und_Lottum_Karl_Friedrich_Heinrich_Graf_von_1767-1841.xml
+@@ -22,8 +22,8 @@
+     <text type="biogramm">
+         <body>
+          <div type="name">
+-                <p><persName key="P0002619">Wylich und Lottum, Karl Heinrich Friedrich
+-                        Graf von</persName>
++                <p><persName key="P0002619">Wylich und Lottum, Karl Friedrich Heinrich Graf
++                        von</persName>
+                 </p>
+             </div>
+          <div type="geburt">
+diff --git a/mop/data/Biogramme/W/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/W/__contents__.xml
+index 438eb27..0087ff6 100644
+--- a/mop/data/Biogramme/W/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/W/__contents__.xml
+@@ -1,48 +1,48 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/W" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:57:11.337+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Wartensleben_Carl_Graf_von_1740-1817.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:09+01:00" filename="Wartensleben_Carl_Graf_von_1740-1817.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Wartensleben_Carl_Graf_von_1740-1817.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.639+01:00" modified="2019-12-13T14:33:09.002+01:00" filename="Wartensleben_Carl_Graf_von_1740-1817.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Wylich_und_Lottum_Karl_Friedrich_Heinrich_Graf_von_1767-1841.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28+01:00" modified="2019-12-13T14:33:09+01:00" filename="Wylich_und_Lottum_Karl_Friedrich_Heinrich_Graf_von_1767-1841.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Wylich_und_Lottum_Karl_Friedrich_Heinrich_Graf_von_1767-1841.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:28.483+01:00" modified="2020-02-04T14:14:26.933+01:00" filename="Wylich_und_Lottum_Karl_Friedrich_Heinrich_Graf_von_1767-1841.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Waldbott-Bassenheim-Bornheim_Clemens_Freiherr_von_1803-1872.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:09+01:00" filename="Waldbott-Bassenheim-Bornheim_Clemens_Freiherr_von_1803-1872.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Waldbott-Bassenheim-Bornheim_Clemens_Freiherr_von_1803-1872.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.588+01:00" modified="2019-12-13T14:33:09.293+01:00" filename="Waldbott-Bassenheim-Bornheim_Clemens_Freiherr_von_1803-1872.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Wilmowsky_Karl_Freiherr_von_1817-1893.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:09+01:00" filename="Wilmowsky_Karl_Freiherr_von_1817-1893.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Wilmowsky_Karl_Freiherr_von_1817-1893.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.712+01:00" modified="2019-12-13T14:33:09.428+01:00" filename="Wilmowsky_Karl_Freiherr_von_1817-1893.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Wussow_Philipp_von_1792-1870.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T13:37:40+01:00" modified="2019-12-13T14:33:09+01:00" filename="Wussow_Philipp_von_1792-1870.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Wussow_Philipp_von_1792-1870.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T13:37:40.121+01:00" modified="2019-12-13T14:33:09.563+01:00" filename="Wussow_Philipp_von_1792-1870.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Woellner_Johann_Christoph_von_1732-1800.xml" skip="no" owner="mop_rathgeber" group="mop-nutzer" mode="660" created="2019-04-03T11:32:26+02:00" modified="2019-12-13T14:33:09+01:00" filename="Woellner_Johann_Christoph_von_1732-1800.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Woellner_Johann_Christoph_von_1732-1800.xml" skip="no" owner="mop_rathgeber" group="mop-nutzer" mode="660" created="2019-04-03T11:32:26.449+02:00" modified="2019-12-13T14:33:09.709+01:00" filename="Woellner_Johann_Christoph_von_1732-1800.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Witzleben_Friedrich_von_1802-1873.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T11:08:43+01:00" modified="2019-12-13T14:33:09+01:00" filename="Witzleben_Friedrich_von_1802-1873.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Witzleben_Friedrich_von_1802-1873.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T11:08:43.032+01:00" modified="2019-12-13T14:33:09.849+01:00" filename="Witzleben_Friedrich_von_1802-1873.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Wartensleben_Ludwig_Christian_Heinrich_Ferdinand_Graf_von_1767-1833.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:09+01:00" filename="Wartensleben_Ludwig_Christian_Heinrich_Ferdinand_Graf_von_1767-1833.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Wartensleben_Ludwig_Christian_Heinrich_Ferdinand_Graf_von_1767-1833.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.662+01:00" modified="2019-12-13T14:33:09.99+01:00" filename="Wartensleben_Ludwig_Christian_Heinrich_Ferdinand_Graf_von_1767-1833.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Wartensleben_Gustav_Hermann_Graf_von_1830-1921.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-24T09:03:42.671+02:00" modified="2019-12-13T14:33:10.138+01:00" filename="Wartensleben_Gustav_Hermann_Graf_von_1830-1921.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Wartensleben_August_Graf_von_1748-1805.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:10+01:00" filename="Wartensleben_August_Graf_von_1748-1805.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Wartensleben_August_Graf_von_1748-1805.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.611+01:00" modified="2019-12-13T14:33:10.265+01:00" filename="Wartensleben_August_Graf_von_1748-1805.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Wartensleben_Gustav_Ludwig_Graf_von_1796-1886.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-07-02T13:57:01+02:00" modified="2019-12-13T14:33:10+01:00" filename="Wartensleben_Gustav_Ludwig_Graf_von_1796-1886.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Wartensleben_Gustav_Ludwig_Graf_von_1796-1886.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-07-02T13:57:01.242+02:00" modified="2019-12-13T14:33:10.389+01:00" filename="Wartensleben_Gustav_Ludwig_Graf_von_1796-1886.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Willisen_Friedrich_Adolf_Freiherr_von_1798-1864.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:10+01:00" filename="Willisen_Friedrich_Adolf_Freiherr_von_1798-1864.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Willisen_Friedrich_Adolf_Freiherr_von_1798-1864.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.687+01:00" modified="2019-12-13T14:33:10.522+01:00" filename="Willisen_Friedrich_Adolf_Freiherr_von_1798-1864.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Wedel-Piesdorf_Wilhelm_von_1837-1915.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-03-21T10:15:03+01:00" modified="2019-12-13T14:33:10+01:00" filename="Wedel-Piesdorf_Wilhelm_von_1837-1915.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Wedel-Piesdorf_Wilhelm_von_1837-1915.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-03-21T10:15:03.664+01:00" modified="2019-12-13T14:33:10.65+01:00" filename="Wedel-Piesdorf_Wilhelm_von_1837-1915.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Wurmb_von_Zinck_Karl_1795-1890.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-22T13:01:20+01:00" modified="2019-12-13T14:33:10+01:00" filename="Wurmb_von_Zinck_Karl_1795-1890.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Wurmb_von_Zinck_Karl_1795-1890.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-22T13:01:20.936+01:00" modified="2019-12-13T14:33:10.788+01:00" filename="Wurmb_von_Zinck_Karl_1795-1890.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Westerholt-Gysenberg_Karl_Graf_von_1841-1898.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T14:08:54+01:00" modified="2019-12-13T14:33:10+01:00" filename="Westerholt-Gysenberg_Karl_Graf_von_1841-1898.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Westerholt-Gysenberg_Karl_Graf_von_1841-1898.xml" skip="no" owner="admin" group="website" mode="666" created="2019-01-21T14:08:54.709+01:00" modified="2019-12-13T14:33:10.913+01:00" filename="Westerholt-Gysenberg_Karl_Graf_von_1841-1898.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/Z/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/Z/__contents__.xml
+index 6079189..512726e 100644
+--- a/mop/data/Biogramme/Z/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/Z/__contents__.xml
+@@ -1,24 +1,24 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Biogramme/Z" version="1" owner="mop_wagner" group="mop-nutzer" mode="770" created="2019-09-30T09:57:31.92+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Zenker_Johann_Gottlob_Friedrich_1753-1826.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:11+01:00" filename="Zenker_Johann_Gottlob_Friedrich_1753-1826.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Zenker_Johann_Gottlob_Friedrich_1753-1826.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.851+01:00" modified="2019-12-13T14:33:11.072+01:00" filename="Zenker_Johann_Gottlob_Friedrich_1753-1826.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Zech-Burkersroda_Julius_Graf_von_1805-1872.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:11+01:00" filename="Zech-Burkersroda_Julius_Graf_von_1805-1872.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Zech-Burkersroda_Julius_Graf_von_1805-1872.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.784+01:00" modified="2019-12-13T14:33:11.197+01:00" filename="Zech-Burkersroda_Julius_Graf_von_1805-1872.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Zedlitz-Tr%C3%BCtzschler_Robert_Graf_1863-1942.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-04-11T16:35:38+02:00" modified="2019-12-13T14:33:11+01:00" filename="Zedlitz-Trützschler_Robert_Graf_1863-1942.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Zedlitz-Tr%C3%BCtzschler_Robert_Graf_1863-1942.xml" skip="no" owner="mop_spenkuch" group="mop-nutzer" mode="660" created="2019-04-11T16:35:38.271+02:00" modified="2019-12-13T14:33:11.321+01:00" filename="Zedlitz-Trützschler_Robert_Graf_1863-1942.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Zedlitz_und_Neukirch_Hugo_Freiherr_von_1816-1893.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:11+01:00" filename="Zedlitz_und_Neukirch_Hugo_Freiherr_von_1816-1893.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Zedlitz_und_Neukirch_Hugo_Freiherr_von_1816-1893.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.807+01:00" modified="2019-12-13T14:33:11.453+01:00" filename="Zedlitz_und_Neukirch_Hugo_Freiherr_von_1816-1893.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Zedlitz_und_Neukirch_Kuno_Freiher_%20von_1824-1874.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T10:40:02+02:00" modified="2019-12-13T14:33:11+01:00" filename="Zedlitz_und_Neukirch_Kuno_Freiher_ von_1824-1874.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Zedlitz_und_Neukirch_Kuno_Freiher_%20von_1824-1874.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2019-06-17T10:40:02.505+02:00" modified="2019-12-13T14:33:11.578+01:00" filename="Zedlitz_und_Neukirch_Kuno_Freiher_ von_1824-1874.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Zastrow_Friedrich_Wilhelm_Christian_von_1752-1830.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:11+01:00" filename="Zastrow_Friedrich_Wilhelm_Christian_von_1752-1830.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Zastrow_Friedrich_Wilhelm_Christian_von_1752-1830.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.76+01:00" modified="2019-12-13T14:33:11.707+01:00" filename="Zastrow_Friedrich_Wilhelm_Christian_von_1752-1830.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Zeuner_Karl_Bernhard_Friedrich_Freiherr_von_1744-1807.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29+01:00" modified="2019-12-13T14:33:11+01:00" filename="Zeuner_Karl_Bernhard_Friedrich_Freiherr_von_1744-1807.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Zeuner_Karl_Bernhard_Friedrich_Freiherr_von_1744-1807.xml" skip="no" owner="admin" group="website" mode="666" created="2018-12-11T16:38:29.895+01:00" modified="2019-12-13T14:33:11.878+01:00" filename="Zeuner_Karl_Bernhard_Friedrich_Freiherr_von_1744-1807.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Biogramme/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Biogramme/__contents__.xml
+index a8faa72..4e3cc94 100644
+--- a/mop/data/Biogramme/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Biogramme/__contents__.xml
+@@ -12,7 +12,7 @@
+     <subcollection name="N" filename="N"/>
+     <subcollection name="O" filename="O"/>
+     <subcollection name="P" filename="P"/>
+-    <subcollection name="C" filename="C"/>
++    <subcollection name="Z" filename="Z"/>
+     <subcollection name="R" filename="R"/>
+     <subcollection name="S" filename="S"/>
+     <subcollection name="T" filename="T"/>
+@@ -21,6 +21,6 @@
+     <subcollection name="W" filename="W"/>
+     <subcollection name="A" filename="A"/>
+     <subcollection name="B" filename="B"/>
+-    <subcollection name="Z" filename="Z"/>
++    <subcollection name="C" filename="C"/>
+     <subcollection name="D" filename="D"/>
+ </collection>
+\ No newline at end of file

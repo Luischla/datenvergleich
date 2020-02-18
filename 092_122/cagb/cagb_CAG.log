@@ -1,0 +1,13 @@
+diff --git a/cagb/data/CAG/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/CAG/__contents__.xml
+index addc99c..9f1928b 100644
+--- a/cagb/data/CAG/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/CAG/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/CAG" version="1" owner="admin" group="cagb-nutzer" mode="770" created="2019-12-17T11:04:11.921+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="VolII-parsII.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-10T11:37:20+01:00" modified="2020-01-15T15:22:27+01:00" filename="VolII-parsII.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="VolII-parsII.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-10T11:37:20.939+01:00" modified="2020-01-15T15:22:27.815+01:00" filename="VolII-parsII.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

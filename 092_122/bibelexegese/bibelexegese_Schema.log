@@ -1,0 +1,25 @@
+diff --git a/bibelexegese/data/Schema/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Schema/__contents__.xml
+index bdda735..f12402f 100644
+--- a/bibelexegese/data/Schema/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Schema/__contents__.xml
+@@ -1,15 +1,15 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Schema" version="1" owner="stockhausen" group="stockhausen" mode="770" created="2019-05-14T14:55:56.746+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Example-Edition.xml" skip="no" owner="stockhausen" group="stockhausen" mode="660" created="2019-12-18T13:32:13+01:00" modified="2020-01-14T14:30:31+01:00" filename="Example-Edition.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Example-Edition.xml" skip="no" owner="stockhausen" group="stockhausen" mode="660" created="2019-12-18T13:32:13.099+01:00" modified="2020-01-14T14:30:31.732+01:00" filename="Example-Edition.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="tei-pta.odd" skip="no" owner="stockhausen" group="stockhausen" mode="660" created="2019-05-14T14:56:16+02:00" modified="2020-01-14T15:21:28+01:00" filename="tei-pta.odd" mimetype="application/xml">
++    <resource type="XMLResource" name="tei-pta.odd" skip="no" owner="stockhausen" group="stockhausen" mode="660" created="2019-05-14T14:56:16.659+02:00" modified="2020-01-14T15:21:28.765+01:00" filename="tei-pta.odd" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Example-MsDesc.xml" skip="no" owner="stockhausen" group="stockhausen" mode="660" created="2020-01-14T14:30:51+01:00" modified="2020-01-14T14:30:51+01:00" filename="Example-MsDesc.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Example-MsDesc.xml" skip="no" owner="stockhausen" group="stockhausen" mode="660" created="2020-01-14T14:30:51.533+01:00" modified="2020-01-14T14:30:51.533+01:00" filename="Example-MsDesc.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Example-Transcription.xml" skip="no" owner="stockhausen" group="stockhausen" mode="660" created="2020-01-14T14:31:13+01:00" modified="2020-01-14T16:30:14+01:00" filename="Example-Transcription.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Example-Transcription.xml" skip="no" owner="stockhausen" group="stockhausen" mode="660" created="2020-01-14T14:31:13.516+01:00" modified="2020-01-14T16:30:14.95+01:00" filename="Example-Transcription.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

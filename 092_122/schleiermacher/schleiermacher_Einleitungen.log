@@ -1,0 +1,224 @@
+diff --git a/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/Einleitung_Kommentar_Briefe 1803-1813_kurz.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/Einleitung_Kommentar_Briefe 1803-1813_kurz.xml
+new file mode 100644
+index 0000000..67dca49
+--- /dev/null
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/Einleitung_Kommentar_Briefe 1803-1813_kurz.xml	
+@@ -0,0 +1,27 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" xml:id="Einleitung_Kommentar_Briefe_1803-1813_kurz">
++    <teiHeader>
++        <fileDesc>
++            <titleStmt>
++                <title>Einleitung der Herausgeber</title>
++            </titleStmt>
++            <editionStmt>
++                <edition>
++                    <title/>
++                </edition>
++            </editionStmt>
++            <publicationStmt><publisher><ref target="http://www.bbaw.de"/></publisher><pubPlace ref="http://www.geonames.org/2950159">Berlin</pubPlace></publicationStmt>
++            <sourceDesc>
++                <p>born-digital</p>
++            </sourceDesc>
++        </fileDesc>
++    </teiHeader>
++    <text>
++        <body>
++            <div type="chapter">
++                <head/>
++                <p/>
++            </div>
++        </body>
++    </text>
++</TEI>
+\ No newline at end of file
+diff --git a/schleiermacher/data/Einleitungen/Einleitungen_Kommentar_Briefe_1808-1810/Briefpartner_KGA_end_konvertiert_neu.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/Einleitungen_Kommentar_Briefe_1808-1810/Briefpartner_KGA_end_konvertiert_neu.xml
+index fed7ee3..b331ec8 100644
+--- a/schleiermacher/data/Einleitungen/Einleitungen_Kommentar_Briefe_1808-1810/Briefpartner_KGA_end_konvertiert_neu.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/Einleitungen_Kommentar_Briefe_1808-1810/Briefpartner_KGA_end_konvertiert_neu.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" oldID="prov_ph2_lxx_zw" xml:id="S0009114">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" xml:id="prov_ph2_lxx_zw">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Einleitungen/Einleitungen_Kommentar_Briefe_1808-1810/Chronologie.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/Einleitungen_Kommentar_Briefe_1808-1810/Chronologie.xml
+index 102430a..10dedb9 100644
+--- a/schleiermacher/data/Einleitungen/Einleitungen_Kommentar_Briefe_1808-1810/Chronologie.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/Einleitungen_Kommentar_Briefe_1808-1810/Chronologie.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" oldID="prov_bn4_vxr_nx" xml:id="S0008458">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" xml:id="prov_bn4_vxr_nx">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Einleitungen/Einleitungen_Kommentar_Briefe_1808-1810/__contents__.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/Einleitungen_Kommentar_Briefe_1808-1810/__contents__.xml
+index 0d28bcb..30a9aca 100644
+--- a/schleiermacher/data/Einleitungen/Einleitungen_Kommentar_Briefe_1808-1810/__contents__.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/Einleitungen_Kommentar_Briefe_1808-1810/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/schleiermacher/data/Einleitungen/Einleitungen_Kommentar_Briefe_1808-1810" version="1" owner="admin" group="schleiermacher-nutzer" mode="770" created="2020-02-10T17:48:37.349+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Briefpartner_KGA_end_konvertiert_neu.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:37.576+01:00" modified="2020-02-10T17:48:37.576+01:00" filename="Briefpartner_KGA_end_konvertiert_neu.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Briefpartner_KGA_end_konvertiert_neu.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-01-14T17:47:43.004+01:00" modified="2019-01-14T17:47:43.004+01:00" filename="Briefpartner_KGA_end_konvertiert_neu.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Chronologie.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:40.026+01:00" modified="2020-02-10T17:48:40.026+01:00" filename="Chronologie.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Chronologie.xml" skip="no" owner="telota-user" group="schleiermacher-nutzer" mode="660" created="2019-01-10T15:23:56.181+01:00" modified="2019-01-10T15:23:56.181+01:00" filename="Chronologie.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/schleiermacher/data/Einleitungen/__contents__.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/__contents__.xml
+index 495e684..5156417 100644
+--- a/schleiermacher/data/Einleitungen/__contents__.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/__contents__.xml
+@@ -1,5 +1,8 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/schleiermacher/data/Einleitungen" version="1" owner="admin" group="schleiermacher-nutzer" mode="770" created="2020-02-10T17:48:34.022+01:00">
+     <acl entries="0" version="1"/>
++    <resource type="XMLResource" name="Einleitung_Kommentar_Briefe%201803-1813_kurz.xml" skip="no" owner="telota-user" group="schleiermacher-nutzer" mode="660" created="2019-01-10T15:24:55.227+01:00" modified="2019-01-10T15:24:55.227+01:00" filename="Einleitung_Kommentar_Briefe 1803-1813_kurz.xml" mimetype="application/xml">
++        <acl entries="0" version="1"/>
++    </resource>
+     <subcollection name="proben" filename="proben"/>
+     <subcollection name="Einleitungen_Kommentar_Briefe_1808-1810" filename="Einleitungen_Kommentar_Briefe_1808-1810"/>
+ </collection>
+\ No newline at end of file
+diff --git a/schleiermacher/data/Einleitungen/proben/1808-01-01_v_ATest.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/1808-01-01_v_ATest.xml
+index e5e129d..0a16f26 100644
+--- a/schleiermacher/data/Einleitungen/proben/1808-01-01_v_ATest.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/1808-01-01_v_ATest.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" oldID="prov_ldz_41d_jn" xml:id="S0008912">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" xml:id="prov_ldz_41d_jn">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Einleitungen/proben/Briefpartner_KGA_end_konvertiert_alt.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/Briefpartner_KGA_end_konvertiert_alt.xml
+index f3da18b..bdc8842 100644
+--- a/schleiermacher/data/Einleitungen/proben/Briefpartner_KGA_end_konvertiert_alt.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/Briefpartner_KGA_end_konvertiert_alt.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" oldId="prov_ph2_lxx_zw" oldID="prov_ph2_lxx_zz" xml:id="S0009115">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" xml:id="prov_ph2_lxx_zz" oldId="prov_ph2_lxx_zw">
+     <teiHeader>
+         <fileDesc>
+             <editionStmt>
+diff --git a/schleiermacher/data/Einleitungen/proben/Unbenannt.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/Unbenannt.xml
+index e277389..4b755d1 100644
+--- a/schleiermacher/data/Einleitungen/proben/Unbenannt.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/Unbenannt.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" oldID="prov_ac3_5kr_lw" xml:id="S0008400">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" xml:id="prov_ac3_5kr_lw">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Einleitungen/proben/Unbenannt2.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/Unbenannt2.xml
+index 62d3a55..e1a1af5 100644
+--- a/schleiermacher/data/Einleitungen/proben/Unbenannt2.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/Unbenannt2.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" oldID="prov_krg_qyb_pw" xml:id="S0008887">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" xml:id="prov_krg_qyb_pw">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Einleitungen/proben/__contents__.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/__contents__.xml
+index ab4ad5b..b9edf10 100644
+--- a/schleiermacher/data/Einleitungen/proben/__contents__.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/__contents__.xml
+@@ -1,24 +1,27 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/schleiermacher/data/Einleitungen/proben" version="1" owner="admin" group="schleiermacher-nutzer" mode="770" created="2020-02-10T17:48:34.042+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="Briefpartner_KGA_end_konvertiert.xml.bak" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:37.318+01:00" modified="2020-02-10T17:48:37.318+01:00" filename="Briefpartner_KGA_end_konvertiert.xml.bak" mimetype="application/octet-stream">
++    <resource type="XMLResource" name="zu%20den%20Briefen%201808-1810.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="770" created="2018-10-30T18:46:31.364+01:00" modified="2018-10-30T18:46:31.364+01:00" filename="zu den Briefen 1808-1810.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Unbenannt2.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:34.061+01:00" modified="2020-02-10T17:48:34.061+01:00" filename="Unbenannt2.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Briefpartner_KGA_end_konvertiert_alt.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="770" created="2018-10-30T18:46:35.31+01:00" modified="2019-12-03T11:10:19.795+01:00" filename="Briefpartner_KGA_end_konvertiert_alt.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="zu_den_Briefen_1808-1810.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:34.076+01:00" modified="2020-02-10T17:48:34.076+01:00" filename="zu_den_Briefen_1808-1810.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Unbenannt2.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="770" created="2018-10-30T18:46:26.479+01:00" modified="2019-01-10T15:27:10.426+01:00" filename="Unbenannt2.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1808-01-01_v_ATest.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:34.086+01:00" modified="2020-02-10T17:48:34.086+01:00" filename="1808-01-01_v_ATest.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="zu_den_Briefen_1808-1810.xml" skip="no" owner="telota-user" group="schleiermacher-nutzer" mode="660" created="2019-01-10T15:27:10.435+01:00" modified="2019-01-10T15:27:10.435+01:00" filename="zu_den_Briefen_1808-1810.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="telotaTest.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:34.101+01:00" modified="2020-02-11T09:58:57.42+01:00" filename="telotaTest.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1808-01-01_v_ATest.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="770" created="2018-10-30T18:46:29.74+01:00" modified="2019-01-10T15:27:09.557+01:00" filename="1808-01-01_v_ATest.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Unbenannt.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:34.115+01:00" modified="2020-02-10T17:48:34.115+01:00" filename="Unbenannt.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="telotaTest.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="770" created="2018-10-30T18:46:28.118+01:00" modified="2019-01-10T15:27:10.394+01:00" filename="telotaTest.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Briefpartner_KGA_end_konvertiert_alt.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:34.431+01:00" modified="2020-02-10T17:48:34.431+01:00" filename="Briefpartner_KGA_end_konvertiert_alt.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Unbenannt.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="770" created="2018-10-30T18:46:37.643+01:00" modified="2019-01-10T15:27:10.413+01:00" filename="Unbenannt.xml" mimetype="application/xml">
++        <acl entries="0" version="1"/>
++    </resource>
++    <resource type="BinaryResource" name="Briefpartner_KGA_end_konvertiert.xml.bak" skip="no" owner="admin" group="schleiermacher-nutzer" mode="770" created="2018-10-30T18:46:33.422+01:00" modified="2020-02-17T16:54:25.082+01:00" filename="Briefpartner_KGA_end_konvertiert.xml.bak" mimetype="application/octet-stream">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/schleiermacher/data/Einleitungen/proben/telotaTest.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/telotaTest.xml
+index 7733fc7..2867978 100644
+--- a/schleiermacher/data/Einleitungen/proben/telotaTest.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/telotaTest.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" oldID="prov_f1v_mhg_cy" xml:id="S0008608">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" xml:id="prov_f1v_mhg_cy">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/zu den Briefen 1808-1810.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/zu den Briefen 1808-1810.xml
+new file mode 100644
+index 0000000..38c5f01
+--- /dev/null
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/zu den Briefen 1808-1810.xml	
+@@ -0,0 +1,24 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<?xml-model href="http://telotadev.bbaw.de:9011/exist/rest/db/apps/ediarum/schemata/fs_einleitungen_schema.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="fs_einleitung" xml:lang="de" xml:id="prov_ih4_zzb_4p">
++    <teiHeader>
++        <fileDesc>
++            <titleStmt>
++                <title>Einleitung der Bandherausgeber</title>
++            </titleStmt>
++            <editionStmt>
++                <edition>
++                    <title type="editionstitel">Friedrich Schleiermacher - Kritische Gesamtausgabe</title>
++                </edition>
++            </editionStmt>
++            <publicationStmt>
++                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
++            </publicationStmt>
++        </fileDesc>
++    </teiHeader>
++    <text>
++        <body>
++Marwitz schreibt am 20.1.1808 an Adolph Müller (Briefe von der Universität, S. 416) von Schleiermachers vergeblichem Versuch, Harscher nach Berlin zu holen.
++ Am 13.2. (S. 420 f.) schreibt er, Schleiermacher sei jetzt von Reimer fortgezogen und habe für sich und Nanny eine Zweizimmerwohnung bezogen. Den Freitag Abend hat er nach hallischer Art eingerichtet." Marwitz, Harscher, Leopold Gerlach und Winterfeld seien da gewesen. Später seien Chamisso, Reimer und dessen Schwager Reinhardt gekommen, letzterer ist von Magdeburg gekommen und hört jetzt bei Schleiermacher theologische Vorlesungen. H. Herz und Schede waren auch da, Varnhagen war krank. Das Gespräch ging u.a. um Romane und Romantheorie.        <p/>
++        </body>
++    </text>
++</TEI>
+\ No newline at end of file
+diff --git a/schleiermacher/data/Einleitungen/proben/zu_den_Briefen_1808-1810.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/zu_den_Briefen_1808-1810.xml
+index 75e7a8b..75178fe 100644
+--- a/schleiermacher/data/Einleitungen/proben/zu_den_Briefen_1808-1810.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Einleitungen/proben/zu_den_Briefen_1808-1810.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<?xml-model href="http://telotadev.bbaw.de:9011/exist/rest/db/apps/ediarum/schemata/fs_einleitungen_schema.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" oldID="prov_ih4_zzb_4p" xml:id="S0008773">
++<?xml-model href="http://telotadev.bbaw.de:9011/exist/rest/db/apps/ediarum/schemata/fs_einleitungen_schema.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="introduction" xml:id="prov_ih4_zzb_4p">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>

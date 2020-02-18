@@ -1,0 +1,107 @@
+diff --git a/mop/data/Quellen_82_Adj_Dateien/tempFWIV./Bd. 08_14.2.1849-9.4.1850_wa/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Quellen_82_Adj_Dateien/tempFWIV./Bd. 08_14.2.1849-9.4.1850_wa/__contents__.xml
+index 731b47f..df05102 100644
+--- a/mop/data/Quellen_82_Adj_Dateien/tempFWIV./Bd. 08_14.2.1849-9.4.1850_wa/__contents__.xml	
++++ b/home/gordon/backup182/db/projects/mop/data/Quellen_82_Adj_Dateien/tempFWIV./Bd. 08_14.2.1849-9.4.1850_wa/__contents__.xml	
+@@ -3,10 +3,10 @@
+     <resource type="XMLResource" name="Bd.%208_9_Oktober%201849_wa.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2018-10-19T10:08:00.602+02:00" modified="2019-12-13T14:46:29.948+01:00" filename="Bd. 8_9_Oktober 1849_wa.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Bd.%208_02_M%C3%A4rz%201849_wa.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-04-08T17:12:24.149+02:00" modified="2019-04-08T17:12:24.149+02:00" filename="Bd. 8_02_März 1849_wa.xml.bak" mimetype="application/octet-stream">
++    <resource type="XMLResource" name="Bd.%208_15_April%201850_wa.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2018-11-30T10:48:55.632+01:00" modified="2019-12-13T14:46:30.36+01:00" filename="Bd. 8_15_April 1850_wa.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Bd.%208_15_April%201850_wa.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2018-11-30T10:48:55.632+01:00" modified="2019-12-13T14:46:30.36+01:00" filename="Bd. 8_15_April 1850_wa.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Bd.%208_03_April%201849_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:49.426+02:00" modified="2019-12-13T14:46:31.369+01:00" filename="Bd. 8_03_April 1849_wa.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Bd.%208_11_Dezember%201849_wa.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2018-11-05T15:13:44.808+01:00" modified="2019-12-13T14:46:30.682+01:00" filename="Bd. 8_11_Dezember 1849_wa.xml" mimetype="application/xml">
+@@ -15,7 +15,7 @@
+     <resource type="XMLResource" name="Bd.%208_10_November%201849_wa.xml" skip="no" owner="mop_wagner" group="mop-nutzer" mode="660" created="2018-10-26T11:57:24.956+02:00" modified="2019-12-13T14:46:31.03+01:00" filename="Bd. 8_10_November 1849_wa.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Bd.%208_03_April%201849_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:49.426+02:00" modified="2019-12-13T14:46:31.369+01:00" filename="Bd. 8_03_April 1849_wa.xml" mimetype="application/xml">
++    <resource type="BinaryResource" name="Bd.%208_02_M%C3%A4rz%201849_wa.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-04-08T17:12:24.149+02:00" modified="2020-02-17T15:30:53.93+01:00" filename="Bd. 8_02_März 1849_wa.xml.bak" mimetype="application/octet-stream">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Bd.%208_04_Mai%201849_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:49.49+02:00" modified="2019-12-13T14:46:31.673+01:00" filename="Bd. 8_04_Mai 1849_wa.xml" mimetype="application/xml">
+diff --git a/mop/data/Quellen_82_Adj_Dateien/tempFWIV./Bd. 09_10.4.1850-18.4.1851_wa/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Quellen_82_Adj_Dateien/tempFWIV./Bd. 09_10.4.1850-18.4.1851_wa/__contents__.xml
+index 7b2800e..d0c35a0 100644
+--- a/mop/data/Quellen_82_Adj_Dateien/tempFWIV./Bd. 09_10.4.1850-18.4.1851_wa/__contents__.xml	
++++ b/home/gordon/backup182/db/projects/mop/data/Quellen_82_Adj_Dateien/tempFWIV./Bd. 09_10.4.1850-18.4.1851_wa/__contents__.xml	
+@@ -3,13 +3,13 @@
+     <resource type="XMLResource" name="Bd.%209_12_M%C3%A4rz%201851_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:50.033+02:00" modified="2019-12-13T14:46:21.341+01:00" filename="Bd. 9_12_März 1851_wa.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Bd.%209_2_Mai%201850_wa.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-03-05T16:06:26.597+01:00" modified="2019-03-05T16:06:26.597+01:00" filename="Bd. 9_2_Mai 1850_wa.xml.bak" mimetype="application/octet-stream">
++    <resource type="XMLResource" name="Bd.%209_6_September%201850_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:50.088+02:00" modified="2019-12-13T14:46:23.308+01:00" filename="Bd. 9_6_September 1850_wa.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Bd.%209_10_Januar%201851_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:50.123+02:00" modified="2019-12-13T14:46:21.725+01:00" filename="Bd. 9_10_Januar 1851_wa.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Bd.%209_1_April%201850_wa.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-03-05T16:04:44.19+01:00" modified="2019-03-05T16:04:44.19+01:00" filename="Bd. 9_1_April 1850_wa.xml.bak" mimetype="application/octet-stream">
++    <resource type="XMLResource" name="Bd.%209_7_Oktober%201850_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:50.161+02:00" modified="2019-12-12T15:19:52.855+01:00" filename="Bd. 9_7_Oktober 1850_wa.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Bd.%209_3_Juni%201850_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:50.227+02:00" modified="2019-12-12T15:19:52.855+01:00" filename="Bd. 9_3_Juni 1850_wa.xml" mimetype="application/xml">
+@@ -24,31 +24,31 @@
+     <resource type="XMLResource" name="Bd.%209_13_April%201851_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:50.384+02:00" modified="2019-12-13T14:46:22.917+01:00" filename="Bd. 9_13_April 1851_wa.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Bd.%209_4_Juli%201850_wa.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-03-05T16:06:26.797+01:00" modified="2019-03-05T16:06:26.797+01:00" filename="Bd. 9_4_Juli 1850_wa.xml.bak" mimetype="application/octet-stream">
++    <resource type="BinaryResource" name="Bd.%209_8_November%201850_wa.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-03-05T16:06:27.19+01:00" modified="2020-02-17T16:59:04.759+01:00" filename="Bd. 9_8_November 1850_wa.xml.bak" mimetype="application/octet-stream">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Bd.%209_6_September%201850_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:50.088+02:00" modified="2019-12-13T14:46:23.308+01:00" filename="Bd. 9_6_September 1850_wa.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Bd.%209_8_November%201850_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:49.852+02:00" modified="2019-12-13T14:46:24.072+01:00" filename="Bd. 9_8_November 1850_wa.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Bd.%209_7_Oktober%201850_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:50.161+02:00" modified="2019-12-12T15:19:52.855+01:00" filename="Bd. 9_7_Oktober 1850_wa.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Bd.%209_9_Dezember%201850_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:49.893+02:00" modified="2019-12-12T15:19:52.854+01:00" filename="Bd. 9_9_Dezember 1850_wa.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Bd.%209_8_November%201850_wa.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-03-05T16:06:27.19+01:00" modified="2019-03-05T16:06:27.19+01:00" filename="Bd. 9_8_November 1850_wa.xml.bak" mimetype="application/octet-stream">
++    <resource type="BinaryResource" name="Bd.%209_2_Mai%201850_wa.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-03-05T16:06:26.597+01:00" modified="2020-02-17T16:59:04.752+01:00" filename="Bd. 9_2_Mai 1850_wa.xml.bak" mimetype="application/octet-stream">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Bd.%209_9_Dezember%201850_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:49.893+02:00" modified="2019-12-12T15:19:52.854+01:00" filename="Bd. 9_9_Dezember 1850_wa.xml" mimetype="application/xml">
++    <resource type="BinaryResource" name="Bd.%209_1_April%201850_wa.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-03-05T16:04:44.19+01:00" modified="2020-02-17T16:59:04.754+01:00" filename="Bd. 9_1_April 1850_wa.xml.bak" mimetype="application/octet-stream">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Bd.%209_6_September%201850_wa.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-03-05T16:06:27.117+01:00" modified="2019-03-05T16:06:27.117+01:00" filename="Bd. 9_6_September 1850_wa.xml.bak" mimetype="application/octet-stream">
++    <resource type="BinaryResource" name="Bd.%209_4_Juli%201850_wa.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-03-05T16:06:26.797+01:00" modified="2020-02-17T16:59:04.757+01:00" filename="Bd. 9_4_Juli 1850_wa.xml.bak" mimetype="application/octet-stream">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Bd.%209_1_April%201850_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:49.807+02:00" modified="2019-12-13T14:46:23.842+01:00" filename="Bd. 9_1_April 1850_wa.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Bd.%209_8_November%201850_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:49.852+02:00" modified="2019-12-13T14:46:24.072+01:00" filename="Bd. 9_8_November 1850_wa.xml" mimetype="application/xml">
++    <resource type="BinaryResource" name="Bd.%209_6_September%201850_wa.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-03-05T16:06:27.117+01:00" modified="2020-02-17T16:59:04.762+01:00" filename="Bd. 9_6_September 1850_wa.xml.bak" mimetype="application/octet-stream">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Bd.%209_5_August%201850_wa.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-03-05T16:06:26.997+01:00" modified="2019-03-05T16:06:26.997+01:00" filename="Bd. 9_5_August 1850_wa.xml.bak" mimetype="application/octet-stream">
++    <resource type="BinaryResource" name="Bd.%209_5_August%201850_wa.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-03-05T16:06:26.997+01:00" modified="2020-02-17T16:59:04.764+01:00" filename="Bd. 9_5_August 1850_wa.xml.bak" mimetype="application/octet-stream">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Bd.%209_4_Juli%201850_wa.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:49.952+02:00" modified="2019-12-13T14:46:24.433+01:00" filename="Bd. 9_4_Juli 1850_wa.xml" mimetype="application/xml">
+diff --git a/mop/data/Quellen_82_Adj_Dateien/tempFWIV./Bd. 10_19.04.1851-23.03.1852_b/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Quellen_82_Adj_Dateien/tempFWIV./Bd. 10_19.04.1851-23.03.1852_b/__contents__.xml
+index 7f82575..96ab616 100644
+--- a/mop/data/Quellen_82_Adj_Dateien/tempFWIV./Bd. 10_19.04.1851-23.03.1852_b/__contents__.xml	
++++ b/home/gordon/backup182/db/projects/mop/data/Quellen_82_Adj_Dateien/tempFWIV./Bd. 10_19.04.1851-23.03.1852_b/__contents__.xml	
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Quellen_82_Adj_Dateien/tempFWIV./Bd.%2010_19.04.1851-23.03.1852_b" version="1" owner="exist-bot" group="mop-nutzer" mode="770" created="2020-02-03T09:55:11.786+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="Bd%2010_01%20April%201851_b.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-03-05T16:06:27.261+01:00" modified="2019-03-05T16:06:27.261+01:00" filename="Bd 10_01 April 1851_b.xml.bak" mimetype="application/octet-stream">
+-        <acl entries="0" version="1"/>
+-    </resource>
+     <resource type="XMLResource" name="Bd%2010_01%20April%201851_b.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:49.369+02:00" modified="2019-12-13T14:46:35.6+01:00" filename="Bd 10_01 April 1851_b.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Bd%2010_02%20Mai%201851_b.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:49.391+02:00" modified="2019-12-12T15:19:52.851+01:00" filename="Bd 10_02 Mai 1851_b.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
++    <resource type="BinaryResource" name="Bd%2010_01%20April%201851_b.xml.bak" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-03-05T16:06:27.261+01:00" modified="2020-02-17T16:59:06.221+01:00" filename="Bd 10_01 April 1851_b.xml.bak" mimetype="application/octet-stream">
++        <acl entries="0" version="1"/>
++    </resource>
+ </collection>
+\ No newline at end of file

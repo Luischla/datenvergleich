@@ -1,0 +1,2652 @@
+diff --git a/bibelexegese/data/Register/Personen.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Register/Personen.xml
+index 110bd2b..b56f32c 100644
+--- a/bibelexegese/data/Register/Personen.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Register/Personen.xml
+@@ -17,7 +17,7 @@
+         <body>
+             <listPerson>
+                 <person xml:id="pta0013">
+-                    <persName type="reg" ref="http://d-nb.info/gnd/118648888">
++                    <persName ref="http://d-nb.info/gnd/118648888">
+                         <surname type="toponymic">Iconiensis</surname><forename>Amphilochius</forename>
+                         
+                     </persName>
+diff --git a/bibelexegese/data/Register/Werke.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Register/Werke.xml
+index 9445aff..db269c3 100644
+--- a/bibelexegese/data/Register/Werke.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Register/Werke.xml
+@@ -123,7 +123,7 @@
+          <listBibl>
+             <bibl xml:id="pta0001.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -142,7 +142,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta002">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -168,7 +168,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta003">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -187,7 +187,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta004">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -204,7 +204,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta005">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -225,7 +225,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta006">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -242,7 +242,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta007">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -261,7 +261,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta008">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -278,7 +278,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta009">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -298,7 +298,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta010">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -330,7 +330,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta011">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -356,7 +356,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta012">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -383,7 +383,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta013">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -402,7 +402,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta014">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -428,7 +428,7 @@
+             <bibl xml:id="pta0001.pta015">
+                <author>
+                   <persName>Pseudo-Johannes Chrysostomus</persName>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -445,7 +445,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta016">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -467,7 +467,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta017">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -486,7 +486,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta018">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -508,7 +508,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta019">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -525,7 +525,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta020">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -549,7 +549,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta021">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -566,7 +566,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta022">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -589,7 +589,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta023">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -606,7 +606,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta024">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -626,7 +626,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta025">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -645,7 +645,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta026">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -668,7 +668,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta027">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -690,7 +690,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta028">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -717,7 +717,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta029">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -736,7 +736,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta030">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -763,7 +763,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta031">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -788,7 +788,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta032">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -813,7 +813,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta033">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">Fragmenta in Act</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -827,7 +827,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta034">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">Fragmenta in epistulas Pauli</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -841,7 +841,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta035">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">Fragm. ex homilia deperdita, de quinque aetatibus
+@@ -860,7 +860,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta036">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Aubineau1983" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Aubineau1983" cert="high"/>
+                      <respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+@@ -883,7 +883,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta037">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -899,7 +899,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta038">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -922,7 +922,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta039">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -940,7 +940,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta040">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Voicu1990" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">In illud: Secundum imaginem et similitudinem</title>
+@@ -956,7 +956,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta041">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -978,7 +978,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta042">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -999,7 +999,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta043">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1017,7 +1017,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta044">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1041,7 +1041,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta045">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1059,7 +1059,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta046">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Voicu1990" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">In Genesim sermo 1</title>
+@@ -1076,7 +1076,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta047">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1108,7 +1108,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta048">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1128,7 +1128,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta049">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1154,7 +1154,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta050">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Voicu1990" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">Encomium in sanctos martyres</title>
+@@ -1176,7 +1176,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta051">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1195,7 +1195,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta052">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1217,7 +1217,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta053">
+                <author cert="unknown">
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="medium"/>
+                   </persName>
+                </author>
+@@ -1237,7 +1237,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta054">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="medium"/>
+                   </persName>
+                </author>
+@@ -1258,7 +1258,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta055">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="medium"/>
+                   </persName>
+                </author>
+@@ -1277,7 +1277,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta056">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1297,7 +1297,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta057">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1315,7 +1315,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta058">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1333,7 +1333,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta059">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1351,7 +1351,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta060">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1369,7 +1369,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta061">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1386,7 +1386,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta062">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1412,7 +1412,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta063">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -1429,7 +1429,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta064">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1448,7 +1448,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta065">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1466,7 +1466,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta066">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">Inedita</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -1480,7 +1480,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta067">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1499,7 +1499,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta068">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -1517,7 +1517,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta069">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">Encomium in Michaelem archangelum </title>
+@@ -1532,7 +1532,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta070">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">Homilia in illud: Vigilate itaque, quia nescitis diem
+@@ -1549,7 +1549,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta071">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">Homilia in illud: Cum venerit filius hominis (<ref decls="#biblical" cRef="GNT:Mt:25:31">Mt 25,31</ref>)</title>
+@@ -1564,7 +1564,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta072">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">Encomium in XII apostolos, seu rectius in Petrum et
+@@ -1582,7 +1582,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta073">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -1599,7 +1599,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta074">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -1616,7 +1616,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta075">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">In nativitatem domini</title>
+                <title type="incipit" xml:lang="ara"/>
+@@ -1631,7 +1631,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta076">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">In Octateuchum (Frg.)</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -1646,7 +1646,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta077">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">In Psalmos (Frg.)</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -1660,7 +1660,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta078">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">In Iob (Frg.)</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -1675,7 +1675,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta079">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">In Matthaeum (Frg.)</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -1689,7 +1689,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta080">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">In epistulas catholicas (Frg.)</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -1705,7 +1705,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta081">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -1722,7 +1722,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta082">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">Fragmentum apud Leontium Hieros., Contra
+@@ -1738,7 +1738,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta083">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">Fragmentum in Doctrina Patrum</title>
+@@ -1753,7 +1753,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta084">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">Fragmentum in Actis conc. Lateran. (649)</title>
+@@ -1768,7 +1768,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta085">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">Fragmentum apud Gelasium, De duabus naturis</title>
+@@ -1783,7 +1783,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta086">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">Fragmentum apud Anastasium Sinaitam, Hodegos c. 16</title>
+@@ -1799,7 +1799,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta087">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">E sermone contra haereticos</title>
+@@ -1814,7 +1814,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta088">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">In epistulam ad Galatos 1</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -1828,7 +1828,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta089">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">Definitiones</title>
+                <title type="incipit" xml:lang="grc">Ὅσοι πατρικοὶ δεκτικοὶ τῆς ἁγίας καθολικῆς
+@@ -1843,9 +1843,9 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta090">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                   </persName>
+-                  <persName ref="Personen.xml#SevAnt">Severus Antiochenus</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:SevAnt">Severus Antiochenus</persName>
+                </author>
+                <title xml:lang="lat">De computanda triduana Christi sepultura</title>
+                <title type="incipit" xml:lang="grc">Τινὲς λέγουσιν ἀπὸ τῆς ἑσπέρας</title>
+@@ -1860,7 +1860,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta091">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">De ligno crucis</title>
+@@ -1875,7 +1875,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta092">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">Fragmentum ex homilia in illud: Confiteor tibi, pater
+@@ -1897,7 +1897,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta093">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">Fragmentum ex homilia in Habacuc (apud Severum
+                         Antiochenum, Liber contra impium Grammaticum III)</title>
+@@ -1912,7 +1912,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta094">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">Fragmentum ex homilia contra haereticos</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -1926,7 +1926,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta095">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">Fragmentum ex homilia de turri</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -1940,7 +1940,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta096">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">Fragmentum ex homilia VII de nativitate</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -1954,7 +1954,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta097">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">Capitulum de redemptione</title>
+                <title type="incipit" xml:lang="syr"/>
+@@ -1968,7 +1968,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta098">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">In Matthaeum</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -1982,7 +1982,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta099">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">Fragmenta varia incerta</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -1996,7 +1996,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta100">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">De duobus testamentis</title>
+@@ -2016,7 +2016,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta101">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -2033,7 +2033,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta102">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -2065,7 +2065,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta104">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -2086,7 +2086,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta105">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">In pentecosten sermo 1</title>
+@@ -2111,7 +2111,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta106">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="high"/>
+                   </persName>
+                </author>
+@@ -2128,8 +2128,8 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta107">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
+-                  <persName ref="Personen.xml#JohChrys-Ps16">Ps.-Johannes Chrysostomus
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:JohChrys-Ps16">Ps.-Johannes Chrysostomus
+                                 16<respons locus="value" resp="#Voicu1981" cert="high"/>
+                   </persName>
+                </author>
+@@ -2146,7 +2146,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta108">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Voicu1990" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">In Samaritanam</title>
+@@ -2163,7 +2163,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta109">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -2184,7 +2184,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta110">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -2200,7 +2200,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta111">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -2218,7 +2218,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta112">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -2236,7 +2236,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta113">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="high"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -2253,7 +2253,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta114">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -2270,7 +2270,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta115">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -2287,7 +2287,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta116">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -2306,7 +2306,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta117">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -2323,7 +2323,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta118">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Voicu1990" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">In illud: Nemo bonus nisi solus deus (Mc 10,18; Lc
+@@ -2340,7 +2340,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta119">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis</persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis</persName>
+                </author>
+                <title xml:lang="lat">Sermo de agricolis in vinea laborantibus (<ref decls="biblical" cRef="GNT:Mt:20:1-16">Mt 20,1sqq.</ref>)</title>
+                <title type="incipit" xml:lang="grc">Οἱ ζωγράφοι ἐπειδὰν ἐν τῇ πόλει</title>
+@@ -2354,7 +2354,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta120">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">In Samaritanam. In illud: Iesus autem fatigatus (<ref decls="biblical" cRef="GNT:Jn:4:6">Joh 4,6</ref>)</title>
+@@ -2370,7 +2370,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta121">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="medium"/>
+                   </persName>
+                </author>
+                <title xml:lang="lat">In sanctam theophaniam</title>
+@@ -2386,7 +2386,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta122">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                </author>
+@@ -2403,7 +2403,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta123">
+                <author>
+-                  <persName cert="unknown" ref="Personen.xml#pta0001">Severianus
++                  <persName cert="unknown" ref="Personen.xml#urn:cts:pta:pta0001">Severianus
+                                 Gabalensis<respons locus="value" resp="#Uthemann1995" cert="low"/>
+                      <respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+@@ -2425,7 +2425,7 @@
+             </bibl>
+             <bibl xml:id="pta0001.pta124">
+                <author>
+-                  <persName ref="Personen.xml#pta0001">Severianus Gabalensis<respons locus="value" resp="#Voicu1990" cert="low"/>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0001">Severianus Gabalensis<respons locus="value" resp="#Voicu1990" cert="low"/>
+                   </persName>
+                   <persName>Gregorius Thaumaturgus</persName>
+                </author>
+@@ -2442,7 +2442,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 1</title>
+                <title type="incipit" xml:lang="grc">Ἠκούσατε τῆς ἀποστολικῆς φωνῆς</title>
+@@ -2456,7 +2456,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta002">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 2</title>
+                <title type="incipit" xml:lang="grc">Τί εἴπω καὶ τί λαλήσω;</title>
+@@ -2470,7 +2470,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta003">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 3</title>
+                <title type="incipit" xml:lang="grc">Ὅταν εἰς τὸν θρόνον ἀπίδω</title>
+@@ -2484,7 +2484,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta004">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 4</title>
+                <title type="incipit" xml:lang="grc">Εὐλογητὸς ὁ Θεὸς, ὁ παρακαλέσας</title>
+@@ -2498,7 +2498,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta005">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 5</title>
+                <title type="incipit" xml:lang="grc">Τῶν τριῶν παίδων καί τῆς Βαβυλωνίας</title>
+@@ -2512,7 +2512,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta006">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 6</title>
+                <title type="incipit" xml:lang="grc">Πολλὰς μὲν ἀνηλώσαμεν ἡμέρας</title>
+@@ -2526,7 +2526,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta007">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 7</title>
+                <title type="incipit" xml:lang="grc">Πολλὰ μὲν καὶ περὶ πολλῶν</title>
+@@ -2540,7 +2540,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta008">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 8</title>
+                <title type="incipit" xml:lang="grc">Ἔγνωτε πρώην πῶς πᾶσα Γραφὴ</title>
+@@ -2554,7 +2554,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta009">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 9</title>
+                <title type="incipit" xml:lang="grc">Καὶ πρώην πρὸς ὑμᾶς</title>
+@@ -2568,7 +2568,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta010">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 10</title>
+                <title type="incipit" xml:lang="grc">Χαίρω καὶ συγχαίρω πᾶσιω ὑμῖν</title>
+@@ -2582,7 +2582,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta011">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 11</title>
+                <title type="incipit" xml:lang="grc">Ἐπειδὰν ἐννοήσω τὸν παρελθόντα
+@@ -2597,7 +2597,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta012">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 12</title>
+                <title type="incipit" xml:lang="grc">Καὶ χθὲς εἶπον, Εὐλογητὸς ὁ Θεὸς</title>
+@@ -2611,7 +2611,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta013">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 13</title>
+                <title type="incipit" xml:lang="grc">Ἀπο τῆς αὐτῆς ἀρχῆς</title>
+@@ -2625,7 +2625,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta014">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 14</title>
+                <title type="incipit" xml:lang="grc">Οὐχ ὡς ἔτυχε τὴν πόλιν</title>
+@@ -2639,7 +2639,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta015">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 15</title>
+                <title type="incipit" xml:lang="grc">Ἔδει καὶ τήμερον καὶ τῷ προτέρῳ</title>
+@@ -2653,7 +2653,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta016">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 16</title>
+                <title type="incipit" xml:lang="grc">Τὸν ἄρχοντα μὲν ἐπῄνεσα</title>
+@@ -2667,7 +2667,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta017">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 17</title>
+                <title type="incipit" xml:lang="grc">Εἰς καιρὸν ὑπεψήλαμεν ἅπαντες κοινῇ
+@@ -2682,7 +2682,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta018">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 18</title>
+                <title type="incipit" xml:lang="grc">Πολλοὺς εἶδον χαίροντας καὶ πρὸς
+@@ -2697,7 +2697,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta019">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 19</title>
+                <title type="incipit" xml:lang="grc">Κατετρυφήσατε τῶν ἁγίων μαρτύρων</title>
+@@ -2711,7 +2711,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta020">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad populum Antiochenum homilia 21</title>
+                <title type="incipit" xml:lang="grc">Ἀπο τῆς ῥήσεως, ἀφ' ἧς ἀεὶ</title>
+@@ -2725,7 +2725,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta021">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad illuminandos catechesis 2</title>
+                <title type="incipit" xml:lang="grc">Τῶν πρώην εἰρημένων πρὸς τὴν ὑμετέραν
+@@ -2740,7 +2740,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta022">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In secundum domini adventum</title>
+                <title type="incipit" xml:lang="grc">Ἐνόμιζον (uel Νομίζω) μεγάλα τινὰ καὶ
+@@ -2755,7 +2755,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta023">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Eutropium</title>
+                <title type="incipit" xml:lang="grc">Ἀεὶ μὲν μάλιστα δὲ νῦν εὔκαιρον</title>
+@@ -2769,7 +2769,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta024">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Homilia de capto Eutropio</title>
+                <title type="incipit" xml:lang="grc">Ἡδὺς (uel Ἡδὺ) μὲν λειμὼν καὶ
+@@ -2784,7 +2784,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta025">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In dictum Pauli: Nolo vos ignorare</title>
+                <title type="incipit" xml:lang="grc">Οἱ ναῦται τοῦτο μάλιστα φιλοῦσι</title>
+@@ -2798,7 +2798,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta026">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De baptismo Christi</title>
+                <title type="incipit" xml:lang="grc">Πάντες (μὲν) ὑμεῖς ἐν εὐθυμίᾳ
+@@ -2813,7 +2813,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta027">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In s. Bassum</title>
+                <title type="incipit" xml:lang="grc">Ἔδει μὲν ἡμᾶς τοσαύτης λόγων πηγῆς</title>
+@@ -2827,7 +2827,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta028">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De terrae motu</title>
+                <title type="incipit" xml:lang="grc">Εἰ καὶ ἡμᾶς ἡ ἀρρωστία ἐκώλυσε
+@@ -2842,7 +2842,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta029">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In publicanum et pharisaeum (= exc. ex de
+                         incomprehensibili hom. 5)</title>
+@@ -2857,7 +2857,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta030">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De profectu evangelii</title>
+                <title type="incipit" xml:lang="grc">Τοῦ Φαρισαίου καὶ τοῦ τελώνου</title>
+@@ -2871,7 +2871,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta031">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In illud: Attendite ne eleemosynam</title>
+                <title type="incipit" xml:lang="grc">Οἱ σοφοὶ καὶ ἐπιστήμονες τῆς γεοργίας
+@@ -2886,7 +2886,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta032">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De resurrectione mortuorum</title>
+                <title type="incipit" xml:lang="grc">Περὶ δογμάτων ὑμῖν ἔμπροσθεν
+@@ -2901,7 +2901,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta033">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In epistulam ad Hebraeos homilia 31</title>
+                <title type="incipit" xml:lang="grc">Εἰρήνην διώκετε μετὰ πάντων</title>
+@@ -2916,7 +2916,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta034">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ecloga de compunctione et patientia homilia 44</title>
+                <title type="incipit" xml:lang="grc">Παρακαλῶ ὑμᾶς, ἀδελφοὶ, μὴ μόνον</title>
+@@ -2930,7 +2930,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta035">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In illud: hoc scitote quod in novissimis diebus</title>
+                <title type="incipit" xml:lang="grc">Ἀσθενὴς μέν εἰμι καὶ πτωχός</title>
+@@ -2944,7 +2944,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta036">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ιn illud: ne timueritis cum dives factus fuerit
+                         homo</title>
+@@ -2960,7 +2960,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta037">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In epistulam ad Hebraeos homilia 20</title>
+                <title type="incipit" xml:lang="grc">Ἑκουσίως γὰρ ἁμαρτανόντων ἡμῶν</title>
+@@ -2975,7 +2975,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta038">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Psalmum 50 homilia 1</title>
+                <title type="incipit" xml:lang="grc">Οἱ ζωγράφοι μιμοῦνται τῇ τέχνῃ τὴν
+@@ -2990,7 +2990,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta039">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Psalmum 50 homilia 2</title>
+                <title type="incipit" xml:lang="grc">Τὰ λείψανα τῆς χθεσινῆς τραπέζης</title>
+@@ -3004,7 +3004,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta040">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De paenitentia et in lectionem de Davide et de uxore
+                         Uriae</title>
+@@ -3020,7 +3020,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta041">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Johannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Johannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Expositio in Psalmum 41</title>
+                <title type="incipit" xml:lang="grc">Ὑμεῖς μὲν ἡμᾶς ἐθαυμάζετε - αὐτὰς ἐπᾴδειν
+@@ -3035,7 +3035,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta042">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In natale Domini et in S. Mariam genitricem</title>
+                <title type="incipit" xml:lang="grc">Ἀδιήγητον πέλαγος δι' αἰῶνος</title>
+@@ -3050,7 +3050,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta043">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In natalem Christi diem</title>
+                <title type="incipit" xml:lang="grc">Μυστήριον ξένον καὶ παράδοξον βλέπω,
+@@ -3065,7 +3065,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta044">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In S. Stephanum</title>
+                <title type="incipit" xml:lang="grc">Πάντες μὲν οἱ τῶν μαρτύρων ἀγῶνες
+@@ -3080,7 +3080,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta045">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Sanctum Stephanum</title>
+                <title type="incipit" xml:lang="grc">Νόμος ἐστὶν ἐν τοῖς γυμνικοῖς
+@@ -3096,7 +3096,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta046">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Lazarum, Homilia 1</title>
+                <title type="incipit" xml:lang="grc">Πᾶσα ἔνθεος (uel: μὲν ἐν θεῷ) διδασκαλία
+@@ -3111,7 +3111,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta047">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In ramos palmarum</title>
+                <title type="incipit" xml:lang="grc">Ἐκ θαυμάτων ἐπὶ θαύματα τοῦ κυρίου
+@@ -3126,7 +3126,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta048">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In sancta et magna Parasceue</title>
+                <title type="incipit" xml:lang="grc">Πεπλήρωται ἡμῖν λοιπὸν ὁ νηστείας
+@@ -3141,7 +3141,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta049">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Appendices</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -3155,7 +3155,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta050">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In omnes sanctos</title>
+                <title type="incipit" xml:lang="grc">Δεῦτε σήμερον, ἀδελφοί (uel ἀγαπητοί) τῶν
+@@ -3171,7 +3171,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta051">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In natale S. Iohannis prophetae</title>
+                <title type="incipit" xml:lang="grc">(Ἀγαπητοί,) Εὔκαιρος ἡμέρα ἑορτῆς καὶ
+@@ -3186,7 +3186,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta052">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Petrum et Paulum sermo</title>
+                <title type="incipit" xml:lang="grc">Οὐρανοῦ καὶ γῆς ἅμιλλαν ὁρῶ διὰ τὴν
+@@ -3201,7 +3201,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta053">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Parabolam de filio prodigo</title>
+                <title type="incipit" xml:lang="grc">Ἀεὶ μὲν(ἀδελφοὶ)τὴν τοῦ θεοῦ (uel κυρίου)
+@@ -3216,7 +3216,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta054">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De Sancta Trinitate</title>
+                <title type="incipit" xml:lang="grc">Ὁι κατὰ τῆς ἁγίας καὶ ὁμοουσίου
+@@ -3231,7 +3231,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta055">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De patientia et de consummatione huius saeculi </title>
+                <title type="incipit" xml:lang="grc">Λαμπρὸς ὁ βίος τῶν δικαίων</title>
+@@ -3245,7 +3245,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta056">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Adam Et In Sodomitas </title>
+                <title type="incipit" xml:lang="grc">Τὸν τοῦ χρόνου λογιζόμενος δρόμον</title>
+@@ -3260,7 +3260,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta057">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In S. Lucianum mart.</title>
+                <title type="incipit" xml:lang="grc">Ὅπερ χθὲς ἐδεδοίκεν ἐξέβη</title>
+@@ -3274,7 +3274,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta058">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Illud: Habentes Eundem Spiritum Homiliae 1-3</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -3288,7 +3288,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta059">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Peccata Fratrum Non Euulgandα</title>
+                <title type="incipit" xml:lang="grc">Μακαρίζω τῆς σπουδῆς ὑμᾶς</title>
+@@ -3302,7 +3302,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta060">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Non Esse Desperandum</title>
+                <title type="incipit" xml:lang="grc">Πολλὰς ὑμῖν ἔχω χάριτας</title>
+@@ -3316,7 +3316,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta061">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In illud: In faciem ei restiti</title>
+                <title type="incipit" xml:lang="grc">Μίαν ὑμῶν ἀπελείφθην ἡμέραν</title>
+@@ -3330,7 +3330,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta062">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De angusta porta et in orationem dominicam</title>
+                <title type="incipit" xml:lang="grc">Πάσης μὲν θεοπνεύστου γραφῆς</title>
+@@ -3344,7 +3344,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta063">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat"> In illud: Uidua eligatur </title>
+                <title type="incipit" xml:lang="grc">Εἰς καιρὸν ἡ τοῦ πνεύματος</title>
+@@ -3358,7 +3358,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta064">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Illud : Propter fornicationes uxorem </title>
+                <title type="incipit" xml:lang="grc">Πρὸς τὰς τοῦ μέλιτος πηγάς </title>
+@@ -3372,7 +3372,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta065">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De libello repudii</title>
+                <title type="incipit" xml:lang="grc">Περὶ γάμου πρώην</title>
+@@ -3386,7 +3386,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta066">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Quales Ducendae Sint Uxores</title>
+                <title type="incipit" xml:lang="grc">Ὅτι μὲν ἀπελείφθην ὑμῶν</title>
+@@ -3400,7 +3400,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta067">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De Incomprehensibili Dei Natura Homiliae 1-5
+                         (Auszug)</title>
+@@ -3416,7 +3416,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta068">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De perfecta caritate</title>
+                <title type="incipit" xml:lang="grc">Πᾶσα πρᾶξις ἀγαθὴ καρπὸς ἀγάπης
+@@ -3431,7 +3431,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta069">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De S. Meletio Antiocheno</title>
+                <title type="incipit" xml:lang="grc">Πανταχοῦ τῆς ἱερᾶς ταύτης ἀγέλης</title>
+@@ -3445,7 +3445,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta070">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat"> In Illud : Verumtamen frustra conturbatur </title>
+                <title type="incipit" xml:lang="grc">Προτρέπεται καὶ κόλπος βύθιος ἁλιέα</title>
+@@ -3459,7 +3459,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta071">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Thema: Eleemosyna </title>
+                <title type="incipit" xml:lang="grc">Οἱ λειμῶνες ἔχουσι ποικίλα καὶ διάφορα
+@@ -3474,7 +3474,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta072">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Illud: Si Enim Dimiseritis Hominibus Peccata
+                         Eorum</title>
+@@ -3491,7 +3491,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta073">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Epistulam I ad Thessalonicenses homiliae 1-11</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -3506,7 +3506,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta074">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In S. Eustathium Antiochenum</title>
+                <title type="incipit" xml:lang="grc">Σοφός τις ἀνὴρ καὶ φιλοσοφεῖν</title>
+@@ -3520,7 +3520,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta075">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Epistulam Ad Hebraeos Argumentum Et Homiliae 1-34 </title>
+                <title type="incipit" xml:lang="grc">ῥωμαίοις γράφων ὁ μακάριος</title>
+@@ -3535,7 +3535,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta076">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De Lazaro Conciones 1-7 (hom. 7)</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -3549,7 +3549,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta077">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Iohannes Chrysostomus, In Genesim Sermones 1-9</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -3563,7 +3563,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta078">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Iohannes Chrysostomus, De ligno scientiae (In Genesim
+                         Sermo 7)</title>
+@@ -3578,7 +3578,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta079">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De decem millium talentorum debitore</title>
+                <title type="incipit" xml:lang="grc">Ὡς ἐκ μακρᾶς ἀποδημίας ἐπανελθών</title>
+@@ -3592,7 +3592,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta080">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In illud: Simile est regnum caelorum patri
+                         familias</title>
+@@ -3608,7 +3608,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta081">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Cum Saturninus et Aurelianus</title>
+                <title type="incipit" xml:lang="grc">Πολὺν ἐσίγησα χρόνον</title>
+@@ -3622,7 +3622,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta082">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Quod nemo laeditur nisi a seipso</title>
+                <title type="incipit" xml:lang="grc">Oἶδα μὲν ὅτι τοῖς παχυτέροις</title>
+@@ -3637,7 +3637,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta083">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De beato Philogonio</title>
+                <title type="incipit" xml:lang="grc">Ἐγὼ μὲν καὶ τήμερον παρεσκευαζόμην</title>
+@@ -3651,7 +3651,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta084">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">in illud : Dominus regnavit et in illud: Dies diei dicit
+                         verbum</title>
+@@ -3666,7 +3666,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta085">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">in epist. I. ad Corinthios homilia IX</title>
+                <title type="incipit" xml:lang="grc">Οὐ μικρὸν ἡμῖν τὸ προκείμενον</title>
+@@ -3681,7 +3681,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta086">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De futurae vitae deliciis</title>
+                <title type="incipit" xml:lang="grc">σφοδρὸν τὸ καῦμα</title>
+@@ -3695,7 +3695,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta087">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Contra eos qui subintroductas habent uirgines</title>
+                <title type="incipit" xml:lang="grc">ἐπὶ μὲν τῶν προγόνων τῶν ἡμετέρων</title>
+@@ -3710,7 +3710,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta088">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Quod Regulares Feminae Uiris Cohabitare Non
+                         Debeant</title>
+@@ -3726,7 +3726,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta089">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In martyres Aegyptios</title>
+                <title type="incipit" xml:lang="grc">εὐλογητὸς ὁ θεὸς, ὅτι καὶ ἐξ
+@@ -3741,7 +3741,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta090">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In illud: Diligentibus deum omnia cooperantur in
+                         bonum</title>
+@@ -3756,7 +3756,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta091">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De inani gloria et de educandis liberis</title>
+                <title type="incipit" xml:lang="grc">Ἆρά τις ἐποίησεν ὅπερ ἠξίωσα;</title>
+@@ -3771,7 +3771,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta092">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De virginitate</title>
+                <title type="incipit" xml:lang="grc">Τὸ τῆς παρθενίας καλὸν</title>
+@@ -3786,7 +3786,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta093">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Kalendas</title>
+                <title type="incipit" xml:lang="grc">Καθάπερ χὸρος τὸν κορυφαῖον</title>
+@@ -3800,7 +3800,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta094">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Principium Actorum Homilia 2 </title>
+                <title type="incipit" xml:lang="grc">Διά χρόνου πρὸς τὴν μητέρα ἡμῶν</title>
+@@ -3814,7 +3814,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta095">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Principium Actorum Homilia 3 </title>
+                <title type="incipit" xml:lang="grc">ὅταν μὲν εἰς τὴν πτωχείαν τῆς
+@@ -3829,7 +3829,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta096">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Principium Actorum Homilia 4 </title>
+                <title type="incipit" xml:lang="grc">Τὸ μὲν πλέον τοῦ χρέους τοῦ
+@@ -3844,7 +3844,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta097">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Contra theatra sermo</title>
+                <title type="incipit" xml:lang="grc">Πολλοὺς οἶμαι τῶν πρώην καταλιπόντων ἡμᾶς </title>
+@@ -3858,7 +3858,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta098">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Epistulam I ad Thessalonicenses homiliae 1-11</title>
+                <title type="incipit" xml:lang="grc">Τί δή ποτε ἐφεσίοις μὲν</title>
+@@ -3873,7 +3873,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta099">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Epistulam 2 Ad Thessalonicenses Homiliae 1-5 </title>
+                <title type="incipit" xml:lang="grc">Εἰπὼν ἐν τῆ προτέρα ἐπιστολῆ</title>
+@@ -3888,7 +3888,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta100">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Epistulam 1 Ad Timotheum Argumentum Et Homiliae
+                         1-18</title>
+@@ -3904,7 +3904,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta101">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Epistulam 2 Ad Timotheum Homiliae 1-10</title>
+                <title type="incipit" xml:lang="grc">Τί δή ποτε δευτέραν</title>
+@@ -3919,7 +3919,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta102">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Epistulam Ad Titum Homiliae 1-6</title>
+                <title type="incipit" xml:lang="grc">Τῶν παύλω συνόντων δόκιμος</title>
+@@ -3934,7 +3934,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta103">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Epistulam Ad Philemonem Argumentum Et Homiliae
+                         1-3</title>
+@@ -3951,7 +3951,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta104">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De diabolo tentatore homiliae 1-3</title>
+                <title type="incipit" xml:lang="grc">εγὼ μὲν ἤλπιζον τῆ συνχεία τῆς διαλέξεως
+@@ -3966,7 +3966,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta105">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Illud Isaiae: Ego Dominus Deus Feci Lumen</title>
+                <title type="incipit" xml:lang="grc">Ὀλίγα μὲν τὰ εἰρημένα</title>
+@@ -3980,7 +3980,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta106">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De Precatione, Orationes 1-2</title>
+                <title type="incipit" xml:lang="grc">ἀμφοτέρων ἕνεκα προσήκει τοῦ τοῦ θεοῦ
+@@ -3995,7 +3995,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta107">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Non Esse Ad Gratiam Concionandum</title>
+                <title type="incipit" xml:lang="grc">ἱκανῶς ὑμῶν οἶμαι καθηψάμεθα</title>
+@@ -4009,7 +4009,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta108">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">Ad uiduam iuniorem</title>
+                <title type="incipit" xml:lang="grc">ὅτι μὲν χαλεπὴν ἔλαβες τὴν πληγὴν</title>
+@@ -4024,7 +4024,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta109">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De Non Iterando Coniugio</title>
+                <title type="incipit" xml:lang="grc">τὸ μὲν τὰς ἀπείρους ὁμιλίας</title>
+@@ -4039,7 +4039,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta110">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In Dictum Pauli: Oportet Haereses Esse</title>
+                <title type="incipit" xml:lang="grc">ἱκανῶς πρώην ἡμῖν διεθερμάνθη</title>
+@@ -4053,7 +4053,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta111">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De Christi diuinitate (Contra Anomoeos homilia 12)</title>
+                <title type="incipit" xml:lang="grc">εὐλογητὸς ὁ θεός·καθ'ἐκάστην
+@@ -4070,7 +4070,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta112">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">De Lazaro concio 5</title>
+                <title type="incipit" xml:lang="grc">ἡμέρας τέσσαρας ἀνηλώσαμεν τὴν κατὰ τὸν
+@@ -4085,7 +4085,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta113">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In illud : Vidi Dominum, homilia 1</title>
+                <title type="incipit" xml:lang="grc">Πολλὴν ὁρῶ τὴν σπουδὴν ἐνδεικνυμένους (Inc.
+@@ -4102,7 +4102,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta114">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In illud : Vidi Dominum, homilia 4</title>
+                <title type="incipit" xml:lang="grc">Λαμπρὸν ἡμῖν τήμερον τὸ θέατρον γέγονε καὶ
+@@ -4119,7 +4119,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta115">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In illud : Vidi Dominum, homilia 5</title>
+                <title type="incipit" xml:lang="grc">Φέρε τήμερον (vel δὴ σήμερον) τοῖς κατὰ τὸν
+@@ -4136,7 +4136,7 @@
+             </bibl>
+             <bibl xml:id="pta0002.pta116">
+                <author>
+-                  <persName ref="Personen.xml#pta0002">Iohannes Chrysostomus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0002">Iohannes Chrysostomus </persName>
+                </author>
+                <title xml:lang="lat">In illud : Vidi Dominum, homilia 6</title>
+                <title type="incipit" xml:lang="grc">Μόλις ποτὲ τὸ κατὰ τὸν Ὀζίαν διεπλεύσαμεν
+@@ -4153,7 +4153,7 @@
+             </bibl>
+             <bibl xml:id="pta0003.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0003">Andreas Cretensis </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0003">Andreas Cretensis </persName>
+                </author>
+                <title xml:lang="lat">In natiuitatem B. Mariae I</title>
+                <title type="incipit" xml:lang="grc">Ἀρχὴ μὲν ἡμῖν ἑορτῶν ἡ παροῦσα
+@@ -4168,7 +4168,7 @@
+             </bibl>
+             <bibl xml:id="pta0003.pta002">
+                <author>
+-                  <persName ref="Personen.xml#pta0003">Andreas Cretensis </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0003">Andreas Cretensis </persName>
+                </author>
+                <title xml:lang="lat">In exaltationem S. Crucis I</title>
+                <title type="incipit" xml:lang="grc">Σταυροῦ πανήγυριν ἄγομεν</title>
+@@ -4182,7 +4182,7 @@
+             </bibl>
+             <bibl xml:id="pta0003.pta003">
+                <author>
+-                  <persName ref="Personen.xml#pta0003">Andreas Cretensis </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0003">Andreas Cretensis </persName>
+                </author>
+                <title xml:lang="lat">In exaltationem S. Crucis IΙ</title>
+                <title type="incipit" xml:lang="grc">Κινήσωμεν, ἀγαπητοί, σήμερον ὡς κινύραν τὰ
+@@ -4197,7 +4197,7 @@
+             </bibl>
+             <bibl xml:id="pta0003.pta004">
+                <author>
+-                  <persName ref="Personen.xml#pta0003">Andreas Cretensis </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0003">Andreas Cretensis </persName>
+                </author>
+                <title xml:lang="lat">In annuntiationem B.M.V.</title>
+                <title type="incipit" xml:lang="grc">Ἐπέστη σήμερον ἡ πάντων χαρά</title>
+@@ -4211,7 +4211,7 @@
+             </bibl>
+             <bibl xml:id="pta0003.pta005">
+                <author>
+-                  <persName ref="Personen.xml#pta0003">Andreas Cretensis </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0003">Andreas Cretensis </persName>
+                </author>
+                <title xml:lang="lat">In dormitionem S. Mariae II</title>
+                <title type="incipit" xml:lang="grc">Μυστήριον ἡ παροῦσα πανήγυρις</title>
+@@ -4225,7 +4225,7 @@
+             </bibl>
+             <bibl xml:id="pta0004.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0004">Theodorus Studita </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0004">Theodorus Studita </persName>
+                </author>
+                <title xml:lang="lat">Homilia In natiuitatem B.M.V.</title>
+                <title type="incipit" xml:lang="grc">Λαμπρῶς πανηγυρίζει ἡ κτίσις
+@@ -4240,7 +4240,7 @@
+             </bibl>
+             <bibl xml:id="pta0005.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0005">Georgius Nicomediensis mtr. </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0005">Georgius Nicomediensis mtr. </persName>
+                </author>
+                <title xml:lang="lat">In Deiparae ingressum in templum 1-2</title>
+                <title type="incipit" xml:lang="grc">Καλὰς (uel Πολλὰς) ἡμῖν ὑποθέσεων ἀρχὰς ἡ
+@@ -4255,7 +4255,7 @@
+             </bibl>
+             <bibl xml:id="pta0006.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0006">Germanus CP. ptr. I </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0006">Germanus CP. ptr. I </persName>
+                </author>
+                <title xml:lang="lat">In praesentationem Deiparae 2</title>
+                <title type="incipit" xml:lang="grc">Ἰδοὺ καὶ πάλιν ἑτέρα πανήγυρις</title>
+@@ -4269,7 +4269,7 @@
+             </bibl>
+             <bibl xml:id="pta0006.pta002">
+                <author>
+-                  <persName ref="Personen.xml#pta0006">Germanus CP. ptr. I </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0006">Germanus CP. ptr. I </persName>
+                </author>
+                <title xml:lang="lat">In Dormitionem Deiparae 3</title>
+                <title type="incipit" xml:lang="grc">Φήνη καλὴ καὶ ἀγαθή</title>
+@@ -4283,7 +4283,7 @@
+             </bibl>
+             <bibl xml:id="pta0007.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0007">Gregorius Nazianzenus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0007">Gregorius Nazianzenus </persName>
+                </author>
+                <title xml:lang="lat">In Theophania (or.38)</title>
+                <title type="incipit" xml:lang="grc">Χριστὸς γεννᾶται, δξάσατε.Χριστὸς ἐξ
+@@ -4299,7 +4299,7 @@
+             </bibl>
+             <bibl xml:id="pta0007.pta002">
+                <author>
+-                  <persName ref="Personen.xml#pta0007">Gregorius Nazianzenus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0007">Gregorius Nazianzenus </persName>
+                </author>
+                <title xml:lang="lat">In Sancta Lumina (or.39)</title>
+                <title type="incipit" xml:lang="grc">siehe SChr 358</title>
+@@ -4314,7 +4314,7 @@
+             </bibl>
+             <bibl xml:id="pta0007.pta003">
+                <author>
+-                  <persName ref="Personen.xml#pta0007">Gregorius Nazianzenus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0007">Gregorius Nazianzenus </persName>
+                </author>
+                <title xml:lang="lat">In Sanctum Pascha et in tarditatem (or.1)</title>
+                <title type="incipit" xml:lang="grc">siehe SChr 347</title>
+@@ -4329,7 +4329,7 @@
+             </bibl>
+             <bibl xml:id="pta0007.pta004">
+                <author>
+-                  <persName ref="Personen.xml#pta0007">Gregorius Nazianzenus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0007">Gregorius Nazianzenus </persName>
+                </author>
+                <title xml:lang="lat">In Nouam Dominicam (or.44)</title>
+                <title type="incipit" xml:lang="grc">Εγκαίνια τιμᾶσθαι παλαιὸς νόμος</title>
+@@ -4343,7 +4343,7 @@
+             </bibl>
+             <bibl xml:id="pta0007.pta005">
+                <author>
+-                  <persName ref="Personen.xml#pta0007">Gregorius Nazianzenus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0007">Gregorius Nazianzenus </persName>
+                </author>
+                <title xml:lang="lat">In Pentecosten (or.41)</title>
+                <title type="incipit" xml:lang="grc">siehe SChr 358</title>
+@@ -4358,7 +4358,7 @@
+             </bibl>
+             <bibl xml:id="pta0008.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0008">Leontius CP. presbyter </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0008">Leontius CP. presbyter </persName>
+                </author>
+                <title xml:lang="lat">Hom. 12 in natiuitatem</title>
+                <title type="incipit" xml:lang="grc">Πολλαὶ μὲν καὶ ἀναρίθμητοι τῶν
+@@ -4374,7 +4374,7 @@
+             </bibl>
+             <bibl xml:id="pta0008.pta002">
+                <author>
+-                  <persName ref="Personen.xml#pta0008">Leontius CP. presbyter </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0008">Leontius CP. presbyter </persName>
+                </author>
+                <title xml:lang="lat">Hom. 3 In ramos palmarum</title>
+                <title type="incipit" xml:lang="grc">BHG oder unten</title>
+@@ -4389,7 +4389,7 @@
+             </bibl>
+             <bibl xml:id="pta0008.pta003">
+                <author>
+-                  <persName ref="Personen.xml#pta0008">Leontius CP. presbyter </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0008">Leontius CP. presbyter </persName>
+                </author>
+                <title xml:lang="lat">Hom. 9 In Resurrectionem Domini</title>
+                <title type="incipit" xml:lang="grc">Εὔκαιρον καὶ παναρμόνιον καὶ πρέπον</title>
+@@ -4404,7 +4404,7 @@
+             </bibl>
+             <bibl xml:id="pta0008.pta004">
+                <author>
+-                  <persName ref="Personen.xml#pta0008">Leontius CP. presbyter </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0008">Leontius CP. presbyter </persName>
+                </author>
+                <title xml:lang="lat">Hom. 14 In Transfigurationem Domini</title>
+                <title type="incipit" xml:lang="grc">Ἤκουες (uel: Ἀκούσατε) τοῦ δεσπότου
+@@ -4420,7 +4420,7 @@
+             </bibl>
+             <bibl xml:id="pta0009.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0009">Proclus Constantinopolitanus
++                  <persName ref="Personen.xml#urn:cts:pta:pta0009">Proclus Constantinopolitanus
+                         </persName>
+                </author>
+                <title xml:lang="lat">Hom 4 : In Natalem Diem Domini</title>
+@@ -4436,7 +4436,7 @@
+             </bibl>
+             <bibl xml:id="pta0009.pta002">
+                <author>
+-                  <persName ref="Personen.xml#pta0009">Proclus Constantinopolitanus
++                  <persName ref="Personen.xml#urn:cts:pta:pta0009">Proclus Constantinopolitanus
+                         </persName>
+                </author>
+                <title xml:lang="lat">Hom. in Christi Natalem Diem</title>
+@@ -4452,7 +4452,7 @@
+             </bibl>
+             <bibl xml:id="pta0009.pta003">
+                <author>
+-                  <persName ref="Personen.xml#pta0009">Proclus Constantinopolitanus
++                  <persName ref="Personen.xml#urn:cts:pta:pta0009">Proclus Constantinopolitanus
+                         </persName>
+                </author>
+                <title xml:lang="lat">Hom 17 : In laudem S. Stephani</title>
+@@ -4468,7 +4468,7 @@
+             </bibl>
+             <bibl xml:id="pta0010.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0010">Gregorius Nyssenus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0010">Gregorius Nyssenus </persName>
+                </author>
+                <title xml:lang="lat">Encomium in S. Stephanum protomartyrem I</title>
+                <title type="incipit" xml:lang="grc">Ὡς καλὴ τῶν ἀγαθῶν ἡ ἀκολουθία</title>
+@@ -4483,7 +4483,7 @@
+             </bibl>
+             <bibl xml:id="pta0011.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0011">Αnonymus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0011">Αnonymus </persName>
+                </author>
+                <title xml:lang="lat">Stephanus diaconus protomartyr (S.), Passio + Revelatio +
+                         Translatio</title>
+@@ -4499,7 +4499,7 @@
+             </bibl>
+             <bibl xml:id="pta0012.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0012">Gregorius Antiochenus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0012">Gregorius Antiochenus </persName>
+                </author>
+                <title xml:lang="lat">Homilia I In S. Theophania</title>
+                <title type="incipit" xml:lang="grc">Ἄνδρες φιλόχριστοι καὶ φιλόξενοι καὶ
+@@ -4514,7 +4514,7 @@
+             </bibl>
+             <bibl xml:id="pta0012.pta002">
+                <author>
+-                  <persName ref="Personen.xml#pta0012">Gregorius Antiochenus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0012">Gregorius Antiochenus </persName>
+                </author>
+                <title xml:lang="lat">Homilia II in S. Theophania</title>
+                <title type="incipit" xml:lang="grc">Ἑορτάσαι θέλω, ἀγαπητοί, καὶ
+@@ -4529,7 +4529,7 @@
+             </bibl>
+             <bibl xml:id="pta0012.pta003">
+                <author>
+-                  <persName ref="Personen.xml#pta0012">Gregorius Antiochenus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0012">Gregorius Antiochenus </persName>
+                </author>
+                <title xml:lang="lat">In Illud : Hic est filius meus</title>
+                <title type="incipit" xml:lang="grc">Ὁ μὲν φιλόστοργος οὗτος πατήρ, διὰ τὴν περὶ
+@@ -4544,7 +4544,7 @@
+             </bibl>
+             <bibl xml:id="pta0013.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0013">Amphilochius Iconiensis </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0013">Amphilochius Iconiensis </persName>
+                </author>
+                <title xml:lang="lat">In Occursum Domini</title>
+                <title type="incipit" xml:lang="grc">Πολλοὶ τῶν μεγάλων ἀνθρώπων τὴν
+@@ -4561,7 +4561,7 @@
+             </bibl>
+             <bibl xml:id="pta0013.pta002">
+                <author>
+-                  <persName ref="Personen.xml#pta0013">Amphilochius Iconiensis </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0013">Amphilochius Iconiensis </persName>
+                </author>
+                <title xml:lang="lat">Vita et miracula S. Basilii Magni</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -4576,7 +4576,7 @@
+             </bibl>
+             <bibl xml:id="pta0013.pta003">
+                <author>
+-                  <persName ref="Personen.xml#pta0013">Amphilochius Iconiensis </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0013">Amphilochius Iconiensis </persName>
+                </author>
+                <title xml:lang="lat">Epistula synodalis</title>
+                <title type="incipit" xml:lang="grc">Καὶ πρὶν κομίζεσθαι τὰ παρὰ τῆς ἀγάπης ὑμῶν</title>
+@@ -4592,7 +4592,7 @@
+             </bibl>
+             <bibl xml:id="pta0014.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0014">Hesychius Hierosolymitanus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0014">Hesychius Hierosolymitanus </persName>
+                </author>
+                <title xml:lang="lat">Homilia In Hypapanten I</title>
+                <title type="incipit" xml:lang="grc">Ἡ μὲν ἑορτὴ λέγεται καθαρσίων</title>
+@@ -4608,7 +4608,7 @@
+             </bibl>
+             <bibl xml:id="pta0014.pta002">
+                <author>
+-                  <persName ref="Personen.xml#pta0014">Hesychius Hierosolymitanus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0014">Hesychius Hierosolymitanus </persName>
+                </author>
+                <title xml:lang="lat">Homiliae In Resurrectionem Lazari 1-2</title>
+                <title type="incipit" xml:lang="grc">Δεῖπνον ἡμῖν πολυτελές</title>
+@@ -4624,7 +4624,7 @@
+             </bibl>
+             <bibl xml:id="pta0015.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0015">Theophilus Alexandrinus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0015">Theophilus Alexandrinus </persName>
+                </author>
+                <title xml:lang="lat">Homilia In Mysticam Coenam</title>
+                <title type="incipit" xml:lang="grc">Τί τερπνότερον καὶ τί ἡδύτερον τοῖς
+@@ -4639,7 +4639,7 @@
+             </bibl>
+             <bibl xml:id="pta0016.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0016">Epiphanius Constantiensis </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0016">Epiphanius Constantiensis </persName>
+                </author>
+                <title xml:lang="lat">In Diuini Corporis sepulturam</title>
+                <title type="incipit" xml:lang="grc">Τί τοῦτο; σήμερον σιγὴ πολλὴ ἐν τῇ
+@@ -4654,7 +4654,7 @@
+             </bibl>
+             <bibl xml:id="pta0017.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0017">Anatolius Thessalonicensis ep.
++                  <persName ref="Personen.xml#urn:cts:pta:pta0017">Anatolius Thessalonicensis ep.
+                         </persName>
+                </author>
+                <title xml:lang="lat">De decollatione Iohannis Baptistae Or.3 seu In saltationem
+@@ -4671,7 +4671,7 @@
+             </bibl>
+             <bibl xml:id="pta0018.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0018">Αnonymus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0018">Αnonymus </persName>
+                </author>
+                <title xml:lang="lat">Demetrius m. Thessalonicae (S.), Passio</title>
+                <title type="incipit" xml:lang="grc">Μαξιμιανὸς ὁ καὶ Ἑρκούλιος, ὑποτάξας Γόθους
+@@ -4686,7 +4686,7 @@
+             </bibl>
+             <bibl xml:id="pta0019.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0019">Iohannes Thessalonicensis mtr.
++                  <persName ref="Personen.xml#urn:cts:pta:pta0019">Iohannes Thessalonicensis mtr.
+                         </persName>
+                </author>
+                <title xml:lang="lat">Miracula S. Demetrii</title>
+@@ -4702,7 +4702,7 @@
+             </bibl>
+             <bibl xml:id="pta0020.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0020">Anonymus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0020">Anonymus </persName>
+                </author>
+                <title xml:lang="lat">Homiliae uariae</title>
+                <title type="incipit" xml:lang="grc">Ἀλλ' ἐκτὸς ἐν τῇ δρυὶ τῇ Μαμβρί, εἶδε καὶ
+@@ -4717,7 +4717,7 @@
+             </bibl>
+             <bibl xml:id="pta0021.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0021">Basilius Caesariensis </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0021">Basilius Caesariensis </persName>
+                </author>
+                <title xml:lang="lat">In Sanctam Trinitatem</title>
+                <title type="incipit" xml:lang="grc">Ἐπίγνωσις πατρός</title>
+@@ -4731,7 +4731,7 @@
+             </bibl>
+             <bibl xml:id="pta0021.pta002">
+                <author>
+-                  <persName ref="Personen.xml#pta0021">Basilius Caesariensis </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0021">Basilius Caesariensis </persName>
+                </author>
+                <title xml:lang="lat">Confessio Fidei</title>
+                <title type="incipit" xml:lang="grc">Μικρὰ μὲν ὑμῖν τῆς ἐκκλησιαστικῆς
+@@ -4746,7 +4746,7 @@
+             </bibl>
+             <bibl xml:id="pta0022.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0022">Athanasius Alexandrinus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0022">Athanasius Alexandrinus </persName>
+                </author>
+                <title xml:lang="lat">Epistulae Ad Serapionem 1</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -4760,7 +4760,7 @@
+             </bibl>
+             <bibl xml:id="pta0022.pta002">
+                <author>
+-                  <persName ref="Personen.xml#pta0022">Athanasius Alexandrinus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0022">Athanasius Alexandrinus </persName>
+                </author>
+                <title xml:lang="lat">Epistulae Ad Serapionem 3</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -4774,7 +4774,7 @@
+             </bibl>
+             <bibl xml:id="pta0022.pta003">
+                <author>
+-                  <persName ref="Personen.xml#pta0022">Athanasius Alexandrinus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0022">Athanasius Alexandrinus </persName>
+                </author>
+                <title xml:lang="lat">Epistulae Ad Serapionem 4</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -4788,7 +4788,7 @@
+             </bibl>
+             <bibl xml:id="pta0022.pta004">
+                <author>
+-                  <persName ref="Personen.xml#pta0022">Athanasius Alexandrinus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0022">Athanasius Alexandrinus </persName>
+                </author>
+                <title xml:lang="lat">In annuntiationem Deiparae </title>
+                <title type="incipit" xml:lang="grc">Τοὺς θείους ἱεροκήρυκας οὐ πρὸς τὴν
+@@ -4803,7 +4803,7 @@
+             </bibl>
+             <bibl xml:id="pta0022.pta005">
+                <author>
+-                  <persName ref="Personen.xml#pta0022">Athanasius Alexandrinus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0022">Athanasius Alexandrinus </persName>
+                </author>
+                <title xml:lang="lat">Quaestio 137 Ad Antiochum Ducem </title>
+                <title type="incipit" xml:lang="grc">Χριστιανῶν τε καὶ Ἰουδαίων Χριστὸν
+@@ -4818,7 +4818,7 @@
+             </bibl>
+             <bibl xml:id="pta0023.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0023">Anonymus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0023">Anonymus </persName>
+                </author>
+                <title xml:lang="lat">Synaxarium </title>
+                <title type="incipit" xml:lang="grc">Τῇ παρασκευῇ τῆς Διακαινησίμου τὰ ἐγκαίνια
+@@ -4833,7 +4833,7 @@
+             </bibl>
+             <bibl xml:id="pta0024.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0024">Ephraem Graecus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0024">Ephraem Graecus </persName>
+                </author>
+                <title xml:lang="lat">De Paenitentia</title>
+                <title type="incipit" xml:lang="grc">Ὁ καθελθὼν κύριος ἐκ τοῦ κόλπου τοῦ
+@@ -4849,7 +4849,7 @@
+             </bibl>
+             <bibl xml:id="pta0025.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0025">Anonymus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0025">Anonymus </persName>
+                </author>
+                <title xml:lang="lat">Thomas ap. (S.), Acta</title>
+                <title type="incipit" xml:lang="grc"/>
+@@ -4863,7 +4863,7 @@
+             </bibl>
+             <bibl xml:id="pta0026.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0026">Clemens Romanus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0026">Clemens Romanus </persName>
+                </author>
+                <title xml:lang="lat">Epitome de gestis Petri praemetaphrastica, dicta
+                         "altera"</title>
+@@ -4878,7 +4878,7 @@
+             </bibl>
+             <bibl xml:id="pta0027.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0027">Ephraem Chersonis ep. </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0027">Ephraem Chersonis ep. </persName>
+                </author>
+                <title xml:lang="lat">Miraculum Clementis I Papae (CPG , BHG </title>
+                <title type="incipit" xml:lang="grc">Θαυμαστὸς ὁ θεὸς ἐν τοῖς ἁγίοις
+@@ -4893,7 +4893,7 @@
+             </bibl>
+             <bibl xml:id="pta0028.pta001">
+                <author>
+-                  <persName ref="Personen.xml#pta0028">Αnonymus </persName>
++                  <persName ref="Personen.xml#urn:cts:pta:pta0028">Αnonymus </persName>
+                </author>
+                <title xml:lang="lat">Blasius ep. Sebastiae m. (S.), Passio
+                         metaphrastica</title>
+diff --git a/bibelexegese/data/Register/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Register/__contents__.xml
+index d108161..f4fb32a 100644
+--- a/bibelexegese/data/Register/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Register/__contents__.xml
+@@ -1,18 +1,18 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Register" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:49.639+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Werke.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:47:40+01:00" modified="2019-12-09T15:48:26+01:00" filename="Werke.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Werke.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:47:40.4+01:00" modified="2020-02-05T15:38:12.529+01:00" filename="Werke.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Personen.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:47:35+01:00" modified="2019-03-15T12:47:35+01:00" filename="Personen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Personen.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:47:35.47+01:00" modified="2020-02-05T15:29:14.032+01:00" filename="Personen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Ereignisse.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:47:33+01:00" modified="2019-03-15T12:47:33+01:00" filename="Ereignisse.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Ereignisse.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:47:33.868+01:00" modified="2019-03-15T12:47:33.868+01:00" filename="Ereignisse.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Werke.css" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:47:38+01:00" modified="2019-12-09T15:32:50+01:00" filename="Werke.css" mimetype="text/css">
++    <resource type="BinaryResource" name="Werke.css" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:47:38.752+01:00" modified="2020-02-17T17:09:07.263+01:00" filename="Werke.css" mimetype="text/css">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="schriftarten.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:47:37+01:00" modified="2019-03-15T12:47:37+01:00" filename="schriftarten.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="schriftarten.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:47:37.159+01:00" modified="2019-03-15T12:47:37.159+01:00" filename="schriftarten.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

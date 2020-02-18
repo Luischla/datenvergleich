@@ -1,0 +1,601 @@
+diff --git a/iffland/data/Register/Orte.xml b/home/gordon/backup182/db/projects/iffland/data/Register/Orte.xml
+index e06c8d9..814a33b 100644
+--- a/iffland/data/Register/Orte.xml
++++ b/home/gordon/backup182/db/projects/iffland/data/Register/Orte.xml
+@@ -544,6 +544,10 @@
+                     <idno type="uri">http://www.geonames.org/2873891</idno>
+                     <placeName type="reg">Mannheim</placeName>
+                 </place>
++                <place xml:id="ed_xhw_m1l_pkb">
++                    <idno type="uri">http://www.geonames.org/2873852</idno>
++                    <placeName type="reg">Mansfeld</placeName>
++                </place>
+                 <place oldID="ed_yjf_5km_4bb" xml:id="A0003248">
+                     <idno type="uri">http://www.geonames.org/3094086</idno>
+                     <placeName type="reg">Marienwerder</placeName>
+@@ -585,6 +589,10 @@
+                     <idno type="uri">http://www.geonames.org/2867714</idno>
+                     <placeName type="reg">München</placeName>
+                 </place>
++                <place xml:id="ed_djf_4sm_pkb">
++                    <idno type="uri">http://www.geonames.org/3080226</idno>
++                    <placeName type="reg">Münsterberg</placeName>
++                </place>
+                 <place oldID="ed_rkk_r1j_1gb" xml:id="A0005269">
+                     <idno type="uri">http://www.geonames.org</idno>
+                     <placeName type="reg">Neapel</placeName>
+@@ -640,6 +648,10 @@
+                     <idno type="uri">http://www.geonames.org/2847618</idno>
+                     <placeName type="reg">Pfalz</placeName>
+                 </place>
++                <place xml:id="ed_jy5_tpm_pkb">
++                    <idno type="uri">http://www.geonames.org/3088825</idno>
++                    <placeName type="reg">Plock</placeName>
++                </place>
+                 <place oldID="ed_yjg_kfq_d1b" xml:id="A0001645">
+                     <idno type="uri">http://www.geonames.org/798544</idno>
+                     <placeName type="reg">Polen</placeName>
+diff --git a/iffland/data/Register/Personen/H.xml b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/H.xml
+index 6e8d4ba..5f13b0f 100644
+--- a/iffland/data/Register/Personen/H.xml
++++ b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/H.xml
+@@ -11,24 +11,24 @@
+                     <death/>
+                     <note>Obristleutnant, Vater von H. S. Haabe</note>
+                 </person>
+-                <person xml:id="ed_x3x_lhf_kkb">
++                <person xml:id="ed_jt4_qm1_qkb">
++                    <idno type="uri"> http://d-nb.info/gnd/118973649</idno>
+                     <persName type="reg">
+-                        <surname>Hain</surname>
+-                        <forename>Karl</forename>
++                        <surname>Haug</surname>
++                        <forename>Johann Christoph Friedrich</forename>
+                     </persName>
+-                    <birth>um 1750</birth>
+-                    <death/>
+-                    <note>Schauspieler, später Prinzipal der Hain'schen Gesellschaft, 1814 in Ulm,
+-                        1816/17 in Augsburg nachgewiesen</note>
++                    <birth>1761</birth>
++                    <death>1829</death>
++                    <note>Beamter und Schriftsteller</note>
+                 </person>
+-                <person xml:id="ed_xqg_dkf_kkb">
++                <person xml:id="ed_mmr_qw1_qkb">
+                     <persName type="reg">
+-                        <surname>Hain</surname>
+-                        <forename>Katharina</forename>
++                        <surname>Haug</surname>
++                        <forename/>
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Schauspielerin, Frau von Karl Hain</note>
++                    <note>Bruder von Johann Christoph Frioedrich </note>
+                 </person>
+                 <person oldID="ed_h44_d4n_sjb" xml:id="A0006499">
+                     <persName type="reg">
+@@ -185,6 +185,17 @@
+                     <death>1806</death>
+                     <note>Schauspieler, Dichter, Lehrer</note>
+                 </person>
++                <person xml:id="ed_xn3_5ln_pkb">
++                    <idno type="uri">http://d-nb.info/gnd/118829130</idno>
++                    <persName type="reg">
++                        <surname>Hagen</surname>
++                        <forename>Friedrich Heinrich von der </forename>
++                    </persName>
++                    <birth>1780</birth>
++                    <death>1856</death>
++                    <note>Philologe, Germanist, 1810 erster außerordentlicher Professor für ältere
++                        deutsche Literatur in Berlin</note>
++                </person>
+                 <person oldID="prov_qkc_5bb_gv" xml:id="A0001500">
+                     <persName type="reg">
+                         <surname>Hagen</surname>
+@@ -223,6 +234,25 @@
+                     <death>1857</death>
+                     <note>Gutsherr, Theaterleiter und Schauspieler</note>
+                 </person>
++                <person xml:id="ed_x3x_lhf_kkb">
++                    <persName type="reg">
++                        <surname>Hain</surname>
++                        <forename>Karl</forename>
++                    </persName>
++                    <birth>um 1750</birth>
++                    <death/>
++                    <note>Schauspieler, später Prinzipal der Hain'schen Gesellschaft, 1814 in Ulm,
++                        1816/17 in Augsburg nachgewiesen</note>
++                </person>
++                <person xml:id="ed_xqg_dkf_kkb">
++                    <persName type="reg">
++                        <surname>Hain</surname>
++                        <forename>Katharina</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Schauspielerin, Frau von Karl Hain</note>
++                </person>
+                 <person oldID="ed_zsn_n1t_j1b" xml:id="A0001502">
+                     <idno type="uri"> http://d-nb.info/gnd/127811044</idno>
+                     <persName type="reg">
+@@ -816,7 +846,8 @@
+                     </persName>
+                     <birth/>
+                     <death/>
+-                    <note>Unteroffizier im Regiment von Möllendorff</note>
++                    <note>Unteroffizier im Regiment von Möllendorff, verantwortlich für die
++                        Statisten am Berliner Königlichen Nationaltheater</note>
+                 </person>
+                 <person oldID="ed_rsw_nld_4v" xml:id="A0001528">
+                     <idno type="uri">http://d-nb.info/gnd/116700785</idno>
+@@ -1242,6 +1273,15 @@
+                     <death/>
+                     <note>Sohn des Oberkantors der jüdischen Gemeinde in Berlin</note>
+                 </person>
++                <person xml:id="ed_cyx_ywz_pkb">
++                    <persName type="reg">
++                        <surname>Heynich</surname>
++                        <forename>David</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>geheimer Sekretär in Berlin</note>
++                </person>
+                 <person oldID="ed_nd2_2bp_yx" xml:id="A0001542">
+                     <idno type="uri"> http://d-nb.info/gnd/116797126</idno>
+                     <persName type="reg">
+@@ -1530,6 +1570,15 @@
+                     <death>1754 </death>
+                     <note>dänischer Schriftsteller und Dramatiker</note>
+                 </person>
++                <person xml:id="ed_drl_t12_pkb">
++                    <persName type="reg">
++                        <surname>Hölder</surname>
++                        <forename>M.</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Korrespondent in Stuttgart, </note>
++                </person>
+                 <person oldID="ed_nnh_sn2_xw" xml:id="A0001558">
+                     <persName type="reg">
+                         <surname>Holstein</surname>
+diff --git a/iffland/data/Register/Personen/I.xml b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/I.xml
+index 2be1369..f602c29 100644
+--- a/iffland/data/Register/Personen/I.xml
++++ b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/I.xml
+@@ -2,6 +2,15 @@
+ <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="iffland_personenregister" oldID="Personen_I" xml:id="A0001479"><teiHeader><fileDesc><titleStmt><title>Registereintrag</title></titleStmt><publicationStmt><p>Gehört zur ediarum-App für eXist.</p></publicationStmt><sourceDesc><p>Hybrid: consult project description and document history for details.</p></sourceDesc></fileDesc></teiHeader><text>
+         <body>
+             <listPerson>
++                <person xml:id="ed_fcn_nv5_pkb">
++                    <persName type="reg">
++                        <surname>Itzig</surname>
++                        <forename>J. B.</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Angestellter (?) in der Langeschen Buchhandlung in Berlin</note>
++                </person>
+                 <person oldID="prov_d4h_dtz_q5" xml:id="A0001480">
+                     <idno type="uri">http://d-nb.info/gnd/118555324</idno>
+                     <persName type="reg">
+diff --git a/iffland/data/Register/Personen/K.xml b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/K.xml
+index daf94a5..f289ea9 100644
+--- a/iffland/data/Register/Personen/K.xml
++++ b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/K.xml
+@@ -202,6 +202,15 @@
+                         Nationaltheater, Debüt 1781 in Stralsund bei der Stöfler'schen
+                         Gesellschaft</note>
+                 </person>
++                <person xml:id="ed_ixg_c4m_nkb">
++                    <persName type="reg">
++                        <surname>Kastenn</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Schauspieler</note>
++                </person>
+                 <person oldID="prov_ghf_5cc_55" xml:id="A0001410">
+                     <idno type="uri">http://d-nb.info/gnd/118560697</idno>
+                     <persName type="reg">
+@@ -337,6 +346,14 @@
+                     <death>1808 </death>
+                     <note>österreichische blinde Glasharmonika-Spielerin </note>
+                 </person>
++                <person xml:id="ed_hrz_pym_pkb">
++                    <persName type="reg">
++                        <surname>Kirchner</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                </person>
+                 <person oldID="prov_qfl_kf2_2v" xml:id="A0001417">
+                     <idno type="uri">http://d-nb.info/gnd/116187689</idno>
+                     <persName type="reg">
+@@ -886,6 +903,16 @@
+                     <death>1811</death>
+                     <note>preußischer Beamter, Schriftsteller</note>
+                 </person>
++                <person xml:id="ed_tm1_wf1_qkb">
++                    <persName type="reg">
++                        <surname>Kopprasch</surname>
++                        <forename>Wilhelm</forename>
++                    </persName>
++                    <birth>1750</birth>
++                    <death>1832</death>
++                    <note>Fagottist und Komponist, Mitglied der Kapelle des Fürsten Leopold III von
++                        Anhalt-Dessau</note>
++                </person>
+                 <person oldID="ed_zz3_qhz_dgb" xml:id="A0005737">
+                     <idno type="uri">http://d-nb.info/gnd/118777831</idno>
+                     <persName type="reg">
+@@ -1271,6 +1298,16 @@
+                     <note>Schauspieler, von 1797 bis 1802 in Altona, danach u. a. in Würzburg und
+                         Ungarn</note>
+                 </person>
++                <person xml:id="ed_hnq_3b1_qkb">
++                    <idno type="uri">http://d-nb.info/gnd/116566736</idno>
++                    <persName type="reg">
++                        <surname>Krug</surname>
++                        <forename>Leopold</forename>
++                    </persName>
++                    <birth>1770</birth>
++                    <death>1843</death>
++                    <note>Ökonom und Statistiker</note>
++                </person>
+                 <person oldID="ed_d33_2gh_43b" xml:id="A0006549">
+                     <persName type="reg">
+                         <surname>Krüger</surname>
+diff --git a/iffland/data/Register/Personen/M.xml b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/M.xml
+index b90cb4e..4aaffb8 100644
+--- a/iffland/data/Register/Personen/M.xml
++++ b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/M.xml
+@@ -34,6 +34,15 @@
+                     <death/>
+                     <note>Bürger in Aschersleben, Berlinbesucher 1798</note>
+                 </person>
++                <person xml:id="ed_n12_qrg_nkb">
++                    <persName type="reg">
++                        <surname>Magius</surname>
++                        <forename>Eck von</forename>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Lieutenant in Kurhannover</note>
++                </person>
+                 <person oldID="ed_ml4_mnh_cfb" xml:id="A0005004">
+                     <idno type="uri">http://d-nb.info/gnd/11941077X</idno>
+                     <persName type="reg">
+@@ -153,6 +162,16 @@
+                     <death/>
+                     <note>italienischer Vortragskünstler, 1805 in Berlin</note>
+                 </person>
++                <person xml:id="ed_m1k_tk5_pkb">
++                    <idno type="uri"> http://d-nb.info/gnd/116733756</idno>
++                    <persName type="reg">
++                        <surname>Mannagetta und Lerchenau</surname>
++                        <forename>Johann Wilhelm von </forename>
++                    </persName>
++                    <birth>1785</birth>
++                    <death>1843</death>
++                    <note>Schriftsteller und Theaterdirektor, seit 1805 in Olmütz</note>
++                </person>
+                 <person oldID="ed_arh_grg_v1b" xml:id="A0002898">
+                     <idno type="uri"> http://d-nb.info/gnd/104268433</idno>
+                     <persName type="reg">
+@@ -929,6 +948,15 @@
+                     <death/>
+                     <note>Schauspieler in Breslau</note>
+                 </person>
++                <person xml:id="ed_x1h_m5z_pkb">
++                    <persName type="reg">
++                        <surname>Meyer</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Komponist</note>
++                </person>
+                 <person oldID="ed_xpt_kg1_pw" xml:id="A0002933">
+                     <persName type="reg">
+                         <surname>Meyer</surname>
+diff --git a/iffland/data/Register/Personen/N.xml b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/N.xml
+index c560bd2..71f8d3c 100644
+--- a/iffland/data/Register/Personen/N.xml
++++ b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/N.xml
+@@ -38,7 +38,7 @@
+                 </person>
+                 <person xml:id="ed_cck_xhh_ckb">
+                     <persName type="reg">
+-                        <surname>N. N. (d.i. der Verfasser des Themistocles)</surname>
++                        <surname>N. N. (d. i. der Verfasser des Themistocles)</surname>
+                         <forename/>
+                     </persName>
+                     <birth/>
+@@ -62,6 +62,54 @@
+                     <death/>
+                     <note>Verfasser eines Prologs</note>
+                 </person>
++                <person xml:id="ed_nbx_dbn_pkb">
++                    <persName type="reg">
++                        <surname>N. N. (d. i. der Verfasser von Der gebesserte Todte)</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                </person>
++                <person xml:id="ed_vbk_cbn_pkb">
++                    <persName type="reg">
++                        <surname>N. N. (d.i. der Verfasser von Der Schädel-Kenner)</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                </person>
++                <person xml:id="ed_rpj_4jz_pkb">
++                    <persName type="reg">
++                        <surname>N. N. (d.i. der Verfasser von Die Brüder)</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                </person>
++                <person xml:id="ed_qyx_pjz_pkb">
++                    <persName type="reg">
++                        <surname>N. N. (d.i. der Verfasser von Probe der Liebe)</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                </person>
++                <person xml:id="ed_ud4_rd1_qkb">
++                    <persName type="reg">
++                        <surname>N.N. (d. i. der Verfasser von Sophonisba)</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                </person>
++                <person xml:id="ed_fng_h5m_pkb">
++                    <persName type="reg">
++                        <surname>N.N. (d.i. der Verfasser von Die Teutonen)</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                </person>
+                 <person oldID="ed_amk_vrz_wfb" xml:id="A0005024">
+                     <persName type="reg">
+                         <surname>N. N. (d. i. die Verfasserin zweier kleiner Lustspiele)</surname>
+@@ -809,6 +857,28 @@
+                     <death/>
+                     <note>Theaterarbeiter am Berliner Königlichen Nationaltheater, Geldbote</note>
+                 </person>
++                <person xml:id="ed_jwz_4dl_pkb">
++                    <idno type="uri">http://d-nb.info/gnd/118786199</idno>
++                    <persName type="reg">
++                        <surname>Niemeyer</surname>
++                        <forename>August Hermann</forename>
++                    </persName>
++                    <birth>1754</birth>
++                    <death>1828</death>
++                    <note>Pädgoge und Schriftsteller, seit 1799 Direktor der Franckeschen Stiftungen
++                        in Halle, seit 1804 Oberkonsistorialrat, Onkel von Gottlieb Anton Christian
++                        Niemeyer</note>
++                </person>
++                <person xml:id="ed_bkg_g1l_pkb">
++                    <idno type="uri"> http://d-nb.info/gnd/1013084152</idno>
++                    <persName type="reg">
++                        <surname> Niemeyer</surname>
++                        <forename>Gottlieb Anton Christian </forename>
++                    </persName>
++                    <birth>1783</birth>
++                    <death>1864</death>
++                    <note>Professor in Halle, Dichter und Übersetzer</note>
++                </person>
+                 <person oldID="ed_yfk_1n4_rz" xml:id="A0002885">
+                     <persName type="reg">
+                         <surname>Niethe</surname>
+diff --git a/iffland/data/Register/Personen/P.xml b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/P.xml
+index 4d20c1e..259a0b1 100644
+--- a/iffland/data/Register/Personen/P.xml
++++ b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/P.xml
+@@ -928,6 +928,16 @@
+                         <name>von Schmid</name>
+                     </persName>
+                 </person>
++                <person xml:id="ed_yln_z4m_pkb">
++                    <persName type="reg">
++                        <surname>Putlitz</surname>
++                        <forename>Carl Friedrich Jacob Freiherr Gans Edler Herr zu</forename>
++                    </persName>
++                    <birth>1775</birth>
++                    <death>1822</death>
++                    <note>preußischer Beamter, seit 1803 als Regierungsrat in Plock, später
++                        Oberlandesgerichtsrat</note>
++                </person>
+                 <person oldID="prov_nwq_3bp_55" xml:id="A0002827">
+                     <persName type="reg">
+                         <surname>Putlitz</surname>
+diff --git a/iffland/data/Register/Personen/R.xml b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/R.xml
+index 5413c8e..6d832ab 100644
+--- a/iffland/data/Register/Personen/R.xml
++++ b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/R.xml
+@@ -826,6 +826,14 @@
+                     <death/>
+                     <note>Schauspieler, Theaterprinzipal</note>
+                 </person>
++                <person xml:id="ed_rp5_kn5_pkb">
++                    <persName type="reg">
++                        <surname>Rietsch</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                </person>
+                 <person oldID="ed_cgd_5pv_k1b" xml:id="A0002746">
+                     <idno type="uri"> http://d-nb.info/gnd/136548024</idno>
+                     <persName type="reg">
+diff --git a/iffland/data/Register/Personen/W.xml b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/W.xml
+index 9d58486..87ddfce 100644
+--- a/iffland/data/Register/Personen/W.xml
++++ b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/W.xml
+@@ -653,6 +653,7 @@
+                     <note>Oboist, Kammermusiker in Berlin</note>
+                 </person>
+                 <person oldID="ed_rn5_vym_4cb" xml:id="A0003852">
++                    <idno type="uri"> http://d-nb.info/gnd/102420475</idno>
+                     <persName type="reg">
+                         <surname>Westenholz</surname>
+                         <forename>Sophie</forename>
+@@ -767,6 +768,16 @@
+                     <death>1860</death>
+                     <note>Tenor</note>
+                 </person>
++                <person xml:id="ed_abf_lz2_nkb">
++                    <idno type="uri">http://d-nb.info/gnd/1131588983</idno>
++                    <persName type="reg">
++                        <surname>Wilhelmi</surname>
++                        <forename>August Gustav</forename>
++                    </persName>
++                    <birth>1770</birth>
++                    <death>1810 (n.a. 1815)</death>
++                    <note>Schriftsteller und Übersetzer</note>
++                </person>
+                 <person oldID="ed_dgm_2rg_qcb" xml:id="A0003853">
+                     <persName type="reg">
+                         <surname>Wilhelmi</surname>
+diff --git a/iffland/data/Register/Personen/__contents__.xml b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/__contents__.xml
+index 8a577ba..7c4482e 100644
+--- a/iffland/data/Register/Personen/__contents__.xml
++++ b/home/gordon/backup182/db/projects/iffland/data/Register/Personen/__contents__.xml
+@@ -1,18 +1,18 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/iffland/data/Register/Personen" version="1" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11.831+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Y.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2018-08-31T12:17:12+02:00" filename="Y.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Y.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.537+02:00" modified="2018-08-31T12:17:12.537+02:00" filename="Y.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Z.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2019-12-10T17:25:43+01:00" filename="Z.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Z.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.526+02:00" modified="2019-12-10T17:25:43.416+01:00" filename="Z.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="X.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2018-08-31T12:17:12+02:00" filename="X.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="X.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.511+02:00" modified="2018-08-31T12:17:12.511+02:00" filename="X.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="A.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2019-12-11T08:51:33+01:00" filename="A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="A.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.498+02:00" modified="2019-12-11T08:51:33.888+01:00" filename="A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="B.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2020-01-22T10:10:24+01:00" filename="B.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="B.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.446+02:00" modified="2020-01-22T10:10:24.544+01:00" filename="B.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="C.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2020-01-20T11:22:07+01:00" filename="C.xml" mimetype="application/xml">
+@@ -21,61 +21,61 @@
+     <resource type="XMLResource" name="D.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2020-02-12T11:10:44.229+01:00" filename="D.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="E.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2019-12-19T11:01:12+01:00" filename="E.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="E.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.364+02:00" modified="2019-12-19T11:01:12.507+01:00" filename="E.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="F.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2019-12-17T10:35:03+01:00" filename="F.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="G.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2020-01-20T13:21:21+01:00" filename="G.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="G.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.321+02:00" modified="2020-01-20T13:21:21.029+01:00" filename="G.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="H.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2020-01-16T17:01:26+01:00" filename="H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="H.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.288+02:00" modified="2020-02-07T12:09:52.842+01:00" filename="H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="I.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2019-04-29T17:37:09+02:00" filename="I.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="I.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.265+02:00" modified="2020-02-05T17:00:30.042+01:00" filename="I.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="J.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2019-12-10T17:25:43+01:00" filename="J.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="J.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.252+02:00" modified="2019-12-10T17:25:43.306+01:00" filename="J.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="K.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2020-01-22T11:20:55+01:00" filename="K.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="K.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.23+02:00" modified="2020-02-06T10:49:59.077+01:00" filename="K.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="L.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2020-02-12T12:05:25.605+01:00" filename="L.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="M.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2020-01-22T11:32:31+01:00" filename="M.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="M.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.164+02:00" modified="2020-02-06T09:21:54.245+01:00" filename="M.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="N.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2019-12-19T09:00:03+01:00" filename="N.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="N.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.138+02:00" modified="2020-02-06T10:32:28.392+01:00" filename="N.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="O.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2020-01-17T16:09:49+01:00" filename="O.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="O.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.124+02:00" modified="2020-01-17T16:09:49.183+01:00" filename="O.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="P.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2019-12-12T11:29:45+01:00" filename="P.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="P.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.103+02:00" modified="2020-02-04T13:49:41.826+01:00" filename="P.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Q.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2019-12-10T17:25:43+01:00" filename="Q.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Q.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.088+02:00" modified="2019-12-10T17:25:43.368+01:00" filename="Q.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="R.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2020-01-21T17:05:56+01:00" filename="R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="R.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12.07+02:00" modified="2020-02-05T15:58:09.187+01:00" filename="R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="S.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:12+02:00" modified="2020-02-12T10:55:50.645+01:00" filename="S.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="T.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11+02:00" modified="2019-12-18T14:36:14+01:00" filename="T.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="T.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11.917+02:00" modified="2019-12-18T14:36:14.986+01:00" filename="T.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="U.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11+02:00" modified="2019-12-19T09:01:32+01:00" filename="U.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="U.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11.902+02:00" modified="2019-12-19T09:01:32.248+01:00" filename="U.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="V.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11+02:00" modified="2019-12-10T17:25:43+01:00" filename="V.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="V.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11.888+02:00" modified="2019-12-10T17:25:43.401+01:00" filename="V.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="W.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11+02:00" modified="2020-01-22T14:50:24+01:00" filename="W.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="W.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11.844+02:00" modified="2020-02-05T15:08:30.22+01:00" filename="W.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/iffland/data/Register/__contents__.xml b/home/gordon/backup182/db/projects/iffland/data/Register/__contents__.xml
+index f98d8c4..5d05679 100644
+--- a/iffland/data/Register/__contents__.xml
++++ b/home/gordon/backup182/db/projects/iffland/data/Register/__contents__.xml
+@@ -1,15 +1,15 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/iffland/data/Register" version="1" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11.27+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Einrichtungen.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11+02:00" modified="2019-12-12T08:22:31+01:00" filename="Einrichtungen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Einrichtungen.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11.808+02:00" modified="2019-12-12T08:22:31.057+01:00" filename="Einrichtungen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Orte.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11+02:00" modified="2020-01-21T10:17:07+01:00" filename="Orte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Orte.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11.778+02:00" modified="2020-02-04T14:13:15.642+01:00" filename="Orte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Werke.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11+02:00" modified="2020-02-12T11:25:26.962+01:00" filename="Werke.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Sachregister.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11+02:00" modified="2019-12-10T17:25:43+01:00" filename="Sachregister.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sachregister.xml" skip="no" owner="exist-bot" group="iffland-nutzer" mode="770" created="2018-08-31T12:17:11.278+02:00" modified="2019-12-10T17:25:43.461+01:00" filename="Sachregister.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <subcollection name="Personen" filename="Personen"/>

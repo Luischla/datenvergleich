@@ -1,0 +1,21 @@
+diff --git a/bibelexegese/data/cte/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/cte/__contents__.xml
+index 9f13d79..0f08296 100644
+--- a/bibelexegese/data/cte/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/cte/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/cte" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:37.078+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Theodoret_Prolog.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:41:44+01:00" modified="2019-03-15T12:41:44+01:00" filename="Theodoret_Prolog.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Theodoret_Prolog.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:41:44.244+01:00" modified="2019-03-15T12:41:44.244+01:00" filename="Theodoret_Prolog.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Origenes_Catholica.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:41:42+01:00" modified="2019-03-15T12:41:42+01:00" filename="Origenes_Catholica.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Origenes_Catholica.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:41:42.567+01:00" modified="2019-03-15T12:41:42.567+01:00" filename="Origenes_Catholica.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Eusebius_Ps-62.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:41:40+01:00" modified="2019-03-15T12:41:40+01:00" filename="Eusebius_Ps-62.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Eusebius_Ps-62.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:41:40.849+01:00" modified="2019-03-15T12:41:40.849+01:00" filename="Eusebius_Ps-62.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

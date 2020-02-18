@@ -1,0 +1,2223 @@
+diff --git a/schleiermacher/data/Register/Orte.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Register/Orte.xml
+index 37a4eb8..3837c7f 100644
+--- a/schleiermacher/data/Register/Orte.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Register/Orte.xml
+@@ -52,7 +52,7 @@
+                     <placeName type="reg">Albis</placeName>
+                     <note>Bergkette im Kanton Zürich (Schweiz)</note>
+                 </place>
+-                <place oldID="ed_at2_5sh_cjb" xml:id="S0010006">
++                <place xml:id="ed_at2_5sh_cjb">
+                     <placeName type="reg">Alexandria</placeName>
+                 </place>
+                 <place xml:id="S0000011" oldID="prov_c1z_2lj_2n">
+@@ -129,10 +129,10 @@
+                     <placeName type="reg">Ansbach-Baireuth</placeName>
+                     <note>Fürstentum</note>
+                 </place>
+-                <place oldID="ed_dqh_m1p_sjb" xml:id="S0010043">
++                <place xml:id="ed_dqh_m1p_sjb">
+                     <placeName type="reg">Antwerpen</placeName>
+                     <listPlace>
+-                        <place type="building" oldID="ediarum_nmw_m1p_sjb" xml:id="S0010270">
++                        <place xml:id="ediarum_nmw_m1p_sjb" type="building">
+                             <placeName type="reg">Dom (Liebfrauenkathedrale)</placeName>
+                         </place>
+                     </listPlace>
+@@ -177,7 +177,7 @@
+                 <place xml:id="S0000040" oldID="o67">
+                     <placeName type="reg">Athen</placeName>
+                     <listPlace>
+-                        <place type="building" olderID="ediarum_qm5_qr5_pkb" oldID="ediarum_qm5_qr5_pkb" xml:id="S0010291">
++                        <place xml:id="ediarum_qm5_qr5_pkb" type="building">
+                             <placeName type="reg">Akropolis</placeName>
+                         </place>
+                     </listPlace>
+@@ -286,7 +286,7 @@
+                             <placeName type="reg">Akademie der Wissenschaften (Königlich-Preußische
+                                 Akademie) </placeName>
+                         </place>
+-                        <place oldID="ed_h5k_gr4_sjb" xml:id="S0010075">
++                        <place xml:id="ed_h5k_gr4_sjb">
+                             <placeName type="reg">Altes Museum</placeName>
+                         </place>
+                         <place xml:id="S0000069" oldID="o157">
+@@ -384,7 +384,7 @@
+                         <place xml:id="S0000098" oldID="o181">
+                             <placeName type="reg">Gendarmenmarkt</placeName>
+                         </place>
+-                        <place olderID="o181" oldID="Sxcvb098" xml:id="S0010262">
++                        <place xml:id="Sxcvb098" oldID="o181">
+                             <placeName type="reg">Gießhaus</placeName>
+                         </place>
+                         <place xml:id="S0000099" oldID="o182">
+@@ -517,7 +517,7 @@
+                         <place xml:id="S0000139" oldID="o217">
+                             <placeName type="reg">Pépinière (Schule für Militärärzte)</placeName>
+                         </place>
+-                        <place oldID="ed_hbv_5rn_5jb" xml:id="S0010077">
++                        <place xml:id="ed_hbv_5rn_5jb">
+                             <placeName type="reg">Pfaueninsel</placeName>
+                         </place>
+                         <place xml:id="S0000140" oldID="prov_fxz_dk5_4v">
+@@ -549,10 +549,10 @@
+                                 <persName key="S0001985">(Gedike)</persName>
+                             </note>
+                         </place>
+-                        <place oldID="ed_xnh_pln_5jb" xml:id="S0010225">
++                        <place xml:id="ed_xnh_pln_5jb">
+                             <placeName type="reg">Schloss</placeName>
+                         </place>
+-                        <place oldID="ed_q1m_bxt_5jb" xml:id="S0010150">
++                        <place xml:id="ed_q1m_bxt_5jb">
+                             <placeName type="reg">Schloss Bellevue</placeName>
+                         </place>
+                         <place xml:id="S0000148" oldID="prov_n13_gkz_gy">
+@@ -651,7 +651,7 @@
+                     <placeName type="reg">Bevern</placeName>
+                     <note>im Landkreis Holzminden (im heutigen Niedersachsen)</note>
+                 </place>
+-                <place oldID="ed_xps_rzc_wgb" xml:id="S0010227">
++                <place xml:id="ed_xps_rzc_wgb">
+                     <placeName type="reg">Biala</placeName>
+                     <note>Stadt in Österreichisch-Galizien</note>
+                 </place>
+@@ -686,7 +686,7 @@
+                     <placeName type="reg">Bocklet</placeName>
+                     <note>Bad in Franken</note>
+                 </place>
+-                <place oldID="ed_nlj_vgp_vhb" xml:id="S0010129">
++                <place xml:id="ed_nlj_vgp_vhb">
+                     <placeName type="reg">Bodelschwingh</placeName>
+                     <note>Ort in der Grafschaft Mark</note>
+                 </place>
+@@ -836,7 +836,7 @@
+                     <note>kleines Dorf in Frankreich, Febr. 1814 Sieg Napoleons über die
+                         Koalitionstruppen</note>
+                 </place>
+-                <place oldID="ed_abj_xhk_wgb" xml:id="S0009999">
++                <place xml:id="ed_abj_xhk_wgb">
+                     <placeName type="reg">Charkow</placeName>
+                     <note>Stadt in der Ukraine</note>
+                 </place>
+@@ -939,7 +939,7 @@
+                     <placeName type="reg">Delaware</placeName>
+                     <note>Fluss in Pennsylvania (USA)</note>
+                 </place>
+-                <place oldID="ed_tvr_r1m_5gb" xml:id="S0010188">
++                <place xml:id="ed_tvr_r1m_5gb">
+                     <placeName type="reg">Darmstadt</placeName>
+                     <note>Hauptstadt des Großherzogtums Hessen-Darmstadt</note>
+                 </place>
+@@ -950,9 +950,8 @@
+                 <place xml:id="S0000252" oldID="o454">
+                     <placeName type="reg">Den Haag (Niederlande) </placeName>
+                 </place>
+-                <place oldID="ed_hwd_3vc_ckb" xml:id="S0010084">
+-                    <placeName type="reg">Deptford</placeName>
+-                    <note>Ort bei London</note>
++                <place xml:id="ed_hwd_3vc_ckb">
++                    <placeName type="reg">Deptford</placeName><note>Ort bei London</note>
+                 </place>
+                 <place xml:id="S0000253" oldID="o458">
+                     <placeName type="reg">Dessau</placeName>
+@@ -976,7 +975,7 @@
+                     <placeName type="reg">Dieskau</placeName>
+                     <note>Ort bei Halle</note>
+                 </place>
+-                <place oldID="ed_orz_k32_w3b" xml:id="S0010140">
++                <place xml:id="ed_orz_k32_w3b">
+                     <placeName type="reg">Dirschau</placeName>
+                     <note>Stadt in Westpreußen</note>
+                 </place>
+@@ -1018,7 +1017,7 @@
+                         <place xml:id="S0000268" oldID="o484">
+                             <placeName type="reg">Gemäldegalerie Alte Meister</placeName>
+                         </place>
+-                        <place oldID="ed_eqf_nwq_vjb" xml:id="S0010053">
++                        <place xml:id="ed_eqf_nwq_vjb">
+                             <placeName type="reg">Grünes Gewölbe</placeName>
+                         </place>
+                         <place xml:id="S0000269" oldID="o485">
+@@ -1062,7 +1061,7 @@
+                     <placeName type="reg">Eckernförde</placeName>
+                     <note>Schleswig-Holstein</note>
+                 </place>
+-                <place oldID="ed_dqz_wlx_1jb" xml:id="S0010044">
++                <place xml:id="ed_dqz_wlx_1jb">
+                     <placeName type="reg">Ehrenbreitstein</placeName>
+                     <note>Festnug bei Koblenz</note>
+                 </place>
+@@ -1256,7 +1255,7 @@
+                     <placeName type="reg">Fürstenstein</placeName>
+                     <note>Schloß in Schlesien, Sitz der Grafen von Hochberg</note>
+                 </place>
+-                <place oldID="ed_eqb_f2l_yjb" xml:id="S0010052">
++                <place xml:id="ed_eqb_f2l_yjb">
+                     <placeName type="reg">Gadara</placeName>
+                     <note>antike griechisch-römische Stadt nahe des Sees Genezareth</note>
+                 </place>
+@@ -1484,7 +1483,7 @@
+                 <place xml:id="S0000387" oldID="prov_cqv_jp3_h2b">
+                     <placeName type="reg">Grüneberg (in Westpreußen)</placeName>
+                 </place>
+-                <place oldID="ed_t2v_v4w_vgb" xml:id="S0010182">
++                <place xml:id="ed_t2v_v4w_vgb">
+                     <placeName type="reg">Grünefeld</placeName>
+                     <note>Dorf im Havelland</note>
+                 </place>
+@@ -1702,7 +1701,7 @@
+                     <placeName type="reg">Hirschberg</placeName>
+                     <note>Stadt in Schlesien</note>
+                 </place>
+-                <place oldID="ed_uzz_13d_dhb" xml:id="S0010202">
++                <place xml:id="ed_uzz_13d_dhb">
+                     <placeName type="reg">Höchst</placeName>
+                     <note>Stadt westlich von Frankfurt am Main</note>
+                 </place>
+@@ -1865,7 +1864,7 @@
+                     <placeName type="reg">Kehl</placeName>
+                     <note>Stadt am Oberrhein</note>
+                 </place>
+-                <place oldID="ed_wfj_rzs_w3b" xml:id="S0010211">
++                <place xml:id="ed_wfj_rzs_w3b">
+                     <placeName type="reg">Keilhau</placeName>
+                     <note>Ort bei Rudolstadt</note>
+                 </place>
+@@ -1876,7 +1875,7 @@
+                 <place xml:id="S0000489" oldID="o961">
+                     <placeName type="reg">Kiel</placeName>
+                 </place>
+-                <place oldID="ed_rbn_l3d_ygb" xml:id="S0010159">
++                <place xml:id="ed_rbn_l3d_ygb">
+                     <placeName type="reg">Kladow</placeName>
+                     <note>Ort an der Havel bei Berlin</note>
+                 </place>
+@@ -1921,7 +1920,7 @@
+                 <place xml:id="S0000500" oldID="o991">
+                     <placeName type="reg">Köln</placeName>
+                     <listPlace>
+-                        <place type="building" oldID="ediarum_kyw_pyg_s3b" xml:id="S0010269">
++                        <place xml:id="ediarum_kyw_pyg_s3b" type="building">
+                             <placeName type="reg">Dom</placeName>
+                         </place>
+                     </listPlace>
+@@ -2052,7 +2051,7 @@
+                         Regierungsbezirk Liegnitz, heute in der Woiwodschaft Niederschlesien
+                         gelegen</note>
+                 </place>
+-                <place oldID="ed_q4b_t4k_wgb" xml:id="S0010152">
++                <place xml:id="ed_q4b_t4k_wgb">
+                     <placeName type="reg">Labuhn</placeName>
+                     <note>Gemeinde im Kreis Lauenburg (Pommern)</note>
+                 </place>
+@@ -2246,12 +2245,12 @@
+                 <place xml:id="S0000581" oldID="o1167">
+                     <placeName type="reg">London</placeName>
+                     <listPlace>
+-                        <place type="building" oldID="ediarum_qxr_yf5_5jb" xml:id="S0010271">
++                        <place xml:id="ediarum_qxr_yf5_5jb" type="building">
+                             <placeName type="reg">Royal Academy of Arts</placeName>
+                         </place>
+                     </listPlace>
+                 </place>
+-                <place oldID="ed_rth_qcy_1jb" xml:id="S0010167">
++                <place xml:id="ed_rth_qcy_1jb">
+                     <placeName type="reg">Lucca</placeName>
+                     <note>Stadt und Großherzogtum in Norditalien</note>
+                 </place>
+@@ -2298,7 +2297,7 @@
+                     <placeName type="reg">Magdeburg</placeName>
+                     <note>Herzogtum</note>
+                 </place>
+-                <place oldID="ed_nck_nty_yhb" xml:id="S0010125">
++                <place xml:id="ed_nck_nty_yhb">
+                     <placeName type="reg">Mailand (Milano)</placeName>
+                 </place>
+                 <place xml:id="S0000594" oldID="o1194">
+@@ -2327,7 +2326,7 @@
+                         </place>
+                     </listPlace>
+                 </place>
+-                <place oldID="ed_ygd_gjk_r3b" xml:id="S0010238">
++                <place xml:id="ed_ygd_gjk_r3b">
+                     <placeName type="reg">Marathon</placeName>
+                     <note>antiker Ort nordöstlich von Athen</note>
+                 </place>
+@@ -2611,7 +2610,7 @@
+                 <place xml:id="S0000670" oldID="o1369">
+                     <placeName type="reg">Niedersachsen</placeName>
+                 </place>
+-                <place oldID="ed_adr_zgd_ygb" xml:id="S0010000">
++                <place xml:id="ed_adr_zgd_ygb">
+                     <placeName type="reg">Niendorf</placeName>
+                     <note>Ort bei Hamburg</note>
+                 </place>
+@@ -2761,7 +2760,7 @@
+                         <place xml:id="S0000709" oldID="o1427">
+                             <placeName type="reg">Bastille</placeName>
+                         </place>
+-                        <place oldID="ed_v54_4gk_d3b" xml:id="S0010203">
++                        <place xml:id="ed_v54_4gk_d3b">
+                             <placeName type="reg">Louvre</placeName>
+                         </place>
+                         <place xml:id="S0000710" oldID="o1428">
+@@ -2770,7 +2769,7 @@
+                         <place xml:id="S0000711" oldID="o1429">
+                             <placeName type="reg">Nationalbibliothek</placeName>
+                         </place>
+-                        <place oldID="ed_ddy_1vg_s3b" xml:id="S0010039">
++                        <place xml:id="ed_ddy_1vg_s3b">
+                             <placeName type="reg">Oper</placeName>
+                         </place>
+                     </listPlace>
+@@ -2902,7 +2901,7 @@
+                     <placeName type="reg">Po</placeName>
+                     <note>Fluss in Oberitalien</note>
+                 </place>
+-                <place oldID="ed_z1m_jbd_dhb" xml:id="S0010248">
++                <place xml:id="ed_z1m_jbd_dhb">
+                     <placeName type="reg">Pogorzella</placeName>
+                     <note>Ort in Niederschlesien</note>
+                 </place>
+@@ -3097,7 +3096,7 @@
+                     <placeName type="reg">Reitz</placeName>
+                     <note>Dorf und Gut bei Stolp</note>
+                 </place>
+-                <place oldID="ed_c3f_lqm_zgb" xml:id="S0010025">
++                <place xml:id="ed_c3f_lqm_zgb">
+                     <placeName type="reg">Remlingen</placeName>
+                     <note>Ort in Franken</note>
+                 </place>
+@@ -3176,10 +3175,10 @@
+                 <place xml:id="S0000816" oldID="o1650">
+                     <placeName type="reg">Rom </placeName>
+                     <listPlace>
+-                        <place type="building" oldID="ediarum_f4p_xqz_33b" xml:id="S0010268">
++                        <place xml:id="ediarum_f4p_xqz_33b" type="building">
+                             <placeName type="reg">Petersdom</placeName>
+                         </place>
+-                        <place type="building" oldID="ediarum_dkl_jmp_c3b" xml:id="S0010267">
++                        <place xml:id="ediarum_dkl_jmp_c3b" type="building">
+                             <placeName type="reg">Vatikanische Museen</placeName>
+                         </place>
+                     </listPlace>
+@@ -3195,7 +3194,7 @@
+                     <placeName type="reg">Rothenburg</placeName>
+                     <note>Ort bei Halle (heute eingemeindet)</note>
+                 </place>
+-                <place oldID="ed_psg_1ys_pjb" xml:id="S0010146">
++                <place xml:id="ed_psg_1ys_pjb">
+                     <placeName type="reg">Rotterdam</placeName>
+                 </place>
+                 <place xml:id="S0000820" oldID="o1662">
+@@ -3635,7 +3634,7 @@
+                     <placeName type="reg">Teschen</placeName>
+                     <note>Stadt in Böhmen</note>
+                 </place>
+-                <place oldID="ed_vss_l5j_r3b" xml:id="S0010206">
++                <place xml:id="ed_vss_l5j_r3b">
+                     <placeName type="reg">Theben</placeName>
+                     <note>Ort im antiken Griechenland in der Landschaft Böotien</note>
+                 </place>
+@@ -3759,10 +3758,10 @@
+                     <placeName type="reg">Varel</placeName>
+                     <note>Stadt im Oldenburgischen</note>
+                 </place>
+-                <place oldID="ed_kjf_rxq_vjb" xml:id="S0010104">
++                <place xml:id="ed_kjf_rxq_vjb">
+                     <placeName type="reg">Vatikanstadt</placeName>
+                 </place>
+-                <place oldID="ed_srd_32l_ygb" xml:id="S0010179">
++                <place xml:id="ed_srd_32l_ygb">
+                     <placeName type="reg">Vehlefanz</placeName>
+                     <note>Ort bei Oranienburg</note>
+                 </place>
+@@ -3773,7 +3772,7 @@
+                 <place xml:id="S0000967" oldID="o2024">
+                     <placeName type="reg">Venedig </placeName>
+                 </place>
+-                <place oldID="ed_spk_pjq_yhb" xml:id="S0010178">
++                <place xml:id="ed_spk_pjq_yhb">
+                     <placeName type="reg">Verona</placeName>
+                 </place>
+                 <place xml:id="S0000968" oldID="o2026">
+@@ -3957,7 +3956,7 @@
+                     <placeName type="reg">Woldegk</placeName>
+                     <note>Mecklenburg-Vorpommern</note>
+                 </place>
+-                <place oldID="ed_ubb_ppy_dhb" xml:id="S0010190">
++                <place xml:id="ed_ubb_ppy_dhb">
+                     <placeName type="reg">Wolfenbüttel</placeName>
+                     <note>Residenzstadt des Herzogtums Braunschweig</note>
+                 </place>
+@@ -4015,7 +4014,7 @@
+                 <place xml:id="S0001027" oldID="o2149">
+                     <placeName type="reg">Zehlendorf bei Berlin</placeName>
+                 </place>
+-                <place oldID="ed_ah1_dhd_p3b" xml:id="S0010001">
++                <place xml:id="ed_ah1_dhd_p3b">
+                     <placeName type="reg">Zeitz</placeName>
+                     <note>Stadt in der Provinz Sachsen</note>
+                 </place>
+@@ -4048,7 +4047,7 @@
+                     <note>Sitz des <persName key="S0003594">Grafen Sauerma</persName>
+                     </note>
+                 </place>
+-                <place oldID="ed_xwx_rgp_qjb" xml:id="S0010230">
++                <place xml:id="ed_xwx_rgp_qjb">
+                     <placeName type="reg">Zürich</placeName>
+                 </place>
+                 <place xml:id="S0001035" oldID="o2169">
+diff --git a/schleiermacher/data/Register/Personen.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Register/Personen.xml
+index ce031cb..3fba72b 100644
+--- a/schleiermacher/data/Register/Personen.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Register/Personen.xml
+@@ -1314,8 +1314,7 @@ X III 1836 Flora Marie TRanouille, Marquise Proud´homme d´Hailln u. de Berouig
+                 <person oldID="ed_q21_d3d_ygb" xml:id="S0010151">
+                     <persName type="reg">
+                         <surname>Backofen</surname>
+-                        <forename>
+-                            <name type="used">Friedrich</name> Ludwig Christian</forename>
++                        <forename><name type="used">Friedrich</name> Ludwig Christian</forename>
+                     </persName>
+                     <birth/>
+                     <death>1840</death>
+@@ -2530,8 +2529,7 @@ X III 1836 Flora Marie TRanouille, Marquise Proud´homme d´Hailln u. de Berouig
+                 <person xml:id="S0001285" oldID="p184">
+                     <persName type="reg">
+                         <surname>Bernstorff</surname>
+-                        <forename>
+-                            <name type="used">Christian</name> Günther Graf von</forename>
++                        <forename><name type="used">Christian</name> Günther Graf von</forename>
+                     </persName>
+                     <birth>1769</birth>
+                     <death>1835</death>
+@@ -5923,8 +5921,7 @@ X III 1836 Flora Marie TRanouille, Marquise Proud´homme d´Hailln u. de Berouig
+                     <person oldID="ed_ykg_y5y_dhb" xml:id="S0010240">
+                         <persName type="reg">
+                             <surname>Delbrück</surname>
+-                            <forename>Gottlieb <name type="used">Adelbert</name>
+-                            </forename>
++                            <forename>Gottlieb <name type="used">Adelbert</name></forename>
+                         </persName>
+                         <birth>1822</birth>
+                         <death>1890</death>
+@@ -11934,7 +11931,7 @@ Mitglied einer Allianz gegen Napoleon, seit Ende 1813 Mitglied des Zentralverwal
+                     <note>Komponist und Universitätsmusiker in <link>Halle</link>
+                     </note>
+                 </person>
+-                <person olderID="ed_rjc_xbn_pkb" oldID="ed_rjc_xbn_pkb" xml:id="S0010292">
++                <person xml:id="ed_rjc_xbn_pkb" olderID="ed_rjc_xbn_pkb" oldID="ed_rjc_xbn_pkb">
+                     <persName type="reg">
+                         <surname>Heyse</surname>
+                         <forename>Karl Wilhelm Ludwig </forename>
+@@ -11944,7 +11941,7 @@ Mitglied einer Allianz gegen Napoleon, seit Ende 1813 Mitglied des Zentralverwal
+                     <note>Ab 1829 a.o. Professor für Philosophie an der Berliner Universität,
+                         Schüler von K.W.F. Solger</note>
+                 </person>
+-                <person oldID="ed_az4_jxc_rhb" xml:id="S0010010">
++                <person xml:id="ed_az4_jxc_rhb">
+                     <persName type="reg">
+                         <surname>Heloisa</surname>
+                         <forename/>
+@@ -12435,7 +12432,7 @@ Mitglied einer Allianz gegen Napoleon, seit Ende 1813 Mitglied des Zentralverwal
+                         <forename/>
+                     </persName>
+                 </person>
+-                <person oldID="ed_wgy_jpf_5fb" xml:id="S0010212">
++                <person xml:id="ed_wgy_jpf_5fb">
+                     <persName type="reg">
+                         <surname>Herzberg</surname>
+                         <forename>Friedrich</forename>
+@@ -12659,8 +12656,7 @@ Mitglied einer Allianz gegen Napoleon, seit Ende 1813 Mitglied des Zentralverwal
+                         <forename/>
+                     </persName>
+                     <note>Schwede, Schwiegersohn von <persName key="S0004391">Heinrich Christoph von
+-                            Willich</persName>
+-                    </note>
++                            Willich</persName></note>
+                 </person>
+                 <person xml:id="S0004397" oldID="prov_jtd_rmr_cr">
+                     <persName type="reg">
+@@ -12675,28 +12671,24 @@ Mitglied einer Allianz gegen Napoleon, seit Ende 1813 Mitglied des Zentralverwal
+                         Hjort</note>
+                 </person>
+                 <person xml:id="S0004399" oldID="prov_kmz_hyv_dv">
+-                    <persName type="reg">
+-                        <surname>Hjort</surname>
++                    <persName type="reg"><surname>Hjort</surname>
+                         <forename/>
+                     </persName>
+                     <birth>Ende 1808</birth>
+                     <death>ca. 1809</death>
+                     <note>Sohn der <link id="prov_jtd_rmr_cr">Charlotte Hjort</link> und Enkel des
+                             <persName key="S0004391">Christoph Heinrich von
+-                        Willich</persName>
+-                    </note>
++                        Willich</persName></note>
+                 </person>
+                 <person xml:id="S0004400" oldID="prov_vlw_kyv_dv">
+-                    <persName type="reg">
+-                        <surname>Hjort</surname>
++                    <persName type="reg"><surname>Hjort</surname>
+                         <forename/>
+                     </persName>
+                     <birth>geb. 1810</birth>
+                     <death/>
+                     <note>Tochter der <link id="prov_jtd_rmr_cr">Charlotte Hjort</link> und Enkelin
+                         des <persName key="S0004391">Christoph Heinrich von
+-                        Willich</persName>
+-                    </note>
++                        Willich</persName></note>
+                 </person>
+                 <person xml:id="S0002294" oldID="p931">
+                     <persName type="reg">
+@@ -12905,7 +12897,7 @@ Mitglied einer Allianz gegen Napoleon, seit Ende 1813 Mitglied des Zentralverwal
+                         Schleiermacherhörer in Berlin, dort zunächst Jura- dann Theologiestudium von
+                         1821–1825</note>
+                 </person>
+-                <person oldID="ed_y4b_ql4_q3b" xml:id="S0010235">
++                <person xml:id="ed_y4b_ql4_q3b">
+                     <persName type="reg">
+                         <surname>Holbein (der Jüngere)</surname>
+                         <forename>Hans</forename>
+@@ -13079,7 +13071,7 @@ Mitglied einer Allianz gegen Napoleon, seit Ende 1813 Mitglied des Zentralverwal
+                     <note>Superintendent und Konsistorialrat in <link>Bückeburg</link>, 1803 wegen
+                         einer Geisteskrankheit pensioniert</note>
+                 </person>
+-                <person oldID="ed_p5p_xhd_dhb" xml:id="S0010141">
++                <person xml:id="ed_p5p_xhd_dhb">
+                     <persName type="reg">
+                         <surname>Horstmann</surname>
+                         <forename/>
+@@ -13450,7 +13442,7 @@ Mitglied einer Allianz gegen Napoleon, seit Ende 1813 Mitglied des Zentralverwal
+                     <note>britischer Kapitän, Geograph und Gouverneur in <link>Australien</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_est_43y_dhb" xml:id="S0010055">
++                <person xml:id="ed_est_43y_dhb">
+                     <persName type="reg">
+                         <surname>Hurlebusch</surname>
+                         <forename>August Ferdinand</forename>
+@@ -14380,10 +14372,9 @@ Mitglied einer Allianz gegen Napoleon, seit Ende 1813 Mitglied des Zentralverwal
+                                 <link>Karl Johann Bernhard Karsten</link>
+                         </note>
+                     </person>
+-                    <person oldID="ed_zmt_nz3_vgb" xml:id="S0010256">
++                    <person xml:id="ed_zmt_nz3_vgb">
+                         <persName type="reg">
+-                            <surname><?oxy_comment_start author="gerber" timestamp="20190218T164422+0100" comment="eventuell der Mecklenburger Theologe Heinrich (Ludwig Joachim) Karsten, 1792-1871"?>Karsten</surname><?oxy_comment_end?>
+-                            <forename>Johann
++                            <surname><?oxy_comment_start author="gerber" timestamp="20190218T164422+0100" comment="eventuell der Mecklenburger Theologe Heinrich (Ludwig Joachim) Karsten, 1792-1871"?>Karsten</surname><?oxy_comment_end?><forename>Johann
+                                 Heinrich Gottlieb</forename>
+                         </persName>
+                         <birth>1793</birth>
+@@ -14729,7 +14720,7 @@ Weitere Auskunft in: Martin Kirschke: Liebigs Lehrer Karl W.G. Kastner , verlag
+                         <forename>reformiertes</forename>
+                     </persName>
+                 </person>
+-                <person oldID="ed_zmn_cml_5fb" xml:id="S0010255">
++                <person xml:id="ed_zmn_cml_5fb">
+                     <persName type="reg">
+                         <surname>Kirchenvorsteher der Dreifaltigkeitsgemeinde</surname>
+                         <forename/>
+@@ -14756,7 +14747,7 @@ Weitere Auskunft in: Martin Kirschke: Liebigs Lehrer Karl W.G. Kastner , verlag
+                     <note>Evangelischer Pfarrer und Probst in Pasewalk ab 1837, Schleiermacherhörer
+                         in Berlin, dort Theologiestudium 1820–1822</note>
+                 </person>
+-                <person oldID="ed_sjf_v3n_5gb" xml:id="S0010175">
++                <person xml:id="ed_sjf_v3n_5gb">
+                     <persName type="reg">
+                         <surname>Klamroth</surname>
+                         <forename/>
+@@ -15144,7 +15135,7 @@ Weitere Auskunft in: Martin Kirschke: Liebigs Lehrer Karl W.G. Kastner , verlag
+                     </persName>
+                     <note>geb. Freiin von Schrötter (in <link>Berlin</link>)</note>
+                 </person>
+-                <person oldID="ed_a5r_dqb_fhb" xml:id="S0009998">
++                <person xml:id="ed_a5r_dqb_fhb">
+                     <persName type="reg">
+                         <surname>Kobes</surname>
+                         <forename>Wilhelmine</forename>
+@@ -15259,7 +15250,7 @@ Weitere Auskunft in: Martin Kirschke: Liebigs Lehrer Karl W.G. Kastner , verlag
+                     <note>Buchdrucker in <link>Berlin</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_lp4_2mf_n3b" xml:id="S0010113">
++                <person xml:id="ed_lp4_2mf_n3b">
+                     <persName type="reg">
+                         <surname>Königliche Bibliothek in Berlin</surname>
+                         <forename/>
+@@ -15403,7 +15394,7 @@ Weitere Auskunft in: Martin Kirschke: Liebigs Lehrer Karl W.G. Kastner , verlag
+                     <note>Pädagoge, bis 1810 als Hofmeister tätig, danach im Schuldienst und der
+                         Schulverwaltung</note>
+                 </person>
+-                <person oldID="ed_dwq_qnw_qjb" xml:id="S0010045">
++                <person xml:id="ed_dwq_qnw_qjb">
+                     <idno type="uri">http://d-nb.info/gnd/1072699168</idno>
+                     <persName type="reg">
+                         <surname>Kohlrausch</surname>
+@@ -15485,14 +15476,13 @@ Weitere Auskunft in: Martin Kirschke: Liebigs Lehrer Karl W.G. Kastner , verlag
+                             Konopak</persName>
+                     </note>
+                 </person>
+-                <person olderID="ed_gnf_cv1_qkb" oldID="ed_gnf_cv1_qkb" xml:id="S0010293">
++                <person xml:id="ed_gnf_cv1_qkb">
+                     <persName type="reg">
+                         <surname>Konsistorium der Provinz Brandenburg</surname>
+                         <forename/>
+                     </persName>
+                     <birth/>
+-                    <death/>
+-                    <note>1817 als Provinzialkonsistorium eingerichtet</note>
++                    <death/><note>1817 als Provinzialkonsistorium eingerichtet</note>
+                 </person>
+                 <person xml:id="S0002578" oldID="p1124">
+                     <persName type="reg">
+@@ -15513,7 +15503,7 @@ Weitere Auskunft in: Martin Kirschke: Liebigs Lehrer Karl W.G. Kastner , verlag
+                         1737–1811) in <link>Weimar</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_r41_2xz_djb" xml:id="S0010158">
++                <person xml:id="ed_r41_2xz_djb">
+                     <persName type="reg">
+                         <surname>Kordes</surname>
+                         <forename>Berend</forename>
+@@ -15850,7 +15840,7 @@ Weitere Auskunft in: Martin Kirschke: Liebigs Lehrer Karl W.G. Kastner , verlag
+                     <note>Bekannter <link>K.G. von Raumers</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_dgq_qv3_vgb" xml:id="S0010041">
++                <person xml:id="ed_dgq_qv3_vgb">
+                     <persName type="reg">
+                         <surname>Krol</surname>
+                         <forename/>
+@@ -16067,7 +16057,7 @@ Text zu einer alten Ansichtskarte: „Original alte Ansichtskarte, ein grosses E
+                         <?oxy_comment_start author="Sarah Schmidt" timestamp="20160118T184127+0100" comment="Kühne studierte u. a. in Berlin bei Friedrich Schleiermacher und Friedrich Hegel Philosophie, hielt Kontakt zu dem literarischen Kreis um Rahel Varnhagen und wurde 1832 Mitarbeiter des „Magazins für die Literatur des Auslandes&quot; der „Preußischen Staatszeitung&quot; sowie Redaktionsassistent der „Jahrbücher für wissenschaftliche Kritik&quot; in Leipzig; später war er Redakteur der „Zeitung für die elegante Welt&quot; und erwarb die Zeitschrift „Europa&quot;, die er bis 1864 als Herausgeber verantwortete. Sein Werk umfaßt Essays und Feuilletons, historische Dramen, Romane, Gedichte und die Erinnerungen „Mein Tagebuch in bewegter Zeit&quot; (1863)."?>Berlin<?oxy_comment_end?>
+                     </note>
+                 </person>
+-                <person oldID="ed_s4j_l4w_vgb" xml:id="S0010169">
++                <person xml:id="ed_s4j_l4w_vgb">
+                     <persName type="reg">
+                         <surname>Kühne</surname>
+                         <forename>Gottlieb Friedrich</forename>
+@@ -16170,7 +16160,7 @@ Text zu einer alten Ansichtskarte: „Original alte Ansichtskarte, ein grosses E
+                     <death>1841</death>
+                     <note>deutscher Theologe</note>
+                 </person>
+-                <person olderID="ed_xny_5r1_qkb" oldID="ed_xny_5r1_qkb" xml:id="S0010294">
++                <person xml:id="ed_xny_5r1_qkb">
+                     <persName type="reg">
+                         <surname>Kultusministerium</surname>
+                         <forename>(Ministerium der Geistlichen, Unterrichts- und
+@@ -16654,7 +16644,7 @@ So fruchtbar war er, daß er vergaß, was er geschrieben hatte, und seine Erfind
+                             <link>Berlin</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_clv_1w4_xjb" xml:id="S0010032">
++                <person xml:id="ed_clv_1w4_xjb">
+                     <persName type="reg">
+                         <surname>Lauter</surname>
+                         <forename>Gottfried Christian</forename>
+@@ -16893,7 +16883,7 @@ So fruchtbar war er, daß er vergaß, was er geschrieben hatte, und seine Erfind
+                         <note>Schwester der <persName key="S0002266">Henriette Herz</persName>
+                         </note>
+                     </person>
+-                    <person oldID="ed_odk_lsn_5jb" xml:id="S0010136">
++                    <person xml:id="ed_odk_lsn_5jb">
+                         <persName type="reg">
+                             <surname>Lenné</surname>
+                             <forename>Peter Joseph</forename>
+@@ -17037,7 +17027,7 @@ So fruchtbar war er, daß er vergaß, was er geschrieben hatte, und seine Erfind
+                         <note>Töchter der <link id="prov_xbg_xmx_bx">Frau von Lettow</link>
+                         </note>
+                     </person>
+-                    <person oldID="ed_k1b_vyp_xjb" xml:id="S0010098">
++                    <person xml:id="ed_k1b_vyp_xjb">
+                         <persName type="reg">
+                             <surname>Leuchs</surname>
+                             <forename>Johann Carl</forename>
+@@ -17120,7 +17110,7 @@ So fruchtbar war er, daß er vergaß, was er geschrieben hatte, und seine Erfind
+                     <note>seit 1770 Professor der Physik in <link>Göttingen</link>,
+                         Schriftsteller</note>
+                 </person>
+-                <person oldID="ed_vsq_fzs_pgb" xml:id="S0010205">
++                <person xml:id="ed_vsq_fzs_pgb">
+                     <persName type="reg">
+                         <surname>Lichtenstein</surname>
+                         <forename>Martin Karl Hinrich</forename>
+@@ -17244,7 +17234,7 @@ So fruchtbar war er, daß er vergaß, was er geschrieben hatte, und seine Erfind
+                         <forename>E.</forename>
+                     </persName>
+                 </person>
+-                <person oldID="ed_blx_4ws_5hb" xml:id="S0010016">
++                <person xml:id="ed_blx_4ws_5hb">
+                     <idno type="uri">http://d-nb.info/gnd/118573624</idno>
+                     <persName type="reg">
+                         <surname>Livius</surname>
+@@ -17717,7 +17707,7 @@ siehe Brief an Brinkmann, kann aber auch ein anderer Lützow sein da Militärfam
+                     <birth>1483</birth>
+                     <death>1546</death>
+                 </person>
+-                <person oldID="ed_yr2_m3l_p3b" xml:id="S0010244">
++                <person xml:id="ed_yr2_m3l_p3b">
+                     <persName type="reg">
+                         <surname>Lutherische Jubelstiftung</surname>
+                         <forename/>
+@@ -17879,7 +17869,7 @@ siehe Brief an Brinkmann, kann aber auch ein anderer Lützow sein da Militärfam
+                         in <link>Königsberg</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_bzc_kmh_chb" xml:id="S0010024">
++                <person xml:id="ed_bzc_kmh_chb">
+                     <persName type="reg">
+                         <surname>Manger</surname>
+                         <forename/>
+@@ -17888,7 +17878,7 @@ siehe Brief an Brinkmann, kann aber auch ein anderer Lützow sein da Militärfam
+                     <death/>
+                     <note>Verheiratet mit Frau Manger</note>
+                 </person>
+-                <person oldID="ed_qw5_4mh_chb" xml:id="S0010156">
++                <person xml:id="ed_qw5_4mh_chb">
+                     <persName type="reg">
+                         <surname>Manger</surname>
+                         <forename/>
+@@ -18136,7 +18126,7 @@ siehe Brief an Brinkmann, kann aber auch ein anderer Lützow sein da Militärfam
+                         <note>Frau des Vorigen</note>
+                     </person>
+                 </listPerson>
+-                <person oldID="ed_jbm_qlr_hkb" xml:id="S0010093">
++                <person xml:id="ed_jbm_qlr_hkb">
+                     <persName type="reg">
+                         <surname>Martin</surname>
+                         <forename>Christoph Reinhard Dietrich</forename>
+@@ -18625,7 +18615,7 @@ siehe Brief an Brinkmann, kann aber auch ein anderer Lützow sein da Militärfam
+                     <death>10.5.1855</death>
+                     <note>Stadtbaumeister und Bürgermeister von Halle</note>
+                 </person>
+-                <person oldID="ed_k5t_hqk_yjb" xml:id="S0010102">
++                <person xml:id="ed_k5t_hqk_yjb">
+                     <persName type="reg">
+                         <surname>Menander</surname>
+                         <forename/>
+@@ -18822,8 +18812,7 @@ siehe Brief an Brinkmann, kann aber auch ein anderer Lützow sein da Militärfam
+                     <person xml:id="S0002916" oldID="p1373">
+                         <idno type="uri">http://d-nb.info/gnd/1060404419</idno>
+                         <persName type="reg">
+-                            <surname>Metger</surname>
+-                            <forename>Friedrich Severin</forename>
++                            <surname>Metger</surname><forename>Friedrich Severin</forename>
+                         </persName>
+                         <birth>1775</birth>
+                         <death>1834</death>
+@@ -18867,7 +18856,7 @@ siehe Brief an Brinkmann, kann aber auch ein anderer Lützow sein da Militärfam
+                     <death>1859</death>
+                     <note>österreichischer Staatsmann</note>
+                 </person>
+-                <person oldID="ed_hy3_fnk_wgb" xml:id="S0010085">
++                <person xml:id="ed_hy3_fnk_wgb">
+                     <persName type="reg">
+                         <surname>Metzler</surname>
+                         <forename/>
+@@ -18885,7 +18874,7 @@ siehe Brief an Brinkmann, kann aber auch ein anderer Lützow sein da Militärfam
+                     <death>1639</death>
+                     <note>niederländischer Philologe</note>
+                 </person>
+-                <person oldID="ed_o3s_r5g_sjb" xml:id="S0010135">
++                <person xml:id="ed_o3s_r5g_sjb">
+                     <persName type="reg">
+                         <surname>Meusebach</surname>
+                         <forename>Karl Hartwig Gregor von</forename>
+@@ -19094,7 +19083,7 @@ siehe Brief an Brinkmann, kann aber auch ein anderer Lützow sein da Militärfam
+                     <death>1818</death>
+                     <note>französischer Naturforscher und Polyhistor</note>
+                 </person>
+-                <person oldID="ed_x1v_kkk_r3b" xml:id="S0010221">
++                <person xml:id="ed_x1v_kkk_r3b">
+                     <persName type="reg">
+                         <surname>Miltiades (der Jüngere)</surname>
+                         <forename/>
+@@ -19166,7 +19155,7 @@ siehe Brief an Brinkmann, kann aber auch ein anderer Lützow sein da Militärfam
+                     <note>wohl Staatsbeamter mit Angelegenheiten der Universität Halle
+                         betraut</note>
+                 </person>
+-                <person oldID="ed_h5f_rrz_pgb" xml:id="S0010074">
++                <person xml:id="ed_h5f_rrz_pgb">
+                     <persName type="reg">
+                         <surname>Möller</surname>
+                         <forename>Johann Friedrich</forename>
+@@ -19193,7 +19182,7 @@ siehe Brief an Brinkmann, kann aber auch ein anderer Lützow sein da Militärfam
+                     <death>632</death>
+                     <note>arabischer Religionsstifter</note>
+                 </person>
+-                <person oldID="ed_bfh_ybj_4kb" xml:id="S0010013">
++                <person xml:id="ed_bfh_ybj_4kb">
+                     <persName type="reg">
+                         <surname>Mohnike</surname>
+                         <forename>Gottlieb</forename>
+@@ -20132,7 +20121,7 @@ siehe Brief an Brinkmann, kann aber auch ein anderer Lützow sein da Militärfam
+                         Vetter <link>Henrich Steffens’</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_m3r_vpz_33b" xml:id="S0010118">
++                <person xml:id="ed_m3r_vpz_33b">
+                     <persName type="reg">
+                         <surname>Myron</surname>
+                         <forename/>
+@@ -20431,7 +20420,7 @@ siehe Brief an Brinkmann, kann aber auch ein anderer Lützow sein da Militärfam
+                                 <link>Halle</link>
+                         </note><?oxy_comment_end?>
+                     </person>
+-                    <person oldID="ed_fst_fhw_vgb" xml:id="S0010061">
++                    <person xml:id="ed_fst_fhw_vgb">
+                         <persName type="reg">
+                             <surname>Neumann</surname>
+                             <forename/>
+@@ -20502,11 +20491,10 @@ siehe Brief an Brinkmann, kann aber auch ein anderer Lützow sein da Militärfam
+                     <death>1826</death>
+                     <note>Prediger an der lutherischen Domgemeinde in Bremen</note>
+                 </person>
+-                <person oldID="ed_gd1_2tg_sjb" xml:id="S0010068">
++                <person xml:id="ed_gd1_2tg_sjb">
+                     <persName type="reg">
+                         <surname>Nicolai</surname>
+-                        <forename>Philipp</forename>
+-                    </persName>
++                        <forename>Philipp</forename></persName>
+                     <birth>1556</birth>
+                     <death>1608</death>
+                     <note>lutherischer Hofprediger und Liederdichter</note>
+@@ -20867,7 +20855,7 @@ preußischer Staatsmann von hohen Verdiensten"?>Nicolovius</surname>
+                         <forename>Kurt</forename>
+                     </persName>
+                 </person>
+-                <person oldID="ed_ycf_kvf_2hb" xml:id="S0010237">
++                <person xml:id="ed_ycf_kvf_2hb">
+                     <persName type="reg">
+                         <surname>Obenaus</surname>
+                         <forename>Christian August Friedrich</forename>
+@@ -20878,7 +20866,7 @@ preußischer Staatsmann von hohen Verdiensten"?>Nicolovius</surname>
+                         Brigadeprediger, 1816 Divisionspfarrer in Koblenz, 1823 Oberpfarrer in
+                         Schwedt</note>
+                 </person>
+-                <person oldID="ed_kz3_5jd_yfb" xml:id="S0010107">
++                <person xml:id="ed_kz3_5jd_yfb">
+                     <persName type="reg">
+                         <surname>Oberkuratorium des Friedrich-Wilhelm-Gymnasiums und der
+                             Realschule</surname>
+@@ -21341,7 +21329,7 @@ preußischer Staatsmann von hohen Verdiensten"?>Nicolovius</surname>
+                     <note>Pfarrer an <link>St. Nikolai in Berlin</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_cpj_f11_j3b" xml:id="S0010033">
++                <person xml:id="ed_cpj_f11_j3b">
+                     <persName type="reg">
+                         <surname>Pius VI.</surname>
+                         <forename/>
+@@ -21798,7 +21786,7 @@ was soll das bedeuten?"?><?oxy_comment_end?>
+                     <note>Theologe, Bischof von <link>Paris</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_ajv_5hm_bhb" xml:id="S0010002">
++                <person xml:id="ed_ajv_5hm_bhb">
+                     <persName type="reg">
+                         <surname>Petzke</surname>
+                         <forename>Auguste</forename>
+@@ -22007,7 +21995,7 @@ Vater ist Karl Friedrich von Pfeil 1735-1807"?>Pfeil</surname>
+                             (Australien)</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_z4b_rc3_h3b" xml:id="S0010251">
++                <person xml:id="ed_z4b_rc3_h3b">
+                     <persName type="reg">
+                         <surname>Philippart</surname>
+                         <forename>John</forename>
+@@ -22050,7 +22038,7 @@ Vater ist Karl Friedrich von Pfeil 1735-1807"?>Pfeil</surname>
+                     </persName>
+                     <note>griechische Sagenfigur; auch poetischer Name der Nachtigall</note>
+                 </person>
+-                <person oldID="ed_jd3_c1t_ngb" xml:id="S0010094">
++                <person xml:id="ed_jd3_c1t_ngb">
+                     <persName type="reg">
+                         <surname>Philosophische Fakultät an der Universität Berlin</surname>
+                         <forename/>
+@@ -22116,7 +22104,7 @@ Vater ist Karl Friedrich von Pfeil 1735-1807"?>Pfeil</surname>
+                         1827–1828<?oxy_comment_end?>
+                     </note>
+                 </person>
+-                <person oldID="ed_pmq_mlg_sjb" xml:id="S0010144">
++                <person xml:id="ed_pmq_mlg_sjb">
+                     <persName type="reg">
+                         <surname>Piombo</surname>
+                         <forename>Sebastian del</forename>
+@@ -22527,7 +22515,7 @@ Vater ist Karl Friedrich von Pfeil 1735-1807"?>Pfeil</surname>
+                             <persName key="S0003975">Henrich Steffens</persName>
+                     </note>
+                 </person>
+-                <person oldID="ed_nlq_xjy_vjb" xml:id="S0010131">
++                <person xml:id="ed_nlq_xjy_vjb">
+                     <persName type="reg">
+                         <surname>Polignac</surname>
+                         <forename>Melchior de</forename>
+@@ -22605,7 +22593,7 @@ Vater ist Karl Friedrich von Pfeil 1735-1807"?>Pfeil</surname>
+                     </persName>
+                     <note>freigelassener Sklave des Augustus</note>
+                 </person>
+-                <person oldID="ed_z3n_43c_rhb" xml:id="S0010250">
++                <person xml:id="ed_z3n_43c_rhb">
+                     <persName type="reg">
+                         <surname>Polyklet</surname>
+                         <forename/>
+@@ -22716,7 +22704,7 @@ Vater ist Karl Friedrich von Pfeil 1735-1807"?>Pfeil</surname>
+                         <death>1619</death>
+                         <note>Kurfürst von <link>Brandenburg</link> seit 1608</note>
+                     </person>
+-                    <person oldID="ed_gbd_tsf_5jb" xml:id="S0010067">
++                    <person xml:id="ed_gbd_tsf_5jb">
+                         <persName type="reg">
+                             <surname>Friedrich Wilhelm von Brandenburg</surname>
+                             <forename/>
+@@ -22725,7 +22713,7 @@ Vater ist Karl Friedrich von Pfeil 1735-1807"?>Pfeil</surname>
+                         <death>1688</death>
+                         <note>ab 1640 Markgraf von Brandenburg</note>
+                     </person>
+-                    <person oldID="ed_wsf_bwt_5jb" xml:id="S0010216">
++                    <person xml:id="ed_wsf_bwt_5jb">
+                         <persName type="reg">
+                             <surname>Friedrich I.</surname>
+                             <forename/>
+@@ -22750,8 +22738,7 @@ Vater ist Karl Friedrich von Pfeil 1735-1807"?>Pfeil</surname>
+                         </persName>
+                         <birth>1730</birth>
+                         <death>1813</death>
+-                        <note>Bruder <link>Friedrichs II.</link>
+-                        </note>
++                        <note>Bruder <link>Friedrichs II.</link></note>
+                     </person>
+                     <person xml:id="S0003298" oldID="prov_cj4_r5t_vy">
+                         <persName type="reg">
+@@ -22928,7 +22915,7 @@ Vater ist Karl Friedrich von Pfeil 1735-1807"?>Pfeil</surname>
+                     <death>20.1.1832</death>
+                     <note>Professor der Moral in Rostock, Philologe und Schriftsteller</note>
+                 </person>
+-                <person oldID="ed_mtz_l5c_ygb" xml:id="S0010124">
++                <person xml:id="ed_mtz_l5c_ygb">
+                     <persName type="reg">
+                         <surname>Priewe</surname>
+                         <forename/>
+@@ -23013,7 +23000,7 @@ Vater ist Karl Friedrich von Pfeil 1735-1807"?>Pfeil</surname>
+                         <note>Tochter der der <link>Juliane Elisabeth von Prittwitz</link>, später
+                             verheiratet mit dem Theologieprofessor Hermann Olshausen</note>
+                     </person>
+-                    <person oldID="ed_wf2_mkm_bhb" xml:id="S0010210">
++                    <person xml:id="ed_wf2_mkm_bhb">
+                         <persName type="reg">
+                             <surname>Prittwiz </surname>
+                             <forename>von</forename>
+@@ -23417,7 +23404,7 @@ Vater ist Karl Friedrich von Pfeil 1735-1807"?>Pfeil</surname>
+                     <note>Dr., Bekannter <link>F.C.G. Duisburgs</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_jhk_ykg_sjb" xml:id="S0010095">
++                <person xml:id="ed_jhk_ykg_sjb">
+                     <persName type="reg">
+                         <surname>Rauch</surname>
+                         <forename>Christian Daniel</forename>
+@@ -25065,7 +25052,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>protestantischer Theologe, zuletzt Ordinarius an der Universität
+                         Leipzig</note>
+                 </person>
+-                <person oldID="ed_ng3_snx_vjb" xml:id="S0010127">
++                <person xml:id="ed_ng3_snx_vjb">
+                     <persName type="reg">
+                         <surname>Rosenstein</surname>
+                         <forename>Carl Rosén von</forename>
+@@ -25367,7 +25354,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     </persName>
+                     <note>Korrespondenzpartner/partnerin Schleiermachers</note>
+                 </person>
+-                <person oldID="ed_kqt_wg3_jhb" xml:id="S0010105">
++                <person xml:id="ed_kqt_wg3_jhb">
+                     <persName type="reg">
+                         <surname>Rust</surname>
+                         <forename>J.N.</forename>
+@@ -25408,7 +25395,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                             <link id="prov_kw5_kjl_1l">Wilhelm von Kathen</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_yb5_l4l_yjb" xml:id="S0010236">
++                <person xml:id="ed_yb5_l4l_yjb">
+                     <persName type="reg">
+                         <surname>Rymer</surname>
+                         <forename>Thomas</forename>
+@@ -25716,11 +25703,10 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>Historiker, Professor in <link>Göttingen</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_eqz_t5k_wgb" xml:id="S0010054">
++                <person xml:id="ed_eqz_t5k_wgb">
+                     <persName type="reg">
+                         <surname>Sartorius</surname>
+-                        <forename>
+-                            <name type="used">Ernst</name> Wilhelm Christian</forename>
++                        <forename><name type="used">Ernst</name> Wilhelm Christian</forename>
+                     </persName>
+                     <birth>1797</birth>
+                     <death>1859</death>
+@@ -25852,7 +25838,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <death>1850</death>
+                     <note>Bildhauer</note>
+                 </person>
+-                <person oldID="ed_cjc_2hq_vjb" xml:id="S0010028">
++                <person xml:id="ed_cjc_2hq_vjb">
+                     <persName type="reg">
+                         <surname>Schadow</surname>
+                         <forename>Friedrich Wilhelm von</forename>
+@@ -25886,7 +25872,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                         <forename>Franz Ludwig von</forename>
+                     </persName>
+                 </person>
+-                <person oldID="ed_s4n_pzb_ygb" xml:id="S0010170">
++                <person xml:id="ed_s4n_pzb_ygb">
+                     <persName type="reg">
+                         <surname>Schardius</surname>
+                         <forename/>
+@@ -26785,8 +26771,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                 <person xml:id="S0003693" oldID="p1923">
+                     <persName type="reg">
+                         <surname>Schlichtegroll</surname>
+-                        <forename>Adolf Heinrich <name type="used">Friedrich</name>
+-                        </forename>
++                        <forename>Adolf Heinrich <name type="used">Friedrich</name></forename>
+                     </persName>
+                     <birth>1765</birth>
+                     <death>1822</death>
+@@ -27120,7 +27105,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>in <link>Halle</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_ghg_1mb_fhb" xml:id="S0010070">
++                <person xml:id="ed_ghg_1mb_fhb">
+                     <persName type="reg">
+                         <surname>Schmükkner</surname>
+                         <forename/>
+@@ -27139,7 +27124,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                             <link>Freiburg</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_yvn_b2s_w3b" xml:id="S0010245">
++                <person xml:id="ed_yvn_b2s_w3b">
+                     <persName type="reg">
+                         <surname>Schneegans</surname>
+                         <forename>Johann Wilhelm</forename>
+@@ -27452,7 +27437,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                         <note>geb. Gräfin zu Dohna-Schlobitten, dritte Ehefrau Carl Wilhelm Freiherr
+                             von Schroetters, bei Schleiermacher auch "Kanzlerin"</note>
+                     </person>
+-                    <person oldID="ed_apb_b3f_zgb" xml:id="S0010004">
++                    <person xml:id="ed_apb_b3f_zgb">
+                         <persName type="reg">
+                             <surname>Schroetter</surname>
+                             <forename>Ferdinand Freiherr von</forename>
+@@ -27580,8 +27565,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                 <person xml:id="S0003774" oldID="p1972">
+                     <persName type="reg">
+                         <surname>Schuderoff</surname>
+-                        <forename>Johann Georg <name type="used">Jonathan</name>
+-                        </forename>
++                        <forename>Johann Georg <name type="used">Jonathan</name></forename>
+                     </persName>
+                     <birth>1766</birth>
+                     <death>1843</death>
+@@ -28315,8 +28299,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <person xml:id="S0003849" oldID="p2019">
+                         <persName type="reg">
+                             <surname>Schwerin-Putzar</surname>
+-                            <forename>
+-                                <name type="used">Hildegard</name> Marie Gräfin von</forename>
++                            <forename><name type="used">Hildegard</name> Marie Gräfin von</forename>
+                         </persName>
+                         <birth>1817</birth>
+                         <death>1889</death>
+@@ -28353,8 +28336,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     </persName>
+                     <birth>1756</birth>
+                     <death>1839</death>
+-                    <note>Verlagsbuchhändler in <link>Halle</link><?oxy_comment_end?>
+-                    </note>
++                    <note>Verlagsbuchhändler in <link>Halle</link><?oxy_comment_end?></note>
+                 </person>
+                 <person xml:id="S0003851" oldID="p2021">
+                     <persName type="reg">
+@@ -28420,11 +28402,10 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+ (Anne)"?>Hälderlin<?oxy_comment_end?>
+                         bekannt </note>
+                 </person>
+-                <person oldID="ed_uj4_3gk_wgb" xml:id="S0010195">
++                <person xml:id="ed_uj4_3gk_wgb">
+                     <persName type="reg">
+                         <surname>Sederholm</surname>
+-                        <forename>
+-                            <name type="used">Karl</name> Theodor</forename>
++                        <forename><name type="used">Karl</name> Theodor</forename>
+                     </persName>
+                     <birth>1789</birth>
+                     <death>1867</death>
+@@ -28690,11 +28671,10 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>Prediger und Professor der Theologie in <link>Erlangen</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_lxw_qtk_ygb" xml:id="S0010116">
++                <person xml:id="ed_lxw_qtk_ygb">
+                     <persName type="reg">
+                         <surname>Seiler</surname>
+-                        <forename>Georg Christoph <name type="used">Wilhelm</name>
+-                        </forename>
++                        <forename>Georg Christoph <name type="used">Wilhelm</name></forename>
+                     </persName>
+                     <birth>1769</birth>
+                     <death>1860</death>
+@@ -28775,7 +28755,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                         <note>geb. von Ronsdorf, Frau des Vorigen</note>
+                     </person>
+                 </listPerson>
+-                <person oldID="ed_tcz_fwf_2hb" xml:id="S0010185">
++                <person xml:id="ed_tcz_fwf_2hb">
+                     <persName type="reg">
+                         <surname>Sellentin</surname>
+                         <forename/>
+@@ -29148,7 +29128,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                         in <link>Berlin</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_chf_pqm_zgb" xml:id="S0010027">
++                <person xml:id="ed_chf_pqm_zgb">
+                     <persName type="reg">
+                         <surname>Sonnenburg</surname>
+                         <forename>Johann Christian Anton</forename>
+@@ -29514,7 +29494,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>in <link>Halle</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_ygj_cyv_vgb" xml:id="S0010239">
++                <person xml:id="ed_ygj_cyv_vgb">
+                     <persName type="reg">
+                         <surname>Stappenbeck</surname>
+                         <forename/>
+@@ -29890,7 +29870,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>Herr in <link>Leipzig</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_zg2_4bf_n3b" xml:id="S0010252">
++                <person xml:id="ed_zg2_4bf_n3b">
+                     <persName type="reg">
+                         <surname>Steinmann</surname>
+                         <forename>Ernst Ewald von</forename>
+@@ -30095,7 +30075,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>Arzt in <link>Landsberg (Warthe)</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_wzh_fz1_j3b" xml:id="S0010220">
++                <person xml:id="ed_wzh_fz1_j3b">
+                     <persName type="reg">
+                         <surname>Stockmann</surname>
+                         <forename>Cornelius August </forename>
+@@ -30496,7 +30476,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>Apothekergehilfe in <link>Stettin</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_ugn_v14_bkb" xml:id="S0010194">
++                <person xml:id="ed_ugn_v14_bkb">
+                     <persName type="reg">
+                         <surname>Sturdza (Sturza)</surname>
+                         <forename>Alexandru Scarlat</forename>
+@@ -30603,7 +30583,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <death>78</death>
+                     <note>römischer Staatsmann</note>
+                 </person>
+-                <person oldID="ed_wjr_wk4_s3b" xml:id="S0010213">
++                <person xml:id="ed_wjr_wk4_s3b">
+                     <persName type="reg">
+                         <surname>Sulzer</surname>
+                         <forename>Johann Georg</forename>
+@@ -30909,7 +30889,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>Dichter</note>
+                 </person>
+                 <person xml:id="S0004101" oldID="p2197">
+-                    <person oldID="ed_wqs_ss3_mgb" xml:id="S0010215">
++                    <person xml:id="ed_wqs_ss3_mgb">
+                         <persName type="reg">
+                             <surname>Theologische Fakultät an der Universität Berlin</surname>
+                             <forename/>
+@@ -31151,7 +31131,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>griechischer Redner, Sophist und Demokrat in <link>Athen</link>,
+                             <link>Platon</link>, Politeia</note>
+                 </person>
+-                <person oldID="ed_zml_ybf_n3b" xml:id="S0010254">
++                <person xml:id="ed_zml_ybf_n3b">
+                     <persName type="reg">
+                         <surname>Thümen</surname>
+                         <forename>Heinrich Ludwig
+@@ -31165,7 +31145,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                         1814 Generalleutnant, 1815 kommandierender General in Posen, 1820 im
+                         Ruhestand</note>
+                 </person>
+-                <person oldID="ed_fgl_jcf_n3b" xml:id="S0010057">
++                <person xml:id="ed_fgl_jcf_n3b">
+                     <persName type="reg">
+                         <surname>Thümen</surname>
+                         <forename><?oxy_comment_start author="gerber" timestamp="20190725T122612+0200" comment="Rufname"?>Angelika<?oxy_comment_end?>
+@@ -31416,8 +31396,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                 <person xml:id="S0004151" oldID="prov_ddy_2fv_h2b">
+                     <persName type="reg">
+                         <surname>Trapassi</surname>
+-                        <forename>Pietro Antonio Domenico Bonaventura</forename>
+-                    </persName>
++                        <forename>Pietro Antonio Domenico Bonaventura</forename></persName>
+                     <birth>1698</birth>
+                     <death>1782</death>
+                     <note>Pseudonym: Pietro Metastasio, italienischer Dichter und Librettist</note>
+@@ -31438,7 +31417,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                         <forename>Hans-Friedrich</forename>
+                     </persName>
+                 </person>
+-                <person oldID="ed_g33_2jv_lkb" xml:id="S0010066">
++                <person xml:id="ed_g33_2jv_lkb">
+                     <persName type="reg">
+                         <surname>Trendelenburg</surname>
+                         <forename>Friedrich Adolf</forename>
+@@ -31495,7 +31474,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>Verlagsbuchhändler in <link>Danzig</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_jjp_tw1_1hb" xml:id="S0010096">
++                <person xml:id="ed_jjp_tw1_1hb">
+                     <persName type="reg">
+                         <surname>Trützschler</surname>
+                         <forename>Friedrich Christoph von </forename>
+@@ -31709,7 +31688,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>persisch-arabischer Dichter und Alchemist, Beamter im Dienst der
+                         Seldschuken</note>
+                 </person>
+-                <person oldID="ed_lwf_pqb_fhb" xml:id="S0010115">
++                <person xml:id="ed_lwf_pqb_fhb">
+                     <persName type="reg">
+                         <surname>Turk</surname>
+                         <forename/>
+@@ -31970,7 +31949,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                         </note>
+                     </person>
+                 </listPerson>
+-                <person oldID="ed_skf_14n_5jb" xml:id="S0010176">
++                <person xml:id="ed_skf_14n_5jb">
+                     <persName type="reg">
+                         <surname>Unger</surname>
+                         <forename>Georg Christian</forename>
+@@ -32334,7 +32313,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>Verleger in <link>Berlin</link> und <link>Braunschweig</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_zxk_sql_33b" xml:id="S0010258">
++                <person xml:id="ed_zxk_sql_33b">
+                     <persName type="reg">
+                         <surname>Viganó</surname>
+                         <forename>Maria</forename>
+@@ -32344,7 +32323,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>geborene Mayer, Tänzerin, Tanzpartnerin ihres Ehemanns Salvatore
+                         Viganó</note>
+                 </person>
+-                <person oldID="ed_pv3_nql_33b" xml:id="S0010147">
++                <person xml:id="ed_pv3_nql_33b">
+                     <persName type="reg">
+                         <surname>Viganó</surname>
+                         <forename>Salvatore</forename>
+@@ -32412,7 +32391,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <death>21.9.19 v. Chr. in Brindisi</death>
+                     <note>Lateinischer Dichter und Epiker</note>
+                 </person>
+-                <person oldID="ed_bd2_xzg_lkb" xml:id="S0010011">
++                <person xml:id="ed_bd2_xzg_lkb">
+                     <persName type="reg">
+                         <surname>Visbeck</surname>
+                         <forename>Johann Christian Karl</forename>
+@@ -32423,7 +32402,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                         Stargardt, 1821 Prediger und Konsistorialrat in Neustrelitz, 1837
+                         Oberkonsistorialrat</note>
+                 </person>
+-                <person oldID="ed_gr1_q1h_lkb" xml:id="S0010072">
++                <person xml:id="ed_gr1_q1h_lkb">
+                     <persName type="reg">
+                         <surname>Visbeck</surname>
+                         <forename>Dorothea Friederike</forename>
+@@ -32441,7 +32420,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>Bekannter <link>Luise Reichardts</link> in <link>Berlin</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_pmx_y2l_yjb" xml:id="S0010145">
++                <person xml:id="ed_pmx_y2l_yjb">
+                     <persName type="reg">
+                         <surname>Vitalianus</surname>
+                         <forename/>
+@@ -33154,7 +33133,7 @@ Colloquium Verlag, 1990 - 289 Seite"?>1805–1811
+                     <note>Arzt in <link>Stralsund</link>, später in <link>Stockholm</link>
+                         Leibmedicus des Königs von Schweden</note>
+                 </person>
+-                <person oldID="ed_ork_j1f_zgb" xml:id="S0010139">
++                <person xml:id="ed_ork_j1f_zgb">
+                     <persName type="reg">
+                         <surname>Weigel</surname>
+                         <forename>Johann <name type="used">August</name> Gottlob</forename>
+@@ -33581,7 +33560,7 @@ In: Bericht über den Internationalen Musikwissenschaftlichen Kongress, Kassel 1
+                     <death>1836</death>
+                     <note>Privatgelehrter, Deklamator</note>
+                 </person>
+-                <person oldID="ed_rfj_z1g_2hb" xml:id="S0010163">
++                <person xml:id="ed_rfj_z1g_2hb">
+                     <persName type="reg">
+                         <surname>Wichelhausen und Reidemeister</surname>
+                         <forename/>
+@@ -33905,7 +33884,7 @@ In: Bericht über den Internationalen Musikwissenschaftlichen Kongress, Kassel 1
+                                 Willich</persName>
+                         </note>
+                     </person>
+-                    <person oldID="ed_a2f_nl2_pkb" xml:id="S0009996">
++                    <person xml:id="ed_a2f_nl2_pkb">
+                         <persName type="reg">
+                             <surname>Willch</surname>
+                             <forename>Charlotte von</forename>
+@@ -34038,7 +34017,7 @@ In: Bericht über den Internationalen Musikwissenschaftlichen Kongress, Kassel 1
+                             Tochter der <link>Marianne Regina von Willich</link>
+                         </note>
+                     </person>
+-                    <person oldID="ed_xvf_hcp_jgb" xml:id="S0010229">
++                    <person xml:id="ed_xvf_hcp_jgb">
+                         <persName type="reg">
+                             <surname>Willich</surname>
+                             <forename>Georg Willhlem (von)</forename>
+@@ -34049,7 +34028,7 @@ In: Bericht über den Internationalen Musikwissenschaftlichen Kongress, Kassel 1
+                             Landrat des Kreises Prczacniz, Bürgermeister von Braunsberg im
+                             Ermland</note>
+                     </person>
+-                    <person oldID="ed_vt3_rcp_jgb" xml:id="S0010208">
++                    <person xml:id="ed_vt3_rcp_jgb">
+                         <persName type="reg">
+                             <surname>Willich</surname>
+                             <forename>Friederike Luise (von)</forename>
+@@ -34058,7 +34037,7 @@ In: Bericht über den Internationalen Musikwissenschaftlichen Kongress, Kassel 1
+                         <death/>
+                         <note>geb. Michalowska</note>
+                     </person>
+-                    <person oldID="ed_mrn_tcp_jgb" xml:id="S0010123">
++                    <person xml:id="ed_mrn_tcp_jgb">
+                         <persName type="reg">
+                             <surname>Willich</surname>
+                             <forename>August von</forename>
+@@ -34323,7 +34302,7 @@ In: Bericht über den Internationalen Musikwissenschaftlichen Kongress, Kassel 1
+                     <death>1852</death>
+                     <note>Schüler Schleiermachers in Halle, Jurist und Musikwissenschaftler</note>
+                 </person>
+-                <person oldID="ed_a3c_wdf_n3b" xml:id="S0009997">
++                <person xml:id="ed_a3c_wdf_n3b">
+                     <persName type="reg">
+                         <surname>Winterfeld</surname>
+                         <forename>Wilhelmine Magdalene Juliane Justine von</forename>
+@@ -34385,7 +34364,7 @@ In: Bericht über den Internationalen Musikwissenschaftlichen Kongress, Kassel 1
+                     <death>1837</death>
+                     <note>preußischer General</note>
+                 </person>
+-                <person oldID="ed_k34_qpk_wgb" xml:id="S0010101">
++                <person xml:id="ed_k34_qpk_wgb">
+                     <persName type="reg">
+                         <surname>Wobeser</surname>
+                         <forename>von</forename>
+@@ -34548,7 +34527,7 @@ In: Bericht über den Internationalen Musikwissenschaftlichen Kongress, Kassel 1
+                             </note>
+                         </person>
+                     </listPerson>
+-                    <person oldID="ed_e2s_kry_1gb" xml:id="S0010047">
++                    <person xml:id="ed_e2s_kry_1gb">
+                         <persName type="reg">
+                             <surname>Wolf(f)</surname>
+                             <forename/>
+@@ -35079,7 +35058,7 @@ In: Bericht über den Internationalen Musikwissenschaftlichen Kongress, Kassel 1
+                     <note>Inspektor des Pädagogiums der Brüdergemeine in <link>Niesky</link>
+                     </note>
+                 </person>
+-                <person oldID="ed_sxw_2jk_tgb" xml:id="S0010180">
++                <person xml:id="ed_sxw_2jk_tgb">
+                     <persName type="reg">
+                         <surname>Zenge</surname>
+                         <forename>Luise von</forename>
+@@ -35109,11 +35088,10 @@ In: Bericht über den Internationalen Musikwissenschaftlichen Kongress, Kassel 1
+                         <note>Frau des <link>Johann Gottlieb Friedrich Zenker</link>
+                         </note>
+                     </person>
+-                    <person oldID="ed_xyp_pcq_qjb" xml:id="S0010232">
++                    <person xml:id="ed_xyp_pcq_qjb">
+                         <persName type="reg">
+                             <surname>Zenon von Elea</surname>
+-                            <forename/>
+-                        </persName>
++                            <forename/></persName>
+                         <birth>um 490 v. Chr.</birth>
+                         <death>um 430 v. Chr</death>
+                         <note>vorsokratischer Philosoph</note>
+@@ -35258,7 +35236,7 @@ In: Bericht über den Internationalen Musikwissenschaftlichen Kongress, Kassel 1
+                     </persName>
+                     <note>Hauslehrer im Hause von Kathen</note>
+                 </person>
+-                <person oldID="ed_ngx_sgc_ygb" xml:id="S0010128">
++                <person xml:id="ed_ngx_sgc_ygb">
+                     <persName type="reg">
+                         <surname>Zimmermann</surname>
+                         <forename>Carl Friedrich</forename>
+@@ -35284,7 +35262,7 @@ In: Bericht über den Internationalen Musikwissenschaftlichen Kongress, Kassel 1
+                     <death>1815</death>
+                     <note>Geograph, Biologe und Philosoph</note>
+                 </person>
+-                <person oldID="ed_nln_vzl_5gb" xml:id="S0010130">
++                <person xml:id="ed_nln_vzl_5gb">
+                     <persName type="reg">
+                         <surname>Zimmermann</surname>
+                         <forename>Ernst Christoph Philipp</forename>
+@@ -35408,8 +35386,7 @@ In: Bericht über den Internationalen Musikwissenschaftlichen Kongress, Kassel 1
+                     <birth>1771</birth>
+                     <death>1848</death>
+                     <note>Schriftsteller und
+-                        <?oxy_comment_start author="blumrich" timestamp="20191213T152726+0100" comment="Der Name ist möglicherweise versehentlich aufgenommen worden, da Schleiermacher manchmal &quot;Zschokke&quot; oder &quot;Zschocke&quot; für &quot;von Zschock&quot; schreibt. Auch für den Werktitel &quot;Die gläserne Larve&quot; dieses Autors habe ich zwar den Hinweis als erwähntes Werk, aber keinen Beleg in der Datenbank gefunden."?>Pädagoge<?oxy_comment_end?>
+-                    </note>
++                        <?oxy_comment_start author="blumrich" timestamp="20191213T152726+0100" comment="Der Name ist möglicherweise versehentlich aufgenommen worden, da Schleiermacher manchmal &quot;Zschokke&quot; oder &quot;Zschocke&quot; für &quot;von Zschock&quot; schreibt. Auch für den Werktitel &quot;Die gläserne Larve&quot; dieses Autors habe ich zwar den Hinweis als erwähntes Werk, aber keinen Beleg in der Datenbank gefunden."?>Pädagoge<?oxy_comment_end?></note>
+                 </person>
+                 <!-- Letzte (da manuell gesetzte) Ziffer p24964 -->
+             </listPerson>
+diff --git a/schleiermacher/data/Register/Werke.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Register/Werke.xml
+index cb17f56..7d92f9d 100644
+--- a/schleiermacher/data/Register/Werke.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Register/Werke.xml
+@@ -16,7 +16,7 @@
+     <text>
+         <body>
+             <listBibl>
+-                <bibl oldID="ed_gf3_gl3_jkb" xml:id="S0010069">
++                <bibl xml:id="ed_gf3_gl3_jkb">
+                     <author>
+                         <persName><surname/><forename/></persName>
+                     </author>
+@@ -53,7 +53,7 @@
+                         <title>Über den deutschen Stil</title>
+                         <date>(1785)</date>
+                     </bibl>
+-                    <bibl oldID="ed_j5c_f2b_ckb" xml:id="S0010092">
++                    <bibl xml:id="ed_j5c_f2b_ckb">
+                         <author>
+                             <persName><surname>Abaelardus</surname><forename>Petrus</forename></persName>
+                         </author>
+@@ -333,7 +333,7 @@
+                     </author>
+                     <title>Die Vögel</title>
+                 </bibl>
+-                <bibl oldID="ed_iq4_ckg_2jb" xml:id="S0010090">
++                <bibl xml:id="ed_iq4_ckg_2jb">
+                     <author>
+                         <persName><surname>Aristophanes</surname><forename/></persName>
+                     </author>
+@@ -573,7 +573,7 @@
+                     </author>
+                     <title>Deipnosophistae</title>
+                 </bibl>
+-                <bibl oldID="ed_ntm_t1q_xjb" xml:id="S0010133">
++                <bibl xml:id="ed_ntm_t1q_xjb">
+                     <author>
+                         <persName><surname>Bach</surname><forename>Johann
+                             Sebastian</forename></persName>
+@@ -791,7 +791,7 @@
+                     <title>Aesthetica</title>
+                     <date>(1750/58)</date>
+                 </bibl>
+-                <bibl oldID="ed_mjd_2gf_b3b" xml:id="S0010121">
++                <bibl xml:id="ed_mjd_2gf_b3b">
+                     <author>
+                         <persName><surname>Batteux</surname><forename>Charles</forename></persName>
+                     </author>
+@@ -944,7 +944,7 @@
+                     <date>(1806)</date>
+                     <note>Pleß</note>
+                 </bibl>
+-                <bibl oldID="ed_qdd_zbr_vjb" xml:id="S0010154">
++                <bibl xml:id="ed_qdd_zbr_vjb">
+                     <author>
+                         <persName><surname>Bendemann</surname><forename>Eduard</forename></persName>
+                     </author>
+@@ -1181,18 +1181,18 @@
+                     <date>(1782)</date>
+                     <note>erschienen in Wien: Gerold</note>
+                 </bibl>
+-                <bibl oldID="ed_rcx_vmx_jjb" xml:id="S0010160"><author>
++                <bibl xml:id="ed_rcx_vmx_jjb"><author>
+                         <persName><surname>Blumenbach</surname><forename>Johann
+                             Friedrich</forename></persName>
+                     </author><title>De Generis Humanis Varietate Nativa</title><pubPlace key="S0000362">Göttingen</pubPlace><date>1775</date></bibl>
+-                <bibl oldID="ed_hzz_j1h_jhb" xml:id="S0010086">
++                <bibl xml:id="ed_hzz_j1h_jhb">
+                     <author>
+                         <persName><surname>Boccaccio</surname><forename>Giovanni</forename></persName>
+                     </author>
+                     <title>Decamerone</title>
+                     <date>(1349–1353)</date>
+                 </bibl>
+-                <bibl oldID="ed_plm_4gp_qjb" xml:id="S0010143"><author>
++                <bibl xml:id="ed_plm_4gp_qjb"><author>
+                         <persName><surname>Bodmer</surname><forename>Johann
+                             Jakob</forename></persName>
+                     </author><title>Der Noah. In zwölf Gesängen</title><pubPlace key="ed_xwx_rgp_qjb">Zürich</pubPlace><date>1752</date></bibl>
+@@ -1707,7 +1707,7 @@
+                     <date>(1785)</date>
+                     <note>erschienen in Stendal: Franzen und Grosse</note>
+                 </bibl>
+-                <bibl oldID="ed_un1_wvq_vjb" xml:id="S0010198">
++                <bibl xml:id="ed_un1_wvq_vjb">
+                     <author>
+                         <persName><surname>Bürger</surname><forename>Gottfried
+                             August</forename></persName>
+@@ -1715,7 +1715,7 @@
+                     <title>Lenore</title>
+                     <date>(1774)</date>
+                 </bibl>
+-                <bibl oldID="ed_xnx_yfl_yjb" xml:id="S0010226">
++                <bibl xml:id="ed_xnx_yfl_yjb">
+                     <author>
+                         <persName><surname>Bürger</surname><forename>Gottfried
+                             August</forename></persName>
+@@ -1783,7 +1783,7 @@
+                         </author>
+                         <title>Rezensenten der JALZ</title>
+                     </bibl>
+-                    <bibl oldID="ed_wyg_xzm_zjb" xml:id="S0010219">
++                    <bibl xml:id="ed_wyg_xzm_zjb">
+                         <author>
+                             <persName><surname>Burke</surname><forename>Edmund</forename></persName>
+                         </author>
+@@ -1963,7 +1963,7 @@
+                     <title>Charlotte Sampson oder Geschichte eines jüdischen Hausvaters</title>
+                     <date>(1800)</date>
+                 </bibl>
+-                <bibl oldID="ed_lzw_fg4_q3b" xml:id="S0010117">
++                <bibl xml:id="ed_lzw_fg4_q3b">
+                     <author>
+                         <persName><surname>Cicero</surname><forename>Marcus
+                             Tullius</forename></persName>
+@@ -2704,7 +2704,7 @@
+                         <date>(NABD 1801)</date>
+                         <note>Band 56</note>
+                     </bibl>
+-                    <bibl oldID="ed_xjc_p3w_xjb" xml:id="S0010224">
++                    <bibl xml:id="ed_xjc_p3w_xjb">
+                         <author>
+                             <persName><surname/><forename/></persName>
+                         </author>
+@@ -2780,7 +2780,7 @@
+                         <note>anonym erschienen in den Neuen Theologischen Annalen, hg. von L.
+                             Wachler, Marburg 1808</note>
+                     </bibl>
+-                    <bibl oldID="ed_wsl_ynb_thb" xml:id="S0010217"><author>
++                    <bibl xml:id="ed_wsl_ynb_thb"><author>
+                             <persName><surname>Engel</surname><forename>Johann
+                                 Jakob</forename></persName>
+                         </author><title>Ideen zu einer Mimik</title><pubPlace key="S0000065">Berlin</pubPlace><date>1785–86</date></bibl>
+@@ -3434,7 +3434,7 @@
+                     <date>(1941)</date>
+                     <note>2 Bde., Berlin: Mittler</note>
+                 </bibl>
+-                <bibl oldID="ed_avy_gh5_5jb" xml:id="S0010007">
++                <bibl xml:id="ed_avy_gh5_5jb">
+                     <author>
+                         <persName><surname>Flaxman</surname><forename>John</forename></persName>
+                     </author>
+@@ -3694,7 +3694,7 @@
+                         </author>
+                         <title>Apologie des Christentums (Plan)</title>
+                     </bibl>
+-                    <bibl oldID="ed_cd1_22v_g3b" xml:id="S0010026"><author>
++                    <bibl xml:id="ed_cd1_22v_g3b"><author>
+                             <persName><surname/><forename/></persName>
+                         </author><title>Gebetbuch Kaiser Maximilians I.</title><pubPlace key="S0000044">Augsburg</pubPlace><date>1513</date><note/></bibl>
+                 </listBibl>
+@@ -3910,7 +3910,7 @@
+                     <title> Gespräch über das Sendschreiben von einigen jüdischen Hausvätern</title>
+                     <date>(1799)</date>
+                 </bibl>
+-                <bibl oldID="ed_xz1_1yk_mkb" xml:id="S0010233">
++                <bibl xml:id="ed_xz1_1yk_mkb">
+                     <author>
+                         <persName><surname>Gessner</surname><forename>Salomon</forename></persName>
+                     </author>
+@@ -4074,7 +4074,7 @@
+                         <title>Iphigenie</title>
+                         <date>(1787)</date>
+                     </bibl>
+-                    <bibl oldID="ed_ttj_5cv_g3b" xml:id="S0010187"><author>
++                    <bibl xml:id="ed_ttj_5cv_g3b"><author>
+                             <persName><surname>Goethe</surname><forename>Johann
+                                 Wolfgang</forename></persName>
+                         </author><title>Von Arabesken</title><pubPlace key="S0000986">Weimar</pubPlace><date>(1789)</date><note>in: "Der Teutsche Merkur“,
+@@ -4119,7 +4119,7 @@
+                         <title>Neue Schriften (bei Unger)</title>
+                         <date>(1792–1800)</date>
+                     </bibl>
+-                    <bibl oldID="ed_fpq_dlk_yjb" xml:id="S0010059">
++                    <bibl xml:id="ed_fpq_dlk_yjb">
+                         <author>
+                             <persName><surname>Goethe</surname><forename>Johann
+                                 Wolfgang</forename></persName>
+@@ -4420,7 +4420,7 @@
+                             Ausgabe)</title>
+                         <date>(1887–1919)</date>
+                     </bibl>
+-                    <bibl oldID="ed_f41_zlk_yjb" xml:id="S0010056">
++                    <bibl xml:id="ed_f41_zlk_yjb">
+                         <author>
+                             <persName><surname>Goethe</surname><forename>Johann Wolfgang
+                                     von</forename></persName>
+@@ -4448,7 +4448,7 @@
+                         <title>Achilleis (Epenfragment)</title>
+                         <date>(1808)</date>
+                     </bibl>
+-                    <bibl oldID="ed_j1n_bmn_gkb" xml:id="S0010091">
++                    <bibl xml:id="ed_j1n_bmn_gkb">
+                         <author>
+                             <persName><surname>Goethe</surname><forename>Johann
+                                 Wolfgang</forename></persName>
+@@ -4559,7 +4559,7 @@
+                     <date>(1810)</date>
+                     <note>in Nürnberg bei Schrag erschienen</note>
+                 </bibl>
+-                <bibl oldID="ed_bv3_m1q_vjb" xml:id="S0010021">
++                <bibl xml:id="ed_bv3_m1q_vjb">
+                     <author>
+                         <persName><surname>Garofalo</surname><forename/></persName>
+                     </author>
+@@ -4640,7 +4640,7 @@
+                     <date>(1807)</date>
+                     <note>Berlin: Unger</note>
+                 </bibl>
+-                <bibl oldID="ed_kfj_v2k_d3b" xml:id="S0010103">
++                <bibl xml:id="ed_kfj_v2k_d3b">
+                     <author>
+                         <persName><surname>Hagesandros</surname><forename/></persName>
+                     </author>
+@@ -4900,7 +4900,7 @@
+                         <date>(1807)</date>
+                         <note>Bamberg/Würzburg: Goebhardt</note>
+                     </bibl>
+-                    <bibl oldID="ed_szc_4gc_h3b" xml:id="S0010181">
++                    <bibl xml:id="ed_szc_4gc_h3b">
+                         <author>
+                             <persName><surname>Hegel</surname><forename>Georg Wilhelm
+                                     Friedrich</forename></persName>
+@@ -4941,7 +4941,7 @@
+                         <title>Vorlesungen über die Philosophie der Kunst (1826)</title>
+                         <date>(SS 1826)</date>
+                     </bibl>
+-                    <bibl oldID="ed_e4t_yfc_h3b" xml:id="S0010049">
++                    <bibl xml:id="ed_e4t_yfc_h3b">
+                         <author>
+                             <persName><surname>Hegel </surname><forename>Georg Wilhelm
+                                     Friedrich</forename></persName>
+@@ -5013,7 +5013,7 @@
+                         <title>Platonis Dialogi selecti (Platon-Edition)</title>
+                         <date>(1806–)</date>
+                     </bibl>
+-                    <bibl oldID="ed_kzb_1qd_r3b" xml:id="S0010108">
++                    <bibl xml:id="ed_kzb_1qd_r3b">
+                         <author>
+                             <persName><surname>Heinroth</surname><forename>Johann Christian
+                                     August</forename></persName>
+@@ -5135,7 +5135,7 @@
+                     <title>Über die Harfe</title>
+                     <date>(1792)</date>
+                 </bibl>
+-                <bibl oldID="ed_hgd_mj2_yjb" xml:id="S0010079">
++                <bibl xml:id="ed_hgd_mj2_yjb">
+                     <author>
+                         <persName><surname>Herder</surname><forename>Johann
+                             Gottfried</forename></persName>
+@@ -5144,7 +5144,7 @@
+                         neueste Literatur betreffend</title>
+                     <date>(1767)</date>
+                 </bibl>
+-                <bibl oldID="ed_dzs_jrh_q3b" xml:id="S0010046">
++                <bibl xml:id="ed_dzs_jrh_q3b">
+                     <author>
+                         <persName><surname>Herder</surname><forename>Johann
+                             Gottfried</forename></persName>
+@@ -5214,7 +5214,7 @@
+                         <title>Gott</title>
+                         <date>(1800, 2. Aufl.)</date>
+                     </bibl>
+-                    <bibl oldID="ed_bdl_kpq_h3b" xml:id="S0010012">
++                    <bibl xml:id="ed_bdl_kpq_h3b">
+                         <author>
+                             <persName><surname>Herder</surname><forename>Johann
+                                 Gottfried</forename></persName>
+@@ -5434,14 +5434,14 @@
+                     <title>Opera et dies</title>
+                     <date>(um 700 v. Chr.)</date>
+                 </bibl>
+-                <bibl oldID="ed_ft5_xqj_fhb" xml:id="S0010062">
++                <bibl xml:id="ed_ft5_xqj_fhb">
+                     <author>
+                         <persName><surname>Hesiod</surname></persName>
+                     </author>
+                     <title>Theogonie</title>
+                     <date>(um 700 v. Chr.)</date>
+                 </bibl>
+-                <bibl oldID="ed_omt_v5q_fhb" xml:id="S0010138">
++                <bibl xml:id="ed_omt_v5q_fhb">
+                     <author>
+                         <persName><surname>Hesiod</surname></persName>
+                     </author>
+@@ -5654,7 +5654,7 @@
+                     <date>(1901)</date>
+                     <note>in Leipzig bei Teubner erschienen</note>
+                 </bibl>
+-                <bibl oldID="ed_ukm_hn4_q3b" xml:id="S0010197">
++                <bibl xml:id="ed_ukm_hn4_q3b">
+                     <author>
+                         <persName><surname>Holbein (der
+                             Jüngere)</surname><forename>Hans</forename></persName>
+@@ -5856,7 +5856,7 @@
+                     <title>Mein Freund ist mein (Lied)</title>
+                     <note>Lied</note>
+                 </bibl>
+-                <bibl oldID="ed_d4g_wgq_vjb" xml:id="S0010037">
++                <bibl xml:id="ed_d4g_wgq_vjb">
+                     <author>
+                         <persName><surname>Hübner</surname><forename>Rudolf Julius
+                             Benno</forename></persName>
+@@ -5956,7 +5956,7 @@
+                         <title>Die Ideale (nicht veröffentlichte Abhandlung)</title>
+                     </bibl>
+                 </listBibl>
+-                <bibl oldID="ed_vsx_vk3_jkb" xml:id="S0010207"><author>
++                <bibl xml:id="ed_vsx_vk3_jkb"><author>
+                         <persName><surname>Humboldt</surname><forename>Alexander
+                             von</forename></persName>
+                     </author><title>Physikalische Geographie, (bekannt unter dem Namen
+@@ -6436,7 +6436,7 @@
+                         <title>Beobachtungen über das Gefühl des Schönen und Erhabenen </title>
+                         <date>(1764)</date>
+                     </bibl>
+-                    <bibl oldID="ed_jxj_gf2_kjb" xml:id="S0010097"><author>
++                    <bibl xml:id="ed_jxj_gf2_kjb"><author>
+                             <persName><surname>Kant</surname><forename>Immanuel</forename></persName>
+                         </author><title>Bestimmung des Begriffs einer Menschenrace</title><pubPlace key="S0000065">Berlin</pubPlace><date>1785</date><note>erschien in der
+                             "Berliner Monatsschrift" 1785, Bd. VI, S. 390–417</note></bibl>
+@@ -6560,11 +6560,11 @@
+                         <title>Über die Preisfrage der Berliner Akademie (postum 1804)</title>
+                         <note>Preisfrage für das Jahr 1791; Königsberg</note>
+                     </bibl>
+-                    <bibl oldID="ed_rjk_fyc_mjb" xml:id="S0010166"><author>
++                    <bibl xml:id="ed_rjk_fyc_mjb"><author>
+                             <persName><surname>Kant</surname><forename>Immanuel</forename></persName>
+                         </author><title>Versuch den Begriff der negativen Größen in die Weltweisheit
+                             einzuführen</title><pubPlace key="S0000501">Königsberg</pubPlace><date>1763</date></bibl>
+-                    <bibl oldID="ed_hrn_bnx_jjb" xml:id="S0010081"><author>
++                    <bibl xml:id="ed_hrn_bnx_jjb"><author>
+                             <persName><surname>Kant</surname><forename>Immanuel</forename></persName>
+                         </author><title>Von den verschiedenen Racen der Menschen</title><pubPlace key="S0000501">Königsberg</pubPlace><date>1775</date></bibl>
+                 </listBibl>
+@@ -6627,7 +6627,7 @@
+                     <title>Edition von Schleiermachers Hermeneutik </title>
+                     <date>(1957)</date>
+                 </bibl>
+-                <bibl oldID="ed_gs4_f1r_vjb" xml:id="S0010073">
++                <bibl xml:id="ed_gs4_f1r_vjb">
+                     <author>
+                         <persName><surname/><forename/></persName>
+                     </author>
+@@ -6747,7 +6747,7 @@
+                         <date>(1749–1773)</date>
+                         <note>4 Bde., Halle: Hemmerde</note>
+                     </bibl>
+-                    <bibl oldID="ed_lld_bj2_yjb" xml:id="S0010112">
++                    <bibl xml:id="ed_lld_bj2_yjb">
+                         <author>
+                             <persName><surname>Klopstock</surname><forename>Friedrich
+                                     Gottlieb</forename></persName>
+@@ -6810,7 +6810,7 @@
+                     <date>(1989)</date>
+                     <note>Würzburg: Bergstadtverl. Korn</note>
+                 </bibl>
+-                <bibl oldID="ed_pwh_jd5_5jb" xml:id="S0010148">
++                <bibl xml:id="ed_pwh_jd5_5jb">
+                     <author>
+                         <persName><surname/><forename/></persName>
+                     </author>
+@@ -7268,7 +7268,7 @@
+                     <title>Le Triomphe de Trajan (Oper) </title>
+                     <date>(1807)</date>
+                 </bibl>
+-                <bibl oldID="ed_clg_tsq_vjb" xml:id="S0010031">
++                <bibl xml:id="ed_clg_tsq_vjb">
+                     <author>
+                         <persName><surname>Lessing</surname><forename>Carl
+                             Friedrich</forename></persName>
+@@ -7455,7 +7455,7 @@
+                 <bibl xml:id="S0005250" oldID="w565">
+                     <title> Liturgische Gesänge der evangelischen Brüdergemeinen</title>
+                 </bibl>
+-                <bibl oldID="ed_rht_xpz_djb" xml:id="S0010165">
++                <bibl xml:id="ed_rht_xpz_djb">
+                     <author>
+                         <persName><surname>Livius</surname><forename>Titus</forename></persName>
+                     </author>
+@@ -8135,7 +8135,7 @@
+                     <title>Paradise lost</title>
+                     <date>(1667)</date>
+                 </bibl>
+-                <bibl oldID="ed_wty_qz4_c3b" xml:id="S0010218">
++                <bibl xml:id="ed_wty_qz4_c3b">
+                     <author>
+                         <persName><surname>Milton</surname><forename>John</forename></persName>
+                     </author>
+@@ -8796,7 +8796,7 @@ Morgenblatt für gebildete Leser = 1837-1865"?>1865<?oxy_comment_end?>)</date>
+                 <bibl xml:id="S0005383" oldID="w672">
+                     <title> Nova Acta societatis Latinae Jenensis</title>
+                 </bibl>
+-                <bibl oldID="ed_igz_rmn_g3b" xml:id="S0010088">
++                <bibl xml:id="ed_igz_rmn_g3b">
+                     <author>
+                         <persName><surname>Novalis (Friedrich von
+                             Hardenberg)</surname><forename/></persName>
+@@ -8839,7 +8839,7 @@ Morgenblatt für gebildete Leser = 1837-1865"?>1865<?oxy_comment_end?>)</date>
+                         <title>Die Christenheit oder Europa (zunächst Afterdingen)</title>
+                         <date>(postum)</date>
+                     </bibl>
+-                    <bibl oldID="ed_byl_hmr_d3b" xml:id="S0010022">
++                    <bibl xml:id="ed_byl_hmr_d3b">
+                         <author>
+                             <persName><surname>Novalis (Friedrich von
+                                 Hardenberg)</surname><forename/></persName>
+@@ -8955,7 +8955,7 @@ Morgenblatt für gebildete Leser = 1837-1865"?>1865<?oxy_comment_end?>)</date>
+                         <date>(1986)</date>
+                         <note>Weimar: Böhlau</note>
+                     </bibl>
+-                    <bibl oldID="ed_zgg_3tn_5jb" xml:id="S0010253">
++                    <bibl xml:id="ed_zgg_3tn_5jb">
+                         <author>
+                             <persName><surname>Odebrecht</surname><forename>Rudolf</forename></persName>
+                         </author>
+@@ -9137,7 +9137,7 @@ Morgenblatt für gebildete Leser = 1837-1865"?>1865<?oxy_comment_end?>)</date>
+                     <date>(1803)</date>
+                     <note>2 Bde., Leipzig: Martini</note>
+                 </bibl>
+-                <bibl oldID="ed_wmx_mkz_w3b" xml:id="S0010214">
++                <bibl xml:id="ed_wmx_mkz_w3b">
+                     <author>
+                         <persName><surname>Pappos von Alexandria</surname><forename/></persName>
+                     </author>
+@@ -9371,7 +9371,7 @@ Morgenblatt für gebildete Leser = 1837-1865"?>1865<?oxy_comment_end?>)</date>
+                         </author>
+                         <title>Spinoza-Edition</title>
+                     </bibl>
+-                    <bibl oldID="ed_d2x_msw_lkb" xml:id="S0010036">
++                    <bibl xml:id="ed_d2x_msw_lkb">
+                         <author>
+                             <persName><surname>Pausanias</surname><forename/></persName>
+                         </author>
+@@ -9559,13 +9559,13 @@ Morgenblatt für gebildete Leser = 1837-1865"?>1865<?oxy_comment_end?>)</date>
+                     </author>
+                     <title>Olympische Oden </title>
+                 </bibl>
+-                <bibl oldID="ed_sls_fct_5hb" xml:id="S0010177">
++                <bibl xml:id="ed_sls_fct_5hb">
+                     <author>
+                         <persName><surname>Pindar</surname><forename/></persName>
+                     </author>
+                     <title>Pythische Oden</title>
+                 </bibl>
+-                <bibl oldID="ed_vkr_3gw_xjb" xml:id="S0010204">
++                <bibl xml:id="ed_vkr_3gw_xjb">
+                     <author>
+                         <persName><surname>Pindar</surname><forename/></persName>
+                     </author>
+@@ -10267,7 +10267,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         <note>Öl auf Leinwand, 165x147 cm, in den Uffizien (Tribüne) seit 1589,
+                             Florenz</note>
+                     </bibl>
+-                    <bibl oldID="ed_ugd_gmb_cjb" xml:id="S0010193">
++                    <bibl xml:id="ed_ugd_gmb_cjb">
+                         <author>
+                             <persName><surname>Raffael</surname><forename>(Raffael
+                                     Sanzio)</forename></persName>
+@@ -10276,7 +10276,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         <date>(1520)</date>
+                         <note>Öltempera auf Kirschbaumholz, Vatikanische Museen, Rom</note>
+                     </bibl>
+-                    <bibl oldID="ed_bnh_5gh_cjb" xml:id="S0010017">
++                    <bibl xml:id="ed_bnh_5gh_cjb">
+                         <author>
+                             <persName><surname>Raffael</surname><forename>(Raffael
+                                     Sanzio)</forename></persName>
+@@ -10296,7 +10296,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                     <title>Venus Urania </title>
+                     <date>(1798)</date>
+                 </bibl>
+-                <bibl oldID="ed_xtf_wh2_yjb" xml:id="S0010228">
++                <bibl xml:id="ed_xtf_wh2_yjb">
+                     <author>
+                         <persName><surname>Ramler</surname><forename>Karl
+                             Wilhelm</forename></persName>
+@@ -10710,14 +10710,14 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                     </author>
+                     <title>Consolations de ma captivité</title>
+                 </bibl>
+-                <bibl oldID="ed_uzs_wht_pjb" xml:id="S0010201">
++                <bibl xml:id="ed_uzs_wht_pjb">
+                     <author>
+                         <persName><surname>Rousseau</surname><forename>Jean-Jacques</forename></persName>
+                     </author>
+                     <title>Discours sur les sciences et les arts</title>
+                     <date>(1750)</date>
+                 </bibl>
+-                <bibl oldID="ed_dh4_xrh_bkb" xml:id="S0010042">
++                <bibl xml:id="ed_dh4_xrh_bkb">
+                     <author>
+                         <persName><surname>Rousseau</surname><forename>Jean-Jacques</forename></persName>
+                     </author>
+@@ -10828,7 +10828,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         <date>(1940)</date>
+                         <note>hg. von Karl Friedrich Degner</note>
+                     </bibl>
+-                    <bibl oldID="ed_k2s_hfb_ckb" xml:id="S0010100">
++                    <bibl xml:id="ed_k2s_hfb_ckb">
+                         <author>
+                             <persName><surname>Rymer</surname><forename>Thomas</forename></persName>
+                         </author>
+@@ -10933,7 +10933,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                     <date>(2003)</date>
+                     <note>Hildesheim u.a.: Olms</note>
+                 </bibl>
+-                <bibl oldID="ed_x4w_j32_yjb" xml:id="S0010223">
++                <bibl xml:id="ed_x4w_j32_yjb">
+                     <author>
+                         <persName><surname>Sauer</surname><forename>August</forename></persName>
+                     </author>
+@@ -11312,7 +11312,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         </author>
+                         <title>Philosophie der Offenbarung (Berliner Vorlesung)</title>
+                     </bibl>
+-                    <bibl oldID="ed_e4c_14j_h3b" xml:id="S0010048">
++                    <bibl xml:id="ed_e4c_14j_h3b">
+                         <author>
+                             <persName><surname>Schelling</surname><forename>Friedrich Wilhelm
+                                     Joseph</forename></persName>
+@@ -11329,7 +11329,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         <title>Vorlesungen über die Philosophie der Kunst (1802/03)</title>
+                         <date>(WS 1802/03)</date>
+                     </bibl>
+-                    <bibl oldID="ed_ikx_23c_h3b" xml:id="S0010089"><author>
++                    <bibl xml:id="ed_ikx_23c_h3b"><author>
+                             <persName><surname>Schelling</surname><forename>Friedrich Wilhelm
+                                     Joseph</forename></persName>
+                         </author><title>Vorlesungen über die Philosophie der Kunst</title><pubPlace key="S0000922">Stuttgart</pubPlace><date>(1859)</date><note>erschienen
+@@ -11532,7 +11532,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         <title>Turandot </title>
+                         <date>(1802)</date>
+                     </bibl>
+-                    <bibl oldID="ed_ynf_44f_z3b" xml:id="S0010242">
++                    <bibl xml:id="ed_ynf_44f_z3b">
+                         <author>
+                             <persName><surname>Schiller</surname><forename>Friedrich</forename></persName>
+                         </author>
+@@ -11625,7 +11625,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                 </bibl>
+                 <listBibl>
+                     <head>Schlegel, : --[Werke]</head>
+-                    <bibl oldID="ed_lkc_tsx_vjb" xml:id="S0010111">
++                    <bibl xml:id="ed_lkc_tsx_vjb">
+                         <author>
+                             <persName><surname>Schlegel</surname><forename>August
+                                 Wilhelm</forename></persName>
+@@ -12227,7 +12227,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         <title>Vorlesungen über Literatur und Kunst </title>
+                         <date>(1803/04)</date>
+                     </bibl>
+-                    <bibl oldID="ed_t5j_vvt_bkb" xml:id="S0010183">
++                    <bibl xml:id="ed_t5j_vvt_bkb">
+                         <author>
+                             <persName><surname>Schlegel</surname><forename>August
+                                 Wilhelm</forename></persName>
+@@ -12614,7 +12614,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         <title>Nachricht von den Gemälden in Paris</title>
+                         <date>(Europa, 1803)</date>
+                     </bibl>
+-                    <bibl oldID="ed_k1q_2gl_r3b" xml:id="S0010099">
++                    <bibl xml:id="ed_k1q_2gl_r3b">
+                         <author>
+                             <persName><surname>Schlegel</surname><forename>Friedrich</forename></persName>
+                         </author>
+@@ -13907,7 +13907,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         Akademie der Wissenschaften aus den Jahren 1804-1811“ Berlin 1815, S. 97-124
+                         (KGA I/11, 31-63)</note>
+                 </bibl><?oxy_comment_end?>
+-                <bibl oldID="ed_fxj_lg2_yjb" xml:id="S0010064">
++                <bibl xml:id="ed_fxj_lg2_yjb">
+                     <author>
+                         <persName><surname>Schleiermacher</surname><forename>Friedrich Daniel
+                                 Ernst</forename></persName>
+@@ -13916,7 +13916,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                     <date>(24.06.1813)</date>
+                     <note>in: KGA I/11, 65–93</note>
+                 </bibl>
+-                <bibl oldID="ed_sdh_vk4_l3a" xml:id="S0010172">
++                <bibl xml:id="ed_sdh_vk4_l3a">
+                     <author>
+                         <persName><surname>Schleiermacher</surname><forename>Friedrich Daniel
+                                 Ernst</forename></persName>
+@@ -13927,7 +13927,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                     <note>Sämmtliche Werke, Abt. III, Bd. 3, hg. von Ludwig Jonas, 1835, 181–198
+                         (KGA I/11, 725–742)</note>
+                 </bibl>
+-                <bibl oldID="ed_sdh_vk4_l3b" xml:id="S0010173">
++                <bibl xml:id="ed_sdh_vk4_l3b">
+                     <author>
+                         <persName><surname>Schleiermacher</surname><forename>Friedrich Daniel
+                                 Ernst</forename></persName>
+@@ -13938,7 +13938,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                     <note>Sämmtliche Werke, Abt. III, Bd. 3, hg. von Ludwig Jonas, 1835, 199–218
+                         (KGA I/11, 769–786)</note>
+                 </bibl>
+-                <bibl oldID="ed_sdh_vk4_l3c" xml:id="S0010174">
++                <bibl xml:id="ed_sdh_vk4_l3c">
+                     <author>
+                         <persName><surname>Schleiermacher</surname><forename>Friedrich Daniel
+                                 Ernst</forename></persName>
+@@ -15202,7 +15202,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         </author>
+                         <title>Aesthetik (allgemein)</title>
+                     </bibl>
+-                    <bibl oldID="ed_rff_pdc_h3b" xml:id="S0010162">
++                    <bibl xml:id="ed_rff_pdc_h3b">
+                         <author>
+                             <persName><surname>Schleiermacher</surname><forename>Friedrich Daniel
+                                     Ernst</forename></persName>
+@@ -15210,7 +15210,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         <title>Aesthetik</title>
+                         <date>(SS 1819)</date>
+                     </bibl>
+-                    <bibl oldID="ed_mnz_rdc_h3b" xml:id="S0010122">
++                    <bibl xml:id="ed_mnz_rdc_h3b">
+                         <author>
+                             <persName><surname>Schleiermacher</surname><forename>Friedrich Daniel
+                                     Ernst</forename></persName>
+@@ -15218,7 +15218,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         <title>Aesthetik</title>
+                         <date>(SS 1825)</date>
+                     </bibl>
+-                    <bibl oldID="ed_rdc_5dc_h3b" xml:id="S0010161">
++                    <bibl xml:id="ed_rdc_5dc_h3b">
+                         <author>
+                             <persName><surname>Schleiermacher</surname><forename>Friedrich Daniel
+                                     Ernst</forename></persName>
+@@ -15265,7 +15265,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         <title>Christliche Sittenlehre</title>
+                         <date>(WS 1809/10)</date>
+                     </bibl>
+-                    <bibl oldID="ed_ls3_zdd_r3b" xml:id="S0010114">
++                    <bibl xml:id="ed_ls3_zdd_r3b">
+                         <author>
+                             <persName><surname>Schleiermacher</surname><forename>Friedrich Daniel
+                                     Ernst</forename></persName>
+@@ -15432,7 +15432,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         <title>philosophische Ethik (1812/13)</title>
+                         <date>(WS 1812/13)</date>
+                     </bibl>
+-                    <bibl oldID="ed_ypf_ydc_h3b" xml:id="S0010243">
++                    <bibl xml:id="ed_ypf_ydc_h3b">
+                         <author>
+                             <persName><surname>Schleiermacher</surname><forename>Friedrich Daniel
+                                     Ernst</forename></persName>
+@@ -15470,7 +15470,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         <title>Galaterbrief</title>
+                         <date>(WS 1805/06)</date>
+                     </bibl>
+-                    <bibl oldID="ed_nml_vmp_qjb" xml:id="S0010132">
++                    <bibl xml:id="ed_nml_vmp_qjb">
+                         <author>
+                             <persName><surname>Schleiermacher</surname><forename>Friedrich Daniel
+                                     Ernst</forename></persName>
+@@ -15594,7 +15594,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         </author>
+                         <title>Psychologie (allgemein)</title>
+                     </bibl>
+-                    <bibl oldID="ed_t5y_x2c_h3b" xml:id="S0010184">
++                    <bibl xml:id="ed_t5y_x2c_h3b">
+                         <author>
+                             <persName><surname>Schleiermacher</surname><forename>Friedrich Daniel
+                                     Ernst</forename></persName>
+@@ -15602,7 +15602,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         <title>Psychologie (1818)</title>
+                         <date>(SS 1818)</date>
+                     </bibl>
+-                    <bibl oldID="ed_cq5_z2c_h3b" xml:id="S0010034">
++                    <bibl xml:id="ed_cq5_z2c_h3b">
+                         <author>
+                             <persName><surname>Schleiermacher</surname><forename>Friedrich Daniel
+                                     Ernst</forename></persName>
+@@ -16083,7 +16083,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         </author>
+                         <title>Tragödie (Plan)</title>
+                     </bibl>
+-                    <bibl oldID="ed_bnq_j1j_h3b" xml:id="S0010018">
++                    <bibl xml:id="ed_bnq_j1j_h3b">
+                         <author>
+                             <persName><surname>Schleiermacher</surname><forename>Friedrich Daniel
+                                     Ernst</forename></persName>
+@@ -16940,7 +16940,7 @@ einzuordnen? Sie erschienen im Verlag Hosstrup, d.h. ev. als Beiheft zur &quot;B
+                         <title>Die lustigen Weiber von Windsor (merry wives of windsor) </title>
+                         <date>(1600/01)</date>
+                     </bibl>
+-                    <bibl oldID="ed_frt_ddn_gkb" xml:id="S0010060">
++                    <bibl xml:id="ed_frt_ddn_gkb">
+                         <author>
+                             <persName><surname>Shakespeare</surname><forename>William</forename></persName>
+                         </author>
+@@ -16985,12 +16985,12 @@ Titelzusatz: nicht nur allen evangelischen Lehrern, sondern auch der ganzen evan
+                     <date>(2014)</date>
+                     <note>Leipzig: Universitätsverlag</note>
+                 </bibl>
+-                <bibl oldID="ed_tyw_plq_h3b" xml:id="S0010189"><author>
++                <bibl xml:id="ed_tyw_plq_h3b"><author>
+                         <persName><surname>Solger</surname><forename>Karl Wilhelm
+                                 Ferdinand</forename></persName>
+                     </author><title>Erwin. Vier Gespräche über das Schöne und die
+                         Kunst</title><pubPlace key="S0000065">Berlin</pubPlace><date>1815</date></bibl>
+-                <bibl oldID="ed_clb_rml_yjb" xml:id="S0010030">
++                <bibl xml:id="ed_clb_rml_yjb">
+                     <author>
+                         <persName><surname>Solger</surname><forename>Karl Wilhelm
+                                 Ferdinand</forename></persName>
+@@ -16998,7 +16998,7 @@ Titelzusatz: nicht nur allen evangelischen Lehrern, sondern auch der ganzen evan
+                     <title>Sophokles: Des Sophokles Tragödien</title>
+                     <date>(1808)</date>
+                 </bibl>
+-                <bibl oldID="ed_m4k_4hc_h3b" xml:id="S0010119">
++                <bibl xml:id="ed_m4k_4hc_h3b">
+                     <author>
+                         <persName><surname>Solger</surname><forename>Karl Wilhelm
+                                 Ferdinand</forename></persName>
+@@ -17015,7 +17015,7 @@ Titelzusatz: nicht nur allen evangelischen Lehrern, sondern auch der ganzen evan
+                         </author>
+                         <title>Antigone</title>
+                     </bibl>
+-                    <bibl oldID="ed_amg_f5y_fhb" xml:id="S0010003">
++                    <bibl xml:id="ed_amg_f5y_fhb">
+                         <author>
+                             <persName><surname>Sophokles</surname></persName>
+                         </author>
+@@ -17571,7 +17571,7 @@ Nach Haudes Tod 1748 ging die Zeitung in den Besitz seines Teilhabers in der gem
+                     <note>Von Johann Joachim Christoph Bode als "Yoriks empfindsame Reise" 1768 ins
+                         Deutsche übersetzt</note>
+                 </bibl>
+-                <bibl oldID="ed_l2g_xml_yjb" xml:id="S0010109">
++                <bibl xml:id="ed_l2g_xml_yjb">
+                     <author>
+                         <persName><surname>Stolberg (Solberg-Stolberg)</surname><forename>Christian
+                                 zu</forename></persName>
+@@ -17883,7 +17883,7 @@ Nach Haudes Tod 1748 ging die Zeitung in den Besitz seines Teilhabers in der gem
+                     <title>Theologische Enzyklopädie und Methodologie </title>
+                     <date>(1797)</date>
+                 </bibl>
+-                <bibl oldID="ed_mdx_3cw_xjb" xml:id="S0010120">
++                <bibl xml:id="ed_mdx_3cw_xjb">
+                     <author>
+                         <persName><surname>Tieck</surname><forename>Christian
+                             Friedrich</forename></persName>
+@@ -18462,7 +18462,7 @@ Nach Haudes Tod 1748 ging die Zeitung in den Besitz seines Teilhabers in der gem
+                     <date>(2009)</date>
+                     <note>bei Böhlau: Köln, Wien, Weimar</note>
+                 </bibl>
+-                <bibl oldID="ed_ubj_lbb_j3b" xml:id="S0010191">
++                <bibl xml:id="ed_ubj_lbb_j3b">
+                     <author>
+                         <persName><surname>Venturini</surname><forename>Carl</forename></persName>
+                     </author>
+@@ -18593,7 +18593,7 @@ Nach Haudes Tod 1748 ging die Zeitung in den Besitz seines Teilhabers in der gem
+                         <date>(2011)</date>
+                         <note>Akademie-Verlag Berlin</note>
+                     </bibl>
+-                    <bibl oldID="ed_cwn_s3g_5jb" xml:id="S0010035">
++                    <bibl xml:id="ed_cwn_s3g_5jb">
+                         <author>
+                             <persName><surname>Vitruv (Marcus Vitruvius
+                                 Pollio)</surname><forename/></persName>
+@@ -18670,7 +18670,7 @@ Nach Haudes Tod 1748 ging die Zeitung in den Besitz seines Teilhabers in der gem
+                         <title>Siècle de Louis XIV </title>
+                         <date>(1751)</date>
+                     </bibl>
+-                    <bibl oldID="ed_cjv_djw_jhb" xml:id="S0010029">
++                    <bibl xml:id="ed_cjv_djw_jhb">
+                         <author>
+                             <persName><surname>Voß</surname><forename>Johann
+                                 Heinrich</forename></persName>
+@@ -18747,7 +18747,7 @@ Nach Haudes Tod 1748 ging die Zeitung in den Besitz seines Teilhabers in der gem
+                         <title>Übersetzung von Vergils Aeneis </title>
+                         <date>(1799)</date><?oxy_custom_end?>
+                     </bibl>
+-                    <bibl oldID="ed_fpl_tnb_1jb" xml:id="S0010058">
++                    <bibl xml:id="ed_fpl_tnb_1jb">
+                         <author>
+                             <persName><surname>Voß</surname><forename>Johann
+                                 Heinrich</forename></persName>
+@@ -18938,7 +18938,7 @@ Nach Haudes Tod 1748 ging die Zeitung in den Besitz seines Teilhabers in der gem
+                     </author>
+                     <title>Dreihundert Jahre. Die Haude &amp; Spenersche Buchhandlung</title>
+                 </bibl>
+-                <bibl oldID="ed_ng2_hqd_r3b" xml:id="S0010126">
++                <bibl xml:id="ed_ng2_hqd_r3b">
+                     <author>
+                         <persName><surname>Weiß</surname><forename>Christian</forename></persName>
+                     </author>
+diff --git a/schleiermacher/data/Register/__contents__.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Register/__contents__.xml
+index 096ea5b..4d3dfa2 100644
+--- a/schleiermacher/data/Register/__contents__.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Register/__contents__.xml
+@@ -1,18 +1,18 @@
+-<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/schleiermacher/data/Register" version="1" owner="admin" group="schleiermacher-nutzer" mode="770" created="2020-02-10T17:48:40.289+01:00">
++<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/schleiermacher/data/Register" version="1" owner="exist-bot" group="schleiermacher-nutzer" mode="770" created="2020-02-10T17:48:40.289+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Personen.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:40.886+01:00" modified="2020-02-10T17:48:40.886+01:00" filename="Personen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Personen.xml" skip="no" owner="exist-bot" group="schleiermacher-nutzer" mode="770" created="2018-10-30T16:36:09.968+01:00" modified="2020-02-06T13:59:32.287+01:00" filename="Personen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="bibelsystematik.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:43.945+01:00" modified="2020-02-10T17:48:43.945+01:00" filename="bibelsystematik.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="bibelsystematik.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="770" created="2020-01-14T15:10:34.743+01:00" modified="2020-01-14T15:10:34.743+01:00" filename="bibelsystematik.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Orte.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:44.071+01:00" modified="2020-02-10T17:48:44.071+01:00" filename="Orte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Orte.xml" skip="no" owner="exist-bot" group="schleiermacher-nutzer" mode="770" created="2018-10-30T16:36:10.929+01:00" modified="2020-02-05T16:30:03.9+01:00" filename="Orte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="bibel.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:40.317+01:00" modified="2020-02-10T17:48:40.317+01:00" filename="bibel.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="bibel.xml" skip="no" owner="exist-bot" group="schleiermacher-nutzer" mode="770" created="2018-10-30T16:36:09.185+01:00" modified="2018-10-30T16:36:09.185+01:00" filename="bibel.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Werke.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:44.499+01:00" modified="2020-02-10T17:48:44.499+01:00" filename="Werke.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Werke.xml" skip="no" owner="exist-bot" group="schleiermacher-nutzer" mode="770" created="2018-10-30T16:36:11.448+01:00" modified="2020-01-24T14:53:50.444+01:00" filename="Werke.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/schleiermacher/data/Register/bibelsystematik.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Register/bibelsystematik.xml
+index bcf6da5..00a41ea 100644
+--- a/schleiermacher/data/Register/bibelsystematik.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Register/bibelsystematik.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" oldID="bibelsystematik" xml:id="S0010264">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bibelsystematik">
+    <teiHeader>
+       <fileDesc>
+          <titleStmt>

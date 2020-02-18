@@ -1,0 +1,545 @@
+diff --git a/mop/data/Hofkalendarium/1793/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1793/__contents__.xml
+index 1d3445b..99b26ba 100644
+--- a/mop/data/Hofkalendarium/1793/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1793/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1793" version="1" owner="mop_holtz" group="mop-nutzer" mode="770" created="2019-10-23T10:34:48.273+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1793-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-10-23T10:35:55+02:00" modified="2019-12-13T14:50:06+01:00" filename="1793-01.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1793-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-10-23T10:35:55.509+02:00" modified="2019-12-13T14:50:06.387+01:00" filename="1793-01.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1793-12.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-10-25T13:58:43+02:00" modified="2019-12-13T14:50:06+01:00" filename="1793-12.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1793-12.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-10-25T13:58:43.841+02:00" modified="2019-12-13T14:50:06.609+01:00" filename="1793-12.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1797/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1797/__contents__.xml
+index 14ecd07..5f92812 100644
+--- a/mop/data/Hofkalendarium/1797/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1797/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1797" version="1" owner="admin" group="dba" mode="677" created="2019-03-21T14:22:12.417+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1797-11.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-08-15T19:33:10+02:00" modified="2019-12-13T14:49:52+01:00" filename="1797-11.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1797-11.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-08-15T19:33:10.643+02:00" modified="2019-12-13T14:49:52.872+01:00" filename="1797-11.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1797-02.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-03-21T14:23:07+01:00" modified="2019-12-13T14:49:53+01:00" filename="1797-02.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1797-02.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-03-21T14:23:07.442+01:00" modified="2019-12-13T14:49:53.048+01:00" filename="1797-02.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1801/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1801/__contents__.xml
+index 7ca3115..0486adf 100644
+--- a/mop/data/Hofkalendarium/1801/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1801/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1801" version="1" owner="admin" group="dba" mode="677" created="2019-04-14T13:54:58.02+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1801-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-14T13:55:47+02:00" modified="2019-12-13T14:49:59+01:00" filename="1801-01.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1801-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-14T13:55:47.209+02:00" modified="2019-12-13T14:49:59.468+01:00" filename="1801-01.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1801-10.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-14T14:07:52+02:00" modified="2019-12-13T14:49:59+01:00" filename="1801-10.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1801-10.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-14T14:07:52.949+02:00" modified="2019-12-13T14:49:59.585+01:00" filename="1801-10.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1802/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1802/__contents__.xml
+index 96a7c98..c8a9183 100644
+--- a/mop/data/Hofkalendarium/1802/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1802/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1802" version="1" owner="admin" group="dba" mode="677" created="2019-03-21T15:04:14.411+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1802-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-14T14:32:06+02:00" modified="2019-12-13T14:49:59+01:00" filename="1802-01.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1802-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-14T14:32:06.186+02:00" modified="2019-12-13T14:49:59.736+01:00" filename="1802-01.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1802-09.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-03-21T15:04:41+01:00" modified="2019-12-13T14:49:59+01:00" filename="1802-09.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1802-09.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-03-21T15:04:41.972+01:00" modified="2019-12-13T14:49:59.873+01:00" filename="1802-09.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1804/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1804/__contents__.xml
+index b608e4f..974a1e9 100644
+--- a/mop/data/Hofkalendarium/1804/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1804/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1804" version="1" owner="mop_holtz" group="mop-nutzer" mode="770" created="2019-06-05T15:30:54.806+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1804-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-05T15:31:56+02:00" modified="2019-12-13T14:50:00+01:00" filename="1804-01.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1804-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-05T15:31:56.02+02:00" modified="2019-12-13T14:50:00.523+01:00" filename="1804-01.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1805/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1805/__contents__.xml
+index e90e370..909e2ac 100644
+--- a/mop/data/Hofkalendarium/1805/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1805/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1805" version="1" owner="admin" group="dba" mode="677" created="2019-03-21T15:18:12.244+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1805-12.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-09-02T18:30:57+02:00" modified="2019-12-13T14:50:00+01:00" filename="1805-12.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1805-12.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-09-02T18:30:57.556+02:00" modified="2019-12-13T14:50:00.033+01:00" filename="1805-12.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1805-08.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-03-21T15:18:52+01:00" modified="2019-12-13T14:50:00+01:00" filename="1805-08.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1805-08.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-03-21T15:18:52.303+01:00" modified="2019-12-13T14:50:00.164+01:00" filename="1805-08.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1805-09.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-23T19:17:09+02:00" modified="2019-12-13T14:50:00+01:00" filename="1805-09.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1805-09.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-23T19:17:09.478+02:00" modified="2019-12-13T14:50:00.346+01:00" filename="1805-09.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1806/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1806/__contents__.xml
+index 3f8c01b..32cc9df 100644
+--- a/mop/data/Hofkalendarium/1806/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1806/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1806" version="1" owner="admin" group="dba" mode="677" created="2019-04-14T15:52:56.012+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1806-12.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-14T15:53:18+02:00" modified="2019-12-13T14:50:01+01:00" filename="1806-12.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1806-12.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-14T15:53:18.76+02:00" modified="2019-12-13T14:50:01.83+01:00" filename="1806-12.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1809/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1809/__contents__.xml
+index 9a01258..db4c507 100644
+--- a/mop/data/Hofkalendarium/1809/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1809/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1809" version="1" owner="admin" group="dba" mode="677" created="2019-03-27T13:44:50.927+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1809-11.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-03-27T13:45:40+01:00" modified="2019-12-13T14:50:04+01:00" filename="1809-11.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1809-11.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-03-27T13:45:40.985+01:00" modified="2019-12-13T14:50:04.079+01:00" filename="1809-11.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1809-12.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-03T16:11:49+02:00" modified="2019-12-13T14:50:04+01:00" filename="1809-12.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1809-12.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-03T16:11:49.884+02:00" modified="2019-12-13T14:50:04.224+01:00" filename="1809-12.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1810/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1810/__contents__.xml
+index fd82cfd..5da30a1 100644
+--- a/mop/data/Hofkalendarium/1810/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1810/__contents__.xml
+@@ -1,39 +1,39 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1810" version="1" owner="admin" group="dba" mode="677" created="2019-01-07T10:39:27.661+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1810-03.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:19+01:00" modified="2019-12-13T14:50:02+01:00" filename="1810-03.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1810-03.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:19.674+01:00" modified="2019-12-13T14:50:02.323+01:00" filename="1810-03.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1810-04.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:19+01:00" modified="2019-12-13T14:50:02+01:00" filename="1810-04.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1810-04.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:19.904+01:00" modified="2019-12-13T14:50:02.466+01:00" filename="1810-04.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1810-05.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:20+01:00" modified="2019-12-13T14:50:02+01:00" filename="1810-05.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1810-05.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:20.123+01:00" modified="2019-12-13T14:50:02.607+01:00" filename="1810-05.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1810-06.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:20+01:00" modified="2019-12-13T14:50:02+01:00" filename="1810-06.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1810-06.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:20.338+01:00" modified="2019-12-13T14:50:02.732+01:00" filename="1810-06.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1810-07.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:20+01:00" modified="2019-12-13T14:50:02+01:00" filename="1810-07.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1810-07.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:20.551+01:00" modified="2019-12-13T14:50:02.856+01:00" filename="1810-07.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1810-08.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:20+01:00" modified="2019-12-13T14:50:02+01:00" filename="1810-08.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1810-08.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:20.763+01:00" modified="2019-12-13T14:50:02.983+01:00" filename="1810-08.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1810-09.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:20+01:00" modified="2019-12-13T14:50:03+01:00" filename="1810-09.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1810-09.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:20.976+01:00" modified="2019-12-13T14:50:03.12+01:00" filename="1810-09.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1810-10.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:21+01:00" modified="2019-12-13T14:50:03+01:00" filename="1810-10.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1810-10.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:21.185+01:00" modified="2019-12-13T14:50:03.245+01:00" filename="1810-10.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1810-11.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:21+01:00" modified="2019-12-13T14:50:03+01:00" filename="1810-11.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1810-11.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:21.402+01:00" modified="2019-12-13T14:50:03.371+01:00" filename="1810-11.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1810-12.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:21+01:00" modified="2019-12-13T14:50:03+01:00" filename="1810-12.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1810-12.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:21.63+01:00" modified="2019-12-13T14:50:03.497+01:00" filename="1810-12.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1810-01.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:19+01:00" modified="2020-01-13T12:21:36+01:00" filename="1810-01.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1810-01.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:19.233+01:00" modified="2020-01-13T12:21:36.895+01:00" filename="1810-01.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1810-02.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:19+01:00" modified="2019-12-13T14:50:03+01:00" filename="1810-02.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1810-02.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2019-01-15T08:55:19.462+01:00" modified="2019-12-13T14:50:03.853+01:00" filename="1810-02.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1821/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1821/__contents__.xml
+index e4ac0df..b9fde03 100644
+--- a/mop/data/Hofkalendarium/1821/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1821/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1821" version="1" owner="mop_holtz" group="mop-nutzer" mode="770" created="2019-06-12T12:38:31.974+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1821-02.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-12T12:39:02+02:00" modified="2019-12-13T14:49:52+01:00" filename="1821-02.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1821-02.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-12T12:39:02.634+02:00" modified="2019-12-13T14:49:52.676+01:00" filename="1821-02.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1840/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1840/__contents__.xml
+index adf6dc7..1a2f4ea 100644
+--- a/mop/data/Hofkalendarium/1840/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1840/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1840" version="1" owner="mop_wendt" group="mop-nutzer" mode="770" created="2019-10-31T12:11:50.412+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1840-06.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-10-31T12:28:57+01:00" modified="2019-12-13T14:49:56+01:00" filename="1840-06.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1840-06.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-10-31T12:28:57.975+01:00" modified="2019-12-13T14:49:56.766+01:00" filename="1840-06.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1848/1848-08.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1848/1848-08.xml
+index 57d05f6..4b2cbf5 100644
+--- a/mop/data/Hofkalendarium/1848/1848-08.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1848/1848-08.xml
+@@ -127,7 +127,7 @@
+                      (1794-1863)</term>
+                </keywords>
+                <keywords scheme="place">
+-                  <term key="P0001159">Düsseldorf: Schloss Jägerhof</term>
++                  <term key="ed_wfn_5m5_nkb">Jägerhof (Schloss)</term>
+                </keywords>
+                <keywords scheme="event">
+                   <term>Familienleben</term>
+diff --git a/mop/data/Hofkalendarium/1848/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1848/__contents__.xml
+index d8cf143..6a4638c 100644
+--- a/mop/data/Hofkalendarium/1848/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1848/__contents__.xml
+@@ -1,39 +1,39 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1848" version="1" owner="admin" group="dba" mode="677" created="2018-11-15T16:02:20.882+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1848-01.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:21+01:00" modified="2019-12-13T14:49:53+01:00" filename="1848-01.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1848-01.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:21.922+01:00" modified="2019-12-13T14:49:53.684+01:00" filename="1848-01.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1848-02.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-12-06T15:05:35+01:00" modified="2019-12-13T14:49:54+01:00" filename="1848-02.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1848-02.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-12-06T15:05:35.075+01:00" modified="2019-12-13T14:49:54.182+01:00" filename="1848-02.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1848-03.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:23+01:00" modified="2019-12-13T14:49:54+01:00" filename="1848-03.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1848-03.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:23.212+01:00" modified="2019-12-13T14:49:54.573+01:00" filename="1848-03.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1848-04.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:23+01:00" modified="2019-12-13T14:49:55+01:00" filename="1848-04.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1848-04.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:23.843+01:00" modified="2019-12-13T14:49:55.082+01:00" filename="1848-04.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1848-05.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:24+01:00" modified="2019-12-13T14:49:55+01:00" filename="1848-05.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1848-05.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:24.504+01:00" modified="2019-12-13T14:49:55.436+01:00" filename="1848-05.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1848-06.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:25+01:00" modified="2019-12-13T14:49:55+01:00" filename="1848-06.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1848-06.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:25.153+01:00" modified="2019-12-13T14:49:55.658+01:00" filename="1848-06.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1848-07.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:25+01:00" modified="2019-12-13T14:49:55+01:00" filename="1848-07.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1848-07.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:25.789+01:00" modified="2019-12-13T14:49:55.844+01:00" filename="1848-07.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1848-08.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:26+01:00" modified="2019-12-13T14:49:56+01:00" filename="1848-08.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1848-08.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:26.434+01:00" modified="2020-01-29T12:22:53.127+01:00" filename="1848-08.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1848-09.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:27+01:00" modified="2019-12-13T14:49:56+01:00" filename="1848-09.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1848-09.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:27.07+01:00" modified="2019-12-13T14:49:56.163+01:00" filename="1848-09.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1848-10.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:27+01:00" modified="2019-12-13T14:49:56+01:00" filename="1848-10.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1848-10.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:27.71+01:00" modified="2019-12-13T14:49:56.29+01:00" filename="1848-10.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1848-11.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:28+01:00" modified="2019-12-13T14:49:56+01:00" filename="1848-11.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1848-11.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:28.343+01:00" modified="2019-12-13T14:49:56.419+01:00" filename="1848-11.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1848-12.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:29+01:00" modified="2019-12-13T14:49:56+01:00" filename="1848-12.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1848-12.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="666" created="2018-11-15T16:02:29+01:00" modified="2019-12-13T14:49:56.558+01:00" filename="1848-12.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1856/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1856/__contents__.xml
+index 2f38259..7bac742 100644
+--- a/mop/data/Hofkalendarium/1856/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1856/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1856" version="1" owner="mop_wendt" group="mop-nutzer" mode="770" created="2019-06-13T10:24:08.831+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1856-11.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-06-13T10:57:15+02:00" modified="2019-12-13T14:49:59+01:00" filename="1856-11.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1856-11.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-06-13T10:57:15.548+02:00" modified="2019-12-13T14:49:59.214+01:00" filename="1856-11.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1856-06.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-06-13T10:23:45+02:00" modified="2019-12-13T14:49:59+01:00" filename="1856-06.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1856-06.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-06-13T10:23:45.824+02:00" modified="2019-12-13T14:49:59.339+01:00" filename="1856-06.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1860/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1860/__contents__.xml
+index 57722b0..f920a4a 100644
+--- a/mop/data/Hofkalendarium/1860/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1860/__contents__.xml
+@@ -1,18 +1,18 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1860" version="1" owner="admin" group="dba" mode="677" created="2019-03-21T15:24:31.726+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1860-05.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-04-27T22:25:25+02:00" modified="2019-12-13T14:49:57+01:00" filename="1860-05.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1860-05.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-04-27T22:25:25.18+02:00" modified="2019-12-13T14:49:57.039+01:00" filename="1860-05.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1860-09.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-04-27T22:34:32+02:00" modified="2019-12-13T14:49:57+01:00" filename="1860-09.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1860-09.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-04-27T22:34:32.539+02:00" modified="2019-12-13T14:49:57.225+01:00" filename="1860-09.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1860-03.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-03-21T15:26:49+01:00" modified="2019-12-13T14:49:57+01:00" filename="1860-03.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1860-03.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-03-21T15:26:49.479+01:00" modified="2019-12-13T14:49:57.409+01:00" filename="1860-03.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1860-08.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-23T19:37:01+02:00" modified="2019-12-13T14:49:57+01:00" filename="1860-08.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1860-08.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-23T19:37:01.831+02:00" modified="2019-12-13T14:49:57.568+01:00" filename="1860-08.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1860-04.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-23T19:24:43+02:00" modified="2019-12-13T14:49:57+01:00" filename="1860-04.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1860-04.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-23T19:24:43.384+02:00" modified="2019-12-13T14:49:57.781+01:00" filename="1860-04.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1863/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1863/__contents__.xml
+index 4951df2..ef4f3ee 100644
+--- a/mop/data/Hofkalendarium/1863/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1863/__contents__.xml
+@@ -1,24 +1,24 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1863" version="1" owner="admin" group="dba" mode="677" created="2019-04-23T18:46:59.726+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1863-06.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-10T16:43:22+02:00" modified="2019-12-13T14:50:00+01:00" filename="1863-06.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1863-06.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-10T16:43:22.126+02:00" modified="2019-12-13T14:50:00.736+01:00" filename="1863-06.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1863-02.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-04-27T21:26:16+02:00" modified="2019-12-13T14:50:00+01:00" filename="1863-02.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1863-02.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-04-27T21:26:16.178+02:00" modified="2019-12-13T14:50:00.898+01:00" filename="1863-02.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1863-10.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-11T15:07:55+02:00" modified="2019-12-13T14:50:01+01:00" filename="1863-10.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1863-10.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-11T15:07:55.382+02:00" modified="2019-12-13T14:50:01.049+01:00" filename="1863-10.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1863-11.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-11T15:45:28+02:00" modified="2019-12-13T14:50:01+01:00" filename="1863-11.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1863-11.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-11T15:45:28.267+02:00" modified="2019-12-13T14:50:01.246+01:00" filename="1863-11.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1863-09.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-11T12:28:06+02:00" modified="2019-12-13T14:50:01+01:00" filename="1863-09.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1863-09.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-11T12:28:06.04+02:00" modified="2019-12-13T14:50:01.405+01:00" filename="1863-09.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1863-03.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-23T18:47:57+02:00" modified="2019-12-13T14:50:01+01:00" filename="1863-03.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1863-03.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-23T18:47:57.946+02:00" modified="2019-12-13T14:50:01.559+01:00" filename="1863-03.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1863-05.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-10T16:01:01+02:00" modified="2019-12-13T14:50:01+01:00" filename="1863-05.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1863-05.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-10T16:01:01.109+02:00" modified="2019-12-13T14:50:01.685+01:00" filename="1863-05.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1868/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1868/__contents__.xml
+index 2f4553d..37e67a1 100644
+--- a/mop/data/Hofkalendarium/1868/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1868/__contents__.xml
+@@ -1,24 +1,24 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1868" version="1" owner="admin" group="dba" mode="677" created="2019-04-14T15:36:09.876+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1868-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-14T15:36:46+02:00" modified="2019-12-13T14:50:04+01:00" filename="1868-01.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1868-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="666" created="2019-04-14T15:36:46.324+02:00" modified="2019-12-13T14:50:04.636+01:00" filename="1868-01.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1868-03.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-19T09:56:03+02:00" modified="2019-12-13T14:50:04+01:00" filename="1868-03.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1868-03.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-19T09:56:03.556+02:00" modified="2019-12-13T14:50:04.836+01:00" filename="1868-03.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1868-02.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-18T10:33:21+02:00" modified="2019-12-13T14:50:05+01:00" filename="1868-02.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1868-02.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-18T10:33:21.825+02:00" modified="2019-12-13T14:50:05.038+01:00" filename="1868-02.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1868-04.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-19T16:16:01+02:00" modified="2019-12-13T14:50:05+01:00" filename="1868-04.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1868-04.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-19T16:16:01.524+02:00" modified="2019-12-13T14:50:05.259+01:00" filename="1868-04.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1868-07.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-10-10T16:47:27+02:00" modified="2019-12-13T14:50:05+01:00" filename="1868-07.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1868-07.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-10-10T16:47:27.001+02:00" modified="2019-12-13T14:50:05.483+01:00" filename="1868-07.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1868-05.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-23T10:58:06+02:00" modified="2019-12-13T14:50:05+01:00" filename="1868-05.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1868-05.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-23T10:58:06.064+02:00" modified="2019-12-13T14:50:05.798+01:00" filename="1868-05.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1868-06.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-24T14:42:54+02:00" modified="2019-12-13T14:50:06+01:00" filename="1868-06.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1868-06.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-24T14:42:54.356+02:00" modified="2019-12-13T14:50:06.124+01:00" filename="1868-06.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1870/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1870/__contents__.xml
+index 3151061..edfaa0b 100644
+--- a/mop/data/Hofkalendarium/1870/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1870/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1870" version="1" owner="mop_holtz" group="mop-nutzer" mode="770" created="2019-06-21T13:49:55.793+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1870-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-21T13:50:33+02:00" modified="2019-12-13T14:49:57+01:00" filename="1870-01.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1870-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-21T13:50:33.518+02:00" modified="2019-12-13T14:49:57.97+01:00" filename="1870-01.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1874/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1874/__contents__.xml
+index 335bcbd..b45fcbd 100644
+--- a/mop/data/Hofkalendarium/1874/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1874/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1874" version="1" owner="mop_holtz" group="mop-nutzer" mode="770" created="2019-06-21T18:16:26.695+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1874-03.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-21T18:17:01+02:00" modified="2019-12-13T14:49:53+01:00" filename="1874-03.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1874-03.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-21T18:17:01.186+02:00" modified="2019-12-13T14:49:53.246+01:00" filename="1874-03.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1884/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1884/__contents__.xml
+index 6062b5d..b4c07f9 100644
+--- a/mop/data/Hofkalendarium/1884/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1884/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1884" version="1" owner="mop_holtz" group="mop-nutzer" mode="770" created="2019-10-31T19:48:02.543+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1884-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-10-31T19:48:48+01:00" modified="2019-12-13T14:49:59+01:00" filename="1884-01.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1884-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-10-31T19:48:48.945+01:00" modified="2019-12-13T14:49:59.071+01:00" filename="1884-01.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1888/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1888/__contents__.xml
+index 1fb3910..4ea8a55 100644
+--- a/mop/data/Hofkalendarium/1888/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1888/__contents__.xml
+@@ -1,15 +1,15 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1888" version="1" owner="mop_holtz" group="mop-nutzer" mode="770" created="2019-06-05T09:23:49.066+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1888-04.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-02T12:57:21+02:00" modified="2019-12-13T14:49:58+01:00" filename="1888-04.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1888-04.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-02T12:57:21.094+02:00" modified="2019-12-13T14:49:58.185+01:00" filename="1888-04.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1888-05.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-02T15:09:27+02:00" modified="2019-12-13T14:49:58+01:00" filename="1888-05.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1888-05.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-02T15:09:27.192+02:00" modified="2019-12-13T14:49:58.355+01:00" filename="1888-05.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1888-03.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-05T09:24:23+02:00" modified="2019-12-13T14:49:58+01:00" filename="1888-03.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1888-03.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-05T09:24:23.279+02:00" modified="2019-12-13T14:49:58.626+01:00" filename="1888-03.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1888-06.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-02T16:45:26+02:00" modified="2019-12-13T14:49:58+01:00" filename="1888-06.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1888-06.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-09-02T16:45:26.026+02:00" modified="2019-12-13T14:49:58.927+01:00" filename="1888-06.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1914/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1914/__contents__.xml
+index b670b9a..0df8215 100644
+--- a/mop/data/Hofkalendarium/1914/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1914/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1914" version="1" owner="mop_holtz" group="mop-nutzer" mode="770" created="2019-06-21T14:41:14.924+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1914-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-21T17:29:58+02:00" modified="2019-12-13T14:50:01+01:00" filename="1914-01.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1914-01.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-21T17:29:58.017+02:00" modified="2019-12-13T14:50:01.994+01:00" filename="1914-01.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1914-02.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-21T14:41:37+02:00" modified="2019-12-13T14:50:02+01:00" filename="1914-02.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1914-02.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-21T14:41:37.53+02:00" modified="2019-12-13T14:50:02.121+01:00" filename="1914-02.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/1915/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1915/__contents__.xml
+index 6b53db9..57235ef 100644
+--- a/mop/data/Hofkalendarium/1915/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/1915/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/1915" version="1" owner="mop_holtz" group="mop-nutzer" mode="770" created="2019-06-21T14:23:53.903+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1915-10.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-21T14:24:33+02:00" modified="2019-12-13T14:50:06+01:00" filename="1915-10.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1915-10.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-06-21T14:24:33.775+02:00" modified="2019-12-13T14:50:06.821+01:00" filename="1915-10.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/ExtData/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/ExtData/__contents__.xml
+index 5a136b8..f4f589f 100644
+--- a/mop/data/Hofkalendarium/ExtData/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/ExtData/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Hofkalendarium/ExtData" version="1" owner="mop_neumann" group="mop-nutzer" mode="770" created="2019-11-11T09:40:34.297+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="lehndorff.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="660" created="2019-11-11T11:20:12+01:00" modified="2019-12-13T14:50:07+01:00" filename="lehndorff.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="lehndorff.xml" skip="no" owner="mop_neumann" group="mop-nutzer" mode="660" created="2019-11-11T11:20:12.231+01:00" modified="2019-12-13T14:50:07.116+01:00" filename="lehndorff.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/mop/data/Hofkalendarium/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/__contents__.xml
+index 824fa41..e49ad0e 100644
+--- a/mop/data/Hofkalendarium/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Hofkalendarium/__contents__.xml
+@@ -2,10 +2,10 @@
+     <acl entries="0" version="1"/>
+     <subcollection name="1874" filename="1874"/>
+     <subcollection name="1797" filename="1797"/>
+-    <subcollection name="1915" filename="1915"/>
++    <subcollection name="ExtData" filename="ExtData"/>
+     <subcollection name="1821" filename="1821"/>
+     <subcollection name="1802" filename="1802"/>
+-    <subcollection name="ExtData" filename="ExtData"/>
++    <subcollection name="1870" filename="1870"/>
+     <subcollection name="1863" filename="1863"/>
+     <subcollection name="1848" filename="1848"/>
+     <subcollection name="1884" filename="1884"/>
+@@ -17,10 +17,10 @@
+     <subcollection name="1805" filename="1805"/>
+     <subcollection name="1806" filename="1806"/>
+     <subcollection name="1914" filename="1914"/>
++    <subcollection name="1915" filename="1915"/>
++    <subcollection name="1809" filename="1809"/>
++    <subcollection name="1868" filename="1868"/>
++    <subcollection name="1793" filename="1793"/>
+     <subcollection name="1810" filename="1810"/>
+     <subcollection name="1840" filename="1840"/>
+-    <subcollection name="1870" filename="1870"/>
+-    <subcollection name="1793" filename="1793"/>
+-    <subcollection name="1868" filename="1868"/>
+-    <subcollection name="1809" filename="1809"/>
+ </collection>
+\ No newline at end of file

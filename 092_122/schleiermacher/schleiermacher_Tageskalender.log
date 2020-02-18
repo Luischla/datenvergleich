@@ -1,0 +1,2400 @@
+diff --git a/schleiermacher/data/Tageskalender/1808.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1808.xml
+index 6001459..241325c 100644
+--- a/schleiermacher/data/Tageskalender/1808.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1808.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="tageskalender1808" xml:id="S0010276">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="tageskalender1808">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+@@ -392,7 +392,7 @@
+                             <date type="tageseintrag" when="1808-01-24">24 Sonntag</date>
+                             <lb/>Gepredigt in der <placeName key="S0000081">Dreifalt<ex>igkeit</ex>sKirche</placeName>
+                             <lb/>üb<ex>er</ex>
+-                            <bibl type="bibelstelle" corresp="Mt 24,1; Mt 24,2"> Matth<ex>äus</ex>
++                            <bibl type="bibelstelle" corresp="Mt 24,1.2"> Matth<ex>äus</ex>
+                                 24,1.2.</bibl>
+                         </p>
+                     </div>
+@@ -572,7 +572,7 @@
+                                 p<ex>ost</ex> Epiph<ex>anias</ex>
+                         </p>
+                         <p rendition="#c">VM gepredigt in <placeName key="S0000081">DreifaltigkeitsKirche</placeName> üb<ex>er</ex>
+-                            <bibl type="bibelstelle" corresp="Mt 13,24"> Matth<ex>äus </ex>13,24
++                            <bibl type="bibelstelle" corresp="Mt 13, 24"> Matth<ex>äus </ex>13, 24
+                             </bibl> sqq. u<ex>nd</ex> Communion <lb/>ausgetheilt.</p>
+                     </div>
+                     <div type="rechte_seite"/>
+@@ -672,7 +672,7 @@
+                         <p rendition="#c">VM Pred<ex>igt</ex>
+                             <placeName key="S0000079">Neue Kirche</placeName> üb<ex>er</ex>
+                             <lb/>
+-                            <bibl type="bibelstelle" corresp="Psalm 15,1">Ps<ex>alm</ex> 15,1
++                            <bibl type="bibelstelle" corresp="Psalm 15, 1">Ps<ex>alm</ex> 15, 1
+                             </bibl> u<ex>nd</ex> sq.</p>
+                     </div>
+                     <div type="rechte_seite">
+@@ -780,7 +780,8 @@
+                         <p rendition="#c">VM Pred<ex>igt</ex>
+                             <placeName key="S0000107"> Jerus<ex>alems</ex>Kirche</placeName>
+                             gepredigt üb<ex>er</ex>
+-                            <bibl type="bibelstelle" corresp="Lk 8,4; Lk 8,5; Lk 8,11; Lk 8,12">Luc<ex>as</ex> 8,4.5.11.12. </bibl>
++                            <bibl type="bibelstelle" corresp="Lk 8, 4.5.11.12.">Luc<ex>as</ex> 8,
++                                4.5.11.12. </bibl>
+                         </p>
+                     </div>
+                     <div type="rechte_seite">
+diff --git a/schleiermacher/data/Tageskalender/1809.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1809.xml
+index de2e27d..943c28c 100644
+--- a/schleiermacher/data/Tageskalender/1809.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1809.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_xyh_vmk_dj" xml:id="S0009517">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_xyh_vmk_dj">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Tageskalender/1810.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1810.xml
+index 5d5f432..044cc77 100644
+--- a/schleiermacher/data/Tageskalender/1810.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1810.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_llv_xmk_dj" xml:id="S0008923">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_llv_xmk_dj">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Tageskalender/1811.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1811.xml
+index 54ea9c6..c758d7a 100644
+--- a/schleiermacher/data/Tageskalender/1811.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1811.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_mgq_11x_ns" xml:id="S0008971">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_mgq_11x_ns">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+@@ -67,8 +67,8 @@
+                 <pb n="17"/>
+                 <p rendition="#c">14t<ex>en</ex>
+                     <supplied prev="14." cert="high">Dezember</supplied>
+-               <space unit="em" quantity="1"/>An <persName key="S0001933">
+-                        <persName key="S0001937">Froriep</persName>
++               <space unit="em" quantity="1"/>An <persName key="p684">
++                        <persName key="id_r4f_h4p_zp">Froriep</persName>
+                     </persName> geschrieben.</p>
+                 <gap reason="insignificant" quantity="1" unit="pages"/>
+                 <p/>
+@@ -175,7 +175,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003241">Pischon</persName>
++                            <cell>An <persName key="prov_dss_dr1_bq">Pischon</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -217,7 +217,7 @@
+                         <row>
+                             <cell/>
+                             <cell>
+-                                <persName key="S0003687">Nanny</persName> Monatsgeld</cell>
++                                <persName key="p1918">Nanny</persName> Monatsgeld</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -258,7 +258,7 @@
+                         <row>
+                             <cell>8</cell>
+                             <cell>
+-                                <persName key="S0003677">Jette</persName>
++                                <persName key="prov_otg_gy5_wk">Jette</persName>
+                                 Garderobengeld</cell>
+                             <cell/>
+                             <cell/>
+@@ -310,7 +310,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Dem Tischler <persName key="S0001392">Bote</persName> auf
++                            <cell>Dem Tischler <persName key="prov_jqz_qtm_cy">Bote</persName> auf
+                                 Abschlag</cell>
+                             <cell/>
+                             <cell/>
+@@ -322,7 +322,7 @@
+                         <row>
+                             <cell/>
+                             <cell>Dem Tapezier <unclear reason="illegible">
+-                                    <persName key="S0001563">Coquez</persName>
++                                    <persName key="prov_acw_vxm_cy">Coquez</persName>
+                                 </unclear> auf Abschlag</cell>
+                             <cell/>
+                             <cell/>
+@@ -333,7 +333,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Dem Tischler <persName key="S0003750">Schrader</persName>
++                            <cell>Dem Tischler <persName key="prov_vgc_3xm_cy">Schrader</persName>
+                                 auf Abschlag</cell>
+                             <cell/>
+                             <cell/>
+@@ -344,7 +344,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0004047">Stubenrauch</persName>
++                            <cell>An <persName key="p2153">Stubenrauch</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -355,7 +355,7 @@
+                         </row>
+                         <row>
+                             <cell>10</cell>
+-                            <cell>Porto u<ex>nd</ex> Kleinigkeiten an <persName key="S0003687">Nanny</persName>
++                            <cell>Porto u<ex>nd</ex> Kleinigkeiten an <persName key="p1918">Nanny</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -370,7 +370,7 @@
+                                 </hi>
+                                 <ex>.</ex> Er hat 6 bekommen, die andern drei sind geliehen
+                                     u<ex>nd</ex> werden so wie sie wiederbezahlt worden unter
+-                                    dersel<ex>ben</ex> Rubrik aufgeführt. So hat auch <persName key="S0004047">Stubenrauch</persName> 100 R<ex>th</ex> bekommen
++                                    dersel<ex>ben</ex> Rubrik aufgeführt. So hat auch <persName key="p2153">Stubenrauch</persName> 100 R<ex>th</ex> bekommen
+                                 wovon 50 geliehen waren</cell>
+                             <cell/>
+                             <cell/>
+@@ -395,8 +395,8 @@
+                             <cell>
+                                 <hi rendition="#u">Anm<ex>erkung</ex>
+                                 </hi>
+-                                <persName key="S0004047">Stubenrauch</persName> hat 100 R<ex>th</ex>
+-                                bekommen wovon aber 50 von <persName key="S0003413">Reimer</persName>
++                                <persName key="p2153">Stubenrauch</persName> hat 100 R<ex>th</ex>
++                                bekommen wovon aber 50 von <persName key="p1729">Reimer</persName>
+                                 geliehen waren die ich erst in Ausgabe bringen werde wenn ich sie
+                                 ihm wiedergebe.</cell>
+                             <cell/>
+@@ -599,7 +599,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Auslagen an <persName key="S0003687">Nanny</persName> größtentheils
++                            <cell>Auslagen an <persName key="p1918">Nanny</persName> größtentheils
+                                 für Porto</cell>
+                             <cell/>
+                             <cell/>
+@@ -801,7 +801,7 @@
+                         <row>
+                             <cell/>
+                             <cell>
+-                                <persName key="S0003687">Nanny</persName> Monatsgeld</cell>
++                                <persName key="p1918">Nanny</persName> Monatsgeld</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -812,7 +812,7 @@
+                         <row>
+                             <cell/>
+                             <cell>
+-                                <persName key="S0003677">Jette</persName>
++                                <persName key="prov_otg_gy5_wk">Jette</persName>
+                                 Garderobengeld</cell>
+                             <cell/>
+                             <cell/>
+@@ -863,7 +863,7 @@
+                         </row>
+                         <row>
+                             <cell>4</cell>
+-                            <cell>Tischler <persName key="S0001392">Bote</persName> auf
++                            <cell>Tischler <persName key="prov_jqz_qtm_cy">Bote</persName> auf
+                                 Abschlag</cell>
+                             <cell/>
+                             <cell/>
+@@ -884,7 +884,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Fuhrmann <persName key="S0003444">Reske</persName>
++                            <cell>Fuhrmann <persName key="prov_xd4_kym_cy">Reske</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -896,7 +896,7 @@
+                         <row>
+                             <cell>7</cell>
+                             <cell>
+-                                <persName key="S0003241">Pischon</persName>
++                                <persName key="prov_dss_dr1_bq">Pischon</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -947,7 +947,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Fuhrmann <persName key="S0003168">Pasenow</persName>
++                            <cell>Fuhrmann <persName key="prov_v2w_sym_cy">Pasenow</persName>
+                                     Dec<ex>ember</ex> &amp; Jan<ex>uar</ex>
+                             </cell>
+                             <cell/>
+@@ -981,7 +981,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Dem Tischler <persName key="S0003749">Schrader</persName>
++                            <cell>Dem Tischler <persName key="prov_asw_1zm_cy">Schrader</persName>
+                                 den Rest der großen Rechnung mit</cell>
+                             <cell/>
+                             <cell/>
+@@ -1014,7 +1014,7 @@
+                         </row>
+                         <row>
+                             <cell>16</cell>
+-                            <cell>An <persName key="S0004330">Weiß</persName> sein Lohn vom
++                            <cell>An <persName key="p2356">Weiß</persName> sein Lohn vom
+                                     15t<ex>en</ex> Jan<ex>uar</ex> – 15t<ex>en</ex> Februar</cell>
+                             <cell/>
+                             <cell/>
+@@ -1140,7 +1140,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Porto an <persName key="S0003687">Nanny</persName> (<persName key="S0003677">Jette</persName>)</cell>
++                            <cell>Porto an <persName key="p1918">Nanny</persName> (<persName key="prov_otg_gy5_wk">Jette</persName>)</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -1160,7 +1160,7 @@
+                         </row>
+                         <row>
+                             <cell>24.</cell>
+-                            <cell>Nachschuß an <persName key="S0003687">Nanny</persName> wegen
++                            <cell>Nachschuß an <persName key="p1918">Nanny</persName> wegen
+                                     18t<ex>en</ex>
+                             </cell>
+                             <cell/>
+@@ -1243,7 +1243,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Von <persName key="S0002266">Herz</persName> für Bücher R<ex>th</ex>
++                            <cell>Von <persName key="p913">Herz</persName> für Bücher R<ex>th</ex>
+                                 3.6.</cell>
+                             <cell/>
+                             <cell/>
+@@ -1264,7 +1264,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> schuldig
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> schuldig
+                                 9.8</cell>
+                             <cell/>
+                             <cell/>
+@@ -1329,7 +1329,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003687">Nanny</persName> Wirthschaftsgeld</cell>
++                            <cell>An <persName key="p1918">Nanny</persName> Wirthschaftsgeld</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -1339,7 +1339,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003687">Nanny</persName>
++                            <cell>An <persName key="p1918">Nanny</persName>
+                                 Garderob<ex>en</ex>geld</cell>
+                             <cell/>
+                             <cell/>
+@@ -1362,7 +1362,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName>
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName>
+                                 Garderobengeld</cell>
+                             <cell/>
+                             <cell/>
+@@ -1373,7 +1373,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> Auslagen vom
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> Auslagen vom
+                                 vorigen Monat</cell>
+                             <cell/>
+                             <cell/>
+@@ -1460,7 +1460,7 @@
+                         <row>
+                             <cell/>
+                             <cell>
+-                                <persName key="S0003241">Pischon</persName>
++                                <persName key="prov_dss_dr1_bq">Pischon</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -1514,7 +1514,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Auslagen an <persName key="S0003687">Nanny</persName>
++                            <cell>Auslagen an <persName key="p1918">Nanny</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -1555,7 +1555,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Auslagen an <persName key="S0003687">Nanny</persName>
++                            <cell>Auslagen an <persName key="p1918">Nanny</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -1567,7 +1567,7 @@
+                         <row>
+                             <cell/>
+                             <cell>
+-                                <persName key="S0003687">Nanny</persName> Garderobengeld pro
++                                <persName key="p1918">Nanny</persName> Garderobengeld pro
+                                 April</cell>
+                             <cell/>
+                             <cell/>
+@@ -1664,7 +1664,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003675">Lotte</persName> ihr Quartal</cell>
++                            <cell>An <persName key="p1913">Lotte</persName> ihr Quartal</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -1714,7 +1714,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003687">Nanny</persName> Vorschuß</cell>
++                            <cell>An <persName key="p1918">Nanny</persName> Vorschuß</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -1830,7 +1830,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003687">Nanny</persName> Wirthschaftsgeld</cell>
++                            <cell>An <persName key="p1918">Nanny</persName> Wirthschaftsgeld</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -1862,7 +1862,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Garderobengeld an <persName key="S0003677">Jette</persName>
++                            <cell>Garderobengeld an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -1873,7 +1873,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003241">Pischon</persName>
++                            <cell>An <persName key="prov_dss_dr1_bq">Pischon</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -1904,7 +1904,7 @@
+                         </row>
+                         <row>
+                             <cell>8</cell>
+-                            <cell>An <persName key="S0004047">Stubenrauch</persName>
++                            <cell>An <persName key="p2153">Stubenrauch</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -2061,7 +2061,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Auslage an <persName key="S0003687">Nanny</persName>
++                            <cell>Auslage an <persName key="p1918">Nanny</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -2201,7 +2201,7 @@
+                         </row>
+                         <row>
+                             <cell>20</cell>
+-                            <cell>Parthie bei <persName key="S0001395">Bouché</persName>
++                            <cell>Parthie bei <persName key="p259">Bouché</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -2222,7 +2222,7 @@
+                         </row>
+                         <row>
+                             <cell>21</cell>
+-                            <cell>Fahrt nach <placeName key="S0000224">Charlottenburg</placeName>
++                            <cell>Fahrt nach <placeName key="o385">Charlottenburg</placeName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -2293,7 +2293,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Auslagen an <persName key="S0003687">Nanny</persName>
++                            <cell>Auslagen an <persName key="p1918">Nanny</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -2449,7 +2449,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Wirthschaftsgeld an <persName key="S0003687">Nanny</persName>
++                            <cell>Wirthschaftsgeld an <persName key="p1918">Nanny</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -2460,7 +2460,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Garderobengeld an <persName key="S0003677">Jette</persName>
++                            <cell>Garderobengeld an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -2471,7 +2471,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Monatsgeld an <persName key="S0003687">Nanny</persName>
++                            <cell>Monatsgeld an <persName key="p1918">Nanny</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -2522,7 +2522,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Tischler <persName key="S0001392">Bothe</persName> ganz
++                            <cell>Tischler <persName key="prov_jqz_qtm_cy">Bothe</persName> ganz
+                                 abgezahlt</cell>
+                             <cell/>
+                             <cell/>
+@@ -2534,7 +2534,7 @@
+                         <row>
+                             <cell/>
+                             <cell>
+-                                <persName key="S0003241">Pischon</persName> pro May</cell>
++                                <persName key="prov_dss_dr1_bq">Pischon</persName> pro May</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -2678,7 +2678,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Meine Schuld an <persName key="S0003687">Nanny</persName>
++                            <cell>Meine Schuld an <persName key="p1918">Nanny</persName>
+                                 abbezahlt</cell>
+                             <cell/>
+                             <cell/>
+@@ -2699,7 +2699,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Accise Auslagen an <persName key="S0003687">Nanny</persName>
++                            <cell>Accise Auslagen an <persName key="p1918">Nanny</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -2887,7 +2887,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Ein Fr<ex>iedrichs</ex>d'or an <persName key="S0003677">Jette</persName> geschenkt</cell>
++                            <cell>Ein Fr<ex>iedrichs</ex>d'or an <persName key="prov_otg_gy5_wk">Jette</persName> geschenkt</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -3164,7 +3164,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0001484">Buttmann</persName> für <del prev="" rendition="#s">Geräuchertes p<ex>erge</ex>
++                            <cell>An <persName key="p324">Buttmann</persName> für <del prev="" rendition="#s">Geräuchertes p<ex>erge</ex>
+                                 </del> Wurst u<ex>nd</ex>
+                                 <unclear reason="illegible">Prenten</unclear>
+                             </cell>
+@@ -3179,7 +3179,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Bei <unclear reason="illegible">Millner</unclear> mit <persName key="S0003677">Jette</persName>
++                            <cell>Bei <unclear reason="illegible">Millner</unclear> mit <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -3222,7 +3222,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Porto u<ex>nd</ex> Auslag<ex>en</ex> an <persName key="S0003677">Jette</persName>
++                            <cell>Porto u<ex>nd</ex> Auslag<ex>en</ex> an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -3273,7 +3273,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Fahrt nach <placeName key="S0000224">Charlottenburg</placeName>
++                            <cell>Fahrt nach <placeName key="o385">Charlottenburg</placeName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -3315,7 +3315,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Noch zur Einrichtung an <persName key="S0003677">Jette</persName>
++                            <cell>Noch zur Einrichtung an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -3434,7 +3434,7 @@
+                         <row>
+                             <cell/>
+                             <cell>
+-                                <persName key="S0003687">Nanny</persName> Monatsgeld</cell>
++                                <persName key="p1918">Nanny</persName> Monatsgeld</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -3445,7 +3445,7 @@
+                         <row>
+                             <cell/>
+                             <cell>
+-                                <persName key="S0003677">Jette</persName>
++                                <persName key="prov_otg_gy5_wk">Jette</persName>
+                                 Garderobe<ex>n</ex>geld</cell>
+                             <cell/>
+                             <cell/>
+@@ -3567,7 +3567,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>[Auslage für <persName key="S0003684">Carl</persName> ein Thermometer
++                            <cell>[Auslage für <persName key="p1915">Carl</persName> ein Thermometer
+                                 in Glas 5 R<ex>th</ex>]</cell>
+                             <cell/>
+                             <cell/>
+@@ -3578,7 +3578,7 @@
+                         </row>
+                         <row>
+                             <cell>3</cell>
+-                            <cell> An <persName key="S0003241">Pischon</persName>
++                            <cell> An <persName key="prov_dss_dr1_bq">Pischon</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -3600,7 +3600,7 @@
+                         <row>
+                             <cell/>
+                             <cell>Für sächs<ex>ische</ex> Cassenbillets v<ex>on</ex>
+-                                <persName key="S0003413">Reimer</persName>
++                                <persName key="p1729">Reimer</persName>
+                             </cell>
+                             <cell>4.</cell>
+                             <cell>4.</cell>
+@@ -3621,7 +3621,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>[Auslage für <persName key="S0003684">Carl</persName> 2 Lupen 3
++                            <cell>[Auslage für <persName key="p1915">Carl</persName> 2 Lupen 3
+                                     R<ex>eichs</ex>th<ex>aler</ex> 8 g<ex>r</ex>]</cell>
+                             <cell/>
+                             <cell/>
+@@ -3644,7 +3644,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Schuld an die <persName key="S0002266">Herz</persName> an
++                            <cell>Schuld an die <persName key="p913">Herz</persName> an
+                                 <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="Sarah Schmidt" timestamp="20161206T152702+0100" comment="Sara de Lemos" mid="32"?>Sara<?oxy_custom_end?><?oxy_comment_end mid="32"?>
+                                 bezahlt</cell>
+                             <cell/>
+@@ -3743,7 +3743,7 @@
+                         </row>
+                         <row>
+                             <cell>10</cell>
+-                            <cell>Tischler <persName key="S0003749">Schraders</persName>
++                            <cell>Tischler <persName key="prov_asw_1zm_cy">Schraders</persName>
+                                 lezte Rechnung</cell>
+                             <cell/>
+                             <cell/>
+@@ -3808,7 +3808,7 @@
+                         </row>
+                         <row>
+                             <cell>14</cell>
+-                            <cell>Für die griech<ex>ische</ex> Gesellsch<ex>aft</ex> an <persName key="S0003677">Jette</persName>
++                            <cell>Für die griech<ex>ische</ex> Gesellsch<ex>aft</ex> an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -3881,7 +3881,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003675">Lotte</persName> durch <persName key="S0004482">Wunster</persName>
++                            <cell>An <persName key="p1913">Lotte</persName> durch <persName key="prov_df2_y14_rw">Wunster</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -3893,7 +3893,7 @@
+                         <row>
+                             <cell/>
+                             <cell>
+-                                <placeName key="S0000781">Pyrmont</placeName>er Wasser 3
++                                <placeName key="o1550">Pyrmont</placeName>er Wasser 3
+                                     B<ex>outei</ex>llen</cell>
+                             <cell/>
+                             <cell/>
+@@ -3936,7 +3936,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>In <placeName key="S0000388">Grunewald</placeName> am
++                            <cell>In <placeName key="prov_qjz_4q5_fs">Grunewald</placeName> am
+                                     16<ex>ten</ex>
+                             </cell>
+                             <cell/>
+@@ -3968,7 +3968,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>diverse Auslagen an <persName key="S0003677">Jette</persName>
++                            <cell>diverse Auslagen an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -4020,7 +4020,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Auslagen an <persName key="S0003677">Jette</persName>
++                            <cell>Auslagen an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -4042,7 +4042,7 @@
+                         <row>
+                             <cell/>
+                             <cell>Auslage für Reise <unclear reason="illegible">
+-                                    <persName key="S0001256">Benda</persName>
++                                    <persName key="prov_khx_1rv_gj">Benda</persName>
+                                 </unclear> 2 r<ex>th</ex> 10 g<ex>r</ex> 6 d </cell>
+                             <cell/>
+                             <cell/>
+@@ -4168,7 +4168,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Wirthschaftsgeld an <persName key="S0003677">Jette</persName>
++                            <cell>Wirthschaftsgeld an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -4179,7 +4179,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Garderobengeld an <persName key="S0003677">Jette</persName>
++                            <cell>Garderobengeld an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -4200,7 +4200,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Monatsgeld an <persName key="S0003687">Nanny</persName>
++                            <cell>Monatsgeld an <persName key="p1918">Nanny</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -4223,7 +4223,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Wagen nach <placeName key="S0000388">Grunewald</placeName>
++                            <cell>Wagen nach <placeName key="prov_qjz_4q5_fs">Grunewald</placeName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -4234,7 +4234,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003241">Pischon</persName>
++                            <cell>An <persName key="prov_dss_dr1_bq">Pischon</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -4362,7 +4362,7 @@
+                         </row>
+                         <row>
+                             <cell>12.</cell>
+-                            <cell>An <persName key="S0002290">Hirt</persName> für ungrischen
++                            <cell>An <persName key="prov_il2_hlz_z5">Hirt</persName> für ungrischen
+                                 Wein</cell>
+                             <cell/>
+                             <cell/>
+@@ -4383,7 +4383,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> für
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> für
+                                 Gesellschaften</cell>
+                             <cell/>
+                             <cell/>
+@@ -4436,7 +4436,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> für
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> für
+                                 Gesellschaft</cell>
+                             <cell/>
+                             <cell/>
+@@ -4457,7 +4457,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> für
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> für
+                                 Gesellschaft</cell>
+                             <cell/>
+                             <cell/>
+@@ -4560,7 +4560,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Tabak für <persName key="S0003975">Steffens</persName>
++                            <cell>Tabak für <persName key="p2109">Steffens</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -4583,7 +4583,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Post für <persName key="S0003975">Steffens</persName>
++                            <cell>Post für <persName key="p2109">Steffens</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -4773,7 +4773,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> für <unclear reason="illegible">Kinder</unclear>schriften u<ex>nd</ex> andere
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> für <unclear reason="illegible">Kinder</unclear>schriften u<ex>nd</ex> andere
+                                 Auslagen</cell>
+                             <cell/>
+                             <cell/>
+@@ -4785,8 +4785,8 @@
+                         <row>
+                             <cell/>
+                             <cell><?oxy_comment_start author="Sarah Schmidt" timestamp="20161207T131218+0100" comment="unbedingt für den Kommentar Briefe auswerten"?>An
+-                                    <persName key="S0003677">Jette</persName> für
+-                                Gesellschaften u<ex>nd</ex> für <persName key="S0003975">Steffens</persName> Hiersein<?oxy_comment_end?>
++                                    <persName key="prov_otg_gy5_wk">Jette</persName> für
++                                Gesellschaften u<ex>nd</ex> für <persName key="p2109">Steffens</persName> Hiersein<?oxy_comment_end?>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -4797,7 +4797,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName>
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName>
+                                 Wirthschaftsgeld</cell>
+                             <cell/>
+                             <cell/>
+@@ -4808,7 +4808,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName>
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName>
+                                 Garderobengeld</cell>
+                             <cell/>
+                             <cell/>
+@@ -4819,7 +4819,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003687">Nanny</persName> Monatsgeld</cell>
++                            <cell>An <persName key="p1918">Nanny</persName> Monatsgeld</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -4883,7 +4883,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> diverse
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> diverse
+                                 Auslagen</cell>
+                             <cell/>
+                             <cell/>
+@@ -5003,7 +5003,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003241">Pischon</persName>
++                            <cell>An <persName key="prov_dss_dr1_bq">Pischon</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -5090,7 +5090,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Kleine Auslagen an <persName key="S0003677">Jette</persName>
++                            <cell>Kleine Auslagen an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -5112,7 +5112,7 @@
+                         <row>
+                             <cell>11</cell>
+                             <cell>Bei <unclear reason="illegible">Dallach</unclear>
+-                                <persName key="S0002199">Heindorf</persName>s Gesellschaft</cell>
++                                <persName key="p864">Heindorf</persName>s Gesellschaft</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -5122,7 +5122,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Auslage u<ex>nd</ex> Gesellschaft an <persName key="S0003677">Jette</persName>
++                            <cell>Auslage u<ex>nd</ex> Gesellschaft an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -5195,7 +5195,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> Gesellschaften
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> Gesellschaften
+                                     u<ex>nd</ex> Auslagen</cell>
+                             <cell/>
+                             <cell/>
+@@ -5206,7 +5206,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> zu Mixpickel
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> zu Mixpickel
+                                     u<ex>nd</ex> kl<ex>eine</ex> Auslagen</cell>
+                             <cell/>
+                             <cell/>
+@@ -5381,7 +5381,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Wirthschaftsgeld an <persName key="S0003677">Jette</persName>
++                            <cell>Wirthschaftsgeld an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -5392,7 +5392,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Garderobengeld an <persName key="S0003677">Jette</persName>
++                            <cell>Garderobengeld an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -5403,7 +5403,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Monatsgeld an <persName key="S0003687">Nanny</persName>
++                            <cell>Monatsgeld an <persName key="p1918">Nanny</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -5481,7 +5481,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> für
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> für
+                                 <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Harschner<?oxy_custom_end?>
+                                 vorgeschossen 10 r<ex>th</ex>
+                             </cell>
+@@ -5578,7 +5578,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003241">Pischon</persName>
++                            <cell>An <persName key="prov_dss_dr1_bq">Pischon</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -5639,7 +5639,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Dem Fuhrmann nach <placeName key="S0000824">Rügen</placeName>
++                            <cell>Dem Fuhrmann nach <placeName key="o1668">Rügen</placeName>
+                                 Aufgeld</cell>
+                             <cell/>
+                             <cell/>
+@@ -5674,7 +5674,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0001484">Buttmann</persName> für Wein</cell>
++                            <cell>An <persName key="p324">Buttmann</persName> für Wein</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -5740,7 +5740,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Zinsen an <persName key="S0004047">Stubenrauch</persName>
++                            <cell>Zinsen an <persName key="p2153">Stubenrauch</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -5946,7 +5946,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Die Vorschüsse für <persName key="S0002150">Harscher</persName> gingen
++                            <cell>Die Vorschüsse für <persName key="p831">Harscher</persName> gingen
+                                 bis Aug<ex>ust</ex> weiter u<ex>nd</ex> wurden <lb/>in diesem Monate
+                                 getilgt. </cell>
+                             <cell/>
+@@ -6037,7 +6037,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName>
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName>
+                                 Monatsgeld</cell>
+                             <cell>
+                                 <del prev="" rendition="#s">12</del>
+@@ -6050,7 +6050,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003687">Nanny</persName>
++                            <cell>An <persName key="p1918">Nanny</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -6156,7 +6156,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003241">Pischon</persName>
++                            <cell>An <persName key="prov_dss_dr1_bq">Pischon</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -6207,7 +6207,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Von Louise <persName key="S0001257">Benda</persName>
++                            <cell>Von Louise <persName key="prov_inc_vqv_gj">Benda</persName>
+                                 Auslagen wieder erhalten R<ex>th</ex> 2. 10.<lb/>Aufs neue für sie
+                                 ausgelegt R<ex>th</ex> 1. 16.</cell>
+                             <cell/>
+@@ -6340,7 +6340,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Im Spiel verloren bei <persName key="S0002032">Göschen</persName>
++                            <cell>Im Spiel verloren bei <persName key="p744">Göschen</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -6352,7 +6352,7 @@
+                         <row>
+                             <cell/>
+                             <cell>
+-                                <persName key="S0003677">Jetten</persName> für <persName key="S0002150">Harscher</persName> pro September vorgeschossen 10
++                                <persName key="prov_otg_gy5_wk">Jetten</persName> für <persName key="p831">Harscher</persName> pro September vorgeschossen 10
+                                     r<ex>th</ex>
+                             </cell>
+                             <cell/>
+@@ -6398,7 +6398,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0004359">de Wette</persName>'s Juden </cell>
++                            <cell>An <persName key="p2380">de Wette</persName>'s Juden </cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -6480,7 +6480,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Davon Für <persName key="S0002150">Harscher</persName> 10</cell>
++                            <cell>Davon Für <persName key="p831">Harscher</persName> 10</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -6512,7 +6512,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Louise <persName key="S0001257">Benda</persName> 1.
++                            <cell>Louise <persName key="prov_inc_vqv_gj">Benda</persName> 1.
+                                 16</cell>
+                             <cell/>
+                             <cell/>
+@@ -6612,7 +6612,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Wirtschaftsgeld an <persName key="S0003677">Jette</persName>
++                            <cell>Wirtschaftsgeld an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -6623,7 +6623,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Garderobengeld an <persName key="S0003677">Jette</persName>
++                            <cell>Garderobengeld an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -6634,7 +6634,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Monatsgeld an <persName key="S0003687">Nanny</persName>
++                            <cell>Monatsgeld an <persName key="p1918">Nanny</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -6645,7 +6645,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Auslage vom vorigen Monat an <persName key="S0003677">Jette</persName>
++                            <cell>Auslage vom vorigen Monat an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -6656,8 +6656,8 @@
+                         </row>
+                         <row>
+                             <cell>2</cell>
+-                            <cell>Auslage an <persName key="S0003684">Carl</persName> ein Tuch für
+-                                    <persName key="S0003686">Frize</persName> 10 R<ex>th</ex>
++                            <cell>Auslage an <persName key="p1915">Carl</persName> ein Tuch für
++                                    <persName key="p1917">Frize</persName> 10 R<ex>th</ex>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -6681,7 +6681,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Für Bier von <persName key="S0004065">Süvern</persName>
++                            <cell>Für Bier von <persName key="p2172">Süvern</persName>
+                             </cell>
+                             <cell>2</cell>
+                             <cell/>
+@@ -6712,7 +6712,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Für <persName key="S0002150">Harscher</persName> pro Octob<ex>er</ex>
++                            <cell>Für <persName key="p831">Harscher</persName> pro Octob<ex>er</ex>
+                                 vorgeschossen 10 R<ex>th</ex>
+                             </cell>
+                             <cell/>
+@@ -6756,7 +6756,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003610">Schede</persName> für
++                            <cell>An <persName key="p1871">Schede</persName> für
+                                 <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Karl
+                                 <?oxy_custom_end?>
+                             </cell>
+@@ -6832,7 +6832,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003241">Pischon</persName>
++                            <cell>An <persName key="prov_dss_dr1_bq">Pischon</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -6888,7 +6888,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> vorgeschossen
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> vorgeschossen
+                                 10 r<ex>th</ex>
+                             </cell>
+                             <cell/>
+@@ -7019,7 +7019,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> Gesellschaften
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> Gesellschaften
+                                     u<ex>nd</ex> Auslagen</cell>
+                             <cell/>
+                             <cell/>
+@@ -7062,7 +7062,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Verspielt am 17t<ex>en</ex> bei <persName key="S0001061 S0001255 S0001258 S0001259 S0001260 S0001261 S0001262 S0001263 S0001264 S0003243 S0003244 S0003248 S0003249 S0003250 S0003252 S0003253 S0003254 S0003256 S0003258 S0003260 S0003261 S0003262 S0003265 S0003269 S0003270 S0003271 S0003272 S0003273 S0003274 S0003275 S0003277 S0003278 S0003282 S0003283 S0003284 S0003285 S0003286 S0003287 S0003288 S0003290 S0003292 S0003294 S0003295 S0003296 S0003302 S0003303 S0003308 S0003311 S0003312 S0003314 S0003315 S0003316 S0003317 S0003318 S0003320 S0003319 S0003321 S0003323 S0003324 S0003327 S0003328 S0003329 S0003330 S0003331 S0003332 S0003333 S0003334 S0003338 S0003341 S0003342 S0003343 S0003344 S0003345 S0003346 S0003347 S0003349 S0003350 S0003351 S0003354 S0003355 S0003356 S0003358 S0003361 S0003362 S0003363 S0003365 S0003367 S0003368 S0003369 S0003370 S0003371">Alberti</persName>
++                            <cell>Verspielt am 17t<ex>en</ex> bei <persName key="p16">Alberti</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -7127,7 +7127,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Auslagen an <persName key="S0003677">Jette</persName> für
++                            <cell>Auslagen an <persName key="prov_otg_gy5_wk">Jette</persName> für
+                                 Gesellschaft, Holzkosten u<ex>nd</ex> Kleinigkeiten </cell>
+                             <cell/>
+                             <cell/>
+@@ -7264,7 +7264,7 @@
+                             <cell>
+                                 <gap quantity="1" unit="chars"/>
+                                 <gap quantity="1" unit="chars"/>
+-                                <gap quantity="1" unit="chars"/> habe ich bei <persName key="S0001197">Bartholdy</persName> zu gut.</cell>
++                                <gap quantity="1" unit="chars"/> habe ich bei <persName key="prov_vj2_qtw_mg">Bartholdy</persName> zu gut.</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -7328,7 +7328,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Garderobe an <persName key="S0003677">Jette</persName>
++                            <cell>Garderobe an <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -7339,7 +7339,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003687">Nanny</persName>
++                            <cell>An <persName key="p1918">Nanny</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -7429,7 +7429,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> noch Auslagen
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> noch Auslagen
+                                     v<ex>om</ex> vorigen Monat</cell>
+                             <cell/>
+                             <cell/>
+@@ -7584,7 +7584,7 @@
+                         <row>
+                             <cell/>
+                             <cell>
+-                                <persName key="S0002150">Harschers</persName> Kostgeld pro
++                                <persName key="p831">Harschers</persName> Kostgeld pro
+                                     Nov<ex>ember</ex> vorgeschossen mit 10 r<ex>th</ex>
+                                     Cour<ex>ant</ex>
+                             </cell>
+@@ -7683,7 +7683,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> für
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> für
+                                 Gesellschaft <gap quantity="1" unit="chars"/>, Auslagen</cell>
+                             <cell/>
+                             <cell/>
+@@ -7694,7 +7694,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName> 10
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> 10
+                                     r<ex>th</ex> vorgeschlossen</cell>
+                             <cell/>
+                             <cell/>
+@@ -7725,7 +7725,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003675">Lotte</persName> abgeschikt</cell>
++                            <cell>An <persName key="p1913">Lotte</persName> abgeschikt</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -7879,7 +7879,7 @@
+                         </row>
+                         <row>
+                             <cell>30.</cell>
+-                            <cell>An <persName key="S0003677">Jette</persName> auf Abschlag
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName> auf Abschlag
+                                 von Rechnung</cell>
+                             <cell/>
+                             <cell/>
+@@ -7890,7 +7890,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Für <persName key="S0004460">Wolfarth</persName> 10
++                            <cell>Für <persName key="prov_tpc_q12_s5">Wolfarth</persName> 10
+                                     <unclear reason="illegible">St<ex>ück</ex>
+                                 </unclear> F<ex>riedrichs</ex>d'or</cell>
+                             <cell/>
+@@ -7948,7 +7948,7 @@
+                         <row>
+                             <cell/>
+                             <cell>
+-                                <hi rendition="#u">Activa</hi> Von <persName key="S0002150">Harscher</persName>
++                                <hi rendition="#u">Activa</hi> Von <persName key="p831">Harscher</persName>
+                             </cell>
+                             <cell>68</cell>
+                             <cell>15</cell>
+@@ -7981,7 +7981,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Von <persName key="S0003677">Jette</persName>
++                            <cell>Von <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell>16</cell>
+                             <cell/>
+@@ -8036,7 +8036,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0001484">Buttmann</persName>
++                            <cell>An <persName key="p324">Buttmann</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -8047,7 +8047,7 @@
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>An <persName key="S0003677">Jette</persName>
++                            <cell>An <persName key="prov_otg_gy5_wk">Jette</persName>
+                             </cell>
+                             <cell/>
+                             <cell/>
+@@ -8547,7 +8547,7 @@
+                         <row>
+                             <cell>
+                                 <unclear reason="illegible">
+-                                    <persName key="S0003677">Jette</persName>
++                                    <persName key="prov_otg_gy5_wk">Jette</persName>
+                                 </unclear>
+                             </cell>
+                             <cell/>
+@@ -10237,7 +10237,7 @@
+                 </p>
+                 <p rendition="#c">Sonnab<ex>end</ex> d<ex>en</ex> 14t<ex>en</ex> Sept<ex>ember</ex>
+                         v<ex>on</ex>
+-                    <placeName key="S0000065 S0000758 S0000759 S0000760 S0000761 S0000762 S0000763 S0000764">Berlin</placeName> Mittag 2 Uhr ab üb<ex>er</ex>
++                    <placeName key="o151">Berlin</placeName> Mittag 2 Uhr ab üb<ex>er</ex>
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Königswusterhausen<?oxy_custom_end?>
+                     nach
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Storkow<?oxy_custom_end?>.
+@@ -10252,7 +10252,7 @@
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Niesky<?oxy_custom_end?>.
+                     In
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Niesky<?oxy_custom_end?>
+-                    Mittag u<ex>nd</ex> Besuch bei <persName key="S0001068 S0001302 S0001303 S0001304 S0001305 S0001306 S0001310 S0001311 S0001312 S0001313 S0001314 S0003809 S0003812 S0003821 S0003822 S0003823 S0003827 S0003828 S0003829 S0003831 S0003832 S0003833 S0003835 S0003836 S0003837 S0003838 S0003841 S0003844 S0003849 S0003845 S0003850 S0003851 S0003856 S0003858 S0003859 S0003860 S0003861 S0003862 S0003863 S0003864 S0003865 S0003867 S0003868 S0003869 S0003870 S0003871 S0003872 S0003873 S0003874 S0003875 S0003876 S0003877 S0003878 S0003879 S0003880 S0003881 S0003883 S0003885 S0003890 S0003891 S0003892 S0003893 S0003895 S0003897 S0003899 S0003902 S0003903 S0003904 S0003905 S0003906 S0003914 S0003915 S0003916 S0003921 S0003922 S0003923 S0003924 S0003925 S0003926 S0003929 S0003931 S0003932 S0003933 S0003934 S0003935 S0003936 S0003937 S0003938 S0003939 S0003940 S0003942 S0003944 S0003945 S0003946 S0003947 S0003948 S0003949 S0003951 S0003952 S0003953 S0003954 S0003955 S0003956">Albertini</persName>. Von
++                    Mittag u<ex>nd</ex> Besuch bei <persName key="p20">Albertini</persName>. Von
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Niesky<?oxy_custom_end?>
+                     nach
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Görliz<?oxy_custom_end?>
+@@ -10287,7 +10287,7 @@
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Weissig<?oxy_custom_end?>.
+                     Leinwandskauf. Rükfahrt nach Hirschberg Besuch bei
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Körber<?oxy_custom_end?>.
+-                    Brief an <persName key="S0003677">Jette</persName>
++                    Brief an <persName key="prov_otg_gy5_wk">Jette</persName>
+                 </p>
+                 <p rendition="#c">Sonntag d<ex>en</ex> 22t<ex>en</ex> Früh bei <unclear reason="illegible"> Titze</unclear>, bei
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Hausleutn<?oxy_custom_end?>er,
+@@ -10316,15 +10316,15 @@
+                     nach
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Gnadenfrei<?oxy_custom_end?>
+                     Ankunft zu Mittag. Ab<gap quantity="1" unit="chars"/> gegen Abend</p>
+-                <p rendition="#c">Mittwoch früh Um 3 Uhr Ankunft in <placeName key="S0000208">Breslau</placeName> in der Gans.</p>
++                <p rendition="#c">Mittwoch früh Um 3 Uhr Ankunft in <placeName key="prov_syg_prn_kq">Breslau</placeName> in der Gans.</p>
+                 <p rendition="#c">V<ex>er</ex>geb<ex>licher </ex>Besuch bei
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Merkel<?oxy_custom_end?>.
+                     Bei Gass nach <unclear reason="illegible">Schirberg</unclear> Bei
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Schulz<?oxy_custom_end?>
+-                    Mit Gass auf die Regierung und u<ex>nd</ex> zu <persName key="S0002199">Heindorf</persName>. NM aus der Gans geräumt. Besuch bei <persName key="S0004482">Wunster</persName>, Brief an <persName key="S0003677">Jette</persName>. Abends <persName key="S0002199">Heindorf</persName> hier. </p>
+-                <p rendition="#c">Donnerstag. Besuch von <persName key="S0004482">Wunster</persName>, Verabredung wegen Predigt. NM nach Schirberg mit
++                    Mit Gass auf die Regierung und u<ex>nd</ex> zu <persName key="p864">Heindorf</persName>. NM aus der Gans geräumt. Besuch bei <persName key="prov_df2_y14_rw">Wunster</persName>, Brief an <persName key="prov_otg_gy5_wk">Jette</persName>. Abends <persName key="p864">Heindorf</persName> hier. </p>
++                <p rendition="#c">Donnerstag. Besuch von <persName key="prov_df2_y14_rw">Wunster</persName>, Verabredung wegen Predigt. NM nach Schirberg mit
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Wilhelmine<?oxy_custom_end?>.</p>
+-                <p rendition="#c">Freitag bei <persName key="S0002199">Heindorf</persName>, bei <unclear reason="illegible">Mad<ex>ame</ex>
++                <p rendition="#c">Freitag bei <persName key="p864">Heindorf</persName>, bei <unclear reason="illegible">Mad<ex>ame</ex>
+                     </unclear> Adolf bei
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Wenzel<?oxy_custom_end?>
+                     Gesellschaft bei Gass. NM auf der OrganisationsCommission u<ex>nd</ex> dann bei
+@@ -10336,23 +10336,23 @@
+                     <del prev="" rendition="#s">
+                         <gap quantity="1" unit="words"/>
+                     </del> ref<ex>ormirte</ex> Kirche <unclear reason="illegible">Hofräthin</unclear>
+-                    <persName key="S0004482">Wunster</persName> Mittag in <unclear reason="illegible">Scheidniz</unclear>. Thee bei Merkel<ex> </ex>
++                    <persName key="prov_df2_y14_rw">Wunster</persName> Mittag in <unclear reason="illegible">Scheidniz</unclear>. Thee bei Merkel<ex> </ex>
+                 </p>
+-                <p rendition="#c">Sonnt<ex>ag</ex> Predigt. Frühstük bei <persName key="S0004482">Wunster</persName> Besuch bei
++                <p rendition="#c">Sonnt<ex>ag</ex> Predigt. Frühstük bei <persName key="prov_df2_y14_rw">Wunster</persName> Besuch bei
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Müllendorf<?oxy_custom_end?>
+                     Mittag bei
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Adolf
+-                    <?oxy_custom_end?> Abends <persName key="S0002199">Heindorf</persName>. Die
++                    <?oxy_custom_end?> Abends <persName key="p864">Heindorf</persName>. Die
+                     Abreise</p>
+                 <p rendition="#c">Montag nach
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Glaz<?oxy_custom_end?>.
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Blumenstein<?oxy_custom_end?>
+                         u<ex>nd</ex>
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Bardeleben.<?oxy_custom_end?>
+-                    Abends nach <placeName key="S0000357">Gnadenfrei</placeName>
++                    Abends nach <placeName key="o686">Gnadenfrei</placeName>
+                 </p>
+-                <p rendition="#c">Dienstag in <placeName key="S0000357">Gnadenfrei</placeName>
+-                    <persName key="S0003675">Lotte</persName> bis
++                <p rendition="#c">Dienstag in <placeName key="o686">Gnadenfrei</placeName>
++                    <persName key="p1913">Lotte</persName> bis
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Reichenbach<?oxy_custom_end?>
+                     Besuch in
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Neudorf<?oxy_custom_end?>
+@@ -10390,7 +10390,7 @@
+                 <p rendition="#c">Sonnt<ex>ag</ex> früh
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Frankfurt<?oxy_custom_end?>,
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Müncheberg<?oxy_custom_end?>
+-                    Rad, gegen Abend in <placeName key="S0000065 S0000758 S0000759 S0000760 S0000761 S0000762 S0000763 S0000764">Berlin</placeName>
++                    Rad, gegen Abend in <placeName key="o151">Berlin</placeName>
+                 </p>
+                 <p rendition="#c">
+                     <pb n="100v"/>
+@@ -10411,7 +10411,7 @@
+                     <?oxy_custom_start type="oxy_content_highlight" color="255,64,0"?>Blumenstein<?oxy_custom_end?>.
+                     –</p>
+                 <p rendition="#c">
+-                    <persName key="S0001280 S0003541 S0003542 S0003545 S0003548 S0003550 S0003551 S0003552 S0003554 S0003558">Bernhardi</persName>s leztes Programm nebst <unclear reason="illegible">Kirch</unclear>enbuch an <persName key="S0001975">Gaß</persName> zu schikken</p>
++                    <persName key="p182">Bernhardi</persName>s leztes Programm nebst <unclear reason="illegible">Kirch</unclear>enbuch an <persName key="p710">Gaß</persName> zu schikken</p>
+                 <p rendition="#c"> Wissenschaft<ex>liche</ex> Deputation Sessions</p>
+                 <p rendition="#c">
+                     <table rows="27" cols="7">
+diff --git a/schleiermacher/data/Tageskalender/1820.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1820.xml
+index 1dd2624..3e41f6e 100644
+--- a/schleiermacher/data/Tageskalender/1820.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1820.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_ssd_dnk_hm" xml:id="S0009282">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_ssd_dnk_hm">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Tageskalender/1821.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1821.xml
+index cb40fee..852a21c 100644
+--- a/schleiermacher/data/Tageskalender/1821.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1821.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_p1j_wwz_yl" xml:id="S0009096">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_p1j_wwz_yl">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Tageskalender/1822.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1822.xml
+index f7cbb65..d0d0adb 100644
+--- a/schleiermacher/data/Tageskalender/1822.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1822.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_vl1_qhb_xl" xml:id="S0009410">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_vl1_qhb_xl">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Tageskalender/1823.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1823.xml
+index f33ce86..89575a2 100644
+--- a/schleiermacher/data/Tageskalender/1823.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1823.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_xhf_v3j_2n" xml:id="S0009493">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_xhf_v3j_2n">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Tageskalender/1824.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1824.xml
+index 7888608..e88e656 100644
+--- a/schleiermacher/data/Tageskalender/1824.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1824.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_dnl_rfk_tr" xml:id="S0008543">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_dnl_rfk_tr">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Tageskalender/1827.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1827.xml
+index 050bc57..9998f67 100644
+--- a/schleiermacher/data/Tageskalender/1827.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1827.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_tss_kzg_dn" xml:id="S0009322">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_tss_kzg_dn">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+@@ -12229,7 +12229,7 @@
+                                     <orig>Transport . .</orig>
+                                     <note xml:id="nfdm_fbt_lw">
+                                         <metamark/>Die restlichen Eintragungen dieser Tabelle
+-                                        beziehen sich auf das Jahr 1828 (Januar).</note>
++                                        beziehen sich auf das Jahr 1828 (Einnahme Januar).</note>
+                                 </seg>
+                             </cell>
+                             <cell/>
+@@ -12281,7 +12281,8 @@
+                                     <orig>Transport . .</orig>
+                                     <note xml:id="nfdm_fbt_lw">
+                                         <metamark/>Die restlichen Eintragungen dieser Tabelle
+-                                        beziehen sich auf das Jahr 1828 (Januar).</note>
++                                        beziehen sich auf das Jahr 1828 (Ausgabe Januar), vgl.
++                                        dort.</note>
+                                 </seg>
+                             </cell>
+                             <cell/>
+@@ -12297,10 +12298,10 @@
+                     <table rows="11" cols="5">
+                         <head>Einnahme. <seg type="comment">
+                                 <orig>September.</orig>
+-                                <note xml:id="nehr_pdn_3jb">Die ersten Eintragungen beziehen sich
+-                                    auf das Jahr 1828 (Januar), vgl. dort (Anhang).</note>
++                                <note xml:id="nehr_pdn_3jb">Die Eintragungen beziehen sich auf Ende
++                                    Januar 1828, vgl. dort.</note>
+                             </seg>
+-                        </head>
++                  </head>
+                         <row role="label">
+                             <cell>Datum</cell>
+                             <cell/>
+@@ -12393,7 +12394,7 @@
+                                     <orig>Summa . . .</orig>
+                                     <note xml:id="nqrg_4bt_lw">
+                                         <metamark/>Die restlichen Eintragungen dieser Tabelle
+-                                        beziehen sich auf das Jahr 1828 (Februar).</note>
++                                        beziehen sich auf das Jahr 1828 (Februar, vgl. dort.)</note>
+                                 </seg>
+                             </cell>
+                             <cell/>
+@@ -12408,13 +12409,12 @@
+                 <p rendition="#c">
+                     <table rows="11" cols="5">
+                         <head>
+-                            <seg type="comment">
++                     <seg type="comment">
+                                 <orig>Ausgabe. September.</orig>
+-                                <note xml:id="nxbh_bbn_3jb">Die ersten Eintragungen in dieser
+-                                    Tabelle beziehen sich auf das Jahr 1828 (Januar), vgl. dort
+-                                    (Anhang). </note>
++                                <note xml:id="nxbh_bbn_3jb">Die Eintragungen in dieser Tabelle
++                                    beziehen sich auf Ende Januar 1828, vgl. dort. </note>
+                             </seg>
+-                        </head>
++                  </head>
+                         <row role="label">
+                             <cell>Datum</cell>
+                             <cell/>
+@@ -12511,8 +12511,10 @@
+                                     <orig>Summa . . .</orig>
+                                     <note xml:id="ngzg_wbt_lw">
+                                         <metamark/>Die restlichen Eintragungen dieser Tabelle
+-                                        beziehen sich auf das Jahr 1828 (Februar).</note>
+-                                </seg></cell>
++                                        beziehen sich auf das Jahr 1828. (Anfang Februar, vgl.
++                                        dort.)</note>
++                                </seg>
++                            </cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+diff --git a/schleiermacher/data/Tageskalender/1828.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1828.xml
+index b979666..3935f4d 100644
+--- a/schleiermacher/data/Tageskalender/1828.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1828.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_lmj_ldm_ts" xml:id="S0008925">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_lmj_ldm_ts">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+@@ -4222,8 +4222,8 @@ möglicherweise Frances Harriet Kelly (Schauspielerin)?"?>Miss
+ 
+ The British Library, Playbills 326.Lyceum (English opera House), 1827-35. 5 September 1828, ... New Grand Comic Opera, music by Weigl, London, printed for the Proprieto , 1828 (Q: M. Powell, British Pirates in Print and Performance)"?>The
+                             Pirate of
+-                            Genoa<?oxy_comment_end?><ex>.)</ex><?oxy_comment_start author="sschmidt" timestamp="20200207T105735+0100" comment="schließende Klammer?" flag="done"?><?oxy_comment_end?>Mühlenfels
+-                            blieb bei uns.</p>
++                            Genoa<?oxy_comment_end?><?oxy_comment_start author="sschmidt" timestamp="20200207T105735+0100" comment="schließende Klammer?"?>.
++                            <?oxy_comment_end?>Mühlenfels blieb bei uns.</p>
+                     </div>
+                     <div type="rechte_seite"/>
+                 </div>
+@@ -5699,14 +5699,13 @@ Aus Potsdamer Adressbuch (evtl . mit Türk gekommen) kämen allenfalls ein köni
+                 <p rendition="#c">
+                     <?oxy_comment_start author="blumrich" timestamp="20190521T152333+0200" comment="Seitenzahl aus SN 448, denn ab hier hat Schleiermacher einen anderen Kalender benutzt!!!"?><pb n="11"/><?oxy_comment_end?>
+                     <supplied prev="" cert="high">Januar</supplied>
+-                    <table rows="12" cols="6">
++                    <table rows="12" cols="5">
+                         <head>Einnahme</head>
+                         <row role="label">
+                             <cell>
+                                 <supplied prev="" cert="high">Datum</supplied>
+                             </cell>
+                             <cell/>
+-                            <cell/>
+                             <cell>
+                                 <supplied prev="" cert="high">rth</supplied> Ct</cell>
+                             <cell>
+@@ -5717,7 +5716,6 @@ Aus Potsdamer Adressbuch (evtl . mit Türk gekommen) kämen allenfalls ein köni
+                         <row>
+                             <cell/>
+                             <cell>In Cassa</cell>
+-                            <cell/>
+                             <cell>5</cell>
+                             <cell>25</cell>
+                             <cell>10</cell>
+@@ -5727,7 +5725,6 @@ Aus Potsdamer Adressbuch (evtl . mit Türk gekommen) kämen allenfalls ein köni
+                             <cell>H<ex>aupt</ex>Casse d<ex>er</ex> W<ex>issenschaftlichen</ex>
+                                     Anst<ex>alten</ex>
+                             </cell>
+-                            <cell/>
+                             <cell>640</cell>
+                             <cell/>
+                             <cell>100</cell>
+@@ -5748,14 +5745,12 @@ D.h. die Cassa-Einträge für Januar und Anfang Februar1828 sind doppelt vorhand
+                             <cell/>
+                             <cell/>
+                             <cell/>
+-                            <cell/>
+                         </row>
+                         <row>
+                             <cell/>
+                             <cell>Zinsen v<ex>on</ex> Ch<ex>ur</ex>m<ex>ärkischen</ex>
+                                     Oblig<ex>ationen</ex>
+                             </cell>
+-                            <cell/>
+                             <cell>20</cell>
+                             <cell/>
+                             <cell/>
+@@ -5765,7 +5760,6 @@ D.h. die Cassa-Einträge für Januar und Anfang Februar1828 sind doppelt vorhand
+                             <cell>d<ex>it</ex>o v<ex>on</ex>
+                                     St<ex>aats</ex>Sch<ex>uld</ex>Sch<ex>ein</ex>
+                             </cell>
+-                            <cell/>
+                             <cell>14.</cell>
+                             <cell>15.</cell>
+                             <cell/>
+@@ -5773,7 +5767,6 @@ D.h. die Cassa-Einträge für Januar und Anfang Februar1828 sind doppelt vorhand
+                         <row>
+                             <cell>4</cell>
+                             <cell>Predigergehalt</cell>
+-                            <cell/>
+                             <cell>130.</cell>
+                             <cell/>
+                             <cell/>
+@@ -5781,7 +5774,6 @@ D.h. die Cassa-Einträge für Januar und Anfang Februar1828 sind doppelt vorhand
+                         <row>
+                             <cell>5</cell>
+                             <cell>Akadem<ex>ische</ex> Schreibmat<ex>erialien</ex> in duplo</cell>
+-                            <cell/>
+                             <cell>20.</cell>
+                             <cell/>
+                             <cell/>
+@@ -5790,15 +5782,13 @@ D.h. die Cassa-Einträge für Januar und Anfang Februar1828 sind doppelt vorhand
+                             <cell/>
+                             <cell>Zinsen v<ex>on</ex> StaatsSchu<ex>ld</ex>Sch<ex>ein</ex>
+                             </cell>
+-                            <cell/>
+                             <cell>58.</cell>
+                             <cell/>
+                             <cell/>
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>LiederCasse</cell>
+-                            <cell>2.15.</cell>
++                            <cell>LiederCasse<space dim="horizontal"/>2.15.</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -5808,14 +5798,12 @@ D.h. die Cassa-Einträge für Januar und Anfang Februar1828 sind doppelt vorhand
+                             <cell>Honorar</cell>
+                             <cell/>
+                             <cell/>
+-                            <cell/>
+                             <cell>10.</cell>
+                         </row>
+                         <row>
+                             <cell>11.</cell>
+                             <cell>Zinsen v<ex>on</ex> Berl<ex>iner</ex> StadtOblig<ex>ationen</ex>
+                             </cell>
+-                            <cell/>
+                             <cell>7.</cell>
+                             <cell>15.</cell>
+                             <cell/>
+@@ -5825,13 +5813,11 @@ D.h. die Cassa-Einträge für Januar und Anfang Februar1828 sind doppelt vorhand
+                             <cell>Honorar</cell>
+                             <cell/>
+                             <cell/>
+-                            <cell/>
+                             <cell>25.</cell>
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>Liederkasse</cell>
+-                            <cell>9.</cell>
++                            <cell>Liederkasse<space dim="horizontal"/>9.</cell>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -5849,12 +5835,10 @@ D.h. die Cassa-Einträge für Januar und Anfang Februar1828 sind doppelt vorhand
+                             <cell/>
+                             <cell/>
+                             <cell/>
+-                            <cell/>
+                         </row>
+                         <row>
+                             <cell>31</cell>
+                             <cell>Accidenzien pro Jan<ex>uar</ex></cell>
+-                            <cell/>
+                             <cell>36.</cell>
+                             <cell>20.</cell>
+                             <cell/>
+@@ -5865,7 +5849,6 @@ D.h. die Cassa-Einträge für Januar und Anfang Februar1828 sind doppelt vorhand
+                             <cell>1.</cell>
+                             <cell/>
+                             <cell/>
+-                            <cell/>
+                         </row>
+                         <row>
+                             <cell/>
+@@ -5873,95 +5856,24 @@ D.h. die Cassa-Einträge für Januar und Anfang Februar1828 sind doppelt vorhand
+                             <cell/>
+                             <cell/>
+                             <cell/>
+-                            <cell/>
+                         </row>
+                         <row>
+-                            <cell/>
+-                            <cell/>
+-                            <cell><subst>
+-                                    <del rendition="#ow">1</del>
+-                                    <add place="across">2</add>
+-                                </subst>.15</cell>
+-                            <cell>932</cell>
+-                            <cell>15.</cell>
+-                            <cell>145</cell>
+-                        </row>
+-                        <row>
+-                            <cell/>
+-                            <cell/>
+-                            <cell/>
+-                            <cell>12.</cell>
+-                            <cell>15</cell>
+-                            <cell/>
+-                        </row>
+-                        <row>
+-                            <cell/>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+                         </row>
+-                        <row>
+-                            <cell/>
+-                            <cell>Verwechselt</cell>
+-                            <cell/>
+-                            <cell>945</cell>
+-                            <cell/>
+-                            <cell>145.</cell>
+-                        </row>
+-                        <row>
+-                            <cell/>
+-                            <cell/>
+-                            <cell/>
+-                            <cell>22.</cell>
+-                            <cell>20.</cell>
+-                            <cell>20</cell>
+-                        </row>
+-                        <row>
+-                            <cell/>
+-                            <cell/>
+-                            <cell/>
+-                            <cell/>
+-                            <cell/>
+-                            <cell/>
+-                        </row>
+-                        <row>
+-                            <cell/>
+-                            <cell>S<ex>umm</ex>a</cell>
+-                            <cell/>
+-                            <cell>967.</cell>
+-                            <cell>20</cell>
+-                            <cell>125</cell>
+-                        </row>
+-                        <row>
+-                            <cell/>
+-                            <cell>ab</cell>
+-                            <cell/>
+-                            <cell>938</cell>
+-                            <cell>17 1/2</cell>
+-                            <cell>92 1/2</cell>
+-                        </row>
+                         <row>
+                             <cell/>
+                             <?oxy_comment_start author="gerber" timestamp="20200206T103828+0100" comment="hier fehlt was:
+ LiederCasse 1.
+ 5. 932. 15. 145.
+-usw." flag="done" id="d4l_jwd_rkb"?>
+-                            <?oxy_comment_start author="blumrich" timestamp="20200210T123638+0100" comment="Danke!" parentID="d4l_jwd_rkb" flag="done" mid="128"?>
+-                            <cell/>
+-                            <cell/>
+-                            <cell/>
+-                            <cell/>
+-                            <cell/><?oxy_comment_end?><?oxy_comment_end mid="128"?>
+-                        </row>
+-                        <row>
+-                            <cell/>
+-                            <cell>In Cassa</cell>
+-                            <cell/>
+-                            <cell>29.</cell>
+-                            <cell>2 1/2</cell>
+-                            <cell>38 1/2</cell>
++usw."?>
++                            <cell>12.15</cell>
++                            <cell>895</cell>
++                            <cell>25.</cell>
++                            <cell>145</cell><?oxy_comment_end?>
+                         </row>
+                     </table>
+                 </p>
+@@ -6383,15 +6295,15 @@ usw." flag="done" id="d4l_jwd_rkb"?>
+                             <cell>15</cell>
+                             <cell/>
+                         </row>
+-                        <?oxy_comment_start author="gerber" timestamp="20200206T104526+0100" comment="wo steht das?" id="yxp_ndb_qkb" flag="done"?>
+-                        <?oxy_comment_start author="blumrich" timestamp="20200206T134830+0100" comment="Direkt dort!" parentID="yxp_ndb_qkb" flag="done" mid="137"?>
++                        <?oxy_comment_start author="gerber" timestamp="20200206T104526+0100" comment="wo steht das?" id="yxp_ndb_qkb"?>
++                        <?oxy_comment_start author="blumrich" timestamp="20200206T134830+0100" comment="Direkt dort!" parentID="yxp_ndb_qkb" mid="128"?>
+                         <row>
+                             <cell>Zum Merz</cell>
+                             <cell/>
+                             <cell>8.</cell>
+                             <cell/>
+                             <cell/>
+-                        </row><?oxy_comment_end?><?oxy_comment_end mid="137"?>
++                        </row><?oxy_comment_end?><?oxy_comment_end mid="128"?>
+                         <row>
+                             <cell>May</cell>
+                             <cell/>
+@@ -6943,7 +6855,8 @@ usw." flag="done" id="d4l_jwd_rkb"?>
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>S<ex>umm</ex>a </cell>
++                            <cell>S<hi rendition="#u"><ex>umm</ex>a</hi>
++                            </cell>
+                             <cell/>
+                             <cell>334</cell>
+                             <cell>27 1/2</cell>
+@@ -7326,8 +7239,7 @@ usw." flag="done" id="d4l_jwd_rkb"?>
+                <pb n="19"/>
+                 </p>
+                 <p>
+-                    <supplied prev="15" cert="high">Dienstag, 26.2.</supplied><space unit="em" quantity="1"/>Klassensizung. <space unit="em" quantity="1"/>Taufe bei
+-                    Scheel</p>
++               <supplied prev="15" cert="high">26.</supplied> Klassensizung. <space unit="em" quantity="1"/>Taufe bei Scheel</p>
+                 <p>
+                <pb n="23"/>
+             </p>
+@@ -8012,17 +7924,16 @@ usw." flag="done" id="d4l_jwd_rkb"?>
+                <pb n="25"/>
+             </p>
+                 <p rendition="#c">
+-                    <supplied prev="" cert="high">Montag,17.3.</supplied><space unit="em" quantity="1"/>An Carl, An Redtelin</p>
++               <supplied prev="" cert="high">17.</supplied> An Carl, An
++                    Redtelin</p>
+                 <p rendition="#c"><?oxy_comment_start author="blumrich" timestamp="20190604T100915+0200" comment="TELOTA: Hier beginnt der Monat April!"?>
+                <pb n="28"/>
+                <?oxy_comment_end?>
+             </p>
+                 <p rendition="#c">
+-                    <supplied prev="" cert="high">Sonntag,13.4.</supplied><space unit="em" quantity="1"/><seg type="critical">
+-                        <orig>NB Ausschuß <ex>der</ex> SingAkad<ex>emie</ex></orig>
+-                        <note xml:id="npgq_1ll_rkb">links neben dem gedruckten Datum</note>
+-                    </seg>
+-                </p>
++               <supplied prev="" cert="high">13.</supplied> NB Ausschuß
++                        <ex>der</ex> SingAkad<ex>emie</ex>
++            </p>
+                 <p rendition="#c">
+                <pb n="29"/>
+             </p>
+@@ -8841,8 +8752,7 @@ usw." flag="done" id="d4l_jwd_rkb"?>
+                         </row>
+                     </table>
+                <table rows="6" cols="1">
+-                        <head><supplied prev="" cert="high">Nebenrechnung</supplied>
+-                        </head>
++                        <head>Nebenrechnung</head>
+                         <row role="label">
+                             <cell/>
+                         </row>
+@@ -9176,17 +9086,17 @@ usw." flag="done" id="d4l_jwd_rkb"?>
+             </p>
+                 <p rendition="#c"> </p>
+                 <p>
+-                    <supplied prev="20." cert="high">Korrespondenzliste</supplied>
+-                    <lb/>
+-                    <lb/>
+-                    <supplied prev="Korrespondenzliste" cert="high">11.4.</supplied><space unit="em" quantity="1"/>An Nanny, An Brandis, An Sack</p>
++               <supplied prev="20." cert="high">Korrespondenzliste</supplied>
++               <lb/>
++               <supplied prev="Korrespondenzliste" cert="high">11.</supplied> An Nanny, An Brandis, An Sack</p>
+                 <p rendition="#c">
+-                    <supplied prev="Sack" cert="high">12.4.</supplied><space unit="em" quantity="1"/><del rendition="#s" prev="12.">An Karl</del>
+-                </p>
++               <supplied prev="Sack" cert="high">12.</supplied>
++                    <del rendition="#s" prev="12.">An Karl</del>
++            </p>
+                 <p rendition="#c">
+-                    <supplied prev="Karl" cert="high">15.4.</supplied><space unit="em" quantity="1"/>An Karl</p>
++               <supplied prev="Karl" cert="high">15.</supplied> An Karl</p>
+                 <p rendition="#c">
+-                    <supplied prev="15." cert="high">21.4.</supplied><space unit="em" quantity="1"/>An Redtelin</p>
++               <supplied prev="15." cert="high">21.</supplied> An Redtelin</p>
+                 <p rendition="#c">
+                <pb n="35"/>
+             </p>
+@@ -9817,7 +9727,7 @@ Es gibt eine Chambregarnie-Vermieterin Luckow, geb. Kornacker, Hausvogteiplatz 1
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell><?oxy_comment_start author="gerber" timestamp="20200206T112504+0100" comment="ich würde hier und in den andern Fällen die Unterstreichung tilgen (es geht ja bloß um das hochgestellte a) oder sonst wenigstens das ganze Wort unterstreichen, aber nicht ausgerechnet die Buchstaben, die gar nicht dastehen." flag="done"?>S<ex>umm</ex>a<?oxy_comment_end?></cell>
++                            <cell><?oxy_comment_start author="gerber" timestamp="20200206T112504+0100" comment="ich würde hier und in den andern Fällen die Unterstreichung tilgen (es geht ja bloß um das hochgestellte a) oder sonst wenigstens das ganze Wort unterstreichen, aber nicht ausgerechnet die Buchstaben, die gar nicht dastehen."?>S<ex>umm</ex>a<?oxy_comment_end?></cell>
+                             <cell>755</cell>
+                             <cell>25</cell>
+                             <cell>20</cell>
+@@ -9870,25 +9780,22 @@ Es gibt eine Chambregarnie-Vermieterin Luckow, geb. Kornacker, Hausvogteiplatz 1
+                <pb n="40"/>
+             </p>
+                 <p>
+-                    <supplied prev="495" cert="high">Donnerstag, 5.5.</supplied><space unit="em" quantity="1"/>Term<ex>in</ex>
+-                </p>
++               <supplied prev="495" cert="high">5.</supplied> Term<ex>in</ex>
++            </p>
+                 <p>
+-                    <supplied prev="Termin" cert="high">Dienstag,10.5.</supplied><space unit="em" quantity="1"/>Trauung</p>
++               <supplied prev="Termin" cert="high">10.</supplied> Trauung</p>
+                 <p>
+-                    <supplied prev="Trauung" cert="high">Donnerstag,12.5.</supplied><space unit="em" quantity="1"/>Pischon</p>
++               <supplied prev="Trauung" cert="high">12.</supplied> Pischon</p>
+                 <p>
+-                    <supplied prev="Pischon" cert="high">Sonntag,15.5.</supplied><space unit="em" quantity="1"/>103.<supplied prev="15." cert="high">rth</supplied> 8
+-                        S<ex>gr</ex>
+-                </p>
++               <supplied prev="Pischon" cert="high">15.</supplied> 103.<supplied prev="15." cert="high">rth</supplied> 8 S<ex>gr</ex>
++            </p>
+                 <p>
+-                    <supplied prev="Sgr" cert="high">Donnerstag,19.5.</supplied><space unit="em" quantity="1"/>Termin</p>
++               <supplied prev="Sgr" cert="high">19.</supplied> Termin</p>
+                 <p>
+-                    <supplied prev="Termin" cert="high">Freitag, 20.5.</supplied><space unit="em" quantity="1"/>56.<supplied prev="56." cert="high">rth</supplied> 22 1/2
+-                        <supplied prev="22 1/2" cert="high">Sgr</supplied>
++               <supplied prev="Termin" cert="high">20.</supplied> 56.<supplied prev="56." cert="high">rth</supplied> 22 1/2 <supplied prev="22 1/2" cert="high">Sgr</supplied>
+                 </p>
+                 <p>
+-                    <supplied prev="Sgr" cert="high">Sonnabend, 21.5.</supplied><space unit="em" quantity="1"/>51.<supplied prev="21." cert="high">rth</supplied> 19
+-                        <supplied prev="19" cert="high">Sgr</supplied>
++               <supplied prev="Sgr" cert="high">21.</supplied> 51.<supplied prev="21." cert="high">rth</supplied> 19 <supplied prev="19" cert="high">Sgr</supplied>
+                 </p>
+                 <p>
+                <pb n="41"/>
+@@ -10104,7 +10011,9 @@ Es gibt eine Chambregarnie-Vermieterin Luckow, geb. Kornacker, Hausvogteiplatz 1
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>S<ex>umm</ex>a</cell>
++                            <cell>S<hi rendition="#u">
++                           <ex>umm</ex>
++                        </hi>a</cell>
+                             <cell/>
+                             <cell>1<subst>
+                                     <del rendition="#s">7</del>
+@@ -10202,8 +10111,8 @@ Es gibt eine Chambregarnie-Vermieterin Luckow, geb. Kornacker, Hausvogteiplatz 1
+                         <row>
+                             <cell>3.</cell>
+                             <cell>Leinwand an Metzner</cell>
+-                            <?oxy_comment_start author="sschmidt" timestamp="20200207T143924+0100" comment="nicht eher 11?" flag="done"?>
+-                            <cell>11.</cell><?oxy_comment_end?>
++                            <?oxy_comment_start author="sschmidt" timestamp="20200207T143924+0100" comment="nicht eher 11?"?>
++                            <cell>1.</cell><?oxy_comment_end?>
+                             <cell/>
+                             <cell/>
+                         </row>
+@@ -10477,24 +10386,25 @@ Es gibt eine Chambregarnie-Vermieterin Luckow, geb. Kornacker, Hausvogteiplatz 1
+             </p>
+                 <pb n="43"/>
+                 <lb/>
+-                <p><?oxy_comment_start author="sschmidt" timestamp="20200207T144530+0100" comment="Um diese zahlen schneller zuordnen zu können, könnte man ev. in eckige Klammern noch den Wochentag und den Monat dazu schreiben " flag="done"?>
+-                    <supplied prev="" cert="high">Freitag, 6.6.</supplied><?oxy_comment_end?><space unit="em" quantity="1"/>Engehöller abgezogen hielt 198 Flaschen.</p>
++                <p><?oxy_comment_start author="sschmidt" timestamp="20200207T144530+0100" comment="Um diese zahlen schneller zuordnen zu können, könnte man ev. in eckige Klammern noch den Wochentag und den Monat dazu schreiben "?>
++                    <supplied prev="" cert="high">6.</supplied><?oxy_comment_end?>Engehöller
++                    abgezogen hielt 198 Flaschen.</p>
+                 <p>
+-                    <supplied prev="" cert="high">Donnerstag, 26.6.</supplied><space unit="em" quantity="1"/>Sühneversuch m<ex>it</ex>
++               <supplied prev="" cert="high">26.</supplied> Sühneversuch m<ex>it</ex>
+                     <?oxy_comment_start author="blumrich" timestamp="20190606T163349+0200" comment="Im Berliner Adressbuch nichts gefunden, auch nicht mit -aa."?>Hasenritter<?oxy_comment_end?></p>
+                 <p><?oxy_comment_start author="blumrich" timestamp="20190606T160259+0200" comment="TELOTA: Hier beginnt der Juli!"?>
+-                    <pb n="46"/><?oxy_comment_end?>
++               <pb n="46"/>
++               <?oxy_comment_end?>
+                     <lb/>
+                     <lb/>
+-                    <supplied prev="" cert="high">Donnerstag, 3.7.</supplied><space unit="em" quantity="1"/><seg type="critical">
+-                        <orig>Termin</orig>
+-                        <note xml:id="nqlc_jml_rkb">links neben dem gedruckten Datum</note>
+-                    </seg></p>
++               <supplied prev="" cert="high">3.</supplied> Termin</p>
+                 <p>
+                <pb n="47"/>
+             </p>
+                 <p>
+-                    <supplied prev="" cert="high">Juli</supplied>
++               <supplied prev="" cert="high">Juli</supplied>
++            </p>
++                <p rendition="#c">
+                     <lb/>
+                     <table rows="30" cols="5">
+                         <head>
+@@ -10709,7 +10619,7 @@ v. Block, C. H., Generalmajor  und Kommandeur der 1. Garde Landwehr Brigade, Wil
+                         </row>
+                         <row>
+                             <cell/>
+-                            <?oxy_comment_start author="sschmidt" timestamp="20200207T145203+0100" comment="Vielleicht könnte man das Gekrikel, was hier noch am Rand steht in Form einer freien textanmerkung aufnehmen, nicht transkribiert, sondern nur dass er hier gerechnet hat" flag="done"?>
++                            <?oxy_comment_start author="sschmidt" timestamp="20200207T145203+0100" comment="Vielleicht könnte man das Gekrikel, was hier noch am Rand steht in Form einer freien textanmerkung aufnehmen, nicht transkribiert, sondern nur dass er hier gerechnet hat"?>
+                             <cell>Wechsel</cell><?oxy_comment_end?>
+                             <cell>602</cell>
+                             <cell>12 1/2</cell>
+@@ -10717,32 +10627,7 @@ v. Block, C. H., Generalmajor  und Kommandeur der 1. Garde Landwehr Brigade, Wil
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>
+-                                <table rows="5" cols="2">
+-                                    <head><supplied prev="" cert="high">Nebenrechnung 1</supplied>
+-                                    </head>
+-                                    <row role="label">
+-                                        <cell>72 <del rendition="#s" prev="">1/2<add place="intralinear">,</add></del></cell>
+-                                        <cell>5</cell>
+-                                    </row>
+-                                    <row>
+-                                        <cell>7</cell>
+-                                        <cell>2,5</cell>
+-                                    </row>
+-                                    <row>
+-                                        <cell>2,</cell>
+-                                        <cell>4</cell>
+-                                    </row>
+-                                    <row>
+-                                        <cell/>
+-                                        <cell/>
+-                                    </row>
+-                                    <row>
+-                                        <cell>82,</cell>
+-                                        <cell/>
+-                                    </row>
+-                                </table>
+-                            </cell>
++                            <cell/>
+                             <cell/>
+                             <cell/>
+                             <cell/>
+@@ -10776,9 +10661,39 @@ v. Block, C. H., Generalmajor  und Kommandeur der 1. Garde Landwehr Brigade, Wil
+                             <cell>32 1/2</cell>
+                         </row>
+                     </table>
+-                    <table rows="4" cols="3">
+-                        <head><supplied prev="" cert="high">Nebenrechnung 2</supplied>
++                    <table rows="5" cols="2">
++                        <head>
++                            <supplied prev="" cert="high">Nebenrechnung</supplied>
+                         </head>
++                        <row role="label">
++                            <cell/>
++                            <cell/>
++                        </row>
++                        <row>
++                            <cell>72 <del rendition="#s" prev="">1/2<add place="intralinear">,</add></del></cell>
++                            <cell>5</cell>
++                        </row>
++                        <row>
++                            <cell>7</cell>
++                            <cell>2,5</cell>
++                        </row>
++                        <row>
++                            <cell>2,</cell>
++                            <cell>4</cell>
++                        </row>
++                        <row>
++                            <cell/>
++                            <cell/>
++                        </row>
++                        <?oxy_comment_start author="sschmidt" timestamp="20200207T145347+0100" comment="Vielleicht könnte man mit einer freien textanmerkung hier noch vermerken, wo diese Nebenrechnung auf dem Blatt platziert ist?"?>
++                        <row>
++                            <cell>82,</cell>
++                            <cell/>
++                        </row><?oxy_comment_end?>
++                    </table>
++                    <supplied prev="" cert="high"/>
++                    <table rows="4" cols="3">
++                        <head>Nebenrechnung</head>
+                         <row role="label">
+                             <cell/>
+                             <cell/>
+@@ -10907,7 +10822,7 @@ v. Block, C. H., Generalmajor  und Kommandeur der 1. Garde Landwehr Brigade, Wil
+                         <row>
+                             <cell>4</cell>
+                             <cell>Glaserrechnung</cell>
+-                            <cell>2<?oxy_comment_start author="sschmidt" timestamp="20200207T151032+0100" comment="2?" flag="done"?>.<?oxy_comment_end?></cell>
++                            <cell><?oxy_comment_start author="sschmidt" timestamp="20200207T151032+0100" comment="2?"?>3.<?oxy_comment_end?></cell>
+                             <cell/>
+                             <cell/>
+                         </row>
+@@ -11061,8 +10976,9 @@ v. Block, C. H., Generalmajor  und Kommandeur der 1. Garde Landwehr Brigade, Wil
+                         </row>
+                         <row>
+                             <cell>19</cell>
+-                            <cell><?oxy_comment_start author="sschmidt" timestamp="20200207T150250+0100" comment="Manir? Es gibt das Wort Maßmanir in Zusammenhang mit Gold..." flag="done"?>M<?oxy_comment_end?><gap reason="illegible" unit="chars" quantity="4"/> an <unclear reason="illegible" cert="high">einer</unclear>
+-                                <gap reason="illegible" unit="chars" quantity="5"/> Gold</cell>
++                            <cell><?oxy_comment_start author="sschmidt" timestamp="20200207T150250+0100" comment="Manir? Es gibt das Wort Maßmanir in Zusammenhang mit Gold..."?>M<?oxy_comment_end?><gap reason="illegible" unit="chars" quantity="4"/> an <unclear reason="illegible" cert="high">eine<?oxy_comment_start author="sschmidt" timestamp="20200207T145800+0100" comment="sieht eher wie r aus"?>m<?oxy_comment_end?></unclear>
++                                <unclear reason="illegible" cert="high">Duka<ex>ten</ex>
++                                </unclear> Gold</cell>
+                             <cell/>
+                             <cell>15.</cell>
+                             <cell/>
+@@ -11157,16 +11073,18 @@ v. Block, C. H., Generalmajor  und Kommandeur der 1. Garde Landwehr Brigade, Wil
+                             <cell>907</cell>
+                             <cell>21/2</cell>
+                             <cell>10.</cell>
++                            <cell/>
+                         </row>
+                     </table>
+                     <p>
+                         <pb n="49"/>
+                     </p>
+-                    <p><?oxy_comment_start author="sschmidt" timestamp="20200207T151059+0100" comment="s.o." flag="done"?>
+-                        <supplied prev="" cert="high">Mittwoch,16.7.</supplied><?oxy_comment_end?><space unit="em" quantity="1"/>An Blanc durch Caroline </p>
++                    <p><?oxy_comment_start author="sschmidt" timestamp="20200207T151059+0100" comment="s.o."?>
++                        <supplied prev="" cert="high">16.</supplied><?oxy_comment_end?>An Blanc
++                        durch Caroline </p>
+                 </p>
+                 <p>
+-                    <supplied prev="" cert="high">Freitag, 25.7.</supplied><space unit="em" quantity="1"/>An Arndt durch Friesen</p>
++               <supplied prev="" cert="high">25.</supplied> An Arndt durch Friesen</p>
+                 <p rendition="#c">
+                     <p>
+                   <pb n="53"/>
+@@ -11311,8 +11229,6 @@ v. Block, C. H., Generalmajor  und Kommandeur der 1. Garde Landwehr Brigade, Wil
+                                 <cell/>
+                                 <cell>
+                                     <table rows="3" cols="4">
+-                                        <head><supplied prev="" cert="high">Nebenrechnung</supplied></head>
+-                                        
+                                         <row>
+                                             <cell>82.</cell>
+                                             <cell>5</cell>
+@@ -11335,7 +11251,7 @@ v. Block, C. H., Generalmajor  und Kommandeur der 1. Garde Landwehr Brigade, Wil
+                                             <cell>130.</cell>
+                                             <cell>10</cell>
+                                             <cell/>
+-                                            <cell>5</cell>
++                                            <cell>9</cell>
+                                         </row>
+                                     </table>
+                                 </cell>
+@@ -11410,14 +11326,6 @@ v. Block, C. H., Generalmajor  und Kommandeur der 1. Garde Landwehr Brigade, Wil
+                     </p>
+             </p>
+                 <table rows="3" cols="2">
+-                    <head><seg type="comment">
+-                            <orig><supplied prev="" cert="high">Rechnungsnotiz</supplied>
+-                            </orig>
+-                            <note xml:id="nenp_srm_rkb">mit Summenstrich. Das nicht notierte
+-                                Ergebnis ist möglicherweise 42 1/2 (gerundet), vgl. oben
+-                                Nebenrechnung. </note>
+-                        </seg></head>
+-                    <row role="label"/>
+                     <row>
+                         <cell>42.</cell>
+                         <cell>5</cell>
+@@ -11426,7 +11334,7 @@ v. Block, C. H., Generalmajor  und Kommandeur der 1. Garde Landwehr Brigade, Wil
+                         <cell>4</cell>
+                         <cell>25</cell>
+                     </row>
+-                    <?oxy_comment_start author="sschmidt" timestamp="20200207T151453+0100" comment="weitere oben trug das die interne Überschrift Nebenrechnung. Auch hier eine freie Teytanmerkung, um ihr  den Platz zuzusweisen?" flag="done"?>
++                    <?oxy_comment_start author="sschmidt" timestamp="20200207T151453+0100" comment="weitere oben trug das die interne Überschrift Nebenrechnung. Auch hier eine freie Teytanmerkung, um ihr  den Platz zuzusweisen?"?>
+                     <row>
+                         <cell>1.</cell>
+                         <cell>4</cell>
+@@ -11531,8 +11439,8 @@ v. Block, C. H., Generalmajor  und Kommandeur der 1. Garde Landwehr Brigade, Wil
+                             <cell/>
+                         </row>
+                         <row>
+-                            <?oxy_comment_start author="sschmidt" timestamp="20200207T151830+0100" comment="Hier steht noch ein Wort, ich kann es aber nicht entziffern - sieht irgendwie aus wie Jahrbücher, ist es aber nicht..." flag="done"?>
+-                            <cell><unclear reason="illegible" cert="high">Zahnpulfer</unclear></cell><?oxy_comment_end?>
++                            <?oxy_comment_start author="sschmidt" timestamp="20200207T151830+0100" comment="Hier steht noch ein Wort, ich kann es aber nicht entziffern - sieht irgendwie aus wie Jahrbücher, ist es aber nicht..."?>
++                            <cell/><?oxy_comment_end?>
+                             <cell>1.</cell>
+                             <cell>5.</cell>
+                             <cell/>
+@@ -11705,11 +11613,10 @@ v. Block, C. H., Generalmajor  und Kommandeur der 1. Garde Landwehr Brigade, Wil
+                         <row>
+                             <cell/>
+                             <cell/>
+-                            <cell><?oxy_comment_start author="sschmidt" timestamp="20200207T152251+0100" comment="was hat es hiermit auf sich?" flag="done"?>
++                            <cell><?oxy_comment_start author="sschmidt" timestamp="20200207T152251+0100" comment="was hat es hiermit auf sich?"?>
+                                 <seg type="critical">
+                                     <orig>5</orig>
+-                                    <note xml:id="ndkx_4yx_c3b">5 rth = Summe der
+-                                        Silbergroschen;</note>
++                                    <note xml:id="ndkx_4yx_c3b">kleine Zwischenrechnungszahl</note>
+                                 </seg><?oxy_comment_end?></cell>
+                             <cell/>
+                             <cell/>
+@@ -11737,7 +11644,9 @@ v. Block, C. H., Generalmajor  und Kommandeur der 1. Garde Landwehr Brigade, Wil
+                         </row>
+                         <row>
+                             <cell/>
+-                            <cell>S<ex>umm</ex>a </cell>
++                            <cell>S<hi rendition="#u">
++                           <ex>umm</ex>a</hi>
++                     </cell>
+                             <cell>676.</cell>
+                             <cell>7 1/2</cell>
+                             <cell>10</cell>
+diff --git a/schleiermacher/data/Tageskalender/1829.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1829.xml
+index 8896ff6..d3535d3 100644
+--- a/schleiermacher/data/Tageskalender/1829.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1829.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_lmj_ldm_tx" xml:id="S0008926">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_lmj_ldm_tx">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Tageskalender/1830.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1830.xml
+index 5a748b9..cc359ce 100644
+--- a/schleiermacher/data/Tageskalender/1830.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1830.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_lrd_jh1_ws" xml:id="S0008935">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_lrd_jh1_ws">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Tageskalender/1831.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1831.xml
+index bb048cf..b9eec29 100644
+--- a/schleiermacher/data/Tageskalender/1831.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1831.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_yzk_g4f_1y" xml:id="S0009557">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_yzk_g4f_1y">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Tageskalender/1832.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1832.xml
+index c3bf16d..eb8ec5a 100644
+--- a/schleiermacher/data/Tageskalender/1832.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1832.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_py1_ykg_fy" xml:id="S0009142">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_py1_ykg_fy">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Tageskalender/1833.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1833.xml
+index 2d7e9da..10fd8a6 100644
+--- a/schleiermacher/data/Tageskalender/1833.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1833.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_nx2_vxk_q5" xml:id="S0009038">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_nx2_vxk_q5">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Tageskalender/1834.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1834.xml
+index a3b0563..476792d 100644
+--- a/schleiermacher/data/Tageskalender/1834.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/1834.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" oldID="prov_jsl_5xv_1z" xml:id="S0008839">
++<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="diary fs" xml:id="prov_jsl_5xv_1z">
+     <teiHeader>
+         <fileDesc>
+             <titleStmt>
+diff --git a/schleiermacher/data/Tageskalender/__contents__.xml b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/__contents__.xml
+index a0fa511..093563a 100644
+--- a/schleiermacher/data/Tageskalender/__contents__.xml
++++ b/home/gordon/backup182/db/projects/schleiermacher/data/Tageskalender/__contents__.xml
+@@ -1,66 +1,66 @@
+-<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/schleiermacher/data/Tageskalender" version="1" owner="admin" group="schleiermacher-nutzer" mode="770" created="2020-02-10T17:48:45.16+01:00">
++<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/schleiermacher/data/Tageskalender" version="1" owner="admin" group="schleiermacher-nutzer" mode="774" created="2020-02-10T17:48:45.16+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1809.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:57.801+01:00" modified="2020-02-10T17:48:57.801+01:00" filename="1809.xml" mimetype="application/xml">
++    <resource type="BinaryResource" name="1828.xml.bak" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:39.353+01:00" modified="2020-02-17T16:55:48.593+01:00" filename="1828.xml.bak" mimetype="application/octet-stream">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1820.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:49:02.216+01:00" modified="2020-02-10T17:49:02.216+01:00" filename="1820.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1809.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:35.86+01:00" modified="2020-01-28T15:01:35.86+01:00" filename="1809.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1833.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:45.757+01:00" modified="2020-02-10T17:48:45.757+01:00" filename="1833.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1820.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:36.496+01:00" modified="2020-01-28T15:01:36.496+01:00" filename="1820.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1828.xml.bak" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:51.094+01:00" modified="2020-02-10T17:48:51.094+01:00" filename="1828.xml.bak" mimetype="application/octet-stream">
++    <resource type="XMLResource" name="1833.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:40.591+01:00" modified="2020-01-28T15:01:40.591+01:00" filename="1833.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1824.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:57.265+01:00" modified="2020-02-10T17:48:57.265+01:00" filename="1824.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1824.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:37.815+01:00" modified="2020-02-05T16:44:50.371+01:00" filename="1824.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1827.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:49:01.091+01:00" modified="2020-02-10T17:49:01.091+01:00" filename="1827.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1827.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:38.662+01:00" modified="2020-02-09T20:22:25.344+01:00" filename="1827.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1832.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:56.753+01:00" modified="2020-02-10T17:48:56.753+01:00" filename="1832.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1834.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:40.948+01:00" modified="2020-01-28T15:01:40.948+01:00" filename="1834.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1825.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:56.118+01:00" modified="2020-02-12T12:57:45.942+01:00" filename="1825.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1832.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:40.15+01:00" modified="2020-01-28T15:01:40.15+01:00" filename="1832.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1829.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:49:02.703+01:00" modified="2020-02-10T17:49:02.703+01:00" filename="1829.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1825.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:56.118+01:00" modified="2020-02-12T12:57:45.942+01:00" filename="1825.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1823.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:46.312+01:00" modified="2020-02-10T17:48:46.312+01:00" filename="1823.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1829.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:39.424+01:00" modified="2020-01-28T15:01:39.424+01:00" filename="1829.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1822.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:51.894+01:00" modified="2020-02-10T17:48:51.894+01:00" filename="1822.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1823.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:37.482+01:00" modified="2020-02-07T15:21:49.655+01:00" filename="1823.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1831.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:55.548+01:00" modified="2020-02-10T17:48:55.548+01:00" filename="1831.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1822.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:37.151+01:00" modified="2020-01-31T12:37:24.639+01:00" filename="1822.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1834.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:51.647+01:00" modified="2020-02-10T17:48:51.647+01:00" filename="1834.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1831.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:39.896+01:00" modified="2020-02-07T17:09:29.375+01:00" filename="1831.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1833.doc" skip="no" owner="admin" group="dba" mode="644" created="2020-02-10T17:48:57.645+01:00" modified="2020-02-10T17:48:57.645+01:00" filename="1833.doc" mimetype="application/msword">
++    <resource type="BinaryResource" name="1833.doc" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:40.373+01:00" modified="2020-02-17T16:55:41.458+01:00" filename="1833.doc" mimetype="application/msword">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1828.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:52.329+01:00" modified="2020-02-12T11:29:49.565+01:00" filename="1828.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1828.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:39.01+01:00" modified="2020-02-09T18:04:41.205+01:00" filename="1828.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1821.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:50.417+01:00" modified="2020-02-10T17:48:50.417+01:00" filename="1821.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1821.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:36.865+01:00" modified="2020-02-04T18:33:23.751+01:00" filename="1821.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1811.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:49:01.879+01:00" modified="2020-02-10T17:49:01.879+01:00" filename="1811.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1811.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:36.259+01:00" modified="2020-02-07T17:25:09.613+01:00" filename="1811.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1826.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:51.242+01:00" modified="2020-02-12T12:38:26.375+01:00" filename="1826.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1808.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:45.319+01:00" modified="2020-02-10T17:48:45.319+01:00" filename="1808.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1808.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:35.617+01:00" modified="2020-02-07T16:56:45.347+01:00" filename="1808.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1810.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:50.834+01:00" modified="2020-02-10T17:48:50.834+01:00" filename="1810.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1810.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:36.112+01:00" modified="2020-01-31T11:33:31.055+01:00" filename="1810.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1830.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-02-10T17:48:54.866+01:00" modified="2020-02-10T17:48:54.866+01:00" filename="1830.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1830.xml" skip="no" owner="admin" group="schleiermacher-nutzer" mode="664" created="2020-01-28T15:01:39.656+01:00" modified="2020-01-28T15:01:39.656+01:00" filename="1830.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

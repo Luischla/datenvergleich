@@ -1,0 +1,601 @@
+diff --git a/cagb/data/Texte/Kleintexte/An/An-Einleitung.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/An/An-Einleitung.xml
+index 0df42f0..b32cc1b 100644
+--- a/cagb/data/Texte/Kleintexte/An/An-Einleitung.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/An/An-Einleitung.xml
+@@ -116,9 +116,7 @@
+                     </app>
+                     <app>
+                         <lem>τὴν τάξιν</lem>
+-                        <rdg wit="#m1g_4d4_kv #mrd_mkh_fy">τῆ τάξει</rdg>
+-                        <rdg wit="wit_er4_pt5_qy">·</rdg>
+-                    </app> ἐπειδὴ <app>
++                        <rdg wit="#m1g_4d4_kv #mrd_mkh_fy">τῆ τάξει</rdg></app>· ἐπειδὴ <app>
+                         <lem>δοκεῖ</lem>
+                         <rdg wit="#m1g_4d4_kv #mrd_mkh_fy">δὲ ὁ</rdg>
+                     </app> σύμπας ὁ κόσμος ὅδε ἔμψυχος εἰναι καὶ ψυχῆ κυβερνᾶσθαι καὶ ἄγεσθαι,
+diff --git a/cagb/data/Texte/Kleintexte/An/An-Inhaltsangabe.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/An/An-Inhaltsangabe.xml
+index b0d36dc..b920f78 100644
+--- a/cagb/data/Texte/Kleintexte/An/An-Inhaltsangabe.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/An/An-Inhaltsangabe.xml
+@@ -80,7 +80,7 @@
+             <note type="editorial" subtype="comment">
+                 <p>ἀλλ’ ὡς εἴπομεν ἤδη, ὁ τέλειος φυσικὸς ἀνάξει ἑαυτὸν καὶ ἐπὶ τὰ ἐξῃρημένα αἴτια
+                     τῶν φυσικῶν (Philop., In An. comm. (CAG XV) 55, 13–14) spielt an auf den
+-                    früheren Kommentar des Philoponos zur Physik, wo schon die Orientierung des
++                    früheren Kommentar des Philoponos zur Physik, wo die Orientierung des
+                     vollkommenen Philosophen auf die unbewegten und transzendenten Ursachen
+                     festgestellt wird: </p>
+                 <p>εἰ δὲ καὶ ὁ Ἀριστοτέλης ἐν ταῖς φυσικαῖς πραγματείαις ἔστιν ὅτε περὶ τῆς ἀκινήτου
+@@ -89,7 +89,7 @@
+                     αἰτίας, ἐροῦμεν ὅτι τῷ ὄντι ὁ τέλειος φυσικὸς κατὰ τὸ ἀκρότατον τὸ ἑαυτοῦ
+                     μεμνήσεται καὶ τῶν ἀκινήτων αἰτιῶν καὶ ὑπὲρ φύσιν (CAG 16, 301, 1–6). </p>
+                 <p>Der Ausdruck ἐξῃρημένα αἴτια / ἐξῃρημένη αἰτία erscheint häufig bei den
+-                    neuplatonischen Kommentatoren (Simpl., Philop., Syrian, Asklepios) sowie
++                    neuplatonischen Kommentatoren (Simplikios, Philoponos, Syrian, Asklepios) sowie
+                     besonders bei Proklos. In der Sache äquivalent heißt es am Schluss der u. a. in
+                     Bern. 135 überlieferten anonymen Einleitung zu An.: ἐπὶ τέλει δὲ, καὶ εἰς
+                     θεολογικωτέραν ἀρχὴν ἀνάγει τὸν λόγον.</p>
+diff --git a/cagb/data/Texte/Kleintexte/An/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/An/__contents__.xml
+index 7675c96..7878872 100644
+--- a/cagb/data/Texte/Kleintexte/An/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/An/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Kleintexte/An" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.399+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="An-Einleitung.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2019-10-25T16:42:29+02:00" filename="An-Einleitung.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="An-Einleitung.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.401+01:00" modified="2020-02-07T21:14:46.208+01:00" filename="An-Einleitung.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="An-Epigramm-Coisl-386.xml" skip="no" owner="koch" group="cagb-nutzer" mode="660" created="2018-08-13T13:47:06+02:00" modified="2019-03-09T12:48:15+01:00" filename="An-Epigramm-Coisl-386.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="An-Epigramm-Coisl-386.xml" skip="no" owner="koch" group="cagb-nutzer" mode="660" created="2018-08-13T13:47:06.3+02:00" modified="2019-03-09T12:48:15.486+01:00" filename="An-Epigramm-Coisl-386.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="An-Inhaltsangabe.xml" skip="no" owner="koch" group="cagb-nutzer" mode="660" created="2018-07-12T16:03:36+02:00" modified="2019-11-15T12:29:18+01:00" filename="An-Inhaltsangabe.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="An-Inhaltsangabe.xml" skip="no" owner="koch" group="cagb-nutzer" mode="660" created="2018-07-12T16:03:36.296+02:00" modified="2020-02-06T18:21:04.617+01:00" filename="An-Inhaltsangabe.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Kleintexte/AnalPost/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/AnalPost/__contents__.xml
+index 5e0f0a0..4cd4c38 100644
+--- a/cagb/data/Texte/Kleintexte/AnalPost/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/AnalPost/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Kleintexte/AnalPost" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2018-06-19T10:58:41.911+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Esc-%CE%A6-III-10-Anal-Post-I-Prooemium.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-01-24T14:10:14+01:00" filename="Esc-Φ-III-10-Anal-Post-I-Prooemium.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Esc-%CE%A6-III-10-Anal-Post-I-Prooemium.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.473+01:00" modified="2018-01-24T14:10:14.371+01:00" filename="Esc-Φ-III-10-Anal-Post-I-Prooemium.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Kleintexte/AnalPr/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/AnalPr/__contents__.xml
+index feb6c3c..d40e742 100644
+--- a/cagb/data/Texte/Kleintexte/AnalPr/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/AnalPr/__contents__.xml
+@@ -1,18 +1,18 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Kleintexte/AnalPr" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.417+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Par-gr-1917-Anal-Pr-II-Prooemium-f160.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-01-10T12:37:51+01:00" filename="Par-gr-1917-Anal-Pr-II-Prooemium-f160.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Par-gr-1917-Anal-Pr-II-Prooemium-f160.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.451+01:00" modified="2018-01-10T12:37:51.6+01:00" filename="Par-gr-1917-Anal-Pr-II-Prooemium-f160.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Princeton-MS-173-Magentinos-Anal-Pr-I.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-06-11T11:01:57+02:00" modified="2019-03-05T17:14:03+01:00" filename="Princeton-MS-173-Magentinos-Anal-Pr-I.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Princeton-MS-173-Magentinos-Anal-Pr-I.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-06-11T11:01:57.515+02:00" modified="2019-03-05T17:14:03.563+01:00" filename="Princeton-MS-173-Magentinos-Anal-Pr-I.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Par-gr-1917-Anal-Pr-II-Prooemium2-f160rv.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-01-10T12:38:36+01:00" filename="Par-gr-1917-Anal-Pr-II-Prooemium2-f160rv.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Par-gr-1917-Anal-Pr-II-Prooemium2-f160rv.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.458+01:00" modified="2018-01-10T12:38:36.911+01:00" filename="Par-gr-1917-Anal-Pr-II-Prooemium2-f160rv.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Vat-Reg-gr-116-Anal-Pr-I-Alusian-pons-asinorum.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2019-02-25T14:17:49+01:00" filename="Vat-Reg-gr-116-Anal-Pr-I-Alusian-pons-asinorum.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Vat-Reg-gr-116-Anal-Pr-I-Alusian-pons-asinorum.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.438+01:00" modified="2019-02-25T14:17:49.236+01:00" filename="Vat-Reg-gr-116-Anal-Pr-I-Alusian-pons-asinorum.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Ambr-L-93-sup-Anal-Pr-II-Prooemium-f148v.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-04-30T09:35:11+02:00" filename="Ambr-L-93-sup-Anal-Pr-II-Prooemium-f148v.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Ambr-L-93-sup-Anal-Pr-II-Prooemium-f148v.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.465+01:00" modified="2018-04-30T09:35:11.589+02:00" filename="Ambr-L-93-sup-Anal-Pr-II-Prooemium-f148v.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Kleintexte/Cael./__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/Cael./__contents__.xml
+index cd33fd8..23771f8 100644
+--- a/cagb/data/Texte/Kleintexte/Cael./__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/Cael./__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Kleintexte/Cael." version="1" owner="koch" group="cagb-nutzer" mode="770" created="2018-08-17T18:59:39.021+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Cael-summary-Bessarion.xml" skip="no" owner="koch" group="cagb-nutzer" mode="660" created="2018-08-17T17:53:41+02:00" modified="2019-10-28T17:00:35+01:00" filename="Cael-summary-Bessarion.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Cael-summary-Bessarion.xml" skip="no" owner="koch" group="cagb-nutzer" mode="660" created="2018-08-17T17:53:41.83+02:00" modified="2019-10-28T17:00:35.353+01:00" filename="Cael-summary-Bessarion.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Kleintexte/Int/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/Int/__contents__.xml
+index b53f3cd..5e37fe9 100644
+--- a/cagb/data/Texte/Kleintexte/Int/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/Int/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Kleintexte/Int" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.496+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Elias-In-Amm-In-Int-comm.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2019-10-22T14:24:08+02:00" filename="Elias-In-Amm-In-Int-comm.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Elias-In-Amm-In-Int-comm.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.508+01:00" modified="2019-10-22T14:24:08.913+02:00" filename="Elias-In-Amm-In-Int-comm.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Proposita-Princeton-173.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-01-10T12:30:32+01:00" filename="Proposita-Princeton-173.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Proposita-Princeton-173.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.497+01:00" modified="2018-01-10T12:30:32.859+01:00" filename="Proposita-Princeton-173.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Kleintexte/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/__contents__.xml
+index 1c91b78..2063617 100644
+--- a/cagb/data/Texte/Kleintexte/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Kleintexte/__contents__.xml
+@@ -1,8 +1,8 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Kleintexte" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.397+01:00">
+     <acl entries="0" version="1"/>
+     <subcollection name="An" filename="An"/>
++    <subcollection name="Int" filename="Int"/>
+     <subcollection name="AnalPr" filename="AnalPr"/>
+-    <subcollection name="Cael." filename="Cael."/>
+     <subcollection name="AnalPost" filename="AnalPost"/>
+-    <subcollection name="Int" filename="Int"/>
++    <subcollection name="Cael." filename="Cael."/>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Scholien/An/An-I/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/An/An-I/__contents__.xml
+index 5453ffc..e6e0b3c 100644
+--- a/cagb/data/Texte/Scholien/An/An-I/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/An/An-I/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Scholien/An/An-I" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-12-21T14:19:16.518+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="An-I-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2019-11-21T15:05:20+01:00" filename="An-I-schol.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="An-I-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.694+01:00" modified="2019-11-21T15:05:20.228+01:00" filename="An-I-schol.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Scholien/An/An-III/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/An/An-III/__contents__.xml
+index cffc1cb..c84aed0 100644
+--- a/cagb/data/Texte/Scholien/An/An-III/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/An/An-III/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Scholien/An/An-III" version="1" owner="golitsis" group="cagb-nutzer" mode="770" created="2018-07-02T15:35:40.892+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="An-III-10-schol.xml" skip="no" owner="golitsis" group="cagb-nutzer" mode="660" created="2018-07-02T15:41:38+02:00" modified="2019-03-13T15:40:16+01:00" filename="An-III-10-schol.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="An-III-10-schol.xml" skip="no" owner="golitsis" group="cagb-nutzer" mode="660" created="2018-07-02T15:41:38.363+02:00" modified="2019-03-13T15:40:16.583+01:00" filename="An-III-10-schol.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Scholien/AnalPost/AnalPost-I/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/AnalPost/AnalPost-I/__contents__.xml
+index 5a29b65..16e2cc6 100644
+--- a/cagb/data/Texte/Scholien/AnalPost/AnalPost-I/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/AnalPost/AnalPost-I/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Scholien/AnalPost/AnalPost-I" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.82+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="AnalPost-I-01-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-12-17T14:48:14+01:00" filename="AnalPost-I-01-schol.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="AnalPost-I-01-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.822+01:00" modified="2018-12-17T14:48:14.121+01:00" filename="AnalPost-I-01-schol.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Scholien/AnalPr/AnalPr-I/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/AnalPr/AnalPr-I/__contents__.xml
+index 7606e59..3bf468c 100644
+--- a/cagb/data/Texte/Scholien/AnalPr/AnalPr-I/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/AnalPr/AnalPr-I/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Scholien/AnalPr/AnalPr-I" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.835+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="AnalPr-I-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-12-17T14:02:59+01:00" filename="AnalPr-I-schol.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="AnalPr-I-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.837+01:00" modified="2018-12-17T14:02:59.01+01:00" filename="AnalPr-I-schol.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Scholien/AnalPr/AnalPr-II/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/AnalPr/AnalPr-II/__contents__.xml
+index 4e726d3..21d1133 100644
+--- a/cagb/data/Texte/Scholien/AnalPr/AnalPr-II/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/AnalPr/AnalPr-II/__contents__.xml
+@@ -1,27 +1,27 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Scholien/AnalPr/AnalPr-II" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.858+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="AnalPr-II-17-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-12-17T14:44:06+01:00" filename="AnalPr-II-17-schol.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="AnalPr-II-17-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.938+01:00" modified="2018-12-17T14:44:06.684+01:00" filename="AnalPr-II-17-schol.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="AnalPr-II-02-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-12-17T14:31:46+01:00" filename="AnalPr-II-02-schol.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="AnalPr-II-02-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.884+01:00" modified="2018-12-17T14:31:46.109+01:00" filename="AnalPr-II-02-schol.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="AnalPr-II-25-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-12-17T14:45:23+01:00" filename="AnalPr-II-25-schol.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="AnalPr-II-25-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.911+01:00" modified="2018-12-17T14:45:23.238+01:00" filename="AnalPr-II-25-schol.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="AnalPr-II-26-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-01-12T13:19:44+01:00" filename="AnalPr-II-26-schol.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="AnalPr-II-26-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.949+01:00" modified="2018-01-12T13:19:44.303+01:00" filename="AnalPr-II-26-schol.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="AnalPr-II-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-12-17T14:54:11+01:00" filename="AnalPr-II-schol.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="AnalPr-II-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.861+01:00" modified="2018-12-17T14:54:11.103+01:00" filename="AnalPr-II-schol.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="AnalPr-II-16-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-12-17T14:40:33+01:00" filename="AnalPr-II-16-schol.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="AnalPr-II-16-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.895+01:00" modified="2018-12-17T14:40:33.699+01:00" filename="AnalPr-II-16-schol.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="AnalPr-II-27-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-12-17T14:41:47+01:00" filename="AnalPr-II-27-schol.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="AnalPr-II-27-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.963+01:00" modified="2018-12-17T14:41:47.102+01:00" filename="AnalPr-II-27-schol.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="AnalPr-II-01-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-12-17T14:31:44+01:00" filename="AnalPr-II-01-schol.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="AnalPr-II-01-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.927+01:00" modified="2018-12-17T14:31:44.19+01:00" filename="AnalPr-II-01-schol.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Scholien/Cat/Cat-Simplikios/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/Cat/Cat-Simplikios/__contents__.xml
+index d37f519..e131d87 100644
+--- a/cagb/data/Texte/Scholien/Cat/Cat-Simplikios/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/Cat/Cat-Simplikios/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Scholien/Cat/Cat-Simplikios" version="1" owner="koch" group="cagb-nutzer" mode="770" created="2019-10-22T15:30:18.979+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Cat-Simplikios-schol-Athen-EBE-1068.xml" skip="no" owner="koch" group="cagb-nutzer" mode="660" created="2019-10-22T15:31:37+02:00" modified="2019-11-05T12:38:56+01:00" filename="Cat-Simplikios-schol-Athen-EBE-1068.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Cat-Simplikios-schol-Athen-EBE-1068.xml" skip="no" owner="koch" group="cagb-nutzer" mode="660" created="2019-10-22T15:31:37.894+02:00" modified="2019-11-05T12:38:56.486+01:00" filename="Cat-Simplikios-schol-Athen-EBE-1068.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Scholien/EN/EN_VI/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/EN/EN_VI/__contents__.xml
+index 873b554..0961aae 100644
+--- a/cagb/data/Texte/Scholien/EN/EN_VI/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/EN/EN_VI/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Scholien/EN/EN_VI" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2019-02-21T13:57:56.55+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="EN-VI-schol-Par1417.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2019-02-21T14:04:18+01:00" filename="EN-VI-schol-Par1417.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="EN-VI-schol-Par1417.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.808+01:00" modified="2019-02-21T14:04:18.435+01:00" filename="EN-VI-schol-Par1417.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Scholien/IncAn/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/IncAn/__contents__.xml
+index 33a3f89..d5d262f 100644
+--- a/cagb/data/Texte/Scholien/IncAn/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/IncAn/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Scholien/IncAn" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.79+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="IncAn-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2019-10-02T17:13:37+02:00" filename="IncAn-schol.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="IncAn-schol.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.792+01:00" modified="2019-10-02T17:13:37.851+02:00" filename="IncAn-schol.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Scholien/Int/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/Int/__contents__.xml
+index ed56160..413f228 100644
+--- a/cagb/data/Texte/Scholien/Int/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/Int/__contents__.xml
+@@ -1,21 +1,21 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Scholien/Int" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.719+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Int-02-LK.xml" skip="no" owner="koch" group="cagb-nutzer" mode="660" created="2019-08-12T15:51:51+02:00" modified="2019-09-10T17:11:32+02:00" filename="Int-02-LK.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Int-02-LK.xml" skip="no" owner="koch" group="cagb-nutzer" mode="660" created="2019-08-12T15:51:51.627+02:00" modified="2019-09-10T17:11:32.726+02:00" filename="Int-02-LK.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Int-01.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-12-17T19:14:38+01:00" filename="Int-01.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Int-01.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.721+01:00" modified="2018-12-17T19:14:38.196+01:00" filename="Int-01.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Int-01-LK.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2019-10-22T13:22:01+02:00" filename="Int-01-LK.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Int-01-LK.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.708+01:00" modified="2019-10-22T13:22:01.378+02:00" filename="Int-01-LK.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Int-09.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2019-06-14T17:02:45+02:00" filename="Int-09.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Int-09.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.775+01:00" modified="2019-06-14T17:02:45.678+02:00" filename="Int-09.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Int-12.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-12-17T14:11:22+01:00" filename="Int-12.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Int-12.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.749+01:00" modified="2018-12-17T14:11:22.547+01:00" filename="Int-12.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Int-10.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-12-17T14:12:23+01:00" filename="Int-10.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Int-10.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.732+01:00" modified="2018-12-17T14:12:23.765+01:00" filename="Int-10.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Scholien/Parva-naturalia/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/Parva-naturalia/__contents__.xml
+index d42cf7e..99c1e7c 100644
+--- a/cagb/data/Texte/Scholien/Parva-naturalia/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Scholien/Parva-naturalia/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Scholien/Parva-naturalia" version="1" owner="koch" group="cagb-nutzer" mode="770" created="2018-08-14T12:49:21.852+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Somn-Vig.xml" skip="no" owner="koch" group="cagb-nutzer" mode="660" created="2019-04-25T20:03:47+02:00" modified="2019-10-25T20:16:09+02:00" filename="Somn-Vig.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Somn-Vig.xml" skip="no" owner="koch" group="cagb-nutzer" mode="660" created="2019-04-25T20:03:47.846+02:00" modified="2019-10-25T20:16:09.422+02:00" filename="Somn-Vig.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Long.xml" skip="no" owner="koch" group="cagb-nutzer" mode="660" created="2018-08-14T12:49:37+02:00" modified="2018-08-14T15:24:30+02:00" filename="Long.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Long.xml" skip="no" owner="koch" group="cagb-nutzer" mode="660" created="2018-08-14T12:49:37.635+02:00" modified="2018-08-14T15:24:30.912+02:00" filename="Long.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Werke/AnalPr/AnalPr-Magentinos/AnalPr-Magentinos-A01/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Werke/AnalPr/AnalPr-Magentinos/AnalPr-Magentinos-A01/__contents__.xml
+index 8e69606..eec42a3 100644
+--- a/cagb/data/Texte/Werke/AnalPr/AnalPr-Magentinos/AnalPr-Magentinos-A01/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Werke/AnalPr/AnalPr-Magentinos/AnalPr-Magentinos-A01/__contents__.xml
+@@ -1,144 +1,144 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Werke/AnalPr/AnalPr-Magentinos/AnalPr-Magentinos-A01" version="1" owner="agiotis" group="cagb-nutzer" mode="770" created="2018-01-26T14:19:26.252+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-23.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:53:44+01:00" modified="2018-10-26T16:44:13+02:00" filename="Magent-InAnalPr-I-23.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-23.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:53:44.172+01:00" modified="2018-10-26T16:44:13.569+02:00" filename="Magent-InAnalPr-I-23.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-24.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:53:54+01:00" modified="2018-10-26T16:47:07+02:00" filename="Magent-InAnalPr-I-24.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-24.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:53:54.53+01:00" modified="2018-10-26T16:47:07.451+02:00" filename="Magent-InAnalPr-I-24.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-25.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:54:02+01:00" modified="2018-10-26T16:46:50+02:00" filename="Magent-InAnalPr-I-25.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-25.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:54:02.251+01:00" modified="2018-10-26T16:46:50.127+02:00" filename="Magent-InAnalPr-I-25.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-11.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:54:12+01:00" modified="2019-03-12T13:19:18+01:00" filename="Magent-InAnalPr-I-11.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-11.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:54:12.063+01:00" modified="2019-03-12T13:19:18.689+01:00" filename="Magent-InAnalPr-I-11.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-32.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T17:52:12+02:00" modified="2018-11-07T13:21:01+01:00" filename="Magent-InAnalPr-I-32.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-32.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T17:52:12.423+02:00" modified="2018-11-07T13:21:01.007+01:00" filename="Magent-InAnalPr-I-32.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-46.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T19:18:31+02:00" modified="2018-12-06T11:50:19+01:00" filename="Magent-InAnalPr-I-46.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-46.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T19:18:31.385+02:00" modified="2018-12-06T11:50:19.927+01:00" filename="Magent-InAnalPr-I-46.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-36.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T18:42:39+02:00" modified="2018-11-16T11:09:36+01:00" filename="Magent-InAnalPr-I-36.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-36.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T18:42:39.936+02:00" modified="2018-11-16T11:09:36.326+01:00" filename="Magent-InAnalPr-I-36.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-43.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T19:12:04+02:00" modified="2018-11-16T11:26:55+01:00" filename="Magent-InAnalPr-I-43.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-43.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T19:12:04.681+02:00" modified="2018-11-16T11:26:55.426+01:00" filename="Magent-InAnalPr-I-43.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-40.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T19:02:44+02:00" modified="2018-11-16T11:18:42+01:00" filename="Magent-InAnalPr-I-40.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-40.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T19:02:44.698+02:00" modified="2018-11-16T11:18:42.32+01:00" filename="Magent-InAnalPr-I-40.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-20.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:53:19+01:00" modified="2018-10-26T16:52:44+02:00" filename="Magent-InAnalPr-I-20.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-20.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:53:19.398+01:00" modified="2018-10-26T16:52:44.162+02:00" filename="Magent-InAnalPr-I-20.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-30.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-19T18:29:02+02:00" modified="2018-11-06T16:54:22+01:00" filename="Magent-InAnalPr-I-30.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-30.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-19T18:29:02.967+02:00" modified="2018-11-06T16:54:22.248+01:00" filename="Magent-InAnalPr-I-30.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-13.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:52:18+01:00" modified="2018-11-12T18:24:34+01:00" filename="Magent-InAnalPr-I-13.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-13.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:52:18.22+01:00" modified="2018-11-12T18:24:34.628+01:00" filename="Magent-InAnalPr-I-13.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-03.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-02-20T15:58:42+01:00" modified="2019-07-24T17:07:15+02:00" filename="Magent-InAnalPr-I-03.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-03.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-02-20T15:58:42.027+01:00" modified="2019-07-24T17:07:15.079+02:00" filename="Magent-InAnalPr-I-03.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-27.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-19T18:11:04+02:00" modified="2018-11-06T12:10:07+01:00" filename="Magent-InAnalPr-I-27.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-27.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-19T18:11:04.458+02:00" modified="2018-11-06T12:10:07.988+01:00" filename="Magent-InAnalPr-I-27.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-38.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T18:51:03+02:00" modified="2018-11-16T11:16:46+01:00" filename="Magent-InAnalPr-I-38.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-38.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T18:51:03.222+02:00" modified="2018-11-16T11:16:46.26+01:00" filename="Magent-InAnalPr-I-38.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-44.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T19:15:20+02:00" modified="2018-11-16T11:32:20+01:00" filename="Magent-InAnalPr-I-44.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-44.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T19:15:20.874+02:00" modified="2018-11-16T11:32:20.258+01:00" filename="Magent-InAnalPr-I-44.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-06.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-02-20T15:59:18+01:00" modified="2019-06-14T16:17:41+02:00" filename="Magent-InAnalPr-I-06.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-06.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-02-20T15:59:18.919+01:00" modified="2019-06-14T16:17:41.923+02:00" filename="Magent-InAnalPr-I-06.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-05.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-02-20T15:59:07+01:00" modified="2019-06-14T16:17:37+02:00" filename="Magent-InAnalPr-I-05.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-05.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-02-20T15:59:07.512+01:00" modified="2019-06-14T16:17:37.263+02:00" filename="Magent-InAnalPr-I-05.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-00-Prooemium.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-01-25T17:52:00+01:00" modified="2019-06-14T16:17:17+02:00" filename="Magent-InAnalPr-I-00-Prooemium.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-00-Prooemium.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-01-25T17:52:00.279+01:00" modified="2019-06-14T16:17:17.873+02:00" filename="Magent-InAnalPr-I-00-Prooemium.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-01.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-01-30T13:19:38+01:00" modified="2019-06-14T16:16:50+02:00" filename="Magent-InAnalPr-I-01.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-01.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-01-30T13:19:38.012+01:00" modified="2019-06-14T16:16:50.984+02:00" filename="Magent-InAnalPr-I-01.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-39.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T18:55:54+02:00" modified="2018-11-16T11:17:53+01:00" filename="Magent-InAnalPr-I-39.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-39.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T18:55:54.593+02:00" modified="2018-11-16T11:17:53.336+01:00" filename="Magent-InAnalPr-I-39.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-02.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-02-20T15:58:23+01:00" modified="2019-06-14T16:13:55+02:00" filename="Magent-InAnalPr-I-02.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-02.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-02-20T15:58:23.159+01:00" modified="2019-06-14T16:13:55.552+02:00" filename="Magent-InAnalPr-I-02.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-37.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T18:45:44+02:00" modified="2018-11-16T11:11:54+01:00" filename="Magent-InAnalPr-I-37.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-37.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T18:45:44.163+02:00" modified="2018-11-16T11:11:54.277+01:00" filename="Magent-InAnalPr-I-37.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-34.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T18:29:45+02:00" modified="2018-11-16T10:58:05+01:00" filename="Magent-InAnalPr-I-34.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-34.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T18:29:45.133+02:00" modified="2018-11-16T10:58:05.828+01:00" filename="Magent-InAnalPr-I-34.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-31.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T17:41:21+02:00" modified="2018-11-07T13:07:56+01:00" filename="Magent-InAnalPr-I-31.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-31.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T17:41:21.504+02:00" modified="2018-11-07T13:07:56.95+01:00" filename="Magent-InAnalPr-I-31.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-35.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T18:35:22+02:00" modified="2018-11-16T11:00:38+01:00" filename="Magent-InAnalPr-I-35.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-35.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T18:35:22.746+02:00" modified="2018-11-16T11:00:38.906+01:00" filename="Magent-InAnalPr-I-35.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-33.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T18:18:39+02:00" modified="2018-11-16T10:54:09+01:00" filename="Magent-InAnalPr-I-33.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-33.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T18:18:39.52+02:00" modified="2018-11-16T10:54:09.174+01:00" filename="Magent-InAnalPr-I-33.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-41.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T19:05:55+02:00" modified="2018-11-16T11:22:42+01:00" filename="Magent-InAnalPr-I-41.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-41.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T19:05:55.132+02:00" modified="2018-11-16T11:22:42.201+01:00" filename="Magent-InAnalPr-I-41.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-07.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-02-20T15:59:29+01:00" modified="2019-06-14T16:17:46+02:00" filename="Magent-InAnalPr-I-07.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-07.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-02-20T15:59:29.722+01:00" modified="2019-06-14T16:17:46.646+02:00" filename="Magent-InAnalPr-I-07.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-08.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:51:21+01:00" modified="2019-06-14T16:17:53+02:00" filename="Magent-InAnalPr-I-08.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-08.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:51:21.907+01:00" modified="2019-06-14T16:17:53.632+02:00" filename="Magent-InAnalPr-I-08.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-42.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T19:09:05+02:00" modified="2018-11-16T11:24:35+01:00" filename="Magent-InAnalPr-I-42.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-42.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T19:09:05.492+02:00" modified="2018-11-16T11:24:35.191+01:00" filename="Magent-InAnalPr-I-42.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-29.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-19T18:24:02+02:00" modified="2018-11-06T16:51:30+01:00" filename="Magent-InAnalPr-I-29.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-29.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-19T18:24:02.435+02:00" modified="2018-11-06T16:51:30.69+01:00" filename="Magent-InAnalPr-I-29.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-45.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T19:18:15+02:00" modified="2018-11-16T11:38:02+01:00" filename="Magent-InAnalPr-I-45.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-45.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-23T19:18:15.723+02:00" modified="2018-11-16T11:38:02.119+01:00" filename="Magent-InAnalPr-I-45.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-09.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:51:32+01:00" modified="2019-06-14T16:17:57+02:00" filename="Magent-InAnalPr-I-09.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-09.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:51:32.793+01:00" modified="2019-06-14T16:17:57.56+02:00" filename="Magent-InAnalPr-I-09.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-10.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:51:47+01:00" modified="2018-11-02T17:14:44+01:00" filename="Magent-InAnalPr-I-10.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-10.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:51:47.629+01:00" modified="2018-11-02T17:14:44.425+01:00" filename="Magent-InAnalPr-I-10.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-26.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T12:25:40+01:00" modified="2018-10-26T16:46:32+02:00" filename="Magent-InAnalPr-I-26.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-26.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T12:25:40.385+01:00" modified="2018-10-26T16:46:32.337+02:00" filename="Magent-InAnalPr-I-26.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-12.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:52:08+01:00" modified="2018-11-06T13:05:32+01:00" filename="Magent-InAnalPr-I-12.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-12.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:52:08.64+01:00" modified="2018-11-06T13:05:32.063+01:00" filename="Magent-InAnalPr-I-12.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-28.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-19T18:17:34+02:00" modified="2018-11-06T12:42:48+01:00" filename="Magent-InAnalPr-I-28.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-28.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-10-19T18:17:34.152+02:00" modified="2018-11-06T12:42:48.743+01:00" filename="Magent-InAnalPr-I-28.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-14.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:52:26+01:00" modified="2018-11-13T16:59:50+01:00" filename="Magent-InAnalPr-I-14.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-14.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:52:26.33+01:00" modified="2018-11-13T16:59:50.7+01:00" filename="Magent-InAnalPr-I-14.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-15.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:52:34+01:00" modified="2019-03-11T15:32:48+01:00" filename="Magent-InAnalPr-I-15.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-15.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:52:34.411+01:00" modified="2019-03-11T15:32:48.701+01:00" filename="Magent-InAnalPr-I-15.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-16.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:52:44+01:00" modified="2018-11-27T14:55:22+01:00" filename="Magent-InAnalPr-I-16.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-16.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:52:44.987+01:00" modified="2018-11-27T14:55:22.925+01:00" filename="Magent-InAnalPr-I-16.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-17.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:52:54+01:00" modified="2019-03-11T15:35:55+01:00" filename="Magent-InAnalPr-I-17.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-17.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:52:54.066+01:00" modified="2019-03-11T15:35:55.628+01:00" filename="Magent-InAnalPr-I-17.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-18.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:53:02+01:00" modified="2018-10-26T16:53:07+02:00" filename="Magent-InAnalPr-I-18.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-18.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:53:02.646+01:00" modified="2018-10-26T16:53:07.561+02:00" filename="Magent-InAnalPr-I-18.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-19.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:53:11+01:00" modified="2018-10-26T16:52:56+02:00" filename="Magent-InAnalPr-I-19.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-19.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:53:11.912+01:00" modified="2018-10-26T16:52:56.564+02:00" filename="Magent-InAnalPr-I-19.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-04.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-02-20T15:58:55+01:00" modified="2019-06-14T16:17:32+02:00" filename="Magent-InAnalPr-I-04.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-04.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-02-20T15:58:55.193+01:00" modified="2019-06-14T16:17:32.349+02:00" filename="Magent-InAnalPr-I-04.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-21.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:53:26+01:00" modified="2018-10-26T16:47:27+02:00" filename="Magent-InAnalPr-I-21.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-21.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:53:26.231+01:00" modified="2018-10-26T16:47:27.482+02:00" filename="Magent-InAnalPr-I-21.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Magent-InAnalPr-I-22.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:53:34+01:00" modified="2018-10-26T16:44:53+02:00" filename="Magent-InAnalPr-I-22.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Magent-InAnalPr-I-22.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-03-07T11:53:34.016+01:00" modified="2018-10-26T16:44:53.674+02:00" filename="Magent-InAnalPr-I-22.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Werke/Int/Int-Ps-Magentinos-Vat-gr-2173/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Werke/Int/Int-Ps-Magentinos-Vat-gr-2173/__contents__.xml
+index 067705f..c0603ea 100644
+--- a/cagb/data/Texte/Werke/Int/Int-Ps-Magentinos-Vat-gr-2173/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Werke/Int/Int-Ps-Magentinos-Vat-gr-2173/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Werke/Int/Int-Ps-Magentinos-Vat-gr-2173" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.574+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Ps-Magentinos-Vat-gr-2173-InInt-02.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2019-03-18T15:10:25+01:00" filename="Ps-Magentinos-Vat-gr-2173-InInt-02.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Ps-Magentinos-Vat-gr-2173-InInt-02.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.576+01:00" modified="2019-03-18T15:10:25.387+01:00" filename="Ps-Magentinos-Vat-gr-2173-InInt-02.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Ps-Magentinos-Vat-gr-2173-InInt-01.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2018-12-19T13:27:59+01:00" filename="Ps-Magentinos-Vat-gr-2173-InInt-01.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Ps-Magentinos-Vat-gr-2173-InInt-01.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.596+01:00" modified="2018-12-19T13:27:59.264+01:00" filename="Ps-Magentinos-Vat-gr-2173-InInt-01.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Ps-Magentinos-Vat-gr-2173-InInt-03.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-02-19T15:08:58+01:00" modified="2018-12-19T13:32:27+01:00" filename="Ps-Magentinos-Vat-gr-2173-InInt-03.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Ps-Magentinos-Vat-gr-2173-InInt-03.xml" skip="no" owner="agiotis" group="cagb-nutzer" mode="660" created="2018-02-19T15:08:58.398+01:00" modified="2018-12-19T13:32:27.334+01:00" filename="Ps-Magentinos-Vat-gr-2173-InInt-03.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Werke/Metaph/Metaph-Pachymeres/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Werke/Metaph/Metaph-Pachymeres/__contents__.xml
+index 7ce0bc5..778cb2d 100644
+--- a/cagb/data/Texte/Werke/Metaph/Metaph-Pachymeres/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Werke/Metaph/Metaph-Pachymeres/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Werke/Metaph/Metaph-Pachymeres" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.542+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="2.AlfaElatton.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2019-04-26T17:10:44+02:00" filename="2.AlfaElatton.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="2.AlfaElatton.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.546+01:00" modified="2019-04-26T17:10:44.481+02:00" filename="2.AlfaElatton.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Werke/Parva-Naturalia/Parva-Naturalia-Metochites/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Werke/Parva-Naturalia/Parva-Naturalia-Metochites/__contents__.xml
+index d9b4101..8064175 100644
+--- a/cagb/data/Texte/Werke/Parva-Naturalia/Parva-Naturalia-Metochites/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Werke/Parva-Naturalia/Parva-Naturalia-Metochites/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Werke/Parva-Naturalia/Parva-Naturalia-Metochites" version="1" owner="koch" group="cagb-nutzer" mode="770" created="2019-03-10T18:54:53.219+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Long-Vat303.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2019-03-13T14:32:19+01:00" filename="Long-Vat303.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Long-Vat303.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.646+01:00" modified="2019-03-13T14:32:19.183+01:00" filename="Long-Vat303.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Werke/Physik/Phys-Simplikios/Phys-Simplikios-B01/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Werke/Physik/Phys-Simplikios/Phys-Simplikios-B01/__contents__.xml
+index a592f76..1d0970b 100644
+--- a/cagb/data/Texte/Werke/Physik/Phys-Simplikios/Phys-Simplikios-B01/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Werke/Physik/Phys-Simplikios/Phys-Simplikios-B01/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Werke/Physik/Phys-Simplikios/Phys-Simplikios-B01" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.623+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Simpl-InPhys-I-Prooem.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2019-05-08T15:23:33+02:00" filename="Simpl-InPhys-I-Prooem.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Simpl-InPhys-I-Prooem.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.625+01:00" modified="2019-05-08T15:23:33.543+02:00" filename="Simpl-InPhys-I-Prooem.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Texte/Werke/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Texte/Werke/__contents__.xml
+index dd6ecef..0a68f27 100644
+--- a/cagb/data/Texte/Werke/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Texte/Werke/__contents__.xml
+@@ -1,8 +1,8 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Texte/Werke" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.54+01:00">
+     <acl entries="0" version="1"/>
+-    <subcollection name="Physik" filename="Physik"/>
+-    <subcollection name="AnalPr" filename="AnalPr"/>
+     <subcollection name="Parva-Naturalia" filename="Parva-Naturalia"/>
+     <subcollection name="Metaph" filename="Metaph"/>
+     <subcollection name="Int" filename="Int"/>
++    <subcollection name="Physik" filename="Physik"/>
++    <subcollection name="AnalPr" filename="AnalPr"/>
+ </collection>
+\ No newline at end of file

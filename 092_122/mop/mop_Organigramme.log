@@ -1,0 +1,1271 @@
+diff --git a/mop/data/Organigramme/WilhelmI.xml b/home/gordon/backup182/db/projects/mop/data/Organigramme/WilhelmI.xml
+index 29eb7ef..9dde249 100644
+--- a/mop/data/Organigramme/WilhelmI.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Organigramme/WilhelmI.xml
+@@ -2479,8 +2479,8 @@
+                             <changes>
+                                  <addition date="0"/>
+                                 <vacant date=""/>
+-                                <restructure date=""/> 
+-                                <removed date="1873"/>
++                                <restructure date="1873">strukturell verschoben, s.u. "Bibliotheken und Kunstsachen"</restructure> 
++                                <removed date=""/>
+                             </changes>
+                             <list>
+                                 <office>
+@@ -2525,7 +2525,7 @@
+                             </list>
+                         </office>
+                         <office>
+-                            <title id="d1e3718">Königliches Hof-Marschall-Amt und Intendantur der
++                            <title id="P0000989">Königliches Hof-Marschall-Amt und Intendantur der
+                                 Königl. Schlösser </title>
+                             <description>Verantwortlich für die Verwaltung von allen Bereichen der Königlichen
+                                 Haushaltung, einschließlich Ausstattung und Inventarisierung von
+@@ -3293,7 +3293,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                      <persName ref="P0002640">Wilhelm Lück</persName>
++                                                      <persName ref="P0002640">W. Lück</persName>
+                                                   <term>
+                                                   <date from="1879"/>
+                                                   <date to="1888"/>
+@@ -3329,7 +3329,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                      <persName ref="P0001452">Bernhard Schiffmann</persName>
++                                                      <persName ref="P0001452">B. Schiffmann</persName>
+                                                   <term>
+                                                   <date from="1882"/>
+                                                   <date to="1888"/>
+@@ -3357,7 +3357,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                      <persName ref="P0002640">Wilhelm Lück</persName>
++                                                      <persName ref="P0002640">W. Lück</persName>
+                                                   <term>
+                                                   <date from="1873"/>
+                                                   <date to="1879"/>
+@@ -3431,7 +3431,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Richard Buro</persName>
++                                                      <persName ref="P0004624">Richard Buro</persName>
+                                                   <term>
+                                                   <date from="1884"/>
+                                                   <date to="1888"/>
+@@ -3451,7 +3451,7 @@
+                                                   Amtes</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Adolf Hermann
++                                                      <persName ref="P0002001">Adolf Hermann
+                                                   Pahl</persName>
+                                                   <term>
+                                                   <date from="1865"/>
+@@ -3467,14 +3467,14 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Drimborn</persName>
++                                                      <persName ref="P0004156">L. Drimborn</persName>
+                                                   <term>
+                                                   <date from="1865"/>
+                                                   <date to="1868"/>
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Friedrich
++                                                      <persName ref="ed_dcy_qx2_nkb">Friedrich
+                                                   Hoogeweg</persName>
+                                                   <term>
+                                                   <date from="1886"/>
+@@ -3497,7 +3497,7 @@
+                                                   Amtes</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Drimborn</persName>
++                                                      <persName ref="P0004156">L. Drimborn</persName>
+                                                   <term>
+                                                   <date from="1865"/>
+                                                   <date to="1865"/>
+@@ -3512,21 +3512,21 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Bernhard Schiffmann</persName>
++                                                      <persName ref="P0001452">B. Schiffmann</persName>
+                                                   <term>
+                                                   <date from="1878"/>
+                                                   <date to="1882"/>
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Richard Buro</persName>
++                                                      <persName ref="P0004624">Richard Buro</persName>
+                                                   <term>
+                                                   <date from="1881"/>
+                                                   <date to="1884"/>
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Fischer</persName>
++                                                      <persName ref="ed_ogw_31f_nkb">Fischer</persName>
+                                                   <term>
+                                                   <date from="1886"/>
+                                                   <date to="1888"/>
+@@ -3559,7 +3559,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Adolf Hermann
++                                                      <persName ref="P0002001">Adolf Hermann
+                                                   Pahl</persName>
+                                                   <term>
+                                                   <date from="1880"/>
+@@ -3598,7 +3598,7 @@
+                                             <description>Kurzbeschreibung des Amtes</description>
+                                             <persList>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Heinrich
++                                                    <persName ref="P0001770">Heinrich
+                                                   Strack</persName>
+                                                   <term>
+                                                   <date from="1877"/>
+@@ -3631,7 +3631,7 @@
+                                                   Amtes</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Friedrich August
++                                                      <persName ref="P0001785">Friedrich August
+                                                   Stüler</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+@@ -3639,7 +3639,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Ludwig Ferdinand
++                                                      <persName ref="P0002978">Ludwig Ferdinand
+                                                   Hesse</persName>
+                                                   <term>
+                                                   <date from="1868"/>
+@@ -3647,7 +3647,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Reinhold
++                                                      <persName ref="P0002037">Reinhold
+                                                   Persius</persName>
+                                                   <term>
+                                                   <date from="1877"/>
+@@ -3658,7 +3658,7 @@
+                                                   <changes>
+                                                    <addition date="0"/>
+                                                   <vacant date=""/>
+-                                                  <restructure date="1886">Umbennenung des Amtes in
++                                                  <restructure date="1886">Umbennenung des Amtes in:
+                                                   Geh. reg. und vortragender Rath im Minist- der
+                                                   geistlichen u. Anglegenheiten; Direktor </restructure>
+                                                   <removed date=""/>
+@@ -3670,7 +3670,7 @@
+                                                   Amtes</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Albert Dietrich
++                                                      <persName ref="P0001423">Albert Dietrich
+                                                   Schadow</persName>
+                                                   <term>
+                                                   <date from="1860"/>
+@@ -3678,7 +3678,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Ludwig Ferdinand
++                                                      <persName ref="P0002978">Ludwig Ferdinand
+                                                   Hesse</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+@@ -3686,7 +3686,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Heinrich
++                                                      <persName ref="P0001770">Heinrich
+                                                   Strack</persName>
+                                                   <term>
+                                                   <date from="1873"/>
+@@ -3694,7 +3694,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Moritz
++                                                      <persName ref="P0003850">Moritz
+                                                   Gottgetreu</persName>
+                                                   <term>
+                                                   <date from="1877"/>
+@@ -3715,7 +3715,7 @@
+                                                   Amtes</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Heinrich
++                                                      <persName ref="P0001770">Heinrich
+                                                   Strack</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+@@ -3723,7 +3723,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Moritz
++                                                      <persName ref="P0003850">Moritz
+                                                   Gottgetreu</persName>
+                                                   <term>
+                                                   <date from="1873"/>
+@@ -3731,7 +3731,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Johann Heinrich
++                                                      <persName ref="P0002871">Johann Heinrich
+                                                   Haeberlin</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+@@ -3739,7 +3739,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Ferdinand von
++                                                      <persName ref="P0004710">Ferdinand von
+                                                   Arnim</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+@@ -3747,7 +3747,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Reinhold
++                                                      <persName ref="P0002037">Reinhold
+                                                   Persius</persName>
+                                                   <term>
+                                                   <date from="1877"/>
+@@ -3755,7 +3755,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Victor
++                                                      <persName ref="P0001267">Victor
+                                                   Tetens</persName>
+                                                   <term>
+                                                   <date from="1886"/>
+@@ -3763,7 +3763,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Karl Heinrich Franz
++                                                      <persName ref="P0002872">Karl Heinrich Franz
+                                                   Haeberlin </persName>
+                                                   <term>
+                                                   <date from="1885"/>
+@@ -3784,7 +3784,7 @@
+                                                   Amtes</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Reinhold
++                                                      <persName ref="P0002037">Reinhold
+                                                   Persius</persName>
+                                                   <term>
+                                                   <date from="1873"/>
+@@ -3792,7 +3792,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Karl Heinrich Franz
++                                                      <persName ref="P0002872">Karl Heinrich Franz
+                                                   Haeberlin </persName>
+                                                   <term>
+                                                   <date from="1877"/>
+@@ -3800,7 +3800,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Oskar
++                                                      <persName ref="P0003112">Oskar
+                                                   Hossfeld</persName>
+                                                   <term>
+                                                   <date from="1880"/>
+@@ -3808,7 +3808,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Edmund
++                                                      <persName ref="P0004470">Edmund
+                                                   Bohne</persName>
+                                                   <term>
+                                                   <date from="1886"/>
+@@ -3816,7 +3816,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Albert
++                                                      <persName ref="P0003812">Albert
+                                                   Geyer</persName>
+                                                   <term>
+                                                   <date from="1886"/>
+@@ -3837,7 +3837,7 @@
+                                                   Amtes</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Reinhold
++                                                      <persName ref="P0002037">Reinhold
+                                                   Persius</persName>
+                                                   <term>
+                                                   <date from="1867"/>
+@@ -3845,7 +3845,7 @@
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Bohm</persName>
++                                                      <persName ref="P0004469">Carl Bohm</persName>
+                                                   <term>
+                                                   <date from="1877"/>
+                                                   <date to="1888"/>
+@@ -3866,16 +3866,16 @@
+                                                   Amtes</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Bohm</persName>
++                                                      <persName ref="P0004469">Carl Bohm</persName>
+                                                   <term>
+-                                                  <date from=""/>
+-                                                  <date to=""/>
++                                                  <date from="1867"/>
++                                                  <date to="1877"/>
+                                                   </term>
+                                                   </person>
+ 
+                                                   </persList>
+                                                   <changes>
+-                                                  <addition date="1873"/>
++                                                  <addition date="1867"/>
+                                                   <vacant date=""/>
+                                                   <restructure date=""/> 
+                                                   <removed date="1877"/>
+@@ -3888,7 +3888,7 @@
+                                             <description>Kurzbeschreibung des Amtes</description>
+                                             <persList>
+                                                 <person>
+-                                                    <persName ref="P0001301">Toeche</persName>
++                                                    <persName ref="P0001301">Theodor Toeche</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1863"/>
+@@ -3896,7 +3896,7 @@
+                                                     <wage>1300RT (1860)</wage>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="ed_jtq_4b4_cbb">H.
++                                                    <persName ref="P0004632">H.
+                                                   Bussler</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+@@ -3946,9 +3946,9 @@
+                                                   Amtes</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Dohme</persName>
++                                                      <persName ref="P0004130">Carl Robert Dohme</persName>
+                                                   <term>
+-                                                  <date from="1879"/>
++                                                  <date from="1877"/>
+                                                   <date to="1888"/>
+                                                   </term>
+                                                   </person>
+@@ -3966,14 +3966,14 @@
+                                                   Amtes</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Candler</persName>
++                                                      <persName ref="P0004180">Carl Candler</persName>
+                                                   <term>
+                                                   <date from="1869"/>
+                                                   <date to="1881"/>
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Franke</persName>
++                                                      <persName ref="P0003979">R. Franke</persName>
+                                                   <term>
+                                                   <date from="1882"/>
+                                                   <date to="1888"/>
+@@ -3990,26 +3990,25 @@
+                                             </list>
+                                         </office>
+                                         <office>
+-                                            <title id="d1e5017">Rechts-Consulent (ab 1883/84
+-                                                Justitiar)</title>
++                                            <title id="d1e5017">Rechts-Consulent/Justitiar</title>
+                                             <description>Kurzbeschreibung des Amtes</description>
+                                             <persList>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Léon</persName>
++                                                    <persName ref="P0002557">J. C. H. Léon</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1865"/>
+                                                   </term>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Dr. Girau</persName>
++                                                    <persName ref="P0003823">Dr. G. F. Girau</persName>
+                                                   <term>
+                                                   <date from="1868"/>
+                                                   <date to="1877"/>
+                                                   </term>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Fleischhammer</persName>
++                                                    <persName ref="P0003956">P. Fleischhammer</persName>
+                                                   <term>
+                                                   <date from="1878"/>
+                                                   <date to="1888"/>
+@@ -4031,7 +4030,7 @@
+                                             <changes>
+                                                 <addition date="1873"/>
+                                                 <vacant date=""/>
+-                                                <restructure date="1886">Kunstsachen kommen dazu</restructure>
++                                                <restructure date="1886">Kunstsachen werden zugefügt</restructure>
+                                                 <removed date=""/>
+                                             </changes>
+                                             <list>
+@@ -4042,7 +4041,7 @@
+                                                   Amtes</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="ed_g15_jmg_f1b">Dr. Robert
++                                                      <persName ref="P0004131">Dr. Robert
+                                                   Dohme</persName>
+                                                   <term>
+                                                   <date from="1873"/>
+@@ -4064,112 +4063,120 @@
+                                                   Amtes</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Balduin
++                                                      <persName ref="P0002443">Balduin
+                                                   Möllhausen</persName>
+                                                   <term>
+-                                                  <date from=""/>
+-                                                  <date to=""/>
++                                                  <date from="1862"/>
++                                                  <date to="1888"/>
+                                                   </term>
+                                                   </person>
+                                                   </persList>
+                                                   <changes>
+                                                    <addition date="0"/>
+                                                   <vacant date=""/>
+-                                                  <restructure date=""> </restructure>
++                                                  <restructure date="1873">strukturell hierher verschoben, Bibliothek Sr. Majestät s.o.</restructure>
+                                                   <removed date=""/>
+                                                   </changes>
+                                                 </office>
+                                             </list>
+                                         </office>
+                                         <office>
+-                                            <title id="d1e5169">Aerzte (ab 1873 Hof-Ärzte)</title>
++                                            <title id="d1e5169">Ärzte</title>
+                                             <description>Behandlung des gesamten Personal des Hofes
+                                                 in Krankheitsfällen (nicht die Majestäten und deren
+                                                 Familie)</description>
+                                             <persList>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Dr. Gustav Boer
+-                                                  (Sanitätsrath u. Hofarzt)</persName>
++                                                    <persName ref="P0004459">Dr. Gustav Boer
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1880"/>
+                                                   </term>
++                                                    <note>Sanitätsrath u. Hofarzt</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Dr. Oskar Boer
+-                                                  (Hofarzt)</persName>
++                                                    <persName ref="P0004460">Dr. Oskar Boer
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1876"/>
+                                                   <date to="1888"/>
+                                                   </term>
++                                                    <note>Hofarzt</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Dr. Stubenrauch
+-                                                  (Hof-Arzt)</persName>
++                                                    <persName ref="P0001781">Dr. August Herrmann Stubenrauch
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1873"/>
+                                                   </term>
++                                                    <note>Hofarzt, Wundarzt und Geburtshelfer</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Dr. Marggraff
+-                                                  (Hof-Arzt)</persName>
++                                                    <persName ref="ed_tq3_rqf_nkb">Dr. Marggraff
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1875"/>
+                                                   </term>
++                                                    <note>Hofarzt</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Dr. Rummel(Geh.
+-                                                  Sanitäts-Rath in Charlottenburg u.
+-                                                  Hof-Arzt)</persName>
++                                                    <persName ref="P0001965">Dr. J. H. E. Rummel</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1873"/>
+                                                   </term>
++                                                    <note>Geh.Sanitäts-Rath in Charlottenburg u.
++                                                        Hof-Arzt</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Lange
+-                                                  (Hof-Wundarzt)</persName>
++                                                    <persName ref="P0002506">Lange
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1863"/>
+                                                   </term>
++                                                    <note>Hof-Wundarzt</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Drascher
+-                                                  (Hof-Wundarzt)</persName>
++                                                  <persName ref="Registerlink">C. Drascher
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1868"/>
+                                                   </term>
++                                                    <note>Hof-Wundarzt; Hofchirurgus des Königs sowie der Prinzen Karl und Adalbert; Geburtshelfer</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Friedrich Ludwig
+-                                                  Wahlländer (Hof-Zahnarzt)</persName>
++                                                    <persName ref="P0003175">Friedrich Ludwig
++                                                  Wahlländer</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+-                                                  <date to="1883"/>
+-                                                  <!-- 1881 gest., aber gibt fehler in SHB -->
++                                                  <date to="1881"/>
++                                                  <!-- 1881 gest., aber gibt fehler in SHB, da dort bis 1883 -->
+                                                   </term>
++                                                    <note>Hof-Zahnarzt</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Dr. A. Wallmüller
+-                                                  (Sanitätsrath)</persName>
++                                                    <persName ref="P0003191">Dr. Carl August Wallmüller
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1865"/>
+                                                   <date to="1887"/>
+                                                   </term>
++                                                    <note>Sanitätsrat</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Stolte</persName>
++                                                    <persName ref="P0001766">Stolte</persName>
+                                                   <term>
+                                                   <date from="1865"/>
+                                                   <date to="1888"/>
+                                                   </term>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Dr. R.
++                                                    <persName ref="P0002584">Dr. R.
+                                                   Liebert</persName>
+                                                   <term>
+                                                   <date from="1875"/>
+@@ -4177,7 +4184,7 @@
+                                                   </term>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Dr. (W.)
++                                                    <persName ref="P0002584">Dr. (W.)
+                                                   Hoffmann</persName>
+                                                   <term>
+                                                   <date from="1876"/>
+@@ -4185,14 +4192,14 @@
+                                                   </term>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Dr. Adloff</persName>
++                                                    <persName ref="P0004644">Dr. Adloff</persName>
+                                                   <term>
+                                                   <date from="1877"/>
+                                                   <date to="1888"/>
+                                                   </term>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Dr. Tamm</persName>
++                                                    <persName ref="P0001255">Dr. Wilhelm Tamm</persName>
+                                                   <term>
+                                                   <date from="1887"/>
+                                                   <date to="1888"/>
+@@ -4202,7 +4209,7 @@
+                                             <changes>
+                                                  <addition date="0"/>
+                                                 <vacant date=""/>
+-                                                <restructure date=""> </restructure>
++                                                <restructure date="1873">umbenannt in Hofärzte</restructure>
+                                                 <removed date=""/>
+                                             </changes>
+                                         </office>
+@@ -4218,9 +4225,10 @@
+                                                   <date from="1861"/>
+                                                   <date to="1863"/>
+                                                   </term>
++                                                    <note>Wirtschafts-Intendant</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Freiherr Ludwig
++                                                    <persName ref="P0001442">Freiherr Ludwig
+                                                   Heinrich Detlev Friedrich von Schele (Commissarius
+                                                   für die Verwaltung)</persName>
+                                                   <term>
+@@ -4229,70 +4237,89 @@
+                                                   </term>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Wittwer
+-                                                  (Wirthschafts-Administrator)</persName>
++                                                    <persName ref="P0003297">Wittwer
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1862"/>
+                                                   <date to="1865"/>
+                                                   </term>
++                                                    <note>Wirthschafts-Administrator</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Hoffmann
+-                                                  (Wirthschafts-Administrator)</persName>
++                                                    <persName ref="P0003063">Hoffmann
++                                                  </persName>
+                                                   <term>
+-                                                  <date from="18"/>
+-                                                  <date to="18"/>
++                                                  <date from="1868"/>
++                                                  <date to="1873"/>
+                                                   </term>
++                                                    <note>Wirthschafts-Administrator</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Teichler
+-                                                  (Hofgärtner)</persName>
+-                                                  <!-- Bruno?, gibt Vater und Sohn Teichler als Hofgärtner in E.; siehe: https://www.däumel.de/GD/100_Jahre_FG/Seite_1.html; später siehe Schloßverwaltungen -->
++                                                    <persName ref="ed_rmd_525_bkb">Teichler
++                                                 </persName>
++                                                  <!-- gibt Vater und Sohn Teichler als Hofgärtner in E.; siehe: https://www.däumel.de/GD/100_Jahre_FG/Seite_1.html; später siehe Schloßverwaltungen -->
+                                                   <term>
+-                                                  <date from="18"/>
+-                                                  <date to="18"/>
++                                                  <date from="1861"/>
++                                                  <date to="1876"/>
+                                                   </term>
++                                                    <note>Hofgärtner</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Alert
+-                                                  (Kastellan)</persName>
++                                                    <persName ref="P0001261">Bruno Teichler
++                                                        </persName>
++                                                    <!-- gibt Vater und Sohn Teichler als Hofgärtner in E.; siehe: https://www.däumel.de/GD/100_Jahre_FG/Seite_1.html; später siehe Schloßverwaltungen -->
++                                                    <term>
++                                                        <date from="1876"/>
++                                                        <date to="?"/>
++                                                    </term>
++                                                    <note>Hofgärtner</note>
++                                                </person>
++                                                <person>
++                                                    <persName ref="P0004653">Alert
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1862"/>
+                                                   <date to="1873"/>
+                                                   </term>
++                                                    <note>Kastellan</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Karl von Münchhausen
++                                                    <persName ref="P0002486">Karl von Münchhausen
+                                                   (lokale Oberaufsicht u.
+                                                   Schlosshauptmann)</persName>
+                                                   <term>
+                                                   <date from="1868"/>
+                                                   <date to="1873"/>
+                                                   </term>
++                                                    <note>lokale Oberaufsicht u.
++                                                        Schlosshauptmann</note>
+                                                 </person>
+                                                 <person>
+                                                   <persName ref="Registerlink">v. Spankeren
+-                                                  (Commissarius für die Verwaltung)</persName>
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1873"/>
+                                                   <date to="1885"/>
+                                                   </term>
++                                                    <note>Commissarius für die Verwaltung</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">v. Münch
+-                                                  (Commissarius für die Verwaltung)</persName>
++                                                    <persName ref="P0002481">v. Münch
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1886"/>
+                                                   <date to="1888"/>
+                                                   </term>
++                                                    <note>Commissarius für die Verwaltung</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Buchwald
+-                                                  (Wirthschafts-Administrator)</persName>
++                                                    <persName ref="P0004589">Buchwald
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1876"/>
+                                                   <date to="1888"/>
+                                                   </term>
++                                                    <note>Wirthschafts-Administrator</note>
+                                                 </person>
+                                             </persList>
+                                             <changes>
+@@ -4309,20 +4336,31 @@
+                                             <description>Kurzbeschreibung des Amtes</description>
+                                             <persList>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Kindermann
+-                                                  (Hofgärtner)</persName>
++                                                    <persName ref="ed_ckf_3cg_nkb">Ferdinand Kindermann
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1862"/>
+-                                                  <date to="1888"/>
++                                                  <date to="1865"/>
+                                                   </term>
++                                                    <note>Hofgärtner</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Theile
++                                                    <persName ref="P0002714">Otto Kindermann
++                                                    </persName>
++                                                    <term>
++                                                        <date from="1865"/>
++                                                        <date to="1888"/>
++                                                    </term>
++                                                    <note>Hofgärtner</note>
++                                                </person>
++                                                <person>
++                                                    <persName ref="P0001268">Theile
+                                                   (Kastellan)</persName>
+                                                   <term>
+                                                   <date from="1862"/>
+                                                   <date to="1888"/>
+                                                   </term>
++                                                    <note> Kastellan; evtl. ab 1883 von Gattin abgelöst</note>
+                                                 </person>
+                                             </persList>
+                                             <changes>
+@@ -4335,8 +4373,8 @@
+                                     </list>
+                                 </office>
+                                 <office>
+-                                    <title id="d1e5283">Ressort:</title>
+-                                    <description>Kurzbeschreibung des Amtes</description>
++                                    <title id="d1e5283">Ressort des Hofmarschallamts</title>
++                                    <description>Haushaltswesen, umfasst alle für die Haushaltung nötigen Bereiche</description>
+                                     <changes>
+                                          <addition date="0"/>
+                                         <vacant date=""/>
+@@ -4350,101 +4388,111 @@
+                                             <description>Kurzbeschreibung des Amtes</description>
+                                             <persList>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Tiedke
+-                                                  (Garderobe-Intendant, vom Hofstaat Friedrich
+-                                                  Wilhelm IV.)</persName>
++                                                    <persName ref="P0001293">E. Tiedke
++                                                  </persName>
+                                                   <term>
+                                                   <date from="18??"/>
+                                                   <date to="1861"/>
+                                                   </term>
++                                                    <note>Garderobe-Intendant, vom Hofstaat Friedrich
++                                                        Wilhelm IV.</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Thiele (Kammerdiener,
+-                                                  vom Hofstaat Friedrich Wilhelm IV.)</persName>
++                                                    <persName ref="P0001270">A. Thiele </persName>
+                                                   <term>
+                                                   <date from="18??"/>
+                                                   <date to="1861"/>
+                                                   </term>
++                                                    <note>Kammerdiener, vom Hofstaat Friedrich Wilhelm IV.</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Daecke (Kammerdiener,
+-                                                  vom Hofstaat Friedrich Wilhelm IV.)</persName>
++                                                    <persName ref="P0004086">C. A. F. Daecke</persName>
+                                                   <term>
+                                                   <date from="18"/>
+                                                   <date to="1861"/>
+                                                   </term>
++                                                    <note>Kammerdiener,
++                                                        vom Hofstaat Friedrich Wilhelm IV.</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Arndt (Kammerdiener,
+-                                                  vom Hofstaat Friedrich Wilhelm IV.)</persName>
++                                                    <persName ref="P0004705">Arndt </persName>
+                                                   <term>
+                                                   <date from="18"/>
+                                                   <date to="1861"/>
+                                                   </term>
++                                                    <note>Kammerdiener,
++                                                        vom Hofstaat Friedrich Wilhelm IV.</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Kurs (Haushofmeister,
+-                                                  vom Hofstaat Friedrich Wilhelm IV.)</persName>
++                                                    <persName ref="P0002816">E. Kurs</persName>
+                                                   <term>
+                                                   <date from="18"/>
+                                                   <date to="1861"/>
+                                                   </term>
++                                                    <note>Haushofmeister,vom Hofstaat Friedrich Wilhelm IV.</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Zierbeck
+-                                                  (Kammerdiener)</persName>
++                                                    <persName ref="P0003155">G. Zierbeck
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1863"/>
+                                                   </term>
++                                                    <note>Kammerdiener</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Engel (Kammerdiener;
+-                                                  ab 1885 auch Garderobe-Intendant)</persName>
++                                                    <persName ref="P0004061">Engel </persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1888"/>
+                                                   </term>
++                                                    <note>Kammerdiener;
++                                                        ab 1885 auch Garderobe-Intendant</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Krause
+-                                                  (Kammerdiener)</persName>
++                                                    <persName ref="P0002784">Krause
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1888"/>
+                                                   </term>
++                                                    <note>Kammerdiener</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Schmitdke
+-                                                  (Kammerdiener)</persName>
++                                                    <persName ref="ed_zkw_2v5_nkb">F. Schmidtke
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1865"/>
+                                                   <date to="1884"/>
+                                                   </term>
++                                                    <note>Kammerdiener</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Keller
+-                                                  (Haushofmeister)</persName>
++                                                    <persName ref="ed_sjs_xgs_pkb">J. Keller
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1865"/>
+                                                   </term>
++                                                    <note>Haushofmeister (Aufseher über Küche und Keller; Besorger der häuslichen Geschäfte)</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Moritz Wilhelm
+-                                                  Zeuschner (Haushofmeister)</persName>
++                                                    <persName ref="P0003151">Moritz Wilhelm
++                                                  Zeuschner</persName>
+                                                   <term>
+                                                   <date from="1868"/>
+                                                   <date to="1881"/>
+                                                   </term>
++                                                    <note>Haushofmeister (Aufseher über Küche und Keller; Besorger der häuslichen Geschäfte)</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Ukermarker
++                                                    <persName ref="P0001239">F. Ukermarker
+                                                   (Kammerdiener)</persName>
+                                                   <term>
+                                                   <date from="1884"/>
+                                                   <date to="1888"/>
+                                                   </term>
++                                                    <note>Kammerdiener</note>
+                                                 </person>
+                                             </persList>
+                                             <changes>
+@@ -4459,40 +4507,44 @@
+                                                   des Königs stehende, ehemalige unmittelbare
+                                                   Bedienung des verstorbenen Friedrich Wilhelms IV.
+                                                   </title>
+-                                                  <description>Kurzbeschreibung des
+-                                                  Amtes</description>
++                                                  <description>vom Leibdienst bei Friedrich Wilhelm IV. in den Dienst von Wilhelm übernommene Diener</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Tiedke
+-                                                  (Garderobe-Intendant)</persName>
++                                                      <persName ref="P0001293">E. Tiedke
++                                                  </persName>
+                                                   <term>
+                                                   <date from="1862"/>
+                                                   <date to="1865"/>
+                                                   </term>
++                                                      <note>Garderobe-Intendant</note>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Daecke
++                                                      <persName ref="P0004086">C. A. F. Daecke
+                                                   (Kammerdiener)</persName>
+                                                   <term>
+-                                                  <date from="18"/>
++                                                      <note>Kammerdiener</note>
++                                                  <date from="1862"/>
+                                                   <date to="1865"/>
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Arndt
+-                                                  (Kammerdiener)</persName>
++                                                      <persName ref="P0004705">Arndt
++                                                  </persName>
+                                                   <term>
+-                                                  <date from="18"/>
++                                                      <note>Kammerdiener</note>
++                                                       
++                                                  <date from="1862"/>
+                                                   <date to="1865"/>
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Kurs
++                                                      <persName ref="P0002816">E. Kurs
+                                                   (Haushofmeister)</persName>
+                                                   <term>
+-                                                  <date from="18"/>
++                                                  <date from="1862"/>
+                                                   <date to="1865"/>
+                                                   </term>
++                                                      <note>Haushofmeister, auch Lichtkammer-Rendant</note>
+                                                   </person>
+                                                   </persList>
+                                                   <changes>
+@@ -4506,12 +4558,12 @@
+                                         </office>
+                                         <office>
+                                             <title id="d1e5398">2. Hof-Fouriere</title>
+-                                            <description>rekrutieren sich aus älteren Leibjägern (LJ
++                                            <description>rekrutieren sich aus älteren Leibjägern (Leibjäger
+                                                 habe unmittelbaren Dienst beim Kaiser, servieren,
+-                                                Büchsenspanner, Begleitung bei Ausfahrt und Reisen);
++                                                sind Büchsenspanner, bieten Begleitung bei Ausfahrt und Reisen);
+                                                 Aufgaben: Überwachung der Diener, tägliche
+                                                 Einteilung des kleinen Dienstes; bestimmen, welche
+-                                                Lakein zur Ausfahrt, zum Servieren, Aufwarten im
++                                                Lakaien zur Ausfahrt, zum Servieren, Aufwarten im
+                                                 Vorzimmer; Kontrollieren, ob jeder auf Posten ist
+                                                 und Dienst korrekt versieht; machen auf Reisen
+                                                 Quartier, reisen voraus, versehen Amt sogenannter
+@@ -4519,7 +4571,7 @@
+                                                 Hofbällen</description>
+                                             <persList>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Immelmann </persName>
++                                                    <persName ref="P0002847">H. Immelmann </persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1861"/>
+@@ -4527,7 +4579,7 @@
+                                                   <note>1. Hoffourier</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Schwarz </persName>
++                                                    <persName ref="P0001593">Schwarz </persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1868"/>
+@@ -4535,37 +4587,37 @@
+                                                   <note>1. Hoffourier</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Heidemann </persName>
++                                                    <persName ref="P0002935">Heidemann</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1865"/>
+                                                   </term>
+-                                                  <note>Hoffourier, ab 1862 1.</note>
++                                                    <note> ab 1862 1. Hoffourier</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Köster</persName>
++                                                    <persName ref="P0002774">Köster</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1887"/>
+                                                   </term>
+-                                                  <note>ab 1873 in Potsdam</note>
++                                                  <note>in Potsdam</note>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Kniehase</persName>
++                                                    <persName ref="P0002750">Kniehase</persName>
+                                                   <term>
+                                                   <date from="1862"/>
+                                                   <date to="1863"/>
+                                                   </term>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Dorn</persName>
++                                                    <persName ref="P0004147">H. Dorn</persName>
+                                                   <term>
+                                                   <date from="1865"/>
+                                                   <date to="1875"/>
+                                                   </term>
+                                                 </person>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Berg</persName>
++                                                    <persName ref="P0004368">C. Berg</persName>
+                                                   <term>
+                                                   <date from="1868"/>
+                                                   <date to="1883"/>
+@@ -5400,7 +5452,7 @@
+                                                   Amtes</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Léon</persName>
++                                                      <persName ref="P0002557">J. C. H. Léon</persName>
+                                                   <term>
+                                                   <date from="1865"/>
+                                                   <date to="1865"/>
+@@ -5408,7 +5460,7 @@
+                                                   <note>Hof-Kammer-Rath, s. Hofkammer</note>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Dr. Girau</persName>
++                                                      <persName ref="P0003823">Dr. G. F. Girau</persName>
+                                                   <term>
+                                                   <date from="1868"/>
+                                                   <date to="1877"/>
+@@ -5416,7 +5468,7 @@
+                                                   <note>Hof-Justizrath, s. Hofmarschallamt</note>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Fleischhammer</persName>
++                                                      <persName ref="P0003956">P. Fleischhammer</persName>
+                                                   <term>
+                                                   <date from="1878"/>
+                                                   <date to="1888"/>
+@@ -5438,7 +5490,7 @@
+                                             <description>Kurzbeschreibung des Amtes</description>
+                                             <persList>
+                                                 <person>
+-                                                  <persName ref="Registerlink">Moritz
++                                                    <persName ref="P0003850">Moritz
+                                                   Gottgetreu</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+@@ -6301,7 +6353,7 @@
+                                                   <note>Controlleur u. Kalkulator</note>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Léon</persName>
++                                                      <persName ref="P0002557">J. C. H. Léon</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1865"/>
+@@ -6309,7 +6361,7 @@
+                                                   <note>Rechtskonsulent</note>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Dr. Girau</persName>
++                                                      <persName ref="P0003823">Dr. G F. Girau</persName>
+                                                   <term>
+                                                   <date from="1868"/>
+                                                   <date to="1877"/>
+@@ -6317,7 +6369,7 @@
+                                                   <note>Rechtskonsulent</note>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Fleischhammer</persName>
++                                                      <persName ref="P0003956">P. Fleischhammer</persName>
+                                                   <term>
+                                                   <date from="1878"/>
+                                                   <date to="1888"/>
+@@ -6333,7 +6385,7 @@
+                                                   <note>Baubeamter: Hofkammer- u. Bau-Rath</note>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Bohm</persName>
++                                                      <persName ref="P0004469">Carl Bohm</persName>
+                                                   <term>
+                                                   <date from="1875"/>
+                                                   <date to="1888"/>
+@@ -6946,21 +6998,21 @@
+                                                   Amtes</description>
+                                                   <persList>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Léon</persName>
++                                                      <persName ref="P0002557">J. H. C. Léon</persName>
+                                                   <term>
+                                                   <date from="1861"/>
+                                                   <date to="1865"/>
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Dr. Girau</persName>
++                                                      <persName ref="P0003823">Dr. G. F. Girau</persName>
+                                                   <term>
+                                                   <date from="1868"/>
+                                                   <date to="1878"/>
+                                                   </term>
+                                                   </person>
+                                                   <person>
+-                                                  <persName ref="Registerlink">Fleischhammer</persName>
++                                                      <persName ref="P0003956">P. Fleischhammer</persName>
+                                                   <term>
+                                                   <date from="1879"/>
+                                                   <date to="1888"/>
+@@ -7458,6 +7510,7 @@
+                                     wieder da, siehe dort</restructure>
+                                 <removed date=""/>
+                             </changes>
++                            
+                             <list>
+                                 <office>
+                                     <title id="d1e7742">Chef s. Oberste Hofchargen</title>
+diff --git a/mop/data/Organigramme/WilhelmI_Rest.xml b/home/gordon/backup182/db/projects/mop/data/Organigramme/WilhelmI_Rest.xml
+index 20f948f..0417d3e 100644
+--- a/mop/data/Organigramme/WilhelmI_Rest.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Organigramme/WilhelmI_Rest.xml
+@@ -3281,7 +3281,7 @@
+ 			</list>
+ 			<list>
+ 				<office>
+-					<title id="#d1e4889">Hofstaat Ihrer Majestät, Königin ind Kaiserin Augusta </title>
++					<title id="#d1e4889">Hofstaat Ihrer Majestät </title>
+ 					<description/>
+ 
+ 					<changes>
+diff --git a/mop/data/Organigramme/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Organigramme/__contents__.xml
+index 88f9141..c94e640 100644
+--- a/mop/data/Organigramme/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Organigramme/__contents__.xml
+@@ -1,39 +1,39 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Organigramme" version="1" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:51.787+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="organigramProjektdatenMai2019.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-07-09T14:10:58+02:00" modified="2019-11-06T12:10:01+01:00" filename="organigramProjektdatenMai2019.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="organigramProjektdatenMai2019.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-07-09T14:10:58.601+02:00" modified="2019-11-06T12:10:01.245+01:00" filename="organigramProjektdatenMai2019.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Friedrich_Wilhelm_II_Rest.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="674" created="2019-06-07T11:17:19+02:00" modified="2019-11-27T12:43:27+01:00" filename="Friedrich_Wilhelm_II_Rest.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Friedrich_Wilhelm_II_Rest.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="674" created="2019-06-07T11:17:19.469+02:00" modified="2019-11-27T12:43:27.392+01:00" filename="Friedrich_Wilhelm_II_Rest.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="test.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-06T12:10:37+01:00" modified="2019-11-06T12:35:23+01:00" filename="test.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="test.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-06T12:10:37.532+01:00" modified="2019-11-06T12:35:23.832+01:00" filename="test.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Unbenannt.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-11-26T10:33:28+01:00" modified="2019-11-26T10:33:28+01:00" filename="Unbenannt.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Unbenannt.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-11-26T10:33:28.792+01:00" modified="2019-11-26T10:33:28.792+01:00" filename="Unbenannt.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="WilhelmI_Rest.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-02-04T11:38:39+01:00" modified="2020-02-11T11:58:43.278+01:00" filename="WilhelmI_Rest.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="WilhelmI_Rest.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-02-04T11:38:39.902+01:00" modified="2020-01-22T12:23:32.968+01:00" filename="WilhelmI_Rest.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Friedrich_Wilhelm_II.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="674" created="2019-06-05T15:31:28+02:00" modified="2020-01-24T10:50:33+01:00" filename="Friedrich_Wilhelm_II.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Friedrich_Wilhelm_II.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="674" created="2019-06-05T15:31:28.107+02:00" modified="2020-01-24T10:50:33.778+01:00" filename="Friedrich_Wilhelm_II.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="FWIII_Hofstaat_SM.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="674" created="2019-07-16T14:37:04+02:00" modified="2020-01-07T10:19:33+01:00" filename="FWIII_Hofstaat_SM.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="FWIII_Hofstaat_SM.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="674" created="2019-07-16T14:37:04.919+02:00" modified="2020-01-07T10:19:33.102+01:00" filename="FWIII_Hofstaat_SM.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="WilhelmI.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:51+02:00" modified="2020-02-11T12:23:44.131+01:00" filename="WilhelmI.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="WilhelmI.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:51.807+02:00" modified="2020-02-05T09:33:32.859+01:00" filename="WilhelmI.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="FWIII_Schauspiele.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="674" created="2019-07-16T14:37:04+02:00" modified="2019-10-25T11:03:18+02:00" filename="FWIII_Schauspiele.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="FWIII_Schauspiele.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="674" created="2019-07-16T14:37:04.759+02:00" modified="2019-10-25T11:03:18.033+02:00" filename="FWIII_Schauspiele.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="organigrammWireframeStatistikseite.html" skip="no" owner="admin" group="dba" mode="644" created="2019-07-09T14:11:53+02:00" modified="2019-07-09T14:11:53+02:00" filename="organigrammWireframeStatistikseite.html" mimetype="text/html">
++    <resource type="XMLResource" name="organigrammWireframeStatistikseite.html" skip="no" owner="admin" group="dba" mode="644" created="2019-07-09T14:11:53.679+02:00" modified="2019-07-09T14:11:53.679+02:00" filename="organigrammWireframeStatistikseite.html" mimetype="text/html">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="WilhelmI_backup.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-12-13T14:59:24+01:00" modified="2019-12-13T14:59:32+01:00" filename="WilhelmI_backup.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="WilhelmI_backup.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-12-13T14:59:24.751+01:00" modified="2019-12-13T14:59:32.55+01:00" filename="WilhelmI_backup.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="FWIII_Rest.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="674" created="2019-07-16T14:37:04+02:00" modified="2020-01-10T10:29:37+01:00" filename="FWIII_Rest.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="FWIII_Rest.xml" skip="no" owner="exist-bot" group="mop-nutzer" mode="674" created="2019-07-16T14:37:04.458+02:00" modified="2020-01-10T10:29:37.561+01:00" filename="FWIII_Rest.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <subcollection name="xslt" filename="xslt"/>
+diff --git a/mop/data/Organigramme/xslt/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Organigramme/xslt/__contents__.xml
+index 741f99c..dc960c7 100644
+--- a/mop/data/Organigramme/xslt/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Organigramme/xslt/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Organigramme/xslt" version="1" owner="exist-bot" group="mop-nutzer" mode="770" created="2018-10-18T12:30:52.048+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="organigramXMLtoXML.xsl" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-02-04T11:27:17+01:00" modified="2019-07-16T14:35:35+02:00" filename="organigramXMLtoXML.xsl" mimetype="application/xslt+xml">
++    <resource type="XMLResource" name="organigramXMLtoXML.xsl" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-02-04T11:27:17.422+01:00" modified="2019-07-16T14:35:35.803+02:00" filename="organigramXMLtoXML.xsl" mimetype="application/xslt+xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="rohdaten_transformation_xml.xsl" skip="no" owner="website-user" group="website" mode="644" created="2019-06-05T15:30:44+02:00" modified="2019-06-05T15:30:44+02:00" filename="rohdaten_transformation_xml.xsl" mimetype="application/xslt+xml">
++    <resource type="XMLResource" name="rohdaten_transformation_xml.xsl" skip="no" owner="website-user" group="website" mode="644" created="2019-06-05T15:30:44.096+02:00" modified="2019-06-05T15:30:44.096+02:00" filename="rohdaten_transformation_xml.xsl" mimetype="application/xslt+xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="ausgabeInterne.xsl" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2018-11-12T11:22:07+01:00" modified="2019-06-14T09:39:25+02:00" filename="ausgabeInterne.xsl" mimetype="application/xslt+xml">
++    <resource type="XMLResource" name="ausgabeInterne.xsl" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2018-11-12T11:22:07.551+01:00" modified="2019-06-14T09:39:25.513+02:00" filename="ausgabeInterne.xsl" mimetype="application/xslt+xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

@@ -1,0 +1,79 @@
+diff --git a/cagb/data/Vorhaben/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Vorhaben/__contents__.xml
+index 76f4484..839c006 100644
+--- a/cagb/data/Vorhaben/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Vorhaben/__contents__.xml
+@@ -1,45 +1,45 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Vorhaben" version="1" owner="admin" group="dba" mode="750" created="2018-01-08T15:59:54.589+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="werke.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-07T10:41:23+01:00" modified="2019-11-08T10:59:52+01:00" filename="werke.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="werke.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-07T10:41:23.829+01:00" modified="2019-11-08T10:59:52.254+01:00" filename="werke.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="register.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-07T10:43:48+01:00" modified="2019-11-08T10:56:33+01:00" filename="register.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="register.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-07T10:43:48.331+01:00" modified="2019-11-08T10:56:33.966+01:00" filename="register.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="personen.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:54+01:00" modified="2019-11-07T10:48:16+01:00" filename="personen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="personen.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:54.979+01:00" modified="2019-11-07T10:48:16.118+01:00" filename="personen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="kooperation.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:54+01:00" modified="2018-07-11T14:49:58+02:00" filename="kooperation.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="kooperation.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:54.863+01:00" modified="2018-07-11T14:49:58.674+02:00" filename="kooperation.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="datenschutz.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-07-11T15:24:16+02:00" modified="2019-11-06T10:39:10+01:00" filename="datenschutz.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="datenschutz.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-07-11T15:24:16.499+02:00" modified="2020-01-30T13:13:33.633+01:00" filename="datenschutz.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="start.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:55+01:00" modified="2018-07-11T10:20:28+02:00" filename="start.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="start.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:55.034+01:00" modified="2018-07-11T10:20:28.593+02:00" filename="start.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="team.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:55+01:00" modified="2019-01-09T13:40:19+01:00" filename="team.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="team.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:55.093+01:00" modified="2019-01-09T13:40:19.945+01:00" filename="team.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="technik.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:55+01:00" modified="2019-11-06T10:43:27+01:00" filename="technik.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="technik.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:55.15+01:00" modified="2019-11-06T10:43:27.008+01:00" filename="technik.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="cag-editoren.xml" skip="no" owner="admin" group="dba" mode="640" created="2018-01-08T15:59:55+01:00" modified="2018-07-11T15:17:33+02:00" filename="cag-editoren.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="cag-editoren.xml" skip="no" owner="admin" group="dba" mode="640" created="2018-01-08T15:59:55.207+01:00" modified="2018-07-11T15:17:33.213+02:00" filename="cag-editoren.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="editionen.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:55+01:00" modified="2019-10-08T14:14:23+02:00" filename="editionen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="editionen.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:55.27+01:00" modified="2019-10-08T14:14:23.161+02:00" filename="editionen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="heuristik.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:55+01:00" modified="2018-07-11T15:01:10+02:00" filename="heuristik.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="heuristik.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:55.339+01:00" modified="2018-07-11T15:01:10.53+02:00" filename="heuristik.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="impressum.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:55+01:00" modified="2018-07-11T14:58:11+02:00" filename="impressum.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="impressum.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:55.394+01:00" modified="2018-07-11T14:58:11.111+02:00" filename="impressum.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="kontakt.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:55+01:00" modified="2018-01-08T15:59:55+01:00" filename="kontakt.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="kontakt.xml" skip="no" owner="admin" group="dba" mode="644" created="2018-01-08T15:59:55.453+01:00" modified="2018-01-08T15:59:55.453+01:00" filename="kontakt.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="texte.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-06T15:33:07+01:00" modified="2019-11-08T10:59:20+01:00" filename="texte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="texte.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-06T15:33:07.82+01:00" modified="2019-11-08T10:59:20.888+01:00" filename="texte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/Vorhaben/datenschutz.xml b/home/gordon/backup182/db/projects/cagb/data/Vorhaben/datenschutz.xml
+index 76d2359..dd7cbbd 100644
+--- a/cagb/data/Vorhaben/datenschutz.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Vorhaben/datenschutz.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <div xml:id="datenschutz">
+-    <iframe style="border: 0; height: 2070px; width: 650px;" src="https://dschutz.bbaw.de/"/>
++    <iframe style="border: 0; height: 2070px; width: 580px; margin-left: -44px" src="https://dschutz.bbaw.de/"/>
+     
+-    <iframe style="border: 0; height: 200px; width: 600px;" src="https://piwik.bbaw.de/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de"/>
++    <iframe style="border: 0; height: 230px; width: 520px;" src="https://piwik.bbaw.de/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de"/>
+ </div>
+\ No newline at end of file

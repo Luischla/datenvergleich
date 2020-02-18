@@ -1,0 +1,275 @@
+diff --git a/bibelexegese/data/Handschriften/Athen/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Athen/__contents__.xml
+index 146a3cd..01981d7 100644
+--- a/bibelexegese/data/Handschriften/Athen/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Athen/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Handschriften/Athen" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:43.357+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Atheniensis_253.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:01+01:00" modified="2019-08-26T17:08:47+02:00" filename="Atheniensis_253.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Atheniensis_253.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:01.902+01:00" modified="2020-02-05T15:47:03.664+01:00" filename="Atheniensis_253.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/bibelexegese/data/Handschriften/Athos/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Athos/__contents__.xml
+index e299b7b..122889b 100644
+--- a/bibelexegese/data/Handschriften/Athos/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Athos/__contents__.xml
+@@ -1,15 +1,15 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Handschriften/Athos" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:43.355+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Athous_Stavronikita_32.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:11+01:00" modified="2019-08-27T12:35:44+02:00" filename="Athous_Stavronikita_32.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Athous_Stavronikita_32.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:11.666+01:00" modified="2020-02-05T15:47:04.271+01:00" filename="Athous_Stavronikita_32.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Athous_Panteleeimon_Suppl_C_5.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:10+01:00" modified="2019-08-27T12:20:27+02:00" filename="Athous_Panteleeimon_Suppl_C_5.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Athous_Panteleeimon_Suppl_C_5.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:10.049+01:00" modified="2020-02-05T15:47:04.194+01:00" filename="Athous_Panteleeimon_Suppl_C_5.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Athous_Panteleeimon_58.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:08+01:00" modified="2019-08-27T12:14:03+02:00" filename="Athous_Panteleeimon_58.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Athous_Panteleeimon_58.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:08.373+01:00" modified="2020-02-05T15:47:04.07+01:00" filename="Athous_Panteleeimon_58.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Athous_Karakalou_5.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:06+01:00" modified="2019-08-26T17:20:45+02:00" filename="Athous_Karakalou_5.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Athous_Karakalou_5.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:06.724+01:00" modified="2020-02-05T15:47:03.849+01:00" filename="Athous_Karakalou_5.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/bibelexegese/data/Handschriften/Escorial/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Escorial/__contents__.xml
+index 00c2ef6..241a687 100644
+--- a/bibelexegese/data/Handschriften/Escorial/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Escorial/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Handschriften/Escorial" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:43.358+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Scorialensis_Phi_III_20_201908_MUELL.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:19+01:00" modified="2019-08-22T18:24:17+02:00" filename="Scorialensis_Phi_III_20_201908_MUELL.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Scorialensis_Phi_III_20_201908_MUELL.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:19.686+01:00" modified="2020-02-05T15:47:04.556+01:00" filename="Scorialensis_Phi_III_20_201908_MUELL.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Scorialensis_Phi_III_20_20190823_MUELL.xml" skip="no" owner="pruefer" group="bibelexegese-nutzer" mode="660" created="2019-08-23T16:17:42+02:00" modified="2019-09-05T19:00:41+02:00" filename="Scorialensis_Phi_III_20_20190823_MUELL.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Scorialensis_Phi_III_20_20190823_MUELL.xml" skip="no" owner="pruefer" group="bibelexegese-nutzer" mode="660" created="2019-08-23T16:17:42.44+02:00" modified="2020-02-05T15:47:04.437+01:00" filename="Scorialensis_Phi_III_20_20190823_MUELL.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Scorialensis_Phi_III_20_20190906_AKTUELL.xml" skip="no" owner="pruefer" group="bibelexegese-nutzer" mode="660" created="2019-09-06T15:14:47+02:00" modified="2019-12-09T14:51:09+01:00" filename="Scorialensis_Phi_III_20_20190906_AKTUELL.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Scorialensis_Phi_III_20_20190906_AKTUELL.xml" skip="no" owner="pruefer" group="bibelexegese-nutzer" mode="660" created="2019-09-06T15:14:47.968+02:00" modified="2020-02-05T15:47:04.671+01:00" filename="Scorialensis_Phi_III_20_20190906_AKTUELL.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/bibelexegese/data/Handschriften/Kopenhagen/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Kopenhagen/__contents__.xml
+index f3ca048..5b75589 100644
+--- a/bibelexegese/data/Handschriften/Kopenhagen/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Kopenhagen/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Handschriften/Kopenhagen" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:43.359+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Hauniensis_e_don_var_12-2_AKTUELL.xml" skip="no" owner="pruefer" group="bibelexegese-nutzer" mode="660" created="2019-09-24T18:42:04+02:00" modified="2019-10-02T13:55:01+02:00" filename="Hauniensis_e_don_var_12-2_AKTUELL.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Hauniensis_e_don_var_12-2_AKTUELL.xml" skip="no" owner="pruefer" group="bibelexegese-nutzer" mode="660" created="2019-09-24T18:42:04.857+02:00" modified="2020-02-05T15:47:04.937+01:00" filename="Hauniensis_e_don_var_12-2_AKTUELL.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Hauniensis_e_don_var_12-2.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:24+01:00" modified="2019-08-15T13:40:52+02:00" filename="Hauniensis_e_don_var_12-2.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Hauniensis_e_don_var_12-2.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:24.546+01:00" modified="2020-02-05T15:47:04.799+01:00" filename="Hauniensis_e_don_var_12-2.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/bibelexegese/data/Handschriften/Lesbos/Leimonos_42.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Lesbos/Leimonos_42.xml
+index 38201ab..0046299 100644
+--- a/bibelexegese/data/Handschriften/Lesbos/Leimonos_42.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Lesbos/Leimonos_42.xml
+@@ -45,10 +45,10 @@
+                             <locus from="4r" to="23v">4r-23v</locus> Severianus Gabalensis, In Incarnationem Domini (CPG 4204, BHG
+                             1910k, Aldama 317)</p>
+                     </msItem>
+-                    <msItem n="t4">
++                    <msItem n="t4" corresp="Werke.xml#CPG4185">
+                         <p>
+                             <locus from="23v" to="33r">23v-33r</locus>
+-                            <rubric xml:lang="grc" ref="Werke.xml#CPG4185">Τοῦ αὐτοῦ ὁμιλία εἰς τὸν περὶ φύσεως νόμον</rubric>
++                            <rubric xml:lang="grc">Τοῦ αὐτοῦ ὁμιλία εἰς τὸν περὶ φύσεως νόμον</rubric>
+                             <incipit xml:lang="grc">πᾶσα γραφὴ θεόπνευστος καὶ ὠφέλιμος</incipit>
+                             <explicit xml:lang="grc">νῦν καὶ ἀεὶ καὶ εἰς τοὺς ἀτελευτήτους αἰῶνας τῶν αἰώνων ἀμήν.</explicit>
+                         </p>
+diff --git a/bibelexegese/data/Handschriften/Lesbos/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Lesbos/__contents__.xml
+index 63e11f5..575a2b9 100644
+--- a/bibelexegese/data/Handschriften/Lesbos/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Lesbos/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Handschriften/Lesbos" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:43.355+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Leimonos_42.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:29+01:00" modified="2019-08-27T12:48:44+02:00" filename="Leimonos_42.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Leimonos_42.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:29.292+01:00" modified="2020-02-05T15:47:05.019+01:00" filename="Leimonos_42.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/bibelexegese/data/Handschriften/London/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/London/__contents__.xml
+index 6738665..559e4af 100644
+--- a/bibelexegese/data/Handschriften/London/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/London/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Handschriften/London" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:43.356+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="BL_Arundel_542.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:34+01:00" modified="2019-08-27T12:51:15+02:00" filename="BL_Arundel_542.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="BL_Arundel_542.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:34.054+01:00" modified="2020-02-05T15:47:05.081+01:00" filename="BL_Arundel_542.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/bibelexegese/data/Handschriften/Moskau/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Moskau/__contents__.xml
+index 4eed2b7..ecae112 100644
+--- a/bibelexegese/data/Handschriften/Moskau/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Moskau/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Handschriften/Moskau" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:43.357+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Mosquensis_Sinod_gr_284.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:40+01:00" modified="2019-12-09T14:53:04+01:00" filename="Mosquensis_Sinod_gr_284.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mosquensis_Sinod_gr_284.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:40.444+01:00" modified="2020-02-05T15:47:05.702+01:00" filename="Mosquensis_Sinod_gr_284.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mosquensis_Sinod_gr_109.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:38+01:00" modified="2019-08-27T12:54:48+02:00" filename="Mosquensis_Sinod_gr_109.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mosquensis_Sinod_gr_109.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:38.849+01:00" modified="2020-02-05T15:47:05.216+01:00" filename="Mosquensis_Sinod_gr_109.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git "a/bibelexegese/data/Handschriften/M\342\224\234\342\225\235nchen/__contents__.xml" "b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/M\342\224\234\342\225\235nchen/__contents__.xml"
+index f1c6e47..3937efc 100644
+--- "a/bibelexegese/data/Handschriften/M\342\224\234\342\225\235nchen/__contents__.xml"
++++ "b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/M\342\224\234\342\225\235nchen/__contents__.xml"
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Handschriften/M%C3%BCnchen" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:43.356+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Monacensis_gr_377.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:45+01:00" modified="2019-08-28T13:47:13+02:00" filename="Monacensis_gr_377.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Monacensis_gr_377.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:45.241+01:00" modified="2020-02-05T15:47:05.149+01:00" filename="Monacensis_gr_377.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/bibelexegese/data/Handschriften/Paris/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Paris/__contents__.xml
+index 7ad20b3..0af4dc7 100644
+--- a/bibelexegese/data/Handschriften/Paris/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Paris/__contents__.xml
+@@ -1,15 +1,15 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Handschriften/Paris" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:43.358+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Paris_gr_764.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:54+01:00" modified="2019-08-28T13:59:44+02:00" filename="Paris_gr_764.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Paris_gr_764.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:54.865+01:00" modified="2020-02-05T15:47:06.103+01:00" filename="Paris_gr_764.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Paris_gr_748.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:51+01:00" modified="2019-08-28T13:55:09+02:00" filename="Paris_gr_748.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Paris_gr_748.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:51.619+01:00" modified="2020-02-05T15:47:05.913+01:00" filename="Paris_gr_748.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Paris_gr_759.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:53+01:00" modified="2019-08-28T13:56:57+02:00" filename="Paris_gr_759.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Paris_gr_759.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:53.239+01:00" modified="2020-02-05T15:47:06.016+01:00" filename="Paris_gr_759.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Paris_gr_730.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:50+01:00" modified="2019-08-28T13:50:47+02:00" filename="Paris_gr_730.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Paris_gr_730.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:50.004+01:00" modified="2020-02-05T15:47:05.803+01:00" filename="Paris_gr_730.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/bibelexegese/data/Handschriften/Patmos/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Patmos/__contents__.xml
+index 613de65..121aef4 100644
+--- a/bibelexegese/data/Handschriften/Patmos/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Patmos/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Handschriften/Patmos" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:43.358+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Patmos_165.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:59+01:00" modified="2019-08-28T14:02:28+02:00" filename="Patmos_165.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Patmos_165.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:59.642+01:00" modified="2019-08-28T14:02:28.615+02:00" filename="Patmos_165.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/bibelexegese/data/Handschriften/Sinai/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Sinai/__contents__.xml
+index b0a56cd..5bb6855 100644
+--- a/bibelexegese/data/Handschriften/Sinai/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Sinai/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Handschriften/Sinai" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:43.356+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Sinaiticus_gr_491.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:43:04+01:00" modified="2019-12-09T14:47:57+01:00" filename="Sinaiticus_gr_491.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sinaiticus_gr_491.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:43:04.426+01:00" modified="2019-12-09T14:47:57.335+01:00" filename="Sinaiticus_gr_491.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/bibelexegese/data/Handschriften/Vatikan/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Vatikan/__contents__.xml
+index 50e82f9..66f96ce 100644
+--- a/bibelexegese/data/Handschriften/Vatikan/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Vatikan/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Handschriften/Vatikan" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:43.359+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Vat_gr_1630.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:43:14+01:00" modified="2019-08-28T14:07:52+02:00" filename="Vat_gr_1630.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Vat_gr_1630.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:43:14.078+01:00" modified="2020-02-05T15:47:06.181+01:00" filename="Vat_gr_1630.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/bibelexegese/data/Handschriften/Venedig/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Venedig/__contents__.xml
+index bb3fa50..48ddaa5 100644
+--- a/bibelexegese/data/Handschriften/Venedig/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/Venedig/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Handschriften/Venedig" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:43.355+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Marcianus_Z_569.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:43:18+01:00" modified="2019-03-15T12:43:18+01:00" filename="Marcianus_Z_569.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Marcianus_Z_569.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:43:18.874+01:00" modified="2019-03-15T12:43:18.874+01:00" filename="Marcianus_Z_569.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/bibelexegese/data/Handschriften/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/__contents__.xml
+index fa91db8..ff8c127 100644
+--- a/bibelexegese/data/Handschriften/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Handschriften/__contents__.xml
+@@ -1,31 +1,31 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Handschriften" version="1" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:50:43.354+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="doku.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:16+01:00" modified="2019-03-15T12:42:16+01:00" filename="doku.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="doku.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:16.52+01:00" modified="2019-03-15T12:42:16.52+01:00" filename="doku.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="bsp_msDesc.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:14+01:00" modified="2019-03-15T12:42:14+01:00" filename="bsp_msDesc.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="bsp_msDesc.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:42:14.881+01:00" modified="2019-03-15T12:42:14.881+01:00" filename="bsp_msDesc.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="TELOTA_bsp_MSDESC.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:43:07+01:00" modified="2019-08-28T14:10:57+02:00" filename="TELOTA_bsp_MSDESC.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="TELOTA_bsp_MSDESC.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:43:07.638+01:00" modified="2019-08-28T14:10:57.468+02:00" filename="TELOTA_bsp_MSDESC.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="test.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:43:09+01:00" modified="2019-03-15T12:43:09+01:00" filename="test.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="test.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:43:09.251+01:00" modified="2019-03-15T12:43:09.251+01:00" filename="test.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Vorlage.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:43:22+01:00" modified="2019-03-15T12:43:22+01:00" filename="Vorlage.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Vorlage.xml" skip="no" owner="admin" group="bibelexegese-nutzer" mode="770" created="2019-03-15T12:43:22.112+01:00" modified="2020-02-05T15:47:03.602+01:00" filename="Vorlage.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <subcollection name="Venedig" filename="Venedig"/>
+-    <subcollection name="Kopenhagen" filename="Kopenhagen"/>
+-    <subcollection name="Escorial" filename="Escorial"/>
++    <subcollection name="Athos" filename="Athos"/>
+     <subcollection name="Vatikan" filename="Vatikan"/>
++    <subcollection name="Escorial" filename="Escorial"/>
+     <subcollection name="Paris" filename="Paris"/>
+-    <subcollection name="London" filename="London"/>
+-    <subcollection name="Patmos" filename="Patmos"/>
+     <subcollection name="Athen" filename="Athen"/>
+-    <subcollection name="Athos" filename="Athos"/>
++    <subcollection name="Lesbos" filename="Lesbos"/>
++    <subcollection name="Kopenhagen" filename="Kopenhagen"/>
++    <subcollection name="Patmos" filename="Patmos"/>
+     <subcollection name="Moskau" filename="Moskau"/>
+-    <subcollection name="M%C3%BCnchen" filename="München"/>
++    <subcollection name="London" filename="London"/>
+     <subcollection name="Sinai" filename="Sinai"/>
+-    <subcollection name="Lesbos" filename="Lesbos"/>
++    <subcollection name="M%C3%BCnchen" filename="München"/>
+ </collection>
+\ No newline at end of file

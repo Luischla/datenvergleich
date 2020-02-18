@@ -1,0 +1,103 @@
+diff --git a/gregorovius/data/Register/Koerperschaften.xml b/home/gordon/backup182/db/projects/gregorovius/data/Register/Koerperschaften.xml
+index 4177631..74aa193 100644
+--- a/gregorovius/data/Register/Koerperschaften.xml
++++ b/home/gordon/backup182/db/projects/gregorovius/data/Register/Koerperschaften.xml
+@@ -22,6 +22,9 @@
+ <org xml:id="G067519">
+ <orgName type="reg">Apostolische Kammer</orgName>
+ </org>
++<org xml:id="G067814">
++<orgName type="reg">Königliche Öffentliche Bibliothek in Stuttgart</orgName>
++</org>
+ <org xml:id="G000454">
+ <orgName type="reg">Großherzoglich und Herzoglich Sächsische Gesamtuniversität in Jena</orgName>
+ </org>
+@@ -34,7 +37,7 @@
+ <org xml:id="G000457">
+ <orgName type="reg">Archivio notarile Bologna</orgName>
+ </org>
+-<org xml:id="G067835">
++<org xml:id="G067704">
+ <orgName type="reg">Stadt Rom</orgName>
+ </org>
+ <org xml:id="G000458">
+@@ -183,6 +186,9 @@
+ <org xml:id="G000494">
+ <orgName type="reg">Bayerische Akademie der Wissenschaften in München</orgName>
+ </org>
++<org xml:id="G067824">
++<orgName type="reg">Universität München</orgName>
++</org>
+ <org xml:id="G000495">
+ <orgName type="reg">Universitätsbibliothek Neapel</orgName>
+ </org>
+@@ -437,6 +443,12 @@
+ <org xml:id="G067532">
+ <orgName type="reg">Archäologisches Institut in Rom</orgName>
+ </org>
++<org xml:id="G067778">
++<orgName type="reg">Deutsche Schillerstiftung in Weimar</orgName>
++</org>
++<org xml:id="G067779">
++<orgName type="reg">Buchhandlung Cotta in München</orgName>
++</org>
+ <org xml:id="G004663">
+ <orgName type="reg">Römischer Gemeinderat</orgName>
+ </org>
+diff --git a/gregorovius/data/Register/Literatur/Werkregister_Gregorovius.xml b/home/gordon/backup182/db/projects/gregorovius/data/Register/Literatur/Werkregister_Gregorovius.xml
+index b889c09..947c7b2 100644
+--- a/gregorovius/data/Register/Literatur/Werkregister_Gregorovius.xml
++++ b/home/gordon/backup182/db/projects/gregorovius/data/Register/Literatur/Werkregister_Gregorovius.xml
+@@ -3154,9 +3154,9 @@
+               <title>Marcantonio Colonna in der Schlacht bei Lepanto. (Marcantonio Colonna alla Battaglia di Lepanto, per il P. Alberto Guglielmotti, Florenz, 1862). In: Beilage zu Nr. 78 der <hi rendition="#i #b">AZ</hi>. Augsburg: Cotta 19.3.1863. S. 1285f.</title>
+               <note>Rezension.</note>
+             </bibl>
+-<bibl xml:id="G067689">
+-<title>[Ankündigungstext zum Erscheinen von Bd. IV der „Geschichte der Stadt Rom im Mittelalter“]. In: Beilage zu Nr. 253 der AZ. Stuttgart: Cotta 10.9.1862. S. 4190.</title>
+-</bibl>
++            <bibl xml:id="G067689" type="gregoroviusMain">
++            <title>[Ankündigungstext zum Erscheinen von Bd. IV der „Geschichte der Stadt Rom im Mittelalter“]. In: Beilage zu Nr. 253 der AZ. Stuttgart: Cotta 10.9.1862. S. 4190.</title>
++            </bibl>
+             <bibl xml:id="G003912" type="gregoroviusMain">
+               <title>Peter Andreas Munch. In: <hi rendition="#i #b">AZ</hi>. Nr. 160. Augsburg: Cotta 9.6.1863. S. 2641f.</title>
+               <note>Nekrolog. – Mit Hinweis auf den kurzen – wohl redaktionellen – Nachruf vom Vortag (Nr. 159).</note>
+diff --git a/gregorovius/data/Register/Literatur/__contents__.xml b/home/gordon/backup182/db/projects/gregorovius/data/Register/Literatur/__contents__.xml
+index af5115f..62c3450 100644
+--- a/gregorovius/data/Register/Literatur/__contents__.xml
++++ b/home/gordon/backup182/db/projects/gregorovius/data/Register/Literatur/__contents__.xml
+@@ -1,18 +1,18 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/gregorovius/data/Register/Literatur" version="1" owner="costea" group="gregorovius-nutzer" mode="774" created="2019-10-21T12:56:28.946+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Sekundaerliteratur.xml" skip="no" owner="costea" group="gregorovius-nutzer" mode="664" created="2019-10-08T17:23:37+02:00" modified="2019-12-04T17:24:24+01:00" filename="Sekundaerliteratur.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sekundaerliteratur.xml" skip="no" owner="costea" group="gregorovius-nutzer" mode="664" created="2019-10-08T17:23:37.591+02:00" modified="2019-12-04T17:24:24.8+01:00" filename="Sekundaerliteratur.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Werkregister_Gregorovius.xml" skip="no" owner="costea" group="gregorovius-nutzer" mode="664" created="2019-10-08T17:23:37+02:00" modified="2020-01-22T10:49:05+01:00" filename="Werkregister_Gregorovius.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Werkregister_Gregorovius.xml" skip="no" owner="costea" group="gregorovius-nutzer" mode="664" created="2019-10-08T17:23:37.724+02:00" modified="2020-02-04T09:57:28.169+01:00" filename="Werkregister_Gregorovius.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Werke_anderer_Autoren.xml" skip="no" owner="costea" group="gregorovius-nutzer" mode="664" created="2019-10-08T17:23:37.877+02:00" modified="2020-02-05T00:00:04.885+01:00" filename="Werke_anderer_Autoren.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Uebersetzungen.xml" skip="no" owner="costea" group="gregorovius-nutzer" mode="664" created="2019-10-08T17:23:37+02:00" modified="2019-11-01T13:55:50+01:00" filename="Uebersetzungen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Uebersetzungen.xml" skip="no" owner="costea" group="gregorovius-nutzer" mode="664" created="2019-10-08T17:23:37.886+02:00" modified="2019-11-01T13:55:50.649+01:00" filename="Uebersetzungen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Zeitgenoessische_Quellen.xml" skip="no" owner="costea" group="gregorovius-nutzer" mode="664" created="2019-10-08T17:23:37+02:00" modified="2019-11-01T13:56:40+01:00" filename="Zeitgenoessische_Quellen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Zeitgenoessische_Quellen.xml" skip="no" owner="costea" group="gregorovius-nutzer" mode="664" created="2019-10-08T17:23:37.968+02:00" modified="2019-11-01T13:56:40.537+01:00" filename="Zeitgenoessische_Quellen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/gregorovius/data/Register/__contents__.xml b/home/gordon/backup182/db/projects/gregorovius/data/Register/__contents__.xml
+index 304cfc3..7172c66 100644
+--- a/gregorovius/data/Register/__contents__.xml
++++ b/home/gordon/backup182/db/projects/gregorovius/data/Register/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/gregorovius/data/Register" version="1" owner="admin" group="gregorovius-nutzer" mode="774" created="2018-02-20T15:54:09.864+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Koerperschaften.xml" skip="no" owner="costea" group="gregorovius-nutzer" mode="664" created="2018-06-01T11:53:50+02:00" modified="2020-02-11T00:00:05.217+01:00" filename="Koerperschaften.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Koerperschaften.xml" skip="no" owner="costea" group="gregorovius-nutzer" mode="664" created="2018-06-01T11:53:50.832+02:00" modified="2020-02-05T00:00:00.244+01:00" filename="Koerperschaften.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Orte.xml" skip="no" owner="costea" group="gregorovius-nutzer" mode="664" created="2018-02-20T16:02:01.253+01:00" modified="2020-02-04T00:00:00.223+01:00" filename="Orte.xml" mimetype="application/xml">

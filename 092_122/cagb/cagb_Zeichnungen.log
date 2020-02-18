@@ -1,0 +1,13 @@
+diff --git a/cagb/data/Zeichnungen/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/Zeichnungen/__contents__.xml
+index 5a2de23..645b67f 100644
+--- a/cagb/data/Zeichnungen/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/Zeichnungen/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/Zeichnungen" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.914+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="116.png" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="116.png" mimetype="image/png">
++    <resource type="BinaryResource" name="116.png" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.936+01:00" modified="2020-02-17T17:09:49.938+01:00" filename="116.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

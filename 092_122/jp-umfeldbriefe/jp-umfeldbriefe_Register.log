@@ -1,0 +1,1770 @@
+diff --git a/jp-umfeldbriefe/data/Register/Korrespondenzkreise.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Korrespondenzkreise.xml
+index 802b4c6..12b61f6 100644
+--- a/jp-umfeldbriefe/data/Register/Korrespondenzkreise.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Korrespondenzkreise.xml
+@@ -42,11 +42,6 @@
+                             (Bankier in Altenburg.)</item>
+                     </list>
+                 </item>
+-                <item xml:id="ed_zcb_5jm_rkb">
+-                    <label type="reg">Ärzte-Korrespondenz</label>
+-                    <desc/>
+-                    <list/>
+-                </item>
+                 <item xml:id="ed_etr_pzk_k3b">
+                     <label type="reg">Berlepsch-Kreis</label>
+                     <desc/>
+@@ -99,26 +94,11 @@
+                     <desc/>
+                     <list/>
+                 </item>
+-                <item xml:id="ed_rzs_5ml_rkb">
+-                    <label type="reg">Freundeskreise der Kinder</label>
+-                    <desc/>
+-                    <list/>
+-                </item>
+                 <item xml:id="ed_jnd_qzk_k3b">
+                     <label type="reg">Friedrich Benedikt von Oertel-Kreis (Leipzig)</label>
+                     <desc/>
+                     <list/>
+                 </item>
+-                <item xml:id="ed_nmw_jh2_mkb">
+-                    <label type="reg">Heidelberger Bekannte</label>
+-                    <desc/>
+-                    <list>
+-                        <item corresp="#JP-003172">Paulus, Sophie ((1791-1847), Tochter von Heinrich
+-                            Eberhard Gottlob Paulus, 1818 verh. mit August Wilhelm Schlegel.)</item>
+-                        <item corresp="#JP-003171">Paulus, Karoline (geb. Paulus (1767-1844),
+-                            Ehefrau von Heinrich Eberhard Gottlob Paulus.)</item>
+-                    </list>
+-                </item>
+                 <item xml:id="ed_cvb_5hs_y3b">
+                     <label type="reg">Kasseler Bekannte</label>
+                     <desc/>
+@@ -217,6 +197,21 @@
+                             verheiratet.)</item>
+                     </list>
+                 </item>
++                <item xml:id="ed_nmw_jh2_mkb">
++                    <label type="reg">Heidelberger Bekannte</label>
++                    <desc/>
++                    <list>
++                        <item corresp="#JP-003172">Paulus, Sophie ((1791-1847), Tochter von Heinrich
++                            Eberhard Gottlob Paulus, 1818 verh. mit August Wilhelm Schlegel.)</item>
++                        <item corresp="#JP-003171">Paulus, Karoline (geb. Paulus (1767-1844),
++                            Ehefrau von Heinrich Eberhard Gottlob Paulus.)</item>
++                    </list>
++                </item>
++                <item xml:id="ed_kcq_dlt_pkb">
++                    <label type="reg">Freundeskreis der Kinder</label>
++                    <desc/>
++                    <list/>
++                </item>
+             </list>
+         </body>
+     </text>
+diff --git a/jp-umfeldbriefe/data/Register/Orte/A.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Orte/A.xml
+index 09bcb5d..c99d1a5 100644
+--- a/jp-umfeldbriefe/data/Register/Orte/A.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Orte/A.xml
+@@ -594,6 +594,9 @@
+                   <place xml:id="ediarum_x21_vnk_mjb">
+                      <placeName type="reg">Gasthof zum Hirsch</placeName>
+                   </place>
++                  <place xml:id="ediarum_nyt_53j_4kb">
++                     <placeName type="reg">Magdalenenstift</placeName>
++                  </place>
+                </listPlace>
+             </place>
+             <place xml:id="JP-005522">
+diff --git a/jp-umfeldbriefe/data/Register/Orte/L.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Orte/L.xml
+index a31f6f6..55c75d8 100644
+--- a/jp-umfeldbriefe/data/Register/Orte/L.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Orte/L.xml
+@@ -16,6 +16,10 @@
+    <text>
+       <body>
+          <listPlace n="L">
++            <place xml:id="ed_dgw_5dg_nkb">
++               <idno type="uri">https://www.geonames.org/2693678/lund.html</idno>
++               <placeName type="reg">Lund</placeName>
++            </place>
+             <place xml:id="ed_gp3_x5s_wjb">
+                <placeName type="reg">Lüneburg</placeName>
+             </place>
+@@ -34,6 +38,10 @@
+                <placeName type="reg">Langenbielau </placeName>
+                <placeName type="alt">Bielawa</placeName>
+             </place>
++            <place xml:id="ed_i45_gx2_pkb">
++               <idno type="uri">https://www.geonames.org/2880181/lauenburg.html</idno>
++               <placeName type="reg">Lauenburg</placeName>
++            </place>
+             <place xml:id="JP-005933">
+                <idno type="uri">http://www.geonames.org/3165310</idno>
+                <placeName type="reg">Lago Trasimeno <add>(Trasimenischer See)</add>
+@@ -1815,6 +1823,9 @@
+                   <place xml:id="ediarum_n5s_wld_yjb">
+                      <placeName type="reg">Johanniskirchhof</placeName>
+                   </place>
++                  <place xml:id="ediarum_dw4_3r3_4kb">
++                     <placeName type="reg">Petersstraße</placeName>
++                  </place>
+                </listPlace>
+             </place>
+             <place xml:id="JP-005949">
+diff --git a/jp-umfeldbriefe/data/Register/Orte/M.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Orte/M.xml
+index ab569a2..0d4a371 100644
+--- a/jp-umfeldbriefe/data/Register/Orte/M.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Orte/M.xml
+@@ -2019,6 +2019,9 @@
+                         </linkGrp>
+                      </linkGrp>
+                   </place>
++                  <place xml:id="ediarum_hmp_tbm_pkb">
++                     <placeName type="reg">Theresienwiese</placeName>
++                  </place>
+                </listPlace>
+             </place>
+             <place xml:id="JP-006041">
+diff --git a/jp-umfeldbriefe/data/Register/Orte/T.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Orte/T.xml
+index c65c9ed..7e44639 100644
+--- a/jp-umfeldbriefe/data/Register/Orte/T.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Orte/T.xml
+@@ -16,6 +16,9 @@
+    <text>
+       <body>
+          <listPlace n="T">
++            <place xml:id="ed_hsb_5kj_4kb">
++               <placeName type="reg">Tarnau bei Oppeln in Oberschlesien</placeName>
++            </place>
+             <place xml:id="JP-006319">
+                <idno type="uri">http://www.geonames.org/3064379</idno>
+                <placeName type="reg">Tabor <add>(Thabor)</add>, Berg in Galiläa</placeName>
+diff --git a/jp-umfeldbriefe/data/Register/Orte/__contents__.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Orte/__contents__.xml
+index b385dbc..76125f7 100644
+--- a/jp-umfeldbriefe/data/Register/Orte/__contents__.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Orte/__contents__.xml
+@@ -1,75 +1,75 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/jp-umfeldbriefe/data/Register/Orte" version="1" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:48.625+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="A.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:48+01:00" modified="2019-10-23T15:27:52+02:00" filename="A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="A.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:48.758+01:00" modified="2020-01-31T13:17:45.264+01:00" filename="A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="B.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:49+01:00" modified="2019-12-18T11:22:20+01:00" filename="B.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="B.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:49.026+01:00" modified="2019-12-18T11:22:20.802+01:00" filename="B.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="C.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:49+01:00" modified="2019-09-04T11:04:29+02:00" filename="C.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="C.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:49.18+01:00" modified="2019-09-04T11:04:29.911+02:00" filename="C.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="D.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:49+01:00" modified="2019-11-29T12:30:58+01:00" filename="D.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="D.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:49.329+01:00" modified="2019-11-29T12:30:58.543+01:00" filename="D.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="E.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:49+01:00" modified="2019-11-06T11:58:29+01:00" filename="E.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="E.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:49.534+01:00" modified="2019-11-06T11:58:29.931+01:00" filename="E.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="F.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:49+01:00" modified="2019-09-30T16:58:08+02:00" filename="F.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="F.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:49.754+01:00" modified="2019-09-30T16:58:08.359+02:00" filename="F.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="G.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:49+01:00" modified="2019-09-26T13:49:07+02:00" filename="G.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="G.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:49.91+01:00" modified="2019-09-26T13:49:07.011+02:00" filename="G.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="H.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50+01:00" modified="2019-11-25T16:05:22+01:00" filename="H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="H.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50.094+01:00" modified="2019-11-25T16:05:22.382+01:00" filename="H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="I.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50+01:00" modified="2019-03-14T16:29:50+01:00" filename="I.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="I.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50.213+01:00" modified="2019-03-14T16:29:50.213+01:00" filename="I.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="J.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50+01:00" modified="2019-03-14T16:29:50+01:00" filename="J.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="J.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50.277+01:00" modified="2019-03-14T16:29:50.277+01:00" filename="J.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="K.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50+01:00" modified="2019-12-03T17:46:38+01:00" filename="K.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="K.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50.406+01:00" modified="2019-12-03T17:46:38.371+01:00" filename="K.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="L.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50+01:00" modified="2019-12-04T12:48:15+01:00" filename="L.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="L.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50.531+01:00" modified="2020-02-03T12:15:09.721+01:00" filename="L.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="M.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50+01:00" modified="2019-12-16T16:28:17+01:00" filename="M.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="M.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50.766+01:00" modified="2020-02-04T12:02:28.529+01:00" filename="M.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="N.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50+01:00" modified="2019-11-06T11:59:08+01:00" filename="N.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="N.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50.914+01:00" modified="2019-11-06T11:59:08.988+01:00" filename="N.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="O.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50+01:00" modified="2019-03-14T16:29:50+01:00" filename="O.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="O.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:50.99+01:00" modified="2019-03-14T16:29:50.99+01:00" filename="O.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="P.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51+01:00" modified="2019-03-14T16:29:51+01:00" filename="P.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="P.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51.118+01:00" modified="2019-03-14T16:29:51.118+01:00" filename="P.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Q.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51+01:00" modified="2019-03-14T16:29:51+01:00" filename="Q.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Q.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51.185+01:00" modified="2019-03-14T16:29:51.185+01:00" filename="Q.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="R.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51.31+01:00" modified="2019-11-29T11:10:03.285+01:00" filename="R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="S.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51+01:00" modified="2019-08-02T15:41:52+02:00" filename="S.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="S.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51.468+01:00" modified="2019-08-02T15:41:52.928+02:00" filename="S.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="T.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51+01:00" modified="2019-10-22T17:09:01+02:00" filename="T.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="T.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51.582+01:00" modified="2020-01-31T13:28:49.821+01:00" filename="T.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="U.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51+01:00" modified="2019-03-14T16:29:51+01:00" filename="U.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="U.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51.705+01:00" modified="2019-03-14T16:29:51.705+01:00" filename="U.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="V.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51+01:00" modified="2019-03-14T16:29:51+01:00" filename="V.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="V.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51.758+01:00" modified="2019-03-14T16:29:51.758+01:00" filename="V.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="W.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51+01:00" modified="2019-09-03T16:03:40+02:00" filename="W.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="W.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51.871+01:00" modified="2019-09-03T16:03:40.655+02:00" filename="W.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Y.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51+01:00" modified="2019-03-14T16:29:51+01:00" filename="Y.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Y.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:51.957+01:00" modified="2019-03-14T16:29:51.957+01:00" filename="Y.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Z.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:52.008+01:00" modified="2019-09-24T15:59:28.646+02:00" filename="Z.xml" mimetype="application/xml">
+diff --git a/jp-umfeldbriefe/data/Register/Personen/A.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/A.xml
+index ca11727..916a422 100644
+--- a/jp-umfeldbriefe/data/Register/Personen/A.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/A.xml
+@@ -16,6 +16,32 @@
+     <text>
+         <body>
+             <listPerson n="A">
++                <person xml:id="ed_z3p_11l_pkb">
++                    <persName type="reg">
++                        <surname>Adersbach</surname>
++                        <forename>Gerson</forename>
++                    </persName>
++                    <birth>1795</birth>
++                    <death>1829</death>
++                    <note>jüdischer Arzt, Mitglied der Berliner Jüdischen Culturvereins.</note>
++                </person>
++                <person xml:id="ed_svc_jdt_pkb">
++                    <persName type="reg">
++                        <surname>Annibal</surname>
++                        <forename/>
++                    </persName>
++                    <birth/>
++                    <death/>
++                    <note>Gelegenheitsdichter in Bayreuth, Verehrer von Emma Richter.</note>
++                </person>
++                <person xml:id="ed_svl_3lf_pkb">
++                    <persName type="reg">
++                        <surname>Aubigny von Engelbrunner</surname>
++                        <forename>Jana Wynandina Gertrut d'</forename>
++                    </persName>
++                    <birth>(1770</birth>
++                    <death>1847), Schriftstellerin, Sängerin und Musikpädagogin</death>
++                </person>
+                 <person xml:id="JP-000001">
+                     <persName type="reg">
+                         <surname>Aaron</surname>
+diff --git a/jp-umfeldbriefe/data/Register/Personen/B.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/B.xml
+index 7814982..473eae6 100644
+--- a/jp-umfeldbriefe/data/Register/Personen/B.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/B.xml
+@@ -16,6 +16,34 @@
+     <text>
+         <body>
+             <listPerson n="B">
++                <person xml:id="ed_obv_lkn_pkb">
++                    <persName type="reg">
++                        <surname>Bezzel</surname>
++                        <forename>Johann Georg</forename>
++                    </persName>
++                    <birth>1795</birth>
++                    <death>1833</death>
++                    <note>bis 1819 Progymnasiallehrer in Bayreut, ab 1820 Pfarrer in
++                        herrnberchtheim, ab 1830 Gymnasiallehrer in Ansbach.</note>
++                </person>
++                <person xml:id="ed_tmg_ry3_ckb">
++                    <persName type="reg">
++                        <surname>Braunschweig</surname>
++                        <forename>Ludwig Wilhelm von</forename>
++                    </persName>
++                    <birth>1758</birth>
++                    <death>1838</death>
++                    <note>preußischer Generalauditor und Geheimer Oberregierungsrat.</note>
++                    <listPerson>
++                        <person xml:id="ediarum_ssz_5z3_ckb">
++                            <persName type="reg">
++                                <surname>Braunschweig</surname>
++                                <forename>Caroline Henriette von</forename></persName>
++                            <note>geb. von Grolman (1774-1843),  Ehefrau von Ludwig Wilhelm von
++                                Grolman.</note>
++                        </person>
++                    </listPerson>
++                </person>
+                 <person xml:id="JP-000179">
+                     <persName type="reg">
+                         <surname>Baader</surname>
+@@ -2738,15 +2766,6 @@
+                         </person>
+                     </listPerson>
+                 </person>
+-                <person xml:id="ed_umb_fw2_rkb">
+-                    <persName type="reg">
+-                        <surname>Bergemann</surname>
+-                        <forename/>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>Bayreuther Kutscher.</note>
+-                </person>
+                 <person xml:id="JP-000303">
+                     <persName type="reg">
+                         <surname>Bergheim</surname>
+@@ -5244,6 +5263,10 @@
+                         <surname>Bomhard</surname>
+                         <forename>Amalie von</forename>
+                     </persName>
++                    <persName type="alt">
++                        <surname>Bomhardt</surname>
++                        <forename/>
++                    </persName>
+                     <birth>1801</birth>
+                     <death>1871</death>
+                     <note>Tochter von Johann Ernst Georg Friedrich von Bomhard (Bomhardt).</note>
+@@ -5266,6 +5289,10 @@
+                         <surname>Bomhard</surname>
+                         <forename>Caroline von</forename>
+                     </persName>
++                    <persName type="alt">
++                        <surname>Bomhardt</surname>
++                        <forename/>
++                    </persName>
+                     <birth>1803</birth>
+                     <death>1872</death>
+                     <note>Tochter von Johann Ernst Georg Friedrich von Bomhard (Bomhardt).</note>
+@@ -5334,7 +5361,7 @@
+                                 <surname>Bomhard</surname>
+                                 <forename>Johann Ernst Georg Friedrich</forename>
+                             </persName>
+-                            <note>seine Frau Wilhelmine geborene Grüb
++                            <note>seine Frau Wilhelmine, geborene Grüb
+                                     (<birth>1766</birth>-<death>1856</death>)</note>
+                             <linkGrp type="mention">
+                                 <linkGrp type="abt3">
+@@ -5352,6 +5379,10 @@
+                         <surname>Bomhard</surname>
+                         <forename>Wilhelmine von</forename>
+                     </persName>
++                    <persName type="alt">
++                        <surname>Bomhardt</surname>
++                        <forename/>
++                    </persName>
+                     <birth>1798</birth>
+                     <death>1870</death>
+                     <note>Tochter von Johann Ernst Georg Friedrich von Bomhard (Bomhardt).</note>
+@@ -6702,24 +6733,6 @@
+                         <linkGrp n="4">Abteilung 4, Band VIII</linkGrp>
+                     </linkGrp>
+                 </person>
+-                <person xml:id="ed_tmg_ry3_ckb">
+-                    <persName type="reg">
+-                        <surname>Braunschweig</surname>
+-                        <forename>Ludwig Wilhelm von</forename>
+-                    </persName>
+-                    <birth>1758</birth>
+-                    <death>1838</death>
+-                    <note>preußischer Generalauditor und Geheimer Oberregierungsrat.</note>
+-                    <listPerson>
+-                        <person xml:id="ediarum_ssz_5z3_ckb">
+-                            <persName type="reg">
+-                                <surname>Braunschweig</surname>
+-                                <forename>Caroline Henriette von</forename></persName>
+-                            <note>geb. von Grolman (1774-1843), Ehefrau von Ludwig Wilhelm von
+-                                Grolman.</note>
+-                        </person>
+-                    </listPerson>
+-                </person>
+                 <person xml:id="JP-000477">
+                     <persName type="reg">
+                         <surname>Brebsius (?)</surname>
+diff --git a/jp-umfeldbriefe/data/Register/Personen/F.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/F.xml
+index d077285..8fe4901 100644
+--- a/jp-umfeldbriefe/data/Register/Personen/F.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/F.xml
+@@ -16,15 +16,6 @@
+     <text>
+         <body>
+             <listPerson n="F">
+-                <person xml:id="ed_enc_3mm_rkb">
+-                    <persName type="reg">
+-                        <surname>Falk</surname>
+-                        <forename>Edmund</forename>
+-                    </persName>
+-                    <birth>1815</birth>
+-                    <death>1844</death>
+-                    <note>Sohn von Johannes Daniel Falk.</note>
+-                </person>
+                 <person xml:id="JP-001028">
+                     <persName type="reg">
+                         <surname>Faber</surname>
+@@ -2006,13 +1997,13 @@
+                 <person xml:id="JP-001083">
+                     <persName type="reg">
+                         <surname>Fircks</surname>
+-                        <forename>Ulrich Ferdinand Baron von</forename>
++                        <forename/>
+                     </persName>
+                     <persName type="alt">
+                         <surname>Firks</surname>
+                         <forename/>
+                     </persName>
+-                    <note>kurländischer Kreismarschall.</note>
++                    <note>Ferdinand Baron von, kurländischer Kreismarschall.</note>
+                     <linkGrp type="mention">
+                         <linkGrp type="abt3">
+                             <linkGrp n="VII">
+diff --git a/jp-umfeldbriefe/data/Register/Personen/H.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/H.xml
+index e73d362..af24c0f 100644
+--- a/jp-umfeldbriefe/data/Register/Personen/H.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/H.xml
+@@ -1393,6 +1393,23 @@
+                         </linkGrp>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_ozg_qkf_pkb">
++                    <persName type="reg">
++                        <surname>Horstig</surname>
++                        <forename>Susanna Christiania</forename>
++                    </persName>
++                    <birth>geb. d'Aubigny von Engelbronner (1768</birth>
++                    <death>1845), Ehefrau von Carl Gottlieb Horstig, Schwester von Jana Wynandina
++                        Gertrut d'Aubigny von Engelbrunner</death>
++                </person>
++                <person xml:id="ed_dgv_vnf_pkb">
++                    <persName type="reg">
++                        <surname>Horstig</surname>
++                        <forename>Carl Gottlieb</forename>
++                    </persName>
++                    <birth>(1763</birth>
++                    <death>1835), Pastor</death>
++                </person>
+                 <person xml:id="JP-001518">
+                     <persName type="reg">
+                         <surname>Hanisch</surname>
+@@ -1443,15 +1460,6 @@
+                         </linkGrp>
+                     </linkGrp>
+                 </person>
+-                <person xml:id="ed_sq5_43m_p3b">
+-                    <persName type="reg">
+-                        <surname>Hannibal</surname>
+-                        <forename/>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                    <note>Französischer Verehrer Emma Richters.</note>
+-                </person>
+                 <person xml:id="JP-001521">
+                     <persName type="reg">
+                         <surname>Hannibal</surname>
+diff --git a/jp-umfeldbriefe/data/Register/Personen/K.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/K.xml
+index dd638ee..31a8863 100644
+--- a/jp-umfeldbriefe/data/Register/Personen/K.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/K.xml
+@@ -3467,6 +3467,15 @@
+                         <linkGrp n="3">Abteilung 3, Band VII</linkGrp>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_q2x_q4f_pkb">
++                    <persName type="reg">
++                        <surname>Kleinschrod</surname>
++                        <forename>Carl Theodor</forename>
++                    </persName>
++                    <birth>1789</birth>
++                    <death>1869</death>
++                    <note>bayrischern Oberberg- und Salinenrat.</note>
++                </person>
+                 <person xml:id="JP-002122">
+                     <persName type="reg">
+                         <surname>Kleinmayr</surname>
+diff --git a/jp-umfeldbriefe/data/Register/Personen/M.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/M.xml
+index f42ce76..88ce08b 100644
+--- a/jp-umfeldbriefe/data/Register/Personen/M.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/M.xml
+@@ -97,6 +97,7 @@
+                             </linkGrp>
+                         </linkGrp>
+                     </linkGrp>
++                  
+                 </person>
+                 <person xml:id="JP-002567">
+                     <persName type="reg">
+@@ -161,6 +162,7 @@
+                             </linkGrp>
+                         </linkGrp>
+                     </linkGrp>
++                 
+                 </person>
+                 <person xml:id="JP-002568">
+                     <persName type="reg">
+@@ -202,6 +204,7 @@
+                             </linkGrp>
+                         </linkGrp>
+                     </linkGrp>
++                   
+                 </person>
+                 <person xml:id="JP-002572">
+                     <persName type="reg">
+@@ -1163,6 +1166,16 @@
+                         </linkGrp>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_xqg_zlm_pkb">
++                    <persName type="reg">
++                        <surname>Maffei</surname>
++                        <forename>Joseph Ritter von</forename>
++                    </persName>
++                    <birth>1775</birth>
++                    <death>1856 o. 1858</death>
++                    <note>Philosoph und Rechtswissenschaftler, lehrte am Münchener Lyzeum
++                        italienische Sprache und Literatur.</note>
++                </person>
+                 <person xml:id="JP-002610">
+                     <persName type="reg">
+                         <surname>Manteuffel</surname>
+diff --git a/jp-umfeldbriefe/data/Register/Personen/P.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/P.xml
+index 790c775..6381722 100644
+--- a/jp-umfeldbriefe/data/Register/Personen/P.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/P.xml
+@@ -1130,9 +1130,8 @@
+                         <surname>Paulus</surname>
+                         <forename>Wilhelm</forename>
+                     </persName>
+-                    <birth>1802</birth>
+-                    <death>1819</death>
+-                    <note>Sohn von Heinrich Eberhard Gottlob Paulus.</note>
++                    <note>(gest. <death>1819</death>), Sohn von Heinrich Eberhard Gottlob
++                        Paulus.</note>
+                     <linkGrp type="mention">
+                         <linkGrp type="abt3">
+                             <linkGrp n="VII">
+@@ -1930,7 +1929,8 @@
+                         <surname>Pfeiffer</surname>
+                         <forename>Friedrich</forename>
+                     </persName>
+-                    <note>(<birth>1754</birth>-<death>1816</death>), Regierungsrat in Bayreuth.</note>
++                    <note>(<birth>1754</birth>-<death>1816</death>), Regierungsrat in
++                        Bayreuth.</note>
+                     <linkGrp type="mention">
+                         <linkGrp type="abt4">
+                             <linkGrp n="II">
+@@ -2447,6 +2447,16 @@
+                         </linkGrp>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_cqt_n2v_bkb">
++                    <persName type="reg">
++                        <surname>Pierer</surname>
++                        <forename>Johanna Henriette Ernestine</forename>
++                    </persName>
++                    <birth>1775</birth>
++                    <death>1857</death>
++                    <note>ab 1792 Ehefrau von Johann Friedrich Pierer; Tochter von Johann Heinrich
++                        Reichenbach.</note>
++                </person>
+                 <person xml:id="JP-003228">
+                     <persName type="reg">
+                         <surname>Pierer</surname>
+@@ -2463,16 +2473,6 @@
+                         </linkGrp>
+                     </linkGrp>
+                 </person>
+-                <person xml:id="ed_cqt_n2v_bkb">
+-                    <persName type="reg">
+-                        <surname>Pierer</surname>
+-                        <forename>Johanna Henriette Ernestine</forename>
+-                    </persName>
+-                    <birth>1775</birth>
+-                    <death>1857</death>
+-                    <note>ab 1792 Ehefrau von Johann Friedrich Pierer; Tochter von Johann Heinrich
+-                        Reichenbach.</note>
+-                </person>
+                 <person xml:id="JP-003229">
+                     <persName type="reg">
+                         <surname>Pilat</surname>
+@@ -2574,17 +2574,12 @@
+                         </linkGrp>
+                     </linkGrp>
+                 </person>
+-                <person xml:id="JP-003236">
++                <person xml:id="JP-003235">
+                     <persName type="reg">
+                         <surname>Pirch</surname>
+-                        <forename>Luise Amalie Anna Viktoria Isabella</forename>
+-                    </persName>
+-                    <persName type="alt" subtype="birthname">
+-                        <name>von Lyncker</name>
++                        <forename>Agnes</forename>
+                     </persName>
+-                    <birth>1769</birth>
+-                    <death>1845</death>
+-                    <note>Ehefrau des Obristen (seit 1818) Christoph Wilhelm Rüdiger von Pirch in
++                    <note>Tochter der Obristin Luise Amalie Anna Viktoria Isabella von Pirch in
+                         Berlin.</note>
+                     <linkGrp type="mention">
+                         <linkGrp type="abt3">
+@@ -2594,17 +2589,22 @@
+                         </linkGrp>
+                         <linkGrp type="abt4">
+                             <linkGrp n="VII">
+-                                <ptr type="letter" target="399-1"/>
++                                <ptr type="letter" target="399-2"/>
+                             </linkGrp>
+                         </linkGrp>
+                     </linkGrp>
+                 </person>
+-                <person xml:id="JP-003235">
++                <person xml:id="JP-003236">
+                     <persName type="reg">
+                         <surname>Pirch</surname>
+-                        <forename>Agnes</forename>
++                        <forename>Luise Amalie Anna Viktoria Isabella</forename>
+                     </persName>
+-                    <note>Tochter der Obristin Luise Amalie Anna Viktoria Isabella von Pirch in
++                    <persName type="alt" subtype="birthname">
++                        <name>von Lyncker</name>
++                    </persName>
++                    <birth>1769</birth>
++                    <death>1845</death>
++                    <note>Ehefrau des Obristen (seit 1818) Christoph Wilhelm Rüdiger von Pirch in
+                         Berlin.</note>
+                     <linkGrp type="mention">
+                         <linkGrp type="abt3">
+@@ -2614,7 +2614,7 @@
+                         </linkGrp>
+                         <linkGrp type="abt4">
+                             <linkGrp n="VII">
+-                                <ptr type="letter" target="399-2"/>
++                                <ptr type="letter" target="399-1"/>
+                             </linkGrp>
+                         </linkGrp>
+                     </linkGrp>
+@@ -2782,6 +2782,15 @@
+                         </linkGrp>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_blw_nc5_pkb">
++                    <persName type="reg">
++                        <surname>Platen</surname>
++                        <forename>Adolf Friedrich von</forename>
++                    </persName>
++                    <birth>1782</birth>
++                    <death>1822</death>
++                    <note>Schwedischer Offizier und Gutspächter auf Rügen.</note>
++                </person>
+                 <person xml:id="JP-003246">
+                     <idno type="uri">http://d-nb.info/gnd/118594869</idno>
+                     <persName type="reg">
+@@ -2809,6 +2818,24 @@
+                         </linkGrp>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_ygp_sd5_pkb">
++                    <persName type="reg">
++                        <surname>Platen</surname>
++                        <forename>Charlotte von</forename>
++                    </persName>
++                    <birth>1808</birth>
++                    <death>1828</death>
++                    <note>Älteste Tochter von Adolf Friedrich von Platen.</note>
++                </person>
++                <person xml:id="ed_pxx_xd5_pkb">
++                    <persName type="reg">
++                        <surname>Platen</surname>
++                        <forename>Julie von</forename>
++                    </persName>
++                    <birth>1807</birth>
++                    <death>1879</death>
++                    <note>Zweitälteste Tochter von Adolf Friedrich von Platen.</note>
++                </person>
+                 <person xml:id="JP-003248">
+                     <persName type="reg">
+                         <surname>Platner</surname>
+@@ -3052,10 +3079,6 @@
+                         <surname>Plotho</surname>
+                         <forename>Heinrika Christiana Carolina von</forename>
+                     </persName>
+-                    <persName type="alt">
+-                        <surname/>
+-                        <forename>Henriette Christiane Caroline</forename>
+-                    </persName>
+                     <note>geb. von Beulwitz von Closchwitz
+                         (<birth>1755</birth>-<death>1802</death>), erste Ehefrau von Otto Ludwig von
+                         Plotho.</note>
+@@ -3104,10 +3127,8 @@
+                         <surname>Plotho</surname>
+                         <forename>Marie Elisabeth Gräfin von</forename>
+                     </persName>
+-                    <birth>1788</birth>
+-                    <death>1849</death>
+-                    <note>geb. von Hoyer von Weißenburg, verw. Nauendorf, zweite Ehefrau von Otto
+-                        Ludwig von Plotho.</note>
++                    <note>geb. von Hoyer, verw. Nauendorf, zweite Ehefrau von Otto Ludwig von
++                        Plotho.</note>
+                     <linkGrp type="corresp">
+                         <linkGrp n="3">Abteilung 3, Band II</linkGrp>
+                     </linkGrp>
+diff --git a/jp-umfeldbriefe/data/Register/Personen/S.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/S.xml
+index e97332c..ebc0ba9 100644
+--- a/jp-umfeldbriefe/data/Register/Personen/S.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/S.xml
+@@ -16,6 +16,26 @@
+     <text>
+         <body>
+             <listPerson n="S">
++                <person xml:id="ed_zgc_4fm_pkb">
++                    <persName type="reg">
++                        <surname>Siber</surname>
++                        <forename>Thaddäus</forename>
++                    </persName>
++                    <birth>1774</birth>
++                    <death>1854</death>
++                    <note>Mathematiker und Physiker, ab 1810 Lehrer für Chemie, mathematik und
++                        Physik am Münchener Lyzeum.</note>
++                </person>
++                <person xml:id="ed_i1s_jkc_4kb">
++                    <idno type="uri">http://d-nb.info/gnd/104196238</idno>
++                    <persName type="reg">
++                        <surname>Stoll</surname>
++                        <forename>Joseph Ludwig</forename>
++                    </persName>
++                    <birth>1778</birth>
++                    <death>1815</death>
++                    <note>Schriftsteller, Dramatiker, Regisseur.</note>
++                </person>
+                 <person xml:id="ed_uvv_3vf_3kb">
+                     <persName type="reg">
+                         <surname>Schwarzburg-Rudolstadt</surname>
+@@ -6116,9 +6136,8 @@
+                     <birth/>
+                     <death/>
+                     <note>Tochter von Friedrich August und Henriette Luise Eleonore von Schubaert,
+-                        Freundin von Emma Förster, später in München
+-                        <?oxy_comment_start author="roelcke" timestamp="20191023T153503+0200" comment="unvollständig!"?>mit
+-                        dem Maler Herrmann<?oxy_comment_end?></note>
++                        Freundin von Emma Förster, später in München mit dem Maler Carl Heinrich
++                        Herrmann (1802- 1880) verheiratet</note>
+                 </person>
+                 <person xml:id="JP-003873">
+                     <persName type="reg">
+diff --git a/jp-umfeldbriefe/data/Register/Personen/V.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/V.xml
+index aee89c7..4c55f29 100644
+--- a/jp-umfeldbriefe/data/Register/Personen/V.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/V.xml
+@@ -16,6 +16,14 @@
+     <text>
+         <body>
+             <listPerson n="V">
++                <person xml:id="ed_zcj_t5t_pkb">
++                    <persName type="reg">
++                        <surname>Veith</surname>
++                        <forename>Johann Philipp</forename>
++                    </persName>
++                    <birth>(1768</birth>
++                    <death>1837), Maler und Kupferstecher</death>
++                </person>
+                 <person xml:id="ed_mmg_sgk_y3b">
+                     <idno type="uri">http://d-nb.info/gnd/117447579</idno>
+                     <persName type="reg">
+@@ -87,6 +95,16 @@
+                         </linkGrp>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_edj_yh5_pkb">
++                    <idno type="uri">http://d-nb.info/gnd/10404974X</idno>
++                    <persName type="reg">
++                        <surname>Visconti</surname>
++                        <forename>Giambattista Antonio</forename>
++                    </persName>
++                    <birth>1722</birth>
++                    <death>1784</death>
++                    <note>Archäologe und Leiter der Vatikanischen Museen.</note>
++                </person>
+                 <person xml:id="JP-004401">
+                     <persName type="reg">
+                         <surname>Vaerst</surname>
+diff --git a/jp-umfeldbriefe/data/Register/Personen/W.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/W.xml
+index ac833c2..70db498 100644
+--- a/jp-umfeldbriefe/data/Register/Personen/W.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/W.xml
+@@ -16,14 +16,6 @@
+     <text>
+         <body>
+             <listPerson n="W">
+-                <person xml:id="ed_z3n_nhm_rkb">
+-                    <persName type="reg">
+-                        <surname>Württembergische Landesregierung</surname>
+-                        <forename/>
+-                    </persName>
+-                    <birth/>
+-                    <death/>
+-                </person>
+                 <person xml:id="JP-004538">
+                     <persName type="reg">
+                         <surname>W.</surname>
+@@ -2924,7 +2916,7 @@
+                                 </linkGrp>
+                             </linkGrp>
+                         </person>
+-                        <person xml:id="ediarum_rtv_qxr_rkb">
++                        <person xml:id="ediarum_oyf_2jt_pkb">
+                             <persName type="reg"><surname>Welden</surname>
+                                 <forename>Konstantin Ludwig Freiherr von</forename></persName>
+                             <birth>1771</birth>
+diff --git a/jp-umfeldbriefe/data/Register/Personen/__contents__.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/__contents__.xml
+index 2f37c37..05ea396 100644
+--- a/jp-umfeldbriefe/data/Register/Personen/__contents__.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Personen/__contents__.xml
+@@ -1,81 +1,81 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/jp-umfeldbriefe/data/Register/Personen" version="1" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:52.038+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="A.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:52+01:00" modified="2019-11-04T11:55:51+01:00" filename="A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="A.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:52.219+01:00" modified="2020-02-05T11:21:14.9+01:00" filename="A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="B.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:52+01:00" modified="2020-02-11T08:37:56.269+01:00" filename="B.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="B.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:52.544+01:00" modified="2020-02-05T17:07:35.223+01:00" filename="B.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="C.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:52+01:00" modified="2020-02-11T16:26:55.019+01:00" filename="C.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="C.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:52.83+01:00" modified="2020-02-04T16:42:10.277+01:00" filename="C.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="D.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:52+01:00" modified="2019-12-19T15:09:17+01:00" filename="D.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="D.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:52.965+01:00" modified="2019-12-19T15:09:17.025+01:00" filename="D.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="E.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:53+01:00" modified="2019-10-15T15:32:40+02:00" filename="E.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="E.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:53.179+01:00" modified="2019-10-15T15:32:40.616+02:00" filename="E.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="F.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:53+01:00" modified="2020-02-12T09:52:38.144+01:00" filename="F.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="F.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:53.418+01:00" modified="2019-12-02T12:28:33.697+01:00" filename="F.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="G.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:53+01:00" modified="2019-12-11T16:09:39+01:00" filename="G.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="G.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:53.655+01:00" modified="2019-12-11T16:09:39.396+01:00" filename="G.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="H.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:54+01:00" modified="2020-01-21T17:06:41+01:00" filename="H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="H.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:54.041+01:00" modified="2020-02-05T11:45:02.66+01:00" filename="H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="I.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:54+01:00" modified="2019-12-11T11:32:49+01:00" filename="I.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="I.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:54.268+01:00" modified="2019-12-11T11:32:49.356+01:00" filename="I.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="J.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:54+01:00" modified="2019-12-09T14:32:12+01:00" filename="J.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="J.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:54.469+01:00" modified="2019-12-09T14:32:12.488+01:00" filename="J.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="K.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:54+01:00" modified="2019-12-19T10:05:56+01:00" filename="K.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="K.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:54.723+01:00" modified="2020-02-03T14:35:08.029+01:00" filename="K.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="L.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:55+01:00" modified="2020-01-09T14:21:15+01:00" filename="L.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="L.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:55.015+01:00" modified="2020-01-09T14:21:15.928+01:00" filename="L.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="M.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:55+01:00" modified="2019-11-13T13:01:25+01:00" filename="M.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="M.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:55.388+01:00" modified="2020-02-04T13:35:33.638+01:00" filename="M.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="N.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:55+01:00" modified="2020-01-21T15:47:04+01:00" filename="N.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="N.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:55.642+01:00" modified="2020-01-21T15:47:04.03+01:00" filename="N.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="O.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:55+01:00" modified="2019-10-22T16:41:04+02:00" filename="O.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="O.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:55.961+01:00" modified="2019-10-22T16:41:04.031+02:00" filename="O.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="P.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:56+01:00" modified="2020-02-12T11:34:24.671+01:00" filename="P.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="P.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:56.163+01:00" modified="2020-02-05T14:39:43.641+01:00" filename="P.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Q.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:56+01:00" modified="2020-01-21T15:54:19+01:00" filename="Q.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Q.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:56.253+01:00" modified="2020-01-21T15:54:19.106+01:00" filename="Q.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="R.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:56+01:00" modified="2020-01-22T15:17:07+01:00" filename="R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="R.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:56.583+01:00" modified="2020-01-22T15:17:07.568+01:00" filename="R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="S.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:56+01:00" modified="2020-01-21T16:04:52+01:00" filename="S.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="S.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:56.986+01:00" modified="2020-02-05T13:40:16.688+01:00" filename="S.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="T.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:57+01:00" modified="2019-11-26T15:43:45+01:00" filename="T.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="T.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:57.253+01:00" modified="2019-11-26T15:43:45.142+01:00" filename="T.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="U.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:57+01:00" modified="2019-11-04T15:31:17+01:00" filename="U.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="U.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:57.402+01:00" modified="2019-11-04T15:31:17.622+01:00" filename="U.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="V.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:57+01:00" modified="2019-09-03T13:12:53+02:00" filename="V.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="V.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:57.531+01:00" modified="2020-02-05T15:10:01.446+01:00" filename="V.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="W.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:57+01:00" modified="2020-02-12T10:57:51.93+01:00" filename="W.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="W.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:57.773+01:00" modified="2020-02-05T12:06:44.238+01:00" filename="W.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="X.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:57+01:00" modified="2019-04-30T13:11:49+02:00" filename="X.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="X.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:57.957+01:00" modified="2019-04-30T13:11:49.89+02:00" filename="X.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Y.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:58+01:00" modified="2019-04-30T13:11:49+02:00" filename="Y.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Y.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:58.005+01:00" modified="2019-04-30T13:11:49.919+02:00" filename="Y.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Z.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:58+01:00" modified="2019-05-06T15:41:38+02:00" filename="Z.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Z.xml" skip="no" owner="admin" group="jp-nutzer" mode="666" created="2019-03-14T16:29:58.06+01:00" modified="2019-05-06T15:41:38.166+02:00" filename="Z.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/jp-umfeldbriefe/data/Register/Themen.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Themen.xml
+index 5a5f931..ddc1a83 100644
+--- a/jp-umfeldbriefe/data/Register/Themen.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Themen.xml
+@@ -22,6 +22,7 @@
+                             <desc/>
+                         </item>
+                     </list></item>
++                
+                 <item xml:id="ed_xqz_4wk_3jb"><label type="reg">Bildung</label><desc/><list>
+                         <item xml:id="ed_bsk_qp3_cjb">
+                             <label type="reg">Max' Studium</label>
+@@ -38,20 +39,13 @@
+                             <desc/>
+                         </item>
+                     </list></item>
+-                <item xml:id="ed_u3k_nh2_mkb">
+-                    <label type="reg">Dankesschreiben</label>
+-                    <desc/>
+-                </item>
+-                <item xml:id="ed_ocw_5ss_pjb"><label type="reg">Empfehlungen</label><desc>Vermittlung von Kontakten</desc><list>
++                <item xml:id="ed_ocw_5ss_pjb"><label type="reg">Empfehlungen</label><desc>Vermittlung von Kontakten,
++                        Freundschaftsanfragen</desc><list>
+                         <item xml:id="ediarum_td5_ck2_wjb">
+                             <label type="reg">ss</label>
+                             <desc/>
+                         </item>
+                     </list></item>
+-                <item xml:id="ed_pqg_l1p_lkb">
+-                    <label type="reg">Ernestines Familienangelegenheiten</label>
+-                    <desc/>
+-                </item>
+                 <item xml:id="ed_rk3_psh_sjb">
+                     <label type="reg">Fahrzeuge</label>
+                     <desc/>
+@@ -84,7 +78,7 @@
+                             <desc/>
+                         </item>
+                         <item xml:id="ed_e5d_cq5_2jb">
+-                            <label type="reg">Hochzeit Ernestine mit Mahlmann</label>
++                            <label type="reg">Hochzeit Ernestine Richter mit Mahlmann</label>
+                             <desc/>
+                         </item>
+                         <item xml:id="ed_fyx_3pn_53b">
+@@ -109,7 +103,12 @@
+                             <desc/>
+                         </item>
+                         <item xml:id="ediarum_pzf_y2p_lkb">
+-                            <label type="reg">Hochzeit Caroline mit Jean Paul</label>
++                            <label type="reg">Hochzeit Caroline Mayer mit Jean Paul</label>
++                            <desc/>
++                        </item>
++                        <item xml:id="ediarum_xqc_ljm_pkb">
++                            <label type="reg">Hochzeit Emma Richter mit Ernst Förster
++                                (12.10.1826)</label>
+                             <desc/>
+                         </item>
+                     </list></item>
+@@ -165,14 +164,6 @@
+                     <label type="reg">Jean Pauls Alltag</label>
+                     <desc>Musizieren, Tagesablauf, Schreibzeiten</desc>
+                 </item>
+-                <item xml:id="ed_vqq_dmv_lkb"><label type="reg">Juristische
+-                        Angelegenheiten</label><desc>Rechtsstreitigkeiten, Prozesse,
+-                        Testamente</desc><list>
+-                        <item xml:id="ediarum_qr5_mmv_lkb">
+-                            <label type="reg">Zensur</label>
+-                            <desc/>
+-                        </item>
+-                    </list></item>
+                 <item xml:id="ed_rnf_kwk_3jb">
+                     <label type="reg">Kinder</label>
+                     <desc>Charakter, Erziehung, Schulische Ausbildung, Versorgung</desc>
+@@ -236,10 +227,6 @@
+                             <desc/>
+                         </item>
+                     </list></item>
+-                <item xml:id="ed_gtn_qcw_xjb">
+-                    <label type="reg">Politik</label>
+-                    <desc>Aktuelles Geschehen, Diplomatie </desc>
+-                </item>
+                 <item xml:id="ed_aqw_rgz_y3b"><label type="reg">Reisen,
+                         Reisepläne</label><desc>Besuchspläne, Reisevorbereitungen</desc><list>
+                         <item xml:id="ed_dhl_w5k_3jb">
+@@ -261,12 +248,6 @@
+                         </item>
+                     </list>
+                 </item>
+-                <item xml:id="ed_z34_3fp_lkb"><label type="reg">Theaterleben</label><desc/><list>
+-                        <item xml:id="ediarum_e4w_jfp_lkb">
+-                            <label type="reg">Leipziger Theaterleben</label>
+-                            <desc/>
+-                        </item>
+-                    </list></item>
+                 <item xml:id="ed_zkl_nn2_53b"><label type="reg">Tod und Sterben</label><desc/><list>
+                         <item xml:id="ed_tq1_ml4_s3b">
+                             <label type="reg">Jean Pauls Tod</label>
+@@ -288,6 +269,40 @@
+                             <desc/>
+                         </item>
+                     </list></item>
++                <item xml:id="ed_gtn_qcw_xjb">
++                    <label type="reg">Politik</label>
++                    <desc>Aktuelles Geschehen, Diplomatie </desc>
++                </item>
++                <item xml:id="ed_pqg_l1p_lkb">
++                    <label type="reg">Ernestines Familienangelegenheiten</label>
++                    <desc/>
++                </item>
++                <item xml:id="ed_z34_3fp_lkb"><label type="reg">Theaterleben</label><desc/><list>
++                        <item xml:id="ediarum_e4w_jfp_lkb">
++                            <label type="reg">Leipziger Theaterleben</label>
++                            <desc/>
++                        </item>
++                        <item xml:id="ediarum_oc5_gts_pkb">
++                            <label type="reg">Bayreuther Theaterleben</label>
++                            <desc/>
++                        </item>
++                    </list></item>
++                <item xml:id="ed_vqq_dmv_lkb"><label type="reg">Juristische
++                        Angelegenheiten</label><desc>Rechtsstreitigkeiten, Prozesse,
++                        Testamente</desc><list>
++                        <item xml:id="ediarum_qr5_mmv_lkb">
++                            <label type="reg">Zensur</label>
++                            <desc/>
++                        </item>
++                    </list></item>
++                <item xml:id="ed_u3k_nh2_mkb">
++                    <label type="reg">Dankesschreiben</label>
++                    <desc/>
++                </item>
++                <item xml:id="ed_ls3_1w5_pkb">
++                    <label type="reg">Ermahnung und/oder Zuspruch</label>
++                    <desc/>
++                </item>
+             </list>
+         </body>
+     </text>
+diff --git a/jp-umfeldbriefe/data/Register/Werke/A.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/A.xml
+index e84c8df..2d2d8d4 100644
+--- a/jp-umfeldbriefe/data/Register/Werke/A.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/A.xml
+@@ -16,6 +16,14 @@
+     <text>
+         <body>
+             <listBibl n="A">
++                <bibl xml:id="ed_wzf_4dt_pkb">
++                    <author>Annibal</author>
++                    <title>La Providence. Poëme (Bayreuth 1819)</title>
++                </bibl>
++                <bibl xml:id="ed_xlt_jmf_pkb">
++                    <author>Aubigny von Engelbrunner, Jana Wynandina Gertrut d' (1770-1847)</author>
++                    <title> Auszüge aus dem Tagebuch einer teutschen Dame (1803)</title>
++                </bibl>
+                 <bibl xml:id="JP-008001">
+                     <author>Achim von Arnim u.a. (Hrsg., Werk)</author>
+                     <title>Zeitung für Einsiedler (1808)</title>
+diff --git a/jp-umfeldbriefe/data/Register/Werke/Anonym.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/Anonym.xml
+index 25c3b3d..029f218 100644
+--- a/jp-umfeldbriefe/data/Register/Werke/Anonym.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/Anonym.xml
+@@ -1767,7 +1767,7 @@
+                     </linkGrp>
+                 </bibl>
+                 <bibl xml:id="JP-010249">
+-                    <author/>
++                    <author>Kilian, Conrad Joseph (1771-1811)</author>
+                     <title>Georgia, Zeitschrift (Bamberg
+                         1806-1807)</title>
+                     <linkGrp type="mention">
+diff --git a/jp-umfeldbriefe/data/Register/Werke/B.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/B.xml
+index be74232..5033165 100644
+--- a/jp-umfeldbriefe/data/Register/Werke/B.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/B.xml
+@@ -16,6 +16,16 @@
+     <text>
+         <body>
+             <listBibl n="B">
++                <bibl xml:id="ed_nj1_st2_pkb">
++                    <author>Bucher, Anton (1747-1817)</author>
++                    <title>Die Jesuiten in Baiern vor und nach ihrer Aufhebung, 3 Bde. (München:
++                        Ernst August Fleischmann 1819-1820)</title>
++                </bibl>
++                <bibl xml:id="ed_l5q_d1j_4kb">
++                    <author>Bertuch, Friedrich Justin (1747-1822); Vater, Johann Severin
++                        (1771-1826)</author>
++                    <title>Allgemeines Archiv für Ethnographie und Linguistik (1808)</title>
++                </bibl>
+                 <bibl xml:id="ed_e2k_vrs_yjb">
+                     <author>Brachmann, Luise (1777-1822)</author>
+                     <title>Velasquez de Zamora, in: Taschenbuch zum geselligen Vergnügen 1807, S.
+@@ -639,8 +649,7 @@
+                     </bibl>
+                 </listBibl>
+                 <listBibl type="group">
+-                    <head>Bentzel-Sternau, Christian Ernst Graf von (1767-1849) (Werk,
+-                        Hrsg.)</head>
++                    <head>Bentzel-Sternau, Christian Ernst Graf von (1767-1849) (Werk, Hrsg.)</head>
+                     <bibl xml:id="JP-008111">
+                         <author>Bentzel-Sternau, Christian Ernst Graf von (1767-1849) (Werk,
+                             Hrsg.)</author>
+@@ -678,7 +687,6 @@
+                         </linkGrp>
+                     </bibl>
+                     <bibl xml:id="JP-008113" corresp="JP-008111">
+-                    
+                         <author>Bentzel-Sternau, Christian Ernst Graf von (1767-1849)</author>
+                         <title>Weltansichten (1816)</title>
+                         <linkGrp type="mention">
+@@ -737,7 +745,6 @@
+                         </linkGrp>
+                     </bibl>
+                 </listBibl>
+-           
+                 <listBibl type="group">
+                     <head>Benzenberg, Johann Friedrich (1777 -1846), Physiker</head>
+                     <bibl xml:id="JP-008117">
+@@ -1957,6 +1964,11 @@
+                         </linkGrp>
+                     </linkGrp>
+                 </bibl>
++                <bibl xml:id="ed_p14_fgm_pkb">
++                    <author>Breyer, Karl Wilhelm Friedrich von (1771-1818), Historiker</author>
++                    <title>Grundriss der Universalgeschichte. Zum Behufe seiner Vorlesungen, 2 Bde.
++                        (Jena: Akad. Buchhandlung 1802/04; 2. unveränd. Aufl. 1809)</title>
++                </bibl>
+                 <listBibl type="group">
+                     <head>Brinckmann, Karl Gustav von (1764-1847), schwedischer Diplomat und
+                         Dichter</head>
+diff --git a/jp-umfeldbriefe/data/Register/Werke/C.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/C.xml
+index 237cb17..8dffa22 100644
+--- a/jp-umfeldbriefe/data/Register/Werke/C.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/C.xml
+@@ -500,6 +500,11 @@
+                             </linkGrp>
+                         </linkGrp>
+                     </bibl>
++                    <bibl xml:id="ed_g3t_blm_pkb">
++                        <author>Cicero (Zizero), Marcus Tullius (106-43 v. Chr.), röm. Politiker,
++                            Rhetor und Philosoph</author>
++                        <title>Lucullus</title>
++                    </bibl>
+                     <bibl xml:id="JP-008250" corresp="JP-008249">
+                         <author>Cicero (Zizero), Marcus Tullius (106-43 v. Chr.), röm. Politiker,
+                             Rhetor und Philosoph</author>
+diff --git a/jp-umfeldbriefe/data/Register/Werke/F.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/F.xml
+index 3b7c6ab..d0a4023 100644
+--- a/jp-umfeldbriefe/data/Register/Werke/F.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/F.xml
+@@ -34,6 +34,19 @@
+                     <title>An Elisa, zu ihrem neunzehnten Geburtstage</title>
+                     <note>In: Zeitung für die elegante Welt 4, 1805, Sp. 32</note>
+                 </bibl>
++                <bibl xml:id="ed_fc1_t3c_4kb">
++                    <author>Falk, Johannes Daniel (1768-1826)</author>
++                    <title>Grotesken, Satyren und Naivitäten auf das Jahr 1806</title>
++                </bibl>
++                <bibl xml:id="ed_ddw_tjc_4kb">
++                    <author>Falk, Johannes Daniel (1768-1826)</author>
++                    <title>Leben, wunderbare Reisen und Irrfahrten des Johannes von der Ostsee
++                        (1806)</title>
++                </bibl>
++                <bibl xml:id="ed_sxs_gw3_4kb">
++                    <author>Falk, Johannes Daniel</author>
++                    <title>Auserwählte Werke, 3 Bde. (Leipzig: Brockhaus 1819)</title>
++                </bibl>
+                 <bibl xml:id="ed_cry_r3n_2jb">
+                     <author><persName><surname>Falk</surname><forename>Johannes
+                             Daniel</forename></persName></author>
+@@ -751,6 +764,12 @@
+                         </linkGrp>
+                     </linkGrp>
+                 </bibl>
++                <bibl xml:id="ed_tyj_z52_pkb">
++                    <author>Fischer, Christian August (Pseud.: Felix von Fröhlichsheim,
++                        1771-1829)</author>
++                    <title>Katzensprung von Frankfurt a. M. nach München, im Herbste 1820 (Leipzig:
++                        Johann Friedrich Hartknoch 1821)</title>
++                </bibl>
+                 <listBibl type="group">
+                     <head>Fischer, Johann Carl (Karl) Christian (Pseud. Gustav Fredau) (1765-1816),
+                         Konrektor</head>
+@@ -1046,7 +1065,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008410" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Eginhard und Emma (1811)</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt3">
+@@ -1074,7 +1093,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008411" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Der Held des Nordens (1810)</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt3">
+@@ -1090,7 +1109,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008412" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Helge</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt3">
+@@ -1103,7 +1122,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008413" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Sigurd (1808)</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt3">
+@@ -1129,7 +1148,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008414" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Der Todesbund (1811)</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt3">
+@@ -1149,7 +1168,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008415" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Woldemar (1811) (Waldemar der Pilger)</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt3">
+@@ -1169,7 +1188,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008416" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Der Zauberring (1813)</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt3">
+@@ -1191,7 +1210,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008417" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Übersetzung von Cervantes' Belagerung von Numancia (1810)</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt3">
+@@ -1209,7 +1228,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008418" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Sigurds Rache (1810)</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt4">
+@@ -1222,7 +1241,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008419" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Aslauga (1810)</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt4">
+@@ -1234,7 +1253,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008420" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Verloren (Gedicht) (1810)</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt4">
+@@ -1246,7 +1265,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008421" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Nibelungentrilogie</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt4">
+@@ -1261,7 +1280,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008422" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Heldenspiele (1818; Helgi, der Hiorwardsohn; Helgi, der
+                             Hundingstöter; Helgi der Haddingsgefährt; Baldur der Gute)</title>
+                         <linkGrp type="mention">
+@@ -1284,7 +1303,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008423" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Brandenburgisches Erndtelied für das Jahr 1810 (Gedicht)</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt4">
+@@ -1296,7 +1315,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008424" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Der Ritter und die Bauern (1811)</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt3">
+@@ -1337,7 +1356,7 @@
+                     </bibl>
+                     <bibl xml:id="JP-008425" corresp="JP-008408">
+                         <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+-                            (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
++                            (1777-1843), romantischer Erzähler, Dramatiker und Lyriker</author>
+                         <title>Undine (1811)</title>
+                         <linkGrp type="mention">
+                             <linkGrp type="abt3">
+diff --git a/jp-umfeldbriefe/data/Register/Werke/H.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/H.xml
+index 10c6ca6..7c96dd5 100644
+--- a/jp-umfeldbriefe/data/Register/Werke/H.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/H.xml
+@@ -2291,13 +2291,6 @@
+                             </linkGrp>
+                         </linkGrp>
+                     </bibl>
+-                    <bibl xml:id="ed_u1r_qnm_rkb">
+-                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+-                        <title>Vom Geist der Ebräischen Poesie. Eine Anleitung für die Liebhaber
+-                            derselben und der ältesten Geschichte des menschlichen Geistes. Erster
+-                            und zweiter Theil (Dessau: Buchhandlung der Gelehrten,
+-                            1782-1783)</title>
+-                    </bibl>
+                 </listBibl>
+                 <listBibl type="group">
+                     <head>Hering, Carl (1785-1858), Mediziner, Regierungssekretär in Dresden</head>
+diff --git a/jp-umfeldbriefe/data/Register/Werke/L.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/L.xml
+index 7bd0225..b421fb1 100644
+--- a/jp-umfeldbriefe/data/Register/Werke/L.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/L.xml
+@@ -16,11 +16,6 @@
+     <text>
+         <body>
+             <listBibl n="L">
+-                <bibl xml:id="ed_csq_ybf_rkb">
+-                    <author>Luden, Heinrich (1780-1847)</author>
+-                    <title>Allgemeines Staatsverfassungs-Archiv. Zeitschrift für Theorie und Praxis
+-                        gemäßigter Regierungsformen (1.1816-3.1817)</title>
+-                </bibl>
+                 <bibl xml:id="JP-009044">
+                     <author>La Bruyère, Jean de (1645-1696), franz. Moralist</author>
+                     <title>Les caractères (1688)</title>
+diff --git a/jp-umfeldbriefe/data/Register/Werke/P.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/P.xml
+index f00c33b..61ef19a 100644
+--- a/jp-umfeldbriefe/data/Register/Werke/P.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/P.xml
+@@ -16,6 +16,10 @@
+     <text>
+         <body>
+             <listBibl n="P">
++                <bibl xml:id="ed_mcc_tlm_pkb">
++                    <author>Pindar (522 oder 518 v. Chr.-nach 446 v. Chr.), griech. Lyriker</author>
++                    <title>Pythische Oden</title>
++                </bibl>
+                 <bibl xml:id="JP-009363">
+                     <author>Pallas, Peter Simon (1741-1811), Forschungsreisender</author>
+                     <title>Reise durch verschiedene Provinzen des Rußischen (russischen) Reichs
+diff --git a/jp-umfeldbriefe/data/Register/Werke/S.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/S.xml
+index ea0672e..602676d 100644
+--- a/jp-umfeldbriefe/data/Register/Werke/S.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/S.xml
+@@ -16,6 +16,11 @@
+     <text>
+         <body>
+             <listBibl n="S">
++                <bibl xml:id="ed_lj1_bmf_pkb">
++                    <author>Salat, Jakob (1766-1851), Theologe und Philosoph</author>
++                    <title>Lehrbuch der höheren Seelenkunde. Oder: Die psychische Anthropologie
++                        (München: Karl Thienemann 1820)</title>
++                </bibl>
+                 <bibl xml:id="ed_jqf_mwk_mjb">
+                     <author><persName><surname>Schiller</surname><forename>Friedrich</forename></persName></author>
+                     <title>Die Braut von Messina</title>
+@@ -61,11 +66,14 @@
+                     <note>In: Taschenbuch für das Jahr 1807. Der Liebe und Freundschaft gewidmet, S.
+                         236- 238</note>
+                 </bibl>
++                <bibl xml:id="ed_frb_s4c_4kb">
++                    <author>Schiller, Friedrich von (1759-1805)</author>
++                    <title>Das Lied von der Glocke (1799)</title>
++                </bibl>
+                 <bibl xml:id="ed_rlw_tqb_v3b">
+                     <author><persName key="JP-004127"><surname>Staël-Holstein</surname><forename>,
+                                 Germaine Baronne de, geb. Necker</forename></persName></author>
+-                    <title>Delphine</title>
+-                    <date>1802</date>
++                    <title>Delphine (1802)</title>
+                 </bibl>
+                 <bibl xml:id="JP-009540">
+                     <author>Saalfeld, Jakob Christoph Friedrich (1785-1834)</author>
+diff --git a/jp-umfeldbriefe/data/Register/Werke/T.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/T.xml
+index ddb03f7..9393948 100644
+--- a/jp-umfeldbriefe/data/Register/Werke/T.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/T.xml
+@@ -48,6 +48,11 @@
+                             </linkGrp>
+                         </linkGrp>
+                     </bibl>
++                    <bibl xml:id="ed_hzd_chm_pkb">
++                        <author>Tacitus (Tazitus), Publius Cornelius (um 55 - nach 115 n. Chr.),
++                            römischer Historiker</author>
++                        <title>Historien</title>
++                    </bibl>
+                     <bibl xml:id="JP-009859" corresp="JP-009858">
+                         <author>Tacitus (Tazitus), Publius Cornelius (um 55 - nach 115 n. Chr.),
+                             römischer Historiker</author>
+@@ -547,6 +552,12 @@
+                             </linkGrp>
+                         </linkGrp>
+                     </bibl>
++                    <bibl xml:id="ed_bk3_x1f_pkb">
++                        <author>Thiersch, Friedrich (1784-1860), klassischer Philologe</author>
++                        <title>Hülfsbücher zur Erlernung des Griechischen, nach den beyden
++                            Grammatiken der griechischen Sprache (Leipzig: Gerhard Fleischer
++                            1822)</title>
++                    </bibl>
+                     <bibl xml:id="JP-009885" corresp="JP-009884">
+                         <author>Thiersch, Friedrich (1784-1860), klassischer Philologe</author>
+                         <title>Ueber die Epochen der bildenden Kunst unter Griechen (1819)</title>
+diff --git a/jp-umfeldbriefe/data/Register/Werke/V.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/V.xml
+index 5f73165..7ee4be4 100644
+--- a/jp-umfeldbriefe/data/Register/Werke/V.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/V.xml
+@@ -16,6 +16,11 @@
+     <text>
+         <body>
+             <listBibl n="V">
++                <bibl xml:id="ed_qn4_q35_pkb">
++                    <author>Visconti, Giambattista Antonio (1722-1784); Visconti, Ennio Quirino
++                        (1751-1818)</author>
++                    <title>Il Museo Pio-Clementino (1782-1807)</title>
++                </bibl>
+                 <bibl xml:id="JP-009942">
+                     <author>Veith, Emanuel Johann (1787-1876), Arzt und Theologe</author>
+                     <title>Balsaminen (1823)</title>
+diff --git a/jp-umfeldbriefe/data/Register/Werke/W.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/W.xml
+index e7578f8..f5faa7c 100644
+--- a/jp-umfeldbriefe/data/Register/Werke/W.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/W.xml
+@@ -714,6 +714,11 @@
+                             </linkGrp>
+                         </linkGrp>
+                     </bibl>
++                    <bibl xml:id="ed_edz_32m_pkb">
++                        <author>Weiller, Kajetan von (1761-1826), katholischer Theologe, Direktor
++                            des Münchener Lyzeums</author>
++                        <title>Grundlegung der Psychologie (München: J. J. Lentner 1817)</title>
++                    </bibl>
+                     <bibl xml:id="JP-010048" corresp="JP-010047">
+                         <author>Weiller, Kajetan von (1761-1826), katholischer Theologe, Direktor
+                             des Münchener Lyzeums</author>
+diff --git a/jp-umfeldbriefe/data/Register/Werke/X.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/X.xml
+index 5940193..116558d 100644
+--- a/jp-umfeldbriefe/data/Register/Werke/X.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/X.xml
+@@ -28,6 +28,11 @@
+                         </linkGrp>
+                     </linkGrp>
+                 </bibl>
++                <bibl xml:id="ed_zl5_qjf_pkb">
++                    <author>Xenophon (um 430 - nach 355 v. Chr.), griechischer Historiker und
++                        Schriftsteller</author>
++                    <title>Anabasis (ca. 370 v. Chr.)</title>
++                </bibl>
+             </listBibl>
+         </body>
+     </text>
+diff --git a/jp-umfeldbriefe/data/Register/Werke/__contents__.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/__contents__.xml
+index 97bb29b..01538f5 100644
+--- a/jp-umfeldbriefe/data/Register/Werke/__contents__.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke/__contents__.xml
+@@ -1,84 +1,84 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/jp-umfeldbriefe/data/Register/Werke" version="1" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58.083+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="C.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58+01:00" modified="2019-09-19T13:44:04+02:00" filename="C.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="C.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58.586+01:00" modified="2020-02-04T13:13:27.007+01:00" filename="C.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="D.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58+01:00" modified="2019-11-29T11:56:34+01:00" filename="D.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="D.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58.651+01:00" modified="2019-11-29T11:56:34.209+01:00" filename="D.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="E.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58+01:00" modified="2019-11-29T11:10:23+01:00" filename="E.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="E.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58.717+01:00" modified="2019-11-29T11:10:23.762+01:00" filename="E.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="F.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58+01:00" modified="2020-01-09T10:40:51+01:00" filename="F.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="F.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58.83+01:00" modified="2020-02-05T15:09:32.431+01:00" filename="F.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="G.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58+01:00" modified="2019-11-29T10:54:54+01:00" filename="G.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="G.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58.928+01:00" modified="2019-11-29T10:54:54.82+01:00" filename="G.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="H.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59+01:00" modified="2020-02-11T17:15:38.987+01:00" filename="H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="H.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59.052+01:00" modified="2019-12-03T10:57:08.777+01:00" filename="H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="I.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59+01:00" modified="2019-08-29T15:43:04+02:00" filename="I.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="I.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59.131+01:00" modified="2019-08-29T15:43:04.764+02:00" filename="I.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="J.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59+01:00" modified="2019-11-29T10:45:23+01:00" filename="J.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="J.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59.246+01:00" modified="2019-11-29T10:45:23.776+01:00" filename="J.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="K.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59+01:00" modified="2019-09-19T14:06:22+02:00" filename="K.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="K.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59.379+01:00" modified="2019-09-19T14:06:22.853+02:00" filename="K.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="L.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59+01:00" modified="2020-02-10T16:39:46.4+01:00" filename="L.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="L.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59.538+01:00" modified="2019-03-14T16:29:59.538+01:00" filename="L.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="M.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59.666+01:00" modified="2020-02-03T13:59:54.594+01:00" filename="M.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="N.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59+01:00" modified="2019-03-14T16:29:59+01:00" filename="N.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="N.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59.736+01:00" modified="2019-03-14T16:29:59.736+01:00" filename="N.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="O.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59+01:00" modified="2019-09-30T14:06:59+02:00" filename="O.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="O.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59.829+01:00" modified="2019-09-30T14:06:59.006+02:00" filename="O.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="P.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59+01:00" modified="2019-03-14T16:29:59+01:00" filename="P.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="P.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:59.942+01:00" modified="2020-02-04T13:18:40.173+01:00" filename="P.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Q.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00+01:00" modified="2019-03-14T16:30:00+01:00" filename="Q.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Q.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00.087+01:00" modified="2019-03-14T16:30:00.087+01:00" filename="Q.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="R.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00+01:00" modified="2019-12-03T10:45:10+01:00" filename="R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="R.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00.186+01:00" modified="2019-12-03T10:45:10.344+01:00" filename="R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="S.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00+01:00" modified="2019-12-03T18:27:05+01:00" filename="S.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="S.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00.33+01:00" modified="2020-02-03T14:16:02.931+01:00" filename="S.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="T.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00+01:00" modified="2019-09-05T14:17:17+02:00" filename="T.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="T.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00.506+01:00" modified="2020-02-04T12:43:09.415+01:00" filename="T.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="U.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00+01:00" modified="2019-03-14T16:30:00+01:00" filename="U.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="U.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00.574+01:00" modified="2019-03-14T16:30:00.574+01:00" filename="U.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="V.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00+01:00" modified="2020-01-08T17:09:33+01:00" filename="V.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="V.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00.674+01:00" modified="2020-02-05T15:17:25.086+01:00" filename="V.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="W.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00+01:00" modified="2019-11-29T11:06:04+01:00" filename="W.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="W.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00.778+01:00" modified="2020-02-04T12:22:55.289+01:00" filename="W.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="X.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00+01:00" modified="2019-03-14T16:30:00+01:00" filename="X.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="X.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00.876+01:00" modified="2020-02-03T13:56:44.071+01:00" filename="X.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Y.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00+01:00" modified="2019-03-14T16:30:00+01:00" filename="Y.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Y.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00.906+01:00" modified="2019-03-14T16:30:00.906+01:00" filename="Y.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Z.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00+01:00" modified="2019-03-14T16:30:00+01:00" filename="Z.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Z.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00.949+01:00" modified="2019-03-14T16:30:00.949+01:00" filename="Z.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="A.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58+01:00" modified="2019-12-09T15:10:48+01:00" filename="A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="A.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58.214+01:00" modified="2020-02-05T11:22:52.719+01:00" filename="A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Anonym.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58+01:00" modified="2019-12-03T11:00:09+01:00" filename="Anonym.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Anonym.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58.332+01:00" modified="2020-02-05T11:37:44.49+01:00" filename="Anonym.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="B.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58+01:00" modified="2019-12-06T15:22:07+01:00" filename="B.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="B.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:29:58.479+01:00" modified="2020-02-04T12:40:21.207+01:00" filename="B.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/jp-umfeldbriefe/data/Register/Werke-jp/__contents__.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke-jp/__contents__.xml
+index edbab71..9431d68 100644
+--- a/jp-umfeldbriefe/data/Register/Werke-jp/__contents__.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/Werke-jp/__contents__.xml
+@@ -1,72 +1,72 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/jp-umfeldbriefe/data/Register/Werke-jp" version="1" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:00.977+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="F.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01+01:00" modified="2019-03-14T16:30:01+01:00" filename="F.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="F.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01.611+01:00" modified="2019-03-14T16:30:01.611+01:00" filename="F.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="G.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01+01:00" modified="2019-03-14T16:30:01+01:00" filename="G.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="G.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01.678+01:00" modified="2019-03-14T16:30:01.678+01:00" filename="G.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="H.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01+01:00" modified="2019-03-14T16:30:01+01:00" filename="H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="H.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01.83+01:00" modified="2019-03-14T16:30:01.83+01:00" filename="H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="I.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02+01:00" modified="2019-03-14T16:30:02+01:00" filename="I.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="I.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02.047+01:00" modified="2019-03-14T16:30:02.047+01:00" filename="I.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="J.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02+01:00" modified="2019-03-14T16:30:02+01:00" filename="J.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="J.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02.109+01:00" modified="2019-03-14T16:30:02.109+01:00" filename="J.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="K.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02+01:00" modified="2019-03-14T16:30:02+01:00" filename="K.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="K.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02.175+01:00" modified="2019-03-14T16:30:02.175+01:00" filename="K.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Kollaborationen.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02+01:00" modified="2019-03-14T16:30:02+01:00" filename="Kollaborationen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Kollaborationen.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02.339+01:00" modified="2019-03-14T16:30:02.339+01:00" filename="Kollaborationen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="L.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02+01:00" modified="2019-03-14T16:30:02+01:00" filename="L.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="L.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02.407+01:00" modified="2019-03-14T16:30:02.407+01:00" filename="L.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="M.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02+01:00" modified="2019-03-14T16:30:02+01:00" filename="M.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="M.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02.463+01:00" modified="2019-03-14T16:30:02.463+01:00" filename="M.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="N.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02+01:00" modified="2019-03-14T16:30:02+01:00" filename="N.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="N.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02.512+01:00" modified="2019-03-14T16:30:02.512+01:00" filename="N.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="P.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02+01:00" modified="2019-03-14T16:30:02+01:00" filename="P.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="P.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02.551+01:00" modified="2019-03-14T16:30:02.551+01:00" filename="P.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="R.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02+01:00" modified="2019-03-14T16:30:02+01:00" filename="R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="R.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02.618+01:00" modified="2019-03-14T16:30:02.618+01:00" filename="R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="S.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02+01:00" modified="2019-03-14T16:30:02+01:00" filename="S.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="S.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02.662+01:00" modified="2019-03-14T16:30:02.662+01:00" filename="S.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="T.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02+01:00" modified="2019-03-14T16:30:02+01:00" filename="T.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="T.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02.774+01:00" modified="2019-03-14T16:30:02.774+01:00" filename="T.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="U.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02+01:00" modified="2019-03-14T16:30:02+01:00" filename="U.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="U.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02.843+01:00" modified="2019-03-14T16:30:02.843+01:00" filename="U.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="V.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02+01:00" modified="2019-03-14T16:30:02+01:00" filename="V.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="V.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02.915+01:00" modified="2019-03-14T16:30:02.915+01:00" filename="V.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="W.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02+01:00" modified="2019-03-14T16:30:02+01:00" filename="W.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="W.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:02.966+01:00" modified="2019-03-14T16:30:02.966+01:00" filename="W.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Z.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:03+01:00" modified="2019-03-14T16:30:03+01:00" filename="Z.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Z.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:03.01+01:00" modified="2019-03-14T16:30:03.01+01:00" filename="Z.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="A.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01+01:00" modified="2019-03-14T16:30:01+01:00" filename="A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="A.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01.037+01:00" modified="2019-03-14T16:30:01.037+01:00" filename="A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="B.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01+01:00" modified="2019-03-14T16:30:01+01:00" filename="B.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="B.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01.226+01:00" modified="2019-03-14T16:30:01.226+01:00" filename="B.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="C.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01+01:00" modified="2019-03-14T16:30:01+01:00" filename="C.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="C.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01.297+01:00" modified="2019-03-14T16:30:01.297+01:00" filename="C.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="D.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01+01:00" modified="2019-03-14T16:30:01+01:00" filename="D.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="D.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01.437+01:00" modified="2019-03-14T16:30:01.437+01:00" filename="D.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="E.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01+01:00" modified="2019-03-14T16:30:01+01:00" filename="E.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="E.xml" skip="no" owner="admin" group="jp-nutzer" mode="770" created="2019-03-14T16:30:01.539+01:00" modified="2019-03-14T16:30:01.539+01:00" filename="E.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/jp-umfeldbriefe/data/Register/__contents__.xml b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/__contents__.xml
+index 834709d..45858a7 100644
+--- a/jp-umfeldbriefe/data/Register/__contents__.xml
++++ b/home/gordon/backup182/db/projects/jp-umfeldbriefe/data/Register/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/jp-umfeldbriefe/data/Register" version="1" owner="admin" group="jp-nutzer" mode="775" created="2019-03-14T16:29:48.605+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Themen.xml" skip="no" owner="admin" group="jp-nutzer" mode="775" created="2019-07-15T16:44:30+02:00" modified="2020-02-12T08:29:08.611+01:00" filename="Themen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Themen.xml" skip="no" owner="admin" group="jp-nutzer" mode="775" created="2019-07-15T16:44:30.9+02:00" modified="2020-02-05T17:01:35.365+01:00" filename="Themen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Korrespondenzkreise.xml" skip="no" owner="admin" group="jp-nutzer" mode="775" created="2019-07-15T10:09:37+02:00" modified="2020-02-11T16:40:42.298+01:00" filename="Korrespondenzkreise.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Korrespondenzkreise.xml" skip="no" owner="admin" group="jp-nutzer" mode="775" created="2019-07-15T10:09:37.121+02:00" modified="2020-02-05T12:20:20.405+01:00" filename="Korrespondenzkreise.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <subcollection name="Werke" filename="Werke"/>

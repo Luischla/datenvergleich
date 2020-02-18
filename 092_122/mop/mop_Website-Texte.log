@@ -1,0 +1,123 @@
+diff --git a/mop/data/Website-Texte/Hoefe_in_Preussen_Prinzenhoefe.xml b/home/gordon/backup182/db/projects/mop/data/Website-Texte/Hoefe_in_Preussen_Prinzenhoefe.xml
+index f1b46dc..a94717c 100644
+--- a/mop/data/Website-Texte/Hoefe_in_Preussen_Prinzenhoefe.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Website-Texte/Hoefe_in_Preussen_Prinzenhoefe.xml
+@@ -32,18 +32,19 @@
+                     Prinzenhof eine besondere Rolle im Gefüge der Monarchie, auch in Abhängigkeit
+                     von seiner Entfernung zum Königshof.</p>
+                 <p><persName key="P0002129">Prinz Friedrich</persName> von Preußen, ein Neffe
+-                        <persName key="P0002126">Friedrich Wilhelms III.</persName>, siedelte
+-                    1821 aufgrund seiner Bestallung als Kommandeur der 14. Division nach Düsseldorf,
+-                    in das seit wenigen Jahren zu Preußen gehörende Rheinland, über. Dort richtete
+-                    man ihm für ca. 55.000 Taler das kleine <placeName key="P0001159">Schloss
++                        <persName key="P0002126">Friedrich Wilhelms III.</persName>, siedelte 1821
++                    aufgrund seiner Bestallung als Kommandeur der 14. Division nach Düsseldorf, in
++                    das seit wenigen Jahren zu Preußen gehörende Rheinland, über. Dort richtete man
++                    ihm für ca. 55.000 Taler das kleine <placeName key="ed_wfn_5m5_nkb">Schloss
+                         Jägerhof</placeName>, das heutige Goethe-Museum, ein. Das Schloss übernahm
+                     die Rolle eines preußischen Residenzschlosses im Westen des Landes und stand bei
+-                    späteren Besuchen dem Kronprinzen und König <persName key="P0002127">Friedrich Wilhelm IV.</persName> zur Verfügung. Die gesellschaftlichen
+-                    Veranstaltungen dort waren zahlreich: Bälle, Konzerte, Laientheater und
+-                    Ähnliches bezogen den rheinischen Adel, die Offiziere der Garnison, höhere
+-                    Beamte der Bezirksregierung sowie Persönlichkeiten der Düsseldorfer Oberschicht
+-                    ein. Der Düsseldorfer Prinzenhof war bis in die 1840er Jahren ein kleines
+-                    integratives Zentrum an der Peripherie der preußischen Monarchie.</p>
++                    späteren Besuchen dem Kronprinzen und König <persName key="P0002127">Friedrich
++                        Wilhelm IV.</persName> zur Verfügung. Die gesellschaftlichen Veranstaltungen
++                    dort waren zahlreich: Bälle, Konzerte, Laientheater und Ähnliches bezogen den
++                    rheinischen Adel, die Offiziere der Garnison, höhere Beamte der Bezirksregierung
++                    sowie Persönlichkeiten der Düsseldorfer Oberschicht ein. Der Düsseldorfer
++                    Prinzenhof war bis in die 1840er Jahren ein kleines integratives Zentrum an der
++                    Peripherie der preußischen Monarchie.</p>
+                 <p>Etwas anders verhielt es sich mit den Prinzenhöfen in unmittelbarer Nähe der
+                     königlichen Residenz. <persName key="P0002107">Prinz Carl</persName>
+                     von Preußen, ein Sohn Friedrich Wilhelms III., erhielt 1828 das <placeName key="P0001068">Palais am Berliner Wilhelmplatz</placeName> als
+diff --git a/mop/data/Website-Texte/__contents__.xml b/home/gordon/backup182/db/projects/mop/data/Website-Texte/__contents__.xml
+index 230f516..f016322 100644
+--- a/mop/data/Website-Texte/__contents__.xml
++++ b/home/gordon/backup182/db/projects/mop/data/Website-Texte/__contents__.xml
+@@ -1,63 +1,63 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/mop/data/Website-Texte" version="1" owner="mop_wendt" group="mop-nutzer" mode="770" created="2019-10-29T15:28:36.218+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Themenseite_Die_Finanzierung_des_Hofes.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-11-29T10:48:57+01:00" modified="2019-12-12T15:19:56+01:00" filename="Themenseite_Die_Finanzierung_des_Hofes.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Themenseite_Die_Finanzierung_des_Hofes.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-11-29T10:48:57.242+01:00" modified="2019-12-12T15:19:56.625+01:00" filename="Themenseite_Die_Finanzierung_des_Hofes.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Themenseite_Die_koeniglichen_Kabinette.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-11-29T10:53:54+01:00" modified="2019-12-13T14:50:07+01:00" filename="Themenseite_Die_koeniglichen_Kabinette.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Themenseite_Die_koeniglichen_Kabinette.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-11-29T10:53:54.831+01:00" modified="2019-12-13T14:50:07.464+01:00" filename="Themenseite_Die_koeniglichen_Kabinette.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Website_HK_Eingangsseite.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-10-25T10:03:19+02:00" modified="2019-12-12T15:19:56+01:00" filename="Website_HK_Eingangsseite.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Website_HK_Eingangsseite.xml" skip="no" owner="mop_wendt" group="mop-nutzer" mode="660" created="2019-10-25T10:03:19.669+02:00" modified="2019-12-12T15:19:56.495+01:00" filename="Website_HK_Eingangsseite.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Website_WT_1800.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-10-25T10:52:53+02:00" modified="2019-12-12T15:19:56+01:00" filename="Website_WT_1800.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Website_WT_1800.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-10-25T10:52:53.241+02:00" modified="2019-12-12T15:19:56.496+01:00" filename="Website_WT_1800.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Themenseite_Hoefe-Hofaemter-Stadt.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-11-29T10:34:13+01:00" modified="2019-12-12T15:19:56+01:00" filename="Themenseite_Hoefe-Hofaemter-Stadt.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Themenseite_Hoefe-Hofaemter-Stadt.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-11-29T10:34:13.963+01:00" modified="2019-12-12T15:19:56.644+01:00" filename="Themenseite_Hoefe-Hofaemter-Stadt.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Website_HK_Suche.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-10-28T13:05:53+01:00" modified="2019-12-12T15:19:56+01:00" filename="Website_HK_Suche.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Website_HK_Suche.xml" skip="no" owner="mop_holtz" group="mop-nutzer" mode="660" created="2019-10-28T13:05:53.599+01:00" modified="2019-12-12T15:19:56.504+01:00" filename="Website_HK_Suche.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Website_Biogramme.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-10-29T09:07:21+01:00" modified="2019-12-12T15:19:56+01:00" filename="Website_Biogramme.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Website_Biogramme.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-10-29T09:07:21.937+01:00" modified="2019-12-12T15:19:56.507+01:00" filename="Website_Biogramme.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Website_Organigramme_1861-1888.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-10-25T11:51:21+02:00" modified="2019-12-17T11:34:33+01:00" filename="Website_Organigramme_1861-1888.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Website_Organigramme_1861-1888.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-10-25T11:51:21.328+02:00" modified="2019-12-17T11:34:33.353+01:00" filename="Website_Organigramme_1861-1888.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Hoefe_in_Preussen_Hofuniformen.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-07T14:55:31+01:00" modified="2019-12-13T14:50:07+01:00" filename="Hoefe_in_Preussen_Hofuniformen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Hoefe_in_Preussen_Hofuniformen.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-07T14:55:31.186+01:00" modified="2019-12-13T14:50:07.817+01:00" filename="Hoefe_in_Preussen_Hofuniformen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Website_Organigramme_Allg.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-10-28T11:22:18+01:00" modified="2019-12-12T15:19:56+01:00" filename="Website_Organigramme_Allg.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Website_Organigramme_Allg.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-10-28T11:22:18.449+01:00" modified="2019-12-12T15:19:56.498+01:00" filename="Website_Organigramme_Allg.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Hoefe_in_Preussen_Hof_in_der_Krise.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-07T15:05:09+01:00" modified="2019-12-13T14:50:07+01:00" filename="Hoefe_in_Preussen_Hof_in_der_Krise.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Hoefe_in_Preussen_Hof_in_der_Krise.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-07T15:05:09.984+01:00" modified="2019-12-13T14:50:07.97+01:00" filename="Hoefe_in_Preussen_Hof_in_der_Krise.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Hoefe_in_Preussen_Prinzenhoefe.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-07T15:19:04+01:00" modified="2019-12-13T14:50:08+01:00" filename="Hoefe_in_Preussen_Prinzenhoefe.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Hoefe_in_Preussen_Prinzenhoefe.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-07T15:19:04.141+01:00" modified="2020-01-29T12:32:41.707+01:00" filename="Hoefe_in_Preussen_Prinzenhoefe.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Hoefe_in_Preussen_Hoefische_Feste.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-07T15:38:36+01:00" modified="2019-12-13T14:50:08+01:00" filename="Hoefe_in_Preussen_Hoefische_Feste.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Hoefe_in_Preussen_Hoefische_Feste.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-07T15:38:36.929+01:00" modified="2019-12-13T14:50:08.215+01:00" filename="Hoefe_in_Preussen_Hoefische_Feste.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Hoefe_in_Preussen_Damen_im_Hofdienst.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-07T15:49:51+01:00" modified="2019-12-13T14:50:08+01:00" filename="Hoefe_in_Preussen_Damen_im_Hofdienst.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Hoefe_in_Preussen_Damen_im_Hofdienst.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-07T15:49:51.369+01:00" modified="2019-12-13T14:50:08.332+01:00" filename="Hoefe_in_Preussen_Damen_im_Hofdienst.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Das_Vorhaben.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-08T17:30:14+01:00" modified="2019-12-12T15:19:56+01:00" filename="Das_Vorhaben.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Das_Vorhaben.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-08T17:30:14.414+01:00" modified="2019-12-12T15:19:56.651+01:00" filename="Das_Vorhaben.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Das_Projektteam.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-08T17:34:35+01:00" modified="2019-12-12T15:19:56+01:00" filename="Das_Projektteam.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Das_Projektteam.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-08T17:34:35.321+01:00" modified="2019-12-12T15:19:56.652+01:00" filename="Das_Projektteam.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Die_gedruckte_Edition.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-08T17:38:18+01:00" modified="2019-12-12T15:19:56+01:00" filename="Die_gedruckte_Edition.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Die_gedruckte_Edition.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-08T17:38:18.46+01:00" modified="2019-12-12T15:19:56.66+01:00" filename="Die_gedruckte_Edition.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Die_digitalen_Forschungsdaten.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-08T17:41:21+01:00" modified="2019-12-12T15:19:56+01:00" filename="Die_digitalen_Forschungsdaten.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Die_digitalen_Forschungsdaten.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-12-08T17:41:21.098+01:00" modified="2019-12-12T15:19:56.661+01:00" filename="Die_digitalen_Forschungsdaten.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Website_Startseite.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-10-29T09:52:13+01:00" modified="2019-12-12T15:19:56+01:00" filename="Website_Startseite.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Website_Startseite.xml" skip="no" owner="mop_grosse" group="mop-nutzer" mode="660" created="2019-10-29T09:52:13.95+01:00" modified="2019-12-12T15:19:56.507+01:00" filename="Website_Startseite.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Website_WT_Allg.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-11-04T08:49:36+01:00" modified="2019-12-12T15:19:56+01:00" filename="Website_WT_Allg.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Website_WT_Allg.xml" skip="no" owner="mop_bittner" group="mop-nutzer" mode="660" created="2019-11-04T08:49:36.119+01:00" modified="2019-12-12T15:19:56.525+01:00" filename="Website_WT_Allg.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

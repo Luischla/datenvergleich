@@ -1,0 +1,168 @@
+diff --git a/ovp/data/Handschriftenbeschreibungen/__contents__.xml b/home/gordon/backup182/db/projects/ovp/data/Handschriftenbeschreibungen/__contents__.xml
+index b23670a..9d77eef 100644
+--- a/ovp/data/Handschriftenbeschreibungen/__contents__.xml
++++ b/home/gordon/backup182/db/projects/ovp/data/Handschriftenbeschreibungen/__contents__.xml
+@@ -1,123 +1,123 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/ovp/data/Handschriftenbeschreibungen" version="1" owner="admin" group="ovp-nutzer" mode="770" created="2018-07-24T08:29:24.408+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Sb1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T14:58:01+02:00" filename="Sb1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sb1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.297+02:00" modified="2019-05-07T14:58:01.297+02:00" filename="Sb1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="SF1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T15:34:30+02:00" filename="SF1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="SF1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.333+02:00" modified="2019-05-07T15:34:30.391+02:00" filename="SF1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="testdatei.xml" skip="no" owner="wegener" group="ovp-nutzer" mode="660" created="2019-04-09T11:12:21+02:00" modified="2019-05-07T08:24:55+02:00" filename="testdatei.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="testdatei.xml" skip="no" owner="wegener" group="ovp-nutzer" mode="660" created="2019-04-09T11:12:21.642+02:00" modified="2019-05-07T08:24:55.631+02:00" filename="testdatei.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Nue2.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T14:58:01+02:00" filename="Nue2.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Nue2.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.141+02:00" modified="2019-05-07T14:58:01.141+02:00" filename="Nue2.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Ni1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T15:34:14+02:00" filename="Ni1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Ni1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.126+02:00" modified="2019-05-07T15:34:14.588+02:00" filename="Ni1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue24.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T14:58:01+02:00" filename="Mue24.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue24.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.119+02:00" modified="2019-05-07T14:58:01.119+02:00" filename="Mue24.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Nue4.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T15:34:14+02:00" filename="Nue4.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Nue4.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.166+02:00" modified="2019-05-07T15:34:14.643+02:00" filename="Nue4.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue22.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T14:58:01+02:00" filename="Mue22.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue22.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.1+02:00" modified="2019-05-07T14:58:01.1+02:00" filename="Mue22.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue21.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T15:34:29+02:00" filename="Mue21.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue21.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.087+02:00" modified="2019-05-07T15:34:29.828+02:00" filename="Mue21.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue20.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T15:34:14+02:00" filename="Mue20.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue20.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.076+02:00" modified="2019-05-07T15:34:14.38+02:00" filename="Mue20.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue19.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T14:58:01+02:00" filename="Mue19.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue19.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.069+02:00" modified="2019-05-07T14:58:01.069+02:00" filename="Mue19.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue18.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T14:58:01+02:00" filename="Mue18.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue18.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.055+02:00" modified="2019-05-07T14:58:01.055+02:00" filename="Mue18.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue17.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T14:58:01+02:00" filename="Mue17.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue17.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.044+02:00" modified="2019-05-07T14:58:01.044+02:00" filename="Mue17.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Sb4.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T15:34:14+02:00" filename="Sb4.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sb4.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.32+02:00" modified="2019-05-07T15:34:14.718+02:00" filename="Sb4.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Sb3.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T15:34:30+02:00" filename="Sb3.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sb3.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.314+02:00" modified="2019-05-07T15:34:30.356+02:00" filename="Sb3.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Sb2.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T14:58:01+02:00" filename="Sb2.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sb2.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.304+02:00" modified="2019-05-07T14:58:01.304+02:00" filename="Sb2.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Aa1.xml" skip="no" owner="wegener" group="ovp-nutzer" mode="660" created="2020-01-20T13:26:07+01:00" modified="2020-01-24T12:01:00+01:00" filename="Aa1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Aa1.xml" skip="no" owner="wegener" group="ovp-nutzer" mode="660" created="2020-01-20T13:26:07.145+01:00" modified="2020-01-24T12:01:00.849+01:00" filename="Aa1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Sa2.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T15:34:30+02:00" filename="Sa2.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sa2.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.283+02:00" modified="2019-05-07T15:34:30.324+02:00" filename="Sa2.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Pr1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T15:34:30+02:00" filename="Pr1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Pr1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.27+02:00" modified="2019-05-07T15:34:30.279+02:00" filename="Pr1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Po1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T15:34:30+02:00" filename="Po1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Po1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.255+02:00" modified="2019-05-07T15:34:30.163+02:00" filename="Po1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Pc1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T14:58:01+02:00" filename="Pc1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Pc1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.197+02:00" modified="2019-05-07T14:58:01.197+02:00" filename="Pc1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="NY1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T14:58:01+02:00" filename="NY1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="NY1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.181+02:00" modified="2019-05-07T14:58:01.181+02:00" filename="NY1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Nue3.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T14:58:01+02:00" filename="Nue3.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Nue3.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.154+02:00" modified="2019-05-07T14:58:01.154+02:00" filename="Nue3.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue16.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T15:34:29+02:00" filename="Mue16.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue16.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.027+02:00" modified="2019-05-07T15:34:29.737+02:00" filename="Mue16.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue14.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T15:39:00+02:00" filename="Mue14.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue14.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.014+02:00" modified="2019-05-07T15:39:00.812+02:00" filename="Mue14.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue13.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T15:37:36+02:00" filename="Mue13.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue13.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.003+02:00" modified="2019-05-07T15:37:36.147+02:00" filename="Mue13.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue12.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00+02:00" modified="2019-05-07T15:33:19+02:00" filename="Mue12.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue12.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.989+02:00" modified="2019-05-07T15:33:19.343+02:00" filename="Mue12.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue11.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00+02:00" modified="2019-07-24T11:12:40+02:00" filename="Mue11.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue11.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.975+02:00" modified="2019-07-24T11:12:40.946+02:00" filename="Mue11.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue10.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00+02:00" modified="2020-01-21T11:09:30+01:00" filename="Mue10.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue10.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.96+02:00" modified="2020-01-21T11:09:30.015+01:00" filename="Mue10.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue8.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00+02:00" modified="2019-05-07T15:34:30+02:00" filename="Mue8.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue8.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.948+02:00" modified="2019-05-07T15:34:30.102+02:00" filename="Mue8.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue7.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00+02:00" modified="2019-05-07T15:34:30+02:00" filename="Mue7.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue7.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.935+02:00" modified="2019-05-07T15:34:30.049+02:00" filename="Mue7.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue6.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00+02:00" modified="2019-05-07T15:34:29+02:00" filename="Mue6.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue6.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.924+02:00" modified="2019-05-07T15:34:29.967+02:00" filename="Mue6.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue5.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00+02:00" modified="2019-05-07T14:58:00+02:00" filename="Mue5.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue5.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.907+02:00" modified="2019-05-07T14:58:00.907+02:00" filename="Mue5.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue4.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00+02:00" modified="2019-05-07T15:34:29+02:00" filename="Mue4.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue4.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.886+02:00" modified="2019-05-07T15:34:29.918+02:00" filename="Mue4.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue3.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00+02:00" modified="2019-05-07T15:34:14+02:00" filename="Mue3.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue3.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.863+02:00" modified="2019-05-07T15:34:14.417+02:00" filename="Mue3.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue2.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00+02:00" modified="2019-05-07T15:34:29+02:00" filename="Mue2.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue2.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.85+02:00" modified="2019-05-07T15:34:29.781+02:00" filename="Mue2.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00+02:00" modified="2020-01-24T12:24:15+01:00" filename="Mue1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.83+02:00" modified="2020-01-24T12:24:15.174+01:00" filename="Mue1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Ba1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00+02:00" modified="2019-05-07T15:34:29+02:00" filename="Ba1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Ba1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.812+02:00" modified="2019-05-07T15:34:29.639+02:00" filename="Ba1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Sb5.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T14:58:01+02:00" filename="Sb5.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sb5.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.327+02:00" modified="2019-05-07T14:58:01.327+02:00" filename="Sb5.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue23.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01+02:00" modified="2019-05-07T15:34:29+02:00" filename="Mue23.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue23.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.106+02:00" modified="2019-05-07T15:34:29.873+02:00" filename="Mue23.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <subcollection name="ueberarbeitung_Nadine" filename="ueberarbeitung_Nadine"/>

@@ -1,0 +1,165 @@
+diff --git a/cagb/data/zzz-Test/Agiotis/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/zzz-Test/Agiotis/__contents__.xml
+index 5c453a5..e156469 100644
+--- a/cagb/data/zzz-Test/Agiotis/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/zzz-Test/Agiotis/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/zzz-Test/Agiotis" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.432+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="AG1-Leipzig-Universitaetsbibliothek-Fonds-der-Stadtbibliothek-Rep-I-44.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="AG1-Leipzig-Universitaetsbibliothek-Fonds-der-Stadtbibliothek-Rep-I-44.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="AG1-Leipzig-Universitaetsbibliothek-Fonds-der-Stadtbibliothek-Rep-I-44.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.461+01:00" modified="2017-11-10T10:06:29.461+01:00" filename="AG1-Leipzig-Universitaetsbibliothek-Fonds-der-Stadtbibliothek-Rep-I-44.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="AG1-Leipzig-Universitaetsbibliothek-Fonds-der-Stadtbibliothek-Rep-I-68.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="AG1-Leipzig-Universitaetsbibliothek-Fonds-der-Stadtbibliothek-Rep-I-68.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="AG1-Leipzig-Universitaetsbibliothek-Fonds-der-Stadtbibliothek-Rep-I-68.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.435+01:00" modified="2017-11-10T10:06:29.435+01:00" filename="AG1-Leipzig-Universitaetsbibliothek-Fonds-der-Stadtbibliothek-Rep-I-68.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/zzz-Test/Dubletten/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/zzz-Test/Dubletten/__contents__.xml
+index 46b5ff0..b6398cc 100644
+--- a/cagb/data/zzz-Test/Dubletten/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/zzz-Test/Dubletten/__contents__.xml
+@@ -1,24 +1,24 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/zzz-Test/Dubletten" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.336+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Leiden-Universiteitsbibliotheek-Scaligerani-Graeci-26.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="Leiden-Universiteitsbibliotheek-Scaligerani-Graeci-26.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Leiden-Universiteitsbibliotheek-Scaligerani-Graeci-26.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.375+01:00" modified="2017-11-10T10:06:29.375+01:00" filename="Leiden-Universiteitsbibliotheek-Scaligerani-Graeci-26.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-03.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-03.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-03.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.363+01:00" modified="2017-11-10T10:06:29.363+01:00" filename="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-03.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-23.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-23.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-23.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.351+01:00" modified="2017-11-10T10:06:29.351+01:00" filename="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-23.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-41.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-41.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-41.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.338+01:00" modified="2017-11-10T10:06:29.338+01:00" filename="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-41.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-42.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-42.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-42.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.415+01:00" modified="2017-11-10T10:06:29.415+01:00" filename="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-42.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mut-gr-004.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="Mut-gr-004.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mut-gr-004.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.4+01:00" modified="2017-11-10T10:06:29.4+01:00" filename="Mut-gr-004.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mut-gr-088.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="Mut-gr-088.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mut-gr-088.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.386+01:00" modified="2017-11-10T10:06:29.386+01:00" filename="Mut-gr-088.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/zzz-Test/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/zzz-Test/__contents__.xml
+index af7f09c..3f9ea37 100644
+--- a/cagb/data/zzz-Test/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/zzz-Test/__contents__.xml
+@@ -3,7 +3,7 @@
+     <resource type="XMLResource" name="Mut-gr-076.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="Mut-gr-076.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-11.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28+01:00" modified="2017-11-10T10:06:28+01:00" filename="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-11.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-11.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:28.984+01:00" modified="2017-11-10T10:06:28.984+01:00" filename="Leiden-Universiteitsbibliotheek-Vossiani-Graeci-Q-11.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <subcollection name="telota" filename="telota"/>
+diff --git a/cagb/data/zzz-Test/clludwig/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/zzz-Test/clludwig/__contents__.xml
+index 9c2ef63..300a025 100644
+--- a/cagb/data/zzz-Test/clludwig/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/zzz-Test/clludwig/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/zzz-Test/clludwig" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.477+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Marc.239.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2018-03-06T08:37:50+01:00" filename="Marc.239.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Marc.239.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.521+01:00" modified="2018-03-06T08:37:50.481+01:00" filename="Marc.239.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Vat.115.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="Vat.115.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Vat.115.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.494+01:00" modified="2017-11-10T10:06:29.494+01:00" filename="Vat.115.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Vat.303.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="Vat.303.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Vat.303.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.478+01:00" modified="2017-11-10T10:06:29.478+01:00" filename="Vat.303.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/cagb/data/zzz-Test/telota/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/zzz-Test/telota/__contents__.xml
+index d665b06..899237e 100644
+--- a/cagb/data/zzz-Test/telota/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/zzz-Test/telota/__contents__.xml
+@@ -1,36 +1,36 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/zzz-Test/telota" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.025+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Phil.%20gr.%20099.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="Phil. gr. 099.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Phil.%20gr.%20099.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.25+01:00" modified="2017-11-10T10:06:29.25+01:00" filename="Phil. gr. 099.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Oxford-Corpus-Christi-College-108.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="Oxford-Corpus-Christi-College-108.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="untitled2.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.187+01:00" modified="2017-11-10T10:06:29.187+01:00" filename="untitled2.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="del_schema_loc.xql" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="del_schema_loc.xql" mimetype="application/xquery">
++    <resource type="XMLResource" name="Oxford-Corpus-Christi-College-108.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.131+01:00" modified="2017-11-10T10:06:29.131+01:00" filename="Oxford-Corpus-Christi-College-108.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="bak_del.xql" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="bak_del.xql" mimetype="application/xquery">
++    <resource type="XMLResource" name="test123.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.211+01:00" modified="2017-11-10T10:06:29.211+01:00" filename="test123.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="test37378.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="test37378.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="test37378.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.203+01:00" modified="2017-11-10T10:06:29.203+01:00" filename="test37378.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="untitled.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="untitled.xml" mimetype="application/xml">
++    <resource type="BinaryResource" name="bak_del.xql" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.144+01:00" modified="2020-02-17T17:10:17.693+01:00" filename="bak_del.xql" mimetype="application/xquery">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="untitled2.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="untitled2.xml" mimetype="application/xml">
++    <resource type="BinaryResource" name="del_schema_loc.xql" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.027+01:00" modified="2020-02-17T17:10:17.708+01:00" filename="del_schema_loc.xql" mimetype="application/xquery">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="AG1-Alexandrien-087.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="AG1-Alexandrien-087.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="AG1-Alexandrien-087.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.166+01:00" modified="2017-11-10T10:06:29.166+01:00" filename="AG1-Alexandrien-087.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="delete-me.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="delete-me.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="delete-me.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.123+01:00" modified="2017-11-10T10:06:29.123+01:00" filename="delete-me.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mailand-Biblioteca-Ambrosiana-L-093-sup.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="Mailand-Biblioteca-Ambrosiana-L-093-sup.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mailand-Biblioteca-Ambrosiana-L-093-sup.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.067+01:00" modified="2017-11-10T10:06:29.067+01:00" filename="Mailand-Biblioteca-Ambrosiana-L-093-sup.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="test123.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="test123.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="untitled.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.195+01:00" modified="2017-11-10T10:06:29.195+01:00" filename="untitled.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <subcollection name="schema_location" filename="schema_location"/>
+diff --git a/cagb/data/zzz-Test/telota/schema_location/__contents__.xml b/home/gordon/backup182/db/projects/cagb/data/zzz-Test/telota/schema_location/__contents__.xml
+index 52f5faf..727f353 100644
+--- a/cagb/data/zzz-Test/telota/schema_location/__contents__.xml
++++ b/home/gordon/backup182/db/projects/cagb/data/zzz-Test/telota/schema_location/__contents__.xml
+@@ -1,15 +1,15 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/cagb/data/zzz-Test/telota/schema_location" version="1" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.266+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="shloc1.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="shloc1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="shloc1.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.316+01:00" modified="2017-11-10T10:06:29.316+01:00" filename="shloc1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="shloc2.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="shloc2.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="shloc2.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.297+01:00" modified="2017-11-10T10:06:29.297+01:00" filename="shloc2.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="shloc3.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="shloc3.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="shloc3.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.276+01:00" modified="2017-11-10T10:06:29.276+01:00" filename="shloc3.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="test.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29+01:00" modified="2017-11-10T10:06:29+01:00" filename="test.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="test.xml" skip="no" owner="exist-bot" group="cagb-nutzer" mode="770" created="2017-11-10T10:06:29.267+01:00" modified="2017-11-10T10:06:29.267+01:00" filename="test.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

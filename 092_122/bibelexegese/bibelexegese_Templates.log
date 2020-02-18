@@ -1,0 +1,21 @@
+diff --git a/bibelexegese/data/Templates/__contents__.xml b/home/gordon/backup182/db/projects/bibelexegese/data/Templates/__contents__.xml
+index e2c75ac..3adcac9 100644
+--- a/bibelexegese/data/Templates/__contents__.xml
++++ b/home/gordon/backup182/db/projects/bibelexegese/data/Templates/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/bibelexegese/data/Templates" version="1" owner="stockhausen" group="stockhausen" mode="770" created="2019-05-08T13:03:46.431+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Template-Edition.xml" skip="no" owner="stockhausen" group="stockhausen" mode="660" created="2019-05-08T13:08:12+02:00" modified="2019-05-08T13:17:27+02:00" filename="Template-Edition.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Template-Edition.xml" skip="no" owner="stockhausen" group="stockhausen" mode="660" created="2019-05-08T13:08:12.632+02:00" modified="2019-05-08T13:17:27.343+02:00" filename="Template-Edition.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Template-Praefatio.xml" skip="no" owner="stockhausen" group="stockhausen" mode="660" created="2019-05-08T13:16:09+02:00" modified="2019-05-08T13:17:37+02:00" filename="Template-Praefatio.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Template-Praefatio.xml" skip="no" owner="stockhausen" group="stockhausen" mode="660" created="2019-05-08T13:16:09.083+02:00" modified="2019-05-08T13:17:37.359+02:00" filename="Template-Praefatio.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Template-Vorwort.xml" skip="no" owner="stockhausen" group="stockhausen" mode="660" created="2019-05-08T13:30:20+02:00" modified="2019-05-08T13:30:32+02:00" filename="Template-Vorwort.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Template-Vorwort.xml" skip="no" owner="stockhausen" group="stockhausen" mode="660" created="2019-05-08T13:30:20.597+02:00" modified="2019-05-08T13:30:32.06+02:00" filename="Template-Vorwort.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
