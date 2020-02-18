@@ -1,0 +1,1133 @@
+diff --git a/T2_Forschungsreisen/Briefe/Ehrenberg/161.xml b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Briefe/Ehrenberg/161.xml
+index 8515cf5..a749550 100644
+--- a/T2_Forschungsreisen/Briefe/Ehrenberg/161.xml
++++ b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Briefe/Ehrenberg/161.xml
+@@ -91,9 +91,7 @@
+             <closer rend="paragraph">
+                <salute>Ihr <lb/>ganz eigener</salute>
+                <signed>Encke</signed>
+-               <dateline><?oxy_comment_start author="Christian Thomas" timestamp="20200206T191536+0100" comment="Wieso ist denn der hierauf folgende, von Humboldt notierte Text nicht notiert?
+-Falls er nicht transkribiert werden soll, wenigestens &lt;gap/&gt; mit @reason=&quot;irrelevant&quot; setzen!"?>16/1
+-                     <supplied>18</supplied>47<?oxy_comment_end?></dateline>
++               <dateline>16/1 <supplied>18</supplied>47</dateline>
+             </closer>
+          </div>
+       </body>
+diff --git a/T2_Forschungsreisen/Briefe/Ehrenberg/__contents__.xml b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Briefe/Ehrenberg/__contents__.xml
+index efe096f..25c3130 100644
+--- a/T2_Forschungsreisen/Briefe/Ehrenberg/__contents__.xml
++++ b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Briefe/Ehrenberg/__contents__.xml
+@@ -30,7 +30,7 @@
+     <resource type="XMLResource" name="230.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:29+02:00" modified="2019-05-03T18:28:39+02:00" filename="230.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="231.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:29+02:00" modified="2019-11-05T13:11:53.874+01:00" filename="231.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="231.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:29+02:00" modified="2019-11-05T13:11:53+01:00" filename="231.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="232.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:29+02:00" modified="2019-05-03T18:42:32+02:00" filename="232.xml" mimetype="application/xml">
+@@ -51,25 +51,25 @@
+     <resource type="XMLResource" name="237.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:42:50+02:00" filename="237.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="238.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.183+01:00" filename="238.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="238.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="238.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="239.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:53+01:00" filename="239.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="240.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54.127+01:00" filename="240.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="240.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54+01:00" filename="240.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="241.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:53+01:00" filename="241.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="242.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54.278+01:00" filename="242.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="242.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54+01:00" filename="242.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="243.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:53+01:00" filename="243.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="244.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.255+01:00" filename="244.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="244.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="244.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="244a.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:29:01+02:00" filename="244a.xml" mimetype="application/xml">
+@@ -78,19 +78,19 @@
+     <resource type="XMLResource" name="246.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:44:19+02:00" filename="246.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="247.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54.419+01:00" filename="247.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="247.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54+01:00" filename="247.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="248.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54.503+01:00" filename="248.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="248.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54+01:00" filename="248.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="249.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54.595+01:00" filename="249.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="249.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54+01:00" filename="249.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="250.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:53+01:00" filename="250.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="251.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54.692+01:00" filename="251.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="251.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54+01:00" filename="251.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="252.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="252.xml" mimetype="application/xml">
+@@ -99,13 +99,13 @@
+     <resource type="XMLResource" name="253.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="253.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="254.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54.786+01:00" filename="254.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="254.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54+01:00" filename="254.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="255.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:44:33+02:00" filename="255.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="256.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54.866+01:00" filename="256.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="256.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54+01:00" filename="256.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="257.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:19:14+02:00" filename="257.xml" mimetype="application/xml">
+@@ -123,22 +123,22 @@
+     <resource type="XMLResource" name="261.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:45:14+02:00" filename="261.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="262.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54.946+01:00" filename="262.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="262.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:54+01:00" filename="262.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="263E1.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55.026+01:00" filename="263E1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="263E1.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55+01:00" filename="263E1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="264E2.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-10-07T15:20:19.716+02:00" filename="264E2.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="264E2.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-10-07T15:20:19+02:00" filename="264E2.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="265E3.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.299+01:00" filename="265E3.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="265E3.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="265E3.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="266E4.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-16T15:33:00.477+01:00" filename="266E4.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="266E4.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-16T15:33:00+01:00" filename="266E4.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="267E5.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55.16+01:00" filename="267E5.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="267E5.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55+01:00" filename="267E5.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="268E6.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="268E6.xml" mimetype="application/xml">
+@@ -150,16 +150,16 @@
+     <resource type="XMLResource" name="270E8.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="270E8.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="271E9.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.357+01:00" filename="271E9.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="271E9.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="271E9.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="272E10.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.414+01:00" filename="272E10.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="272E10.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="272E10.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="273E11.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-07-16T13:38:15.594+02:00" filename="273E11.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="273E11.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-07-16T13:38:15+02:00" filename="273E11.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="274E12.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55.242+01:00" filename="274E12.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="274E12.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55+01:00" filename="274E12.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="275E13.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:47:27+02:00" filename="275E13.xml" mimetype="application/xml">
+@@ -171,19 +171,19 @@
+     <resource type="XMLResource" name="277E15.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:47:46+02:00" filename="277E15.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="278E16.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.474+01:00" filename="278E16.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="278E16.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="278E16.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="279E17.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.504+01:00" filename="279E17.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="279E17.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="279E17.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="280E18.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:47:59+02:00" filename="280E18.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="281E19.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55.329+01:00" filename="281E19.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="281E19.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55+01:00" filename="281E19.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="282E20.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55.429+01:00" filename="282E20.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="282E20.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55+01:00" filename="282E20.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="283E21.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-16T15:41:52.968+01:00" filename="283E21.xml" mimetype="application/xml">
+@@ -195,13 +195,13 @@
+     <resource type="XMLResource" name="285E23.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:48:26+02:00" filename="285E23.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="286E24.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55.53+01:00" filename="286E24.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="286E24.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55+01:00" filename="286E24.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="287E25.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-09-19T11:04:13.73+02:00" filename="287E25.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="287E25.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-09-19T11:04:13+02:00" filename="287E25.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="288E26.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-08-12T16:37:57.58+02:00" filename="288E26.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="288E26.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-08-12T16:37:57+02:00" filename="288E26.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="DLA1.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="DLA1.xml" mimetype="application/xml">
+@@ -216,19 +216,19 @@
+     <resource type="XMLResource" name="PalMusSI1_1_2a.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-04-30T15:01:00+02:00" filename="PalMusSI1_1_2a.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="PalMusSI4_4.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-16T16:31:20.349+01:00" filename="PalMusSI4_4.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="PalMusSI4_4.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-16T16:31:20+01:00" filename="PalMusSI4_4.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="SBPK_01.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.721+01:00" filename="SBPK_01.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="SBPK_01.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="SBPK_01.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="SBPK_02.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="SBPK_02.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="SBPK_03.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55.716+01:00" filename="SBPK_03.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="SBPK_03.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55+01:00" filename="SBPK_03.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="SBPK_04.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-16T15:14:50.005+01:00" filename="SBPK_04.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="SBPK_04.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-16T15:14:50+01:00" filename="SBPK_04.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="SBPK_05.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="SBPK_05.xml" mimetype="application/xml">
+@@ -267,7 +267,7 @@
+     <resource type="XMLResource" name="SBPK_16.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-04-30T14:28:14+02:00" filename="SBPK_16.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="SBPK_17.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.761+01:00" filename="SBPK_17.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="SBPK_17.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="SBPK_17.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="SBPK_18.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="SBPK_18.xml" mimetype="application/xml">
+@@ -279,25 +279,25 @@
+     <resource type="XMLResource" name="SBPK_20.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="SBPK_20.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="SBPK_21.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55.813+01:00" filename="SBPK_21.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="SBPK_21.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:55+01:00" filename="SBPK_21.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="SBPK_22.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:51:24+02:00" filename="SBPK_22.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Stabi1.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.793+01:00" filename="Stabi1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Stabi1.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="Stabi1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="160.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="160.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="161.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2020-02-06T19:15:40.682+01:00" filename="161.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="161.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:39:30+02:00" filename="161.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="161a.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="161a.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="162.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52.083+01:00" filename="162.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="162.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52+01:00" filename="162.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="163.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="163.xml" mimetype="application/xml">
+@@ -306,31 +306,31 @@
+     <resource type="XMLResource" name="164.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="164.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="165.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52.211+01:00" filename="165.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="165.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52+01:00" filename="165.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="166.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="166.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="167.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-06-20T11:33:35.407+02:00" filename="167.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="167.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-06-20T11:33:35+02:00" filename="167.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="168.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="168.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="169.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.864+01:00" filename="169.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="169.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="169.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="170.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="170.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="171.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52.296+01:00" filename="171.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="171.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52+01:00" filename="171.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="172.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52.383+01:00" filename="172.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="172.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52+01:00" filename="172.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="173.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52.48+01:00" filename="173.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="173.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52+01:00" filename="173.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="174.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="174.xml" mimetype="application/xml">
+@@ -339,10 +339,10 @@
+     <resource type="XMLResource" name="175.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="175.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="176.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52.602+01:00" filename="176.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="176.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52+01:00" filename="176.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="177.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52.72+01:00" filename="177.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="177.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52+01:00" filename="177.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="178.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="178.xml" mimetype="application/xml">
+@@ -354,7 +354,7 @@
+     <resource type="XMLResource" name="180.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="180.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="181.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.928+01:00" filename="181.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="181.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="181.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="182.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="182.xml" mimetype="application/xml">
+@@ -363,28 +363,28 @@
+     <resource type="XMLResource" name="183.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="183.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="184.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52.868+01:00" filename="184.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="184.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:52+01:00" filename="184.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="185.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="185.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="186.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:53.013+01:00" filename="186.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="186.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:53+01:00" filename="186.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="187.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="187.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="189.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:53.094+01:00" filename="189.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="189.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:53+01:00" filename="189.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="190.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:53.213+01:00" filename="190.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="190.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:53+01:00" filename="190.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="191.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.972+01:00" filename="191.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="191.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="191.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="192.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:53.42+01:00" filename="192.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="192.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:53+01:00" filename="192.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="193.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="193.xml" mimetype="application/xml">
+@@ -393,37 +393,37 @@
+     <resource type="XMLResource" name="194.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="194.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="195.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:53.501+01:00" filename="195.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="195.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:53+01:00" filename="195.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="196.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="196.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="197.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.003+01:00" filename="197.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="197.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="197.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="198.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:53.578+01:00" filename="198.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="198.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:53+01:00" filename="198.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="199.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="199.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="200.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.035+01:00" filename="200.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="200.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="200.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="201.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.065+01:00" filename="201.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="201.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="201.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="202.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="202.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="203.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:53.769+01:00" filename="203.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="203.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:53+01:00" filename="203.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="204.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:41:08+02:00" filename="204.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="205.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.098+01:00" filename="205.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="205.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="205.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="206.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:41:26+02:00" filename="206.xml" mimetype="application/xml">
+@@ -453,7 +453,7 @@
+     <resource type="XMLResource" name="214.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="214.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="215.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02.146+01:00" filename="215.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="215.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:02+01:00" filename="215.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="216.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="216.xml" mimetype="application/xml">
+@@ -465,7 +465,7 @@
+     <resource type="XMLResource" name="057.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:34:35+02:00" filename="057.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="058.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.448+01:00" filename="058.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="058.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="058.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="059.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="059.xml" mimetype="application/xml">
+@@ -474,7 +474,7 @@
+     <resource type="XMLResource" name="061.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="061.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="062.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50.18+01:00" filename="062.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="062.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50+01:00" filename="062.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="063.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="063.xml" mimetype="application/xml">
+@@ -501,46 +501,46 @@
+     <resource type="XMLResource" name="070.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="070.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="071.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.532+01:00" filename="071.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="071.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="071.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="072.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="072.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="073.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50.261+01:00" filename="073.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="073.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50+01:00" filename="073.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="074.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="074.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="075.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50.35+01:00" filename="075.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="075.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50+01:00" filename="075.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="076.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="076.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="077.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.573+01:00" filename="077.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="077.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="077.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="078.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="078.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="079.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.611+01:00" filename="079.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="079.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="079.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="080.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="080.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="081.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50.455+01:00" filename="081.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="081.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50+01:00" filename="081.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="082.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="082.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="083.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50.549+01:00" filename="083.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="083.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50+01:00" filename="083.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="084.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.639+01:00" filename="084.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="084.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="084.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="085.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="085.xml" mimetype="application/xml">
+@@ -564,40 +564,40 @@
+     <resource type="XMLResource" name="091.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="091.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="092.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50.638+01:00" filename="092.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="092.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50+01:00" filename="092.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="093.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50.725+01:00" filename="093.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="093.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50+01:00" filename="093.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="094.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50.818+01:00" filename="094.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="094.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:50+01:00" filename="094.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="095.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="095.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="096.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.669+01:00" filename="096.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="096.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="096.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="097.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="097.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="099.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-16T12:35:39.044+01:00" filename="099.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="099.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-16T12:35:39+01:00" filename="099.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="100.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:24:46+02:00" filename="100.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="101.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-09-19T11:04:13.326+02:00" filename="101.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="101.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-09-19T11:04:13+02:00" filename="101.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="102.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-10-29T16:40:55.92+01:00" filename="102.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="102.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-10-29T16:40:55+01:00" filename="102.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="103.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="103.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="104.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.698+01:00" filename="104.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="104.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="104.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="105.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="105.xml" mimetype="application/xml">
+@@ -618,16 +618,16 @@
+     <resource type="XMLResource" name="110.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="110.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="111.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.726+01:00" filename="111.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="111.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="111.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="112.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="112.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="113.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.756+01:00" filename="113.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="113.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="113.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="114.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-09-19T11:04:13.413+02:00" filename="114.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="114.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-09-19T11:04:13+02:00" filename="114.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="115.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="115.xml" mimetype="application/xml">
+@@ -660,13 +660,13 @@
+     <resource type="XMLResource" name="125.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="125.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="126.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.788+01:00" filename="126.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="126.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="126.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="127.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="127.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="128.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51.073+01:00" filename="128.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="128.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51+01:00" filename="128.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="129.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="129.xml" mimetype="application/xml">
+@@ -702,7 +702,7 @@
+     <resource type="XMLResource" name="138.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="138.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="139.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.836+01:00" filename="139.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="139.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="139.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="140.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="140.xml" mimetype="application/xml">
+@@ -711,16 +711,16 @@
+     <resource type="XMLResource" name="141.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="141.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="142.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51.185+01:00" filename="142.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="142.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51+01:00" filename="142.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="143.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51.34+01:00" filename="143.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="143.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51+01:00" filename="143.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="145.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51.41+01:00" filename="145.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="145.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51+01:00" filename="145.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="146.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51.472+01:00" filename="146.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="146.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51+01:00" filename="146.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="147.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="147.xml" mimetype="application/xml">
+@@ -729,25 +729,25 @@
+     <resource type="XMLResource" name="148.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="148.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="149.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51.549+01:00" filename="149.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="149.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51+01:00" filename="149.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="150.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="150.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="151.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51.631+01:00" filename="151.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="151.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51+01:00" filename="151.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="152.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51.72+01:00" filename="152.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="152.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51+01:00" filename="152.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="153.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51.816+01:00" filename="153.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="153.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51+01:00" filename="153.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="154.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51.905+01:00" filename="154.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="154.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51+01:00" filename="154.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="155.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51.988+01:00" filename="155.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="155.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:51+01:00" filename="155.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="156.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="156.xml" mimetype="application/xml">
+@@ -759,13 +759,13 @@
+     <resource type="XMLResource" name="159.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="159.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="001.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2020-02-06T15:34:01.045+01:00" filename="001.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="001.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:59:35+01:00" filename="001.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="002.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:48.626+01:00" filename="002.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="002.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:48+01:00" filename="002.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="003.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:07:59.464+01:00" filename="003.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="003.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:07:59+01:00" filename="003.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="004.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="004.xml" mimetype="application/xml">
+@@ -774,7 +774,7 @@
+     <resource type="XMLResource" name="005.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="005.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="006.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-07-16T13:39:11.272+02:00" filename="006.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="006.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-07-16T13:39:11+02:00" filename="006.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="007.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="007.xml" mimetype="application/xml">
+@@ -783,7 +783,7 @@
+     <resource type="XMLResource" name="008.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-28T11:06:50+01:00" filename="008.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="009.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:48.804+01:00" filename="009.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="009.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:48+01:00" filename="009.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="010.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-04-11T17:51:17+02:00" filename="010.xml" mimetype="application/xml">
+@@ -798,7 +798,7 @@
+     <resource type="XMLResource" name="013.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="013.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="014.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.146+01:00" filename="014.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="014.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="014.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="015.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="015.xml" mimetype="application/xml">
+@@ -810,7 +810,7 @@
+     <resource type="XMLResource" name="017.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="017.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="018.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.224+01:00" filename="018.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="018.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="018.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="019.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:30:51+02:00" filename="019.xml" mimetype="application/xml">
+@@ -828,10 +828,10 @@
+     <resource type="XMLResource" name="023.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="023.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="024.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:48.891+01:00" filename="024.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="024.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:48+01:00" filename="024.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="025.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:48.986+01:00" filename="025.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="025.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:48+01:00" filename="025.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="026.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:34:50+02:00" filename="026.xml" mimetype="application/xml">
+@@ -840,7 +840,7 @@
+     <resource type="XMLResource" name="027.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="027.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="028.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:49.073+01:00" filename="028.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="028.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:49+01:00" filename="028.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="029.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="029.xml" mimetype="application/xml">
+@@ -852,16 +852,16 @@
+     <resource type="XMLResource" name="031.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="031.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="032.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-02T13:33:52.535+01:00" filename="032.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="032.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-02T13:33:52+01:00" filename="032.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="033.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="033.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="034.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:49.164+01:00" filename="034.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="034.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:49+01:00" filename="034.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="035.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.251+01:00" filename="035.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="035.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="035.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="036.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="036.xml" mimetype="application/xml">
+@@ -873,40 +873,40 @@
+     <resource type="XMLResource" name="036A.2.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="036A.2.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="037.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.282+01:00" filename="037.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="037.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="037.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="038.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:49.348+01:00" filename="038.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="038.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:49+01:00" filename="038.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="040.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:34:50+02:00" filename="040.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="040a.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.388+01:00" filename="040a.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="040a.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="040a.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="041.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="041.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="042.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:49.426+01:00" filename="042.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="042.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:49+01:00" filename="042.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="043.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-03-22T17:52:54+01:00" filename="043.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="044.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01.415+01:00" filename="044.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="044.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-12-06T16:57:01+01:00" filename="044.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="045.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:49.606+01:00" filename="045.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="045.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:49+01:00" filename="045.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="046.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-05-03T18:33:57+02:00" filename="046.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="047.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:49.67+01:00" filename="047.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="047.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:30+02:00" modified="2019-11-05T13:11:49+01:00" filename="047.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="048.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:31+02:00" modified="2020-01-16T17:08:24.957+01:00" filename="048.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="048.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:31+02:00" modified="2020-01-16T17:08:24+01:00" filename="048.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="049.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:31+02:00" modified="2019-03-22T17:52:54+01:00" filename="049.xml" mimetype="application/xml">
+@@ -915,13 +915,13 @@
+     <resource type="XMLResource" name="050.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:31+02:00" modified="2019-03-22T17:52:54+01:00" filename="050.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="051.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:31+02:00" modified="2019-11-05T13:11:49.868+01:00" filename="051.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="051.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:31+02:00" modified="2019-11-05T13:11:49+01:00" filename="051.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="052.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:31+02:00" modified="2019-03-22T17:52:54+01:00" filename="052.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="053.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:31+02:00" modified="2019-11-05T13:11:49.938+01:00" filename="053.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="053.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:31+02:00" modified="2019-11-05T13:11:49+01:00" filename="053.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="054.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:31+02:00" modified="2019-03-22T17:52:54+01:00" filename="054.xml" mimetype="application/xml">
+@@ -933,13 +933,13 @@
+     <resource type="XMLResource" name="056.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:31+02:00" modified="2019-11-05T13:11:50+01:00" filename="056.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Curry_Sendhardt.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-02-13T14:57:55+01:00" modified="2019-12-06T16:57:02.576+01:00" filename="Curry_Sendhardt.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Curry_Sendhardt.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-02-13T14:57:55+01:00" modified="2019-12-06T16:57:02+01:00" filename="Curry_Sendhardt.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Poggel.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-04-30T10:31:32+02:00" modified="2019-12-06T16:57:02.669+01:00" filename="Poggel.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Poggel.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-04-30T10:31:32+02:00" modified="2019-12-06T16:57:02+01:00" filename="Poggel.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="039.xml" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-02-28T15:21:44+01:00" modified="2019-12-06T16:57:01.324+01:00" filename="039.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="039.xml" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-02-28T15:21:44+01:00" modified="2019-12-06T16:57:01+01:00" filename="039.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="218.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="660" created="2018-09-13T20:36:29+02:00" modified="2019-03-22T17:52:53+01:00" filename="218.xml" mimetype="application/xml">
+diff --git a/T2_Forschungsreisen/Briefe/FWIV/__contents__.xml b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Briefe/FWIV/__contents__.xml
+index 46c79a1..fea5e1b 100644
+--- a/T2_Forschungsreisen/Briefe/FWIV/__contents__.xml
++++ b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Briefe/FWIV/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/T2_Forschungsreisen/Briefe/FWIV" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29.821+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="H_FWIV_31.07.1857.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T11:41:51.538+01:00" filename="H_FWIV_31.07.1857.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="H_FWIV_31.07.1857.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T11:41:51+01:00" filename="H_FWIV_31.07.1857.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="H_FWIV_20.06.1857.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T11:41:36.21+01:00" filename="H_FWIV_20.06.1857.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="H_FWIV_20.06.1857.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T11:41:36+01:00" filename="H_FWIV_20.06.1857.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Schlagintweit_PvP_12.03.1858.xml" skip="no" owner="avhr_martin" group="avhr-nutzer" mode="660" created="2019-10-15T14:38:44.068+02:00" modified="2020-01-14T11:37:09.214+01:00" filename="Schlagintweit_PvP_12.03.1858.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Schlagintweit_PvP_12.03.1858.xml" skip="no" owner="avhr_martin" group="avhr-nutzer" mode="660" created="2019-10-15T14:38:44+02:00" modified="2020-01-14T11:37:09+01:00" filename="Schlagintweit_PvP_12.03.1858.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/T2_Forschungsreisen/Briefe/Rugendas/__contents__.xml b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Briefe/Rugendas/__contents__.xml
+index 446102d..19381a1 100644
+--- a/T2_Forschungsreisen/Briefe/Rugendas/__contents__.xml
++++ b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Briefe/Rugendas/__contents__.xml
+@@ -1,18 +1,18 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/T2_Forschungsreisen/Briefe/Rugendas" version="1" owner="avhr_paessler" group="avhr-nutzer" mode="770" created="2018-10-30T09:44:07.031+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Rugendas_01.02.1826.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-11-14T11:52:57+01:00" modified="2019-09-11T13:12:55.558+02:00" filename="Rugendas_01.02.1826.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Rugendas_01.02.1826.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-11-14T11:52:57+01:00" modified="2019-09-11T13:12:55+02:00" filename="Rugendas_01.02.1826.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Rugendas_20.01.1826.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-11-20T13:53:36+01:00" modified="2019-09-11T13:12:55.756+02:00" filename="Rugendas_20.01.1826.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Rugendas_20.01.1826.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-11-20T13:53:36+01:00" modified="2019-09-11T13:12:55+02:00" filename="Rugendas_20.01.1826.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Rugendas_20.03.1826.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-11-14T09:27:23+01:00" modified="2019-10-23T13:40:26.499+02:00" filename="Rugendas_20.03.1826.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Rugendas_20.03.1826.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-11-14T09:27:23+01:00" modified="2019-10-23T13:40:26+02:00" filename="Rugendas_20.03.1826.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Rugendas_22.10.1825.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-10-30T09:47:26+01:00" modified="2019-09-11T13:12:56.267+02:00" filename="Rugendas_22.10.1825.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Rugendas_22.10.1825.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-10-30T09:47:26+01:00" modified="2019-09-11T13:12:56+02:00" filename="Rugendas_22.10.1825.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Rugendas_12.12.1825.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-11-13T12:50:23+01:00" modified="2019-09-11T13:12:56.557+02:00" filename="Rugendas_12.12.1825.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Rugendas_12.12.1825.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-11-13T12:50:23+01:00" modified="2019-09-11T13:12:56+02:00" filename="Rugendas_12.12.1825.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/T2_Forschungsreisen/Briefe/Schlagintweit/1858-03-05_Schlagintweit.xml b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Briefe/Schlagintweit/1858-03-05_Schlagintweit.xml
+index c56b713..f89107b 100644
+--- a/T2_Forschungsreisen/Briefe/Schlagintweit/1858-03-05_Schlagintweit.xml
++++ b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Briefe/Schlagintweit/1858-03-05_Schlagintweit.xml
+@@ -6,10 +6,8 @@
+                 <title>Alexander von Humboldt an
+                     <?oxy_comment_start author="lmartin" timestamp="20190819T100651+0200" comment="oder mehrere Adressaten?"?>Hermann<?oxy_comment_end?>
+                     Schlaginweit. [Berlin], 5. März 1858</title>
+-                <?oxy_comment_start author="paessler" timestamp="20191104T110435+0100" comment="Es liegt unter dieser Signatur auch das Original vor. Nach dem am 4.11.19 neu bearbeitet: P:\# edition-humboldt.de\TS2 Reisen\Schlagintweit\GStA PK Schlagintweit Recherchen Linda" id="dhr_pjd_4kb"?>
+-                <?oxy_comment_start author="paessler" timestamp="20200130T173339+0100" comment="Scan des Originals liegt jetzt auf P
+-P:\# edition-humboldt.de\TS2 Reisen\Schlagintweit\GStA PK Schlagintweit_3_1856_4_1858\70565_Päßler" parentID="dhr_pjd_4kb" mid="2"?>
+-                <editor><?oxy_comment_end?><?oxy_comment_end mid="2"?>
++                <?oxy_comment_start author="paessler" timestamp="20191104T110435+0100" comment="Es liegt unter dieser Signatur auch das Original vor. Nach dem am 4.11.19 neu bearbeitet: P:\# edition-humboldt.de\TS2 Reisen\Schlagintweit\GStA PK Schlagintweit Recherchen Linda"?>
++                <editor><?oxy_comment_end?>
+                     <persName ref="http://d-nb.info/gnd/139028285" xml:id="UP">
+                         <surname>Päßler</surname>
+                         <forename>Ulrich</forename>
+diff --git a/T2_Forschungsreisen/Briefe/Schlagintweit/1859-03-20-I_H_R.xml b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Briefe/Schlagintweit/1859-03-20-I_H_R.xml
+index 0b31017..ba0709d 100644
+--- a/T2_Forschungsreisen/Briefe/Schlagintweit/1859-03-20-I_H_R.xml
++++ b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Briefe/Schlagintweit/1859-03-20-I_H_R.xml
+@@ -48,9 +48,8 @@
+                     <msIdentifier>
+                         <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                         <collection/>
+-                        <idno><idno type="shelfmark">VI. HA, FA
+-                                        Olshausen, (v.), B I, Nr. 7, Lit. Hir–Hu, Bl.
+-                                    130r–131r</idno></idno>
++                        <idno><idno type="shelfmark">VI. HA, FA Olshausen, (v.), B I, Nr. 7, Lit.
++                                Hir–Hu, Bl. 132r–133r</idno></idno>
+                     </msIdentifier>
+                 </msDesc>
+             </sourceDesc>
+diff --git a/T2_Forschungsreisen/Briefe/Schlagintweit/__contents__.xml b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Briefe/Schlagintweit/__contents__.xml
+index b7a2c59..3b81385 100644
+--- a/T2_Forschungsreisen/Briefe/Schlagintweit/__contents__.xml
++++ b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Briefe/Schlagintweit/__contents__.xml
+@@ -1,126 +1,126 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/T2_Forschungsreisen/Briefe/Schlagintweit" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29.836+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1852-10-30_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-09-12T16:35:19.225+02:00" filename="1852-10-30_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1852-10-30_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-09-12T16:35:19+02:00" filename="1852-10-30_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1855-04-24_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-12-18T09:34:02.763+01:00" filename="1855-04-24_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1855-04-24_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-12-18T09:34:02+01:00" filename="1855-04-24_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1859-03-26_Schlagintweit_H_und_R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-10-30T10:59:15.797+01:00" filename="1859-03-26_Schlagintweit_H_und_R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1859-03-26_Schlagintweit_H_und_R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-10-30T10:59:15+01:00" filename="1859-03-26_Schlagintweit_H_und_R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1856-09-26_Schlagintweit_R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-11-26T12:46:38.621+01:00" filename="1856-09-26_Schlagintweit_R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1856-09-26_Schlagintweit_R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-11-26T12:46:38+01:00" filename="1856-09-26_Schlagintweit_R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1850-03-Ende_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-10-09T11:07:39.318+02:00" filename="1850-03-Ende_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1850-03-Ende_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-10-09T11:07:39+02:00" filename="1850-03-Ende_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1858-05-19_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T12:25:59.38+01:00" filename="1858-05-19_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1858-05-19_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T12:25:59+01:00" filename="1858-05-19_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1850-08-21_Schlagintweit_H_und_A.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-11-01T14:46:38.651+01:00" filename="1850-08-21_Schlagintweit_H_und_A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1850-08-21_Schlagintweit_H_und_A.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-11-01T14:46:38+01:00" filename="1850-08-21_Schlagintweit_H_und_A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1852-08-01_Schlagintweit_A_und_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T10:49:23.447+01:00" filename="1852-08-01_Schlagintweit_A_und_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1852-08-01_Schlagintweit_A_und_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T10:49:23+01:00" filename="1852-08-01_Schlagintweit_A_und_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1859-04-02_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T10:13:31.755+01:00" filename="1859-04-02_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1859-04-02_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T10:13:31+01:00" filename="1859-04-02_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1852-02-06_Schlagintweit_A.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T11:43:19.346+01:00" filename="1852-02-06_Schlagintweit_A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1852-02-06_Schlagintweit_A.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T11:43:19+01:00" filename="1852-02-06_Schlagintweit_A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1849-06-21_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-12-11T13:36:46.196+01:00" filename="1849-06-21_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1849-06-21_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-12-11T13:36:46+01:00" filename="1849-06-21_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1854-12-14_Schlagintweit_Hermann.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-11-26T09:24:49.153+01:00" filename="1854-12-14_Schlagintweit_Hermann.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1854-12-14_Schlagintweit_Hermann.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-11-26T09:24:49+01:00" filename="1854-12-14_Schlagintweit_Hermann.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1857-03-07_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T12:00:16.262+01:00" filename="1857-03-07_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1857-03-07_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T12:00:16+01:00" filename="1857-03-07_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1851-12-18_Schlagintweit_A.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-10-29T11:02:37.054+01:00" filename="1851-12-18_Schlagintweit_A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1851-12-18_Schlagintweit_A.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-10-29T11:02:37+01:00" filename="1851-12-18_Schlagintweit_A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1857-12-01_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-09-09T13:11:57.442+02:00" filename="1857-12-01_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1857-12-01_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-09-09T13:11:57+02:00" filename="1857-12-01_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1859-03-20-II_Schlagintweit_H_R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-10-09T11:07:27.51+02:00" filename="1859-03-20-II_Schlagintweit_H_R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1859-03-20-II_Schlagintweit_H_R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-10-09T11:07:27+02:00" filename="1859-03-20-II_Schlagintweit_H_R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1855-12-15_Schlagintweit_A.xml" skip="no" owner="avhr_martin" group="avhr-nutzer" mode="660" created="2019-10-30T12:02:46.062+01:00" modified="2020-01-21T12:45:03.681+01:00" filename="1855-12-15_Schlagintweit_A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1855-12-15_Schlagintweit_A.xml" skip="no" owner="avhr_martin" group="avhr-nutzer" mode="660" created="2019-10-30T12:02:46+01:00" modified="2020-01-21T12:45:03+01:00" filename="1855-12-15_Schlagintweit_A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1858-07-21_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T12:25:12.381+01:00" filename="1858-07-21_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1858-07-21_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T12:25:12+01:00" filename="1858-07-21_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1858-02-12_Schlagintweit_R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-21T10:51:54.305+01:00" filename="1858-02-12_Schlagintweit_R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1858-02-12_Schlagintweit_R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-21T10:51:54+01:00" filename="1858-02-12_Schlagintweit_R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1858-10-04_Schlagintweit_R.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-12-09T11:18:02.229+01:00" modified="2019-12-11T17:28:07.378+01:00" filename="1858-10-04_Schlagintweit_R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1858-10-04_Schlagintweit_R.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-12-09T11:18:02+01:00" modified="2019-12-11T17:28:07+01:00" filename="1858-10-04_Schlagintweit_R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1859-03-20-I_H_R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-10-09T11:07:20.272+02:00" filename="1859-03-20-I_H_R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1859-03-20-I_H_R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-02-12T11:06:44.396+01:00" filename="1859-03-20-I_H_R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1858-04-14_Schlagintweit_R.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-03-26T15:00:56+01:00" modified="2020-01-14T10:38:39.498+01:00" filename="1858-04-14_Schlagintweit_R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1858-04-14_Schlagintweit_R.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-03-26T15:00:56+01:00" modified="2020-01-14T10:38:39+01:00" filename="1858-04-14_Schlagintweit_R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1856-12-27_Schlagintweit_H.xml" skip="no" owner="avhr_martin" group="avhr-nutzer" mode="660" created="2019-11-26T08:53:47.103+01:00" modified="2020-01-14T10:19:41.259+01:00" filename="1856-12-27_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1856-12-27_Schlagintweit_H.xml" skip="no" owner="avhr_martin" group="avhr-nutzer" mode="660" created="2019-11-26T08:53:47+01:00" modified="2020-01-14T10:19:41+01:00" filename="1856-12-27_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1858-03-05_Schlagintweit.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-03-26T15:10:34+01:00" modified="2020-01-30T17:38:15.395+01:00" filename="1858-03-05_Schlagintweit.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1858-03-05_Schlagintweit.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-03-26T15:10:34+01:00" modified="2020-01-14T11:19:33+01:00" filename="1858-03-05_Schlagintweit.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1855-06-25_Schlagintweit_A.xml" skip="no" owner="avhr_martin" group="avhr-nutzer" mode="660" created="2019-11-05T10:39:57.351+01:00" modified="2019-12-18T10:01:59.169+01:00" filename="1855-06-25_Schlagintweit_A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1855-06-25_Schlagintweit_A.xml" skip="no" owner="avhr_martin" group="avhr-nutzer" mode="660" created="2019-11-05T10:39:57+01:00" modified="2019-12-18T10:01:59+01:00" filename="1855-06-25_Schlagintweit_A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="nach-1857_Schlagintweit_R.xml" skip="no" owner="avhr_martin" group="avhr-nutzer" mode="660" created="2020-01-21T10:13:01.508+01:00" modified="2020-01-21T13:09:56.992+01:00" filename="nach-1857_Schlagintweit_R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="nach-1857_Schlagintweit_R.xml" skip="no" owner="avhr_martin" group="avhr-nutzer" mode="660" created="2020-01-21T10:13:01+01:00" modified="2020-01-21T13:09:56+01:00" filename="nach-1857_Schlagintweit_R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1856-04_Schlagintweit_E.xml" skip="no" owner="avhr_martin" group="avhr-nutzer" mode="660" created="2020-01-21T10:52:38.262+01:00" modified="2020-01-21T13:46:17.764+01:00" filename="1856-04_Schlagintweit_E.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1856-04_Schlagintweit_E.xml" skip="no" owner="avhr_martin" group="avhr-nutzer" mode="660" created="2020-01-21T10:52:38+01:00" modified="2020-01-21T13:46:17+01:00" filename="1856-04_Schlagintweit_E.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1859-03-24_H_R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T12:29:53.288+01:00" filename="1859-03-24_H_R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1859-03-24_H_R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T12:29:53+01:00" filename="1859-03-24_H_R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1852-08-01_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-21T09:56:04.601+01:00" filename="1852-08-01_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1852-08-01_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-21T09:56:04+01:00" filename="1852-08-01_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1849-10-25_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-10-09T11:06:16.767+02:00" filename="1849-10-25_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1849-10-25_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-10-09T11:06:16+02:00" filename="1849-10-25_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1854-11-10_Schlagintweit_A.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T11:49:04.176+01:00" filename="1854-11-10_Schlagintweit_A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1854-11-10_Schlagintweit_A.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T11:49:04+01:00" filename="1854-11-10_Schlagintweit_A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1856-06-15_Schlagintweit_A.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-12-18T09:34:13.703+01:00" filename="1856-06-15_Schlagintweit_A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1856-06-15_Schlagintweit_A.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-12-18T09:34:13+01:00" filename="1856-06-15_Schlagintweit_A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1852-03-19_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-09-11T12:57:47.705+02:00" filename="1852-03-19_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1852-03-19_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-09-11T12:57:47+02:00" filename="1852-03-19_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1858-07-22_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T12:24:36.387+01:00" filename="1858-07-22_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1858-07-22_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T12:24:36+01:00" filename="1858-07-22_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1858-01-04_Schlagintweit_R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T11:58:42.052+01:00" filename="1858-01-04_Schlagintweit_R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1858-01-04_Schlagintweit_R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T11:58:42+01:00" filename="1858-01-04_Schlagintweit_R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1856-12-11_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-12-18T09:34:26.621+01:00" filename="1856-12-11_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1856-12-11_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-12-18T09:34:26+01:00" filename="1856-12-11_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1857-06-17_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T11:59:34.576+01:00" filename="1857-06-17_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1857-06-17_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T11:59:34+01:00" filename="1857-06-17_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1850_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T11:46:20.705+01:00" filename="1850_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1850_Schlagintweit_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2020-01-14T11:46:20+01:00" filename="1850_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1855-05-17_Schlagintweit_A.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-11-22T10:46:10.944+01:00" modified="2020-01-14T11:53:49.46+01:00" filename="1855-05-17_Schlagintweit_A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1855-05-17_Schlagintweit_A.xml" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-11-22T10:46:10+01:00" modified="2020-01-14T11:53:49+01:00" filename="1855-05-17_Schlagintweit_A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1854-09-04_Schlagintweit_A_und_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-12-17T17:18:20.088+01:00" filename="1854-09-04_Schlagintweit_A_und_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1854-09-04_Schlagintweit_A_und_H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29+02:00" modified="2019-12-17T17:18:20+01:00" filename="1854-09-04_Schlagintweit_A_und_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1857-06-08_Schlagintweit_H.xml" skip="no" owner="avhr_martin" group="avhr-nutzer" mode="660" created="2019-10-30T17:34:19.242+01:00" modified="2019-11-26T12:51:50.475+01:00" filename="1857-06-08_Schlagintweit_H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1857-06-08_Schlagintweit_H.xml" skip="no" owner="avhr_martin" group="avhr-nutzer" mode="660" created="2019-10-30T17:34:19+01:00" modified="2019-11-26T12:51:50+01:00" filename="1857-06-08_Schlagintweit_H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/T2_Forschungsreisen/Dokumente/Ehrenberg_Tagebuch.xml b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Dokumente/Ehrenberg_Tagebuch.xml
+index cdd6f02..eba8415 100644
+--- a/T2_Forschungsreisen/Dokumente/Ehrenberg_Tagebuch.xml
++++ b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Dokumente/Ehrenberg_Tagebuch.xml
+@@ -3555,7 +3555,7 @@ https://de.wikipedia.org/wiki/Presnowka_(Schambyl). Noch kein Registereintrag an
+                     <?oxy_comment_start author="schnee" timestamp="20181218T142641+0100" comment="vgl. Rose 1837/1842, Bd 2, 146: &quot;[...] worauf wir dann ungeachtet des Regens, der auch heute nicht aufhörte, unsere Reise nach Kyschtimsk fortsetzten&quot;"?>Regenwetter<?oxy_comment_end?>.
+                         <add place="superlinear">Goldwäsche</add>
+                     <?oxy_comment_start author="schnee" timestamp="20181218T120314+0100" comment="&quot;In diesem Regen besahen wir auch das Seifenwerk Anninskoi [...].&quot; (Rose 1837/1842, Bd 2, 146)"?>Seratianinskoj<?oxy_comment_end?>
+-                    im Thal <lb/>der <placeName key="ed_k5r_xtb_1kb"><?oxy_comment_start author="schnee" timestamp="20181218T113747+0100" comment="Whrs. der Fluss Tscheremschanka (Cheremshanka), zwischen Seifenwerk Soimonowsk und Kystym gelegen (südlich von Kystym); vgl. Rose 1837/1842, Bd 2, 146: &quot;Das Seifenwerk liegt in dem Thale der Tscheremschanka.&quot; Vgl. auch Rose 1837/1842, Bd 2, 91, Anm.: &quot;Der Name Tscheremschanka bezieht sich nur auf einen kleinen Fluss, der in der Nähe des Ilmensees entspringt und sich in den Mias ergiesst.&quot;
++                    im Thal <lb/>der <placeName key="H0017745"><?oxy_comment_start author="schnee" timestamp="20181218T113747+0100" comment="Whrs. der Fluss Tscheremschanka (Cheremshanka), zwischen Seifenwerk Soimonowsk und Kystym gelegen (südlich von Kystym); vgl. Rose 1837/1842, Bd 2, 146: &quot;Das Seifenwerk liegt in dem Thale der Tscheremschanka.&quot; Vgl. auch Rose 1837/1842, Bd 2, 91, Anm.: &quot;Der Name Tscheremschanka bezieht sich nur auf einen kleinen Fluss, der in der Nähe des Ilmensees entspringt und sich in den Mias ergiesst.&quot;
+ Vgl. http://www.geonames.org/1545400."?>Seretschanka<?oxy_comment_end?></placeName></p>
+                 <p>Dr.
+                     <?oxy_comment_start author="thomas" timestamp="20190826T155225+0200" comment="noch zu identifizieren"?>Thiemann<?oxy_comment_end?>
+@@ -3597,7 +3597,8 @@ Vgl. http://www.geonames.org/1545400."?>Seretschanka<?oxy_comment_end?></placeNa
+                             <expan>Humboldt</expan>
+                         </choice></persName>
+                     <lb/>geschenkt.<?oxy_comment_end?></p>
+-                <p>Rükreise nach <placeName key="H0010295"><?oxy_comment_start author="schnee" timestamp="20181217T145552+0100" comment="Seifenwerk Soimonofsk, Sojmonovskaja"?>Seimonowsk<?oxy_comment_end?></placeName></p>
++                <p>Rükreise nach
++                    <?oxy_comment_start author="schnee" timestamp="20181217T145552+0100" comment="Seifenwerk Soimonofsk, Sojmonovskaja"?>Seimonowsk<?oxy_comment_end?></p>
+                 <p><persName key="H0015596">Schmidt</persName> und <space dim="horizontal" unit="words" quantity="1"/>
+                     <?oxy_comment_start author="paessler" timestamp="20181109T120642+0100" comment="#KA: Schwetsoff" id="v1c_54z_dgb" mid="249"?><?oxy_comment_start author="schnee" timestamp="20181218T144057+0100" comment="Ja, korrekt. Vgl. Rose 1837/1842, Bd 2, 155 f.: &quot;Wir nahmen Abschied von unseren Freunden, den Herren Schwettsoff und Schmidt [...]&quot;  " parentID="v1c_54z_dgb"?>bleiben<?oxy_comment_end?><?oxy_comment_end mid="249"?>
+                     in <placeName key="H0000518">Kischtim</placeName>.</p>
+@@ -5155,14 +5156,14 @@ Joh.Chr. Petri spricht 1822 zudem von einem &quot;in den Astrachanischen Steppen
+                 <p>Ich will den
+                     <?oxy_comment_start author="lpoggel" timestamp="20190624T153612+0200" comment="Птичий рынок (Ptichij rynok) von птица - Vogel. Heute Полюстровский рынок (Poljustrovskij rynok) auf dem Полюстровский проспект 45 in Sankt Petersburg. Noch kein Registereintrag angelegt."?>Vogelmarkt<?oxy_comment_end?>
+                         besuchen<supplied cert="high">,</supplied> werde aber <lb/>abgehalten. Herr
+-                        <persName key="H0017000">Kaemmerer</persName> rieth ab<supplied cert="high">,</supplied> heut <placeName key="H0018100"><?oxy_comment_start author="lpoggel" timestamp="20190624T151543+0200" comment="Entweder die Insel Vasil&apos;evskij ostrov oder der Stadteil Vasileostrovskij rajon, welcher die Insel umfasst. Der Stadtteil besteht seit 1737. Getaggt als Insel Vasil&apos;evskij. https://en.wikipedia.org/wiki/Vasileostrovsky_District " flag="done"?><lb/>Basiliostrow<?oxy_comment_end?></placeName>
++                        <persName key="H0017000">Kaemmerer</persName> rieth ab<supplied cert="high">,</supplied> heut <placeName key="H0018100"><?oxy_comment_start author="lpoggel" timestamp="20190624T151543+0200" comment="Entweder die Insel Vasil&apos;evskij ostrov oder der Stadteil Vasileostrovskij rajon, welcher die Insel umfasst. Der Stadtteil besteht seit 1737. Getaggt als Insel Vasil&apos;evskij. https://en.wikipedia.org/wiki/Vasileostrovsky_District "?><lb/>Basiliostrow<?oxy_comment_end?></placeName>
+                     zu besuchen. Um 9½ Uhr <lb/>Besuch von <persName key="H0000117">Fischer</persName> und <persName key="H0014158">Mertens</persName><supplied cert="high">,</supplied>
+                     <add place="superlinear"><persName key="H0004694">Lütke</persName></add>. Um 10
+                     <lb/>Uhr Überfahrt mit <persName key="H0012069"><choice>
+                             <abbr>H.</abbr>
+                             <expan>Humboldt</expan>
+-                        </choice></persName> nach der <placeName key="H0018100">Insel</placeName>.
+-                    Besuch <lb/>bey <persName key="H0018341">Kowalefski</persName>, <persName key="H0017001">Karneef</persName> und <persName key="H0016860">Sobo<g ref="#typoHyphen"/><lb break="no"/>lefski</persName>. Ersterer hat <name type="mineral">Steinkohle</name> im <choice>
++                        </choice></persName> nach der <placeName key="H0018100">Insel</placeName>. Besuch <lb/>bey <persName key="H0018341">Kowalefski</persName>, <persName key="H0017001">Karneef</persName> und
++                        <persName key="H0016860">Sobo<g ref="#typoHyphen"/><lb break="no"/>lefski</persName>. Ersterer hat <name type="mineral">Steinkohle</name> im <choice>
+                         <abbr>Gouvern.</abbr>
+                         <expan>Gouvernement</expan>
+                     </choice>
+@@ -7809,7 +7810,7 @@ Bis 1815 Direktor der Bogoslowsker Werke)
+                         <expan>Assignaten</expan>
+                     </choice>. <date calendar="#Gregorian" when="1829-09-01">1 July</date>: + 125.
+                     <lb/>44 <choice>
+-                        <abbr><?oxy_comment_start author="thomas" timestamp="20190130T180614+0100" comment="@UP: hier und die nächsten beiden Vorkommen von &quot;Rthl&quot;: War &quot;Rubel&quot;, aber das schien mir Quatsch. Bitte prüfen." flag="done"?>Rthl<?oxy_comment_end?>.</abbr>
++                        <abbr><?oxy_comment_start author="thomas" timestamp="20190130T180614+0100" comment="@UP: hier und die nächsten beiden Vorkommen von &quot;Rthl&quot;: War &quot;Rubel&quot;, aber das schien mir Quatsch. Bitte prüfen."?>Rthl<?oxy_comment_end?>.</abbr>
+                         <expan>Reichsthaler</expan>
+                     </choice>
+                     <note place="right" hand="#author" type="auxCalc">40/4.</note><lb/>12 <unclear reason="illegible" cert="low"><choice>
+diff --git a/T2_Forschungsreisen/Dokumente/__contents__.xml b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Dokumente/__contents__.xml
+index a8c3fb4..3223913 100644
+--- a/T2_Forschungsreisen/Dokumente/__contents__.xml
++++ b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/Dokumente/__contents__.xml
+@@ -1,9 +1,9 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/T2_Forschungsreisen/Dokumente" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31.021+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="AvH-Spanien-Tb.xml" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-12-11T13:41:07.211+01:00" modified="2020-01-08T12:43:26.768+01:00" filename="AvH-Spanien-Tb.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="AvH-Spanien-Tb.xml" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-12-11T13:41:07+01:00" modified="2020-01-08T12:43:26+01:00" filename="AvH-Spanien-Tb.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Ehrenberg_Tagebuch.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31+02:00" modified="2020-01-28T15:55:13.738+01:00" filename="Ehrenberg_Tagebuch.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Ehrenberg_Tagebuch.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31+02:00" modified="2019-12-18T13:53:04+01:00" filename="Ehrenberg_Tagebuch.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/T2_Forschungsreisen/__contents__.xml b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/__contents__.xml
+index 3331a31..3d6e4ac 100644
+--- a/T2_Forschungsreisen/__contents__.xml
++++ b/home/gordon/backup122/db/projects/avhr/data/T2_Forschungsreisen/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/T2_Forschungsreisen" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:29.82+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="einleitung_rugendas.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-06-25T11:27:15.267+02:00" modified="2019-09-11T12:46:20.097+02:00" filename="einleitung_rugendas.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="einleitung_rugendas.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-06-25T11:27:15+02:00" modified="2019-09-11T12:46:20+02:00" filename="einleitung_rugendas.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <subcollection name="Dokumente" filename="Dokumente"/>
