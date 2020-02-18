@@ -1,0 +1,961 @@
+diff --git a/Chronologie/1775.xml b/home/gordon/backup182/db/projects/avhr/data/Chronologie/1775.xml
+index 2e0ca60..68ef103 100644
+--- a/Chronologie/1775.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Chronologie/1775.xml
+@@ -23,9 +23,22 @@
+             <fileDesc>
+                 <titleStmt>
+                     <title>
+-                        <date when="1775">1775</date>
++                        <date>1775</date>
+                     </title>
+-                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
++                    <title type="series">Alexander von Humboldt-Chronologie</title>
++                    <editor>
++                        <persName ref="http://d-nb.info/gnd/123964172">
++                            <surname>Schwarz</surname>
++                            <forename>Ingo</forename>
++                        </persName>
++                    </editor>
++                    <respStmt>
++                        <orgName> Akademienvorhaben "Alexander von Humboldt auf Reisen -
++                            Wissenschaft aus der Bewegung" </orgName>
++                        <resp>
++                            <note type="remarkResponsibility">Mitarbeit</note>
++                        </resp>
++                    </respStmt>
+                 </titleStmt>
+                 <publicationStmt>
+                     <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+diff --git a/Chronologie/1793.xml b/home/gordon/backup182/db/projects/avhr/data/Chronologie/1793.xml
+index 184c30c..a2b2be8 100644
+--- a/Chronologie/1793.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Chronologie/1793.xml
+@@ -61,9 +61,23 @@
+             <fileDesc>
+                 <titleStmt>
+                     <title>
+-                        <date notBefore="1793-01-11" notAfter="1793-01-20">Mitte Januar 1793</date>
++                        <date notBefore="1793-01-13" notAfter="1793-01-20">Mitte Januar
++                            <?oxy_comment_start author="lkirsten" timestamp="20200131T172013+0100" comment="ursprünglich 1793-01-11"?>1793<?oxy_comment_end?></date>
+                     </title>
+-                    <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
++                    <title type="series">Alexander von Humboldt-Chronologie</title>
++                    <editor>
++                        <persName ref="http://d-nb.info/gnd/123964172">
++                            <surname>Schwarz</surname>
++                            <forename>Ingo</forename>
++                        </persName>
++                    </editor>
++                    <respStmt>
++                        <orgName> Akademienvorhaben "Alexander von Humboldt auf Reisen -
++                            Wissenschaft aus der Bewegung" </orgName>
++                        <resp>
++                            <note type="remarkResponsibility">Mitarbeit</note>
++                        </resp>
++                    </respStmt>
+                 </titleStmt>
+                 <publicationStmt>
+                     <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+diff --git a/Chronologie/1798.xml b/home/gordon/backup182/db/projects/avhr/data/Chronologie/1798.xml
+index e8cf506..7b169f3 100644
+--- a/Chronologie/1798.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Chronologie/1798.xml
+@@ -823,7 +823,8 @@ H. erhält von der preußischen Gesandtschaft in <placeName key="H0008129">Paris
+             <body>
+                 <p> H. reist mit dem von ihm als Begleiter für die große Reise vorgesehenen
+                         <persName key="H0003476">Aimé Bonpland</persName> von <placeName key="H0008129">Paris</placeName> nach <placeName key="H0008734">Marseille</placeName> ab. Mittags in <placeName key="ed_ibm_2kf_3jb">Melun</placeName>, abends in <placeName key="ed_sj4_qkf_3jb">Villeneuve-sur-Yonne</placeName>. Die Nacht bringen H. und Bonpland im
+-                    Wagen zu. Weitere Reiseroute: </p>
++                    Wagen zu. Zur weiteren Reiseroute vgl. Einträge vom <ref target="H0006125">21.</ref>, <ref target="H0006126">22.</ref>, <ref target="H0006127">23.</ref>, <ref target="H0006128">24.</ref>, <ref target="H0006129">25.</ref>, <ref target="H0006130">26.</ref> und <ref target="H0006131">27.
++                        Oktober</ref>. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -1138,8 +1139,8 @@ Mittags in <placeName key="H0011348">Lambesc</placeName>, um 18.30 Uhr Eintreffe
+                 <p> H. und <persName key="H0003476">Bonpland</persName> warten bis Mitte Dezember
+                     vergeblich auf eine Überfahrtmöglichkeit nach <placeName key="H0002331">Nordafrika</placeName>. Sie botanisieren in der Umgebung von <placeName key="H0008734">Marseille</placeName>; H. besucht mehrfach die <orgName key="ed_lgw_14f_3jb">Sternwarte</orgName>.
+                     <?oxy_comment_start author="lkirsten" timestamp="20191008T154624+0200" comment="bezieht sich das auf die folgenden Einträge? " id="lq3_1cl_kkb" flag="done" mid="6"?><?oxy_comment_start author="thomas" timestamp="20200117T114539+0100" comment="Ja, ich tagg das mal so." parentID="lq3_1cl_kkb" flag="done"?>Verschiedene
+-                    Exkursionen werden unternommen, vgl. z.B. Einträge vom <ref target="H0006126">22.</ref>, <ref target="H0006127">23.</ref> und <ref target="H0006128">24.
+-                        Oktober 1798</ref>. <?oxy_comment_end?><?oxy_comment_end mid="6"?></p>
++                    Exkursionen werden unternommen, vgl. Einträge vom <ref target="H0006133">10.</ref>, <ref target="H0006134">11.</ref> und <ref target="H0006135">12.
++                        November 1798</ref>. <?oxy_comment_end?><?oxy_comment_end mid="6"?></p>
+             </body>
+         </text>
+     </TEI>
+diff --git a/Chronologie/1820.xml b/home/gordon/backup182/db/projects/avhr/data/Chronologie/1820.xml
+index eefcb4b..29ca313 100644
+--- a/Chronologie/1820.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Chronologie/1820.xml
+@@ -18,12 +18,12 @@
+             </sourceDesc>
+         </fileDesc>
+     </teiHeader>
+-    <TEI xml:id="H0004840" oldID="gnd118554700_5f50aa39-328a-42ad-b209-6cef96f84745">
++    <TEI xml:id="H0004841" oldID="gnd118554700_1053058b-d866-4771-8b52-2aed1234521c">
+         <teiHeader>
+             <fileDesc>
+                 <titleStmt>
+                     <title>
+-                        <date when="1820-03-13">13. März 1820</date>
++                        <date when="1820-02-12">12. Februar 1820</date>
+                     </title>
+                     <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                 </titleStmt>
+@@ -50,18 +50,19 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p>
+-H. liest im <orgName key="H0000552">„Institut“</orgName> über die „causes de l'accroissement nocturne du son“.
+-</p>
++                <p> H. verzichtet auf 48.000 Francs Honorar für sein Reisewerk, um bei seiner
++                    „bevorstehenden Reise nach <placeName key="H0006712">Persien</placeName> und
++                    <placeName key="H0006686">Indien</placeName> die Vollendung der Werke zu
++                    erleichtern“. </p>
+             </body>
+         </text>
+     </TEI>
+-    <TEI xml:id="H0004841" oldID="gnd118554700_1053058b-d866-4771-8b52-2aed1234521c">
++    <TEI xml:id="H0004840" oldID="gnd118554700_5f50aa39-328a-42ad-b209-6cef96f84745">
+         <teiHeader>
+             <fileDesc>
+                 <titleStmt>
+                     <title>
+-                        <date when="1820-02-12">12. Februar 1820</date>
++                        <date when="1820-03-13">13. März 1820</date>
+                     </title>
+                     <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
+                 </titleStmt>
+@@ -88,10 +89,9 @@ H. liest im <orgName key="H0000552">„Institut“</orgName> über die „causes
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> H. verzichtet auf 48.000 Francs Honorar für sein Reisewerk, um bei seiner
+-                    „bevorstehenden Reise nach <placeName key="H0006712">Persien</placeName> und
+-                        <placeName key="H0006686">Indien</placeName> die Vollendung der Werke zu
+-                    erleichtern“. </p>
++                <p>
++H. liest im <orgName key="H0000552">„Institut“</orgName> über die „causes de l'accroissement nocturne du son“.
++</p>
+             </body>
+         </text>
+     </TEI>
+diff --git a/Chronologie/1826.xml b/home/gordon/backup182/db/projects/avhr/data/Chronologie/1826.xml
+index 8cc8930..e7c7148 100644
+--- a/Chronologie/1826.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Chronologie/1826.xml
+@@ -131,8 +131,7 @@
+             <body>
+                 <p>
+                     <persName key="H0015546">Schinkel</persName> und <persName key="H0003318">Beuth</persName> haben die Absicht, mit H. in <placeName key="H0008129">Paris</placeName> den Archäologen <persName key="H0001208">Antoine
+-                        Chrysostôme Quatremère de Quincy</persName> (1755–1849), den Architekten
+-                    Charles Percier (1764–1838) u.a. aufzusuchen. </p>
++                        Quatremère de Quincy</persName>, den Architekten <persName key="ed_h21_dvk_mkb">Charles Percier</persName> u.a. aufzusuchen. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -169,9 +168,9 @@
+         <text type="event">
+             <body>
+                 <p>
+-                    <persName key="H0015546">Schinkel</persName> und <persName key="H0003318">Beuth</persName> begeben sich in <placeName key="H0008129">Paris</placeName> ins Café de la Rotonde im Palais Royal, wo sie <persName key="H0001517">K. S. Kunth</persName> abholt, „um in einer
+-                    Gelegenheitskutsche mit Herrn von Humboldt zum Prinzen Dolgorukij aufs Land nach
+-                    Courbevoie zu fahren.“ </p>
++                    <persName key="H0015546">Schinkel</persName> und <persName key="H0003318">Beuth</persName> begeben sich in <placeName key="H0008129">Paris</placeName> ins Café de la Rotonde im <placeName key="ed_yyl_ptd_mkb">Palais Royal</placeName>, wo sie <persName key="H0001517">K. S.
++                        Kunth</persName> abholt, „um in einer Gelegenheitskutsche mit Herrn von
++                    Humboldt zum Prinzen Dolgorukij aufs Land nach Courbevoie zu fahren.“ </p>
+             </body>
+         </text>
+     </TEI>
+@@ -207,9 +206,9 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> H. begleitet <persName key="H0015546">Schinkel</persName> und <persName key="H0003318">Beuth</persName> zu dem Archäologen und Historiker <persName key="H0000968">Raoul Rochette</persName> (1789–1854), „welcher auf der
+-                    Bibliothek für die Inschriften angestellt ist, er zeigt uns die Kammer der
+-                    Inschriften und den Tierkreis aus dem Tempel von Dendera (Tentyra)“. </p>
++                <p> H. begleitet <persName key="H0015546">Schinkel</persName> und <persName key="H0003318">Beuth</persName> zu dem Archäologen und Historiker <persName key="H0000968">Raoul Rochette</persName>, „welcher auf der Bibliothek für
++                    die Inschriften angestellt ist, er zeigt uns die Kammer der Inschriften und den
++                    Tierkreis aus dem Tempel von Dendera (Tentyra)“. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -245,9 +244,8 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> H. und <persName key="H0015546">Schinkel</persName> besuchen den <persName key="H0000169">Grafen Louis Nicolas von Forbin</persName> (1777–1841),
+-                    Direktor des Musée du Luxembourg in <placeName key="H0008129">Paris</placeName>,
+-                    und Alexandre Achille Alphonse de Cailleux (1788–1876), Sekretär des Museums. </p>
++                <p> H. und <persName key="H0015546">Schinkel</persName> besuchen den <persName key="H0000169">Grafen Louis Nicolas von Forbin</persName>, Direktor des
++                        <orgName key="ed_krr_xvk_mkb">Musée du Luxembourg</orgName> in <placeName key="H0008129">Paris</placeName>, und <persName key="ed_rxv_mcl_mkb">Alphonse de Cailleux</persName>, Sekretär des Museums. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -322,7 +320,9 @@ H. führt <persName key="H0015546">Schinkel</persName> in <placeName key="H00081
+         <text type="event">
+             <body>
+                 <p> H. führt <persName key="H0015546">Schinkel</persName> in <placeName key="H0008129">Paris</placeName> zum <persName key="H0002117">Grafen
+-                        Pourtalés</persName>, Place Vendôme und zu dessen Sammlung. </p>
++                        Pourtalés</persName>,
++                    <?oxy_comment_start author="lkirsten" timestamp="20200124T153227+0100" comment="ins Ortsregister aufnehmen?"?>Place
++                    Vendôme<?oxy_comment_end?> und zu dessen Sammlung. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -396,8 +396,15 @@ H. führt <persName key="H0015546">Schinkel</persName> in <placeName key="H00081
+         <text type="event">
+             <body>
+                 <p> H. zum Mittagessen bei dem Architekten <persName key="H0011917">Jacques-Ignace
+-                        Hittorff</persName> (1792–1867). Gäste: <persName key="H0015546">Schinkel</persName>, Percier, Thibaut, Ingrea, Père, sein Schwiegervater,
+-                    dessen Frau und ihr Vater, Madame Hittorff. </p>
++                        Hittorff</persName>.
++                    <?oxy_comment_start author="lkirsten" timestamp="20200124T162436+0100" comment="hier stand ursprünglich: &quot;Gäste: Schinkel, Percier, Thibaut, Ingrea, Père, sein Schwiegervater, dessen Frau und ihr Vater, Madame Hittorff&quot; 
++Falls die Quelle ermittelt werden kann, wäre eine Überprüfung gut"?>Gäste<?oxy_comment_end?>:
++                    sein Schwiegervater <persName key="ed_hpc_2gl_mkb">Jean-Baptiste
++                        Lepère</persName>, seine Ehefrau <persName key="ed_el5_n2l_mkb">Rose
++                        Élisabeth Hittorff</persName>, <persName key="H0015546">Karl Friedrich
++                        Schinkel</persName>, <persName key="ed_h21_dvk_mkb">Charles
++                        Percier</persName>, <persName key="ed_pvm_tjl_mkb">Thibaut</persName>,
++                        <persName key="H0015304">Jean-Auguste-Dominique Ingres</persName>. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -471,10 +478,14 @@ H. führt <persName key="H0015546">Schinkel</persName> in <placeName key="H00081
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> Abendessen im Palais Royal bei Verri. Große Gesellschaft: H., <persName key="H0015546">Schinkel</persName>, <persName key="H0003318">Beuth</persName>, <persName key="H0001208">Quatremère</persName>, Percier,
+-                    Fontaine, <persName key="H0011682">Hase</persName>, <persName key="H0011917">Hittorff</persName>, <persName key="H0000169">Comte Forbin</persName>,
+-                        <persName key="H0013415">Gérard</persName>, Dolgorukij, <persName key="H0012670">Arago</persName>, Delessert, <persName key="H0013386">Gay-Lussac</persName>, <persName key="H0013277">Cuvier</persName>,
+-                        <persName key="H0001337">Klaproth</persName>, <persName key="H0001440">Koreff</persName>, <persName key="H0006334">Werther</persName>. </p>
++                <p> Abendessen im <placeName key="ed_yyl_ptd_mkb">Palais Royal</placeName> bei
++                    Verri. Große Gesellschaft: H., <persName key="H0015546">Schinkel</persName>,
++                        <persName key="H0003318">Beuth</persName>, <persName key="H0001208">Quatremère</persName>, <persName key="ed_h21_dvk_mkb">Percier</persName>,
++                    <?oxy_comment_start author="lkirsten" timestamp="20200124T163602+0100" comment="René Louiche Defontaines?"?>Fontaine<?oxy_comment_end?>,
++                        <persName key="H0011682">Hase</persName>, <persName key="H0011917">Hittorff</persName>, <persName key="H0000169">Comte Forbin</persName>,
++                        <persName key="H0013415">Gérard</persName>, Dolgorukij, <persName key="H0012670">Arago</persName>,
++                    <?oxy_comment_start author="lkirsten" timestamp="20200124T163421+0100" comment="Benjamin Baron Delessert?"?>Delessert<?oxy_comment_end?>,
++                        <persName key="H0013386">Gay-Lussac</persName>, <persName key="H0013277">Cuvier</persName>, <persName key="H0001337">Klaproth</persName>, <persName key="H0001440">Koreff</persName>, <persName key="H0006334">Werther</persName>. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -512,8 +523,8 @@ H. führt <persName key="H0015546">Schinkel</persName> in <placeName key="H00081
+             <body>
+                 <p> H. gibt zum Abschied für <persName key="H0000746">Christian Daniel
+                         Rauch</persName> in <placeName key="H0008129">Paris</placeName> ein Dinner.
+-                    Gäste u.a.: <persName key="H0006334">Werther</persName>, <persName key="H0013415">Gérard</persName>, der Historienmaler François Marius Granet
+-                    (1775–1849), der Bildhauer Raggi. </p>
++                    Gäste u.a.: <persName key="H0006334">Werther</persName>, <persName key="H0013415">Gérard</persName>, der Historienmaler <persName key="ed_qjf_mgc_4kb">François Marius Granet</persName>, der Bildhauer
++                        <persName key="ed_ljq_g3c_4kb">Raggi</persName>. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -591,11 +602,12 @@ H. hat zwar die Abreise nach <placeName key="H0005221">Berlin</placeName> auf de
+                     um seine endgültige Rückkehr dorthin vorzubereiten. Reiseroute: <placeName key="H0008839">Metz</placeName> (25.9., magnetische Messungen gemeinsam mit
+                     dem Mathematiker <persName key="H0002074">Jean-Victor Poncelet</persName>),
+                         <placeName key="H0004798">Frankfurt/Main</placeName> (zweimaliger Besuch des
+-                    Senckenberg-Museums, Besuch der Stadtbibliothek und des Anatomen <persName key="H0015944">Samuel Thomas von Sömmerring</persName>), <placeName key="H0010851">Gießen</placeName> (B: 26.9., Besuch bei <persName key="H0004530">J. Liebig</persName>), <placeName key="H0007214">Kassel</placeName>, <placeName key="H0010897">Göttingen</placeName> (Besuch
+-                    bei dem Mathematiker <persName key="H0013366">Carl Friedrich Gauß</persName>;
+-                    mißt mit <persName key="H0013366">Gauß</persName> zusammen am Abhang des
+-                    <placeName key="H0006826">Hainberges</placeName> die magnetische Inklination, B: 28.9. Besuch bei dem
+-                    Altertumsforscher <persName key="H0014410">Carl Otfried Müller</persName>). </p>
++                        <persName key="ed_skh_dlc_4kb">Senckenberg-Museums</persName>,
++                    <?oxy_comment_start author="lkirsten" timestamp="20200130T151757+0100" comment="konnte nicht ermitteln, welche Bibliothek"?>Besuch
++                    der Stadtbibliothek<?oxy_comment_end?> und des Anatomen <persName key="H0015944">Samuel Thomas von Sömmerring</persName>), <placeName key="H0010851">Gießen</placeName> (B: 26.9., Besuch bei <persName key="H0004530">J.
++                        Liebig</persName>), <placeName key="H0007214">Kassel</placeName>, <placeName key="H0010897">Göttingen</placeName> (Besuch bei dem Mathematiker <persName key="H0013366">Carl Friedrich Gauß</persName>; mißt mit Gauß zusammen am
++                    Abhang des <placeName key="H0006826">Hainberges</placeName> die magnetische
++                    Inklination, B: 28.9. Besuch bei dem Altertumsforscher <persName key="H0014410">Carl Otfried Müller</persName>). </p>
+             </body>
+         </text>
+     </TEI>
+@@ -634,8 +646,8 @@ H. hat zwar die Abreise nach <placeName key="H0005221">Berlin</placeName> auf de
+                 <p> H. hält sich für die nächste Zeit in <placeName key="H0009286">Tegel</placeName>
+                     auf, wo sich auch <persName key="H0011727">Adelheid</persName> und <persName key="H0011728">August von Hedemann</persName> sowie <persName key="H0012073">Theodor von Humboldt-Dachroeden</persName> mit seiner Familie zu einem
+                     längeren Treffen einfinden. König <persName key="H0002177">Friedrich Wilhelm
+-                        III.</persName> besucht <placeName key="H0009286">Tegel</placeName>. H.
+-                    trifft Abmachung für seine Übersiedlung von <placeName key="H0008129">Paris</placeName> nach <placeName key="H0005221">Berlin</placeName>. </p>
++                        III.</persName> besucht Tegel. H. trifft Abmachung für seine Übersiedlung
++                    von <placeName key="H0008129">Paris</placeName> nach <placeName key="H0005221">Berlin</placeName>. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -748,9 +760,11 @@ H. hat zwar die Abreise nach <placeName key="H0005221">Berlin</placeName> auf de
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> H. gibt in den Fragmenten des sibirischen Reise-Journals auf Seite 5 an, dass er
+-                    in <placeName key="H0005191">Berlin, Garten Bellevue</placeName>, mit <persName key="H0005930">Prof.
+-                        Encke</persName> magnetische Messungen durchgeführt hat. </p>
++                <p> H. gibt in den
++                    <?oxy_comment_start author="lkirsten" timestamp="20200130T152250+0100" comment="Verweis?"?>Fragmenten
++                    des sibirischen Reise-Journals auf Seite 5 an<?oxy_comment_end?>, dass er in
++                        <placeName key="H0005191">Berlin, Garten Bellevue</placeName>, mit <persName key="H0005930">Prof. Encke</persName> magnetische Messungen durchgeführt
++                    hat. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -907,15 +921,16 @@ H. hat zwar die Abreise nach <placeName key="H0005221">Berlin</placeName> auf de
+                 <p>
+                     <placeName key="H0005565">Dresden</placeName>: die Reisenden besuchen u.a. den
+                     Mediziner, Naturforscher und Maler <persName key="H0012918">Carl Gustav
+-                        Carus</persName> (1789–1869), der ihnen „die schöne Entdeckung des
+-                    Blutkreislaufs in den Insektenlarven zeigte“. (Beleg: Brief an <persName key="H0012068">Wilhelm von Humboldt</persName> vom 6.12.1826). Weitere
+-                    Stationen: <placeName key="H0004805">Freiberg</placeName> (6.12., abends
+-                    eingetroffen; Besuch bei <persName key="H0000264">Freiesleben</persName>. Am
+-                    7.12. Besichtigung der Grube „Beschert Glück“. Am 8.12. Besuch des
+-                    Amalgamierwerks Halsbrücke und der Hüttenanlagen; Besuch des Grabes von
+-                        <persName key="H0006329">A. G. Werner</persName> und der <orgName key="H0000529">Bergakademie</orgName>), <placeName key="H0017744">Chemnitz</placeName>, <placeName key="H0006574">Jena</placeName>
+-                    (9.–11.12.), <placeName key="H0007930">Weimar</placeName> (11.–13.12., H. ist
+-                    täglich mit <persName key="H0013530">Goethe</persName> zusammen), <placeName key="H0010896">Gotha</placeName>, <placeName key="H0004798">Frankfurt/Main</placeName> (17.12.). </p>
++                        Carus</persName>, der ihnen „die schöne Entdeckung des Blutkreislaufs in den
++                    Insektenlarven zeigte“. (Beleg: Brief an <persName key="H0012068">Wilhelm von
++                        Humboldt</persName> vom 6.12.1826). Weitere Stationen: <placeName key="H0004805">Freiberg</placeName> (6.12., abends eingetroffen; Besuch bei
++                        <persName key="H0000264">Freiesleben</persName>. Am 7.12. Besichtigung der
++                    Grube „Beschert Glück“. Am 8.12. Besuch des Amalgamierwerks Halsbrücke und der
++                    Hüttenanlagen; Besuch des Grabes von <persName key="H0006329">A. G.
++                        Werner</persName> und der <orgName key="H0000529">Bergakademie</orgName>),
++                        <placeName key="H0017744">Chemnitz</placeName>, <placeName key="H0006574">Jena</placeName> (9.–11.12.), <placeName key="H0007930">Weimar</placeName>
++                    (11.–13.12., H. ist täglich mit <persName key="H0013530">Goethe</persName>
++                    zusammen), <placeName key="H0010896">Gotha</placeName>, <placeName key="H0004798">Frankfurt/Main</placeName> (17.12.). </p>
+             </body>
+         </text>
+     </TEI>
+diff --git a/Chronologie/1827.xml b/home/gordon/backup182/db/projects/avhr/data/Chronologie/1827.xml
+index 8e69b90..722769a 100644
+--- a/Chronologie/1827.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Chronologie/1827.xml
+@@ -66,9 +66,9 @@
+         <text type="event">
+             <body>
+                 <p> H. lädt <persName key="H0011682">K. B. Hase</persName> ein, um 18 Uhr im Caffé
+-                    de Chartres in <placeName key="H0008129">Paris</placeName> mit ihm, <persName key="H0001895">Pertz</persName> und von Türke (aus Hildburghausen, Neffe
+-                    eines „<persName key="H0001898">Pestalozzi</persName>schen Erziehungsrats“ aus
+-                        <placeName key="H0008392">Potsdam</placeName>) zu essen. </p>
++                    de Chartres in <placeName key="H0008129">Paris</placeName> mit ihm, <persName key="H0001895">Pertz</persName> und <persName key="ed_olv_jwc_4kb">von
++                        Türke</persName> (aus <placeName key="ed_adv_45c_4kb">Hildburghausen</placeName>, Neffe eines „Pestalozzischen Erziehungsrats“
++                    aus <placeName key="H0008392">Potsdam</placeName>) zu essen. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -118,8 +118,8 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> H. wird „président honoraire“ der <orgName key="H0000588">„Société de
+-                        géographie“</orgName> zu <placeName key="H0008129">Paris</placeName>. </p>
++                <p> H. wird „président honoraire“ der <orgName key="H0000588">Société de
++                        géographie</orgName> zu <placeName key="H0008129">Paris</placeName>. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -171,8 +171,8 @@
+             <body>
+                 <p> H. verläßt <placeName key="H0008129">Paris</placeName>. Er wird von <persName key="H0003770">Heinrich von Bülow</persName> begleitet, der sich nach
+                         <placeName key="H0011492">London</placeName> begibt, um sein Amt als
+-                    preußischer Gesandter anzutreten. Reiseroute: Calais (16.4.), Dover (16./17.4.),
+-                        <placeName key="H0011492">London</placeName> (17.4.–5.5.). </p>
++                    preußischer Gesandter anzutreten. Reiseroute: <placeName key="H0018125">Calais</placeName> (16.4.), <placeName key="H0018160">Dover</placeName>
++                    (16./17.4.), <placeName key="H0011492">London</placeName> (17.4.–5.5.). </p>
+             </body>
+         </text>
+     </TEI>
+@@ -273,9 +273,10 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> H. besichtigt am Morgen mit Jeremias Bentham, <persName key="H0002910">General
+-                        Voroncov</persName> und Marc Isambard Brunel den im Bau befindlichen
+-                    Themsetunnel. </p>
++                <p> H. besichtigt am Morgen mit <persName key="ed_yj5_czc_4kb">Jeremy
++                        Bentham</persName>, <persName key="H0002910">General Voroncov</persName> und
++                        <persName key="ed_ic4_qyc_4kb">Marc Isambard Brunel</persName> den im Bau
++                    befindlichen Themsetunnel. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -376,7 +377,7 @@
+         <text type="event">
+             <body>
+                 <p> H. in <placeName key="H0002417">Altona</placeName> bei dem Astronomen <persName key="H0015721">Heinrich Christian Schumacher</persName>. Zusammentreffen mit
+-                    dem Physiker Hans Christian Örsted. </p>
++                    dem Physiker <persName key="H0011179">Hans Christian Ørsted</persName>. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -478,8 +479,8 @@
+             <body>
+                 <p> H. trifft in <placeName key="H0005221">Berlin</placeName> ein. Er wohnt bis Mai
+                     1841 Hinter dem neuen Packhofe Nr. 4, 1. Etage, Haus des Hofzimmermeisters
+-                        <persName key="H0013502">Glatz</persName> (auf der heutigen Museumsinsel).
+-                </p>
++                        <persName key="H0013502">Glatz</persName> (auf der heutigen
++                    <?oxy_comment_start author="lkirsten" timestamp="20200131T114848+0100" comment="dem Ortsregister hinzufügen?"?>Museumsinsel<?oxy_comment_end?>). </p>
+             </body>
+         </text>
+     </TEI>
+@@ -529,7 +530,8 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> H. wird Mitglied der „Märkisch-Ökonomischen Gesellschaft“ in <placeName key="H0008392">Potsdam</placeName>. </p>
++                <p> H. wird Mitglied der „<orgName key="ed_eqk_kbd_4kb">Märkisch-Ökonomischen
++                        Gesellschaft</orgName>“ in <placeName key="H0008392">Potsdam</placeName>. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -579,7 +581,8 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> H. nimmt am Stiftungsfest des Berliner Gartenvereins teil. </p>
++                <p> H. nimmt am Stiftungsfest des <orgName key="ed_im2_py3_4kb">Berliner
++                        Gartenvereins</orgName> teil. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -737,7 +740,7 @@
+         <text type="event">
+             <body>
+                 <p> H. unternimmt mit dem Chemiker <persName key="H0003302">Jöns Jacob
+-                        Berzelius</persName>, der für 14 Tage in <placeName key="H0005221">Berlin</placeName> weilt, eine geologische Exkursion nach Rüdersdorf. </p>
++                        Berzelius</persName>, der für 14 Tage in <placeName key="H0005221">Berlin</placeName> weilt, eine geologische Exkursion nach <placeName key="H0017702">Rüdersdorf</placeName>. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -890,10 +893,9 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> H. wohnt dem 33. Stiftungsfest des Medizinisch-chirurgischen
+-                    Friedrich-Wilhelms-Instituts zur Ausbildung von Militärärzten bei; auch später
+-                    nimmt er an diesem Fest teil, das meist um den 10.8. begangen wurde, so 1828,
+-                    1830, 1837, 1838. </p>
++                <p> H. wohnt dem 33. Stiftungsfest des <orgName key="ed_h1f_t2m_yjb">Medizinisch-chirurgischen Friedrich-Wilhelms-Instituts</orgName> zur
++                    Ausbildung von Militärärzten bei; auch später nimmt er an diesem Fest teil, das
++                    meist um den 10.8. begangen wurde, so 1828, 1830, 1837, 1838. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -995,8 +997,9 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> H. speist beim Fürsten Wittgenstein in Gesellschaft von <persName key="H0011736">Heim</persName>, <persName key="H0005875">Ehrenberg</persName> und
+-                        <persName key="H0001238">von Kamptz</persName>. </p>
++                <p> H. speist beim <persName key="H0015481">Fürsten Wittgenstein</persName> in
++                    Gesellschaft von <persName key="H0011736">Heim</persName>, <persName key="H0005875">Ehrenberg</persName> und <persName key="H0001238">von
++                        Kamptz</persName>. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -1047,11 +1050,9 @@
+         <text type="event">
+             <body>
+                 <p> H. und <persName key="H0003776">Christian Carl Josias Bunsen</persName> in
+-                    <placeName key="H0008113">Paretz</placeName>; <persName key="H0002177">der
+-                    König</persName> ist an diesem Tag in <placeName key="H0008392">Potsdam</placeName>;
+-                    im Tagebuch des Königs ist kein Ausflug nach
+-                    <placeName key="H0008113">Paretz</placeName> (wie sonst üblich) verzeichnet.
+-                </p>
++                        <placeName key="H0008113">Paretz</placeName>; <persName key="H0002177">der
++                        König</persName> ist an diesem Tag in <placeName key="H0008392">Potsdam</placeName>; im Tagebuch des Königs ist kein Ausflug nach Paretz
++                    (wie sonst üblich) verzeichnet. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -1137,9 +1138,10 @@
+             <body>
+                 <p>H. erhält einen Brief zu einem der „Lieblingsgegenstände“ <persName key="H0001121">Karl Asmund Rudolphis</persName> – den Eingeweidewürmern. H.
+                     verwendet die von Rudolphi mitgeteilten Informationen nur wenige Tage später in
+-                    der 4. ‚Kosmos-Vorlesung‘ an der Berliner Universität am 14. November 1827 (vgl. z. B.
+-                    [N. N.]: Die physikalische Geographie von Herrn Alexander v. Humboldt,
+-                    vorgetragen im Semestre 1827/28, S. 21, online verfügbar in: Deutsches Textarchiv, <ref target="http://www.deutschestextarchiv.de/nn_oktavgfeo79_1828/27">http://www.deutschestextarchiv.de/nn_oktavgfeo79_1828/27</ref>).</p>
++                    der 4. ‚Kosmos-Vorlesung‘ an der Berliner Universität am 14. November 1827 (vgl.
++                    z. B. [N. N.]: Die physikalische Geographie von Herrn Alexander v. Humboldt,
++                    vorgetragen im Semester 1827/28, S. 21, online verfügbar in: Deutsches
++                    Textarchiv, <ref target="http://www.deutschestextarchiv.de/nn_oktavgfeo79_1828/27">http://www.deutschestextarchiv.de/nn_oktavgfeo79_1828/27</ref>).</p>
+             </body>
+         </text>
+     </TEI>
+@@ -1189,9 +1191,9 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> H. wird „Geassocieerde“ des „Koninklijk Nederlandsch Instituut van
+-                    Wetenschappen, Letteren en Schone Kunsten“, dem er schon seit 1809 als
+-                    Korrespondent angehört. </p>
++                <p> H. wird „Geassocieerde“ des „<orgName key="ed_unz_c2j_4kb">Koninklijk
++                        Nederlandsch Instituut van Wetenschappen, Letteren en Schone
++                        Kunsten</orgName>“, dem er schon seit 1809 als Korrespondent angehört. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -1239,18 +1241,19 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> Ein Erdbeben erschüttert das Vizekönigreich Neu-Granada in Südamerika, wobei, wie
+-                    H. im Kosmos bemerkt, „im ganzen Cauca-Thale, ohne alle Bewegung, von 30 zu 30
+-                    Secunden mit großer Regelmäßigkeit unterirdische Detonationen“ zu vernehmen sind
+-                    (vgl. <bibl sameAs="zotero-667230-I87MJXIR">Humboldt 1845–1862</bibl>, I (1845), 214).</p>
+-                <p> Wie H. schon in den ‚Kosmos-Vorträgen‘ 
+-                    (33. Stunde an der <orgName key="H0000603">Berliner Universität</orgName>, 4. Stunde an der <orgName key="H0017694">Sing-Akademie</orgName>) ausführt,
+-                    erhält der für das Tal namensgebende Fluss Cauca aus einem Abfluss des Vulkans
+-                    Purace große Mengen schwefelsauren Wassers – „eine merkwürdige Erscheinung, die
+-                    ich zuerst bekannt gemacht habe“ (vgl. <bibl sameAs="zotero-667230-I87MJXIR">Humboldt 1845–1862</bibl>, IV (1858), 250) –, wodurch
+-                    „nach der Einmündung des Baches auf eine weite Strecke hinaus, kein Fisch
+-                    existiren kann, so stark ist die Beimischung von Schwefel und Salzsäure.“ 
+-                    (Zit. <ref target="http://www.deutschestextarchiv.de/nn_msgermqu2124_1827/36">SBB-PK, Ms. Germ. qu. 2124, Bl. 16v</ref> bzw. <bibl sameAs="zotero-667230-9ZM4CXFB">Humboldt/Kohlrausch 2019</bibl>, 109).</p>
++                <p> Ein Erdbeben erschüttert das Vizekönigreich <placeName key="H0001610">Neu-Granada</placeName> in <placeName key="H0010380">Südamerika</placeName>, wobei, wie H. im Kosmos bemerkt, „im ganzen
++                    Cauca-Thale, ohne alle Bewegung, von 30 zu 30 Secunden mit großer Regelmäßigkeit
++                    unterirdische Detonationen“ zu vernehmen sind (vgl. <bibl sameAs="zotero-667230-I87MJXIR">Humboldt 1845–1862</bibl>, I (1845),
++                    214).</p>
++                <p> Wie H. schon in den ‚Kosmos-Vorträgen‘ (33. Stunde an der <orgName key="H0000603">Berliner Universität</orgName>, 4. Stunde an der <orgName key="H0017694">Sing-Akademie</orgName>) ausführt, erhält der für das Tal
++                    namensgebende Fluss <placeName key="H0017138">Cauca</placeName> aus einem
++                    Abfluss des<placeName key="H0008496"> Vulkans Puracé</placeName> große Mengen
++                    schwefelsauren Wassers – „eine merkwürdige Erscheinung, die ich zuerst bekannt
++                    gemacht habe“ (vgl. <bibl sameAs="zotero-667230-I87MJXIR">Humboldt
++                        1845–1862</bibl>, IV (1858), 250) –, wodurch „nach der Einmündung des Baches
++                    auf eine weite Strecke hinaus, kein Fisch existiren kann, so stark ist die
++                    Beimischung von Schwefel und Salzsäure.“ (Zit. <ref target="http://www.deutschestextarchiv.de/nn_msgermqu2124_1827/36">SBB-PK,
++                        Ms. Germ. qu. 2124, Bl. 16v</ref> bzw. <bibl sameAs="zotero-667230-9ZM4CXFB">Humboldt/Kohlrausch 2019</bibl>, 109).</p>
+             </body>
+         </text>
+     </TEI>
+@@ -1355,16 +1358,18 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> H. behandelt in der 9. Vorlesung in der Berliner Universität unter anderem die
+-                    Landschaftmalerei als ein wichtiges „Anregungsmittel“ zum Naturstudium. Einer
+-                    seiner Hörer notiert: „Alles dieses erregte bei vielen die Lust zum Reisen und
+-                    brachte dadurch eine freiere Weltansicht hervor. Doc[ent] selbst wurde auf diese
+-                    Art zu seinen Reisen angeregt: es waren vorzüglich <persName key="H0000177">Georg Forster</persName>[s] Beschreibungen
+-                    der Südsee[-]Inseln, die Ansicht des Drachenbaums in einem botanischen Garten in
+-                    London, und <persName key="H0011922">Hogges</persName> Landschaften[,] die ihm die Lust erregten[,] diejenigen Länder
+-                    kennen zu lernen, in denen er alles dieß in der Natur selbst vorfinden würde.“
+-                    ([N. N.]: Physikalische Geographie von Heinr. Alex. Freiherr v. Humboldt.
+-                    [V]orgetragen im Wintersemester 1827/8. [Berlin], [1827/28], S. 54, online verfügbar in: Deutsches Textarchiv, <ref target="http://www.deutschestextarchiv.de/nn_n0171w1_1828/62">http://www.deutschestextarchiv.de/nn_n0171w1_1828/62</ref>).</p>
++                <p> H. behandelt in der 9. Vorlesung in der <orgName key="H0000603">Berliner
++                        Universität</orgName> unter anderem die Landschaftmalerei als ein wichtiges
++                    „Anregungsmittel“ zum Naturstudium. Einer seiner Hörer notiert: „Alles dieses
++                    erregte bei vielen die Lust zum Reisen und brachte dadurch eine freiere
++                    Weltansicht hervor. Doc[ent] selbst wurde auf diese Art zu seinen Reisen
++                    angeregt: es waren vorzüglich <persName key="H0000177">Georg
++                    Forster</persName>[s] Beschreibungen der Südsee[-]Inseln, die Ansicht des
++                    Drachenbaums in einem botanischen Garten in London, und <persName key="H0011922">Hogges</persName> Landschaften[,] die ihm die Lust erregten[,] diejenigen
++                    Länder kennen zu lernen, in denen er alles dieß in der Natur selbst vorfinden
++                    würde.“ ([N. N.]: Physikalische Geographie von Heinr. Alex. Freiherr v.
++                    Humboldt. [V]orgetragen im Wintersemester 1827/8. [Berlin], [1827/28], S. 54,
++                    online verfügbar in: Deutsches Textarchiv, <ref target="http://www.deutschestextarchiv.de/nn_n0171w1_1828/62">http://www.deutschestextarchiv.de/nn_n0171w1_1828/62</ref>).</p>
+                 <p>H. stützt sich dabei auf Auskünfte des Kunsthistorikers <persName key="H0006182">Gustav Friedrich Waagen</persName> (vgl.
+                     Notizzettel H.s in: SBB-PK, Nachl. Alexander von Humboldt, gr. Kasten 8, Nr.
+                     139, Bl. 12-14, online verfügbar in: SBB-PK, Digitalisierte Sammlungen, <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001682200000000">http://resolver.staatsbibliothek-berlin.de/SBB0001682200000000</ref>). </p>
+@@ -1638,7 +1643,8 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p> H. wird von der Universität Dorpat zum Dr. med. h.c. promoviert. </p>
++                <p> H. wird von der <orgName key="H0018041">Universität Dorpat</orgName> zum Dr.
++                    med. h.c. promoviert. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -1688,17 +1694,16 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p>
+-                    <persName key="H0002173">Kronprinz Wilhelm</persName> schreibt an seine
+-                    Schwester <persName key="H0001156">Charlotte</persName> (Kaiserin Aleksandra
+-                    Fedorovna von Russland) über H.s ‚Kosmos-Vorträge‘: „Von den Humboldtschen Vorlesungen […] muß ich nun
+-                    bemerken, daß dies eine affaire de mode oder de bon tone geworden ist, denn die
+-                    ganze beau monde findet sich in dem schönen neuen Lokale der <orgName key="H0017694">Singakademie</orgName> ein,
+-                    um diesen gewiß sehr interessanten Vorlesungen beizuwohnen. […] Niemand von
+-                    der ersten Gesellschaft, Damen und Herren fehlt. Papa fand es lächerlich, daß
+-                    alles hinströmte – kommt aber von heute an selbst hin …“ (vgl. Karl-Heinz
+-                    Börner, Hrsg.: Prinz Wilhelm von Preußen an Charlotte. Briefe 1817–1860. Berlin
+-                    1993, S. 128.) </p>
++                <p><persName key="H0002173">Kronprinz Wilhelm</persName> schreibt an seine Schwester
++                        <persName key="H0001156">Charlotte</persName> (Kaiserin Aleksandra Fedorovna
++                    von Russland) über H.s ‚Kosmos-Vorträge‘: „Von den Humboldtschen Vorlesungen […]
++                    muß ich nun bemerken, daß dies eine affaire de mode oder de bon tone geworden
++                    ist, denn die ganze beau monde findet sich in dem schönen neuen Lokale der
++                        <orgName key="H0017694">Singakademie</orgName> ein, um diesen gewiß sehr
++                    interessanten Vorlesungen beizuwohnen. […] Niemand von der ersten Gesellschaft,
++                    Damen und Herren fehlt. Papa fand es lächerlich, daß alles hinströmte – kommt
++                    aber von heute an selbst hin …“ (vgl. Karl-Heinz Börner, Hrsg.: Prinz Wilhelm
++                    von Preußen an Charlotte. Briefe 1817–1860. Berlin 1993, S. 128.) </p>
+             </body>
+         </text>
+     </TEI>
+diff --git a/Chronologie/1828.xml b/home/gordon/backup182/db/projects/avhr/data/Chronologie/1828.xml
+index b57c7de..eade90f 100644
+--- a/Chronologie/1828.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Chronologie/1828.xml
+@@ -50,9 +50,8 @@
+         </teiHeader>
+         <text type="event">
+             <body>
+-                <p>
+-H. wird Ehrenmitglied der Königlichen botanischen Gesellschaft.
+-</p>
++                <p> H. wird Ehrenmitglied der <orgName key="ed_njr_cmn_pkb">Königlichen botanischen
++                        Gesellschaft</orgName>. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -127,8 +126,7 @@ Der Bildhauer <persName key="H0000746">Christian Daniel Rauch</persName> beendet
+         <text type="event">
+             <body>
+                 <p> H. nimmt den Vorschlag des russischen Finanzministers <persName key="H0012872">Georg Graf von Cancrin</persName> an, 1829 eine Forschungsreise nach
+-                        <placeName key="H0010689">Russland</placeName> und Russisch-Asien
+-                    durchzuführen. </p>
++                        <placeName key="H0010689">Russland</placeName> und <placeName key="H0002578">Russisch-Asien</placeName> durchzuführen. </p>
+             </body>
+         </text>
+     </TEI>
+@@ -366,16 +364,16 @@ Der Bildhauer <persName key="H0000746">Christian Daniel Rauch</persName> beendet
+                 <p> H. zum ersten Mal in Begleitung <persName key="H0002177">Friedrich Wilhelms
+                         III.</persName> in <placeName key="H0009328">Teplitz</placeName>. Er wohnt
+                     im Herrenhaus am Badeplatz. (H. begleitet den König insgesamt zehnmal auf diesen
+-                    jährlichen Badereisen: 1828, 1830 und von 1832–1839). 3.7.: H. in
+-                    <placeName key="H0017220">Nollendorf</placeName> auf der Durchreise (barometrische Höhenmessung) 11.7.: Messung der
+-                    magnetischen Inklination auf dem Spitalberg bei <placeName key="H0009328">Teplitz</placeName>. H. reist von <placeName key="H0009328">Teplitz</placeName> nach <placeName key="H0008398">Prag</placeName> (19.
+-                    und 20.7.; erdmagnetische und barometrische Messungen mit dem Physiker und
+-                    Astronomen <persName key="H0011606">Cassian Hallaschka</persName>) und Obrzistwy
++                    jährlichen Badereisen: 1828, 1830 und von 1832–1839). 3.7.: H. in <placeName key="H0017220">Nollendorf</placeName> auf der Durchreise (barometrische
++                    Höhenmessung) 11.7.: Messung der magnetischen Inklination auf dem <placeName key="ed_vmz_xlj_qkb">Spitalberg</placeName> bei Teplitz. H. reist von
++                    Teplitz nach <placeName key="H0008398">Prag</placeName> (19. und 20.7.;
++                    erdmagnetische und barometrische Messungen mit dem Physiker und Astronomen
++                        <persName key="H0011606">Cassian Hallaschka</persName>) und Obrzistwy
+                     (Verhandlungen wegen des Ankaufs der Antikensammlung des verstorbenen Generals
+                         <persName key="H0001419">Franz Freiherr von Koller</persName> durch
+                         <placeName key="H0008406">Preußen</placeName>).</p>
+-                <p>Reisedaten <persName key="H0002177">Friedrich Wilhelm III.</persName>: 1.7. Abreise, 2.7. 5:45
+-                    Uhr Ankunft in <placeName key="H0009328">Teplitz</placeName>. </p>
++                <p>Reisedaten <persName key="H0002177">Friedrich Wilhelm III.</persName>: 1.7.
++                    Abreise, 2.7. 5:45 Uhr Ankunft in Teplitz. </p>
+             </body>
+         </text>
+     </TEI>
+diff --git a/Chronologie/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Chronologie/__contents__.xml
+index 983649f..497f238 100644
+--- a/Chronologie/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Chronologie/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Chronologie" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37.466+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="1820.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-17T11:05:02+01:00" filename="1820.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1820.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-02-04T15:34:01.252+01:00" filename="1820.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1844.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-09-08T22:25:00+02:00" filename="1844.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1844.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-09-08T22:25:00.862+02:00" filename="1844.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1815.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-16T13:47:31+01:00" filename="1815.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1815.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-16T13:47:31.158+01:00" filename="1815.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1845.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-12-11T13:28:53+01:00" filename="1845.xml" mimetype="application/xml">
+@@ -21,28 +21,28 @@
+     <resource type="XMLResource" name="1849.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-12-11T13:28:54+01:00" filename="1849.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1836.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-09-08T21:44:00+02:00" filename="1836.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1836.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-09-08T21:44:00.36+02:00" filename="1836.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1821.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-23T13:42:01+01:00" filename="1821.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1821.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-23T13:42:01.473+01:00" filename="1821.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1850.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-12-11T13:28:54+01:00" filename="1850.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1829.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-16T18:04:52+01:00" filename="1829.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1829.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-16T18:04:52.697+01:00" filename="1829.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1834.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-12-10T17:39:03+01:00" filename="1834.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1802.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-11-21T15:09:40+01:00" filename="1802.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1802.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-11-21T15:09:40.857+01:00" filename="1802.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1856.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-12-11T13:28:55+01:00" filename="1856.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1843.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-09-08T22:45:21+02:00" filename="1843.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1843.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-09-08T22:45:21.018+02:00" filename="1843.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1853.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-12-11T13:28:54+01:00" filename="1853.xml" mimetype="application/xml">
+@@ -51,13 +51,13 @@
+     <resource type="XMLResource" name="1848.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-12-11T13:28:54+01:00" filename="1848.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1803.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-11-22T11:59:56+01:00" filename="1803.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1803.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-11-22T11:59:56.488+01:00" filename="1803.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1832.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:39+02:00" modified="2018-12-10T17:39:02+01:00" filename="1832.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1789.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-10-31T16:12:02+01:00" filename="1789.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1789.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-10-31T16:12:02.535+01:00" filename="1789.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1770.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2018-09-13T20:36:37+02:00" filename="1770.xml" mimetype="application/xml">
+@@ -66,52 +66,52 @@
+     <resource type="XMLResource" name="1776.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2018-09-13T20:36:37+02:00" filename="1776.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1788.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-09-11T13:13:27+02:00" filename="1788.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1788.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-09-11T13:13:27.739+02:00" filename="1788.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1792.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-10-31T16:12:02+01:00" filename="1792.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1792.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-10-31T16:12:02.461+01:00" filename="1792.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1809.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-14T14:41:20+01:00" filename="1809.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1809.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-14T14:41:20.157+01:00" filename="1809.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1782.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2018-09-13T20:36:37+02:00" filename="1782.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1766.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-09-11T13:13:28+02:00" filename="1766.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1766.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-09-11T13:13:28.117+02:00" filename="1766.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1793.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-10-31T16:12:02+01:00" filename="1793.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1793.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-31T17:20:18.145+01:00" filename="1793.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1799.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-10-31T16:51:13+01:00" filename="1799.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1799.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-10-31T16:51:13.308+01:00" filename="1799.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1779.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-09-11T13:13:28+02:00" filename="1779.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1779.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-09-11T13:13:28.495+02:00" filename="1779.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1817.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-16T14:45:09+01:00" filename="1817.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1817.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-16T14:45:09.144+01:00" filename="1817.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1828.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-16T18:04:54+01:00" filename="1828.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1828.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-02-07T17:29:24.5+01:00" filename="1828.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1806.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-14T10:59:27+01:00" filename="1806.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1806.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-14T10:59:27.095+01:00" filename="1806.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1778.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2018-09-13T20:36:37+02:00" filename="1778.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1790.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-10-31T16:10:18+01:00" filename="1790.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1790.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-10-31T16:10:18.471+01:00" filename="1790.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1767.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-02-19T14:58:18+01:00" filename="1767.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1818.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-16T15:29:14+01:00" filename="1818.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1818.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-16T15:29:14.551+01:00" filename="1818.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1791.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-10-31T16:12:02+01:00" filename="1791.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1791.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-10-31T16:12:02.578+01:00" filename="1791.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1772.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2018-09-13T20:36:37+02:00" filename="1772.xml" mimetype="application/xml">
+@@ -126,22 +126,22 @@
+     <resource type="XMLResource" name="1771.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2018-09-13T20:36:37+02:00" filename="1771.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1805.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-12-05T17:32:02+01:00" filename="1805.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1805.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-12-05T17:32:02.479+01:00" filename="1805.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1813.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-16T13:32:10+01:00" filename="1813.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1813.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-16T13:32:10.53+01:00" filename="1813.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1816.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-16T13:49:10+01:00" filename="1816.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1816.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-16T13:49:10.666+01:00" filename="1816.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1812.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-16T13:30:16+01:00" filename="1812.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1812.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-16T13:30:16.187+01:00" filename="1812.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1811.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-16T13:28:56+01:00" filename="1811.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1811.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-16T13:28:56.135+01:00" filename="1811.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1808.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-14T12:51:27+01:00" filename="1808.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1808.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-14T12:51:27.322+01:00" filename="1808.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1785.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2018-09-13T20:36:37+02:00" filename="1785.xml" mimetype="application/xml">
+@@ -150,13 +150,13 @@
+     <resource type="XMLResource" name="1786.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2018-12-10T17:30:59+01:00" filename="1786.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1787.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-09-11T13:13:30+02:00" filename="1787.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1787.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-09-11T13:13:30.516+02:00" filename="1787.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1783.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2018-12-10T17:30:59+01:00" filename="1783.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1830.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-09-11T13:13:30+02:00" filename="1830.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1830.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-09-11T13:13:30.801+02:00" filename="1830.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1859.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2018-12-11T13:28:02+01:00" filename="1859.xml" mimetype="application/xml">
+@@ -165,13 +165,13 @@
+     <resource type="XMLResource" name="1777.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-02-19T15:40:34+01:00" filename="1777.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1825.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-24T12:25:49+01:00" filename="1825.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1825.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-24T12:25:49.744+01:00" filename="1825.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1842.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-08-05T12:42:06+02:00" filename="1842.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1842.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-08-05T12:42:06.908+02:00" filename="1842.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1826.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-24T13:02:17+01:00" filename="1826.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1826.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-30T15:33:46.931+01:00" filename="1826.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1854.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2018-12-11T13:28:54+01:00" filename="1854.xml" mimetype="application/xml">
+@@ -180,25 +180,25 @@
+     <resource type="XMLResource" name="1846.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-03-12T19:57:30+01:00" filename="1846.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1823.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-17T16:19:24+01:00" filename="1823.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1823.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-01-17T16:19:24.308+01:00" filename="1823.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1804.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-11-22T13:06:11+01:00" filename="1804.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1804.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-11-22T13:06:11.824+01:00" filename="1804.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1775.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2018-09-13T20:36:37+02:00" filename="1775.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1775.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2020-02-04T15:24:01.128+01:00" filename="1775.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1768.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2018-09-13T20:36:37+02:00" filename="1768.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1800.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-10-31T16:58:54+01:00" filename="1800.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1800.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:37+02:00" modified="2019-10-31T16:58:54.362+01:00" filename="1800.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1801.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-11-07T13:42:28+01:00" filename="1801.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1801.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-11-07T13:42:28.627+01:00" filename="1801.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1814.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-16T13:38:04+01:00" filename="1814.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1814.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-16T13:38:04.336+01:00" filename="1814.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1780.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-09-13T20:36:38+02:00" filename="1780.xml" mimetype="application/xml">
+@@ -207,7 +207,7 @@
+     <resource type="XMLResource" name="1855.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-03-05T13:57:24+01:00" filename="1855.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1769.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-09-11T13:13:32+02:00" filename="1769.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1769.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-09-11T13:13:32.559+02:00" filename="1769.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1841.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-12-10T17:39:03+01:00" filename="1841.xml" mimetype="application/xml">
+@@ -216,10 +216,10 @@
+     <resource type="XMLResource" name="1851.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-12-11T13:28:54+01:00" filename="1851.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1838.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-05-27T17:33:02+02:00" filename="1838.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1838.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-05-27T17:33:02.5+02:00" filename="1838.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1798.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-02-11T11:01:05.319+01:00" filename="1798.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1798.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-31T16:37:34.904+01:00" filename="1798.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1833.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-12-10T17:39:02+01:00" filename="1833.xml" mimetype="application/xml">
+@@ -228,34 +228,34 @@
+     <resource type="XMLResource" name="1781.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-09-13T20:36:38+02:00" filename="1781.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1852.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-12-27T09:43:04+01:00" filename="1852.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1852.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-12-27T09:43:04.985+01:00" filename="1852.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1827.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-16T18:15:28+01:00" filename="1827.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1827.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-02-04T16:29:08.718+01:00" filename="1827.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1857.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-12-11T13:28:55+01:00" filename="1857.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1858.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-08-09T17:22:36+02:00" filename="1858.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1858.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-08-09T17:22:36.966+02:00" filename="1858.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1797.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-10-31T16:13:08+01:00" filename="1797.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1797.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-10-31T16:13:08.598+01:00" filename="1797.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1807.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-14T11:21:53+01:00" filename="1807.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1807.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-14T11:21:53.024+01:00" filename="1807.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1794.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-10-04T14:28:34+02:00" filename="1794.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1794.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-10-04T14:28:34.203+02:00" filename="1794.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1795.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-10-08T12:17:23+02:00" filename="1795.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1795.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-10-08T12:17:23.816+02:00" filename="1795.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1796.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-10-31T16:12:03+01:00" filename="1796.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1796.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2019-10-31T16:12:03.043+01:00" filename="1796.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1822.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-23T13:47:51+01:00" filename="1822.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1822.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-23T13:47:51.056+01:00" filename="1822.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1784.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-09-13T20:36:38+02:00" filename="1784.xml" mimetype="application/xml">
+@@ -264,7 +264,7 @@
+     <resource type="XMLResource" name="1837.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-12-10T17:39:03+01:00" filename="1837.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1819.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-16T16:01:50+01:00" filename="1819.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1819.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-16T16:01:50.166+01:00" filename="1819.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="1831.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-12-10T17:39:02+01:00" filename="1831.xml" mimetype="application/xml">
+@@ -276,10 +276,10 @@
+     <resource type="XMLResource" name="1835.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2018-12-10T17:39:03+01:00" filename="1835.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1824.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-23T15:35:56+01:00" filename="1824.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1824.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-23T15:35:56.236+01:00" filename="1824.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="1810.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-14T14:59:36+01:00" filename="1810.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="1810.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:38+02:00" modified="2020-01-14T14:59:36.947+01:00" filename="1810.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file

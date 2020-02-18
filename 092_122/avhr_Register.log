@@ -1,0 +1,1258 @@
+diff --git a/Register/Einrichtungen.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Einrichtungen.xml
+index b4157e0..228edc6 100644
+--- a/Register/Einrichtungen.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Einrichtungen.xml
+@@ -275,16 +275,6 @@
+                     <desc>1792 als Archiv des vizeköniglichen Sekretariats gegründet und seit 1823
+                         im Zuge der Unabhängigkeit von Spanien das Nationalarchiv Mexikos. </desc>
+                 </org>
+-                <org xml:id="ed_g5r_ygv_bkb">
+-                    <idno type="uri">https://d-nb.info/gnd/1009388-6</idno>
+-                    <orgName type="reg">The Asiatic Society of Bengal</orgName>
+-                    <desc>1784 in Kalkutta gegründete wissenschaftliche Gesellschaft</desc>
+-                    <location xml:id="H0016218">
+-                        <address>
+-                            <settlement key="H0016218">Kalkutta</settlement>
+-                        </address>
+-                    </location>
+-                </org>
+                 <org oldID="ed_dkn_zrz_5db" xml:id="H0016787">
+                     <idno type="uri">http://d-nb.info/gnd/4242147-0</idno>
+                     <orgName type="reg">Audiencia y Cancillería Real de Caracas</orgName>
+@@ -331,6 +321,19 @@
+                         </address>
+                     </location>
+                 </org>
++                <org xml:id="ed_sr4_hdh_5jb">
++                    <idno type="uri">https://d-nb.info/gnd/11934792X</idno>
++                    <orgName type="reg">Berliner Börse</orgName>
++                    <desc>Berliner Wertpapierbörse, zunächst im Lustgarten, ab 1863 in der
++                        Burgstraße 25–26</desc>
++                    <location from="1863" to="1943">
++                        <address>
++                            <idno type="uri">https://www.geonames.org/6698678</idno>
++                            <settlement key="H0005221">Berlin</settlement>
++                            <note>Burgstraße 25–26</note>
++                        </address>
++                    </location>
++                </org>
+                 <org xml:id="H0000530" oldID="ed_vyj_p2l_2z">
+                     <idno type="uri">http://d-nb.info/gnd/5105810-8</idno>
+                     <orgName type="reg">Berliner Gewerbeschule</orgName>
+@@ -351,19 +354,6 @@
+                         </address>
+                     </location>
+                 </org>
+-                <org xml:id="ed_sr4_hdh_5jb">
+-                    <idno type="uri">https://d-nb.info/gnd/11934792X</idno>
+-                    <orgName type="reg">Berliner Börse</orgName>
+-                    <desc>Berliner Wertpapierbörse, zunächst im Lustgarten, ab 1863 in der
+-                        Burgstraße 25–26</desc>
+-                    <location from="1863" to="1943">
+-                        <address>
+-                            <idno type="uri">https://www.geonames.org/6698678</idno>
+-                            <settlement key="H0005221">Berlin</settlement>
+-                            <note>Burgstraße 25–26</note>
+-                        </address>
+-                    </location>
+-                </org>
+                 <org xml:id="H0000531" oldID="org1">
+                     <idno type="uri">http://d-nb.info/gnd/510068-9</idno>
+                     <orgName type="reg">Berliner Sternwarte</orgName>
+@@ -1490,6 +1480,14 @@
+                         </address>
+                     </location>
+                 </org>
++                <org xml:id="ed_njr_cmn_pkb">
++                    <idno type="uri"> http://d-nb.info/gnd/4028009-3</idno>
++                    <orgName type="reg">Königlich Bayerische Botanische Gesellschaft zu
++                        Regensburg</orgName>
++                    <orgName type="alt">Regensburgische Botanische Gesellschaft</orgName>
++                    <desc>1790 gegründete botanische Gesellschaft; Humboldt wurde 1828
++                        Mitglied</desc>
++                </org>
+                 <org xml:id="H0000560" oldID="ed_yvm_npl_gz">
+                     <idno type="uri">http://d-nb.info/gnd/1074119525</idno>
+                     <orgName type="reg">Königliche Akademie Münster</orgName>
+@@ -1576,6 +1574,21 @@
+                     <orgName type="reg">Königlich freie Bergschule zu Steben</orgName>
+                     <desc>1793 von Alexander von Humboldt gegründete Bergschule. </desc>
+                 </org>
++                <org xml:id="ed_unz_c2j_4kb">
++                    <idno type="uri">http://d-nb.info/gnd/37531-7</idno>
++                    <orgName type="reg">Königlich Niederländische Akademie der
++                        Wissenschaften</orgName>
++                    <orgName type="alt">Koninklijke Nederlandse Akademie van Wetenschappen</orgName>
++                    <orgName type="alt">Koninklijk Instituut van Wetenschappen, Letterkunde en Schoone Kunsten</orgName>
++                    <desc>1808 gegründete Akademie der Wissenschaften</desc>
++                    <location xml:id="H0002435">
++                        <address>
++                            <idno type="uri">https://www.geonames.org/6951735</idno>
++                            <settlement key="H0002435">Amsterdam</settlement>
++                            <note>Trippenhuis</note>
++                        </address>
++                    </location>
++                </org>
+                 <org oldID="LK000003" xml:id="H0018013">
+                     <orgName type="reg">Königlich-Preußische Hauptforstkommission</orgName>
+                     <linkGrp>
+@@ -1601,6 +1614,25 @@
+                         </address>
+                     </location>
+                 </org>
++                <org xml:id="ed_eqk_kbd_4kb">
++                    <idno type="uri">http://d-nb.info/gnd/280394-X</idno>
++                    <orgName type="reg"> Königlich Preußische Märkische Ökonomische Gesellschaft </orgName>
++                    <desc>1791 gegründeter landwirtschaftlicher Verein</desc>
++                </org>
++                <org xml:id="ed_htd_yhr_yjb">
++                    <idno type="uri">http://d-nb.info/gnd/1013793-2</idno>
++                    <orgName type="reg">Königlich Schwedische Akademie der Wissenschaften</orgName>
++                    <orgName type="alt">Kungliga Svenska Vetenskapsakademien</orgName>
++                    <desc>1739 gegründete, naturwissenschaftlich-mathematische Akademie. Humboldt
++                        wurde am 23. April 1807 zum Mitglied ernannt.</desc>
++                    <location>
++                        <address>
++                            <idno type="uri">https://www.geonames.org/12110392</idno>
++                            <settlement key="H0010362">Stockholm</settlement>
++                            <note>Lilla Frescativägen</note>
++                        </address>
++                    </location>
++                </org>
+                 <org oldID="ed_g5h_vyw_c3b" xml:id="H0018015">
+                     <orgName type="reg">Lajskij železodelatel'nyj zavod</orgName>
+                     <orgName type="alt">Лайский железоделательный завод</orgName>
+@@ -1700,6 +1732,25 @@
+                         </address>
+                     </location>
+                 </org>
++                <org xml:id="ed_krr_xvk_mkb">
++                    <idno type="uri">http://d-nb.info/gnd/514885-6</idno>
++                    <orgName type="reg">Musée du Luxembourg</orgName>
++                    <desc>1750 eingerichtete Gemäldegalerie </desc>
++                    <location from="1750" to="1884">
++                        <address>
++                            <idno type="uri">https://www.geonames.org/6452878</idno>
++                            <settlement key="H0008129">Paris</settlement>
++                            <note>Palais du Luxembourg</note>
++                        </address>
++                    </location>
++                    <location from="1884">
++                        <address>
++                            <idno type="uri">https://www.geonames.org/9409870</idno>
++                            <settlement key="H0008129">Paris</settlement>
++                            <note>l'Orangerie du Sénat</note>
++                        </address>
++                    </location>
++                </org>
+                 <org oldID="ed_gtz_zf1_chb" xml:id="H0017693">
+                     <idno type="uri">http://d-nb.info/gnd/37657-7</idno>
+                     <orgName type="reg">Museum für Naturkunde (Berlin)</orgName>
+@@ -1740,9 +1791,10 @@
+                     </location>
+                 </org>
+                 <org xml:id="ed_hhl_vn2_3jb">
+-                    <!--noch bearbeiten-->
+                     <idno type="uri">http://d-nb.info/gnd/2082436-1</idno>
+-                    <orgName type="reg">Naturforschende Gesellschaft Jena</orgName>
++                    <?oxy_comment_start author="lkirsten" timestamp="20200130T142651+0100" comment="Beschreibung hinzufügen"?>
++                    <orgName type="reg"><?oxy_comment_end?>Naturforschende Gesellschaft
++                        Jena</orgName>
+                     <desc>1793–1802/5</desc>
+                     <location>
+                         <address>
+@@ -1886,12 +1938,11 @@
+                         </address>
+                     </location>
+                 </org>
+-                <?oxy_comment_start author="lkirsten" timestamp="20191206T103443+0100" comment="Eintrag erweitern"?>
+                 <org xml:id="ed_lgw_14f_3jb">
+                     <idno type="uri">http://d-nb.info/gnd/1008028-4</idno>
+                     <orgName type="reg">Observatoire de Marseille</orgName>
+                     <desc>1702 gegründete astronomische Forschungseinrichtung in Marseille.</desc>
+-                </org><?oxy_comment_end?>
++                </org>
+                 <org oldID="ed_xnk_1bc_1jb" xml:id="H0018025">
+                     <orgName type="reg">Orden pour le mérite für Wissenschaften und Künste</orgName>
+                     <desc>Seit 1842 vom Staatsoberhaupt verliehenes Abzeichen und Zusammenschluss
+@@ -1944,9 +1995,12 @@
+                     </location>
+                 </org>
+                 <org xml:id="ed_h1f_t2m_yjb">
+-                    <idno type="uri">http://d-nb.info/gnd/6106713-1</idno>
+-                    <orgName type="reg"><?oxy_comment_start author="lkirsten" timestamp="20191206T103419+0100" comment="Eintrag erweitern"?>Pépinière<?oxy_comment_end?></orgName>
+-                    <desc>1795 gegründete Chirurgenschule für Militärärzte</desc>
++                    <idno type="uri">http://d-nb.info/gnd/5145725-8</idno>
++                    <orgName type="reg">Friedrich-Wilhelms-Institut</orgName>
++                    <orgName type="alt">Königliches Medizinisch-Chirurgisches Friedrich-Wilhelms-Institut</orgName>
++                    <orgName type="alt">Pépinière</orgName>
++                    <desc>1795 gegründete Chirurgenschule für Militärärzte; bis 1818 „ Pépinière“
++                        und bis 1895 „ Friedrich-Wilhelms-Institut“</desc>
+                     <location from="1795" to="1826">
+                         <address>
+                             <idno type="uri">https://www.geonames.org/2950159</idno>
+@@ -2237,8 +2291,9 @@
+                     <orgName type="alt">Real Academia de Medicina y Ciencias Naturales
+                         (1734–1847)</orgName>
+                     <orgName type="alt">Academia de Matemáticas (1582–1734)</orgName>
+-                    <desc>1847 unter ihrem heutigen Namen gegründete und seit 1582 bestehende spanische Wissenschaftsakademie</desc>
+-                    <location xml:id="H0008564" from="1897">
++                    <desc>1847 unter ihrem heutigen Namen gegründete und seit 1582 bestehende
++                        spanische Wissenschaftsakademie</desc>
++                    <location from="1897">
+                         <address>
+                             <idno type="uri">https://www.geonames.org/12122370</idno>
+                             <settlement key="H0008564">Madrid</settlement>
+@@ -2591,6 +2646,20 @@
+                         </address>
+                     </location>
+                 </org>
++                <org xml:id="ed_skh_dlc_4kb">
++                    <idno type="uri">http://d-nb.info/gnd/2019952-1</idno>
++                    <orgName type="reg">Senckenberg Naturmuseum</orgName>
++                    <orgName type="alt">Senckenberg Forschungsinstitut und Naturmuseum Frankfurt </orgName>
++                    <desc>1821 zunächst als öffentliches Naturalienkabinett gegründetes
++                        Naturkundemuseum</desc>
++                    <location xml:id="H0004798">
++                        <address>
++                            <idno type="uri">https://www.geonames.org/12123365</idno>
++                            <settlement key="H0004798">Frankfurt am Main</settlement>
++                            <note>Senckenberganlage 25</note>
++                        </address>
++                    </location>
++                </org>
+                 <org oldID="ed_szj_c2k_dhb" xml:id="H0017694">
+                     <idno type="uri">http://d-nb.info/gnd/2118215-2</idno>
+                     <orgName type="reg">Sing-Akademie zu Berlin</orgName>
+@@ -2812,20 +2881,6 @@
+                         </address>
+                     </location>
+                 </org>
+-                <org xml:id="ed_htd_yhr_yjb">
+-                    <idno type="uri">http://d-nb.info/gnd/1013793-2</idno>
+-                    <orgName type="reg">Königlich Schwedische Akademie der Wissenschaften</orgName>
+-                    <orgName type="alt">Kungliga Svenska Vetenskapsakademien</orgName>
+-                    <desc>1739 gegründete, naturwissenschaftlich-mathematische Akademie. Humboldt
+-                        wurde am 23. April 1807 zum Mitglied ernannt.</desc>
+-                    <location>
+-                        <address>
+-                            <idno type="uri">https://www.geonames.org/12110392</idno>
+-                            <settlement key="H0010362">Stockholm</settlement>
+-                            <note>Lilla Frescativägen</note>
+-                        </address>
+-                    </location>
+-                </org>
+                 <org oldID="ed_whw_dmp_c3b" xml:id="H0018037">
+                     <orgName type="reg">Svinečnoe mestoroždenie</orgName>
+                     <orgName type="alt">Свинечное месторождение</orgName>
+@@ -2846,6 +2901,16 @@
+                     <orgName type="reg">Tessari et Compagnie</orgName>
+                     <desc>Kunsthandlung in Paris und Augsburg</desc>
+                 </org>
++                <org xml:id="ed_g5r_ygv_bkb">
++                    <idno type="uri">https://d-nb.info/gnd/1009388-6</idno>
++                    <orgName type="reg">The Asiatic Society of Bengal</orgName>
++                    <desc>1784 in Kalkutta gegründete wissenschaftliche Gesellschaft</desc>
++                    <location xml:id="H0016218">
++                        <address>
++                            <settlement key="H0016218">Kalkutta</settlement>
++                        </address>
++                    </location>
++                </org>
+                 <org oldID="ed_k3q_vd3_jhb" xml:id="H0017695">
+                     <idno type="uri">http://d-nb.info/gnd/2089748-0</idno>
+                     <orgName type="reg">Thomasschule zu Leipzig</orgName>
+@@ -2902,8 +2967,7 @@
+                     <location>
+                         <address>
+                             <idno type="uri">http://www.geonames.org/588335</idno>
+-                            <settlement key="H0005552">Tartu [Dorpat, Dörpt, Дерпт]
+-                                (Universitätsstadt im heutigen Estland)</settlement>
++                            <settlement key="H0005552">Tartu</settlement>
+                             <note/>
+                         </address>
+                     </location>
+@@ -3203,6 +3267,15 @@
+                         </address>
+                     </location>
+                 </org>
++                <org xml:id="ed_im2_py3_4kb">
++                    <idno type="uri">http://d-nb.info/gnd/501433-5</idno>
++                    <orgName type="reg"> Verein zur Beförderung des Gartenbaues in den Preußischen
++                        Staaten </orgName>
++                    <orgName type="alt">Deutsche Gartenbau-Gesellschaft </orgName>
++                    <orgName type="alt">Berliner Gartenverein</orgName>
++                    <desc>1822 in Berlin gegründete, erste reine Gartenbau-Gesellschaft in
++                        Deutschland</desc>
++                </org>
+                 <org oldID="ed_bc3_r54_c3b" xml:id="H0018042">
+                     <orgName type="reg">Vyjskij zavod</orgName>
+                     <orgName type="alt">Выйский завод</orgName>
+diff --git a/Register/Masse.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Masse.xml
+index 426e7a9..0876d26 100644
+--- a/Register/Masse.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Masse.xml
+@@ -819,7 +819,7 @@ Ist so ein bisschen peinlich..."?>Réaumur<?oxy_comment_end?></label>
+                     <label>Zolotnik</label>
+                     <desc xml:lang="de">Gewichtsmaß (Russland)</desc>
+                     <desc xml:lang="en">Unit of mass (Russia)</desc>
+-                    <measure type="weight" quantity="0.004266" unit="kg"/>
++                    <measure type="weight" quantity="4.266" unit="g"/>
+                 </item> 
+             </list>
+         </body>
+diff --git a/Register/Orte/B.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/B.xml
+index 827432a..2096adf 100644
+--- a/Register/Orte/B.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/B.xml
+@@ -123,6 +123,12 @@
+                     <placeName type="alt">Freyenwalde</placeName>
+                     <note>Stadt in Brandenburg (Deutschland)</note>
+                 </place>
++                <place xml:id="ed_xqs_n45_pkb">
++                    <idno type="uri">https://www.geonames.org/2782058</idno>
++                    <placeName type="reg">Bad Gastein</placeName>
++                    <placeName type="alt">Badgastein</placeName>
++                    <note>Kur- und Bergwerksort südlich von <placeName key="H0009764">Salzburg</placeName></note>
++                </place>
+                 <place xml:id="ed_pyz_2vr_yjb">
+                     <idno type="uri">https://www.geonames.org/2953436</idno>
+                     <placeName type="reg">Bad Homburg vor der Höhe</placeName>
+diff --git a/Register/Orte/C.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/C.xml
+index ea7c6e5..9c8fa48 100644
+--- a/Register/Orte/C.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/C.xml
+@@ -3534,6 +3534,14 @@ http://www.geonames.org/8877290/jose-lopez-portillo-chocomanatlan.html"?></note>
+                     <note>Ortsteil der Stadt Bílina am Nordwesthang des Böhmischen Mittelgebirges,
+                         in der Region Ústecký kraj (Tschechien)</note>
+                 </place>
++                <place xml:id="ed_lmt_pbg_pkb">
++                    <idno type="uri">https://www.geonames.org/549160</idno>
++                    <placeName type="reg">Chudolaz</placeName>
++                    <placeName type="alt">Khudolaz</placeName>
++                    <placeName type="alt">Худолаз</placeName>
++                    <note>rechter Nebenfluss des <placeName key="H0009660">Ural</placeName> südlich
++                        von <placeName key="H0017788">Kizilskoye</placeName></note>
++                </place>
+                 <place xml:id="H0007453" oldID="efe7ce1e-9cba-45e8-85e0-e40dad1926eb">
+                     <idno type="uri">http://www.geonames.org/3698105</idno>
+                     <placeName type="reg">Chulucanas</placeName>
+diff --git a/Register/Orte/D.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/D.xml
+index cbe3d71..2c159ba 100644
+--- a/Register/Orte/D.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/D.xml
+@@ -629,6 +629,17 @@ http://www.geonames.org/2939354/daimbacherhof.html
+                     <note>Stadt in der <placeName key="H0009637">Ukraine</placeName> an der Mündung
+                         der Samara in den <placeName key="H0018156">Dnepr</placeName></note>
+                 </place>
++                <place xml:id="ed_pyn_sk5_pkb">
++                    <idno type="uri">https://www.geonames.org/565888</idno>
++                    <placeName type="reg">Dnestr</placeName>
++                    <placeName type="alt">Dniester</placeName>
++                    <placeName type="alt">Τύρας</placeName>
++                    <placeName type="alt">Dniestr</placeName>
++                    <placeName type="alt">Dnister</placeName>
++                    <placeName type="alt">Днестр</placeName>
++                    <placeName type="alt">Дністер</placeName>
++                    <note>Zufluss des Schwarzen Meeres (Ukraine)</note>
++                </place>
+                 <place xml:id="H0005532" oldID="cd0d299d-de9e-4641-ad78-69fe14eda1a8">
+                     <idno type="uri">http://www.geonames.org/3685193/</idno>
+                     <placeName type="reg">Doa</placeName>
+@@ -684,7 +695,7 @@ http://www.geonames.org/2939354/daimbacherhof.html
+                 <place xml:id="ed_end_g1l_kkb">
+                     <idno type="uri">https://www.geonames.org/3177532</idno>
+                     <placeName type="reg">Domodossola</placeName>
+-                    <note>Stadt in der Region Piedmont (Italien)</note>
++                    <note>Stadt in der Region Piemont (Italien)</note>
+                 </place>
+                 <place xml:id="H0005539" oldID="de35c889-f34a-4e79-b894-d6fc886ce19a">
+                     <idno type="uri">http://www.geonames.org/565361</idno>
+@@ -705,6 +716,16 @@ http://www.geonames.org/2939354/daimbacherhof.html
+                         <ptr target="16#10" type="letter"/>
+                     </linkGrp>
+                 </place>
++                <place xml:id="ed_xpd_1m5_pkb">
++                    <idno type="uri">https://www.geonames.org/496266</idno>
++                    <placeName type="reg">Donez</placeName>
++                    <placeName type="alt">Donets</placeName>
++                    <placeName type="alt">Siwerskyj Donez</placeName>
++                    <placeName type="alt">Sewerski Donez</placeName>
++                    <placeName type="alt">Се́верский Доне́ц</placeName>
++                    <placeName type="alt">Seversky Donets</placeName>
++                    <note>rechter Nebenfluss des Don</note>
++                </place>
+                 <place oldID="ed_cqb_whk_r3b" xml:id="H0018159">
+                     <placeName type="reg">Donische Kosaken</placeName>
+                     <placeName type="alt">Donsche Kosaken</placeName>
+@@ -883,11 +904,6 @@ http://www.geonames.org/2935522/dortelweil.htm"?>Dorteweil<?oxy_comment_end?></p
+                         <ptr target="32#147" type="letter"/>
+                         <ptr target="41#74" type="letter"/>
+                     </linkGrp>
+-                    <listPlace>
+-                        <place xml:id="ediarum_uzz_clk_rkb" type="building">
+-                            <placeName type="reg">Frauenkirche</placeName>
+-                        </place>
+-                    </listPlace>
+                 </place>
+                 <place xml:id="H0005566" oldID="fcccfdfe-5616-4425-bd19-68edb1a2d1fe">
+                     <idno type="uri">http://www.geonames.org/2953525</idno>
+diff --git a/Register/Orte/G.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/G.xml
+index 6e4ab40..66210a1 100644
+--- a/Register/Orte/G.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/G.xml
+@@ -1215,10 +1215,6 @@ http://www.geonames.org/3701338/golfo-de-san-miguel.html"?>
+                         <ptr target="16#139" type="letter"/>
+                     </linkGrp>
+                 </place>
+-                <place xml:id="H0010914" oldID="cef2a377-5f9e-45f5-9110-234d0c722e60">
+-                    <placeName type="reg">Grasnuschinskaïa</placeName>
+-                    <placeName type="alt">Grjasnoj</placeName>
+-                </place>
+                 <place xml:id="H0010915" oldID="e39788ef-f578-4498-aec1-7199d5fae9fb">
+                     <placeName type="reg">Great Basin</placeName>
+                     <linkGrp>
+@@ -1335,11 +1331,29 @@ http://www.geonames.org/3701338/golfo-de-san-miguel.html"?>
+                 <place xml:id="H0010928" oldID="e0e3c78d-9502-41a1-bdec-cee222f3c2e7">
+                     <idno type="uri">http://www.geonames.org/2660498</idno>
+                     <placeName type="reg">Grindelwald</placeName>
+-                    <note>Gemeine im Kantoin Bern (Schweiz)</note>
++                    <note>Gemeine im Kanton Bern (Schweiz)</note>
+                     <linkGrp>
+                         <ptr target="16#27" type="letter"/>
+                     </linkGrp>
+                 </place>
++                <place xml:id="ed_dzy_wlg_pkb">
++                    <placeName type="reg">Grjaznuška</placeName>
++                    <placeName type="alt">Gräsnuschka</placeName>
++                    <note>kleiner <placeName key="H0009660">Ural</placeName>-Zufluss im Südlichen
++                            <placeName key="H0009659">Ural</placeName> nahe <placeName key="ed_gsw_c2g_pkb">Grjaznušinskij</placeName>
++                    </note>
++                </place>
++                <place xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="ed_gsw_c2g_pkb">
++                    <idno type="uri">https://www.geonames.org/558247</idno>
++                    <placeName type="reg">Grjaznušinskij</placeName>
++                    <placeName type="alt">Grasnuschinskaïa</placeName>
++                    <placeName type="alt">Grjasnuschinski</placeName>
++                    <placeName type="alt">Грязнушинский</placeName>
++                    <placeName type="alt">Gryaznushinskiy</placeName>
++                    <placeName type="alt">Gräsnuschinskoi</placeName>
++                    <placeName type="alt">Grjasnoj</placeName>
++                    <note>Ortschaft am rechten Ufer des Ural südlich von Kizilskoye</note>
++                </place>
+                 <place oldID="ed_ohw_rx4_23b" xml:id="H0018071">
+                     <idno type="uri">http://www.geonames.org/1524171</idno>
+                     <placeName type="reg">Gromotucha</placeName>
+@@ -1579,7 +1593,6 @@ http://www.geonames.org/3701338/golfo-de-san-miguel.html"?>
+                         <ptr target="41#46" type="letter"/>
+                     </linkGrp>
+                 </place>
+-                
+                 <place xml:id="H0010962" oldID="ed_anb_gc4_fx">
+                     <placeName type="reg">Guadalupe</placeName>
+                     <note>ehemalige Armensiedlung am Stadtrand Havannas (Kuba)</note>
+@@ -1680,7 +1693,6 @@ http://www.geonames.org/3660418/babahoyo.html"?></note><?oxy_comment_end?>
+                         <ptr target="16#75" type="letter"/>
+                     </linkGrp>
+                 </place>
+-                
+                 <place xml:id="H0011003" oldID="x2b25298-46b4-4027-a0f0-4f17efea2cec">
+                     <idno type="uri">http://www.geonames.org/3888516</idno>
+                     <placeName type="reg">Guamanga</placeName>
+diff --git a/Register/Orte/H.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/H.xml
+index 5eecd65..d3656ae 100644
+--- a/Register/Orte/H.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/H.xml
+@@ -1006,6 +1006,11 @@
+                         <ptr target="16#41" type="letter"/>
+                     </linkGrp>
+                 </place>
++                <place xml:id="ed_adv_45c_4kb">
++                    <idno type="uri">https://www.geonames.org/2904804</idno>
++                    <placeName type="reg">Hildburghausen</placeName>
++                    <note>Landkreis und Kreisstadt in Thüringen (Deutschland)</note>
++                </place>
+                 <place xml:id="H0006862" oldID="td601805-f222-4a4e-b24f-7bf917aabe64">
+                     <idno type="uri">http://www.geonames.org/2904789</idno>
+                     <placeName type="reg">Hildesheim</placeName>
+diff --git a/Register/Orte/I.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/I.xml
+index 8e8ab24..b4b5e80 100644
+--- a/Register/Orte/I.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/I.xml
+@@ -295,6 +295,10 @@
+                     <note>Bei Miass (Stadt) südlich des Ilmengebirges gelegener See im Südlichen
+                         Ural</note>
+                 </place>
++                <place xml:id="ed_ilf_lsg_pkb">
++                    <placeName type="reg">Ilmental</placeName>
++                    <note>in nord-südlicher Richtung zwischen <placeName key="H0006673">Ilmengebirge</placeName> um Osten und <placeName key="H0009659">Uralgebirge</placeName> im Westen verlaufendes Längstal</note>
++                </place>
+                 <place xml:id="H0006672" oldID="f36d29f2-ddfe-48a6-829a-e6f6cc63589a">
+                     <idno type="uri">http://www.geonames.org/2896483</idno>
+                     <placeName type="reg">Ilsenburg</placeName>
+@@ -599,9 +603,20 @@
+                 </place>
+                 <place oldID="ed_jd4_qxw_hdb" xml:id="H0017488">
+                     <idno type="uri">http://www.geonames.org/573104</idno>
+-                    <placeName type="reg">Iremel (Gebirge)</placeName>
++                    <placeName type="reg">Iremelgebirge</placeName>
+                     <placeName type="alt">Иремель</placeName>
+                     <note>Bergmassiv im Südlichen Ural, Quellgebiet des Belaja</note>
++                    <listPlace>
++                        <place xml:id="ediarum_x5d_hc3_qkb" type="mountain">
++                            <idno type="uri">http://www.geonames.org/573104</idno>
++                            <placeName type="reg">Großer Iremel</placeName>
++                            <placeName type="alt">Gora Bol’shoy Iremel</placeName>
++                            <placeName type="alt">Bolschoi Iremel</placeName>
++                            <placeName type="alt">Большой Иремель</placeName>
++                            <placeName type="alt">Иремель</placeName>
++                            <note>der zweithöchste Berg im Südlichen Ural (1582 m)</note>
++                        </place>
++                    </listPlace>
+                 </place>
+                 <place oldID="ed_e5x_t2x_12b" xml:id="H0017489">
+                     <idno type="uri"><?oxy_comment_start author="schnee" timestamp="20180604T180617+0200" comment="Vgl. 
+diff --git a/Register/Orte/J.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/J.xml
+index a350bf6..6e15e08 100644
+--- a/Register/Orte/J.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/J.xml
+@@ -39,13 +39,18 @@
+                         (Indien)</note>
+                 </place>
+                 <place xml:id="H0006538" oldID="zf20268a-ed1e-4478-92f7-b0b8fdf8f4a4">
+-                    <placeName type="reg">Jablonowygebirge</placeName>
++                    <idno type="uri">https://www.geonames.org/2013208</idno>
++                    <placeName type="reg">Jablonovygebirge</placeName>
++                    <placeName type="alt">Apple Ridge</placeName>
++                    <placeName type="alt">Yablonovyy Khrebet</placeName>
++                    <placeName type="alt">Яблоновый хребет</placeName>
++                    <placeName type="alt">Yablonnoy-khrebet</placeName>
+                     <placeName type="alt">Jablonnoi Chrebet</placeName>
+                     <placeName type="alt">Apfelgebirge</placeName>
+-                    <placeName type="alt">Jablonovyj chrebet</placeName>
++                    <placeName type="alt">Jablonovyj Chrebet</placeName>
+                     <placeName type="alt">Jabloinoi Khribet</placeName>
+                     <placeName type="alt">Jablonoi Khrebet</placeName>
+-                    <note>Gebirge in Südsibirien</note>
++                    <note>Gebirge in Südost-<placeName key="H0010218">Sibirien</placeName></note>
+                     <linkGrp>
+                         <ptr target="32#34" type="letter"/>
+                         <ptr target="32#35" type="letter"/>
+diff --git a/Register/Orte/K.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/K.xml
+index 0679046..f94f1de 100644
+--- a/Register/Orte/K.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/K.xml
+@@ -1194,6 +1194,7 @@
+                 <place oldID="ed_cwy_4jc_hhb" xml:id="H0017788">
+                     <idno type="uri">http://www.geonames.org/547853</idno>
+                     <placeName type="reg">Kizilskoye</placeName>
++                    <placeName type="alt">Kisilskaya</placeName>
+                     <placeName type="alt">Kizylskaia</placeName>
+                     <placeName type="alt">Kisilskoje</placeName>
+                     <placeName type="alt">Кизильское</placeName>
+@@ -1381,6 +1382,8 @@
+                 <place xml:id="H0000442" oldID="f77a8270-6d32-452b-a4ab-4e1e4680a9e4">
+                     <idno type="uri">http://www.geonames.org/1512979</idno>
+                     <placeName type="reg">Kokand</placeName>
++                    <placeName type="alt">Cocan</placeName>
++                    <placeName type="alt">Kokan</placeName>
+                     <note>Stadt und Chanat am Oberlauf des Syrdarja</note>
+                     <linkGrp>
+                         <ptr target="30#57" type="letter"/>
+diff --git a/Register/Orte/M.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/M.xml
+index fa03d88..c3761c2 100644
+--- a/Register/Orte/M.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/M.xml
+@@ -336,7 +336,7 @@
+                     <placeName type="alt">Gora Magnitnaja</placeName>
+                     <note>Magnetberg, stark eisenhaltiges
+                         <?oxy_comment_start author="schnee" timestamp="20180508T174525+0200" comment="Achtung: Es gib einen weiteren Gora Magnitnaja im Nördlichen Ural (vgl. Closs/Meister: Bau- und Bodenschätze Osteuropas, 1921, S. 75 und 79). "?>Bergplateau
+-                        im Südlichen <placeName key="H0009659">Ural (Gebirge)</placeName>, südlich
++                        im Südlichen <placeName key="H0009659">Ural</placeName>, südlich
+                         von <?oxy_comment_end?><placeName key="H0009129">Werchne Uralsk</placeName>;
+                         etwa 7 Kilometer nordöstlich der <placeName key="H0017424">gleichnamigen
+                             Festung</placeName></note>
+@@ -349,9 +349,9 @@
+                     <placeName type="alt">Magnetnaja</placeName>
+                     <placeName type="alt">Magnetaya</placeName>
+                     <placeName type="alt">Magnetaja</placeName>
+-                    <note>am östlichen Ufer des <placeName key="H0009660">Ural (Fluss)</placeName>
+-                        im Südlichen <placeName key="H0009659">Ural (Gebirge)</placeName> gelegene
+-                        Ortschaft und Kosakenfestung, etwa 7 Kilometer südweslich des <placeName key="H0017423">gleichnamigen Magnetberges</placeName></note>
++                    <note>am östlichen Ufer des <placeName key="H0009660">Ural</placeName>-Flusses
++                        im Südlichen <placeName key="H0009659">Ural</placeName> gelegene
++                        Ortschaft und Kosakenfestung, etwa 7 Kilometer südwestlich des gleichnamigen <placeName key="H0017423">Magnetberges</placeName></note>
+                 </place>
+                 <place oldID="ed_nyn_5rb_wcb" xml:id="H0017425">
+                     <idno type="uri">http://www.geonames.org/1264491</idno>
+diff --git a/Register/Orte/N.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/N.xml
+index 17581f0..0b25867 100644
+--- a/Register/Orte/N.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/N.xml
+@@ -383,6 +383,15 @@
+                     <placeName type="alt">Nepaul</placeName>
+                     <note>ehemaliges Königreich mit Grenzgebiet an China und Indien</note>
+                 </place>
++                <place xml:id="ed_id2_y23_qkb">
++                    <idno type="uri">https://www.geonames.org/2019326</idno>
++                    <placeName type="reg">Nerčinsk</placeName>
++                    <placeName type="alt">Nerchinsk</placeName>
++                    <placeName type="alt">Nertchinsk</placeName>
++                    <placeName type="alt">Нерчинск</placeName>
++                    <placeName type="alt">Nertschinsk</placeName>
++                    <note>Stadt im Südosten Russland, im Gouvernement Irkutsk (1822-1851)</note>
++                </place>
+                 <place oldID="ed_xg1_mwr_n2b" xml:id="H0017213">
+                     <placeName type="reg">Nertschinskische Steppe</placeName>
+                     <note>Gebiet im südlichen Sibirien</note>
+@@ -1431,6 +1440,15 @@
+                     <placeName type="alt">Новосидирск</placeName>
+                     <note>Stadt in Sibirien; drittgrößte Stadt Russlands</note>
+                 </place>
++                <place xml:id="ed_cqz_14t_pkb">
++                    <idno type="uri">https://www.geonames.org/518970</idno>
++                    <placeName type="reg">Novočercassk</placeName>
++                    <placeName type="alt">Novocherkassk</placeName>
++                    <placeName type="alt">Novotcherkassk</placeName>
++                    <placeName type="alt">Новочерка́сск</placeName>
++                    <placeName type="alt">Nowotscherkassk</placeName>
++                    <note>Stadt in Südrussland</note>
++                </place>
+                 <place xml:id="H0001721" oldID="ed_os3_wtt_lz">
+                     <idno type="uri">http://www.geonames.org/519406</idno>
+                     <placeName type="reg">Nowaja Semlja</placeName>
+diff --git a/Register/Orte/P.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/P.xml
+index a6c3e0e..c868035 100644
+--- a/Register/Orte/P.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/P.xml
+@@ -1749,9 +1749,11 @@
+                 </place>
+                 <place xml:id="H0008242" oldID="dc9a748c-06be-47e1-b0e0-c280a2214ee4">
+                     <idno type="uri">http://www.geonames.org/1520172</idno>
+-                    <placeName type="reg">Petropawl</placeName>
++                    <placeName type="reg">Petropavlovsk</placeName>
++                    <placeName type="alt">Петропавловск</placeName>
++                    <placeName type="alt">Petropawl</placeName>
+                     <placeName type="alt">Petropavl</placeName>
+-                    <placeName type="alt">Petropawlosk</placeName>
++                    <placeName type="alt">Petropawlowsk</placeName>
+                     <note>Stadt am Ischim (Kasachstan), im 18. und 19. Jahrhundert russische
+                         Festung</note>
+                     <linkGrp>
+@@ -2983,11 +2985,17 @@
+                         <ptr target="32#92" type="letter"/>
+                     </linkGrp>
+                 </place>
++                <place xml:id="ed_skg_wx5_pkb">
++                    <placeName type="reg">Preobražensk</placeName>
++                    <placeName type="alt">Preobraschensk</placeName>
++                    <placeName type="alt">Preobraschenskoi</placeName>
++                    <note>Ortschaft im südlichen Ural am Fluss <placeName key="H0017767">Silair</placeName> nordwestlich von <placeName key="H0007860">Orsk</placeName></note>
++                </place>
+                 <place xml:id="H0008403" oldID="bca4834f-e751-44db-b7b9-f83040cdbe7f">
+                     <placeName type="reg">Preobraženskij</placeName>
+                     <placeName type="alt">Preobraschenski</placeName>
+                     <placeName type="alt">Преображенский</placeName>
+-                    <note>historische Grube in Berëzovskij)</note>
++                    <note>historische Grube bei <placeName key="H0005211">Berjosovski</placeName> nordöstlich von <placeName key="H0005599">Jekaterinburg</placeName></note>
+                     <linkGrp>
+                         <ptr target="30#37" type="letter"/>
+                     </linkGrp>
+@@ -3960,7 +3968,7 @@
+                 </place>
+                 <place xml:id="H0008495" oldID="cef76905-76ed-457e-8e9d-345c64196064">
+                     <placeName type="reg">Puracé</placeName>
+-                    <note><?oxy_comment_start author="lkirsten" timestamp="20191105T162803+0100" comment="Eintrag trennen
++                    <note><?oxy_comment_start author="lkirsten" timestamp="20191105T162803+0100" comment="Eintrag trennen; Dublette von H0008496
+ "?>Stadt
+                         und Vulkan<?oxy_comment_end?> in Kolumbien</note>
+                     <linkGrp>
+diff --git a/Register/Orte/S.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/S.xml
+index 5f1c96e..0c06930 100644
+--- a/Register/Orte/S.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/S.xml
+@@ -2051,6 +2051,10 @@ http://www.geonames.org/3648765/cerros-avechica.html"?>Avechica<?oxy_comment_end
+                         <ptr target="30#3" type="letter"/>
+                     </linkGrp>
+                 </place>
++                <place xml:id="ed_bxb_33b_qkb">
++                    <placeName type="reg">Santiago de las Vegas</placeName>
++                    <note>Stadt auf Kuba in der Provinz Havanna</note>
++                </place>
+                 <place xml:id="H0010056" oldID="m821086a-4064-4a58-9181-8be96fcc2daa">
+                     <placeName type="reg">Santa Magdalena</placeName>
+                     <note>am See San Cristóbal, nördlich von Mexiko-Stadt</note>
+@@ -4170,6 +4174,13 @@ http://www.geonames.org/3648765/cerros-avechica.html"?>Avechica<?oxy_comment_end
+                         <ptr target="26#400" type="page"/>
+                     </linkGrp>
+                 </place>
++                <place xml:id="ed_vmz_xlj_qkb">
++                    <idno type="uri">https://www.geonames.org/3064288</idno>
++                    <placeName type="reg">Spitalberg</placeName>
++                    <placeName type="alt">Na Letné</placeName>
++                    <placeName type="alt">Königshöhe</placeName>
++                    <note>Anhöhe in Teplitz</note>
++                </place>
+                 <place oldID="ed_phl_dq2_5cb" xml:id="H0017411">
+                     <idno type="uri">http://www.geonames.org/1265292</idno>
+                     <placeName type="reg">Spiti</placeName>
+diff --git a/Register/Orte/U.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/U.xml
+index ee3d992..3960f7b 100644
+--- a/Register/Orte/U.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/U.xml
+@@ -467,6 +467,16 @@
+                     <placeName type="alt">Ursern</placeName>
+                     <note>höchster Abschnitt des Reusstals im Kanton Uri (Schweiz)</note>
+                 </place>
++                <place xml:id="ed_j4f_5ng_pkb">
++                    <idno type="uri">https://www.geonames.org/478611</idno>
++                    <placeName type="reg">Urtazym</placeName>
++                    <placeName type="alt">Urtasimsk</placeName>
++                    <placeName type="alt">Urtasymskaja</placeName>
++                    <placeName type="alt">Urtazymskiy</placeName>
++                    <placeName type="alt">Уртазым</placeName>
++                    <note>Ortschaft am rechten <placeName key="H0009660">Ural</placeName>-Ufer im
++                        Südlichen <placeName key="H0009659">Ural</placeName></note>
++                </place>
+                 <place xml:id="H0009682" oldID="m4657281-f6aa-4bf3-a61f-95aefc40116a">
+                     <placeName type="reg">Uruani</placeName>
+                 </place>
+diff --git a/Register/Orte/V.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/V.xml
+index 7b8a911..bedb0f7 100644
+--- a/Register/Orte/V.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/V.xml
+@@ -1050,7 +1050,7 @@
+                     </linkGrp>
+                 </place>
+                 <place xml:id="H0008496" oldID="m6456b79-b747-4371-9dca-b128531dd96f">
+-                    <placeName type="reg">Volcán de Puracé</placeName>
++                    <placeName type="reg">Volcán Puracé</placeName>
+                     <note>Kolumbien</note>
+                     <linkGrp>
+                         <ptr target="16#61" type="letter"/>
+diff --git a/Register/Orte/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/__contents__.xml
+index 2f7cdb3..545182d 100644
+--- a/Register/Orte/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Orte/__contents__.xml
+@@ -1,81 +1,81 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Register/Orte" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35.099+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="D.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-02-11T10:17:21.248+01:00" filename="D.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="D.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-02-05T15:52:03.34+01:00" filename="D.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-17T15:48:07+01:00" filename="H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="H.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-30T15:40:37.397+01:00" filename="H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="S.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-24T11:59:00+01:00" filename="S.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="S.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-02-07T17:18:14.685+01:00" filename="S.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="M.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-24T12:11:05+01:00" filename="M.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="M.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-02-03T16:03:44.59+01:00" filename="M.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="K.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2019-11-21T16:30:35+01:00" filename="K.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="K.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-02-03T16:01:12.728+01:00" filename="K.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="I.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-24T12:07:53+01:00" filename="I.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="I.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-02-07T12:48:28.518+01:00" filename="I.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="E.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-17T12:10:01+01:00" filename="E.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="E.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-17T12:10:01.393+01:00" filename="E.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="F.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-17T12:21:01+01:00" filename="F.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="F.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-17T12:21:01.941+01:00" filename="F.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="J.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-06T11:44:00+01:00" filename="J.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="J.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-02-07T13:21:11.919+01:00" filename="J.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="B.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-17T15:00:18+01:00" filename="B.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="B.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-02-05T16:16:54.616+01:00" filename="B.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="O.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2019-11-07T16:30:40+01:00" filename="O.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="O.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2019-11-07T16:30:40.406+01:00" filename="O.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="T.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:36+02:00" modified="2020-01-17T15:30:03+01:00" filename="T.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="T.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:36+02:00" modified="2020-01-17T15:30:03.124+01:00" filename="T.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="P.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:36+02:00" modified="2020-01-24T12:04:20+01:00" filename="P.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="P.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:36+02:00" modified="2020-02-05T17:29:54.253+01:00" filename="P.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="V.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:36+02:00" modified="2020-01-24T12:21:26+01:00" filename="V.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="V.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:36+02:00" modified="2020-01-31T13:00:24.938+01:00" filename="V.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="X.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:36+02:00" modified="2019-11-21T18:13:21+01:00" filename="X.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="X.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:36+02:00" modified="2019-11-21T18:13:21.638+01:00" filename="X.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Q.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:36+02:00" modified="2019-11-07T18:01:43+01:00" filename="Q.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Q.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:36+02:00" modified="2019-11-07T18:01:43.469+01:00" filename="Q.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-24T11:54:12+01:00" filename="R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="R.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-24T11:54:12.334+01:00" filename="R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Z.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2019-11-26T09:28:12+01:00" filename="Z.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Z.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2019-11-26T09:28:12.348+01:00" filename="Z.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="G.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-17T15:40:03+01:00" filename="G.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="G.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-02-03T17:37:31.786+01:00" filename="G.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Y.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2019-10-22T15:11:52+02:00" filename="Y.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Y.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2019-10-22T15:11:52.707+02:00" filename="Y.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="N.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-17T14:25:58+01:00" filename="N.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="N.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-02-07T13:11:40.338+01:00" filename="N.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="L.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-07T10:21:46+01:00" filename="L.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="L.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-07T10:21:46.05+01:00" filename="L.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="W.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-17T15:17:43+01:00" filename="W.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="W.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-17T15:17:43.797+01:00" filename="W.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="A.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-17T14:24:47+01:00" filename="A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="A.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-17T14:24:47.008+01:00" filename="A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="U.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2019-11-21T15:18:56+01:00" filename="U.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="U.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-02-03T17:52:28.253+01:00" filename="U.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="C.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-01-24T12:15:35+01:00" filename="C.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="C.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:35+02:00" modified="2020-02-03T17:24:05.559+01:00" filename="C.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Register/Personen/B.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/B.xml
+index e2571ec..3c3ed69 100644
+--- a/Register/Personen/B.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/B.xml
+@@ -4153,6 +4153,16 @@
+                         <ptr target="29#161" type="page"/>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_yj5_czc_4kb">
++                    <idno type="uri">http://d-nb.info/gnd/118509187</idno>
++                    <persName type="reg">
++                        <surname>Bentham</surname>
++                        <forename>Jeremy</forename>
++                    </persName>
++                    <birth>1748</birth>
++                    <death>1832</death>
++                    <note>englischer Jurist und Philosoph</note>
++                </person>
+                 <person xml:id="H0003249" oldID="prov_m41_jhz_qt">
+                     <idno type="uri">http://d-nb.info/gnd/118655590</idno>
+                     <persName type="reg">
+@@ -13032,6 +13042,16 @@
+                         Admiral, 1802 Staatsrat; Vertrauter Napoleons und von ihm
+                         ausgezeichnet</note>
+                 </person>
++                <person xml:id="ed_ic4_qyc_4kb">
++                    <idno type="uri">http://d-nb.info/gnd/116818557</idno>
++                    <persName type="reg">
++                        <surname>Brunel</surname>
++                        <forename>Marc Isambard</forename>
++                    </persName>
++                    <birth>1769</birth>
++                    <death>1849</death>
++                    <note>französisch-britischer Ingenieur</note>
++                </person>
+                 <person xml:id="H0003715" oldID="rdfb703d-c819-4f50-a6a4-bdb757d5cc59">
+                     <idno type="uri">http://d-nb.info/gnd/105000949</idno>
+                     <persName type="reg">
+diff --git a/Register/Personen/C.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/C.xml
+index fb4d2f5..268da0b 100644
+--- a/Register/Personen/C.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/C.xml
+@@ -298,6 +298,19 @@
+                     <floruit notBefore="1801" notAfter="1801">um 1801</floruit>
+                     <note>1801 Besitzer einer Zuckerhacienda in Contreras</note>
+                 </person>
++                <person xml:id="ed_rxv_mcl_mkb">
++                    <persName type="reg">
++                        <surname>Cailleux</surname>
++                        <forename>Alphonse de</forename>
++                    </persName>
++                    <persName type="alt">
++                        <surname>Cailloux</surname>
++                        <forename>Alexandre-Alphonse-Achille de</forename>
++                    </persName>
++                    <birth>1788</birth>
++                    <death>1876</death>
++                    <note>Maler und Museumsdirektor </note>
++                </person>
+                 <person xml:id="H0012838" oldID="w36ec90e-db6e-4194-abe8-3e1e4486317e">
+                     <idno type="uri">http://d-nb.info/gnd/118666541</idno>
+                     <persName type="reg">
+diff --git a/Register/Personen/D.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/D.xml
+index c646b16..f97b74a 100644
+--- a/Register/Personen/D.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/D.xml
+@@ -3847,6 +3847,11 @@
+                         <ptr subtype="comment" target="04#60" type="letter"/>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_awj_3nl_mkb">
++                    <persName type="reg">
++                        <name>Dolgorukij</name><?oxy_comment_start author="lkirsten" timestamp="20200124T172155+0100" comment="Chronologie 19. Mai 1826"?><?oxy_comment_end?></persName>
++                    <floruit notBefore="1826" notAfter="1826">um 1826</floruit>
++                </person>
+                 <person xml:id="H0012334" oldID="c9e3ac81-84b2-43bf-84f5-7a33ebafd35b">
+                     <idno type="uri">http://d-nb.info/gnd/142898783</idno>
+                     <persName type="reg">
+diff --git a/Register/Personen/G.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/G.xml
+index 108c8f7..0338feb 100644
+--- a/Register/Personen/G.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/G.xml
+@@ -6267,6 +6267,16 @@
+                         <ptr target="41#234" type="page"/>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_qjf_mgc_4kb">
++                    <idno type="uri">http://d-nb.info/gnd/118901397</idno>
++                    <persName type="reg">
++                        <surname>Granet</surname>
++                        <forename>François Marius</forename>
++                    </persName>
++                    <birth>1775</birth>
++                    <death>1849</death>
++                    <note>französischer Historienmaler</note>
++                </person>
+                 <person oldID="ed_iln_y4q_rcb" xml:id="H0016911">
+                     <persName type="reg">
+                         <surname>Grandjean</surname>
+diff --git a/Register/Personen/H.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/H.xml
+index ea8a8b1..d3850a1 100644
+--- a/Register/Personen/H.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/H.xml
+@@ -6810,13 +6810,16 @@ http://www.smb-digital.de/eMuseumPlus?service=ExternalInterface&amp;module=colle
+                 <person xml:id="H0011917" oldID="i743fcdf-44e1-4cef-92ef-a98982536ad8">
+                     <idno type="uri">http://d-nb.info/gnd/11870527X</idno>
+                     <persName type="reg">
+-                        <surname>Hittorf</surname>
++                        <surname>Hittorff</surname>
+                         <forename>Jacques Ignace</forename>
+                     </persName>
+                     <persName type="alt">
+                         <surname>Hittorff</surname>
+                         <forename>Jakob Ignaz</forename>
+                     </persName>
++                    <persName type="alt">
++                        <name>Hittorf</name>
++                    </persName>
+                     <birth>1792</birth>
+                     <death>1867</death>
+                     <note>französischer Architekt und Archäologe deutscher Herkunft</note>
+@@ -6825,6 +6828,21 @@ http://www.smb-digital.de/eMuseumPlus?service=ExternalInterface&amp;module=colle
+                         <ptr target="27#12" type="page"/>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_el5_n2l_mkb">
++                    <persName type="reg">
++                        <surname>Hittorf</surname>
++                        <forename>Rose Élisabeth</forename>
++                    </persName>
++                    <persName type="alt" subtype="pseudonym">
++                        <name>Madame Hittorff</name>
++                    </persName>
++                    <persName type="alt" subtype="birthname">
++                        <name>Lepère</name>
++                    </persName>
++                    <birth>1804</birth>
++                    <death>1870</death>
++                    <note>Tochter von Jean-Baptiste Lepère und Ehefrau von <persName key="H0011917">Jakob Ignaz Hittorff</persName></note>
++                </person>
+                 <person xml:id="H0011918" oldID="f8a48808-73c4-4d99-a892-75ddf3058349">
+                     <idno type="uri">http://d-nb.info/gnd/11934792X</idno>
+                     <persName type="reg">
+diff --git a/Register/Personen/L.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/L.xml
+index a5b9858..a981282 100644
+--- a/Register/Personen/L.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/L.xml
+@@ -4209,6 +4209,19 @@ evtl. könnt er es sein??     ?http://d-nb.info/gnd/141193115"?>
+                         <ptr target="19#65" type="page"/>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_hpc_2gl_mkb">
++                    <idno type="uri">http://d-nb.info/gnd/136648770</idno>
++                    <persName type="reg">
++                        <surname>Lepère</surname>
++                        <forename>Jean-Baptiste</forename>
++                    </persName>
++                    <persName type="alt">
++                        <name>Le Père</name>
++                    </persName>
++                    <birth>1761</birth>
++                    <death>1844</death>
++                    <note>französischer Architekt</note>
++                </person>
+                 <person xml:id="H0004469" oldID="mbf46d5d-feca-46ef-b6d6-8badb361ba49">
+                     <idno type="uri">http://d-nb.info/gnd/118571885</idno>
+                     <persName type="reg">
+diff --git a/Register/Personen/O.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/O.xml
+index cbf9af4..fe00f2a 100644
+--- a/Register/Personen/O.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/O.xml
+@@ -1746,6 +1746,16 @@
+                         <ptr subtype="comment" target="30#[186]" type="page"/>
+                     </linkGrp>
+                 </person>
++                <person xml:id="H0004091" oldID="b2a92159-c947-43f9-8da9-41c87d41e9ae">
++                    <idno type="uri">http://d-nb.info/gnd/101068638</idno>
++                    <persName type="reg">
++                        <surname>Osmanisches Reich</surname>
++                        <forename>Abd-ül Hamid I.</forename>
++                    </persName>
++                    <birth>1725</birth>
++                    <death>1789</death>
++                    <note>1774–1789 Sultan</note>
++                </person>
+                 <person xml:id="H0011261" oldID="j5cffcae-29c7-45bd-b960-cc9579e4177f">
+                     <idno type="uri">http://d-nb.info/gnd/118893106</idno>
+                     <persName type="reg">
+diff --git a/Register/Personen/P.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/P.xml
+index 88bf2fc..ebe96ca 100644
+--- a/Register/Personen/P.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/P.xml
+@@ -16,6 +16,15 @@
+     <text>
+         <body>
+             <listPerson>
++                <person xml:id="ed_n2y_4gb_qkb">
++                    <persName type="reg">
++                        <surname>Pedroso</surname>
++                        <forename>Mateo</forename>
++                    </persName>
++                    <birth>1719</birth>
++                    <death>1800</death>
++                    <note/>
++                </person>
+                 <person xml:id="H0001747" oldID="v8d115c0-bbe0-4ff2-973a-be9e713568d2">
+                     <idno type="uri">http://d-nb.info/gnd/121268837</idno>
+                     <persName type="reg">
+@@ -1947,6 +1956,16 @@
+                     <floruit notBefore="1800" notAfter="1800">um 1800</floruit>
+                     <note>in Villa ce Cura</note>
+                 </person>
++                <person xml:id="ed_h21_dvk_mkb">
++                    <idno type="uri">http://d-nb.info/gnd/118592661</idno>
++                    <persName type="reg">
++                        <surname>Percier</surname>
++                        <forename>Charles</forename>
++                    </persName>
++                    <birth>1764</birth>
++                    <death>1838</death>
++                    <note>französischer Architekt</note>
++                </person>
+                 <person xml:id="H0001860" oldID="p183a6d0-3d77-4fd6-8dd5-769d97d597de">
+                     <persName type="reg">
+                         <surname>Perdigón</surname>
+diff --git a/Register/Personen/R.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/R.xml
+index 77289a0..5a5ac88 100644
+--- a/Register/Personen/R.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/R.xml
+@@ -260,6 +260,14 @@
+                         <ptr target="02#424" type="letter"/>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_ljq_g3c_4kb">
++                    <persName type="reg">
++                        <name>Raggi</name>
++                        <?oxy_comment_start author="lkirsten" timestamp="20200130T140814+0100" comment="erwähnt in Chronologie 19. Mai 1826
++"?></persName><?oxy_comment_end?>
++                    <floruit notBefore="1826" notAfter="1826">um 1826</floruit>
++                    <note>Bildhauer</note>
++                </person>
+                 <person xml:id="H0000714" oldID="b90351ba-947f-4776-972b-950d79ea18eb">
+                     <persName type="reg">
+                         <name>Ragneris</name>
+diff --git a/Register/Personen/T.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/T.xml
+index 0b5bf6b..07f72a7 100644
+--- a/Register/Personen/T.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/T.xml
+@@ -1283,6 +1283,11 @@
+                         <ptr target="34#408" type="page"/>
+                     </linkGrp>
+                 </person>
++                <person xml:id="ed_pvm_tjl_mkb">
++                    <persName type="reg">
++                        <name>Thibaut</name><?oxy_comment_start author="lkirsten" timestamp="20200124T162259+0100" comment="Chronologie 11. Mai 1826"?><?oxy_comment_end?></persName>
++                    <floruit notBefore="1826" notAfter="1826">um 1826</floruit>
++                </person>
+                 <person xml:id="H0003924" oldID="a2047d1f-d439-45ab-8cc5-429c659af59a">
+                     <idno type="uri">http://d-nb.info/gnd/119514303</idno>
+                     <persName type="reg">
+@@ -4097,16 +4102,14 @@
+                         <ptr subtype="comment" target="43#[83]" type="page"/>
+                     </linkGrp>
+                 </person>
+-                <person xml:id="H0004091" oldID="b2a92159-c947-43f9-8da9-41c87d41e9ae">
+-                    <idno type="uri"><?oxy_comment_start author="mikosch" timestamp="20160923T091608+0200" comment="verschieben nach Osmanisches Reich"?>http://d-nb.info/gnd/101068638</idno>
++                <person xml:id="ed_olv_jwc_4kb">
+                     <persName type="reg">
+-                        <surname>Osmanisches Reich</surname>
+-                        <forename>Abd-ül Hamid I.</forename>
+-                    </persName>
+-                    <birth>1725</birth>
+-                    <death>1789</death>
+-                    <note>1774–1789 Sultan<?oxy_comment_end?></note>
++                        <surname>Türke</surname>
++                        <forename>von</forename>
++                        <?oxy_comment_start author="lkirsten" timestamp="20200130T155841+0100" comment="Chronologie 10. März 1827"?></persName><?oxy_comment_end?>
++                    <floruit notBefore="1827" notAfter="1827">um 1827</floruit>
+                 </person>
++                
+                 <person xml:id="H0004092" oldID="ed_vm5_yc1_3w">
+                     <idno type="uri">http://d-nb.info/gnd/129956252</idno>
+                     <persName type="reg">
+diff --git a/Register/Personen/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/__contents__.xml
+index 460f7ab..38866ef 100644
+--- a/Register/Personen/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/Personen/__contents__.xml
+@@ -1,60 +1,60 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Register/Personen" version="1" owner="avhr_kraft" group="avhr-nutzer" mode="770" created="2019-03-06T14:33:10.197+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="E.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:28+01:00" modified="2019-11-01T13:22:51+01:00" filename="E.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="E.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:28+01:00" modified="2019-11-01T13:22:51.375+01:00" filename="E.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="F.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:28+01:00" modified="2019-10-31T10:22:33+01:00" filename="F.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="F.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:28+01:00" modified="2019-10-31T10:22:33.39+01:00" filename="F.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="G.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:29+01:00" modified="2020-01-24T11:49:02+01:00" filename="G.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="G.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:29+01:00" modified="2020-01-30T13:54:10.276+01:00" filename="G.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="H.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:29+01:00" modified="2020-01-16T13:45:55+01:00" filename="H.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="H.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:29+01:00" modified="2020-01-24T15:55:54.747+01:00" filename="H.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="I.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:29+01:00" modified="2019-09-30T18:25:37+02:00" filename="I.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="I.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:29+01:00" modified="2019-09-30T18:25:37.614+02:00" filename="I.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="J.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:29+01:00" modified="2020-01-23T14:08:01+01:00" filename="J.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="J.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:29+01:00" modified="2020-01-23T14:08:01.921+01:00" filename="J.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="K.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:29+01:00" modified="2019-12-10T11:45:18+01:00" filename="K.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="K.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:29+01:00" modified="2019-12-10T11:45:18.114+01:00" filename="K.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="L.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:30+01:00" modified="2020-01-17T16:16:33+01:00" filename="L.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="L.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:30+01:00" modified="2020-01-24T15:55:57.413+01:00" filename="L.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="M.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:30+01:00" modified="2020-01-14T15:58:12+01:00" filename="M.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="M.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:30+01:00" modified="2020-01-14T15:58:12.106+01:00" filename="M.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="N.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:30+01:00" modified="2019-09-11T12:46:20+02:00" filename="N.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="N.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:30+01:00" modified="2019-09-11T12:46:20.064+02:00" filename="N.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="O.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:30+01:00" modified="2019-09-11T12:46:20+02:00" filename="O.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="O.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:30+01:00" modified="2020-01-30T15:52:44.663+01:00" filename="O.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="P.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:30+01:00" modified="2020-01-24T12:57:17+01:00" filename="P.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="P.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:30+01:00" modified="2020-02-06T14:12:56.424+01:00" filename="P.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Q.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:30+01:00" modified="2019-07-23T12:12:22+02:00" filename="Q.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Q.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:30+01:00" modified="2019-07-23T12:12:22.609+02:00" filename="Q.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="R.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2019-11-26T12:17:44+01:00" filename="R.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="R.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2020-01-30T14:08:36.405+01:00" filename="R.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="S.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2020-01-24T13:01:56+01:00" filename="S.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="S.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2020-01-24T13:01:56.75+01:00" filename="S.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="T.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2020-01-17T11:09:27+01:00" filename="T.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="T.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2020-01-30T15:59:00.028+01:00" filename="T.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="U.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2019-10-15T14:13:23+02:00" filename="U.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="U.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2019-10-15T14:13:23.763+02:00" filename="U.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="V.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2019-12-18T13:43:03+01:00" filename="V.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="V.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2019-12-18T13:43:03.743+01:00" filename="V.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="W.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2019-12-17T12:58:58+01:00" filename="W.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="W.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2019-12-17T12:58:58.605+01:00" filename="W.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="X.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2019-03-06T14:33:31+01:00" filename="X.xml" mimetype="application/xml">
+@@ -63,19 +63,19 @@
+     <resource type="XMLResource" name="Y.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2019-03-06T14:33:31+01:00" filename="Y.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Z.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2020-01-24T12:45:29+01:00" filename="Z.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Z.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:31+01:00" modified="2020-01-24T12:45:29.585+01:00" filename="Z.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="A.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:27+01:00" modified="2019-09-16T14:52:39+02:00" filename="A.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="A.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:27+01:00" modified="2019-09-16T14:52:39.754+02:00" filename="A.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="B.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:27+01:00" modified="2020-01-23T15:33:43+01:00" filename="B.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="B.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:27+01:00" modified="2020-01-30T16:16:53.303+01:00" filename="B.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="C.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:28+01:00" modified="2019-12-17T17:17:57+01:00" filename="C.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="C.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:28+01:00" modified="2020-01-24T15:30:42.01+01:00" filename="C.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="D.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:28+01:00" modified="2020-01-24T12:40:22+01:00" filename="D.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="D.xml" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-03-06T14:33:28+01:00" modified="2020-01-24T17:22:30.878+01:00" filename="D.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Register/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Register/__contents__.xml
+index 6749045..22e6023 100644
+--- a/Register/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Register/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Register" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31.255+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Sachregister.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31+02:00" modified="2019-09-11T13:23:19+02:00" filename="Sachregister.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Sachregister.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31+02:00" modified="2019-09-11T13:23:19.418+02:00" filename="Sachregister.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Einrichtungen.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:32+02:00" modified="2020-01-14T15:53:49+01:00" filename="Einrichtungen.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Einrichtungen.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:32+02:00" modified="2020-02-07T16:43:36.385+01:00" filename="Einrichtungen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Masse.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:32+02:00" modified="2020-01-09T14:34:21+01:00" filename="Masse.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Masse.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:32+02:00" modified="2020-01-31T12:53:38.923+01:00" filename="Masse.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Verweissiglen.xml" skip="no" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:32+02:00" modified="2019-05-20T18:26:47+02:00" filename="Verweissiglen.xml" mimetype="application/xml">

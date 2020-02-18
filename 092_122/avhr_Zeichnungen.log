@@ -1,0 +1,946 @@
+diff --git a/Zeichnungen/ARTI/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/ARTI/__contents__.xml
+index 7e96228..3b4f179 100644
+--- a/Zeichnungen/ARTI/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/ARTI/__contents__.xml
+@@ -1,153 +1,153 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Zeichnungen/ARTI" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31.239+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="89r_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="89r_2.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="94v_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.937+01:00" filename="94v_2.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="94r_3.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="94r_3.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="88v_3.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.945+01:00" filename="88v_3.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="82r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="82r_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="88v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.947+01:00" filename="88v_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="leitner_abb3.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="leitner_abb3.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="95v_4.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.949+01:00" filename="95v_4.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="31v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="31v_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="88v_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.96+01:00" filename="88v_2.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="45r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="45r_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="88v_4.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.961+01:00" filename="88v_4.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="59r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="59r_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="88v_5.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.963+01:00" filename="88v_5.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="59r_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="59r_2.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="89v_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.965+01:00" filename="89v_2.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="leitner_abb1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="leitner_abb1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="89v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.966+01:00" filename="89v_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="92v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="92v_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="29r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.969+01:00" filename="29r_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="95v_3.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="95v_3.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="94r_4.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.972+01:00" filename="94r_4.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="94r_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="94r_2.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="93v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.974+01:00" filename="93v_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="95r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="95r_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="93r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.976+01:00" filename="93r_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="37r_1.JPG" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-12-06T11:27:36+01:00" modified="2019-12-06T11:27:36+01:00" filename="37r_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="25r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.98+01:00" filename="25r_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="19v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="19v_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="93v_3.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.982+01:00" filename="93v_3.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="95v_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="95v_2.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="93v_4.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.986+01:00" filename="93v_4.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="leitner_abb2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="leitner_abb2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="87r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.987+01:00" filename="87r_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="95v_6.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="95v_6.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="95v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.99+01:00" filename="95v_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="35r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="35r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="73r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.991+01:00" filename="73r_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="38v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="38v_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="95v_5.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.995+01:00" filename="95v_5.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="82v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="82v_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="14v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.996+01:00" filename="14v_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="94r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="94r_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="93v_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.997+01:00" filename="93v_2.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="25v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="25v_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="leitner_abb4.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.999+01:00" filename="leitner_abb4.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="75v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="75v_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="89r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.006+01:00" filename="89r_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="goetz_abb1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="goetz_abb1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="89r_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.011+01:00" filename="89r_2.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="94v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="94v_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="94r_3.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.012+01:00" filename="94r_3.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="94v_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="94v_2.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="82r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.014+01:00" filename="82r_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="88v_3.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="88v_3.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="leitner_abb3.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.015+01:00" filename="leitner_abb3.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="88v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="88v_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="31v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.025+01:00" filename="31v_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="95v_4.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="95v_4.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="45r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.027+01:00" filename="45r_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="88v_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="88v_2.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="59r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.029+01:00" filename="59r_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="88v_4.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="88v_4.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="59r_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.03+01:00" filename="59r_2.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="88v_5.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="88v_5.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="leitner_abb1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.031+01:00" filename="leitner_abb1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="89v_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="89v_2.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="92v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.037+01:00" filename="92v_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="89v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="89v_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="95v_3.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.038+01:00" filename="95v_3.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="29r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="29r_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="94r_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.039+01:00" filename="94r_2.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="94r_4.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="94r_4.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="95r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.044+01:00" filename="95r_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="93v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="93v_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="37r_1.JPG" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-12-06T11:27:36.716+01:00" modified="2020-02-17T17:11:01.047+01:00" filename="37r_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="93r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="93r_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="19v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.048+01:00" filename="19v_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="25r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="25r_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="95v_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.049+01:00" filename="95v_2.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="93v_3.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="93v_3.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="leitner_abb2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.054+01:00" filename="leitner_abb2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="93v_4.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="93v_4.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="95v_6.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.057+01:00" filename="95v_6.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="87r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="87r_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="35r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.059+01:00" filename="35r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="95v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="95v_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="38v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.063+01:00" filename="38v_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="73r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="73r_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="82v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.065+01:00" filename="82v_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="95v_5.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="95v_5.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="94r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.92+01:00" filename="94r_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="14v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="14v_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="25v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.923+01:00" filename="25v_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="93v_2.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="93v_2.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="75v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.926+01:00" filename="75v_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="leitner_abb4.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="leitner_abb4.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="goetz_abb1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.929+01:00" filename="goetz_abb1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="89r_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="89r_1.JPG" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="94v_1.JPG" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.933+01:00" filename="94v_1.JPG" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Zeichnungen/Cuba/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/Cuba/__contents__.xml
+index 7d58c31..42f1dcb 100644
+--- a/Zeichnungen/Cuba/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/Cuba/__contents__.xml
+@@ -1,15 +1,15 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Zeichnungen/Cuba" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31.229+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="146r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="146r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="146r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.899+01:00" filename="146r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="129r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="129r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="129r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.904+01:00" filename="129r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="146v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="146v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="146v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.906+01:00" filename="146v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="146v_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="146v_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="146v_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.913+01:00" filename="146v_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Zeichnungen/Ehrenberg-Briefwechsel/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/Ehrenberg-Briefwechsel/__contents__.xml
+index b75fb5b..98ff6d5 100644
+--- a/Zeichnungen/Ehrenberg-Briefwechsel/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/Ehrenberg-Briefwechsel/__contents__.xml
+@@ -1,60 +1,60 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Zeichnungen/Ehrenberg-Briefwechsel" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31.226+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="1849_00_00-1850_00_00-vEhrenberg_4.jpg" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-03-28T11:59:22+01:00" modified="2019-03-28T11:59:22+01:00" filename="1849_00_00-1850_00_00-vEhrenberg_4.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1848_05_30-vEhrenberg_1.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2019-01-11T13:47:35+01:00" modified="2020-02-17T17:11:00.891+01:00" filename="1848_05_30-vEhrenberg_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1840_03_24-vEhrenberg.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2018-12-21T16:47:22+01:00" modified="2018-12-21T16:47:22+01:00" filename="1840_03_24-vEhrenberg.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1833_00_00_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.894+01:00" filename="1833_00_00_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1849_00_00-1850_00_00-vEhrenberg_5.jpg" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-03-28T12:05:11+01:00" modified="2019-03-28T12:05:11+01:00" filename="1849_00_00-1850_00_00-vEhrenberg_5.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1833_00_00_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.826+01:00" filename="1833_00_00_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1848_05_30-vEhrenberg_1.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2019-01-11T13:47:35+01:00" modified="2019-01-11T13:47:35+01:00" filename="1848_05_30-vEhrenberg_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1849_03_00_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.842+01:00" filename="1849_03_00_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1833_00_00_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1833_00_00_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1839_11_00_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.844+01:00" filename="1839_11_00_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1833_00_00_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1833_00_00_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1828_07_14_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.845+01:00" filename="1828_07_14_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1849_03_00_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1849_03_00_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1836_04_30_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:00.846+01:00" filename="1836_04_30_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1839_11_00_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1839_11_00_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1849_00_00-1850_00_00-vEhrenberg_1.jpg" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-03-28T11:20:02+01:00" modified="2020-02-17T17:11:00.85+01:00" filename="1849_00_00-1850_00_00-vEhrenberg_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1828_07_14_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1828_07_14_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1833_00_00-vEhrenberg.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2018-12-21T15:55:49+01:00" modified="2020-02-17T17:11:00.852+01:00" filename="1833_00_00-vEhrenberg.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1836_04_30_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1836_04_30_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1849_00_00-1850_00_00-vEhrenberg_2.jpg" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-03-28T11:47:31+01:00" modified="2020-02-17T17:11:00.867+01:00" filename="1849_00_00-1850_00_00-vEhrenberg_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1849_00_00-1850_00_00-vEhrenberg_1.jpg" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-03-28T11:20:02+01:00" modified="2019-03-28T11:20:02+01:00" filename="1849_00_00-1850_00_00-vEhrenberg_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1849_00_00-1850_00_00-vEhrenberg_3.jpg" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-03-28T11:51:51+01:00" modified="2020-02-17T17:11:00.869+01:00" filename="1849_00_00-1850_00_00-vEhrenberg_3.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1833_00_00-vEhrenberg.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2018-12-21T15:55:49+01:00" modified="2018-12-21T15:55:49+01:00" filename="1833_00_00-vEhrenberg.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1828_07_14_2.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2018-12-04T17:04:49+01:00" modified="2020-02-17T17:11:00.872+01:00" filename="1828_07_14_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1849_00_00-1850_00_00-vEhrenberg_2.jpg" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-03-28T11:47:31+01:00" modified="2019-03-28T11:47:31+01:00" filename="1849_00_00-1850_00_00-vEhrenberg_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1848_05_30-vEhrenberg_2.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2019-01-11T13:50:44+01:00" modified="2020-02-17T17:11:00.873+01:00" filename="1848_05_30-vEhrenberg_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1849_00_00-1850_00_00-vEhrenberg_3.jpg" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-03-28T11:51:51+01:00" modified="2019-03-28T11:51:51+01:00" filename="1849_00_00-1850_00_00-vEhrenberg_3.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1848_05_30-vEhrenberg.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2019-01-11T13:50:51+01:00" modified="2020-02-17T17:11:00.875+01:00" filename="1848_05_30-vEhrenberg.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1828_07_14_2.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2018-12-04T17:04:49+01:00" modified="2018-12-04T17:04:49+01:00" filename="1828_07_14_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1849_00_00-1850_00_00-vEhrenberg_6.jpg" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-03-28T12:08:14+01:00" modified="2020-02-17T17:11:00.877+01:00" filename="1849_00_00-1850_00_00-vEhrenberg_6.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1848_05_30-vEhrenberg_2.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2019-01-11T13:50:44+01:00" modified="2019-01-11T13:50:44+01:00" filename="1848_05_30-vEhrenberg_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1849_00_00-1850_00_00-vEhrenberg_7.jpg" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-03-28T12:12:51+01:00" modified="2020-02-17T17:11:00.882+01:00" filename="1849_00_00-1850_00_00-vEhrenberg_7.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1848_05_30-vEhrenberg.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2019-01-11T13:50:51+01:00" modified="2019-01-11T13:50:51+01:00" filename="1848_05_30-vEhrenberg.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1849_00_00-1850_00_00-vEhrenberg_4.jpg" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-03-28T11:59:22+01:00" modified="2020-02-17T17:11:00.883+01:00" filename="1849_00_00-1850_00_00-vEhrenberg_4.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1849_00_00-1850_00_00-vEhrenberg_6.jpg" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-03-28T12:08:14+01:00" modified="2019-03-28T12:08:14+01:00" filename="1849_00_00-1850_00_00-vEhrenberg_6.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1840_03_24-vEhrenberg.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2018-12-21T16:47:22+01:00" modified="2020-02-17T17:11:00.886+01:00" filename="1840_03_24-vEhrenberg.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1849_00_00-1850_00_00-vEhrenberg_7.jpg" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-03-28T12:12:51+01:00" modified="2019-03-28T12:12:52+01:00" filename="1849_00_00-1850_00_00-vEhrenberg_7.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1849_00_00-1850_00_00-vEhrenberg_5.jpg" skip="no" owner="avhr_sendhardt" group="avhr-nutzer" mode="660" created="2019-03-28T12:05:11+01:00" modified="2020-02-17T17:11:00.89+01:00" filename="1849_00_00-1850_00_00-vEhrenberg_5.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Zeichnungen/GdP_Dokumente/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/GdP_Dokumente/__contents__.xml
+index 3a53e51..1f978b1 100644
+--- a/Zeichnungen/GdP_Dokumente/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/GdP_Dokumente/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Zeichnungen/GdP_Dokumente" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31.194+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="Humboldts_Gliederung_19r.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="Humboldts_Gliederung_19r.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Humboldts_Gliederung_19r.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:10:58.779+01:00" filename="Humboldts_Gliederung_19r.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Zeichnungen/Kunth/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/Kunth/__contents__.xml
+index d6b538b..58cf355 100644
+--- a/Zeichnungen/Kunth/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/Kunth/__contents__.xml
+@@ -1,12 +1,12 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Zeichnungen/Kunth" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31.238+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="1848_11_24_1r.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1848_11_24_1r.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1848_11_24_1r.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.618+01:00" filename="1848_11_24_1r.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1849_01_13_3r.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1849_01_13_3r.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1849_01_13_3r.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.623+01:00" filename="1849_01_13_3r.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1844_08_26_2r.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1844_08_26_2r.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1844_08_26_2r.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.625+01:00" filename="1844_08_26_2r.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Zeichnungen/Projekt/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/Projekt/__contents__.xml
+index a437b98..5bf5379 100644
+--- a/Zeichnungen/Projekt/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/Projekt/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Zeichnungen/Projekt" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31.228+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="DHPreis.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="DHPreis.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="DHPreis.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.612+01:00" filename="DHPreis.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Zeichnungen/RST_I/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/RST_I/__contents__.xml
+index 08c003d..fc487c9 100644
+--- a/Zeichnungen/RST_I/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/RST_I/__contents__.xml
+@@ -1,249 +1,249 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Zeichnungen/RST_I" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31.205+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="136v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="136v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="055v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.071+01:00" filename="055v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="110v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="110v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="019r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.077+01:00" filename="019r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="078r_1.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2019-10-24T13:37:41+02:00" modified="2019-10-24T13:37:41+02:00" filename="078r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="069v_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.095+01:00" filename="069v_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="017v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="017v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="023v_1.jpg" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-01-24T20:31:17+01:00" modified="2020-02-17T17:11:01.099+01:00" filename="023v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="070r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="070r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="023v_2.jpg" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-01-24T20:31:17+01:00" modified="2020-02-17T17:11:01.111+01:00" filename="023v_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="082v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="082v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="003r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.114+01:00" filename="003r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="004v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="004v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="103r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.116+01:00" filename="103r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="069v_3.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="069v_3.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="075v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.119+01:00" filename="075v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="138r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="138r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="073r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.13+01:00" filename="073r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="103v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="103v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="059r_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.137+01:00" filename="059r_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="071v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="071v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="097v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.142+01:00" filename="097v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="056v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="056v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="081v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.146+01:00" filename="081v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="003v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="003v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="069v_2a.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.147+01:00" filename="069v_2a.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="074r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="074r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="063r_3.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.15+01:00" filename="063r_3.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="077v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="077v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="026r_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.169+01:00" filename="026r_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="069v_4a.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="069v_4a.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="054v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.17+01:00" filename="054v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="058v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="058v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="088r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.173+01:00" filename="088r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="018r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="018r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="136v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.179+01:00" filename="136v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="065v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="065v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="110v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.191+01:00" filename="110v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="029r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="029r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="078r_1.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2019-10-24T13:37:41.723+02:00" modified="2020-02-17T17:11:01.193+01:00" filename="078r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="138v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="138v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="017v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.212+01:00" filename="017v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="029v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="029v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="070r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.214+01:00" filename="070r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="063r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="063r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="082v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.225+01:00" filename="082v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="083r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="083r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="004v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.233+01:00" filename="004v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="056v_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="056v_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="069v_3.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.252+01:00" filename="069v_3.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="023r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="023r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="138r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.258+01:00" filename="138r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="061r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="061r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="103v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.271+01:00" filename="103v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="076v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="076v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="071v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.282+01:00" filename="071v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="023v_3.jpg" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-01-28T11:57:33+01:00" modified="2019-01-28T11:57:33+01:00" filename="023v_3.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="056v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.287+01:00" filename="056v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="084r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="084r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="003v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.297+01:00" filename="003v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="133r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="133r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="074r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.306+01:00" filename="074r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="034r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="034r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="077v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.318+01:00" filename="077v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="029v_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="029v_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="069v_4a.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.324+01:00" filename="069v_4a.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="046v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="046v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="058v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.325+01:00" filename="058v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="071r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="071r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="018r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.326+01:00" filename="018r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="006v_3.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="006v_3.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="065v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.327+01:00" filename="065v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="023r_3.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="023r_3.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="029r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.341+01:00" filename="029r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="069v_3a.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="069v_3a.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="138v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.342+01:00" filename="138v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="002r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="002r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="029v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.356+01:00" filename="029v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="005r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="005r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="063r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.357+01:00" filename="063r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="005v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="005v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="083r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.371+01:00" filename="083r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="005v_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="005v_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="056v_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.384+01:00" filename="056v_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="006v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="006v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="023r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.387+01:00" filename="023r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="006v_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="006v_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="061r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.399+01:00" filename="061r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="011r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="011r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="076v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.402+01:00" filename="076v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="018v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="018v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="023v_3.jpg" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-01-28T11:57:33+01:00" modified="2020-02-17T17:11:01.414+01:00" filename="023v_3.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="059r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="059r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="084r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.415+01:00" filename="084r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="072r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="072r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="133r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.421+01:00" filename="133r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="138v_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="138v_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="034r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.422+01:00" filename="034r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="076r_1.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2019-10-24T13:37:41+02:00" modified="2019-10-24T13:38:03+02:00" filename="076r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="029v_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.446+01:00" filename="029v_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="103r_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="103r_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="046v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.447+01:00" filename="046v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="091v_1.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2019-10-24T13:37:41+02:00" modified="2019-10-24T13:37:41+02:00" filename="091v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="071r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.453+01:00" filename="071r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="076r_2.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2019-10-24T13:37:41+02:00" modified="2019-10-24T13:37:41+02:00" filename="076r_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="006v_3.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.455+01:00" filename="006v_3.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="098v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="098v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="023r_3.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.488+01:00" filename="023r_3.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="026r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="026r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="069v_3a.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.49+01:00" filename="069v_3a.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="026v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="026v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="002r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.497+01:00" filename="002r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="077r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="077r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="005r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.503+01:00" filename="005r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="060v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="060v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="005v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.508+01:00" filename="005v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="063r_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="063r_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="005v_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.509+01:00" filename="005v_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="023r_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="023r_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="006v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.51+01:00" filename="006v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="049v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="049v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="006v_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.511+01:00" filename="006v_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="069v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="069v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="011r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.517+01:00" filename="011r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="040r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="040r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="018v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.518+01:00" filename="018v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="087v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="087v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="059r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.528+01:00" filename="059r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="069v_1a.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="069v_1a.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="072r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.529+01:00" filename="072r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="055v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="055v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="138v_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.53+01:00" filename="138v_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="019r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="019r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="076r_1.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2019-10-24T13:37:41.569+02:00" modified="2020-02-17T17:11:01.538+01:00" filename="076r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="069v_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="069v_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="103r_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.545+01:00" filename="103r_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="023v_1.jpg" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-01-24T20:31:17+01:00" modified="2019-01-24T20:31:17+01:00" filename="023v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="091v_1.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2019-10-24T13:37:41.775+02:00" modified="2020-02-17T17:11:01.548+01:00" filename="091v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="023v_2.jpg" skip="no" owner="avhr_kraft" group="avhr-nutzer" mode="660" created="2019-01-24T20:31:17+01:00" modified="2019-01-24T20:31:17+01:00" filename="023v_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="076r_2.jpg" skip="no" owner="avhr_kirsten" group="avhr-nutzer" mode="660" created="2019-10-24T13:37:41.651+02:00" modified="2020-02-17T17:11:01.554+01:00" filename="076r_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="003r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="003r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="098v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.56+01:00" filename="098v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="103r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="103r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="026r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.561+01:00" filename="026r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="075v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="075v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="026v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.562+01:00" filename="026v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="073r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="073r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="077r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.571+01:00" filename="077r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="059r_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="059r_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="060v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.574+01:00" filename="060v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="097v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="097v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="063r_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.577+01:00" filename="063r_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="081v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="081v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="023r_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.579+01:00" filename="023r_2.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="069v_2a.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="069v_2a.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="049v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.583+01:00" filename="049v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="063r_3.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="063r_3.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="069v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.588+01:00" filename="069v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="026r_2.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="026r_2.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="040r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.591+01:00" filename="040r_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="054v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="054v_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="087v_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.597+01:00" filename="087v_1.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="088r_1.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="088r_1.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="069v_1a.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:11:01.605+01:00" filename="069v_1a.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Zeichnungen/SMW_Boehme-Kommentar-TS1/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/SMW_Boehme-Kommentar-TS1/__contents__.xml
+index 8897798..662e535 100644
+--- a/Zeichnungen/SMW_Boehme-Kommentar-TS1/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/SMW_Boehme-Kommentar-TS1/__contents__.xml
+@@ -1,60 +1,60 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Zeichnungen/SMW_Boehme-Kommentar-TS1" version="1" owner="avhr_thomas" group="avhr-nutzer" mode="770" created="2019-04-02T09:34:24.749+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="Abb_002.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T11:12:40+02:00" modified="2019-04-02T11:12:40+02:00" filename="Abb_002.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_003.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:13+02:00" modified="2020-02-17T17:10:59.506+01:00" filename="Abb_003.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_014.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:48:52+02:00" modified="2019-04-02T10:48:52+02:00" filename="Abb_014.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_004.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:16+02:00" modified="2020-02-17T17:10:59.609+01:00" filename="Abb_004.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_016.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:48:58+02:00" modified="2019-04-02T10:48:58+02:00" filename="Abb_016.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_005.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:19+02:00" modified="2020-02-17T17:10:59.724+01:00" filename="Abb_005.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_015.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:48:55+02:00" modified="2019-04-02T10:48:55+02:00" filename="Abb_015.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_006.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:21+02:00" modified="2020-02-17T17:10:59.784+01:00" filename="Abb_006.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_001.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:01+02:00" modified="2019-04-02T10:49:01+02:00" filename="Abb_001.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_007.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:28+02:00" modified="2020-02-17T17:10:59.837+01:00" filename="Abb_007.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_002a.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:04+02:00" modified="2019-04-02T10:49:04+02:00" filename="Abb_002a.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_008.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:29+02:00" modified="2020-02-17T17:11:00.311+01:00" filename="Abb_008.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_002b.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:07+02:00" modified="2019-04-02T10:49:07+02:00" filename="Abb_002b.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_009.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:32+02:00" modified="2020-02-17T17:11:00.357+01:00" filename="Abb_009.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_003.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:13+02:00" modified="2019-04-02T10:49:13+02:00" filename="Abb_003.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_010.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:34+02:00" modified="2020-02-17T17:11:00.394+01:00" filename="Abb_010.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_004.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:16+02:00" modified="2019-04-02T10:49:16+02:00" filename="Abb_004.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_011.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:37+02:00" modified="2020-02-17T17:11:00.417+01:00" filename="Abb_011.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_005.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:19+02:00" modified="2019-04-02T10:49:19+02:00" filename="Abb_005.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_012.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:40+02:00" modified="2020-02-17T17:11:00.474+01:00" filename="Abb_012.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_007.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:28+02:00" modified="2019-04-02T10:49:28+02:00" filename="Abb_007.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_013.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:53+02:00" modified="2020-02-17T17:11:00.518+01:00" filename="Abb_013.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_008.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:29+02:00" modified="2019-04-02T10:49:29+02:00" filename="Abb_008.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_017.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:00+02:00" modified="2020-02-17T17:11:00.764+01:00" filename="Abb_017.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_009.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:32+02:00" modified="2019-04-02T10:49:32+02:00" filename="Abb_009.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_002.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T11:12:40+02:00" modified="2020-02-17T17:10:59.102+01:00" filename="Abb_002.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_006.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:21+02:00" modified="2019-04-02T10:49:21+02:00" filename="Abb_006.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_014.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:48:52+02:00" modified="2020-02-17T17:10:59.127+01:00" filename="Abb_014.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_011.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:37+02:00" modified="2019-04-02T10:49:37+02:00" filename="Abb_011.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_016.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:48:58+02:00" modified="2020-02-17T17:10:59.191+01:00" filename="Abb_016.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_012.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:40+02:00" modified="2019-04-02T10:49:40+02:00" filename="Abb_012.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_015.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:48:55+02:00" modified="2020-02-17T17:10:59.259+01:00" filename="Abb_015.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_013.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:53+02:00" modified="2019-04-02T10:49:53+02:00" filename="Abb_013.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_001.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:01+02:00" modified="2020-02-17T17:10:59.344+01:00" filename="Abb_001.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_017.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:00+02:00" modified="2019-04-02T10:49:00+02:00" filename="Abb_017.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_002a.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:04+02:00" modified="2020-02-17T17:10:59.385+01:00" filename="Abb_002a.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_010.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:34+02:00" modified="2019-04-02T10:49:34+02:00" filename="Abb_010.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_002b.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-02T10:49:07+02:00" modified="2020-02-17T17:10:59.451+01:00" filename="Abb_002b.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Zeichnungen/Soemmerring/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/Soemmerring/__contents__.xml
+index 983d267..412111e 100644
+--- a/Zeichnungen/Soemmerring/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/Soemmerring/__contents__.xml
+@@ -1,21 +1,21 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Zeichnungen/Soemmerring" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31.225+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="1796_05_08_1r.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1796_05_08_1r.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1796_05_08_1r.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:10:58.748+01:00" filename="1796_05_08_1r.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1796_02_07_4r.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1796_02_07_4r.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1796_02_07_4r.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:10:58.765+01:00" filename="1796_02_07_4r.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1796_04_09_2r_I.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1796_04_09_2r_I.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1796_04_09_2r_I.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:10:58.766+01:00" filename="1796_04_09_2r_I.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1796_04_09_2r_II.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1796_04_09_2r_II.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1796_04_09_2r_II.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:10:58.768+01:00" filename="1796_04_09_2r_II.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1796_05_08_1v.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1796_05_08_1v.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1796_05_08_1v.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:10:58.77+01:00" filename="1796_05_08_1v.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="1795_06_29_1r.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="1795_06_29_1r.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="1795_06_29_1r.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:10:58.776+01:00" filename="1795_06_29_1r.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Zeichnungen/TS2/H_FWIV/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/TS2/H_FWIV/__contents__.xml
+index 30c2bfc..3102c75 100644
+--- a/Zeichnungen/TS2/H_FWIV/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/TS2/H_FWIV/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Zeichnungen/TS2/H_FWIV" version="1" owner="avhr_paessler" group="avhr-nutzer" mode="770" created="2019-10-31T09:55:34.801+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="heilige_Seen.jpg" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-10-31T10:03:44+01:00" modified="2019-10-31T10:03:44+01:00" filename="heilige_Seen.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="heilige_Seen.jpg" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-10-31T10:03:44.52+01:00" modified="2020-02-17T17:10:58.527+01:00" filename="heilige_Seen.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Zeichnungen/TS2/H_Schlagintweits/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/TS2/H_Schlagintweits/__contents__.xml
+index 143a5ba..de81494 100644
+--- a/Zeichnungen/TS2/H_Schlagintweits/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/TS2/H_Schlagintweits/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Zeichnungen/TS2/H_Schlagintweits" version="1" owner="avhr_paessler" group="avhr-nutzer" mode="770" created="2019-11-01T15:18:26.836+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="Bundelkhand.jpg" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-11-01T15:19:16+01:00" modified="2019-11-01T15:19:16+01:00" filename="Bundelkhand.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Bundelkhand.jpg" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2019-11-01T15:19:16.357+01:00" modified="2020-02-17T17:10:58.502+01:00" filename="Bundelkhand.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Zeichnungen/TS2/brescius-schlagintweits/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/TS2/brescius-schlagintweits/__contents__.xml
+index eb454eb..7397a54 100644
+--- a/Zeichnungen/TS2/brescius-schlagintweits/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/TS2/brescius-schlagintweits/__contents__.xml
+@@ -1,18 +1,18 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Zeichnungen/TS2/brescius-schlagintweits" version="1" owner="avhr_thomas" group="avhr-nutzer" mode="770" created="2019-04-16T15:19:52.922+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="brescius-schlagintweits_Abb-004.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-16T15:40:50+02:00" modified="2019-04-16T15:40:50+02:00" filename="brescius-schlagintweits_Abb-004.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="brescius-schlagintweits_Abb-005.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-16T15:51:40+02:00" modified="2020-02-17T17:10:58.598+01:00" filename="brescius-schlagintweits_Abb-005.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="brescius-schlagintweits_Abb-001.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-16T15:40:53+02:00" modified="2019-04-16T15:40:53+02:00" filename="brescius-schlagintweits_Abb-001.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="brescius-schlagintweits_Abb-004.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-16T15:40:50+02:00" modified="2020-02-17T17:10:58.621+01:00" filename="brescius-schlagintweits_Abb-004.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="brescius-schlagintweits_Abb-002.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-16T15:40:53+02:00" modified="2019-04-16T15:40:53+02:00" filename="brescius-schlagintweits_Abb-002.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="brescius-schlagintweits_Abb-001.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-16T15:40:53+02:00" modified="2020-02-17T17:10:58.631+01:00" filename="brescius-schlagintweits_Abb-001.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="brescius-schlagintweits_Abb-003.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-16T15:40:53+02:00" modified="2019-04-16T15:40:53+02:00" filename="brescius-schlagintweits_Abb-003.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="brescius-schlagintweits_Abb-002.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-16T15:40:53+02:00" modified="2020-02-17T17:10:58.71+01:00" filename="brescius-schlagintweits_Abb-002.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="brescius-schlagintweits_Abb-005.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-16T15:51:40+02:00" modified="2019-04-16T15:51:40+02:00" filename="brescius-schlagintweits_Abb-005.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="brescius-schlagintweits_Abb-003.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-04-16T15:40:53+02:00" modified="2020-02-17T17:10:58.544+01:00" filename="brescius-schlagintweits_Abb-003.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Zeichnungen/TS_1/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/TS_1/__contents__.xml
+index b88e6a7..fb6a213 100644
+--- a/Zeichnungen/TS_1/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/TS_1/__contents__.xml
+@@ -1,36 +1,36 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/avhr/data/Zeichnungen/TS_1" version="1" owner="dumont" group="avhr-nutzer" mode="770" created="2018-09-13T20:36:31.195+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="Glaubrecht_Abb_Melastoma.jpg" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-11-22T18:15:40+01:00" modified="2018-11-22T18:15:40+01:00" filename="Glaubrecht_Abb_Melastoma.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Glaubrecht_Abb_Melastoma.jpg" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-11-22T18:15:40+01:00" modified="2020-02-17T17:10:58.8+01:00" filename="Glaubrecht_Abb_Melastoma.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_6_Lineamenta.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="Abb_6_Lineamenta.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_6_Lineamenta.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:10:58.827+01:00" filename="Abb_6_Lineamenta.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_5_Guayaquil.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="Abb_5_Guayaquil.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_5_Guayaquil.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:10:58.829+01:00" filename="Abb_5_Guayaquil.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_1_Naturgemaelde.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="Abb_1_Naturgemaelde.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_1_Naturgemaelde.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:10:58.835+01:00" filename="Abb_1_Naturgemaelde.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_2_Soulavie.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="Abb_2_Soulavie.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_2_Soulavie.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:10:58.838+01:00" filename="Abb_2_Soulavie.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_4_Caldas_Hoehe.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="Abb_4_Caldas_Hoehe.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_4_Caldas_Hoehe.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:10:58.843+01:00" filename="Abb_4_Caldas_Hoehe.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_3_Caldas_Pflanzengeographie.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="Abb_3_Caldas_Pflanzengeographie.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_3_Caldas_Pflanzengeographie.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:10:58.859+01:00" filename="Abb_3_Caldas_Pflanzengeographie.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Abb_7_Tabelle.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2018-09-13T20:36:31+02:00" filename="Abb_7_Tabelle.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Abb_7_Tabelle.jpg" skip="no" owner="dumont" group="avhr-nutzer" mode="644" created="2018-09-13T20:36:31+02:00" modified="2020-02-17T17:10:58.893+01:00" filename="Abb_7_Tabelle.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Glaubrecht_Abb_Zimmermann.jpg" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-11-22T16:26:16+01:00" modified="2018-11-22T16:26:16+01:00" filename="Glaubrecht_Abb_Zimmermann.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Glaubrecht_Abb_Zimmermann.jpg" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-11-22T16:26:16+01:00" modified="2020-02-17T17:10:58.909+01:00" filename="Glaubrecht_Abb_Zimmermann.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="ERST-Bl_81v-82r.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-09-09T17:56:28+02:00" modified="2019-09-09T17:56:28+02:00" filename="ERST-Bl_81v-82r.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="ERST-Bl_81v-82r.jpg" skip="no" owner="avhr_thomas" group="avhr-nutzer" mode="660" created="2019-09-09T17:56:28.866+02:00" modified="2020-02-17T17:10:59.012+01:00" filename="ERST-Bl_81v-82r.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="Glaubrecht_Abb_Caldas.jpg" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-11-22T16:59:27+01:00" modified="2018-11-22T16:59:27+01:00" filename="Glaubrecht_Abb_Caldas.jpg" mimetype="image/jpeg">
++    <resource type="BinaryResource" name="Glaubrecht_Abb_Caldas.jpg" skip="no" owner="avhr_paessler" group="avhr-nutzer" mode="660" created="2018-11-22T16:59:27+01:00" modified="2020-02-17T17:10:59.043+01:00" filename="Glaubrecht_Abb_Caldas.jpg" mimetype="image/jpeg">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/Zeichnungen/__contents__.xml b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/__contents__.xml
+index a229d7c..de9dea4 100644
+--- a/Zeichnungen/__contents__.xml
++++ b/home/gordon/backup182/db/projects/avhr/data/Zeichnungen/__contents__.xml
+@@ -6,9 +6,9 @@
+     <subcollection name="TS_1" filename="TS_1"/>
+     <subcollection name="Kunth" filename="Kunth"/>
+     <subcollection name="SMW_Boehme-Kommentar-TS1" filename="SMW_Boehme-Kommentar-TS1"/>
+-    <subcollection name="Projekt" filename="Projekt"/>
++    <subcollection name="RST_I" filename="RST_I"/>
+     <subcollection name="ARTI" filename="ARTI"/>
++    <subcollection name="Projekt" filename="Projekt"/>
+     <subcollection name="Cuba" filename="Cuba"/>
+-    <subcollection name="RST_I" filename="RST_I"/>
+     <subcollection name="Ehrenberg-Briefwechsel" filename="Ehrenberg-Briefwechsel"/>
+ </collection>
+\ No newline at end of file
