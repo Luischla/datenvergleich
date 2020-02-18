@@ -1,0 +1,132 @@
+diff --git "a/goedel/data/Notizb\342\224\234\342\225\235cher/Formeln Max 0 Phil I/__contents__.xml" "b/home/gordon/merge122_102/db/projects/goedel/data/Notizb\342\224\234\342\225\235cher/Formeln Max 0 Phil I/__contents__.xml"
+index ac4faa9..d899fc2 100644
+--- "a/goedel/data/Notizb\342\224\234\342\225\235cher/Formeln Max 0 Phil I/__contents__.xml"	
++++ "b/home/gordon/merge122_102/db/projects/goedel/data/Notizb\342\224\234\342\225\235cher/Formeln Max 0 Phil I/__contents__.xml"	
+@@ -1,66 +1,66 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/goedel/data/Notizb%C3%BCcher/Formeln%20Max%200%20Phil%20I" version="1" owner="engelen" group="goedel-nutzer" mode="770" created="2020-01-03T18:57:00.065+01:00">
+     <acl entries="0" version="1"/>
+-    <resource type="BinaryResource" name="0clip_image002_1166283039.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:17:39.903+02:00" modified="2019-05-22T15:17:39.903+02:00" filename="0clip_image002_1166283039.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image006_266559187.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:18:36.997+02:00" modified="2020-02-14T15:37:42.872+01:00" filename="0clip_image006_266559187.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image004_-1095318523.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:17:39.912+02:00" modified="2019-05-22T15:17:39.912+02:00" filename="0clip_image004_-1095318523.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image008_1786970054.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:18:37.005+02:00" modified="2020-02-14T15:37:42.873+01:00" filename="0clip_image008_1786970054.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image004_825553419.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:31.908+01:00" modified="2019-03-19T15:48:31.908+01:00" filename="0clip_image004_825553419.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image006_-219745046.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:17:40.023+02:00" modified="2020-02-14T15:37:42.875+01:00" filename="0clip_image006_-219745046.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image006_645385659.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:31.957+01:00" modified="2019-03-19T15:48:31.957+01:00" filename="0clip_image006_645385659.png" mimetype="image/png">
++    <resource type="BinaryResource" name="clip_image004_1652303088.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:49:29.565+01:00" modified="2020-02-14T15:37:42.876+01:00" filename="clip_image004_1652303088.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image002_516729851.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:18:36.897+02:00" modified="2019-05-22T15:18:36.897+02:00" filename="0clip_image002_516729851.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image008_-275946353.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:32.013+01:00" modified="2020-02-14T15:37:42.877+01:00" filename="0clip_image008_-275946353.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image004_-520327176.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:18:36.906+02:00" modified="2019-05-22T15:18:36.906+02:00" filename="0clip_image004_-520327176.png" mimetype="image/png">
++    <resource type="BinaryResource" name="clip_image004_1985393496.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:52:09.273+01:00" modified="2020-02-14T15:37:43.196+01:00" filename="clip_image004_1985393496.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image006_266559187.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:18:36.997+02:00" modified="2019-05-22T15:18:36.997+02:00" filename="0clip_image006_266559187.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image008_1951277597.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:17:40.032+02:00" modified="2020-02-14T15:37:43.197+01:00" filename="0clip_image008_1951277597.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image008_1786970054.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:18:37.005+02:00" modified="2019-05-22T15:18:37.005+02:00" filename="0clip_image008_1786970054.png" mimetype="image/png">
++    <resource type="BinaryResource" name="clip_image002_260557615.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:52:09.232+01:00" modified="2020-02-14T15:37:43.198+01:00" filename="clip_image002_260557615.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image006_-219745046.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:17:40.023+02:00" modified="2019-05-22T15:17:40.023+02:00" filename="0clip_image006_-219745046.png" mimetype="image/png">
++    <resource type="BinaryResource" name="clip_image002_440582122.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:49:29.521+01:00" modified="2020-02-14T15:37:43.199+01:00" filename="clip_image002_440582122.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="clip_image004_1652303088.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:49:29.565+01:00" modified="2019-03-19T15:49:29.565+01:00" filename="clip_image004_1652303088.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image002_2106961077.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:17.782+01:00" modified="2020-02-14T15:37:43.2+01:00" filename="0clip_image002_2106961077.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image008_-275946353.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:32.013+01:00" modified="2019-03-19T15:48:32.013+01:00" filename="0clip_image008_-275946353.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image004_-89190481.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:17.831+01:00" modified="2020-02-14T15:37:43.201+01:00" filename="0clip_image004_-89190481.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Max%200%20Phil%20I-formulae.xml" skip="no" owner="exist-bot" group="goedel-nutzer" mode="770" created="2019-02-13T13:11:36.755+01:00" modified="2019-02-13T13:11:36.755+01:00" filename="Max 0 Phil I-formulae.xml" mimetype="application/xml">
++    <resource type="BinaryResource" name="0clip_image006_336074934.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:17.875+01:00" modified="2020-02-14T15:37:43.202+01:00" filename="0clip_image006_336074934.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="clip_image004_1985393496.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:52:09.273+01:00" modified="2019-03-19T15:52:09.273+01:00" filename="clip_image004_1985393496.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image008_-1043542921.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:17.917+01:00" modified="2020-02-14T15:37:43.204+01:00" filename="0clip_image008_-1043542921.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image008_1951277597.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:17:40.032+02:00" modified="2019-05-22T15:17:40.032+02:00" filename="0clip_image008_1951277597.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image002_1672796710.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:31.863+01:00" modified="2020-02-14T15:37:43.205+01:00" filename="0clip_image002_1672796710.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="clip_image002_260557615.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:52:09.232+01:00" modified="2019-03-19T15:52:09.232+01:00" filename="clip_image002_260557615.png" mimetype="image/png">
++    <resource type="XMLResource" name="Max%200%20Phil%20I-formulae.xml" skip="no" owner="exist-bot" group="goedel-nutzer" mode="770" created="2019-02-13T13:11:36.755+01:00" modified="2019-02-13T13:11:36.755+01:00" filename="Max 0 Phil I-formulae.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="clip_image002_440582122.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:49:29.521+01:00" modified="2019-03-19T15:49:29.521+01:00" filename="clip_image002_440582122.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image002_1166283039.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:17:39.903+02:00" modified="2020-02-14T15:37:42.866+01:00" filename="0clip_image002_1166283039.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image002_2106961077.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:17.782+01:00" modified="2019-03-19T15:48:17.782+01:00" filename="0clip_image002_2106961077.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image004_-1095318523.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:17:39.912+02:00" modified="2020-02-14T15:37:42.867+01:00" filename="0clip_image004_-1095318523.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image004_-89190481.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:17.831+01:00" modified="2019-03-19T15:48:17.831+01:00" filename="0clip_image004_-89190481.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image004_825553419.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:31.908+01:00" modified="2020-02-14T15:37:42.868+01:00" filename="0clip_image004_825553419.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image006_336074934.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:17.875+01:00" modified="2019-03-19T15:48:17.875+01:00" filename="0clip_image006_336074934.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image006_645385659.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:31.957+01:00" modified="2020-02-14T15:37:42.869+01:00" filename="0clip_image006_645385659.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image008_-1043542921.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:17.917+01:00" modified="2019-03-19T15:48:17.917+01:00" filename="0clip_image008_-1043542921.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image002_516729851.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:18:36.897+02:00" modified="2020-02-14T15:37:42.87+01:00" filename="0clip_image002_516729851.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="BinaryResource" name="0clip_image002_1672796710.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-03-19T15:48:31.863+01:00" modified="2019-03-19T15:48:31.863+01:00" filename="0clip_image002_1672796710.png" mimetype="image/png">
++    <resource type="BinaryResource" name="0clip_image004_-520327176.png" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-22T15:18:36.906+02:00" modified="2020-02-14T15:37:42.871+01:00" filename="0clip_image004_-520327176.png" mimetype="image/png">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git "a/goedel/data/Notizb\342\224\234\342\225\235cher/Max II.xml" "b/home/gordon/merge122_102/db/projects/goedel/data/Notizb\342\224\234\342\225\235cher/Max II.xml"
+index 99afc48..ac10a06 100644
+--- "a/goedel/data/Notizb\342\224\234\342\225\235cher/Max II.xml"	
++++ "b/home/gordon/merge122_102/db/projects/goedel/data/Notizb\342\224\234\342\225\235cher/Max II.xml"	
+@@ -15058,7 +15058,7 @@
+                     lassen.</hi></p>
+                 <p>
+                     <hi rendition="#normal"><seg type="critical">
+-                            <orig><hi rendition="#uuu">Max<ex>ime</ex></hi></orig>
++                            <orig><hi rendition="#uuu">Max<ex>ime<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>n<?oxy_custom_end?></ex></hi></orig>
+                             <note xml:id="nn4p_qn1_ljb">Einmal mit Bleistift und zweimal mit rotem
+                                 Buntstift unterstrichen</note>
+                         </seg></hi>: </p>
+diff --git "a/goedel/data/Notizb\342\224\234\342\225\235cher/__contents__.xml" "b/home/gordon/merge122_102/db/projects/goedel/data/Notizb\342\224\234\342\225\235cher/__contents__.xml"
+index e573954..872bbca 100644
+--- "a/goedel/data/Notizb\342\224\234\342\225\235cher/__contents__.xml"
++++ "b/home/gordon/merge122_102/db/projects/goedel/data/Notizb\342\224\234\342\225\235cher/__contents__.xml"
+@@ -3,7 +3,7 @@
+     <resource type="XMLResource" name="Max%200%20Phil%20I%20-%20ALT.xml" skip="no" owner="exist-bot" group="goedel-nutzer" mode="770" created="2019-02-13T13:11:39.151+01:00" modified="2019-02-13T13:11:39.151+01:00" filename="Max 0 Phil I - ALT.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Max%20II.xml" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-07-05T18:45:04.566+02:00" modified="2020-01-23T11:48:40.185+01:00" filename="Max II.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Max%20II.xml" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-07-05T18:45:04.566+02:00" modified="2020-02-04T14:58:26.275+01:00" filename="Max II.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Max%20III.xml" skip="no" owner="engelen" group="goedel-nutzer" mode="660" created="2019-05-17T12:27:56.059+02:00" modified="2019-06-06T20:20:08.255+02:00" filename="Max III.xml" mimetype="application/xml">
+diff --git a/goedel/data/__contents__.xml b/home/gordon/merge122_102/db/projects/goedel/data/__contents__.xml
+index 6cb9f21..604aa85 100644
+--- a/goedel/data/__contents__.xml
++++ b/home/gordon/merge122_102/db/projects/goedel/data/__contents__.xml
+@@ -1,6 +1,6 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/goedel/data" version="1" owner="exist-bot" group="goedel-nutzer" mode="770" created="2019-02-13T13:11:36.303+01:00">
+     <acl entries="0" version="1"/>
+     <subcollection name="Vorlesungen" filename="Vorlesungen"/>
+-    <subcollection name="Notizb%C3%BCcher" filename="Notizbücher"/>
+     <subcollection name="Register" filename="Register"/>
++    <subcollection name="Notizb%C3%BCcher" filename="Notizbücher"/>
+ </collection>
+\ No newline at end of file

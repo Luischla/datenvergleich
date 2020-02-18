@@ -1,0 +1,1875 @@
+diff --git a/ovp/data/Handschriftenbeschreibungen/Mue1.xml b/home/gordon/merge122_102/db/projects/ovp/data/Handschriftenbeschreibungen/Mue1.xml
+index 1fc9027..daa3240 100644
+--- a/ovp/data/Handschriftenbeschreibungen/Mue1.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Handschriftenbeschreibungen/Mue1.xml
+@@ -84,11 +84,11 @@
+                      </layout>
+                   </layoutDesc>
+                </objectDesc>
+-               <handDesc><handNote>Eine Hand. 
+-                  Korrekturen und Randbemerkungen von einer 2. Hand.
+-               </handNote></handDesc>
++               <handDesc>
++                  <handNote n="1">Eine Hand. Korrekturen und Randbemerkungen von einer 2.
++                     Hand.</handNote></handDesc>
+                <scriptDesc>
+-                  <scriptNote>Bastarda.</scriptNote>
++                  <scriptNote n="1">Bastarda</scriptNote>
+                </scriptDesc>
+                <decoDesc>
+                   <decoNote type="rubric">Rote Autorennamen im Text.</decoNote>
+diff --git a/ovp/data/Handschriftenbeschreibungen/__contents__.xml b/home/gordon/merge122_102/db/projects/ovp/data/Handschriftenbeschreibungen/__contents__.xml
+index 877481e..44b57a2 100644
+--- a/ovp/data/Handschriftenbeschreibungen/__contents__.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Handschriftenbeschreibungen/__contents__.xml
+@@ -1,23 +1,5 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/ovp/data/Handschriftenbeschreibungen" version="1" owner="admin" group="ovp-nutzer" mode="770" created="2018-07-24T08:29:24.408+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="Sb1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.297+02:00" modified="2019-05-07T14:58:01.297+02:00" filename="Sb1.xml" mimetype="application/xml">
+-        <acl entries="0" version="1"/>
+-    </resource>
+-    <resource type="XMLResource" name="SF1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.333+02:00" modified="2019-05-07T15:34:30.391+02:00" filename="SF1.xml" mimetype="application/xml">
+-        <acl entries="0" version="1"/>
+-    </resource>
+-    <resource type="XMLResource" name="testdatei.xml" skip="no" owner="wegener" group="ovp-nutzer" mode="660" created="2019-04-09T11:12:21.642+02:00" modified="2019-05-07T08:24:55.631+02:00" filename="testdatei.xml" mimetype="application/xml">
+-        <acl entries="0" version="1"/>
+-    </resource>
+-    <resource type="XMLResource" name="Nue2.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.141+02:00" modified="2019-05-07T14:58:01.141+02:00" filename="Nue2.xml" mimetype="application/xml">
+-        <acl entries="0" version="1"/>
+-    </resource>
+-    <resource type="XMLResource" name="Ni1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.126+02:00" modified="2019-05-07T15:34:14.588+02:00" filename="Ni1.xml" mimetype="application/xml">
+-        <acl entries="0" version="1"/>
+-    </resource>
+-    <resource type="XMLResource" name="Mue24.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.119+02:00" modified="2019-05-07T14:58:01.119+02:00" filename="Mue24.xml" mimetype="application/xml">
+-        <acl entries="0" version="1"/>
+-    </resource>
+     <resource type="XMLResource" name="Nue4.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.166+02:00" modified="2019-05-07T15:34:14.643+02:00" filename="Nue4.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+@@ -48,7 +30,7 @@
+     <resource type="XMLResource" name="Sb2.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.304+02:00" modified="2019-05-07T14:58:01.304+02:00" filename="Sb2.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Aa1.xml" skip="no" owner="wegener" group="ovp-nutzer" mode="660" created="2020-01-20T13:26:07.145+01:00" modified="2020-01-21T11:12:09.966+01:00" filename="Aa1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Aa1.xml" skip="no" owner="wegener" group="ovp-nutzer" mode="660" created="2020-01-20T13:26:07.145+01:00" modified="2020-01-24T12:01:00.849+01:00" filename="Aa1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Sa2.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.283+02:00" modified="2019-05-07T15:34:30.324+02:00" filename="Sa2.xml" mimetype="application/xml">
+@@ -108,7 +90,7 @@
+     <resource type="XMLResource" name="Mue2.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.85+02:00" modified="2019-05-07T15:34:29.781+02:00" filename="Mue2.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Mue1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.83+02:00" modified="2019-12-20T14:14:08.449+01:00" filename="Mue1.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Mue1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.83+02:00" modified="2020-01-24T12:24:15.174+01:00" filename="Mue1.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Ba1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:00.812+02:00" modified="2019-05-07T15:34:29.639+02:00" filename="Ba1.xml" mimetype="application/xml">
+@@ -120,5 +102,23 @@
+     <resource type="XMLResource" name="Mue23.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.106+02:00" modified="2019-05-07T15:34:29.873+02:00" filename="Mue23.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
++    <resource type="XMLResource" name="Sb1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.297+02:00" modified="2019-05-07T14:58:01.297+02:00" filename="Sb1.xml" mimetype="application/xml">
++        <acl entries="0" version="1"/>
++    </resource>
++    <resource type="XMLResource" name="SF1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.333+02:00" modified="2019-05-07T15:34:30.391+02:00" filename="SF1.xml" mimetype="application/xml">
++        <acl entries="0" version="1"/>
++    </resource>
++    <resource type="XMLResource" name="testdatei.xml" skip="no" owner="wegener" group="ovp-nutzer" mode="660" created="2019-04-09T11:12:21.642+02:00" modified="2019-05-07T08:24:55.631+02:00" filename="testdatei.xml" mimetype="application/xml">
++        <acl entries="0" version="1"/>
++    </resource>
++    <resource type="XMLResource" name="Nue2.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.141+02:00" modified="2019-05-07T14:58:01.141+02:00" filename="Nue2.xml" mimetype="application/xml">
++        <acl entries="0" version="1"/>
++    </resource>
++    <resource type="XMLResource" name="Ni1.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.126+02:00" modified="2019-05-07T15:34:14.588+02:00" filename="Ni1.xml" mimetype="application/xml">
++        <acl entries="0" version="1"/>
++    </resource>
++    <resource type="XMLResource" name="Mue24.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-07T14:58:01.119+02:00" modified="2019-05-07T14:58:01.119+02:00" filename="Mue24.xml" mimetype="application/xml">
++        <acl entries="0" version="1"/>
++    </resource>
+     <subcollection name="ueberarbeitung_Nadine" filename="ueberarbeitung_Nadine"/>
+ </collection>
+\ No newline at end of file
+diff --git a/ovp/data/Kapitel/01_Der_erste_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/01_Der_erste_Alte.xml
+index 8d051ac..fa818fd 100644
+--- a/ovp/data/Kapitel/01_Der_erste_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/01_Der_erste_Alte.xml
+@@ -103,13 +103,17 @@
+             <p n="2">
+                <milestone unit="phr" n="1"/><app type="comment" xml:id="prov_3ca_3aa_9c">
+                   <lem><app type="variants" xml:id="prov_bbf_825_33">
+-                        <lem><hi rendition="#in">A</hi>ller erst<corr type="editorChange">er</corr> alt</lem>
++                        <lem><hi rendition="#in">A</hi>ller erst<corr type="editorChange">er</corr>
++                           alt</lem>
+                         <rdg wit="#be82f0ad-a15a"><hi rendition="#in">A</hi>ller erster alt</rdg>
+-                        <rdg wit="#ff24cac4-2fca">Aller erster <note type="editorial">Initiale marginal vorgeschrieben aber nicht ausgeführt</note></rdg>
++                        <rdg wit="#ff24cac4-2fca">Aller erster <note type="editorial">Initiale
++                              marginal vorgeschrieben aber nicht ausgeführt</note></rdg>
+                         <rdg wit="#be82f0ad-a15a #eb978f42-b430 #bf15cd14-67b1">DEr aller erst</rdg>
+                      </app></lem>
+-                  <note xml:id="prov_311_486_b7" type="editorial">von den berücksichtigten Handschriften hat einzig Ka2 das <q>A</q> des Akrostichons bewahrt.</note>
+-               </app> <app type="variants" xml:id="prov_29f_b95_21">
++                  <note xml:id="prov_311_486_b7" type="editorial">von den berücksichtigten
++                     Handschriften hat einzig Ka2 das <q>A</q> des Akrostichons bewahrt.</note>
++               </app>
++               <app type="variants" xml:id="prov_29f_b95_21">
+                   <lem><corr type="editorChange">wise</corr>t</lem>
+                   <rdg wit="#ff24cac4-2fca #bf15cd14-67b1">wiset</rdg>
+                   <rdg wit="#eb978f42-b430">der wiset</rdg>
+@@ -121,8 +125,8 @@
+                </app> vor allen dingen, wannan du komen sigist, <app type="variants" xml:id="prov_d72_ad9_ef">
+                   <lem>war</lem>
+                   <rdg wit="#eb978f42-b430">vnd war</rdg>
+-               </app> du wellest, wer du sigist, wer du waͤrd in diner muͦter lib, was du worden bist, waz du noch werden muͦst. 
+-               <milestone unit="phr" n="2"/><app type="variants" xml:id="prov_71f_297_cf">
++               </app> du wellest, wer du sigist, wer du waͤrd in diner muͦter lib, was du worden
++               bist, waz du noch werden muͦst. <milestone unit="phr" n="2"/><app type="variants" xml:id="prov_71f_297_cf">
+                   <lem>So</lem>
+                   <rdg wit="#be82f0ad-a15a">So</rdg>
+                   <rdg wit="#eb978f42-b430 #bf15cd14-67b1">Es</rdg>
+@@ -137,8 +141,7 @@
+                   <lem>von der</lem>
+                   <rdg wit="#be82f0ad-a15a">von der</rdg>
+                   <rdg wit="#bf15cd14-67b1"/>
+-               </app> menschait widerumb ze aͤsch.
+-<milestone unit="phr" n="3"/>Und darus redet <app type="variants" xml:id="prov_cd9_741_c4">
++               </app> menschait widerumb ze aͤsch. <milestone unit="phr" n="3"/>Und darus redet <app type="variants" xml:id="prov_cd9_741_c4">
+                   <lem><persName>Hugo</persName></lem>
+                   <rdg wit="#be82f0ad-a15a">Hugo</rdg>
+                   <rdg wit="#eb978f42-b430">sant hugo</rdg>
+@@ -182,7 +185,7 @@
+                      <rdg wit="#be82f0ad-a15a">du</rdg>
+                      <rdg wit="#bf15cd14-67b1"/>
+                   </app> von dem boͤsen gaist <app type="variants" xml:id="prov_4e3_244_af">
+-                     <lem>bekort</lem>
++                     <rs type="glossary" key="gloss_jlm_g1k_mkb"><lem>bekort</lem></rs>
+                      <rdg wit="#be82f0ad-a15a">bekort</rdg>
+                      <rdg wit="#bf15cd14-67b1">betoret</rdg>
+                      <rdg wit="#eb978f42-b430">bekert</rdg>
+@@ -196,12 +199,13 @@
+                      <lem>vo<corr type="editorChange">n</corr></lem>
+                      <rdg wit="#ff24cac4-2fca #eb978f42-b430 #bf15cd14-67b1">von</rdg>
+                      <rdg wit="#be82f0ad-a15a">vor</rdg>
+-                  </app> dir selber und maht got niemer erkennen, wenn du dich selber nit wilt erkennen. 
+-                  <milestone unit="phr" n="5"/><app type="variants" xml:id="prov_1f3_3b7_8d">
++                  </app> dir selber und maht got niemer erkennen, wenn du dich selber nit wilt
++                  erkennen. <milestone unit="phr" n="5"/><app type="variants" xml:id="prov_1f3_3b7_8d">
+                      <lem>N<corr type="editorChange">o</corr>chde<corr type="editorChange">nn</corr></lem>
+                      <rdg wit="#eb978f42-b430 #ff24cac4-2fca #bf15cd14-67b1">Nochdenn</rdg>
+                      <rdg wit="#be82f0ad-a15a">nach dem</rdg>
+-                  </app> <app type="comment" n="understanding" xml:id="prov_29c_ee3_70">
++                  </app>
++                  <app type="comment" n="understanding" xml:id="prov_29c_ee3_70">
+                      <lem>Nochdenn</lem>
+                      <note xml:id="prov_95e_27f_de" type="editorial">dennoch <corr type="editorChange">'sodann noch, ferner'.</corr></note>
+                   </app> maht du begriffen <app type="variants" xml:id="prov_d34_96c_f7">
+@@ -228,7 +232,8 @@
+                            <lem>Hugo</lem>
+                            <rdg wit="#be82f0ad-a15a">Hugo</rdg>
+                            <rdg wit="#eb978f42-b430">sant hugo</rdg>
+-                        </app> <app type="variants" xml:id="prov_b55_bb0_a2">
++                        </app>
++                        <app type="variants" xml:id="prov_b55_bb0_a2">
+                            <lem>von sant Victor</lem>
+                            <rdg wit="#be82f0ad-a15a">von sant Victor</rdg>
+                            <rdg wit="#bf15cd14-67b1"/>
+@@ -252,8 +257,10 @@
+                      <lem>gestain</lem>
+                      <rdg wit="#bf15cd14-67b1">stein</rdg>
+                   </app> wuͤrken, der tier natur, der menschen sitte<corr type="editorChange">n</corr>, <app type="variants" xml:id="prov_ffe_45f_d9">
+-                     <lem><corr type="editorChange">w</corr>is<corr type="editorChange">e, t</corr>uͦn</lem>
+-                     <rdg wit="#bea3e268-3d06">wise, tuͦn <note type="editorial">vom Korrektor gebessert aus <q>vnd wise vnd tuͦn</q></note></rdg>
++                     <lem><corr type="editorChange">w</corr>is<corr type="editorChange">e,
++                        t</corr>uͦn</lem>
++                     <rdg wit="#bea3e268-3d06">wise, tuͦn <note type="editorial">vom Korrektor
++                           gebessert aus <q>vnd wise vnd tuͦn</q></note></rdg>
+                      <rdg wit="#be82f0ad-a15a #eb978f42-b430 #bf15cd14-67b1">vnd wis vnd tuͦn</rdg>
+                      <rdg wit="#ff24cac4-2fca">vnd wissent tuͦnde</rdg>
+                   </app> und lǒn; aller dinge, sache <app type="variants" xml:id="prov_921_03b_7c">
+@@ -268,12 +275,15 @@
+                      <rdg wit="#eb978f42-b430">himelrich und ertrich wis wil erspuͤren</rdg>
+                   </app>
+                   <milestone unit="phr" n="8"/>Wan vil menschen wissent <app type="variants" xml:id="prov_979_7e9_db">
+-                     <lem><corr type="editorChange">vil sachan, die sich selber nit wissent</corr></lem>
+-                     <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">vil sachan, die sich selber nit wissent</rdg>
++                     <lem><corr type="editorChange">vil sachan, die sich selber nit
++                        wissent</corr></lem>
++                     <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">vil sachan, die sich selber nit
++                        wissent</rdg>
+                      <rdg wit="#bea3e268-3d06 #eb978f42-b430 #bf15cd14-67b1"/>
+                   </app> noch <app type="variants" xml:id="prov_fad_c3b_1f">
+                      <lem>erkennent.</lem>
+-                     <rdg wit="#bea3e268-3d06">erkennent <note type="editorial">danach vom Korrektor ergänzt</note> sich nit</rdg>
++                     <rdg wit="#bea3e268-3d06">erkennent <note type="editorial">danach vom Korrektor
++                           ergänzt</note> sich nit</rdg>
+                   </app>
+                   <milestone unit="phr" n="9"/>Und doch <app type="variants" xml:id="prov_e79_e60_0d">
+                      <lem>selber sich</lem>
+@@ -285,7 +295,8 @@
+                   </app> ist der hoͤhsten kuͤnste aine</quote>, die dem menschen <app type="variants" xml:id="prov_136_67a_26">
+                   <lem>zuͦgehoͤrent ist,</lem>
+                   <rdg wit="#be82f0ad-a15a">zuͦgehoͤrt</rdg>
+-               </app> <app type="variants" xml:id="prov_9ba_090_77">
++               </app>
++               <app type="variants" xml:id="prov_9ba_090_77">
+                   <lem>ist nach dem ewigen leben ze stellent.</lem>
+                   <rdg wit="#eb978f42-b430">Nach dem ew. l. ist ze stellen</rdg>
+                </app>
+@@ -297,22 +308,29 @@
+                </app> uͤber den psalmen <app type="variants" xml:id="prov_1c1_a1f_e2">
+                   <lem>Miserere mei deus</lem>
+                   <rdg wit="#bf15cd14-67b1">Miszere mei</rdg>
+-               </app> <app type="variants" xml:id="prov_89a_149_0c"> 
++               </app>
++               <app type="variants" xml:id="prov_89a_149_0c">
+                   <lem>etc.:</lem>
+                   <rdg wit="#be82f0ad-a15a #ff24cac4-2fca"/>
+-               </app> <quote type="mfl" sameAs="#ed_mfl_gtp_xb3_mfb" xml:id="gx2_gc3_mfb"><app type="variants" xml:id="prov_8d5_4b8_be">
++               </app>
++               <quote type="mfl" sameAs="#ed_mfl_gtp_xb3_mfb" xml:id="gx2_gc3_mfb"><app type="variants" xml:id="prov_8d5_4b8_be">
+                      <lem>So</lem>
+                      <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">Es</rdg>
+                   </app> ist der groͤst nucze <app type="variants" xml:id="prov_188_5a1_7d">
+                      <lem>ainem</lem>
+                      <rdg wit="#be82f0ad-a15a">an ainem</rdg>
+-                  </app> <app type="variants" xml:id="prov_e4c_1d7_51">
++                  </app>
++                  <app type="variants" xml:id="prov_e4c_1d7_51">
+                      <lem>diener</lem>
+                      <rdg wit="#bf15cd14-67b1">diener erkennen sin eigen diener</rdg>
+-                  </app> <app type="variants" xml:id="prov_812_967_66">
++                  </app>
++                  <app type="variants" xml:id="prov_812_967_66">
+                      <lem>gotte<corr type="editorChange">s</corr></lem>
+-                     <rdg wit="#bea3e268-3d06">gottes <note type="editorial">danach getilgtes <q>erkennen sin aigen diener gottes</q></note></rdg>
+-                  </app> <corr type="editorChange">e</corr>rkennen sin aigen krankait und in sinen naturlichen creften und verdienen kain zuͦversiht han.
++                     <rdg wit="#bea3e268-3d06">gottes <note type="editorial">danach getilgtes
++                              <q>erkennen sin aigen diener gottes</q></note></rdg>
++                  </app>
++                  <corr type="editorChange">e</corr>rkennen sin aigen krankait und in sinen
++                  naturlichen creften und verdienen kain zuͦversiht han.
+                   <milestone unit="phr" n="11"/>Won in dem menschen wahset gottes craft, <app type="variants" xml:id="prov_a4d_4c8_34">
+                      <lem>dǎ der mensche im selber abe gǎt <app type="variants" xml:id="prov_d2d_e66_c3">
+                            <lem>in natúrlicher</lem>
+@@ -322,16 +340,17 @@
+                   </app> und sich selber vindet unmehtig in allen dingen wider gott.</quote>
+                <milestone unit="phr" n="12"/><app type="variants" xml:id="prov_305_56f_70">
+                   <lem><app type="variants" xml:id="prov_be5_059_af">
+-                        <lem>Daz sprichet der.
+-                           <milestone unit="phr" n="13"/><app type="variants" xml:id="prov_53a_f08_7e">
++                        <lem>Daz sprichet der. <milestone unit="phr" n="13"/><app type="variants" xml:id="prov_53a_f08_7e">
+                               <lem>Sant</lem>
+                               <rdg wit="#be82f0ad-a15a #bf15cd14-67b1"/>
+-                           </app> <persName>Gregorius</persName> sprichet</lem>
++                           </app>
++                           <persName>Gregorius</persName> sprichet</lem>
+                         <rdg wit="#bea3e268-3d06">Daz sprichet der. Sant Gregorius sprichet</rdg>
+                         <rdg wit="#eb978f42-b430">vnd spricht sant gr. das</rdg>
+                      </app> in siner lere:</lem>
+                   <rdg wit="#ff24cac4-2fca"/>
+-               </app> <quote type="mfl" sameAs="#ed_mfl_cty_5sy_kfb" xml:id="swq_hty_kfb">Als vil <app type="variants" xml:id="prov_81d_747_7c">
++               </app>
++               <quote type="mfl" sameAs="#ed_mfl_cty_5sy_kfb" xml:id="swq_hty_kfb">Als vil <app type="variants" xml:id="prov_81d_747_7c">
+                      <lem>minder der mensch</lem>
+                      <rdg wit="#bf15cd14-67b1">der mensch minder</rdg>
+                   </app> sich selber ansiht, als vil minder er im selber missvallet; und als <app type="variants" xml:id="prov_398_40f_d2">
+@@ -345,7 +364,8 @@
+                      <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">vil me vnd me bas vnd bas</rdg>
+                   </app> lert <app type="variants" xml:id="prov_2a5_517_af">
+                      <lem>e<corr type="editorChange">r</corr></lem>
+-                     <rdg wit="#bea3e268-3d06">er <note type="editorial">danach getilgtes <q>sich</q></note></rdg>
++                     <rdg wit="#bea3e268-3d06">er <note type="editorial">danach getilgtes
++                              <q>sich</q></note></rdg>
+                   </app><cb n="1rb"/><corr type="editorChange">s</corr>ich <app type="variants" xml:id="prov_705_556_62">
+                      <lem>selber</lem>
+                      <rdg wit="#ff24cac4-2fca"/>
+@@ -356,29 +376,37 @@
+                         <rdg wit="#bea3e268-3d06 #be82f0ad-a15a #bf15cd14-67b1">Daz der.</rdg>
+                         <rdg wit="#ff24cac4-2fca #eb978f42-b430"/>
+                      </app></lem>
+-                  <note xml:id="prov_852_b1e_e3" type="editorial">übersetzt wörtlich die im Lateinischen gebräuchliche Schlussformel <q>haec ille</q>.</note>
++                  <note xml:id="prov_852_b1e_e3" type="editorial">übersetzt wörtlich die im
++                     Lateinischen gebräuchliche Schlussformel <q>haec ille</q>.</note>
+                </app>
+                <milestone unit="phr" n="15"/><app type="variants" xml:id="prov_83e_27e_2e">
+                   <lem>Dem gelich sprichet <app type="variants" xml:id="prov_403_84d_c4">
+                         <lem>sant</lem>
+                         <rdg wit="#be82f0ad-a15a #bf15cd14-67b1"/>
+-                     </app> <persName>Bernhardus</persName> an ainer predige <app type="variants" xml:id="prov_fd6_02c_9b">
++                     </app>
++                     <persName>Bernhardus</persName> an ainer predige <app type="variants" xml:id="prov_fd6_02c_9b">
+                         <lem>úber</lem>
+                         <rdg wit="#be82f0ad-a15a">úbe</rdg>
+                      </app> der minne buͦch: </lem>
+                   <rdg wit="#ff24cac4-2fca">Bernhart sprichet</rdg>
+-               </app> <quote type="mfl" sameAs="#ed_mfl_v15_5tx_kfb" xml:id="qg1_l5x_kfb">Ich waisz wol, daz nieman mag behalten werden ǎn sin selbs erkennen, wan <app type="variants" xml:id="prov_1ff_988_d5">
++               </app>
++               <quote type="mfl" sameAs="#ed_mfl_v15_5tx_kfb" xml:id="qg1_l5x_kfb">Ich waisz wol,
++                  daz nieman mag behalten werden ǎn sin selbs erkennen, wan <app type="variants" xml:id="prov_1ff_988_d5">
+                      <lem>sich selber</lem>
+                      <rdg wit="#eb978f42-b430">sin selbs</rdg>
+                   </app> erkennen ist ain muͦter dez hailes <app type="variants" xml:id="prov_57a_f56_68">
+                      <lem><corr type="editorChange">und</corr></lem>
+-                     <rdg wit="#bea3e268-3d06">vnd <note type="editorial">vom Korrektor ergänzt Ka1</note></rdg>
++                     <rdg wit="#bea3e268-3d06">vnd <note type="editorial">vom Korrektor ergänzt
++                           Ka1</note></rdg>
+                      <rdg wit="#be82f0ad-a15a #ff24cac4-2fca #eb978f42-b430 #bf15cd14-67b1"/>
+-                  </app> der diemuͤtikai<corr type="editorChange">t, </corr> <app type="variants" xml:id="prov_3a2_a5b_7b">
++                  </app> der diemuͤtikai<corr type="editorChange">t, </corr>
++                  <app type="variants" xml:id="prov_3a2_a5b_7b">
+                      <lem><corr type="editorChange">a</corr>in</lem>
+-                     <rdg wit="#be82f0ad-a15a #ff24cac4-2fca #eb978f42-b430 #bf15cd14-67b1">vnd ain</rdg>
++                     <rdg wit="#be82f0ad-a15a #ff24cac4-2fca #eb978f42-b430 #bf15cd14-67b1">vnd
++                        ain</rdg>
+                      <rdg wit="#bea3e268-3d06">vnd <note type="editorial">getilgt</note></rdg>
+-                  </app> <app type="variants" xml:id="prov_0b7_52c_84">
++                  </app>
++                  <app type="variants" xml:id="prov_0b7_52c_84">
+                      <lem>erbaͤrmde</lem>
+                      <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">gebererin</rdg>
+                   </app> goͤtlicher vorht und ain anevang alles geluͤckes.</quote>
+diff --git a/ovp/data/Kapitel/02_Der_zweite_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/02_Der_zweite_Alte.xml
+index 3f828a3..b008352 100644
+--- a/ovp/data/Kapitel/02_Der_zweite_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/02_Der_zweite_Alte.xml
+@@ -152,11 +152,11 @@
+                des aller ersten suͦchent daz riche gottes und sin gerehtikait, so wirt úch alle úwer
+                notdurft zuͦ geleit. <milestone unit="phr" n="8"/>Es sprichet sant
+                   <persName>Hugo</persName> von der arch Noe: Wer gott suͦchet mit begirde, der
+-               vindet in mit bekennen und bevindet sin in beruͦrunge; won waz man suͦchet mit
+-               grosser begirde <cb n="3va"/> und mit flisze, daz vindet man mit trost und mit
+-               groszen gelust. <milestone unit="phr" n="9"/>Es sprichet sant
+-                  <persName>Ambrosius</persName> in dem buͦche von Ysaac: Du solt den alle zit
+-               suͦchen, dez du an libe und an sele alle zit geniessen maht.
++               vindet in mit <rs type="glossary" key="gloss_d1e782">bekennen</rs> und bevindet sin
++               in beruͦrunge; won waz man suͦchet mit grosser begirde <cb n="3va"/> und mit flisze,
++               daz vindet man mit trost und mit groszen gelust. <milestone unit="phr" n="9"/>Es
++               sprichet sant <persName>Ambrosius</persName> in dem buͦche von Ysaac: Du solt den
++               alle zit suͦchen, dez du an libe und an sele alle zit geniessen maht.
+                <milestone unit="phr" n="10"/>Du solt den ǎn underlasz suͦchen, ǎn den du kain guͦt
+                volbringen maht, wan got wil dem suͦcher begegnen und sich gegen im naigen und in
+                enphahen darumb, daz er erhoͤhet werde.</p>
+diff --git a/ovp/data/Kapitel/04_Der_vierte_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/04_Der_vierte_Alte.xml
+index 13da578..6384546 100644
+--- a/ovp/data/Kapitel/04_Der_vierte_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/04_Der_vierte_Alte.xml
+@@ -327,8 +327,8 @@
+                         gebessert, Ursprüngliches nicht lesbar</note></rdg>
+                   <rdg wit="#eb978f42-b430">entaͤgen</rdg>
+                   <rdg wit="#ff24cac4-2fca">entǒugen</rdg>
+-               </app> mit allem flisze, und waz dich menschlicher bekorunge bestǎt, den solt du
+-               entwichen und in kain benuͤgen sin. <milestone unit="phr" n="10"/>
++               </app> mit allem flisze, und waz dich menschlicher <rs type="glossary" key="gloss_d1e819">bekorunge</rs> bestǎt, den solt du entwichen und in kain
++               benuͤgen sin. <milestone unit="phr" n="10"/>
+                <app type="variants" xml:id="prov_7d1_42a_2a">
+                   <lem><corr type="editorChange">Du solt dem gelust dines libes niemer kain benuͤgen
+                         sin,</corr></lem>
+@@ -502,8 +502,8 @@
+                   <rdg wit="#bea3e268-3d06">ewangelium <note type="editorial">vom Korrektor
+                         gebessert aus <q>ewangelio</q></note></rdg>
+                </app> Die sele mag gott mit dehainen dingen als <pb ed="#o_ubn_2sl_n2b" n="29,10"/>
+-               <rs type="glossary" key="gloss_w5b_vvv_njb">adelich</rs> begriffen als mit bekennen
+-               und mit begirde. <milestone unit="phr" n="7"/><app type="variants" xml:id="prov_9b8_35a_89">
++               <rs type="glossary" key="gloss_w5b_vvv_njb">adelich</rs> begriffen als mit <rs type="glossary" key="gloss_d1e782">bekennen</rs> und mit begirde.
++                  <milestone unit="phr" n="7"/><app type="variants" xml:id="prov_9b8_35a_89">
+                   <lem><corr type="editorChange">Die</corr> zwai, spr<corr type="editorChange">i</corr>ch<corr type="editorChange">e</corr>t</lem>
+                   <rdg wit="#be82f0ad-a15a">die zwai spricht</rdg>
+                   <rdg wit="#bea3e268-3d06">zwai sprechent <note type="editorial">vom Korrektor
+@@ -512,12 +512,10 @@
+                </app> sant <persName>Hugo</persName> úber die cristanliche jerachie, ordenent die
+                sele, daz si ital guͦt wirt und daz die sele kainer creature <rs type="glossary" key="gloss_d1e173">ahte</rs> naͤme und sich selber vernihtet.
+                <milestone unit="phr" n="8"/>Und mangelt si der zwaiger dinge, so ist si nit vor
+-               gott. <milestone unit="phr" n="9"/>Mit bekennen in wishait vindet si die warhait, die
+-               gott selber <pb ed="#o_ubn_2sl_n2b" n="29,15"/> ist.
+-               <milestone unit="phr" n="10"/>Mit begirde der minne umbefahet si die ckraft gottes,
+-               dǎrinne si sich selber verlúret und ains mit got wirt.
+-               <milestone unit="phr" n="11"/>Ach wie guͦt ist úber alle mǎsse volkomenen menschen
+-               und lúten alle dinge lǎn, daz dis zit begriffen hǎt, und sich selber <rs type="glossary" key="gloss_d1e108">absprechen</rs> an libe, <app type="comment" n="understanding" xml:id="prov_678_33d_f4">
++               gott. <milestone unit="phr" n="9"/>Mit <rs type="glossary" key="gloss_d1e782">bekennen</rs> in wishait vindet si die warhait, die gott selber <pb ed="#o_ubn_2sl_n2b" n="29,15"/> ist. <milestone unit="phr" n="10"/>Mit begirde der
++               minne umbefahet si die ckraft gottes, dǎrinne si sich selber verlúret und ains mit
++               got wirt. <milestone unit="phr" n="11"/>Ach wie guͦt ist úber alle mǎsse volkomenen
++               menschen und lúten alle dinge lǎn, daz dis zit begriffen hǎt, und sich selber <rs type="glossary" key="gloss_d1e108">absprechen</rs> an libe, <app type="comment" n="understanding" xml:id="prov_678_33d_f4">
+                   <lem>und daz</lem>
+                   <note xml:id="prov_839_809_21" type="editorial">'so dass'.</note>
+                </app> die sele ir selber warneme durch gottes willen gancze und <pb ed="#o_ubn_2sl_n2b" n="29,20"/> gar.<note xml:id="a314ceed0935" type="comment" target="#fb839983-d636">Abdruck des 4. Alten nach Ka1 bei <bibl>Besch 1997, S. 392
+diff --git a/ovp/data/Kapitel/06_Der_sechste_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/06_Der_sechste_Alte.xml
+index 2a007a1..534da85 100644
+--- a/ovp/data/Kapitel/06_Der_sechste_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/06_Der_sechste_Alte.xml
+@@ -209,24 +209,34 @@
+                </app> und bi hailiger gemainschaft solt du gern wandelen und dich dar inne halten, daz din menglich gebessert werde und nieman geergret.
+ <milestone unit="phr" n="4"/>Jungen und alten solt du guͦt bilde vortragen und die jungen frúntlich wisen und leren, der alten straffunge gedulticlich und dankbaͤrlich enphahen.
+ <milestone unit="phr" n="5"/>Du solt dich ǒch zuͦ niemant vertrúwan noch gesellen denne zuͦ den, die dich tugent und goͤtlich wiszhait und alle guͦte, núcze dinge wol geleren koͤnnen.</p>
+-            <p n="6"> 
+-               <milestone unit="phr" n="1"/>Darnach lere ich sehster alte dich, minnende sele, wie du muͤsig<cb n="17va"/>gǎn solt fliehen und waz din werke taͤglich und ǎne <app type="variants" xml:id="prov_031_d7a_5e">
++            <p n="6">
++               <milestone unit="phr" n="1"/>Darnach lere ich sehster alte dich, minnende sele, wie
++               du muͤsig<cb n="17va"/>gǎn solt fliehen und waz din werke taͤglich und ǎne <app type="variants" xml:id="prov_031_d7a_5e">
+                   <lem>under<corr type="editorChange">l</corr>ǎsz</lem>
+                   <rdg wit="#ff24cac4-2fca #eb978f42-b430 #be82f0ad-a15a">vnderlǎsz</rdg>
+                   <rdg wit="#bea3e268-3d06">vnderǎsz</rdg>
+-               </app> sin sol.
+-<milestone unit="phr" n="2"/>Won ez sprichet <persName>Jeronimus</persName> an ainer predige: Du solt alle zit etwas wúrken, daz dich der boͤsse gaist út muͤssig vinde und daz du von im út <app type="variants" xml:id="prov_d7d_f9d_0a">
+-   <lem>bek<corr type="editorChange">o</corr>rt werdest</lem>
+-   <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">bekort werdest</rdg>
+-                  <rdg wit="#bea3e268-3d06">bekort werdest <note type="editorial">vom Korrektor gebessert aus <q>bekert werdest</q></note></rdg>
++               </app> sin sol. <milestone unit="phr" n="2"/>Won ez sprichet
++                  <persName>Jeronimus</persName> an ainer predige: Du solt alle zit etwas wúrken,
++               daz dich der boͤsse gaist út muͤssig vinde und daz du von im út <app type="variants" xml:id="prov_d7d_f9d_0a">
++                  <lem><rs type="glossary" key="gloss_jlm_g1k_mkb">bek<corr type="editorChange">o</corr>rt</rs> werdest</lem>
++                  <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">bekort werdest</rdg>
++                  <rdg wit="#bea3e268-3d06">bekort werdest <note type="editorial">vom Korrektor
++                        gebessert aus <q>bekert werdest</q></note></rdg>
+                   <rdg wit="#eb978f42-b430">betoͤrt werdest vnd bekert</rdg>
+-               </app>.
+-               <milestone unit="phr" n="3"/>Wan den mag der boͤs gaist nit gefahen, der ǎne underlasz mit guͦten werken bekúmert ist.
+-<milestone unit="phr" n="4"/>Es sprichet <persName>Prosper</persName> in dem buͦch von dem schowenden leben: Dem in muͤssiger ruͦwe wol ist, ez sige denn, daz er gaistlich unmuͤsse habe mit gebette und mit goͤtlicher betrahtunge, so ist sin leben ain unvernuͤnftig leben.
+-<milestone unit="phr" n="5"/>Darumb so roͤmet <persName>Fulgencius</persName> an siner predige ainer, daz uͤbung und arbait guͦt werke ist, ains saͤligen menschen festunge sins lebens und ain gar sicher huͦte, daz den menschen erweket von aller trakait und fulkait verswendet. Uͤbunge vertribet untugende und vertribet den tot, die siechen aͤrczniet und hailet es.
+-<milestone unit="phr" n="6"/>Uͤbunge ist der kinden zimlichait und der jungen zuhte und kuͤrczwil und der alten froͤde.
+-<milestone unit="phr" n="7"/>Werken und arbaiten ist ain grosze hilfe alles hailes und ain viende der boshait.
+-<milestone unit="phr" n="8"/>Der mensche sol allain muͤssig gan, der sich ewiger froͤde verzihen wil.</p>
++               </app>. <milestone unit="phr" n="3"/>Wan den mag der boͤs gaist nit gefahen, der ǎne
++               underlasz mit guͦten werken bekúmert ist. <milestone unit="phr" n="4"/>Es sprichet
++                  <persName>Prosper</persName> in dem buͦch von dem schowenden leben: Dem in
++               muͤssiger ruͦwe wol ist, ez sige denn, daz er gaistlich unmuͤsse habe mit gebette und
++               mit goͤtlicher betrahtunge, so ist sin leben ain unvernuͤnftig leben.
++               <milestone unit="phr" n="5"/>Darumb so roͤmet <persName>Fulgencius</persName> an
++               siner predige ainer, daz uͤbung und arbait guͦt werke ist, ains saͤligen menschen
++               festunge sins lebens und ain gar sicher huͦte, daz den menschen erweket von aller
++               trakait und fulkait verswendet. Uͤbunge vertribet untugende und vertribet den tot,
++               die siechen aͤrczniet und hailet es. <milestone unit="phr" n="6"/>Uͤbunge ist der
++               kinden zimlichait und der jungen zuhte und kuͤrczwil und der alten froͤde.
++               <milestone unit="phr" n="7"/>Werken und arbaiten ist ain grosze hilfe alles hailes
++               und ain viende der boshait. <milestone unit="phr" n="8"/>Der mensche sol allain
++               muͤssig gan, der sich ewiger froͤde verzihen wil.</p>
+             <p n="7">
+                <milestone unit="phr" n="1"/>Und darumb so wise ich dich, minnende sele, wie du din
+                zit in arbait solt vertriben nach dem aller besten.<cb n="17vb"/>
+@@ -373,28 +383,42 @@
+                </app> und vergangen habest nach gottes willen.
+ <milestone unit="phr" n="2"/>Won ez sprichet unser herre <persName>Jesus Cristus</persName> in dem ewangelio, daz an dem jungsten tage ain ieclich mensche rechnung muͦs geben von allem zit, ob es wol oder úbel verzeret sige.
+ <milestone unit="phr" n="3"/>Wie du aber denne daz zit hest vertriben, daz betrahte denn wol, ob du des tages me guͦtes oder boͤses oder úbels fuͤrbrahtest, und ob du uf dinen boͤsen werken út ze rúwe und ze bihtende und <cb n="19ra"/> ze buͤssende hest, das du die versumten werke alle besserst.</p>
+-            <p n="10"> 
+-               <milestone unit="phr" n="1"/>In der naht solt du dich legen an din bette, und la dir lieber sin, ez sige herte denne waiche.
+-<milestone unit="phr" n="2"/>Und waz du guͦter segen koͤnnest von der goͤttlichen lere, damit solt du dich segnen, daz dich der boͤse gaiste in schlaffen und in wachen út bekore.
+-<milestone unit="phr" n="3"/>In dem betlin solt du niemer nackent ligen noch dich selber nit vil beruͤren noch angriffen in kainen wege, daz dir ergerlich sig; und lige allain, so ist gott bi dir dest volkomenlicher.
+-<milestone unit="phr" n="4"/>Din libe und alle dine gelider soͤllent wol verdecket sin in dem bette und solt din hende noch arme noch fuͤsse nit uff werfen und mit allen gelidern gestreket ligen und von nieman kain betrahtunge haben in dem bette denne von gotte allaine.
+-<milestone unit="phr" n="5"/>Wenne aber du ain notdurfte geschlǎffen hest, so la dich din fulhait nit úberwinden, <app type="comment" n="understanding" xml:id="prov_2d4_05c_9f">
++            <p n="10">
++               <milestone unit="phr" n="1"/>In der naht solt du dich legen an din bette, und la dir
++               lieber sin, ez sige herte denne waiche. <milestone unit="phr" n="2"/>Und waz du
++               guͦter segen koͤnnest von der goͤttlichen lere, damit solt du dich segnen, daz dich
++               der boͤse gaiste in schlaffen und in wachen út <rs type="glossary" key="gloss_jlm_g1k_mkb">bekore</rs>. <milestone unit="phr" n="3"/>In dem betlin
++               solt du niemer nackent ligen noch dich selber nit vil beruͤren noch angriffen in
++               kainen wege, daz dir ergerlich sig; und lige allain, so ist gott bi dir dest
++               volkomenlicher. <milestone unit="phr" n="4"/>Din libe und alle dine gelider soͤllent
++               wol verdecket sin in dem bette und solt din hende noch arme noch fuͤsse nit uff
++               werfen und mit allen gelidern gestreket ligen und von nieman kain betrahtunge haben
++               in dem bette denne von gotte allaine. <milestone unit="phr" n="5"/>Wenne aber du ain
++               notdurfte geschlǎffen hest, so la dich din fulhait nit úberwinden, <app type="comment" n="understanding" xml:id="prov_2d4_05c_9f">
+                   <lem>du standest uf</lem>
+                   <note xml:id="prov_396_45b_c3" type="editorial">'sondern stehe auf'.</note>
+-               </app> und ermuͤnder dich, daz du darnach den ganczen tage dich dester bas zuͦ gott geleren múgest.
+-<milestone unit="phr" n="6"/>Won ez sprichet <persName>Bernhardus</persName> in siner epistel ainer: Huͤte dich, du diener gottes, daz du niemer genczlich slǎffest und din slǎffe me sig ain muͤde denne ain ruͦwe, won <cb n="19rb"/> nit verswendet unsers lebens mer, denne daz wir mit slǎffe <app type="variants" xml:id="prov_457_d0c_d7">
+-   <lem>ver<corr type="editorChange">li</corr>eren,</lem>
++               </app> und ermuͤnder dich, daz du darnach den ganczen tage dich dester bas zuͦ gott
++               geleren múgest. <milestone unit="phr" n="6"/>Won ez sprichet
++                  <persName>Bernhardus</persName> in siner epistel ainer: Huͤte dich, du diener
++               gottes, daz du niemer genczlich slǎffest und din slǎffe me sig ain muͤde denne ain
++               ruͦwe, won <cb n="19rb"/> nit verswendet unsers lebens mer, denne daz wir mit slǎffe
++                  <app type="variants" xml:id="prov_457_d0c_d7">
++                  <lem>ver<corr type="editorChange">li</corr>eren,</lem>
+                   <rdg wit="#be82f0ad-a15a">verlieren</rdg>
+-                  <rdg wit="#bea3e268-3d06"><note type="editorial">vom Korrektor gebessert aus</note> verberen</rdg>
++                  <rdg wit="#bea3e268-3d06"><note type="editorial">vom Korrektor gebessert
++                        aus</note> verberen</rdg>
+                   <rdg wit="#eb978f42-b430">verberend</rdg>
+                </app> und wenne du <app type="variants" xml:id="prov_f43_120_0c">
+                   <lem>slǎffen <corr type="editorChange">g</corr>ast,</lem>
+                   <rdg wit="#be82f0ad-a15a">schlaffen gast</rdg>
+-                  <rdg wit="#bea3e268-3d06"><note type="editorial">vom Korrektor gebessert aus</note> slǎffen hast</rdg>
++                  <rdg wit="#bea3e268-3d06"><note type="editorial">vom Korrektor gebessert
++                        aus</note> slǎffen hast</rdg>
+                   <rdg wit="#eb978f42-b430">geschlaffen hast</rdg>
+-               </app> so solt du alle zit in diner gedenknússe etwas guͦtes hǎn mit dir ze tragende, daz dich boͤser troͤme entwer.
+-<milestone unit="phr" n="7"/>Und messig essen und trinken machet maͤssigen sin und munder und muͤssig sleffe.
+-<milestone unit="phr" n="8"/>Wavon aber troͤme komen und was sú betúten, daz wirt dich der súbende alte leren zehant nach mir.</p>
++               </app> so solt du alle zit in diner gedenknússe etwas guͦtes hǎn mit dir ze tragende,
++               daz dich boͤser troͤme entwer. <milestone unit="phr" n="7"/>Und messig essen und
++               trinken machet maͤssigen sin und munder und muͤssig sleffe.
++               <milestone unit="phr" n="8"/>Wavon aber troͤme komen und was sú betúten, daz wirt
++               dich der súbende alte leren zehant nach mir.</p>
+             <p n="11"> 
+                <milestone unit="phr" n="1"/>Dise lere gǎt uff zúhte und wandel, wise und gebaͤrde.
+ <milestone unit="phr" n="2"/>Won es sprichet <persName>Pittagoras</persName>, der haidensche maister: Wer ain claines kurcze zit schame durch zúhte willen nit liden wil, der muͤsse aber alle zit in schame beliben durch unczúhte willen.
+diff --git a/ovp/data/Kapitel/07_Der_siebte_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/07_Der_siebte_Alte.xml
+index 43960f5..8be3db7 100644
+--- a/ovp/data/Kapitel/07_Der_siebte_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/07_Der_siebte_Alte.xml
+@@ -129,48 +129,66 @@
+                <milestone unit="phr" n="1"/>Wenne <app type="variants" xml:id="prov_ed4_960_9c">
+                   <lem><corr type="editorChange">nun</corr></lem>
+                   <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">nun</rdg>
+-                  <rdg wit="#bea3e268-3d06">nun <note type="editorial">vom Korrektor gebessert aus <q>du</q></note></rdg>
++                  <rdg wit="#bea3e268-3d06">nun <note type="editorial">vom Korrektor gebessert aus
++                           <q>du</q></note></rdg>
+                   <rdg wit="#eb978f42-b430">da</rdg>
+                </app> gar vil guͦtes und boͤses <app type="variants" xml:id="prov_d9d_0ad_db">
+                   <lem>entspr<corr type="editorChange">i</corr>nget</lem>
+                   <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">entspringet</rdg>
+-                  <rdg wit="#bea3e268-3d06">entspringent <note type="editorial">gebessert aus <q>entsprenget</q></note></rdg>
++                  <rdg wit="#bea3e268-3d06">entspringent <note type="editorial">gebessert aus
++                           <q>entsprenget</q></note></rdg>
+                   <rdg wit="#eb978f42-b430">entspringent</rdg>
+-               </app> und och geborn werdent von gedenken und von worten und daz darzuͦ gehoͤret, dez gar vil ist, so ist dir, minnende sele, gar notdúrftig, daz du wislich darin wol sehest darumb, daz du kúnftigem schaden dester basz muͤgest entrinnen und entfliehen.
+-                  <milestone unit="phr" n="2"/>Es saget <persName>Jeronimus</persName> zuͦ der jungfrowen <app type="variants" xml:id="prov_339_642_a6">
++               </app> und och geborn werdent von gedenken und von worten und daz darzuͦ gehoͤret,
++               dez gar vil ist, so ist dir, minnende sele, gar notdúrftig, daz du wislich darin wol
++               sehest darumb, daz du kúnftigem schaden dester basz muͤgest entrinnen und entfliehen.
++               <milestone unit="phr" n="2"/>Es saget <persName>Jeronimus</persName> zuͦ der
++               jungfrowen <app type="variants" xml:id="prov_339_642_a6">
+                   <lem><persName>D<corr type="editorChange">e</corr>metriades</persName></lem>
+                   <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">Demetriades</rdg>
+                   <rdg wit="#eb978f42-b430">metriadis</rdg>
+-                  <rdg wit="#bea3e268-3d06">de metriades <note type="editorial">gebessert aus <q>die metriades</q></note></rdg>
+-               </app> also: <?oxy_comment_start author="zinsmeister" comment=" Vgl. MFl, Stichwort Cogitacio a: Quicquid pudet dicere, pudet cogitare. Est tutissimum atque perfectum ut assuescat animus sollicita semper et peruigili custodia discernere cogitaciones suas, et ad primum animi motum uel probare uel reprobare quod cogitat ut uel bonas cogitaciones alat, uel statim malas extinguat. Hinc namque fons est boni et origo peccandi. Ibi maxime oportet obseruare peccatum, ubi nasci solet; statimque ad primam temptacionis faciem et malum antequam crescat restringere, dum adhuc est in cogitacione. - Ieronymus in epistola ad Demetriadem. "?><quote type="mfl">Wes du dich schamest ze redende, dez solt du dich ǒch schamen ze gedenken.
+-                     <milestone unit="phr" n="3"/>Und ain sicher und ain volkomen gewonhait ist daz, das dez menschen gemuͤte sie fliszig und wach und huͤte, <app type="variants" xml:id="prov_d0a_515_4a">
+-                        <lem>wie es wol erkennen kún<corr type="editorChange">ne,</corr></lem>
+-                        <rdg wit="#ff24cac4-2fca #eb978f42-b430">wie es [...] kúnne</rdg>
+-                        <rdg wit="#bea3e268-3d06"><note type="editorial"><q>wie es [...] kúnen</q> vom Korrektor geändert zu</note> wie du es [...] kúnest</rdg>
+-                        <rdg wit="#be82f0ad-a15a">wie du es [...] kúnnist</rdg>
+-                     </app> welich gedenke man behalten suͤlle oder verwerffen.
+-<milestone unit="phr" n="4"/>Oder <app type="variants" xml:id="prov_dfc_dac_4e">
+-                           <lem><corr type="editorChange">aber</corr></lem>
+-                           <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">aber</rdg>
+-                           <rdg wit="#bea3e268-3d06"><note type="editorial">vom Korrektor ergänzt</note></rdg>
+-                           <rdg wit="#eb978f42-b430"/>
+-                        </app> daz du guͦt gedenke vast <app type="variants" xml:id="prov_1ff_902_71">
+-                           <lem><corr type="editorChange">behaltist</corr>
+-                              <corr type="editorChange">und boͤs gedencke vast</corr></lem>
+-                           <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">behaltist vnd boͤs gedencke vast</rdg>
+-                           <rdg wit="#bea3e268-3d06"><note type="editorial">vom Korrektor ergänzt</note></rdg>
+-                           <rdg wit="#eb978f42-b430"/>
+-                        </app> <app type="variants" xml:id="prov_831_8d2_23">
+-                        <lem>vert<corr type="editorChange">r</corr>ibest,</lem>
+-                        <rdg wit="#ff24cac4-2fca #eb978f42-b430 #be82f0ad-a15a">vertribest</rdg>
+-                        <rdg wit="#bea3e268-3d06">vertribest <note type="editorial">vom Korrektor gebessert aus vertibest</note></rdg>
+-                     </app> wan gedenke sint ain brunne und ain ursprunge guͦter getaͤtte und och boͤser súnde.
+-<milestone unit="phr" n="5"/>Und waz guͦter und boͤser <cb n="20va"/> werke iemer geborn werdent, daz wirt alles vor enpfangen in der bekorunge der gedenke.</quote><?oxy_comment_end?>
+-               <milestone unit="phr" n="6"/>Darumb rǎtet uns <persName>Cesarius</persName> in siner vermanunge und sprichet, <?oxy_comment_start author="zinsmeister" comment=" Vgl. MFl, Stichwort, Cogitacio o: Incipiamus bonas cogitaciones diligere et statim ab illis que male sunt dignabitur Dominus liberare. - Cesarius ammonicione secunda capitulo III. "?><quote type="mfl">wir <app type="variants" xml:id="prov_28e_695_2e">
+-                        <lem>s<corr type="editorChange">oͤ</corr>n<corr type="editorChange">d</corr></lem>
+-                        <rdg wit="#bea3e268-3d06">soͤnd <note type="editorial">vom Korrektor gebessert aus sont</note></rdg>
+-                        <rdg wit="#eb978f42-b430 #be82f0ad-a15a #ff24cac4-2fca">sond</rdg>
+-                     </app> anevahen guͦt gedenke ze haltent und ze minnende, so werdent wir erlediget von den boͤsen gedenken,</quote><?oxy_comment_end?> die úns an worten, an werken, an sele und an libe múgent geschaden.</p>
++                  <rdg wit="#bea3e268-3d06">de metriades <note type="editorial">gebessert aus <q>die
++                           metriades</q></note></rdg>
++               </app> also:
++                  <?oxy_comment_start author="zinsmeister" comment=" Vgl. MFl, Stichwort Cogitacio a: Quicquid pudet dicere, pudet cogitare. Est tutissimum atque perfectum ut assuescat animus sollicita semper et peruigili custodia discernere cogitaciones suas, et ad primum animi motum uel probare uel reprobare quod cogitat ut uel bonas cogitaciones alat, uel statim malas extinguat. Hinc namque fons est boni et origo peccandi. Ibi maxime oportet obseruare peccatum, ubi nasci solet; statimque ad primam temptacionis faciem et malum antequam crescat restringere, dum adhuc est in cogitacione. - Ieronymus in epistola ad Demetriadem. "?><quote type="mfl">Wes du dich schamest ze redende, dez solt du dich ǒch schamen ze
++                  gedenken. <milestone unit="phr" n="3"/>Und ain sicher und ain volkomen gewonhait
++                  ist daz, das dez menschen gemuͤte sie fliszig und wach und huͤte, <app type="variants" xml:id="prov_d0a_515_4a">
++                     <lem>wie es wol erkennen kún<corr type="editorChange">ne,</corr></lem>
++                     <rdg wit="#ff24cac4-2fca #eb978f42-b430">wie es [...] kúnne</rdg>
++                     <rdg wit="#bea3e268-3d06"><note type="editorial"><q>wie es [...] kúnen</q> vom
++                           Korrektor geändert zu</note> wie du es [...] kúnest</rdg>
++                     <rdg wit="#be82f0ad-a15a">wie du es [...] kúnnist</rdg>
++                  </app> welich gedenke man behalten suͤlle oder verwerffen.
++                  <milestone unit="phr" n="4"/>Oder <app type="variants" xml:id="prov_dfc_dac_4e">
++                     <lem><corr type="editorChange">aber</corr></lem>
++                     <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">aber</rdg>
++                     <rdg wit="#bea3e268-3d06"><note type="editorial">vom Korrektor
++                        ergänzt</note></rdg>
++                     <rdg wit="#eb978f42-b430"/>
++                  </app> daz du guͦt gedenke vast <app type="variants" xml:id="prov_1ff_902_71">
++                     <lem><corr type="editorChange">behaltist</corr>
++                        <corr type="editorChange">und boͤs gedencke vast</corr></lem>
++                     <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">behaltist vnd boͤs gedencke vast</rdg>
++                     <rdg wit="#bea3e268-3d06"><note type="editorial">vom Korrektor
++                        ergänzt</note></rdg>
++                     <rdg wit="#eb978f42-b430"/>
++                  </app>
++                  <app type="variants" xml:id="prov_831_8d2_23">
++                     <lem>vert<corr type="editorChange">r</corr>ibest,</lem>
++                     <rdg wit="#ff24cac4-2fca #eb978f42-b430 #be82f0ad-a15a">vertribest</rdg>
++                     <rdg wit="#bea3e268-3d06">vertribest <note type="editorial">vom Korrektor
++                           gebessert aus vertibest</note></rdg>
++                  </app> wan gedenke sint ain brunne und ain ursprunge guͦter getaͤtte und och
++                  boͤser súnde. <milestone unit="phr" n="5"/>Und waz guͦter und boͤser <cb n="20va"/> werke iemer geborn werdent, daz wirt alles vor enpfangen in der <rs type="glossary" key="gloss_d1e819">bekorunge</rs> der gedenke.</quote><?oxy_comment_end?>
++               <milestone unit="phr" n="6"/>Darumb rǎtet uns <persName>Cesarius</persName> in siner
++               vermanunge und sprichet,
++                  <?oxy_comment_start author="zinsmeister" comment=" Vgl. MFl, Stichwort, Cogitacio o: Incipiamus bonas cogitaciones diligere et statim ab illis que male sunt dignabitur Dominus liberare. - Cesarius ammonicione secunda capitulo III. "?><quote type="mfl">wir <app type="variants" xml:id="prov_28e_695_2e">
++                     <lem>s<corr type="editorChange">oͤ</corr>n<corr type="editorChange">d</corr></lem>
++                     <rdg wit="#bea3e268-3d06">soͤnd <note type="editorial">vom Korrektor gebessert
++                           aus sont</note></rdg>
++                     <rdg wit="#eb978f42-b430 #be82f0ad-a15a #ff24cac4-2fca">sond</rdg>
++                  </app> anevahen guͦt gedenke ze haltent und ze minnende, so werdent wir erlediget
++                  von den boͤsen gedenken,</quote><?oxy_comment_end?> die úns an worten, an werken,
++               an sele und an libe múgent geschaden.</p>
+             <p n="4">
+                <milestone unit="phr" n="1"/>Wenne nun gedenke sint ain ursache vil guͦtes und ǒch
+                boͤses, und ir niemant in zit kan noch mag ledig gestǎn, so lere <app type="comment" xml:id="prov_8ca_66b_c3">
+diff --git a/ovp/data/Kapitel/08_Der_achte_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/08_Der_achte_Alte.xml
+index a6f5f4c..07b744f 100644
+--- a/ovp/data/Kapitel/08_Der_achte_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/08_Der_achte_Alte.xml
+@@ -572,18 +572,30 @@
+                   <rdg wit="#eb978f42-b430">du in kainer anderlay wis anders denn</rdg>
+                </app> du dir selber ganst.
+ <milestone unit="phr" n="6"/>Won es sprichet <persName>Gregorius</persName>: Mit der minne, die du hest zuͦ dinem naͤsten, merest du goͤtlich minne in dir.</p>
+-            <p n="14"> 
+-               <milestone unit="phr" n="1"/>Es sprichet och <persName>Dyas</persName> vo<corr type="editorChange">n</corr> <app type="variants" xml:id="prov_bd2_3ff_8f">
++            <p n="14">
++               <milestone unit="phr" n="1"/>Es sprichet och <persName>Dyas</persName> vo<corr type="editorChange">n</corr>
++               <app type="variants" xml:id="prov_bd2_3ff_8f">
+                   <lem><corr type="editorChange">d</corr>en</lem>
+-                  <rdg wit="#bea3e268-3d06">den <note xml:id="d9a1a730" type="editorial">davor getilgtes <q>den</q></note></rdg>
+-               </app> edelen gestainen, daz goͤttlich minne gelichet ist dem stain sardin, der da funden wirt in dem edelesten lande, daz uf erden ist, und ist och rǒt var und machet den menschen froͤlich und wol gemuͦt und vertribet alles truren und git konhait und dem gemuͤte vernúnftikait und vertribet trúgnúsze und zobrie und ist fúr alles gifte guͦte.
+-<milestone unit="phr" n="2"/>Der sardin ist die goͤtlich minne, die uns kumet von der aller edlesten statt, daz ist von <app type="variants" xml:id="prov_9f0_f36_7c">
++                  <rdg wit="#bea3e268-3d06">den <note xml:id="d9a1a730" type="editorial">davor
++                        getilgtes <q>den</q></note></rdg>
++               </app> edelen gestainen, daz goͤttlich minne gelichet ist dem stain sardin, der da
++               funden wirt in dem edelesten lande, daz uf erden ist, und ist och rǒt var und machet
++               den menschen froͤlich und wol gemuͦt und vertribet alles truren und git konhait und
++               dem gemuͤte vernúnftikait und vertribet trúgnúsze und zobrie und ist fúr alles gifte
++               guͦte. <milestone unit="phr" n="2"/>Der sardin ist die goͤtlich minne, die uns kumet
++               von der aller edlesten statt, daz ist von <app type="variants" xml:id="prov_9f0_f36_7c">
+                   <lem><corr type="editorChange">dem</corr></lem>
+-                  <rdg wit="#bea3e268-3d06"><note type="editorial"><q>dem</q> vom Korrektor ergänzt</note></rdg>
++                  <rdg wit="#bea3e268-3d06"><note type="editorial"><q>dem</q> vom Korrektor
++                        ergänzt</note></rdg>
+                   <rdg wit="#ff24cac4-2fca #eb978f42-b430 #be82f0ad-a15a"/>
+-               </app> himelriche und ist rotvar, won si ist daz fúre der hailigen drivaͤltikait und machet den <cb n="29rb"/> menschen, der si het, als froͤlich und wol gemuͦt, daz er allain in gott jubilieret und contemplieret.
+-<milestone unit="phr" n="3"/>Die minne vertribet truren und git konhait, daz si nit enahtend dez nesten fraise und widerwertikait, und ist koͤne und veste in allem liden und vernúftig, daz si iren viende kan minnen als iren frúnde.
+-<milestone unit="phr" n="4"/>Sú vertribet trúgnússe und zobrie, daz ist anvaͤhtunge boͤser bekorunge, und behuͤt den menschen vor aller gifte, das ist vor allen súnden, die in gottes geirren moͤhten.</p>
++               </app> himelriche und ist rotvar, won si ist daz fúre der hailigen drivaͤltikait und
++               machet den <cb n="29rb"/> menschen, der si het, als froͤlich und wol gemuͦt, daz er
++               allain in gott jubilieret und contemplieret. <milestone unit="phr" n="3"/>Die minne
++               vertribet truren und git konhait, daz si nit enahtend dez nesten fraise und
++               widerwertikait, und ist koͤne und veste in allem liden und vernúftig, daz si iren
++               viende kan minnen als iren frúnde. <milestone unit="phr" n="4"/>Sú vertribet
++               trúgnússe und zobrie, daz ist anvaͤhtunge boͤser <rs type="glossary" key="gloss_d1e819">bekorunge</rs>, und behuͤt den menschen vor aller gifte, das
++               ist vor allen súnden, die in gottes geirren moͤhten.</p>
+             <p n="15"> 
+                <milestone unit="phr" n="1"/>Hab minne liep vor allen tugenden, won alle tugende sint ǎne minne unverfangen, sprichet <persName>Augustinus</persName>.
+ <milestone unit="phr" n="2"/>Und der sinen naͤhsten nút minnet, der krenket goͤtlich minne in ym selber und mag noch kan gott nit minnen, seit <persName>Gregorius</persName>.
+diff --git a/ovp/data/Kapitel/09_Der_neunte_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/09_Der_neunte_Alte.xml
+index 4a402f6..f760d80 100644
+--- a/ovp/data/Kapitel/09_Der_neunte_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/09_Der_neunte_Alte.xml
+@@ -432,8 +432,8 @@
+                allem liden, ainen herten grossen stritte wider alle untugende.
+                <milestone unit="phr" n="3"/>Und also leret úns <persName>Anshelmus</persName> in dem
+                buͦche von dem frigen willen <cb n="33va"/> und sprichet: Gnade hilfet dem frigen
+-               willen, das er sin ordunge ze gott nit enlǎt, und waz im widervalles begegenet in
+-               bekorunge, da brichet er sich von und schiket sich zuͦ der <app type="variants" xml:id="prov_fdc_764_1a">
++               willen, das er sin ordunge ze gott nit enlǎt, und waz im widervalles begegenet in <rs type="glossary" key="gloss_d1e819">bekorunge</rs>, da brichet er sich von und
++               schiket sich zuͦ der <app type="variants" xml:id="prov_fdc_764_1a">
+                   <lem>schle<corr type="editorChange">ch</corr>tikait</lem>
+                   <rdg wit="#eb978f42-b430 #be82f0ad-a15a">schlechtikait</rdg>
+                   <rdg wit="#bea3e268-3d06">schletikait</rdg>
+@@ -442,7 +442,8 @@
+                menschen. <milestone unit="phr" n="5"/>Was gebresten dem menschen anhanget, die
+                straffet gnade und lútert si mit buͦsse. <milestone unit="phr" n="6"/>Si <app type="variants" xml:id="prov_ffb_c52_ad">
+                   <lem>lere<corr type="editorChange">t</corr></lem>
+-                  <rdg wit="#bea3e268-3d06"><note type="editorial">danach getilgtes <q>si</q></note></rdg>
++                  <rdg wit="#bea3e268-3d06"><note type="editorial">danach getilgtes
++                     <q>si</q></note></rdg>
+                   <rdg wit="#be82f0ad-a15a #ff24cac4-2fca #eb978f42-b430">leret si</rdg>
+                </app>
+                <corr type="editorChange">d</corr>ie beschaidenhait recht tuͦn und widerrǎttet alle
+@@ -451,15 +452,16 @@
+                   <milestone unit="phr" n="7"/><?oxy_comment_start author="zinsmeister" comment="Vgl. MFl, Stichwort Gracia q: Aliquando plerique et uitam habentes mundam, non accipiunt graciam. Quare? Ne in superbiam eleuentur, ne inflentur uentositate iactancie, ne altitudo muneris negligentiores efficiat. - Crisostomus super epistolam ad Hebreos. " id="ij1_cld_d3b"?><quote type="mfl">Und stat doch mit warhait, <app type="variants" xml:id="prov_c6f_690_e4">
+                      <lem>daz <corr type="editorChange">et</corr>lich</lem>
+                      <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">etlich menschen [...] hǎnd</rdg>
+-                     <rdg wit="#bea3e268-3d06">etlich menschen [...] hand <note type="editorial">vom Korrektor
+-                           gebessert aus <q>ieclich mensche [...] hant</q></note></rdg>
++                     <rdg wit="#bea3e268-3d06">etlich menschen [...] hand <note type="editorial">vom
++                           Korrektor gebessert aus <q>ieclich mensche [...] hant</q></note></rdg>
+                      <rdg wit="#eb978f42-b430">ain yeklicher ain rain saͤlig leben hat</rdg>
+                   </app> mensche<corr type="editorChange">n</corr> ain rain selig leben han<corr type="editorChange">d,</corr> den doch gnade wirt underzogen, als
+                      <persName>Crisostonus der guldin munt</persName> sprichet úber
+                      <persName>Paulus</persName> epistel, daz <app type="variants" xml:id="prov_8da_1cd_35">
+                      <lem>d<corr type="editorChange">az</corr></lem>
+                      <rdg wit="#be82f0ad-a15a">daz</rdg>
+-                     <rdg wit="#bea3e268-3d06">daz <note type="editorial">gebessert aus <q>die</q></note></rdg>
++                     <rdg wit="#bea3e268-3d06">daz <note type="editorial">gebessert aus
++                           <q>die</q></note></rdg>
+                      <rdg wit="#ff24cac4-2fca">die</rdg>
+                      <rdg wit="#eb978f42-b430">den</rdg>
+                   </app> underziehen der gnaden beschicht <app type="variants" xml:id="prov_e6a_351_7e">
+diff --git a/ovp/data/Kapitel/11_Der_elfte_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/11_Der_elfte_Alte.xml
+index 59cc246..3b93a81 100644
+--- a/ovp/data/Kapitel/11_Der_elfte_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/11_Der_elfte_Alte.xml
+@@ -1435,10 +1435,11 @@
+                <milestone unit="phr" n="1"/>Darnach und du die gelúkhaft frǒnspise seleklich
+                genossen hest, so sprich dis mit ernst und <rs type="glossary" key="gloss_d1e345">andaht</rs>: <milestone unit="phr" n="2"/>'Ich bitte dich,<pb ed="#o_ubn_2sl_n2b" n="21,30"/> o du suͤsser <persName>Jhesus</persName>, ich beger, daz mir din
+                minnenklicher frǒnlicham - miner sele - ain lustig suͤssekait sie und in mir ain
+-               haile und ain schirme in aller bekorunge. <milestone unit="phr" n="3"/>Sie mir ain
+-               froͤde in aller widerwertekait. <milestone unit="phr" n="4"/>Sie mir ain lieht und
+-               ain krǎft in allen worten und werken. <milestone unit="phr" n="5"/>Sie mir ain trǒst
+-               und ain hilfe in aller hailikait. <milestone unit="phr" n="6"/><app type="variants" xml:id="prov_8e5_efa_f8">
++               haile und ain schirme in aller <rs type="glossary" key="gloss_d1e819">bekorunge</rs>.
++               <milestone unit="phr" n="3"/>Sie mir ain froͤde in aller widerwertekait.
++               <milestone unit="phr" n="4"/>Sie mir ain lieht und ain krǎft in allen worten und
++               werken. <milestone unit="phr" n="5"/>Sie mir ain trǒst und ain hilfe in aller
++               hailikait. <milestone unit="phr" n="6"/><app type="variants" xml:id="prov_8e5_efa_f8">
+                   <lem>Si<corr type="editorChange">g</corr></lem>
+                   <rdg wit="#bea3e268-3d06">Sig <note type="editorial">gebessert aus
+                         <q>Si</q></note></rdg>
+diff --git "a/ovp/data/Kapitel/12_Der_zw\342\224\234\342\225\242lfte_Alte.xml" "b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/12_Der_zw\342\224\234\342\225\242lfte_Alte.xml"
+index 30b743d..c095b39 100644
+--- "a/ovp/data/Kapitel/12_Der_zw\342\224\234\342\225\242lfte_Alte.xml"
++++ "b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/12_Der_zw\342\224\234\342\225\242lfte_Alte.xml"
+@@ -4265,9 +4265,8 @@
+                bitte dich durch diner frúhtberer geburte und durch der schonhait willen, die du bi
+                dinem sune herlich und rilich besessen hest, daz mir von dir gnad und applǎs werde
+                geben <cb n="93vb"/> aller miner súnde, und ain minneriches hailiges leben verlihen
+-               wellest und mich dinem aingebornen sun geben wellest und mich ǎne ende eweklichen
+-               behuͤtten wellest und beschirmen wellest vor aller widerwertekait.
+-               <milestone unit="phr" n="16"/>Daz sprichet der.</p>
++               wellest und mich dinem aingebornen sun geben wellest und mich ǎne ende eweklichen <rs type="glossary" key="gloss_d1e770">behuͤtten</rs> wellest und beschirmen wellest
++               vor aller widerwertekait. <milestone unit="phr" n="16"/>Daz sprichet der.</p>
+             <p n="101">
+                <milestone unit="phr" n="1"/>Es ist gar ain klaines, daz ich zwelfter alte von der
+                minerichen kaiserinen dich, minende sele, geleret hǒn wider daz grǒs lobe, daz von ir
+diff --git a/ovp/data/Kapitel/14_Der_vierzehnte_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/14_Der_vierzehnte_Alte.xml
+index 44824bc..b5c64e9 100644
+--- a/ovp/data/Kapitel/14_Der_vierzehnte_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/14_Der_vierzehnte_Alte.xml
+@@ -757,44 +757,66 @@
+                   gehailiget, also daz úwer gaist und sel und lip in kain klage von dem herren
+                      <persName>Jhesu Cristi</persName> niemer gevallent.'</quote>
+             </p>
+-            <p n="15"> 
++            <p n="15">
+                <milestone unit="phr" n="1"/>Die hailig goͤtlich kunst und geschrift die leret <app type="variants" xml:id="prov_686_359_30">
+                   <lem>u<corr type="editorChange">ns</corr></lem>
+                   <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">vns</rdg>
+-                  <rdg wit="#bea3e268-3d06">v́ns <note type="editorial">vom Korrektor gebessert aus <q>vch</q></note></rdg>
++                  <rdg wit="#bea3e268-3d06">v́ns <note type="editorial">vom Korrektor gebessert aus
++                           <q>vch</q></note></rdg>
+                   <rdg wit="#eb978f42-b430">vch</rdg>
+-               </app> in der alten <cb n="111va"/> und núwen ee alles, daz úns guͦt und núcze ist ze lib und ze sele inwendig und uswendig alz gar benuͤglich, daz <persName>Hugo von sant Victor</persName> davon <app type="variants" xml:id="prov_4ab_ad2_b3">
++               </app> in der alten <cb n="111va"/> und núwen ee alles, daz úns guͦt und núcze ist ze
++               lib und ze sele inwendig und uswendig alz gar benuͤglich, daz <persName>Hugo von sant
++                  Victor</persName> davon <app type="variants" xml:id="prov_4ab_ad2_b3">
+                   <lem><corr type="editorChange">ge</corr>schribe<corr type="editorChange">n</corr></lem>
+                   <rdg wit="#be82f0ad-a15a #ff24cac4-2fca #eb978f42-b430">geschrieben</rdg>
+-                  <rdg wit="#bea3e268-3d06">geschriben <note type="editorial">vom Korrektor gebessert aus <q>schribent</q></note></rdg>
+-               </app> het in dem buͦch von der arche <persName>Noe</persName> und sprichet: Goͤtlich lere ist daz buͦch des lebens, ain ursprung der ewekait, ain erkantnúst gottes, ain lieplich wesenhait.
+-<milestone unit="phr" n="2"/>Ir buͦchstaben mag nieman verdilgen, ir anblúk ist lustig und begirlich, ir lere ist lichte, <app type="variants" xml:id="prov_4f8_d43_08">
+-   <lem>i<corr type="editorChange">r k</corr>unst</lem>
+-                  <rdg wit="#bea3e268-3d06">kunst <note type="editorial">davor getilgtes <q>kunst</q></note></rdg>
+-               </app> ist suͤsse, ir grunt ist grundlǒs, ir worter ist ǎne zal vil, und ist doch ain wort, in dem alle ding beslǒssen sind.
+-<milestone unit="phr" n="3"/>Er sprichet ǒch in dem buͦch von der sele: <app type="variants" xml:id="prov_8d7_3bb_9b">
+-   <lem>Núcz<corr type="editorChange">i</corr>t</lem>
++                  <rdg wit="#bea3e268-3d06">geschriben <note type="editorial">vom Korrektor
++                        gebessert aus <q>schribent</q></note></rdg>
++               </app> het in dem buͦch von der arche <persName>Noe</persName> und sprichet: Goͤtlich
++               lere ist daz buͦch des lebens, ain ursprung der ewekait, ain erkantnúst gottes, ain
++               lieplich wesenhait. <milestone unit="phr" n="2"/>Ir buͦchstaben mag nieman verdilgen,
++               ir anblúk ist lustig und begirlich, ir lere ist lichte, <app type="variants" xml:id="prov_4f8_d43_08">
++                  <lem>i<corr type="editorChange">r k</corr>unst</lem>
++                  <rdg wit="#bea3e268-3d06">kunst <note type="editorial">davor getilgtes
++                           <q>kunst</q></note></rdg>
++               </app> ist suͤsse, ir grunt ist grundlǒs, ir worter ist ǎne zal vil, und ist doch ain
++               wort, in dem alle ding beslǒssen sind. <milestone unit="phr" n="3"/>Er sprichet ǒch
++               in dem buͦch von der sele: <app type="variants" xml:id="prov_8d7_3bb_9b">
++                  <lem>Núcz<corr type="editorChange">i</corr>t</lem>
+                   <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">Núczit</rdg>
+-                  <rdg wit="#bea3e268-3d06">Núczit <note type="editorial">gebessert aus <q>Núczet</q></note></rdg>
++                  <rdg wit="#bea3e268-3d06">Núczit <note type="editorial">gebessert aus
++                           <q>Núczet</q></note></rdg>
+                   <rdg wit="#eb978f42-b430">Núcz</rdg>
+                </app> ist in disem zit suͤsser ze enfinden, <app type="variants" xml:id="prov_0a2_c13_c0">
+-                  <lem>núcz<corr type="editorChange">it</corr> <cb n="111vb"/><corr type="editorChange">b</corr>egirlich<corr type="editorChange">ers</corr> ze empfahen,</lem>
+-                  <rdg wit="#bea3e268-3d06">Núczit begirlichers ze empfahen Núczit <note type="editorial">gebessert aus <q>Núczet ze begirlich ze empfahen Núczet</q></note></rdg>
++                  <lem>núcz<corr type="editorChange">it</corr>
++                     <cb n="111vb"/><corr type="editorChange">b</corr>egirlich<corr type="editorChange">ers</corr> ze empfahen,</lem>
++                  <rdg wit="#bea3e268-3d06">Núczit begirlichers ze empfahen Núczit <note type="editorial">gebessert aus <q>Núczet ze begirlich ze empfahen
++                        Núczet</q></note></rdg>
+                   <rdg wit="#ff24cac4-2fca">núczit begirlich ze empfahent núczit</rdg>
+                   <rdg wit="#eb978f42-b430">Núcz ist als begirlich ze enpfachent Núczit</rdg>
+                   <rdg wit="#be82f0ad-a15a">núnczit</rdg>
+-               </app> núcz<corr type="editorChange">i</corr>t schaidet den menschen bas von ungeordenter minne diser welt, núczet schirmet den menschen bas von bekorunge, núczet fúrdert den menschen bas ze allen guͦtten werken denn die arbait und der flise und daz studieren goͤtlicher lere und der hailigen geschrift.
+-<milestone unit="phr" n="4"/>Won was si leret, daz ist die ewig wishait, was si gebútet, daz ist die ewig guͦtekait und miltekait, waz si gehaisset, daz ist die ewig selekait und hailikait.</p>
+-            <p n="16"> 
+-               <milestone unit="phr" n="1"/><quote type="bible" xml:id="prov_902_1ce_c7" sameAs="#bible_613_564_ef">'Es sind aber laider gar vil menschen, die goͤtlicher lere nút enachtent noch goͤtlicher kunst und die hailigen geschrift weder hoͤren noch liden <cb n="112ra"/> wellent',</quote> sprichet <persName>Paulus</persName>.
+-<milestone unit="phr" n="2"/>Und in ir begirde so erwellent si in selber maister úppiger lere und <app type="variants" xml:id="prov_db5_ce4_e0">
+-   <lem>keren<corr type="editorChange">t s</corr>ich</lem>
+-                  <rdg wit="#bea3e268-3d06">sich <note type="editorial">davor getilgtes <q>sich</q></note></rdg>
+-               </app> von der warhait und folgent guͦtter lere nút und folgent falscher lere nach und verkerten sinnen und erdahten meren und gestifter, betrogner geschrift, die dick und vil mit <app type="variants" xml:id="prov_e7d_53a_18">
++               </app> núcz<corr type="editorChange">i</corr>t schaidet den menschen bas von
++               ungeordenter minne diser welt, núczet schirmet den menschen bas von <rs type="glossary" key="gloss_d1e819">bekorunge</rs>, núczet fúrdert den menschen bas
++               ze allen guͦtten werken denn die arbait und der flise und daz studieren goͤtlicher
++               lere und der hailigen geschrift. <milestone unit="phr" n="4"/>Won was si leret, daz
++               ist die ewig wishait, was si gebútet, daz ist die ewig guͦtekait und miltekait, waz
++               si gehaisset, daz ist die ewig selekait und hailikait.</p>
++            <p n="16">
++               <milestone unit="phr" n="1"/><quote type="bible" xml:id="prov_902_1ce_c7" sameAs="#bible_613_564_ef">'Es sind aber laider gar vil menschen, die goͤtlicher
++                  lere nút enachtent noch goͤtlicher kunst und die hailigen geschrift weder hoͤren
++                  noch liden <cb n="112ra"/> wellent',</quote> sprichet <persName>Paulus</persName>.
++               <milestone unit="phr" n="2"/>Und in ir begirde so erwellent si in selber maister
++               úppiger lere und <app type="variants" xml:id="prov_db5_ce4_e0">
++                  <lem>keren<corr type="editorChange">t s</corr>ich</lem>
++                  <rdg wit="#bea3e268-3d06">sich <note type="editorial">davor getilgtes
++                        <q>sich</q></note></rdg>
++               </app> von der warhait und folgent guͦtter lere nút und folgent falscher lere nach
++               und verkerten sinnen und erdahten meren und gestifter, betrogner geschrift, die dick
++               und vil mit <app type="variants" xml:id="prov_e7d_53a_18">
+                   <lem>k<corr type="editorChange">aͤ</corr>cze<corr type="editorChange">r</corr>ie</lem>
+                   <rdg wit="#ff24cac4-2fca #be82f0ad-a15a">keczerie</rdg>
+                   <rdg wit="#eb978f42-b430">kaͤczrien</rdg>
+-                  <rdg wit="#bea3e268-3d06">kaͤiczerie <note type="editorial">gebessert aus <q>kaͤiczeie</q></note></rdg>
++                  <rdg wit="#bea3e268-3d06">kaͤiczerie <note type="editorial">gebessert aus
++                           <q>kaͤiczeie</q></note></rdg>
+                </app> und mit <app type="variants" xml:id="prov_9ad_a94_f4">
+                   <lem>zob<corr type="editorChange">rie</corr></lem>
+                   <rdg wit="#ff24cac4-2fca #be82f0ad-a15a #eb978f42-b430">zobrie</rdg>
+@@ -808,7 +830,8 @@
+                   <lem>vermús<corr type="editorChange">ch</corr>et</lem>
+                   <rdg wit="#ff24cac4-2fca #be82f0ad-a15a #eb978f42-b430">vermúschet</rdg>
+                   <rdg wit="#bea3e268-3d06">vermússchet gebessert aus vermússet</rdg>
+-               </app> sind und sagent von helden und von stritten, von spunczieren, von luͦdern, von dichten und von <app type="variants" xml:id="prov_18e_79c_05">
++               </app> sind und sagent von helden und von stritten, von spunczieren, von luͦdern, von
++               dichten und von <app type="variants" xml:id="prov_18e_79c_05">
+                   <lem><corr type="editorChange">l</corr>oͤ<corr type="editorChange">s</corr>buͤchlin</lem>
+                   <rdg wit="#be82f0ad-a15a">loͤsbuͤchlin</rdg>
+                   <rdg wit="#bea3e268-3d06 #eb978f42-b430">boͤssen buͤchlin</rdg>
+@@ -816,37 +839,51 @@
+                   <lem>w<corr type="editorChange">u</corr>ndern,</lem>
+                   <rdg wit="#be82f0ad-a15a #eb978f42-b430">wundern</rdg>
+                   <rdg wit="#bea3e268-3d06">wndern</rdg>
+-               </app> die alle sind wider die hailigen ge<cb n="112rb"/>schrift<corr type="editorChange">e</corr> <app type="variants" xml:id="prov_e05_f68_32">
++               </app> die alle sind wider die hailigen ge<cb n="112rb"/>schrift<corr type="editorChange">e</corr>
++               <app type="variants" xml:id="prov_e05_f68_32">
+                   <lem><corr type="editorChange">u</corr>nd</lem>
+                   <rdg wit="#bea3e268-3d06"><note type="editorial">davor getilgtes sind</note></rdg>
+-               </app> wider got.
+-<milestone unit="phr" n="3"/>An soͤlich geschrift und lere und kunst solt du dich, minende sele, zemal núczet keren noch in nút volgen, won man verlúret daz zit mit soͤlicher úppigkait und úppiger lere <app type="comment" n="understanding" xml:id="prov_3ce_6d0_83">
++               </app> wider got. <milestone unit="phr" n="3"/>An soͤlich geschrift und lere und
++               kunst solt du dich, minende sele, zemal núczet keren noch in nút volgen, won man
++               verlúret daz zit mit soͤlicher úppigkait und úppiger lere <app type="comment" n="understanding" xml:id="prov_3ce_6d0_83">
+                   <lem>und ist </lem>
+-                  <note xml:id="prov_4ea_131_6e" type="editorial">'und sie (diese Lehre) ist'.</note>
+-               </app> unverfangen und wider got und bringet gar vil súnden, darumb der mensche muͦs got swere rechnung geben.
+-<milestone unit="phr" n="4"/>Huͤte dich vor schedlicher lere und túfenlicher kunst, si wisent dich von got und fuͤrent den menschen zuͦ dem boͤssen gaist und bringent in zuͦ vil verkerter und túfelscher bekorunge.
+-<milestone unit="phr" n="5"/>Es sprichet <persName>Crisostomus der guldin munt</persName> úber <persName>Matheus</persName> <app type="variants" xml:id="prov_528_9eb_8c">
++                  <note xml:id="prov_4ea_131_6e" type="editorial">'und sie (diese Lehre)
++                     ist'.</note>
++               </app> unverfangen und wider got und bringet gar vil súnden, darumb der mensche muͦs
++               got swere rechnung geben. <milestone unit="phr" n="4"/>Huͤte dich vor schedlicher
++               lere und túfenlicher kunst, si wisent dich von got und fuͤrent den menschen zuͦ dem
++               boͤssen gaist und bringent in zuͦ vil verkerter und túfelscher <rs type="glossary" key="gloss_d1e819">bekorunge</rs>. <milestone unit="phr" n="5"/>Es sprichet
++                  <persName>Crisostomus der guldin munt</persName> úber <persName>Matheus</persName>
++               <app type="variants" xml:id="prov_528_9eb_8c">
+                   <lem>ewangeli<corr type="editorChange">um,</corr></lem>
+                   <rdg wit="#eb978f42-b430 #be82f0ad-a15a">ewangelium</rdg>
+-                  <rdg wit="#bea3e268-3d06">ewangelium <note type="editorial">gebessert aus <q>ewangelio</q></note></rdg>
++                  <rdg wit="#bea3e268-3d06">ewangelium <note type="editorial">gebessert aus
++                           <q>ewangelio</q></note></rdg>
+                </app> daz <cb n="112va"/> under tusent weltlicher sagmeren und <app type="variants" xml:id="prov_214_7f4_e5">
+                   <lem>gestif<corr type="editorChange">t</corr>er,</lem>
+                   <rdg wit="#be82f0ad-a15a #eb978f42-b430">gestifter</rdg>
+                   <rdg wit="#bea3e268-3d06">gestifer</rdg>
+                </app> betrǒgner lere vindet man kum ain gancz warhait.
+-<milestone unit="phr" n="6"/>Was vervahet in <app type="variants" xml:id="prov_b01_2e8_ec">
+-   <lem>weltli<corr type="editorChange">ch</corr>er</lem>
++               <milestone unit="phr" n="6"/>Was vervahet in <app type="variants" xml:id="prov_b01_2e8_ec">
++                  <lem>weltli<corr type="editorChange">ch</corr>er</lem>
+                   <rdg wit="#eb978f42-b430 #be82f0ad-a15a">weltlicher</rdg>
+                   <rdg wit="#bea3e268-3d06">weltlier</rdg>
+-               </app> betrogner lere zuͦ nemen und in goͤtlicher dichtunge abnemen, sprichet <persName>Ysidorus</persName> an dem ersten buͦch von dem hoͤhsten guͦt, und zergenklichem richtuͦm nach volgen und himelsche kunst und lere varen lǒn?
+-<milestone unit="phr" n="7"/>Soͤlicher verbotten buͤcher und unnúczer lere solt du fliehen und miden durch der minne willen, die du hǒn solt zuͦ goͤtlicher lere.
+-<milestone unit="phr" n="8"/>Si hant uswendig schinnenden glancze und suͤsse wort, aber inwendig sind si <app type="variants" xml:id="prov_c0e_cbd_05">
+-                  <lem><corr type="editorChange">wan</corr> <corr type="editorChange">und</corr> leͣr<corr type="editorChange">e a</corr>ller tugend</lem>
++               </app> betrogner lere zuͦ nemen und in goͤtlicher dichtunge abnemen, sprichet
++                  <persName>Ysidorus</persName> an dem ersten buͦch von dem hoͤhsten guͦt, und
++               zergenklichem richtuͦm nach volgen und himelsche kunst und lere varen lǒn?
++               <milestone unit="phr" n="7"/>Soͤlicher verbotten buͤcher und unnúczer lere solt du
++               fliehen und miden durch der minne willen, die du hǒn solt zuͦ goͤtlicher lere.
++               <milestone unit="phr" n="8"/>Si hant uswendig schinnenden glancze und suͤsse wort,
++               aber inwendig sind si <app type="variants" xml:id="prov_c0e_cbd_05">
++                  <lem><corr type="editorChange">wan</corr>
++                     <corr type="editorChange">und</corr> leͣr<corr type="editorChange">e
++                     a</corr>ller tugend</lem>
+                   <rdg wit="#be82f0ad-a15a">wan und leͣre aller tugend</rdg>
+-                  <rdg wit="#bea3e268-3d06"><note type="editorial">gebessert aus <q>irr an lere vnd aller tugend</q></note></rdg>
++                  <rdg wit="#bea3e268-3d06"><note type="editorial">gebessert aus <q>irr an lere vnd
++                           aller tugend</q></note></rdg>
+                   <rdg wit="#eb978f42-b430">ir ler vnd allen tugenden</rdg>
+-               </app> und wishait.
+-<milestone unit="phr" n="9"/>Kere dich nút an si, won si sind behefte mit des boͤssen gaistes gespenst.</p>
++               </app> und wishait. <milestone unit="phr" n="9"/>Kere dich nút an si, won si sind
++               behefte mit des boͤssen gaistes gespenst.</p>
+             <p n="17"> 
+                <milestone unit="phr" n="1"/>Es schribet <app type="variants" xml:id="prov_c7e_d90_bf">
+                   <lem><persName>T<corr type="editorChange">e</corr>rrencius</persName></lem>
+diff --git "a/ovp/data/Kapitel/15_Der_f\342\224\234\342\225\235nfzehnte_Alte.xml" "b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/15_Der_f\342\224\234\342\225\235nfzehnte_Alte.xml"
+index 64910d3..29e3f45 100644
+--- "a/ovp/data/Kapitel/15_Der_f\342\224\234\342\225\235nfzehnte_Alte.xml"
++++ "b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/15_Der_f\342\224\234\342\225\235nfzehnte_Alte.xml"
+@@ -217,9 +217,8 @@
+                   <rdg wit="#bea3e268-3d06 #eb978f42-b430"/>
+                </app>
+                <milestone unit="phr" n="15"/>Ains vichtet wider die gelúste des flaisches, daz ander
+-               stat muͤssig in gelústen. <milestone unit="phr" n="16"/>Ains erweret sich boͤsser
+-               bekorunge, daz ander wirt von nieman <app type="variants" xml:id="prov_5c1_34c_fe">
+-                  <lem>bek<corr type="editorChange">o</corr>rt.</lem>
++               stat muͤssig in gelústen. <milestone unit="phr" n="16"/>Ains erweret sich boͤsser <rs type="glossary" key="gloss_d1e819">bekorunge</rs>, daz ander wirt von nieman <app type="variants" xml:id="prov_5c1_34c_fe">
++                  <lem><rs type="glossary" key="gloss_jlm_g1k_mkb">bek<corr type="editorChange">o</corr>rt</rs>.</lem>
+                   <rdg wit="#bea3e268-3d06">bekort <note type="editorial">gebessert aus
+                            <q>bekert</q></note></rdg>
+                   <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">bekoret</rdg>
+@@ -539,40 +538,63 @@
+                   <rdg wit="#be82f0ad-a15a">schwigen</rdg>
+                   <rdg wit="#bea3e268-3d06 #eb978f42-b430">singen</rdg>
+                </app> wenne wir wol wúrken, daz ruͤffet vor got fúr úns mit ernst.</p>
+-            <p n="9"> 
+-               <milestone unit="phr" n="1"/>In allen guͦtten werken und uͤbungen solt du dich vor zwain dingen wol huͤtten, sprichet <persName>Hugo</persName> von der betrahtunge, ains ist <app type="comment" n="understanding" xml:id="prov_423_901_01">
++            <p n="9">
++               <milestone unit="phr" n="1"/>In allen guͦtten werken und uͤbungen solt du dich vor
++               zwain dingen wol huͤtten, sprichet <persName>Hugo</persName> von der betrahtunge,
++               ains ist <app type="comment" n="understanding" xml:id="prov_423_901_01">
+                   <lem>swermuͤtig pinlichait,</lem>
+-                  <note xml:id="prov_5f2_ef5_b8" type="editorial">'das Gemüt beschwerende Quälerei'. ■Quelle? Zuweisung an Hugo (welcher?) bis 10.17!</note>
+-               </app> wǒn damit erbitteret die suͤssekeit dez gemuͤttes, daz die guͦte uͤbung hinder slagen wirt, daz ander ist unendeliche <app type="variants" xml:id="prov_261_287_55">
+-                  <lem>bekorung und bekúmerunge, die <corr type="editorChange">v</corr>erke<corr type="editorChange">re</corr>nt und zerstoͤrent der herczen frid</lem>
+-                  <rdg wit="#bea3e268-3d06 #eb978f42-b430">bekorunge vnd bekúmerunge die <app type="variants" xml:id="prov_d0e_d68_ba"><rdg wit="#bea3e268-3d06">werkent</rdg><rdg wit="#eb978f42-b430">wurkent</rdg></app> vnd zerst. der herczen frid</rdg>
+-                  <rdg wit="#be82f0ad-a15a">bekúmerung die verkert vnd zer stoͤrt dez hercen frid</rdg>
+-               </app> und guͦt schikung.
+-<milestone unit="phr" n="2"/>Húete dich vor in beiden, won sú sind schedlich.
+-<milestone unit="phr" n="3"/><app type="variants" xml:id="prov_87f_b8c_b1">
+-   <lem>Me<corr type="editorChange">r</corr>k,</lem>
++                  <note xml:id="prov_5f2_ef5_b8" type="editorial">'das Gemüt beschwerende Quälerei'.
++                     ■Quelle? Zuweisung an Hugo (welcher?) bis 10.17!</note>
++               </app> wǒn damit erbitteret die suͤssekeit dez gemuͤttes, daz die guͦte uͤbung hinder
++               slagen wirt, daz ander ist unendeliche <app type="variants" xml:id="prov_261_287_55">
++                  <lem><rs type="glossary" key="gloss_d1e819">bekorung</rs> und bekúmerunge, die
++                        <corr type="editorChange">v</corr>erke<corr type="editorChange">re</corr>nt
++                     und zerstoͤrent der herczen frid</lem>
++                  <rdg wit="#bea3e268-3d06 #eb978f42-b430">bekorunge vnd bekúmerunge die <app type="variants" xml:id="prov_d0e_d68_ba">
++                        <rdg wit="#bea3e268-3d06">werkent</rdg>
++                        <rdg wit="#eb978f42-b430">wurkent</rdg>
++                     </app> vnd zerst. der herczen frid</rdg>
++                  <rdg wit="#be82f0ad-a15a">bekúmerung die verkert vnd zer stoͤrt dez hercen
++                     frid</rdg>
++               </app> und guͦt schikung. <milestone unit="phr" n="2"/>Húete dich vor in beiden, won
++               sú sind schedlich. <milestone unit="phr" n="3"/><app type="variants" xml:id="prov_87f_b8c_b1">
++                  <lem>Me<corr type="editorChange">r</corr>k,</lem>
+                   <rdg wit="#be82f0ad-a15a #eb978f42-b430">Merk</rdg>
+                   <rdg wit="#bea3e268-3d06">Merrk</rdg>
+-               </app> was <persName>Haymo</persName> sprichet <cb n="121rb"/> úber der tǒgen buͦch: <app type="comment" xml:id="prov_f42_c69_53">
++               </app> was <persName>Haymo</persName> sprichet <cb n="121rb"/> úber der tǒgen buͦch:
++                  <app type="comment" xml:id="prov_f42_c69_53">
+                   <lem>Werke und arbait sind gemain guͦten und boͤssen.
+-<milestone unit="phr" n="4"/>Aber <app type="variants" xml:id="prov_18e_227_d0">
+-                  <lem>wa<corr type="editorChange">r</corr> gedulte is<corr type="editorChange">t</corr></lem>
+-                  <rdg wit="#be82f0ad-a15a">war gedulte ist</rdg>
+-                  <rdg wit="#bea3e268-3d06"><note type="editorial"><q>wa gedulte ist ist</q> geändert zu</note> wa gedulte ist die ist</rdg>
+-                  <rdg wit="#eb978f42-b430">wa gedult ist da ist</rdg>
+-               </app> <corr type="editorChange">a</corr>in besunder gabe der erwelten, und wa gedult nit bi ist, da werdent vil guͦtter werke zerstoͤret.
+-<milestone unit="phr" n="5"/>Aber reht und warhaft gedult ist, daz man der nehsten gebresten mitlidig ist, und die da boͤs und úbel lident, daz dis wil der lider luterlich <app type="variants" xml:id="prov_f2d_f1f_c8">
+-                  <lem>mine<corr type="editorChange">n.</corr></lem>
+-                  <rdg wit="#be82f0ad-a15a #eb978f42-b430">minnen</rdg>
+-                  <rdg wit="#bea3e268-3d06">minent</rdg>
+-               </app></lem>
+-                  <note xml:id="prov_3a4_e5e_e3" type="editorial">Haymo Halberstatensis Episcopi Expositionis in Apocalypsin B. Joannis, PL Vol. 117, Sp. 964B: <q>Opera enim et labores communia sunt bonis et malis: patientia autem vera, singulare munus collatum est in coelestibus; quae si desit, multa opera, multique labores subito ad nihilum rediguntur. Patientia autem vera est quae et mala proximorum aequanimiter tolerat, et eos quos prave agentes portat, sinceriter amat.</q></note>
++                     <milestone unit="phr" n="4"/>Aber <app type="variants" xml:id="prov_18e_227_d0">
++                        <lem>wa<corr type="editorChange">r</corr> gedulte is<corr type="editorChange">t</corr></lem>
++                        <rdg wit="#be82f0ad-a15a">war gedulte ist</rdg>
++                        <rdg wit="#bea3e268-3d06"><note type="editorial"><q>wa gedulte ist ist</q>
++                              geändert zu</note> wa gedulte ist die ist</rdg>
++                        <rdg wit="#eb978f42-b430">wa gedult ist da ist</rdg>
++                     </app>
++                     <corr type="editorChange">a</corr>in besunder gabe der erwelten, und wa gedult
++                     nit bi ist, da werdent vil guͦtter werke zerstoͤret.
++                     <milestone unit="phr" n="5"/>Aber reht und warhaft gedult ist, daz man der
++                     nehsten gebresten mitlidig ist, und die da boͤs und úbel lident, daz dis wil
++                     der lider luterlich <app type="variants" xml:id="prov_f2d_f1f_c8">
++                        <lem>mine<corr type="editorChange">n.</corr></lem>
++                        <rdg wit="#be82f0ad-a15a #eb978f42-b430">minnen</rdg>
++                        <rdg wit="#bea3e268-3d06">minent</rdg>
++                     </app></lem>
++                  <note xml:id="prov_3a4_e5e_e3" type="editorial">Haymo Halberstatensis Episcopi
++                     Expositionis in Apocalypsin B. Joannis, PL Vol. 117, Sp. 964B: <q>Opera enim et
++                        labores communia sunt bonis et malis: patientia autem vera, singulare munus
++                        collatum est in coelestibus; quae si desit, multa opera, multique labores
++                        subito ad nihilum rediguntur. Patientia autem vera est quae et mala
++                        proximorum aequanimiter tolerat, et eos quos prave agentes portat,
++                        sinceriter amat.</q></note>
+                </app>
+                <milestone unit="phr" n="6"/>Geschiht dir <app type="comment" n="understanding" xml:id="prov_141_493_10">
+                   <lem>kain</lem>
+                   <note xml:id="prov_0b4_36f_95" type="editorial">deheine <note type="editorial">'irgendeine'.</note>
+                   </note>
+-               </app> widerwertekait, die dich unlidelich dunket, sprichet <persName>Ambrosius</persName> von den ampten, daz solt du also liden, alz were dir nút geschehen von nature.</p>
++               </app> widerwertekait, die dich unlidelich dunket, sprichet
++                  <persName>Ambrosius</persName> von den ampten, daz solt du also liden, alz were
++               dir nút geschehen von nature.</p>
+             <p n="10"> 
+                <milestone unit="phr" n="1"/>Wilt du, minende sele, ain <app type="variants" xml:id="prov_66f_fad_10">
+                   <lem>reht volkumener uͤber</lem>
+diff --git a/ovp/data/Kapitel/16_Der_sechzehnte_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/16_Der_sechzehnte_Alte.xml
+index ebba114..d0217bf 100644
+--- a/ovp/data/Kapitel/16_Der_sechzehnte_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/16_Der_sechzehnte_Alte.xml
+@@ -208,48 +208,61 @@
+                   <note xml:id="prov_cc9_53a_ee" type="editorial">'ganz und gar'.</note>
+                </app> begirlich. <milestone unit="phr" n="12"/>Und darumb so het er voͤlleklich,
+                inneklichen und unwiderruͦffenlich in sich gezogen all <rs type="glossary" key="gloss_d1e648">begriffer</rs> und schǒwender <rs type="glossary" key="gloss_d1e600">begirlichait</rs>.</p>
+-            <p n="3"> 
+-               <milestone unit="phr" n="1"/>Von ainer materie kument gedenke, betrahtunge und schǒwen, sprichet <persName>Richardus</persName> von dem schǒwenden leben.
+-<milestone unit="phr" n="2"/>Gedenken ist ǎn arbait und ǎne fruhte, betrahtunge mit arbait und mit fruhte.
+-<milestone unit="phr" n="3"/>Gedenk kument von inbilden, betrahtung kumet von beschaidenhait.
+-<milestone unit="phr" n="4"/>Aber schowen kumet von verston und erkennen und begriffen.
+-<milestone unit="phr" n="5"/><app type="comment" n="understanding" xml:id="prov_93d_5fb_61">
++            <p n="3">
++               <milestone unit="phr" n="1"/>Von ainer materie kument gedenke, betrahtunge und
++               schǒwen, sprichet <persName>Richardus</persName> von dem schǒwenden leben.
++               <milestone unit="phr" n="2"/>Gedenken ist ǎn arbait und ǎne fruhte, betrahtunge mit
++               arbait und mit fruhte. <milestone unit="phr" n="3"/>Gedenk kument von inbilden,
++               betrahtung kumet von beschaidenhait. <milestone unit="phr" n="4"/>Aber schowen kumet
++               von verston und erkennen und begriffen. <milestone unit="phr" n="5"/><app type="comment" n="understanding" xml:id="prov_93d_5fb_61">
+                   <lem>Der underschaid ist aller notdúrftigest ze schǒwend.</lem>
+-                  <note xml:id="prov_3c5_cd9_7f" type="editorial">'Diesen Unterschied zu erkennen, ist am wichtigsten.'</note>
++                  <note xml:id="prov_3c5_cd9_7f" type="editorial">'Diesen Unterschied zu erkennen,
++                     ist am wichtigsten.'</note>
+                </app>
+                <milestone unit="phr" n="6"/>Schǒwen ist ain anders denne <app type="comment" n="understanding" xml:id="prov_755_a91_e6">
+                   <lem>innekait pruͤfunge,</lem>
+                   <note xml:id="prov_e08_d73_d2" type="editorial">'eine Prüfung des Inneren'.</note>
+-               </app> sprichet <persName>Bernhardus</persName> in dem buͦch von dem troste, won schǒwen ist ain begriffung der warhait <cb n="125va"/> und nit zwifelig, aber pruͤfunge ist des gemuͤtes ervorscherin und spúrerin der mainung.
+-<milestone unit="phr" n="7"/>Es sprichet <app type="variants" xml:id="prov_cb1_03e_76">
++               </app> sprichet <persName>Bernhardus</persName> in dem buͦch von dem troste, won
++               schǒwen ist ain begriffung der warhait <cb n="125va"/> und nit zwifelig, aber
++               pruͤfunge ist des gemuͤtes ervorscherin und spúrerin der mainung.
++               <milestone unit="phr" n="7"/>Es sprichet <app type="variants" xml:id="prov_cb1_03e_76">
+                   <lem><corr type="editorChange">die</corr></lem>
+                   <rdg wit="#eb978f42-b430">die</rdg>
+-                  <rdg wit="#bea3e268-3d06">die <note type="editorial">vom Korrektor ergänzt</note></rdg>
++                  <rdg wit="#bea3e268-3d06">die <note type="editorial">vom Korrektor
++                     ergänzt</note></rdg>
+                   <rdg wit="#be82f0ad-a15a">och die</rdg>
+-               </app> glǒsse úber den salter und ǒch <persName>Augustinus</persName>, daz enczuken ist dez menschen gemuͤtes úberswenken und geschieht etwenne von erschrekunge, etwenne daz der mensche entfremdet wirt in aller vergessenlichait irdescher sachen, etwenne daz es kumet von infliessender vermannung, daz dez menschen gemuͤte uf tribet in ain fremd wise úber dez menschen naturlich vermúgen, und dis ist allez nút schǒwend leben.
+-<milestone unit="phr" n="8"/>Es stat ǒch der mensche <app type="comment" n="understanding" xml:id="prov_0c6_bc3_ef">
+-   <lem>verdaht in suͤssekait von got</lem>
+-                  <note xml:id="prov_a58_720_3f" type="editorial">'von Gott in Lieblichkeit eingehüllt'.</note>
++               </app> glǒsse úber den salter und ǒch <persName>Augustinus</persName>, daz enczuken
++               ist dez menschen gemuͤtes úberswenken und geschieht etwenne von erschrekunge, etwenne
++               daz der mensche entfremdet wirt in aller vergessenlichait irdescher sachen, etwenne
++               daz es kumet von infliessender vermannung, daz dez menschen gemuͤte uf tribet in ain
++               fremd wise úber dez menschen naturlich vermúgen, und dis ist allez nút schǒwend
++               leben. <milestone unit="phr" n="8"/>Es stat ǒch der mensche <app type="comment" n="understanding" xml:id="prov_0c6_bc3_ef">
++                  <lem>verdaht in suͤssekait von got</lem>
++                  <note xml:id="prov_a58_720_3f" type="editorial">'von Gott in Lieblichkeit
++                     eingehüllt'.</note>
+                </app> in im selber verzuket und het doch nit kainen sichern <app type="variants" xml:id="prov_093_630_d1">
+                   <lem>gegen<corr type="editorChange">w</corr>úrffe</lem>
+                   <rdg wit="#be82f0ad-a15a #eb978f42-b430"/>
+                   <rdg wit="#bea3e268-3d06">gegenúrffe</rdg>
+-               </app> und diz ist ǒch nút schǒwen.
+-<milestone unit="phr" n="9"/>Won solich froͤmde wise haissent <app type="variants" xml:id="prov_ad2_ac0_bf">
+-   <lem>inbrú<corr type="editorChange">n</corr>stig</lem>
++               </app> und diz ist ǒch nút schǒwen. <milestone unit="phr" n="9"/>Won solich froͤmde
++               wise haissent <app type="variants" xml:id="prov_ad2_ac0_bf">
++                  <lem>inbrú<corr type="editorChange">n</corr>stig</lem>
+                   <rdg wit="#eb978f42-b430 #be82f0ad-a15a">inbrúnstig</rdg>
+                   <rdg wit="#bea3e268-3d06">inbrústig</rdg>
+-               </app> vermanunge, die dik und vil geschehent.
+-<milestone unit="phr" n="10"/>Wenne aber der mensche mit suͤssekait dez schǒwen <cb n="125vb"/> úber sich selben entzuket wirt, so wirt er getrenket <app type="variants" xml:id="prov_857_429_76">
+-   <lem>mit aim úberswenke<corr type="editorChange">n</corr></lem>
++               </app> vermanunge, die dik und vil geschehent. <milestone unit="phr" n="10"/>Wenne
++               aber der mensche mit suͤssekait dez schǒwen <cb n="125vb"/> úber sich selben entzuket
++               wirt, so wirt er getrenket <app type="variants" xml:id="prov_857_429_76">
++                  <lem>mit aim úberswenke<corr type="editorChange">n</corr></lem>
+                   <rdg wit="#be82f0ad-a15a">mit aim v́ber swenken</rdg>
+-                  <rdg wit="#bea3e268-3d06"><note type="editorial"><q>mit aim v́ber swenkende</q> geändert zu</note> mit aim v́ber swenkender</rdg>
++                  <rdg wit="#bea3e268-3d06"><note type="editorial"><q>mit aim v́ber swenkende</q>
++                        geändert zu</note> mit aim v́ber swenkender</rdg>
+                   <rdg wit="#eb978f42-b430">in ainer v́ber schǒwender</rdg>
+-               </app> goͤtlicher suͤssekait alz gar úbertreffenlich, daz er empfremdet wirt aller siner naturlicher múglichait.
+-<milestone unit="phr" n="11"/>Und ist in zit <app type="comment" n="understanding" xml:id="prov_1c9_820_59">
++               </app> goͤtlicher suͤssekait alz gar úbertreffenlich, daz er empfremdet wirt aller
++               siner naturlicher múglichait. <milestone unit="phr" n="11"/>Und ist in zit <app type="comment" n="understanding" xml:id="prov_1c9_820_59">
+                   <lem>nút</lem>
+                   <note xml:id="prov_3ff_8ff_5e" type="editorial">'nichts'.</note>
+-</app><?oxy_comment_start author="narndt" comment="endTag = ap1"?><?oxy_comment_end?> suͤsser, <app type="comment" n="understanding" xml:id="prov_d5c_da8_70">
++               </app><?oxy_comment_start author="narndt" comment="endTag = ap1"?><?oxy_comment_end?>suͤsser,
++                  <app type="comment" n="understanding" xml:id="prov_d5c_da8_70">
+                   <lem>nit</lem>
+                   <note xml:id="prov_fc8_000_77" type="editorial">'nichts'.</note>
+                </app> froͤlicher, nit begirlicher, <app type="variants" xml:id="prov_1fe_663_3a">
+@@ -259,15 +272,22 @@
+                </app> den menschen von weltlicher begirde empfremden muge, <app type="comment" n="understanding" xml:id="prov_a97_2c9_4e">
+                   <lem>noch</lem>
+                   <note xml:id="prov_944_e78_78" type="editorial">'auch nicht'.</note>
+-               </app> wider boͤse bekorunge streben und guͦte werk anvahen, denne solich schǒwend leben.
+-<milestone unit="phr" n="12"/>Diz allez sprichet <persName>Richardus</persName> in ainer bredige.
+-<milestone unit="phr" n="13"/>Got verhenget ǒch etwenne, daz sich der boͤsse gaist verendert in engelsche zierlich gestalt und wirt denne dem menschen alz wol mit der betrogner wise, daz er wenet sin in ainnem schǒwenden leben.
+-<milestone unit="phr" n="14"/>Darinn sol sich der mensche wol versuͦchen, sprichet sant <persName>Jakob</persName> und <persName>Gregorius</persName> <cb n="126ra"/> mit im, daz er bestand und nút vale noch betrogen werd.
+-<milestone unit="phr" n="15"/><app type="comment" n="understanding" xml:id="prov_b05_fb0_bb">
++               </app> wider boͤse <rs type="glossary" key="gloss_d1e819">bekorunge</rs> streben und
++               guͦte werk anvahen, denne solich schǒwend leben. <milestone unit="phr" n="12"/>Diz
++               allez sprichet <persName>Richardus</persName> in ainer bredige.
++               <milestone unit="phr" n="13"/>Got verhenget ǒch etwenne, daz sich der boͤsse gaist
++               verendert in engelsche zierlich gestalt und wirt denne dem menschen alz wol mit der
++               betrogner wise, daz er wenet sin in ainnem schǒwenden leben.
++               <milestone unit="phr" n="14"/>Darinn sol sich der mensche wol versuͦchen, sprichet
++               sant <persName>Jakob</persName> und <persName>Gregorius</persName>
++               <cb n="126ra"/> mit im, daz er bestand und nút vale noch betrogen werd.
++                  <milestone unit="phr" n="15"/><app type="comment" n="understanding" xml:id="prov_b05_fb0_bb">
+                   <lem>Us disen sinnen allen mit enander ze nement,</lem>
+-                  <note xml:id="prov_9a0_1b6_2a" type="editorial">'Dies alles berücksichtigend'.</note>
+-               </app> so maht du, minende sele, wol vernúfteklich merken, waz schǒwend leben si oder nút.
+-<milestone unit="phr" n="16"/>Und verstand es wol, won es wirt dir gar núcze.</p>
++                  <note xml:id="prov_9a0_1b6_2a" type="editorial">'Dies alles
++                     berücksichtigend'.</note>
++               </app> so maht du, minende sele, wol vernúfteklich merken, waz schǒwend leben si oder
++               nút. <milestone unit="phr" n="16"/>Und verstand es wol, won es wirt dir gar
++               núcze.</p>
+             <p n="4"> 
+                <milestone unit="phr" n="1"/>Ich sehczhender alte lere dich, geminte sel, daz ǒch <app type="variants" xml:id="prov_acc_dac_42">
+                   <lem><persName>Gregor<corr type="editorChange">i</corr>us</persName></lem>
+@@ -1303,9 +1323,9 @@
+                die guͤtekait dez hailigen gaistes. <milestone unit="phr" n="12"/>Von dem schǒwenden
+                leben sprichet sant <persName>Augustinus</persName> in dem buͦche siner sprúch:
+                Goͤtlich schǒwen erlúhtet und erfroͤwet die inwendigen ǒgen und besterket úns wider
+-               boͤsse bekorunge. <milestone unit="phr" n="13"/>Mit got schǒwen werden wir geschaiden
+-               von der welt und erlideget von ir und von dem boͤssen gaist und entladen von
+-               anvehtung únsers <app type="variants" xml:id="prov_a45_0df_23">
++               boͤsse <rs type="glossary" key="gloss_d1e819">bekorunge</rs>.
++               <milestone unit="phr" n="13"/>Mit got schǒwen werden wir geschaiden von der welt und
++               erlideget von ir und von dem boͤssen gaist und entladen von anvehtung únsers <app type="variants" xml:id="prov_a45_0df_23">
+                   <lem>lib<corr type="editorChange">e</corr>s</lem>
+                   <rdg wit="#be82f0ad-a15a #ff24cac4-2fca #eb978f42-b430">libes</rdg>
+                   <rdg wit="#bea3e268-3d06"><note type="editorial"><q>libens</q> geändert zu</note>
+diff --git a/ovp/data/Kapitel/17_Der_siebzehnte_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/17_Der_siebzehnte_Alte.xml
+index 29306a6..f7b7ae1 100644
+--- a/ovp/data/Kapitel/17_Der_siebzehnte_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/17_Der_siebzehnte_Alte.xml
+@@ -108,31 +108,50 @@
+                   <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">gelert ieglicher in siner materie</rdg>
+                </app> daz dir denne daz aller beste gesin mag zuͦ dem ewigen leben, damit du cluͦglich und wol den guldin trǒne dez ewigen kúnges muͦgest besiczen.</p>
+             <p n="3">
+-               <milestone unit="phr" n="1"/>Aber ich súbenczehender alte sol dich, minnende sel, gar ain núcze lere wisen, die hailikait und saͤilikeit bringet dez ewigen lebens, und daz ist die <app type="variants" xml:id="prov_ac0_434_db">
++               <milestone unit="phr" n="1"/>Aber ich súbenczehender alte sol dich, minnende sel, gar
++               ain núcze lere wisen, die hailikait und saͤilikeit bringet dez ewigen lebens, und daz
++               ist die <app type="variants" xml:id="prov_ac0_434_db">
+                   <lem>kuns<corr type="editorChange">t</corr>riche</lem>
+                   <rdg wit="#eb978f42-b430 #be82f0ad-a15a">kunstrich</rdg>
+                   <rdg wit="#ff24cac4-2fca">kúnstenrich</rdg>
+                   <rdg wit="#bea3e268-3d06">kunsterriche</rdg>
+                </app>
+-               <pb ed="#a24de8bbf265" n="184,10"/> lere, die únser herre <persName>Jhesus Cristus</persName> leret sin usserwelten junger nach aller volkumenhait, do sú zuͦ im sprachen: <quote type="bible" xml:id="prov_583_4a8_31" sameAs="#bible_894_8de_00">'Herre, lere úns betten.'</quote>
+-               <milestone unit="phr" n="2"/>Do lert er si daz hailig pater noster, darinne beslossen sind die aller besten súben gebette, damit er úns versehen wolt umb alle unser notdurft.
+-<milestone unit="phr" n="3"/>Er sprach ǒch in sinem liden: <quote type="bible" xml:id="prov_442_fc3_06" sameAs="#bible_450_d26_62">'Bettent, daz ir út in bekorung kument.'</quote>
++               <pb ed="#a24de8bbf265" n="184,10"/> lere, die únser herre <persName>Jhesus
++                  Cristus</persName> leret sin usserwelten junger nach aller volkumenhait, do sú zuͦ
++               im sprachen: <quote type="bible" xml:id="prov_583_4a8_31" sameAs="#bible_894_8de_00">'Herre, lere úns betten.'</quote>
++               <milestone unit="phr" n="2"/>Do lert er si daz hailig pater noster, darinne beslossen
++               sind die aller besten súben gebette, damit er úns versehen wolt umb alle unser
++               notdurft. <milestone unit="phr" n="3"/>Er sprach ǒch in sinem liden: <quote type="bible" xml:id="prov_442_fc3_06" sameAs="#bible_450_d26_62">'Bettent, daz ir
++                  út in<rs type="glossary" key="gloss_d1e819"> bekorung</rs> kument.'</quote>
+                <milestone unit="phr" n="4"/><quote type="bible" subtype="vgl" xml:id="prov_dc8_b14_1c" sameAs="#bible_5a4_c01_c6 #bible_983_7ae_f2 #bible_f57_01f_2d #bible_92f_1eb_cc #bible_026_a60_bb #bible_c75_ded_6b"><app type="variants" xml:id="prov_d80_9fc_cc">
+-                        <lem><persName>Jhesu<corr type="editorChange">s</corr> Crist<corr type="editorChange">us</corr></persName></lem>
+-                        <rdg wit="#bea3e268-3d06">jhesus cristus <note type="editorial">gebessert aus <q>jhesu cristi</q></note></rdg>
+-                        <rdg wit="#be82f0ad-a15a #eb978f42-b430 #ff24cac4-2fca">Jhesus cristus</rdg>
+-                     </app> gieng ǒch<pb ed="#a24de8bbf265" n="184,15"/> dike betten an daz gebirge und an ain <cb n="134va"/> <app type="variants" xml:id="prov_9f9_381_79">
+-                  <lem>oͤd<corr type="editorChange">e</corr></lem>
+-                  <rdg wit="#bea3e268-3d06">oͤde [...] tenpel <note type="editorial">gebessert aus <q>oͤde vnd velde vnd in wuͤste vnd in den tenpel</q></note></rdg>
+-                  <rdg wit="#be82f0ad-a15a #eb978f42-b430"><app type="variants" xml:id="prov_a2c_9eb_3c"><lem>oͤdi</lem><rdg wit="#be82f0ad-a15a">oͤdi</rdg><rdg wit="#eb978f42-b430">ainoͤdi</rdg></app> vnd feld vnd in wuͤsti vnd in den tempel</rdg>
+-                  <rdg wit="#ff24cac4-2fca">oͤde vnd in wuͤste in den tempel</rdg>
+-                     </app> <corr type="editorChange">v</corr>elde und in wuͤste<corr type="editorChange">nen, i</corr>n den tenpel<?oxy_comment_start author="narndt" comment="kein l1aus...mit ins Lemma?"?><?oxy_comment_end?> und an ander haimlich stet.</quote>
++                     <lem><persName>Jhesu<corr type="editorChange">s</corr> Crist<corr type="editorChange">us</corr></persName></lem>
++                     <rdg wit="#bea3e268-3d06">jhesus cristus <note type="editorial">gebessert aus
++                              <q>jhesu cristi</q></note></rdg>
++                     <rdg wit="#be82f0ad-a15a #eb978f42-b430 #ff24cac4-2fca">Jhesus cristus</rdg>
++                  </app> gieng ǒch<pb ed="#a24de8bbf265" n="184,15"/> dike betten an daz gebirge und
++                  an ain <cb n="134va"/>
++                  <app type="variants" xml:id="prov_9f9_381_79">
++                     <lem>oͤd<corr type="editorChange">e</corr></lem>
++                     <rdg wit="#bea3e268-3d06">oͤde [...] tenpel <note type="editorial">gebessert
++                           aus <q>oͤde vnd velde vnd in wuͤste vnd in den tenpel</q></note></rdg>
++                     <rdg wit="#be82f0ad-a15a #eb978f42-b430"><app type="variants" xml:id="prov_a2c_9eb_3c">
++                           <lem>oͤdi</lem>
++                           <rdg wit="#be82f0ad-a15a">oͤdi</rdg>
++                           <rdg wit="#eb978f42-b430">ainoͤdi</rdg>
++                        </app> vnd feld vnd in wuͤsti vnd in den tempel</rdg>
++                     <rdg wit="#ff24cac4-2fca">oͤde vnd in wuͤste in den tempel</rdg>
++                  </app>
++                  <corr type="editorChange">v</corr>elde und in wuͤste<corr type="editorChange">nen,
++                     i</corr>n den
++                  tenpel<?oxy_comment_start author="narndt" comment="kein l1aus...mit ins Lemma?"?><?oxy_comment_end?>und
++                  an ander haimlich stet.</quote>
+                <milestone unit="phr" n="5"/><quote type="bible" subtype="vgl" xml:id="prov_e95_25f_1c" sameAs="#bible_e48_c65_ce #bible_7b0_8cb_6a #bible_97f_899_c0 #bible_e20_866_df">Er bettet ǒch an <app type="variants" xml:id="prov_d37_e20_b9">
+-                        <lem>d<corr type="editorChange">em</corr></lem>
+-                        <rdg wit="#bea3e268-3d06">dem hailigen froncrúcze <note type="editorial">vom Korrektor gebessert aus <q>daz hailig frǒ crúcze</q></note></rdg>
+-                        <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">dem hailigen frǒn krúcz</rdg>
+-                        <rdg wit="#eb978f42-b430">dem hailigen crúcz</rdg>
+-                     </app> hailig<corr type="editorChange">en</corr> fro<corr type="editorChange">n</corr>crúcze, bis er erstarb.</quote>
++                     <lem>d<corr type="editorChange">em</corr></lem>
++                     <rdg wit="#bea3e268-3d06">dem hailigen froncrúcze <note type="editorial">vom
++                           Korrektor gebessert aus <q>daz hailig frǒ crúcze</q></note></rdg>
++                     <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">dem hailigen frǒn krúcz</rdg>
++                     <rdg wit="#eb978f42-b430">dem hailigen crúcz</rdg>
++                  </app> hailig<corr type="editorChange">en</corr> fro<corr type="editorChange">n</corr>crúcze, bis er erstarb.</quote>
+             </p>
+             <p n="4">
+                <milestone unit="phr" n="1"/>Sant <persName>Paulus</persName> sprichet: <quote type="bible" xml:id="prov_6b7_1b2_ea" sameAs="#bible_d05_56d_91">'Ir sond ǎne underlǎs betten,</quote> <quote type="bible" xml:id="prov_3ca_fa4_d2" sameAs="#bible_dfb_e81_72">und sol ains fúr daz ander betten, daz ir behalten werdent.'</quote>
+diff --git a/ovp/data/Kapitel/18_Der_achtzehnte_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/18_Der_achtzehnte_Alte.xml
+index b4e3b58..471d86a 100644
+--- a/ovp/data/Kapitel/18_Der_achtzehnte_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/18_Der_achtzehnte_Alte.xml
+@@ -824,7 +824,7 @@
+                         'mit der zusammen selbst ein Mensch mit einem gesunden und starken Gemüt
+                         bedenkt, dass er sich [...]'</corr>
+                   </note>
+-               </app> kaines dinges úbernemen sol noch beheren,
++               </app> kaines dinges úbernemen sol noch <rs type="glossary" key="gloss_d1e733">beheren</rs>,
+                won<?oxy_comment_start author="zinsmeister" comment="Wiedereinsetzen St3"?><?oxy_comment_end?>in
+                demuͦt so erkennet sich der mensche, daz er sich selber núcz scheczen sol und
+                vernihten in allem sinem leben. <milestone unit="phr" n="6"/>Won mit demuͦt so kumet
+@@ -919,8 +919,9 @@
+                   <lem>undert<corr type="editorChange">ǒ</corr>n</lem>
+                   <rdg wit="#eb978f42-b430 #be82f0ad-a15a #ff24cac4-2fca">vndertǎn</rdg>
+                   <rdg wit="#bea3e268-3d06">vndertuͦn</rdg>
+-               </app> nit erheben noch beheren. <milestone unit="phr" n="5"/>Die dritte, er sol dem
+-               minrren under im undertenig sin und sich dez nút besmahen, <cb n="149ra"/> alz <persName>
++               </app> nit erheben noch <rs type="glossary" key="gloss_d1e733">beheren</rs>.
++               <milestone unit="phr" n="5"/>Die dritte, er sol dem minrren under im undertenig sin
++               und sich dez nút besmahen, <cb n="149ra"/> alz <persName>
+                   <app type="variants" xml:id="prov_cd2_3c8_9f">
+                      <lem>Jhesu<corr type="editorChange">s</corr></lem>
+                      <rdg wit="#bea3e268-3d06">jhesus <note type="editorial">gebessert aus
+diff --git a/ovp/data/Kapitel/19_Der_neunzehnte_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/19_Der_neunzehnte_Alte.xml
+index 010718d..fe36c09 100644
+--- a/ovp/data/Kapitel/19_Der_neunzehnte_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/19_Der_neunzehnte_Alte.xml
+@@ -422,8 +422,7 @@
+                cristenhait geordenet ist. <milestone unit="phr" n="5"/>Da sol der gaistlich mensch
+                zuͦ geflissen sin. <milestone unit="phr" n="6"/>Im gehoͤret ǒch zuͦ wachen, daz er
+                sig munder in der nahte, daz in <cb n="152vb"/> boͤsse <app type="variants" xml:id="prov_eaf_951_bb">
+-                  <lem>bekorunge<corr type="editorChange">n</corr> des boͤssen gaistes in fulkait út
+-                        betriege<corr type="editorChange">n.</corr></lem>
++                  <lem><rs type="glossary" key="gloss_d1e819">bekorunge<corr type="editorChange">n</corr></rs> des boͤssen gaistes in fulkait út betriege<corr type="editorChange">n.</corr></lem>
+                   <rdg wit="#bea3e268-3d06">bekorungen [...] betriegen <note type="editorial">gebessert aus <q>bekorunge [...] betriege</q></note></rdg>
+                   <rdg wit="#be82f0ad-a15a #eb978f42-b430 #ff24cac4-2fca">bekorunge [...]
+                      betriege</rdg>
+@@ -518,7 +517,8 @@
+                </app> mit sinem obresten und prelaten willen und wise.
+                <milestone unit="phr" n="13"/>Er sol ǒch verdakt sin mit demútigen und gaistlichen
+                klaidern, die nit kostber <cb n="153va"/> sind, damit er alle sin gelider <app type="variants" xml:id="prov_b3d_9b7_e4">
+-                  <lem>behuͦtlich <corr type="editorChange">sol</corr> verdeken</lem>
++                  <lem><rs type="glossary" key="gloss_d1e758">behuͦtlich</rs>
++                     <corr type="editorChange">sol</corr> verdeken</lem>
+                   <rdg wit="#bea3e268-3d06">sol verdeken <note type="editorial">vom Korrektor
+                         gebessert aus <q>verdeken</q></note></rdg>
+                   <rdg wit="#eb978f42-b430">verdecke</rdg>
+@@ -749,8 +749,8 @@
+                </app> an sich nement, <app type="comment" n="understanding" xml:id="prov_3aa_e3e_4a">
+                   <lem>noch weder </lem>
+                   <note xml:id="prov_c2b_3d9_54" type="editorial">'jedoch weder'.</note>
+-               </app> gottes ere noch menschen nucze, lere noch gnad noch minne noch vorhte <cb n="155rb"/> da nit ist, und suͦchent ain krank beholfenhait nach zitlichem
+-               niessen. <milestone unit="phr" n="7"/>Aber inwendig sind si <app type="comment" n="understanding" xml:id="prov_7ca_225_3d">
++               </app> gottes ere noch menschen nucze, lere noch gnad noch minne noch vorhte <cb n="155rb"/> da nit ist, und suͦchent ain krank <rs type="glossary" key="gloss_d1e746">beholfenhait</rs> nach zitlichem niessen.
++               <milestone unit="phr" n="7"/>Aber inwendig sind si <app type="comment" n="understanding" xml:id="prov_7ca_225_3d">
+                   <lem>betrogen nach der mainunge</lem>
+                   <note xml:id="prov_a04_161_bd" type="editorial">'falsch, betrügerisch in ihrer
+                      Absicht'.</note>
+diff --git a/ovp/data/Kapitel/20_Der_zwanzigste_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/20_Der_zwanzigste_Alte.xml
+index 918bb43..9c2f530 100644
+--- a/ovp/data/Kapitel/20_Der_zwanzigste_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/20_Der_zwanzigste_Alte.xml
+@@ -241,9 +241,10 @@
+                sitten guͦtekeit und uͤbung goͤtlicher wirdekeit, ere des menschen und des ewigen
+                lones ain verdienen. <milestone unit="phr" n="10"/>Ǒch ist tugent ain inwendige kraft
+                der sele, die gros sach getar beston und widerwerdig sachen wol liden mag und alle
+-               bekorunge von ir tribet und sich guͦtter werke flisset und innen allen gelust hět.
+-               <milestone unit="phr" n="11"/>Und dǎrumb so ist tugent alle zit berait ze striten
+-               wider untugent. <milestone unit="phr" n="12"/><app type="variants" xml:id="prov_d66_dc0_c5">
++                  <rs type="glossary" key="gloss_d1e819">bekorunge</rs> von ir tribet und sich
++               guͦtter werke flisset und innen allen gelust hět. <milestone unit="phr" n="11"/>Und
++               dǎrumb so ist tugent alle zit berait ze striten wider untugent.
++                  <milestone unit="phr" n="12"/><app type="variants" xml:id="prov_d66_dc0_c5">
+                   <lem>Es <app type="variants" xml:id="prov_68c_1ce_6e">
+                         <lem>spr<corr type="editorChange">e</corr>che<corr type="editorChange">n</corr>t</lem>
+                         <rdg wit="#bea3e268-3d06">sprechent <note type="editorial">gebessert aus
+@@ -274,8 +275,8 @@
+                ǒch etwenne den ewigen tode. <milestone unit="phr" n="4"/>Untugent machet den
+                menschen unwert vor got und vor allen sinen hailigen, vor allen engeln, vor allen
+                lútten und ǒch vor allen creaturen in himelrich und uf ertrich.
+-               <milestone unit="phr" n="5"/>Es machet ǒch untugent, daz der mensch boͤser bekorunge
+-               nút wider streben noch guͦtter <app type="variants" xml:id="prov_66e_d57_9c">
++               <milestone unit="phr" n="5"/>Es machet ǒch untugent, daz der mensch boͤser <rs type="glossary" key="gloss_d1e819">bekorunge</rs> nút wider streben noch guͦtter
++                  <app type="variants" xml:id="prov_66e_d57_9c">
+                   <lem>verma<corr type="editorChange">n</corr>unge</lem>
+                   <rdg wit="#bea3e268-3d06">vermanunge <note type="editorial">gebessert aus
+                            <q>vermainunge</q></note></rdg>
+@@ -596,7 +597,7 @@
+                <milestone unit="phr" n="5"/>Wilt du, minende sele, sterklich striten wider die
+                untugent der hǒffart, so flisse dich, alz <persName>Bernhardus</persName> leret, ǎne
+                underlǎssen demuͤtekeit ze uͤben in herczen, daz dich der boͤsse gaiste út <app type="variants" xml:id="prov_168_9dc_8d">
+-                  <lem>bek<corr type="editorChange">o</corr>re,</lem>
++                  <lem><rs type="glossary" key="gloss_jlm_g1k_mkb">bek<corr type="editorChange">o</corr>re</rs>,</lem>
+                   <rdg wit="#bea3e268-3d06">bekore <note type="editorial">gebessert aus
+                            <q>bekere</q></note></rdg>
+                   <rdg wit="#ff24cac4-2fca #be82f0ad-a15a">bekore</rdg>
+@@ -1322,10 +1323,10 @@
+                               <q>vollebringen</q></note></rdg>
+                   </app></quote>
+                <milestone unit="phr" n="16"/>Es versumet ǒch tragkait daz kostbar zit ǎne fruͦhte
+-               und nucze und versumet ǒch ewigen lǒn und git dem boͤssen gaist ursach zuͦ boͤser
+-               bekorunge. <milestone unit="phr" n="17"/>Tragkait erzoͤget ǒch vil tǒrhait und
+-               verkeret guͦte wise und sitten und vernihtet reht tuͦn.
+-               <milestone unit="phr" n="18"/>Es mag ǒch <app type="variants" xml:id="prov_df5_1e3_7c">
++               und nucze und versumet ǒch ewigen lǒn und git dem boͤssen gaist ursach zuͦ boͤser <rs type="glossary" key="gloss_d1e819">bekorunge</rs>.
++               <milestone unit="phr" n="17"/>Tragkait erzoͤget ǒch vil tǒrhait und verkeret guͦte
++               wise und sitten und vernihtet reht tuͦn. <milestone unit="phr" n="18"/>Es mag ǒch
++                  <app type="variants" xml:id="prov_df5_1e3_7c">
+                   <lem><corr type="editorChange">in</corr></lem>
+                   <rdg wit="#eb978f42-b430">in</rdg>
+                   <rdg wit="#bea3e268-3d06">vom Korrektor ergänzt</rdg>
+@@ -1372,10 +1373,10 @@
+                   <?oxy_comment_start author="zinsmeister" comment=" Vgl. MFl, Stichwort Fortitudo m: Iustorum fortitudo est carnem uincere, propriis uoluntatibus contraire, delectacionem uite presentis extinguere, huius mundi aspera pro eternis premiis amare, prosperitatis blandimenta contempnere, aduersitatis metum in corde superare. - Gregorius libro VIII. moralium. "?><quote type="mfl">Sterke sol <app type="comment" n="understanding" xml:id="prov_617_885_c5">
+                      <lem>dez ersten</lem>
+                      <note xml:id="prov_72a_705_5b" type="editorial">'zuerst'.</note>
+-                  </app> aigen flaische úberwinden, darnach aigen gelúste widerstreben und toͤten,
+-                  bekorunge zitliches lebens zemale erloͤschen, hertekait diser welt durch des
+-                  ewigen lǒnes willen liep hon und senftmuͤtekeit versmahen in diser zit und alle
+-                  widerwertikait úberwinden,</quote><?oxy_comment_end?>
++                  </app> aigen flaische úberwinden, darnach aigen gelúste widerstreben und
++                     toͤten,<rs type="glossary" key="gloss_d1e819"> bekorunge</rs> zitliches lebens
++                  zemale erloͤschen, hertekait diser welt durch des ewigen lǒnes willen liep hon und
++                  senftmuͤtekeit versmahen in diser zit und alle widerwertikait úberwinden,</quote><?oxy_comment_end?>
+                <app type="comment" n="understanding" xml:id="prov_35c_198_f0">
+                   <lem><app type="variants" xml:id="prov_e0a_f8b_9a">
+                         <lem>den gaist erfris<corr type="editorChange">ch</corr>en und <corr type="editorChange">in</corr> got erswingen und ersterben,</lem>
+@@ -1865,11 +1866,10 @@
+                dich alle ursach und <rs type="glossary" key="gloss_d1e494">anraizunge</rs> fliehen
+                und miden an allen steten und ze allen ziten und dich mit flisse mit worten und mit
+                werken und mit geberden und mit gedenken und mit allem vermúgen von unkúsche brechen
+-               und sunderlich unkúschen gedenken gar vast widerston und liplich gelústen und
+-               bekorung sterklich an dem anvang widerstreben und dich selber alle zit bekúmren mit
+-               goͤtlichen gedenken und mit guͦten worten und werken, die got von dir hon wil.
+-               <milestone unit="phr" n="6"/>Und solt dir sel<cb n="171vb"/>ber nit ze vil getrúwen
+-               und <app type="comment" n="understanding" xml:id="prov_497_aae_a4">
++               und sunderlich unkúschen gedenken gar vast widerston und liplich gelústen und <rs type="glossary" key="gloss_d1e819">bekorung</rs> sterklich an dem anvang
++               widerstreben und dich selber alle zit bekúmren mit goͤtlichen gedenken und mit guͦten
++               worten und werken, die got von dir hon wil. <milestone unit="phr" n="6"/>Und solt dir
++                  sel<cb n="171vb"/>ber nit ze vil getrúwen und <app type="comment" n="understanding" xml:id="prov_497_aae_a4">
+                   <lem>ursach weder von manen noch von frǒwen nemen,</lem>
+                   <note xml:id="prov_4b9_05d_96" type="editorial">'einen Anlass (dazu, sich selbst
+                      zuviel zuzutrauen) weder von Männern noch von Frauen geben lassen'.</note>
+@@ -1886,7 +1886,8 @@
+                   <rdg wit="#bea3e268-3d06">dauid hailig</rdg>
+                </app> und <persName>Salamon</persName> der wise und <persName>Samson</persName> der
+                starke wurden damit von frǒwen úberwunden, daz si sich selber nút wolten úberwinden
+-               und iren gelústen und bekorungen und ǒch iren anvehtungen ze vil <app type="comment" n="understanding" xml:id="prov_228_4b3_59">
++               und iren gelústen und <rs type="glossary" key="gloss_d1e819">bekorungen</rs> und ǒch
++               iren anvehtungen ze vil <app type="comment" n="understanding" xml:id="prov_228_4b3_59">
+                   <lem>verhengen.</lem>
+                   <note xml:id="prov_0e5_82f_53" type="editorial">'nachgeben'.</note>
+                </app>
+@@ -2201,8 +2202,7 @@
+                   <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">Von</rdg>
+                   <rdg wit="#bea3e268-3d06 #eb978f42-b430">Won</rdg>
+                </app> dankberkait leret úns <persName>Bernhardus</persName> in ainer bredige úber
+-               der minne buͦch und sprichet: Alz dike du bekorunge úberwindest und untugent von dir
+-               tribest und <app type="variants" xml:id="prov_cee_fd7_0d">
++               der minne buͦch und sprichet: Alz dike du <rs type="glossary" key="gloss_d1e819">bekorunge</rs> úberwindest und untugent von dir tribest und <app type="variants" xml:id="prov_cee_fd7_0d">
+                   <lem>boͤse<corr type="editorChange">r</corr> sorge</lem>
+                   <rdg wit="#bea3e268-3d06">boͤser sorge <note type="editorial">gebessert aus
+                            <q>boͤse sorge</q></note></rdg>
+@@ -2410,9 +2410,9 @@
+                <milestone unit="phr" n="17"/>Dis ist, sprichet <persName>Leo der babest</persName>
+                an ainer bredige, aber ain rehter fride, damit man alle krieg und unfride
+                úberstritet, wenne des men<cb n="176rb"/>schen flaische mit minne úberwunden wirt und
+-               got selber sin bekerde ist und sich ǒch des menschen willen von got nit tailet und
+-               der mensche allen sinen wolgeluste in got alain leit und die beschaidenhait des
+-               menschen goͤtlichem willen nit <app type="variants" xml:id="prov_6ed_89d_f7">
++               got selber sin <rs type="glossary" key="gloss_d1e806">bekerde</rs> ist und sich ǒch
++               des menschen willen von got nit tailet und der mensche allen sinen wolgeluste in got
++               alain leit und die beschaidenhait des menschen goͤtlichem willen nit <app type="variants" xml:id="prov_6ed_89d_f7">
+                   <lem>widerspr<corr type="editorChange">i</corr>che<corr type="editorChange">t,</corr></lem>
+                   <rdg wit="#ff24cac4-2fca">widersprichet</rdg>
+                   <rdg wit="#bea3e268-3d06">widersprechen</rdg>
+diff --git a/ovp/data/Kapitel/21_Der_einundzwanzigste_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/21_Der_einundzwanzigste_Alte.xml
+index d07d9ba..c9edd9b 100644
+--- a/ovp/data/Kapitel/21_Der_einundzwanzigste_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/21_Der_einundzwanzigste_Alte.xml
+@@ -118,37 +118,52 @@
+                </app>
+             </p>
+             <p n="3">
+-               <milestone unit="phr" n="1"/>Was dich, minende sele, die zwainczig alten, min <quote sameAs="ed_kwv_lwx_kfb" xml:id="tbf_1np_vgb">gesellen</quote>, vor mir geleret hond mit gar guͦtem flisse, mit goͤtlicher fúrsihtekeit, <app type="comment" n="understanding" xml:id="prov_546_f41_e9">
++               <milestone unit="phr" n="1"/>Was dich, minende sele, die zwainczig alten, min <quote sameAs="ed_kwv_lwx_kfb" xml:id="tbf_1np_vgb">gesellen</quote>, vor mir geleret
++               hond mit gar guͦtem flisse, mit goͤtlicher fúrsihtekeit, <app type="comment" n="understanding" xml:id="prov_546_f41_e9">
+                   <lem>daz gat alles in </lem>
+-                  <note xml:id="prov_89b_810_ae" type="editorial">'das bezieht sich alles auf, geht alles um'.</note>
+-               </app> goͤtliches lobe und diner sele nucze.
+-<milestone unit="phr" n="2"/>Aber ich ain und zwainczigoster alte wil dich, minende sele, nun fúrbas leren und wisen gar kúnstenriche, was verdienen sie, und wamit du verdienest, daz du ewigen lon verdienen maht in allen dinen verdienten werken, wan alz únser guͦt wúrken in disem zit ist daruf gestellet und belibet ǒch eweklich daby; und ordenet sich alles umb got, der
+-               úns daz selbe geleret het durch sinen aingebornen sune <persName>Jhesum Cristum</persName> und durch sin propheten und hailig lerer.
+-               <milestone unit="phr" n="3"/>Und darumb, volgest du mir ain und zwainczigosten alten, so werdent alle dinne werke <app type="variants" xml:id="prov_eeb_932_63">
++                  <note xml:id="prov_89b_810_ae" type="editorial">'das bezieht sich alles auf, geht
++                     alles um'.</note>
++               </app> goͤtliches lobe und diner sele nucze. <milestone unit="phr" n="2"/>Aber ich
++               ain und zwainczigoster alte wil dich, minende sele, nun fúrbas leren und wisen gar
++               kúnstenriche, was verdienen sie, und wamit du verdienest, daz du ewigen lon verdienen
++               maht in allen dinen verdienten werken, wan alz únser guͦt wúrken in disem zit ist
++               daruf gestellet und belibet ǒch eweklich daby; und ordenet sich alles umb got, der
++               úns daz selbe geleret het durch sinen aingebornen sune <persName>Jhesum
++                  Cristum</persName> und durch sin propheten und hailig lerer.
++               <milestone unit="phr" n="3"/>Und darumb, volgest du mir ain und zwainczigosten alten,
++               so werdent alle dinne werke <app type="variants" xml:id="prov_eeb_932_63">
+                   <lem><corr type="editorChange">ve</corr>rdienig und</lem>
+                   <rdg wit="#be82f0ad-a15a #eb978f42-b430">verdienig vnd</rdg>
+                   <rdg wit="#bea3e268-3d06">wirdienig vnd geändert zu werdienig vnd</rdg>
+                   <rdg wit="#ff24cac4-2fca"/>
+                </app> lǒnber und got geneme und wert von dir in der ewigen widerlegunge.
+-               <milestone unit="phr" n="4"/>Es sprichet ǒch <persName>Bernhardus</persName> in dem buͦch von dem frigen willen: <cb n="182vb"/> Únser verdienen ist ain <app type="comment" n="understanding" xml:id="prov_af4_6c5_f8">
++               <milestone unit="phr" n="4"/>Es sprichet ǒch <persName>Bernhardus</persName> in dem
++               buͦch von dem frigen willen: <cb n="182vb"/> Únser verdienen ist ain <app type="comment" n="understanding" xml:id="prov_af4_6c5_f8">
+                   <lem>sǒme</lem>
+                   <note xml:id="prov_a08_e61_38" type="editorial">sâme.</note>
+-               </app> aller únser zuͦversicht, ist ain funke in der minne, ist ain haimliche wisunge, daz wir ze got versehen sind, ist úns ain bekenunge der kúnftigen selekeit, ist uns ain wege in die ewekait und ist úns ain <app type="comment" n="understanding" xml:id="prov_0a8_35f_d7">
++               </app> aller únser zuͦversicht, ist ain funke in der minne, ist ain haimliche
++               wisunge, daz wir ze got versehen sind, ist úns ain <rs type="glossary" key="gloss_d1e794">bekenunge</rs> der kúnftigen selekeit, ist uns ain wege in die
++               ewekait und ist úns ain <app type="comment" n="understanding" xml:id="prov_0a8_35f_d7">
+                   <lem>sache</lem>
+                   <note xml:id="prov_eb5_162_2f" type="editorial">'Grundlage'.</note>
+-               </app> mit got eweklich ze richsende.
+-<milestone unit="phr" n="5"/>Es sprichet
++               </app> mit got eweklich ze richsende. <milestone unit="phr" n="5"/>Es sprichet
+                   <persName>Cassidorus</persName> in sin buͦcher ainem: <app type="comment" n="understanding" xml:id="prov_017_149_1c">
+                   <lem>Wer nun der aller erst <app type="variants" xml:id="prov_cd8_6f2_d8">
+                         <lem><corr type="editorChange">ist</corr></lem>
+                         <rdg wit="#be82f0ad-a15a #ff24cac4-2fca"/>
+-                        <rdg wit="#bea3e268-3d06"><note type="editorial">vom Korrektor ergänzt</note></rdg>
++                        <rdg wit="#bea3e268-3d06"><note type="editorial">vom Korrektor
++                              ergänzt</note></rdg>
+                         <rdg wit="#eb978f42-b430"/>
+                      </app> an lǒne verdienen in ordenunge und an aller wirdekeit, der</lem>
+-                  <note xml:id="prov_0c0_cea_fa" type="editorial">'Wer nun der aller erste ist beim Verdienen von Lohn, sowohl nach Rang als auch nach hohem Ansehen, der [...]'.</note>
+-               </app> ist ǒch fúrnemeklich ze lobende und ze ruͦmen an allem verdienen, daz an ewigen lone geraichen mag.
+-<milestone unit="phr" n="6"/>Und darumb, won úns
+-                  <persName>Jhesus Cristus</persName> mit siner hailigen menschait verdienet het, daz úns alle únser guͦten werke in im und durch in fúrbas verdienig sind und lǒnber und sinem ewigen vatter von úns werd und dankber sind, so ist er ain anfange und ursach alles únsers verdienens alz ain beginnen goͤtlicher gnaden.</p>
++                  <note xml:id="prov_0c0_cea_fa" type="editorial">'Wer nun der aller erste ist beim
++                     Verdienen von Lohn, sowohl nach Rang als auch nach hohem Ansehen, der
++                     [...]'.</note>
++               </app> ist ǒch fúrnemeklich ze lobende und ze ruͦmen an allem verdienen, daz an
++               ewigen lone geraichen mag. <milestone unit="phr" n="6"/>Und darumb, won úns
++                  <persName>Jhesus Cristus</persName> mit siner hailigen menschait verdienet het,
++               daz úns alle únser guͦten werke in im und durch in fúrbas verdienig sind und lǒnber
++               und sinem ewigen vatter von úns werd und dankber sind, so ist er ain anfange und
++               ursach alles únsers verdienens alz ain beginnen goͤtlicher gnaden.</p>
+             <p n="4">
+                <milestone unit="phr" n="1"/>Aber únser friger <cb n="183ra"/> wille ist alz ain
+                empfaͤhig materie, won es sprichet <persName>Augustinus</persName> von dem frigen
+@@ -367,11 +382,11 @@
+                   <note xml:id="prov_108_348_e7" type="editorial">'Zufriedensein'.</note>
+                </app> allem himelschen here. <milestone unit="phr" n="13"/>Und wer es och fúr sin
+                ǒgen spannet und in sinem herczen mit ernst betrahtet, dem empfuͤret und vertribet es
+-               boͤse gelúste und bekorunge, zorn und widerwertekeit, nide und hasse und vertribet
+-               von im súnde und flaischlich begirde. <milestone unit="phr" n="14"/>Daz sprichet der.
+-               <milestone unit="phr" n="15"/>Daz úns alle únserú guͦten werke lonber sind, daz het
+-               úns verdienet daz edel bluͦt vergiessen únsers herren <persName>Jhesu
+-                  Cristi</persName>, alz alle únser lerer sprechent.</p>
++               boͤse gelúste und <rs type="glossary" key="gloss_d1e819">bekorunge</rs>, zorn und
++               widerwertekeit, nide und hasse und vertribet von im súnde und flaischlich begirde.
++               <milestone unit="phr" n="14"/>Daz sprichet der. <milestone unit="phr" n="15"/>Daz úns
++               alle únserú guͦten werke lonber sind, daz het úns verdienet daz edel bluͦt vergiessen
++               únsers herren <persName>Jhesu Cristi</persName>, alz alle únser lerer sprechent.</p>
+             <p n="7">
+                <milestone unit="phr" n="1"/>Lege ǒch sunderlich in din hercze, <app type="comment" n="understanding" xml:id="prov_771_09a_3c">
+                   <lem>daz</lem>
+@@ -800,25 +815,35 @@
+                </app> benuͤgen alles wol gelustes; und alz der mensche ie mer und mer verdienet het, alz er in ewekeit got ie inneklicher nússet und empfindet.
+ <milestone unit="phr" n="4"/>Dem gelich sprichet <persName>Jeronimus</persName> in <cb n="189rb"/> ainer epistel: Es ist ain grǒsser frevel, daz die gebornen menschen uf erden nút suͦchent mit tugenden in himelrich ze besiczen, daz doch nieman von blosser nature mag erlangen.</p>
+             <p n="18">
+-               <milestone unit="phr" n="1"/>Wilt du gar vil verdienen, so lege alle din zuͦversiht in den alain, der dich alain behalten mag, und der alles din verdienen kreftig gemachet het, sprichet <persName>Bernhardus</persName> úber der minne buͦch.
+-<milestone unit="phr" n="2"/>Won daz verdienen bestetiget dich in tugent, meret dir dinen lone und nimet dir din súnde ab und behuͤtet dich vor súnden und machet dich snelle zuͦ allen guͦten werken und beschirmet dich vor des boͤsen gaistes bekorungen und machet dich tailhaftig aller guͦter werken der hailigen cristenhait.
+-<milestone unit="phr" n="3"/>Es sprichet <persName>Cassiodorus</persName> in ainer epistel: Alle ding kument dir zuͦ mainigvaltigem nucze, wenne du <app type="variants" xml:id="prov_ed8_995_4c">
++               <milestone unit="phr" n="1"/>Wilt du gar vil verdienen, so lege alle din zuͦversiht
++               in den alain, der dich alain behalten mag, und der alles din verdienen kreftig
++               gemachet het, sprichet <persName>Bernhardus</persName> úber der minne buͦch.
++               <milestone unit="phr" n="2"/>Won daz verdienen bestetiget dich in tugent, meret dir
++               dinen lone und nimet dir din súnde ab und behuͤtet dich vor súnden und machet dich
++               snelle zuͦ allen guͦten werken und beschirmet dich vor des boͤsen gaistes <rs type="glossary" key="gloss_d1e819">bekorungen</rs> und machet dich tailhaftig
++               aller guͦter werken der hailigen cristenhait. <milestone unit="phr" n="3"/>Es
++               sprichet <persName>Cassiodorus</persName> in ainer epistel: Alle ding kument dir zuͦ
++               mainigvaltigem nucze, wenne du <app type="variants" xml:id="prov_ed8_995_4c">
+                   <lem>ai<corr type="editorChange">n</corr></lem>
+                   <rdg wit="#be82f0ad-a15a #eb978f42-b430 #ff24cac4-2fca">ain</rdg>
+                   <rdg wit="#bea3e268-3d06">ainer</rdg>
+-               </app> <cb n="189va"/> verdiener bist nach gottes willen, es mag ǒch kain verdiener alz vil verdienen ǎne ende und ǎne zale.
+-<milestone unit="phr" n="4"/>Won es <app type="variants" xml:id="prov_37b_2bd_88">
+-   <lem>spr<corr type="editorChange">e</corr>chent</lem>
+-                  <rdg wit="#bea3e268-3d06">sprechent <note type="editorial">gebessert aus <q>sprichent</q></note></rdg>
++               </app>
++               <cb n="189va"/> verdiener bist nach gottes willen, es mag ǒch kain verdiener alz vil
++               verdienen ǎne ende und ǎne zale. <milestone unit="phr" n="4"/>Won es <app type="variants" xml:id="prov_37b_2bd_88">
++                  <lem>spr<corr type="editorChange">e</corr>chent</lem>
++                  <rdg wit="#bea3e268-3d06">sprechent <note type="editorial">gebessert aus
++                           <q>sprichent</q></note></rdg>
+                   <rdg wit="#be82f0ad-a15a #ff24cac4-2fca">sprechent</rdg>
+-               </app> die maister in goͤtlicher lere: Also die widerlegung gottes ǎne ende und ǎne zile ist, also ist ǒch daz verdienen ǎne end und ǎne zile, <app type="comment" n="understanding" xml:id="prov_e42_e4b_dc">
++               </app> die maister in goͤtlicher lere: Also die widerlegung gottes ǎne ende und ǎne
++               zile ist, also ist ǒch daz verdienen ǎne end und ǎne zile, <app type="comment" n="understanding" xml:id="prov_e42_e4b_dc">
+                   <lem>won si hand gelich <app type="variants" xml:id="prov_233_c4a_dd">
+-                     <lem>ebenh<corr type="editorChange">oͤh</corr>e</lem>
+-                     <rdg wit="#ff24cac4-2fca #be82f0ad-a15a">ebenhoͤhe</rdg>
+-                     <rdg wit="#eb978f42-b430"><note type="editorial">(gebessert)</note></rdg>
+-                     <rdg wit="#bea3e268-3d06">ebenhǒfe</rdg>
+-                  </app><?oxy_comment_start author="narndt" comment="#NA: Kein l2aus/"?><?oxy_comment_end?></lem>
+-                  <note xml:id="prov_e63_206_f7" type="editorial">'denn sie sind gleich hoch, ausgeglichen'.</note>
++                        <lem>ebenh<corr type="editorChange">oͤh</corr>e</lem>
++                        <rdg wit="#ff24cac4-2fca #be82f0ad-a15a">ebenhoͤhe</rdg>
++                        <rdg wit="#eb978f42-b430"><note type="editorial">(gebessert)</note></rdg>
++                        <rdg wit="#bea3e268-3d06">ebenhǒfe</rdg>
++                     </app><?oxy_comment_start author="narndt" comment="#NA: Kein l2aus/"?><?oxy_comment_end?></lem>
++                  <note xml:id="prov_e63_206_f7" type="editorial">'denn sie sind gleich hoch,
++                     ausgeglichen'.</note>
+                </app> zesamen.</p>
+             <p n="19">
+                <milestone unit="phr" n="1"/>Ain ieglicher verdiener verdienet an ainem ieglichen guͦten werke zwen loͤne.
+diff --git a/ovp/data/Kapitel/23_Der_dreiundzwanzigste_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/23_Der_dreiundzwanzigste_Alte.xml
+index ff9468c..c01d3f7 100644
+--- a/ovp/data/Kapitel/23_Der_dreiundzwanzigste_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/23_Der_dreiundzwanzigste_Alte.xml
+@@ -1133,7 +1133,8 @@
+                scharpfen wǎffen wegen an dem libe, daz machet ain offenen marter.
+                <milestone unit="phr" n="11"/>Das aber der <cb n="212ra"/> mensche versmeche inwendig
+                gedulteklich lidet und fúr sin viend und die in durchaͤhtent bittet und darzuͦ allen
+-               boͤssen gedenken, anvehtungen und bekorunge <app type="comment" n="understanding" xml:id="prov_f30_d00_93">
++               boͤssen gedenken, anvehtungen und <rs type="glossary" key="gloss_d1e819">bekorunge</rs>
++               <app type="comment" n="understanding" xml:id="prov_f30_d00_93">
+                   <lem><app type="variants" xml:id="prov_02b_c44_8c">
+                         <lem>kústeklich</lem>
+                         <rdg wit="#bea3e268-3d06">kústeklich</rdg>
+diff --git a/ovp/data/Kapitel/24_Der_vierundzwanzigste_Alte.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/24_Der_vierundzwanzigste_Alte.xml
+index 5cb0905..061cb12 100644
+--- a/ovp/data/Kapitel/24_Der_vierundzwanzigste_Alte.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/24_Der_vierundzwanzigste_Alte.xml
+@@ -693,17 +693,29 @@
+                   <rdg wit="#bea3e268-3d06 #be82f0ad-a15a #eb978f42-b430">besten nach dem</rdg>
+                </app> <corr type="editorChange">a</corr>lz sant <persName>Dyonisius</persName> schribet.</p>
+             <p n="28">
+-               <milestone unit="phr" n="1"/>Die sechst wonung ist in dem kore der gewaltigen engeln, <cb n="220va"/> alz <persName>Ysidorus</persName> schribet.
+-<milestone unit="phr" n="2"/>Und in die wonunge gehoͤrent alle die, die ǎne underlǎsz durch der warhait und gerehtekait willen wagent libe und guͦt und darumb lident durchehtunge.
+-<milestone unit="phr" n="3"/>Ǒch gehoͤrent in die wonung alle die, die boͤser und túffellicher bekorung und anvechtunge sterkelich wider strebent und der welte versuͦchung und betruͦgnúste nit enahtent und irem aigem libe und flaisch erwerent allen unzimlichen frevel.
+-<milestone unit="phr" n="4"/>In die wonung gehoͤrent alle guͦt witwen, die sich got zemal ergebent und im dienent naht und tage, alz úns daz <app type="variants" xml:id="prov_834_05d_f1">
+-   <lem>ewangeli<corr type="editorChange">um</corr></lem>
+-                  <rdg wit="#bea3e268-3d06">ewangelium <note type="editorial">gebessert aus <q>ewangelio</q></note></rdg>
++               <milestone unit="phr" n="1"/>Die sechst wonung ist in dem kore der gewaltigen engeln,
++                  <cb n="220va"/> alz <persName>Ysidorus</persName> schribet.
++               <milestone unit="phr" n="2"/>Und in die wonunge gehoͤrent alle die, die ǎne underlǎsz
++               durch der warhait und gerehtekait willen wagent libe und guͦt und darumb lident
++               durchehtunge. <milestone unit="phr" n="3"/>Ǒch gehoͤrent in die wonung alle die, die
++               boͤser und túffellicher <rs type="glossary" key="gloss_d1e819">bekorung</rs> und
++               anvechtunge sterkelich wider strebent und der welte versuͦchung und betruͦgnúste nit
++               enahtent und irem aigem libe und flaisch erwerent allen unzimlichen frevel.
++               <milestone unit="phr" n="4"/>In die wonung gehoͤrent alle guͦt witwen, die sich got
++               zemal ergebent und im dienent naht und tage, alz úns daz <app type="variants" xml:id="prov_834_05d_f1">
++                  <lem>ewangeli<corr type="editorChange">um</corr></lem>
++                  <rdg wit="#bea3e268-3d06">ewangelium <note type="editorial">gebessert aus
++                           <q>ewangelio</q></note></rdg>
+                   <rdg wit="#be82f0ad-a15a #eb978f42-b430 #ff24cac4-2fca">ewangelium</rdg>
+-               </app> leret von frǒw <persName>Annen der wissaginen</persName>, die da únsern herren <persName>Jhesum Cristum</persName> in dem tempel enpfieng.
+-<milestone unit="phr" n="5"/>Und die witwen hond sechczigvaltigen lone.
+-<milestone unit="phr" n="6"/>Ǒch gehoͤrent in die selben wonung ainsidel und waldbruͤder und klos<cb n="220vb"/>ener und klosenerin und alle die, die in selber uf seczent alle strengkait und mengerlaige uͤbung, der gar vil ist.
+-<milestone unit="phr" n="7"/>Dis alles schribet sant <persName>Dyonisius</persName> und mit im santus <persName>Gregorius</persName> und santus <persName>Bernhardus</persName>.</p>
++               </app> leret von frǒw <persName>Annen der wissaginen</persName>, die da únsern herren
++                  <persName>Jhesum Cristum</persName> in dem tempel enpfieng.
++               <milestone unit="phr" n="5"/>Und die witwen hond sechczigvaltigen lone.
++               <milestone unit="phr" n="6"/>Ǒch gehoͤrent in die selben wonung ainsidel und
++               waldbruͤder und klos<cb n="220vb"/>ener und klosenerin und alle die, die in selber uf
++               seczent alle strengkait und mengerlaige uͤbung, der gar vil ist.
++               <milestone unit="phr" n="7"/>Dis alles schribet sant <persName>Dyonisius</persName>
++               und mit im santus <persName>Gregorius</persName> und santus
++                  <persName>Bernhardus</persName>.</p>
+             <p n="29">
+                <milestone unit="phr" n="1"/>Die sybende wonung ist in dem kore der kreftigen engel.
+                <milestone unit="phr" n="2"/>Den het goͤtlich krǎft den gewalt verlúhen, daz si
+diff --git a/ovp/data/Kapitel/__contents__.xml b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/__contents__.xml
+index f77de2e..992ea79 100644
+--- a/ovp/data/Kapitel/__contents__.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Kapitel/__contents__.xml
+@@ -1,24 +1,27 @@
+ <collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/projects/ovp/data/Kapitel" version="1" owner="narndt" group="ovp-nutzer" mode="770" created="2018-07-24T08:29:11.079+02:00">
+     <acl entries="0" version="1"/>
+-    <resource type="XMLResource" name="23_Der_dreiundzwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.983+02:00" modified="2020-01-21T15:52:38.014+01:00" filename="23_Der_dreiundzwanzigste_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="14_Der_vierzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.951+02:00" modified="2020-01-24T12:31:58.694+01:00" filename="14_Der_vierzehnte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="24_Der_vierundzwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:28.147+02:00" modified="2020-01-21T13:16:20.442+01:00" filename="24_Der_vierundzwanzigste_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="23_Der_dreiundzwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.983+02:00" modified="2020-01-24T12:45:44.192+01:00" filename="23_Der_dreiundzwanzigste_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="20_Der_zwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.583+02:00" modified="2020-01-21T15:52:31.39+01:00" filename="20_Der_zwanzigste_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="24_Der_vierundzwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:28.147+02:00" modified="2020-01-24T12:46:26.906+01:00" filename="24_Der_vierundzwanzigste_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="06_Der_sechste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.247+02:00" modified="2019-11-01T10:19:31.106+01:00" filename="06_Der_sechste_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="20_Der_zwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.583+02:00" modified="2020-01-24T12:44:03.643+01:00" filename="20_Der_zwanzigste_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="07_Der_siebte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.277+02:00" modified="2019-11-04T12:04:27.687+01:00" filename="07_Der_siebte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="06_Der_sechste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.247+02:00" modified="2020-01-24T12:05:51.25+01:00" filename="06_Der_sechste_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="08_Der_achte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.352+02:00" modified="2019-11-05T13:38:17.378+01:00" filename="08_Der_achte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="07_Der_siebte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.277+02:00" modified="2020-01-24T12:08:40.574+01:00" filename="07_Der_siebte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="09_Der_neunte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.399+02:00" modified="2019-11-01T10:19:31.646+01:00" filename="09_Der_neunte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="08_Der_achte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.352+02:00" modified="2020-01-24T12:32:10.783+01:00" filename="08_Der_achte_Alte.xml" mimetype="application/xml">
++        <acl entries="0" version="1"/>
++    </resource>
++    <resource type="XMLResource" name="09_Der_neunte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.399+02:00" modified="2020-01-24T12:32:07.213+01:00" filename="09_Der_neunte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="10_Der_zehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.46+02:00" modified="2020-01-21T15:26:07.425+01:00" filename="10_Der_zehnte_Alte.xml" mimetype="application/xml">
+@@ -27,16 +30,16 @@
+     <resource type="XMLResource" name="05_Der_fuenfte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.211+02:00" modified="2019-11-04T10:41:52.733+01:00" filename="05_Der_fuenfte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="02_Der_zweite_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.106+02:00" modified="2020-01-21T15:25:00.827+01:00" filename="02_Der_zweite_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="02_Der_zweite_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.106+02:00" modified="2020-01-24T11:45:48.115+01:00" filename="02_Der_zweite_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="03_Der_dritte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.134+02:00" modified="2019-12-09T13:05:11.658+01:00" filename="03_Der_dritte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="01_Der_erste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.052+02:00" modified="2019-10-29T10:27:18.138+01:00" filename="01_Der_erste_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="01_Der_erste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.052+02:00" modified="2020-01-24T12:05:51.074+01:00" filename="01_Der_erste_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="18_Der_achtzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.375+02:00" modified="2020-01-21T15:52:58.229+01:00" filename="18_Der_achtzehnte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="18_Der_achtzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.375+02:00" modified="2020-01-24T10:35:43.187+01:00" filename="18_Der_achtzehnte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Register.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:28.258+02:00" modified="2019-07-19T16:44:28.258+02:00" filename="Register.xml" mimetype="application/xml">
+@@ -54,31 +57,28 @@
+     <resource type="XMLResource" name="Dankbarkeit.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:28.212+02:00" modified="2019-07-19T16:44:28.212+02:00" filename="Dankbarkeit.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="17_Der_siebzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.268+02:00" modified="2019-11-01T11:39:38.749+01:00" filename="17_Der_siebzehnte_Alte.xml" mimetype="application/xml">
+-        <acl entries="0" version="1"/>
+-    </resource>
+-    <resource type="XMLResource" name="11_Der_elfte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.502+02:00" modified="2020-01-21T12:30:41.927+01:00" filename="11_Der_elfte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="17_Der_siebzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.268+02:00" modified="2020-01-24T12:36:02.672+01:00" filename="17_Der_siebzehnte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="21_Der_einundzwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.739+02:00" modified="2020-01-21T13:52:58.85+01:00" filename="21_Der_einundzwanzigste_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="11_Der_elfte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.502+02:00" modified="2020-01-24T12:32:03.367+01:00" filename="11_Der_elfte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="16_Der_sechzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.151+02:00" modified="2020-01-21T13:42:57.098+01:00" filename="16_Der_sechzehnte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="21_Der_einundzwanzigste_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.739+02:00" modified="2020-01-24T12:45:17.54+01:00" filename="21_Der_einundzwanzigste_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="12_Der_zw%C3%B6lfte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.611+02:00" modified="2020-01-21T15:53:11.032+01:00" filename="12_Der_zwölfte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="16_Der_sechzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.151+02:00" modified="2020-01-24T12:35:20.082+01:00" filename="16_Der_sechzehnte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="15_Der_f%C3%BCnfzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.051+02:00" modified="2019-11-01T12:29:44.178+01:00" filename="15_Der_fünfzehnte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="12_Der_zw%C3%B6lfte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.611+02:00" modified="2020-01-24T11:35:46.885+01:00" filename="12_Der_zwölfte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="04_Der_vierte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.172+02:00" modified="2020-01-21T12:32:52.123+01:00" filename="04_Der_vierte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="15_Der_f%C3%BCnfzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.051+02:00" modified="2020-01-24T12:35:22.742+01:00" filename="15_Der_fünfzehnte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="19_Der_neunzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.495+02:00" modified="2019-11-05T15:51:58.859+01:00" filename="19_Der_neunzehnte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="04_Der_vierte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.172+02:00" modified="2020-01-24T12:05:50.289+01:00" filename="04_Der_vierte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="14_Der_vierzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:26.951+02:00" modified="2020-01-21T14:33:05.244+01:00" filename="14_Der_vierzehnte_Alte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="19_Der_neunzehnte_Alte.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-07-19T16:44:27.495+02:00" modified="2020-01-24T12:36:41.327+01:00" filename="19_Der_neunzehnte_Alte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+ </collection>
+\ No newline at end of file
+diff --git a/ovp/data/Register/__contents__.xml b/home/gordon/merge122_102/db/projects/ovp/data/Register/__contents__.xml
+index ba372c6..e44c9a6 100644
+--- a/ovp/data/Register/__contents__.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Register/__contents__.xml
+@@ -6,13 +6,13 @@
+     <resource type="XMLResource" name="primaerquellen.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="770" created="2019-04-23T13:50:59.289+02:00" modified="2020-01-23T11:39:04.819+01:00" filename="primaerquellen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="glossar.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-15T10:37:35.35+02:00" modified="2020-01-23T15:01:37.709+01:00" filename="glossar.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="glossar.xml" skip="no" owner="test-user" group="ovp-nutzer" mode="660" created="2019-05-15T10:37:35.35+02:00" modified="2020-01-24T12:55:13.686+01:00" filename="glossar.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="Personen.xml" skip="no" owner="narndt" group="ovp-nutzer" mode="770" created="2018-07-24T08:28:17.112+02:00" modified="2019-12-02T12:16:25.41+01:00" filename="Personen.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+-    <resource type="XMLResource" name="Orte.xml" skip="no" owner="narndt" group="ovp-nutzer" mode="770" created="2018-07-24T08:28:30.632+02:00" modified="2019-05-29T14:46:02.36+02:00" filename="Orte.xml" mimetype="application/xml">
++    <resource type="XMLResource" name="Orte.xml" skip="no" owner="narndt" group="ovp-nutzer" mode="770" created="2018-07-24T08:28:30.632+02:00" modified="2020-02-05T14:40:30.041+01:00" filename="Orte.xml" mimetype="application/xml">
+         <acl entries="0" version="1"/>
+     </resource>
+     <resource type="XMLResource" name="MFL.xml" skip="no" owner="admin" group="ovp-nutzer" mode="770" created="2018-07-24T08:30:46.181+02:00" modified="2020-01-23T10:56:18.916+01:00" filename="MFL.xml" mimetype="application/xml">
+diff --git a/ovp/data/Register/glossar.xml b/home/gordon/merge122_102/db/projects/ovp/data/Register/glossar.xml
+index 7ff6250..0ff730b 100644
+--- a/ovp/data/Register/glossar.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/Register/glossar.xml
+@@ -626,6 +626,7 @@
+                     <sense>
+                         <def xml:lang="de">behalten, bewahren</def>
+                     </sense>
++                    <ref type="intern" target="#gloss_d1e721"/>
+                 </entry>
+                 <entry xml:id="gloss_d1e673" n="status:final">
+                     <form type="lemma">
+@@ -673,24 +674,22 @@
+                     <sense>
+                         <def xml:lang="de">Hülle, Decke, Deckmantel </def>
+                     </sense>
+-                    <note type="simple">Die Doppelform
+-                        '<?oxy_comment_start author="wegener" timestamp="20200121T143328+0100" comment="Dieser Eintrag müsste auch kursiv sein. 
+-Frage: Wie kann ich kursiven Text in &apos;normalen&apos; Text integrieren?"?>behenkunge
+-                        und verdakung<?oxy_comment_end?>' dient zur Übersetzung von lat. <foreign xml:lang="lat">velamen.</foreign></note>
++                    <note type="simple">Die Doppelform <foreign xml:lang="mhd"><foreign xml:lang="mhd">behenkunge und verdakung</foreign></foreign> dient
++                        zur Übersetzung von lat. <foreign xml:lang="Lat">velamen</foreign>.</note>
+                 </entry>
+-                <entry xml:id="gloss_d1e721" n="status:draft">
++                <entry xml:id="gloss_d1e721" n="status:final">
+                     <form type="lemma">
+-                        <?oxy_comment_start author="wegener" timestamp="20200121T144924+0100" comment="noch auf &apos;behaben&apos; verweisen (und umgekehrt)"?>
+                         <orth>beheben</orth>
+-                    </form><?oxy_comment_end?>
++                    </form>
+                     <gramGrp>
+                         <gram type="pos">v.</gram>
+                     </gramGrp>
+                     <sense>
+                         <def xml:lang="de">festhalten, (bei sich, für sich) behalten</def>
+                     </sense>
++                    <ref type="intern" target="#gloss_d1e660"/>
+                 </entry>
+-                <entry xml:id="gloss_d1e733" n="status:draft">
++                <entry xml:id="gloss_d1e733" n="status:final">
+                     <form type="lemma">
+                         <orth>beheren</orth>
+                     </form>
+@@ -701,7 +700,7 @@ Frage: Wie kann ich kursiven Text in &apos;normalen&apos; Text integrieren?"?>be
+                         <def xml:lang="de">sich stolz über etwas erheben</def>
+                     </sense>
+                 </entry>
+-                <entry xml:id="gloss_d1e746" n="status:draft">
++                <entry xml:id="gloss_d1e746" n="status:final">
+                     <form type="lemma">
+                         <orth>beholfenhait</orth>
+                     </form>
+@@ -709,11 +708,10 @@ Frage: Wie kann ich kursiven Text in &apos;normalen&apos; Text integrieren?"?>be
+                         <gram type="pos">stf.</gram>
+                     </gramGrp>
+                     <sense>
+-                        <def xml:lang="de">Hilfe? nur DWB 1, Sp 1342 mit lat. Interpretamenten
+-                            habilitas, moderatio</def>
++                        <def xml:lang="de">Unterstützung, Hilfeleistung</def>
+                     </sense>
+                 </entry>
+-                <entry xml:id="gloss_d1e758" n="status:draft">
++                <entry xml:id="gloss_d1e758" n="status:final">
+                     <form type="lemma">
+                         <orth>behuͦtlich</orth>
+                     </form>
+@@ -724,7 +722,7 @@ Frage: Wie kann ich kursiven Text in &apos;normalen&apos; Text integrieren?"?>be
+                         <def xml:lang="de">sorgfältig</def>
+                     </sense>
+                 </entry>
+-                <entry xml:id="gloss_d1e770" n="status:draft">
++                <entry xml:id="gloss_d1e770" n="status:final">
+                     <form type="lemma">
+                         <orth>behuͤtten</orth>
+                     </form>
+@@ -732,24 +730,23 @@ Frage: Wie kann ich kursiven Text in &apos;normalen&apos; Text integrieren?"?>be
+                         <gram type="pos">swv.</gram>
+                     </gramGrp>
+                     <sense>
+-                        <def xml:lang="de">jmd. sicher geleiten (MWB 1.5 mit Nachweis bei
+-                            Eckhart)</def>
++                        <def xml:lang="de">behüten, bewahren, sicher geleiten</def>
+                     </sense>
+                 </entry>
+-                <entry xml:id="gloss_d1e782" n="status:draft">
++                <entry xml:id="gloss_d1e782" n="status:final">
+                     <form type="lemma">
+                         <orth>bekennen</orth>
+                     </form>
+                     <gramGrp>
+-                        <gram type="pos">swv. subst.</gram>
++                        <gram type="pos">stn.</gram>
+                     </gramGrp>
+                     <sense>
+-                        <def xml:lang="de">Erkennen, Kennenlernen?</def>
++                        <def xml:lang="de">das Erkennen</def>
+                     </sense>
+                 </entry>
+-                <entry xml:id="gloss_d1e794" n="status:draft">
++                <entry xml:id="gloss_d1e794" n="status:final">
+                     <form type="lemma">
+-                        <orth>bekennunge</orth>
++                        <orth>bekenunge</orth>
+                     </form>
+                     <gramGrp>
+                         <gram type="pos">stf.</gram>
+@@ -758,7 +755,7 @@ Frage: Wie kann ich kursiven Text in &apos;normalen&apos; Text integrieren?"?>be
+                         <def xml:lang="de">Erkennen, Erkenntnis</def>
+                     </sense>
+                 </entry>
+-                <entry xml:id="gloss_d1e806" n="status:draft">
++                <entry xml:id="gloss_d1e806" n="status:final">
+                     <form type="lemma">
+                         <orth>bekerde</orth>
+                     </form>
+@@ -766,10 +763,10 @@ Frage: Wie kann ich kursiven Text in &apos;normalen&apos; Text integrieren?"?>be
+                         <gram type="pos">stf.</gram>
+                     </gramGrp>
+                     <sense>
+-                        <def xml:lang="de">Bekehrung</def>
++                        <def xml:lang="de">geistl. Umkehr, Bekehrung</def>
+                     </sense>
+                 </entry>
+-                <entry xml:id="gloss_d1e819" n="status:draft">
++                <entry xml:id="gloss_d1e819" n="status:final">
+                     <form type="lemma">
+                         <orth>bekorunge</orth>
+                     </form>
+@@ -777,7 +774,18 @@ Frage: Wie kann ich kursiven Text in &apos;normalen&apos; Text integrieren?"?>be
+                         <gram type="pos">stf.</gram>
+                     </gramGrp>
+                     <sense>
+-                        <def xml:lang="de">Versuchung</def>
++                        <def xml:lang="de">Prüfung; Versuchung, Anfechtung</def>
++                    </sense>
++                </entry>
++                <entry xml:id="gloss_jlm_g1k_mkb" n="status:final">
++                    <form type="lemma">
++                        <orth>bekorn</orth>
++                    </form>
++                    <gramGrp>
++                        <gram type="pos">swv.</gram>
++                    </gramGrp>
++                    <sense>
++                        <def xml:lang="de">prüfen; versuchen, anfechten</def>
+                     </sense>
+                 </entry>
+                 <entry xml:id="gloss_d1e831" n="status:draft">
+diff --git a/ovp/data/__contents__.xml b/home/gordon/merge122_102/db/projects/ovp/data/__contents__.xml
+index e5929ae..0b50dce 100644
+--- a/ovp/data/__contents__.xml
++++ b/home/gordon/merge122_102/db/projects/ovp/data/__contents__.xml
+@@ -2,7 +2,7 @@
+     <acl entries="0" version="1"/>
+     <subcollection name="Register" filename="Register"/>
+     <subcollection name="Tests_und_Beispiele" filename="Tests_und_Beispiele"/>
+-    <subcollection name="Handschriftenbeschreibungen" filename="Handschriftenbeschreibungen"/>
+-    <subcollection name="Kapitel" filename="Kapitel"/>
+     <subcollection name="Einleitungstexte" filename="Einleitungstexte"/>
++    <subcollection name="Kapitel" filename="Kapitel"/>
++    <subcollection name="Handschriftenbeschreibungen" filename="Handschriftenbeschreibungen"/>
+ </collection>
+\ No newline at end of file
